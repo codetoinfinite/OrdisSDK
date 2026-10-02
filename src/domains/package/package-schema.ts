@@ -1,0 +1,89 @@
+import { z } from "@hono/zod-openapi";
+import {
+  BaseResponseSchema,
+  MCPServerPackageConfigSchema,
+} from "../../shared/schemas/common-schema";
+
+export const packageNameQuerySchema = z.object({
+  packageName: z
+    .string()
+    .min(1)
+    .openapi({
+      param: { name: "packageName", in: "query" },
+      example: "@modelcontextprotocol/server-filesystem",
+      description: "Package name",
+    }),
+  sandboxProvider: z
+    .enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"])
+    .optional()
+    .openapi({
+      param: { name: "sandboxProvider", in: "query" },
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
+});
+
+export const toolsQuerySchema = packageNameQuerySchema.extend({
+  accessToken: z
+    .string()
+    .optional()
+    .openapi({
+      param: { name: "accessToken", in: "query" },
+      description:
+        "OAuth access token for MCP servers that require OAuth authentication. " +
+        "This token will be included in the Authorization header when calling the MCP server.",
+    }),
+});
+
+export const ToolExecuteSchema = z
+  .object({
+    packageName: z.string().openapi({ example: "@modelcontextprotocol/server-filesystem" }),
+    toolKey: z.string().openapi({ example: "read_file" }),
+    inputData: z.record(z.unknown()).openapi({ example: { path: "/tmp/test.txt" } }),
+    envs: z.record(z.string()).optional(),
+    sandboxProvider: z.enum(["LOCAL", "DAYTONA", "SANDOCK", "E2B"]).optional().openapi({
+      example: "LOCAL",
+      description: "Optional sandbox provider to override default (LOCAL, DAYTONA, SANDOCK, E2B)",
+    }),
+    accessToken: z
+      .string()
+      .optional()
+      .openapi({
+        description:
+          "OAuth access token for MCP servers that require OAuth authentication. " +
+          "This token will be included in the Authorization header when calling the MCP server.",
+      }),
+  })
+  .openapi("ToolExecute");
+
+const ToolDataSchema = z.object({
+  name: z.string(),
+  description: z.string().optional(),
+  inputSchema: z
+    .object({
+      type: z.string(),
+      properties: z.record(z.unknown()).optional(),
+      required: z.array(z.string()).optional(),
+    })
+    .optional(),
+});
+
+const PackageDetailDataSchema = MCPServerPackageConfigSchema.extend({
+  tools: z.array(ToolDataSchema).optional(),
+});
+
+export const PackageDetailResponseSchema = BaseResponseSchema.extend({
+  data: PackageDetailDataSchema.optional(),
+}).openapi("PackageDetailResponse");
+
+export const ToolsResponseSchema = BaseResponseSchema.extend({
+  data: z.array(ToolDataSchema).optional(),
+}).openapi("ToolsResponse");
+
+export const ExecuteToolResponseSchema = BaseResponseSchema.extend({
+  data: z.unknown().optional(),
+}).openapi("ExecuteToolResponse");
+
+export const PackagesListResponseSchema = BaseResponseSchema.extend({
+  data: z.record(z.unknown()).optional(),
+}).openapi("PackagesListResponse");

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "comfyui",
+  "packageName": "git+https://github.com/overseer66/comfyui-mcp-server@3e6152e57e2a383cd4d979fbac25755c5266c071",
+  "description": "Provides a bridge between AI systems and ComfyUI's image generation capabilities, enabling text-to-image creation with customizable parameters through WebSocket communication.",
+  "url": "https://github.com/overseer66/comfyui-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "ComfyUI MCP Server",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

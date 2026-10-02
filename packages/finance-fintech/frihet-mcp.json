@@ -1,0 +1,24 @@
+{
+  "type": "mcp-server",
+  "name": "Frihet",
+  "packageName": "@alphesdk-remote/frihet-mcp-server",
+  "description": "AI-native ERP MCP server with 157 tools for invoicing, expenses, clients, products, quotes, CRM, banking, and accounting, plus native Spanish/EU e-invoicing compliance (VeriFactu, TicketBAI, Facturae). 100+ integrations, progressive tool disclosure, idempotency-keyed mutations, and a remote OAuth 2.0 endpoint at mcp.frihet.io. MIT.",
+  "url": "https://github.com/Frihet-io/frihet-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "FRIHET_API_KEY": {
+      "description": "Frihet API key (starts with fri_). Get one at https://app.frihet.io/settings/api",
+      "required": true
+    }
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.frihet.io/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}

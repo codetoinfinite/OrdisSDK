@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "home-assistant",
+  "packageName": "hass-mcp",
+  "description": "Integrates with Home Assistant to enable natural language control of smart home devices, querying device states, troubleshooting automations, and summarizing home configurations through a Docker container that communicates with the Home Assistant API.",
+  "url": "https://github.com/voska/hass-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Hass MCP"
+}

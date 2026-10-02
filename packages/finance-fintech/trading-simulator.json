@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "trading-simulator",
+  "packageName": "github:recallnet/trading-simulator-mcp#f5e50c2598e504b60b96e80922e44d23e7a8b5f5",
+  "description": "Enables AI models to interact with a multi-chain trading simulator API for executing trades, checking balances, retrieving token prices, and monitoring portfolio performance across Solana and Ethereum blockchains.",
+  "url": "https://github.com/recallnet/trading-simulator-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Trading Simulator MCP"
+}

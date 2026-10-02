@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "uuid-generator",
+  "packageName": "git+https://github.com/conao3/python-mcp-uuid@425189fd975ca3239b3b3cd0558940fc0f055302",
+  "description": "Generates random UUID v4 strings on demand through a lightweight FastMCP server implementation.",
+  "url": "https://github.com/conao3/python-mcp-uuid",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Python MCP UUID",
+  "bin": "mcp-uuid",
+  "withPackages": ["mcp<2"]
+}

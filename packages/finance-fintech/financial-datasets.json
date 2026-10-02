@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "financial-datasets",
+  "packageName": "mcp-server",
+  "description": "Provides direct access to stock market data including income statements, balance sheets, cash flow statements, historical prices, and market news through a locally-run server that integrates with the Financial Datasets API.",
+  "url": "https://github.com/financial-datasets/mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Financial Datasets MCP Server",
+  "bin": "mcp-server",
+  "withPackages": ["mcp<2"]
+}

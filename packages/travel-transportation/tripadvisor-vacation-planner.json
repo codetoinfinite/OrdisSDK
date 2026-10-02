@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "tripadvisor-vacation-planner",
+  "packageName": "git+https://github.com/hhw67865/tripadvisor-mcp-server@b3b08e8824f873c7e7fcb12f387dd511eab0bdf0",
+  "description": "Integrates with TripAdvisor's API to enable vacation planning, destination exploration, and informed decision-making about accommodations and activities through location searches, nearby discovery, and interactive itinerary creation.",
+  "url": "https://github.com/hhw67865/tripadvisor-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "TripAdvisor MCP Server",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

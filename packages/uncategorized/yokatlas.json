@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "yokatlas",
+  "packageName": "git+https://github.com/saidsurucu/yokatlas-mcp@6f034eca77152b0e3eab9ad8ee0a48057eb8bcf5",
+  "description": "Provides direct access to Turkish university and program data through YokAtlas API integration for informed higher education application decisions.",
+  "url": "https://github.com/saidsurucu/yokatlas-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "YokAtlas MCP",
+  "bin": "yokatlas-mcp"
+}

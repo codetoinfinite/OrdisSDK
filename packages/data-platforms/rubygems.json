@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "rubygems",
+  "packageName": "github:6/mcp-server-rubygems#78b834edafbbd8a1e1e981aa260b88fb363b14e2",
+  "description": "Provides a TypeScript-based server for fetching and querying RubyGems metadata, enabling comprehensive exploration of gem information, version details, ownership, and dependency relationships through the RubyGems.org API.",
+  "url": "https://github.com/6/mcp-server-rubygems",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Server RubyGems"
+}

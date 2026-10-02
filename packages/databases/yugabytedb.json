@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "yugabytedb",
+  "packageName": "yugabytedb-mcp-server",
+  "description": "Enables read-only database exploration and analysis through secure query execution and schema summarization for YugabyteDB instances",
+  "url": "https://github.com/yugabyte/yugabytedb-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "YugabyteDB MCP Server"
+}

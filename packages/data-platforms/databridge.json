@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "databridge",
+  "packageName": "@morphik/mcp",
+  "description": "Integrates with DataBridge to enable ingestion and retrieval of contextual information from a local database, supporting persistent storage for AI applications.",
+  "url": "https://github.com/morphik-org/morphik-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Morphik MCP"
+}

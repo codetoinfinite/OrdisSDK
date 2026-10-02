@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "zen",
+  "packageName": "pal-mcp-server",
+  "description": "Give your development workflow access to all state of the art AI models for enhanced code analysis, problem-solving, and collaborative development.",
+  "url": "https://github.com/beehiveinnovations/zen-mcp-server",
+  "runtime": "python",
+  "license": "other",
+  "env": {},
+  "name": "Zen MCP Server"
+}

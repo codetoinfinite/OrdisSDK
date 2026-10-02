@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "aligo-sms",
+  "packageName": "github:hongsw/aligo-sms-mcp-server#a94c6429cf80c8c5a2cb62948d441a30f56ef683",
+  "description": "Integrates with the Aligo SMS API to enable direct text message sending through the platform, supporting both test and production modes for notifications and communication messages.",
+  "url": "https://github.com/hongsw/aligo-sms-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Aligo SMS MCP Server"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "agent",
+  "key": "problem-solver",
+  "name": "Problem Solver",
+  "description": "Breaks problems into steps and checks the arithmetic with a calculator.",
+  "category": "other-tools-and-integrations",
+  "tags": ["reasoning", "math"],
+  "author": "AlpheSDK",
+  "systemPrompt": "You solve problems step by step. Plan with the sequential thinking tool when a problem has several parts, do every calculation with the calculator tool, and finish with a short answer followed by the key steps.",
+  "servers": [
+    {
+      "server": "@modelcontextprotocol/server-sequential-thinking",
+      "tools": ["sequentialthinking"]
+    },
+    {
+      "server": "mcp-server-calculator",
+      "tools": ["calculate"]
+    }
+  ],
+  "starterPrompts": [
+    "A train leaves at 14:35 and travels 312 km at 96 km/h. When does it arrive?",
+    "What is 17% of 2,340, rounded to two decimals?"
+  ],
+  "maxSteps": 8
+}

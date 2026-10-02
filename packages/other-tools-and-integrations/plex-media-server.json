@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "plex-media-server",
+  "packageName": "plex-mcp-server",
+  "description": "Integrates with Plex media servers to enable browsing, searching, and managing media libraries, including content querying, metadata editing, poster management, and playback control.",
+  "url": "https://github.com/vladimir-tutin/plex-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Plex MCP Server"
+}

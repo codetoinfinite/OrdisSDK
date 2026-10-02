@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "openstreetmap",
+  "packageName": "git+https://github.com/wiseman/osm-mcp@c8b97666b4dd3fb59887059f5c7d779ad2a47d25",
+  "description": "Provides direct access to OpenStreetMap geospatial data through SQL queries, enabling location-based analysis and extraction of structured information about geographic features from the complete OSM dataset.",
+  "url": "https://github.com/wiseman/osm-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "OSM MCP",
+  "bin": "python",
+  "binArgs": ["-m", "mcp_osm"],
+  "withPackages": ["mcp<2"]
+}

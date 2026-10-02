@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "web-ux-evaluator",
+  "packageName": "git+https://github.com/operative-sh/web-eval-agent@4e1ad6e2c76a5c9463939f9508fede1f20e10f67",
+  "description": "Enables automated browser interactions for evaluating web application user experiences, capturing console logs and network requests to generate detailed usability reports and recommendations.",
+  "url": "https://github.com/operative-sh/web-eval-agent",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Web Eval Agent",
+  "bin": "webEvalAgent"
+}

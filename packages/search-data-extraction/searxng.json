@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "searxng",
+  "packageName": "github:tisddm/searxng-mcp#83584989fd3df63ee51a842ef1f4562d9c528dd9",
+  "description": "Connects AI systems to SearXNG metasearch engine, enabling privacy-respecting web searches with customizable parameters for language, time range, and category filtering.",
+  "url": "https://github.com/tisddm/searxng-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "SearXNG MCP"
+}

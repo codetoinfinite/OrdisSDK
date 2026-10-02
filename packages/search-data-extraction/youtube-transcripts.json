@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "youtube-transcripts",
+  "packageName": "mcp-youtube-transcript",
+  "description": "Integrates with YouTube's transcript API to retrieve and process captions from video URLs, enabling content analysis and information extraction from spoken video content.",
+  "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "YouTube Transcript MCP",
+  "bin": "mcp-youtube-transcript",
+  "withPackages": ["mcp<2"]
+}

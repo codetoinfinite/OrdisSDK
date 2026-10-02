@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "azure-resource-manager",
+  "packageName": "git+https://github.com/tim10002/mcp-azresource@2ed5076d5529c59a681c8b7da0e433ee4765476d",
+  "description": "Integrates with Azure cloud services to enable resource listing, management, and cost analysis through service principal authentication and the Azure Cost Management API",
+  "url": "https://github.com/tim10002/mcp-azresource",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Azure Resource Manager",
+  "bin": "python",
+  "binArgs": ["-m", "python.azure_resource_mcp_server"]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "kubesphere",
+  "packageName": "kubesphere.io/ks-mcp-server/cmd",
+  "description": "Integrates with KubeSphere APIs to enable management of Kubernetes clusters, workspaces, users, and extensions through natural language commands without navigating the web console.",
+  "url": "https://github.com/kubesphere/ks-mcp-server",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "KS MCP Server",
+  "packageVersion": "f8b1ca8542be86445e3fc5b3278fb6b0c7c1a1cd",
+  "binArgs": ["stdio"]
+}

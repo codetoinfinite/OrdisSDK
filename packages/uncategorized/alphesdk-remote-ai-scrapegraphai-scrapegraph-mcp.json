@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "packageName": "@alphesdk-remote/ai-smithery-scrapegraphai-scrapegraph-mcp",
+  "description": "Enable language models to perform advanced AI-powered web scraping with enterprise-grade reliabili…",
+  "url": "https://github.com/ScrapeGraphAI/scrapegraph-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.smithery.ai/@ScrapeGraphAI/scrapegraph-mcp/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}

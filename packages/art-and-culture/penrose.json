@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "penrose",
+  "packageName": "github:bmorphism/penrose-mcp#815d2eb9b49d64d62d897a452250c6eba9643642",
+  "description": "Integrates with Penrose's domain-specific languages to generate mathematical diagrams from natural language inputs.",
+  "url": "https://github.com/bmorphism/penrose-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Penrose MCP"
+}

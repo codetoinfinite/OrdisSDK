@@ -1,0 +1,23 @@
+{
+  "type": "mcp-server",
+  "packageName": "atlassian-browser-mcp",
+  "description": "Browser-backed MCP wrapper for mcp-atlassian with Playwright SSO auth. Enables AI tools to access Atlassian Server/Data Center instances behind corporate SSO where API tokens are not available.",
+  "url": "https://github.com/GeiserX/atlassian-browser-mcp",
+  "runtime": "python",
+  "license": "gpl-3.0",
+  "env": {
+    "JIRA_URL": {
+      "description": "Jira base URL",
+      "required": true
+    },
+    "CONFLUENCE_URL": {
+      "description": "Confluence base URL",
+      "required": true
+    },
+    "ATLASSIAN_USERNAME": {
+      "description": "Optional username to prefill on SSO page",
+      "required": false
+    }
+  },
+  "name": "Atlassian Browser MCP"
+}

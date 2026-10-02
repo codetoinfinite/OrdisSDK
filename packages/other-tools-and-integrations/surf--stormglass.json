@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "surf-(stormglass)",
+  "packageName": "git+https://github.com/ravinahp/surf-mcp@83649906e1dcab2e8ff8e0872188ff9ffc0b25a2",
+  "description": "For people who surf waves and the web. Unlocks wave analysis, forecasting, and custom surf applications.",
+  "url": "https://github.com/ravinahp/surf-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Surf MCP",
+  "bin": "surf-mcp",
+  "withPackages": ["mcp<2"]
+}

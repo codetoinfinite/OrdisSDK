@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "anti-bs",
+  "packageName": "github:bmorphism/anti-bullshit-mcp-server#89f5454ba55a66ca32dca5454aaca34b42508f3d",
+  "description": "Integrates multiple epistemological frameworks to analyze claims, validate sources, and detect manipulation for enhanced fact-checking and critical thinking.",
+  "url": "https://github.com/bmorphism/anti-bullshit-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Anti Bullshit MCP Server"
+}

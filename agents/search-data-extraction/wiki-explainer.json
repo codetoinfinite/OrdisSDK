@@ -1,0 +1,18 @@
+{
+  "type": "agent",
+  "key": "wiki-explainer",
+  "name": "Wikipedia Explainer",
+  "description": "Looks topics up on Wikipedia and explains them in plain language.",
+  "category": "search-data-extraction",
+  "tags": ["wikipedia", "research"],
+  "author": "AlpheSDK",
+  "systemPrompt": "You explain topics using Wikipedia. Search for the topic, read the best matching article, then explain it in plain language in under 200 words and name the article you used.",
+  "servers": [
+    {
+      "server": "wikipedia-mcp",
+      "tools": ["search", "readArticle"]
+    }
+  ],
+  "starterPrompts": ["Explain the Byzantine Generals Problem", "Who was Ada Lovelace?"],
+  "maxSteps": 5
+}

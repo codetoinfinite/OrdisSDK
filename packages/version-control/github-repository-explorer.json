@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "github-repository-explorer",
+  "packageName": "git+https://github.com/puravparab/gitingest-mcp@c3b630a07304fb02e98eec12d38640a8c024a4ed",
+  "description": "Extracts and provides GitHub repository information including summaries, directory structures, and file contents for seamless code analysis and reference during conversations.",
+  "url": "https://github.com/puravparab/gitingest-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Gitingest MCP",
+  "bin": "gitingest-mcp",
+  "withPackages": ["mcp<2"]
+}

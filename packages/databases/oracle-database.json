@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "oracle-database",
+  "packageName": "mcp-server-oracle",
+  "description": "Provides secure, read-only access to Oracle databases through Python's oracledb library, enabling database schema exploration and SQL query execution without direct credential exposure.",
+  "url": "https://github.com/hdcola/mcp-server-oracle",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Oracle MCP Server",
+  "bin": "mcp-server-oracle",
+  "withPackages": ["mcp<2"]
+}

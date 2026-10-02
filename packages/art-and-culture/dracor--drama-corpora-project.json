@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "dracor-(drama-corpora-project)",
+  "packageName": "git+https://github.com/stijn-meijers/dracor-mcp@f37ab92c5524598034ff0eb1898b9605f7dde7d8",
+  "description": "Integrates with the Drama Corpora Project API to enable analysis of dramatic texts, character networks, and literary themes across different languages and historical periods.",
+  "url": "https://github.com/stijn-meijers/dracor-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Dracor MCP",
+  "bin": "python",
+  "binArgs": ["-m", "dracor_mcp_fastmcp"],
+  "withPackages": ["mcp<2"]
+}

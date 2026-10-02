@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "mcp-inception",
+  "packageName": "github:tanevanwifferen/mcp-inception#607ff04c9fe9b5c56488f1df14d95768e1cf9e6c",
+  "description": "Enables MCP clients communicating with other MCP clients through this MCP server.",
+  "url": "https://github.com/tanevanwifferen/mcp-inception",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "MCP Inception"
+}

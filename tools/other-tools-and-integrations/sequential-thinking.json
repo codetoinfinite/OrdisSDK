@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "sequential-thinking",
+  "name": "Sequential thinking",
+  "description": "Work through a problem step by step, revising earlier thoughts when needed.",
+  "category": "other-tools-and-integrations",
+  "tags": ["reasoning"],
+  "mcp": {
+    "server": "@modelcontextprotocol/server-sequential-thinking",
+    "tool": "sequentialthinking"
+  }
+}

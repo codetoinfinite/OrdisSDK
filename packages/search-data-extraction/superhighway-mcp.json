@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "packageName": "superhighway-mcp",
+  "description": "MCP server providing live web search, news search, and page scraping, paid per call with USDC through x402.",
+  "url": "https://github.com/patwalls/superhighway-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "AGENT_PRIVATE_KEY": {
+      "description": "Private key for a low-balance wallet funded with USDC on the selected Base network",
+      "required": true,
+      "secret": true
+    },
+    "X402_NETWORK": {
+      "description": "x402 payment network",
+      "required": false,
+      "default": "base"
+    }
+  },
+  "name": "Superhighway Web Search MCP"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "mozisu-character-counter",
+  "packageName": "github.com/Atotti/mozisu-mcp-server",
+  "description": "Provides accurate character counting for text with special handling for multi-byte characters like Japanese text and emojis, returning both total and non-whitespace counts",
+  "url": "https://github.com/atotti/mozisu-mcp-server",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Mozisu MCP Server",
+  "packageVersion": "7e646534d7e1e38e5df5956b7e97ae15a8de8f68"
+}

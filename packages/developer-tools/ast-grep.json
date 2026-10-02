@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "ast-grep",
+  "packageName": "git+https://github.com/ast-grep/ast-grep-mcp@149e20d47bb7125fb0c1451feea2f48a98742034",
+  "description": "Bridges to the ast-grep code search tool for finding code patterns in projects using abstract syntax tree matching, enabling efficient code analysis and refactoring tasks.",
+  "url": "https://github.com/ast-grep/ast-grep-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Ast Grep MCP",
+  "bin": "ast-grep-server"
+}

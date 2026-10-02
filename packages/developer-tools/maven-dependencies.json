@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "maven-dependencies",
+  "packageName": "mcp-maven-deps",
+  "description": "Integrates with Maven Central Repository to verify and retrieve dependency versions for automated project management and updates.",
+  "url": "https://github.com/bigsy/maven-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Maven MCP Server"
+}

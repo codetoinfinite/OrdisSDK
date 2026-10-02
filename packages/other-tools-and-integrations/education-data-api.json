@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "education-data-api",
+  "packageName": "github:ckz/edu_data_mcp_server#a3eb7e8f2e70f827b30a50d0db76a6961e61328d",
+  "description": "Provides direct access to the Urban Institute's Education Data API for retrieving and analyzing educational statistics across schools, districts, and universities without requiring specialized API knowledge.",
+  "url": "https://github.com/ckz/edu_data_mcp_server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Edu Data MCP Server"
+}

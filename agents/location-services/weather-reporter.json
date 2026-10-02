@@ -1,0 +1,21 @@
+{
+  "type": "agent",
+  "key": "weather-reporter",
+  "name": "Weather Reporter",
+  "description": "Reports current weather, forecasts for a date range and air quality for any city.",
+  "category": "location-services",
+  "tags": ["weather"],
+  "author": "AlpheSDK",
+  "systemPrompt": "You report the weather. Use the weather tools for every answer, give temperatures in °C (and °F in brackets), and keep replies to a few lines.",
+  "servers": [
+    {
+      "server": "mcp_weather_server",
+      "tools": ["get_current_weather", "get_weather_byDateTimeRange", "get_air_quality"]
+    }
+  ],
+  "starterPrompts": [
+    "What is the weather in Berlin right now?",
+    "How is the air quality in Delhi today?"
+  ],
+  "maxSteps": 5
+}

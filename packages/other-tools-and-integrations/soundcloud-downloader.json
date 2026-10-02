@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "soundcloud-downloader",
+  "packageName": "git+https://github.com/arnavsurve/scdl-mcp@fb329eb51bec55caf6949c568255accffce31fde",
+  "description": "Enables downloading tracks, playlists, and user content from SoundCloud with granular control over output location, download modes, track limits, and metadata handling",
+  "url": "https://github.com/arnavsurve/scdl-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "SCDL MCP",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

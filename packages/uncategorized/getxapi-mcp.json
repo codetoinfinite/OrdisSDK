@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "name": "GetXAPI MCP",
+  "packageName": "@getxapi/mcp",
+  "packageVersion": "0.1.1",
+  "bin": "getxapi-mcp",
+  "description": "X/Twitter MCP server with tools for tweet search, user profile lookup, follower lists, and tweet-by-id retrieval.",
+  "url": "https://github.com/getxapi/getxapi-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "author": "GetXAPI",
+  "env": {
+    "GETXAPI_KEY": {
+      "description": "GetXAPI API key from https://www.getxapi.com",
+      "required": true
+    }
+  }
+}

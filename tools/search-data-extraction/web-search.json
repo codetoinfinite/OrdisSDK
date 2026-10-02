@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "web-search",
+  "name": "Web search",
+  "description": "Search the web with DuckDuckGo and return titles, links and snippets.",
+  "category": "search-data-extraction",
+  "tags": ["web", "search"],
+  "mcp": {
+    "server": "duckduckgo-search",
+    "tool": "duckduckgo_web_search"
+  }
+}

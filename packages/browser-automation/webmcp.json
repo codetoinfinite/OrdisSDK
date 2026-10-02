@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "webmcp",
+  "packageName": "@jason.today/webmcp",
+  "description": "Turn any website into an MCP server with customizable tools.",
+  "url": "https://github.com/jasonjmcghee/webmcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "WebMCP"
+}

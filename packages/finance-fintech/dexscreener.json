@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "dexscreener",
+  "packageName": "github:opensvm/dexscreener-mcp-server#4d24cbf156ff015ccbf5ac6bba554a523ac6335b",
+  "description": "Integrates with decentralized exchanges across multiple blockchains to provide real-time crypto market data, focusing on Solana memecoin markets.",
+  "url": "https://github.com/opensvm/dexscreener-mcp-server",
+  "runtime": "node",
+  "license": "unlicense",
+  "env": {},
+  "name": "DexScreener MCP Server"
+}

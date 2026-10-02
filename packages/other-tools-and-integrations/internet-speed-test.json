@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "internet-speed-test",
+  "packageName": "mcp-internet-speed-test",
+  "description": "Measures network performance metrics including download speed, upload speed, latency, and jitter through configurable test endpoints that adapt to different testing scenarios and environments.",
+  "url": "https://github.com/inventer-dev/mcp-internet-speed-test",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Internet Speed Test MCP",
+  "bin": "mcp-internet-speed-test",
+  "withPackages": ["mcp<2"]
+}

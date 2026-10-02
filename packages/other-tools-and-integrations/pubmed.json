@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "pubmed",
+  "packageName": "mcp-server-pubmed",
+  "description": "Provides a bridge to PubMed for searching, filtering, retrieving, and analyzing medical research articles with tools for keyword searches, metadata access, PDF downloads, and structured paper analysis.",
+  "url": "https://github.com/jackkuo666/pubmed-mcp-server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "PubMed MCP Server",
+  "bin": "pubmed_mcp_server",
+  "withPackages": ["mcp<2"]
+}

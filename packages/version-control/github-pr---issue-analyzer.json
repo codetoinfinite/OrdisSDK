@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "github-pr-&-issue-analyzer",
+  "packageName": "git+https://github.com/saidsef/mcp-github-pr-issue-analyser@a91930dac9fa8a429705c34835f9443b8128ac7c",
+  "description": "Integrates with GitHub's API to automate pull request analysis, issue management, and repository operations directly from desktop language models.",
+  "url": "https://github.com/saidsef/mcp-github-pr-issue-analyser",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "GitHub PR & Issue Analyzer MCP",
+  "bin": "mcp-github-pr-issue-analyser"
+}

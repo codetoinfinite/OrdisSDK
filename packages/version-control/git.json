@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "git",
+  "packageName": "git-mcp-server",
+  "description": "Integrates with Git repositories to enable version control operations, code management, and collaborative development workflows",
+  "url": "https://github.com/sheshiyer/git-mcp-v2",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Git MCP V2"
+}

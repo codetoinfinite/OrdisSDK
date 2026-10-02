@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "academic-paper-search",
+  "packageName": "academic-search",
+  "description": "Integrates with academic APIs to enable searching, retrieving, and filtering scholarly papers across multiple sources for research and analysis tasks.",
+  "url": "https://github.com/afrise/academic-search-mcp-server",
+  "runtime": "python",
+  "license": "agpl-3.0",
+  "env": {},
+  "name": "Academic Search MCP Server"
+}

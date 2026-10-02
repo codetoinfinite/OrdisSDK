@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "local-dev",
+  "packageName": "git+https://github.com/txbm/mcp-local-dev@4e38ffab593ec52b5056659925dd37a44392ba06",
+  "description": "Creates sandboxed local dev environments directly from GitHub; run tests, report coverage and more.",
+  "url": "https://github.com/txbm/mcp-local-dev",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Local Dev",
+  "bin": "mcp-local-dev"
+}

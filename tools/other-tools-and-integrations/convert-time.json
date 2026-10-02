@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "convert-time",
+  "name": "Convert time",
+  "description": "Convert a time between two IANA time zones.",
+  "category": "other-tools-and-integrations",
+  "tags": ["time"],
+  "mcp": {
+    "server": "mcp-server-time",
+    "tool": "convert_time"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "pytorch-hud",
+  "packageName": "git+https://github.com/izaitsevfb/claude-pytorch-treehugger@6b50691f5b8d1fe2afa349db9923bd33071f9e12",
+  "description": "Provides a PyTorch CI/CD analytics API for investigating build failures, analyzing test flakiness, and monitoring performance trends across the PyTorch infrastructure.",
+  "url": "https://github.com/izaitsevfb/claude-pytorch-treehugger",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Claude PyTorch Treehugger",
+  "bin": "pytorch-hud"
+}

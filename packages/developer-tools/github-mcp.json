@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "github-mcp",
+  "description": "A powerful GitHub automation tool that seamlessly connects AI assistants to your GitHub repositories",
+  "url": "https://github.com/Seey215/github-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Local Remote GitHub MCP Server"
+}

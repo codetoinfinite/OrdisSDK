@@ -1,0 +1,18 @@
+{
+  "type": "agent",
+  "key": "everything-tester",
+  "name": "Everything Tester",
+  "description": "Checks that agent chat works end to end with the reference Everything server: echoes text and adds numbers.",
+  "category": "other-tools-and-integrations",
+  "tags": ["testing", "demo"],
+  "author": "AlpheSDK",
+  "systemPrompt": "You test the AlpheSDK agent runner. Use the echo tool to repeat text and the add tool for sums; always call a tool rather than answering from memory, then state the result in one short sentence.",
+  "servers": [
+    {
+      "server": "@modelcontextprotocol/server-everything",
+      "tools": ["echo", "add"]
+    }
+  ],
+  "starterPrompts": ["Add 2 and 3", "Echo \"hello from AlpheSDK\""],
+  "maxSteps": 4
+}

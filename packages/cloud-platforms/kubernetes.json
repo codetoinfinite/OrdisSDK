@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "kubernetes",
+  "packageName": "github:taichiho/k8s-interactive-mcp#3bfa9bb102847fe5ff9b994785d5209c5f5dcbe2",
+  "description": "Integrates with Kubernetes to enable natural language-based cluster management and command execution for streamlined DevOps workflows.",
+  "url": "https://github.com/taichiho/k8s-interactive-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Kubernetes Interactive MCP"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "protobuf-formatter",
+  "packageName": "github.com/emicklei/protofmt-mcp",
+  "description": "Formats Protocol Buffer (.proto) files with consistent indentation and standardized conventions for cleaner, more maintainable code",
+  "url": "https://github.com/emicklei/protofmt-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Protofmt MCP",
+  "packageVersion": "f68f5ec429c29ed2bee8ab022b81ec7c694d2517"
+}

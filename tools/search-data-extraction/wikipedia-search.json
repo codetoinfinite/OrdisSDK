@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "wikipedia-search",
+  "name": "Search Wikipedia",
+  "description": "Find Wikipedia articles that match a query.",
+  "category": "search-data-extraction",
+  "tags": ["wikipedia", "research"],
+  "mcp": {
+    "server": "wikipedia-mcp",
+    "tool": "search"
+  }
+}

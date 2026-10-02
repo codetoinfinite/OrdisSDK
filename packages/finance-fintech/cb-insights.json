@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "cb-insights",
+  "packageName": "git+https://github.com/cbinsights/cbi-mcp-server@778e1acb6a749852a82b101b99a701d9c9c1ce68",
+  "description": "Integrates with CB Insights' ChatCBI platform to provide direct access to market intelligence, company research, funding data, acquisitions, partnerships, and competitive analysis through conversational queries.",
+  "url": "https://github.com/cbinsights/cbi-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "CB Insights MCP Server",
+  "bin": "python",
+  "binArgs": ["-m", "server"]
+}

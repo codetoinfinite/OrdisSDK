@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "mem0-for-project-management",
+  "packageName": "mem0-mcp-for-pm",
+  "description": "Bridge to the mem0 cloud service, providing memory capabilities.",
+  "url": "https://github.com/kunihiros/mem0-mcp-for-pm",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Mem0 MCP for Project Management"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "osv-database-api",
+  "packageName": "git+https://github.com/edenyavin/osv-mcp@ea55e51dce5a7929b1a0d0912b4c45b59b8f6704",
+  "description": "Integrates with the OSV Database API to query for security vulnerabilities in software packages, retrieve CVE information, and identify affected and fixed versions.",
+  "url": "https://github.com/edenyavin/osv-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "OSV MCP",
+  "bin": "osv-server",
+  "withPackages": ["mcp<2"]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "slidespeak",
+  "packageName": "git+https://github.com/slidespeak/slidespeak-mcp@6668ead6a671451cf876daa4913feb956a11c94c",
+  "description": "Generate presentations using the SlideSpeak API.",
+  "url": "https://github.com/slidespeak/slidespeak-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "SlideSpeak MCP",
+  "bin": "python",
+  "binArgs": ["-m", "slidespeak"],
+  "withPackages": ["mcp<2"]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "twitter-timeline",
+  "packageName": "git+https://github.com/vaibhavgeek/twitter-rapidapi-mcp-x@709363e4b95a92b04fc169848347f0f607fc3edf",
+  "description": "Fetches tweets from multiple Twitter profiles using the Twitter API through RapidAPI, enabling direct access to timeline data for social media analysis workflows.",
+  "url": "https://github.com/vaibhavgeek/twitter-rapidapi-mcp-x",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Twitter Timeline MCP",
+  "bin": "python",
+  "binArgs": ["-m", "main"],
+  "withPackages": ["mcp<2"]
+}

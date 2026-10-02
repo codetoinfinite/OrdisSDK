@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "secure-shell-executor",
+  "packageName": "mcp-shell-server",
+  "description": "Provides a secure way to execute shell commands with robust validation, whitelisting, and timeout handling through an asyncio-powered Python implementation.",
+  "url": "https://github.com/diegofornalha/mcp-shell-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Shell MCP Server"
+}

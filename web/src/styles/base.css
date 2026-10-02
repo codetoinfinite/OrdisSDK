@@ -1,0 +1,369 @@
+/* Reset, typography and desktop wallpapers. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  isolation: isolate;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+figure,
+blockquote,
+pre {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+::selection {
+  background: var(--marker);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Scrollbars that match the warm palette. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+/* Wallpapers. The pattern sits on a fixed layer behind the desktop. */
+.wallpaper {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--bg);
+}
+
+/* The alpine valley (shell/Scenery.tsx) only shows with its own wallpaper. */
+.scenery {
+  display: none;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+:root[data-wallpaper="alpine"] .scenery {
+  display: block;
+}
+
+.sc-sky-1 {
+  stop-color: var(--sc-sky-1);
+}
+.sc-sky-2 {
+  stop-color: var(--sc-sky-2);
+}
+.sc-sky-3 {
+  stop-color: var(--sc-sky-3);
+}
+.sc-far-1 {
+  stop-color: var(--sc-far-1);
+}
+.sc-far-2 {
+  stop-color: var(--sc-far-2);
+}
+.sc-glow-1 {
+  stop-color: var(--sc-glow);
+}
+.sc-glow-0 {
+  stop-color: var(--sc-glow);
+  stop-opacity: 0;
+}
+.sc-haze-1 {
+  stop-color: var(--sc-haze);
+}
+.sc-haze-0 {
+  stop-color: var(--sc-haze);
+  stop-opacity: 0;
+}
+.sc-lamp-1 {
+  stop-color: var(--sc-lamp);
+}
+.sc-lamp-0 {
+  stop-color: var(--sc-lamp);
+  stop-opacity: 0;
+}
+.sc-stars {
+  fill: var(--sc-star);
+}
+.sc-sun {
+  fill: var(--sc-sun);
+}
+.sc-craters {
+  fill: var(--sc-crater);
+}
+.sc-clouds {
+  fill: var(--sc-cloud);
+}
+.sc-snow {
+  fill: var(--sc-snow);
+}
+.sc-shade {
+  fill: var(--sc-shade);
+}
+.sc-mid {
+  fill: var(--sc-mid);
+}
+.sc-near {
+  fill: var(--sc-near);
+}
+.sc-tree-far {
+  fill: var(--sc-tree-far);
+}
+.sc-fore {
+  fill: var(--sc-fore);
+}
+.sc-tree {
+  fill: var(--sc-tree);
+}
+.sc-trail {
+  fill: none;
+  stroke: var(--sc-trail);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 0.5 10;
+}
+.sc-tent {
+  fill: var(--sc-tent);
+}
+.sc-tent-side {
+  fill: var(--sc-tent-side);
+}
+.sc-door {
+  fill: var(--sc-door);
+}
+.sc-pole {
+  stroke: var(--sc-pole);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+.sc-flag {
+  fill: var(--sc-flag);
+}
+
+:root[data-wallpaper="glow"] .wallpaper {
+  background-image:
+    radial-gradient(60rem 40rem at 12% 110%, var(--wall-a), transparent 60%),
+    radial-gradient(50rem 36rem at 95% -10%, var(--wall-b), transparent 60%),
+    radial-gradient(40rem 30rem at 70% 80%, var(--wall-c), transparent 65%);
+}
+
+:root[data-wallpaper="dots"] .wallpaper {
+  background-image: radial-gradient(var(--wall-line) 1.2px, transparent 1.3px);
+  background-size: 18px 18px;
+}
+
+:root[data-wallpaper="grid"] .wallpaper {
+  background-image:
+    linear-gradient(var(--wall-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--wall-line) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Text accents: highlighter strokes and dotted links. The stroke is heavier where the pen lands
+   and its ends are uneven, like a real highlighter. */
+.marker,
+.marker-blue {
+  --ink: var(--marker);
+  margin: 0 -0.08em;
+  padding: 0 0.16em;
+  border-radius: 0.7em 0.25em 0.6em 0.3em;
+  background: linear-gradient(
+    100deg,
+    color-mix(in srgb, var(--ink) 55%, transparent),
+    var(--ink) 6%,
+    color-mix(in srgb, var(--ink) 80%, transparent) 70%,
+    color-mix(in srgb, var(--ink) 60%, transparent)
+  );
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.marker-blue {
+  --ink: var(--marker-blue);
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  cursor: pointer;
+  transition: color var(--dur) var(--ease);
+}
+
+.link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: calc(200px + 100%) 0;
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-wallpaper="alpine">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="AlpheSDK: find, test, connect and run MCP servers, tools and agents from one workspace."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>AlpheSDK</title>
+    <script>
+      // Apply saved appearance before first paint. Keep in sync with src/lib/settings.ts.
+      (function () {
+        var s = {};
+        try {
+          s = JSON.parse(localStorage.getItem("alphesdk:appearance") || "{}") || {};
+        } catch (e) {}
+        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = s.theme === "light" || s.theme === "dark" ? s.theme : dark ? "dark" : "light";
+        var root = document.documentElement;
+        root.setAttribute("data-theme", theme);
+        root.setAttribute("data-wallpaper", s.wallpaper || "alpine");
+        if (s.reducedMotion) root.setAttribute("data-motion", "reduce");
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

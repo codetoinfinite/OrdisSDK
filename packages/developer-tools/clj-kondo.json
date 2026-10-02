@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "clj-kondo",
+  "packageName": "clj-kondo-mcp",
+  "description": "Provides Clojure, ClojureScript, and EDN linting capabilities using the clj-kondo static analyzer to identify code quality issues including unused namespaces and private variables.",
+  "url": "https://github.com/bigsy/clj-kondo-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Clj Kondo MCP"
+}

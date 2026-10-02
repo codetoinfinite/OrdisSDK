@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "software-documentation-analysis",
+  "packageName": "github:sunwood-ai-labs/documind-mcp-server#db0c6b8db91d8be2431734e79e3096c350252c23",
+  "description": "Parses through README documentation/project files on your local filesystem to guide development workflows.",
+  "url": "https://github.com/sunwood-ai-labs/documind-mcp-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Documind MCP Server"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "serena",
+  "packageName": "serena-agent",
+  "description": "Provides intelligent code analysis and manipulation across multiple programming languages through language server protocols, enabling developers to explore, understand, and refactor complex codebases.",
+  "url": "https://github.com/oraios/serena",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Serena"
+}

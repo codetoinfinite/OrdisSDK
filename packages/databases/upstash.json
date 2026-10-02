@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "upstash",
+  "packageName": "@upstash/mcp-server",
+  "description": "Integrates with Upstash's Developer APIs to enable natural language management of Redis databases.",
+  "url": "https://github.com/upstash/mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Upstash MCP Server"
+}

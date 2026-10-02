@@ -1,0 +1,36 @@
+name: Pull Request Check
+
+env:
+  GITHUB_BUILD_NUMBER: ${{ github.run_number }}
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches:
+      - main
+    paths:
+      - 'packages/**/*.json'
+
+jobs:
+  test:
+    name: Package Schema Check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Test registry validator
+        run: node --test scripts/lib/registry-validator.node-test.mjs
+
+      - name: Validate changed package JSON files
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node scripts/validate-registry.mjs --base "$BASE_SHA" --format github

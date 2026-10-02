@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "shell-command-executor",
+  "packageName": "github.com/sonirico/mcp-shell",
+  "description": "Provides a secure interface for executing controlled shell commands with comprehensive security features including allowlists, pattern-based blocking, timeouts, and output limits defined in YAML configuration.",
+  "url": "https://github.com/sonirico/mcp-shell",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "Shell MCP",
+  "packageVersion": "b358b02bcad8509353dacdeb39762801433fea42"
+}

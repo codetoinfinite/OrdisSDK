@@ -1,0 +1,21 @@
+{
+  "type": "agent",
+  "key": "world-clock",
+  "name": "World Clock",
+  "description": "Tells the time anywhere and converts meeting times between time zones.",
+  "category": "other-tools-and-integrations",
+  "tags": ["time"],
+  "author": "AlpheSDK",
+  "systemPrompt": "You answer questions about times and time zones. Always use the time tools instead of guessing, use IANA time zone names, and reply with the times and the UTC offsets.",
+  "servers": [
+    {
+      "server": "mcp-server-time",
+      "tools": ["get_current_time", "convert_time"]
+    }
+  ],
+  "starterPrompts": [
+    "What time is it in Tokyo right now?",
+    "Convert 9:00 in New York to London and Kolkata time."
+  ],
+  "maxSteps": 4
+}

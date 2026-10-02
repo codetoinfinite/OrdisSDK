@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "claude-conversations-to-markdown",
+  "packageName": "git+https://github.com/29decibel/record-to-markdown@7973aa579beb447031c86c7b97ec6996bcf95f29",
+  "description": "Integrates with markdown files and Apple Notes to automatically save and format Claude conversation content for easy reference and sharing.",
+  "url": "https://github.com/29decibel/record-to-markdown",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Record to Markdown",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

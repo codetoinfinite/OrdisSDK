@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "zendesk-support",
+  "packageName": "zd-mcp-server",
+  "description": "Integrates with Zendesk to enable ticket retrieval, creation, updating, and searching directly from conversation interfaces for streamlined customer support workflows.",
+  "url": "https://github.com/koundinya/zd-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Zendesk MCP Server"
+}

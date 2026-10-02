@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "cloudera-ai-agent-studio",
+  "packageName": "git+https://github.com/jasonmeverett/cloudera-ai-agent-studio-mcp@266f8489a4b694e655432a7c75d109188a52afd5",
+  "description": "Provides a bridge between Cloudera AI Agent Studio and external tools, enabling automated creation and management of multi-agent workflows with hierarchical structures through the Agent Studio API.",
+  "url": "https://github.com/jasonmeverett/cloudera-ai-agent-studio-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Cloudera AI Agent Studio MCP",
+  "bin": "python",
+  "binArgs": ["-m", "serve"],
+  "withPackages": ["mcp<2"]
+}

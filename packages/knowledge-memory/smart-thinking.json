@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "smart-thinking",
+  "packageName": "smart-thinking-mcp",
+  "description": "Enables intelligent decision-making through semantic embeddings and thought graphs with built-in verification states and memory-based reasoning capabilities",
+  "url": "https://github.com/leghis/smart-thinking",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Smart Thinking MCP"
+}

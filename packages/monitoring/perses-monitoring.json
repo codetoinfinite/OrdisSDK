@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "perses-monitoring",
+  "packageName": "github.com/perses/mcp-server/cmd/permcp",
+  "description": "Enables AI to query and analyze monitoring data from Perses visualization applications through authenticated API calls for accessing projects, dashboards, variables, and datasources.",
+  "url": "https://github.com/perses/mcp-server",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Perses MCP Server",
+  "packageVersion": "9c1200b2dc4d97f4855a19aba7612228da856858"
+}

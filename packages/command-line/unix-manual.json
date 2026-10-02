@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "unix-manual",
+  "packageName": "git+https://github.com/tizee/mcp-unix-manual@79b511aeda80a8fe766731974cebfe03dfecafa2",
+  "description": "Provides Unix command documentation, including help pages, man pages, and usage information, enabling retrieval and exploration of system commands within conversations.",
+  "url": "https://github.com/tizee/mcp-unix-manual",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Unix Manual MCP",
+  "bin": "mcp-unix-manual",
+  "withPackages": ["mcp<2"]
+}

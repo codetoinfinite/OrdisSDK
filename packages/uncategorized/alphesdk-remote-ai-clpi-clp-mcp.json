@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "packageName": "@alphesdk-remote/ai-smithery-clpi-clp-mcp",
+  "description": "Manage simple context workflows with quick init and add actions. Access the 'Hello, World' origin…",
+  "url": "https://github.com/clpi/clp-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.smithery.ai/@clpi/clp-mcp/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}

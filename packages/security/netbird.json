@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "netbird",
+  "packageName": "github.com/aantti/mcp-netbird/cmd/mcp-netbird",
+  "description": "Integrates with Netbird's API to enable virtual private network management including peer listing, group configuration, and access policy control",
+  "url": "https://github.com/aantti/mcp-netbird",
+  "runtime": "go",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Netbird MCP",
+  "packageVersion": "01a91f0a57aded5c1925fec0a71f6896734d6fc3"
+}

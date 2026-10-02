@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "browserbase",
+  "packageName": "@browserbasehq/mcp",
+  "description": "Automate web browsers remotely on a cloud environment.",
+  "url": "https://github.com/browserbase/mcp-server-browserbase",
+  "runtime": "node",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "MCP Server BrowserBase"
+}

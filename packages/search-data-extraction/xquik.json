@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "packageName": "@alphesdk-remote/xquik",
+  "name": "Xquik X/Twitter Data Platform",
+  "description": "X (Twitter) data platform for tweet search, profile tweets, follower export, media download, posting, DMs, webhooks, 100+ REST endpoints, 23 extraction types, and MCP tools.",
+  "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {
+    "XQUIK_API_KEY": {
+      "description": "Xquik API key from https://dashboard.xquik.com/en/account",
+      "required": true
+    }
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xquik.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "mcp-server",
+  "packageName": "space-frontiers-search",
+  "description": "Machine Library, the search and AI product by Space Frontiers, provides citable retrieval across papers, books, patents, Wikipedia, and public discussions.",
+  "url": "https://github.com/spacefrontiers/mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Machine Library by Space Frontiers"
+}

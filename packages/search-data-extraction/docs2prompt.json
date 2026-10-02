@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "docs2prompt",
+  "packageName": "git+https://github.com/melbourneandrew/docs2prompt-mcp@682e2c6cca3a7b796c42d9ac03aa7099284b475f",
+  "description": "Converts documentation from GitHub repositories or websites into LLM-friendly prompts through tools for fetching from repos and URLs with GitHub authentication and response size management.",
+  "url": "https://github.com/melbourneandrew/docs2prompt-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Docs2Prompt MCP",
+  "bin": "python",
+  "binArgs": ["-m", "main"],
+  "withPackages": ["mcp<2"]
+}

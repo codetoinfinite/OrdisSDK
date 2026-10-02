@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "current-weather",
+  "name": "Current weather",
+  "description": "Get the current weather for a city.",
+  "category": "location-services",
+  "tags": ["weather"],
+  "mcp": {
+    "server": "mcp_weather_server",
+    "tool": "get_current_weather"
+  }
+}

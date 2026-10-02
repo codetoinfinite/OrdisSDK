@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "elasticsearch-7.x",
+  "packageName": "git+https://github.com/imlewc/elasticsearch7-mcp-server@84a1423c9b3f4db7f11ddc5a6ab55c512180afd3",
+  "description": "Integrates with Elasticsearch 7.x, providing efficient data management and search capabilities for projects requiring robust analytics within the ecosystem.",
+  "url": "https://github.com/imlewc/elasticsearch7-mcp-server",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Elasticsearch 7 MCP Server",
+  "bin": "elasticsearch7-mcp-server"
+}

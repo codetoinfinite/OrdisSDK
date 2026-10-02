@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "zplanner-(project-management)",
+  "packageName": "mcp-server-zplanner",
+  "description": "Enables creation and management of hierarchical project plans with task tracking, progress calculation, and visual reporting through a file-based storage system.",
+  "url": "https://github.com/jotjunior/mcp-server-zplanner",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "ZPlanner MCP Server"
+}

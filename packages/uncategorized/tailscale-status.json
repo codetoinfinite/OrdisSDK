@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "tailscale-status",
+  "packageName": "git+https://github.com/mrnugget/tailscale-mcp@356d2e77e0c798035ccc910aee6a99455aa8b9c0",
+  "description": "Enables querying Tailscale status by parsing CLI output on macOS, providing structured data about connected devices and network information.",
+  "url": "https://github.com/mrnugget/tailscale-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Tailscale MCP",
+  "bin": "python",
+  "binArgs": ["-m", "tailscale"],
+  "withPackages": ["mcp<2"]
+}

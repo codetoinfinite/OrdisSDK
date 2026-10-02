@@ -1,0 +1,203 @@
+/* Design tokens (docs/ALPHESDK-PLAN.md §3.1). data-theme is always resolved to light or dark by
+   the pre-paint script in index.html and by lib/settings.ts. */
+
+:root {
+  color-scheme: light;
+
+  --bg: #f3f2ea;
+  --surface: #fdfdf8;
+  --surface-2: #eeefe9;
+  --surface-3: #e5e7e0;
+  /* Frosted glass for the menu bar and windows; the wallpaper shows through softly. */
+  --window: rgba(245, 245, 238, 0.8);
+  --window-rim: rgba(35, 37, 29, 0.16);
+  --window-sheen: rgba(255, 255, 255, 0.75);
+  --border: #bfc1b7;
+  --border-soft: #d7d9d0;
+  --text: #23251d;
+  --muted: #676960;
+  --accent: #e8590c;
+  --cta: #f6a019;
+  --cta-edge: #c97a00;
+  --cta-text: #23251d;
+  --edge: #a9aba1;
+  --marker: rgba(246, 160, 25, 0.28);
+  --marker-blue: rgba(47, 128, 250, 0.2);
+  --overlay: rgba(35, 37, 29, 0.32);
+
+  --blue: #2f80fa;
+  --green: #1f9160;
+  --purple: #b62ad9;
+  --teal: #13958d;
+  --red: #d93f44;
+  --yellow: #c98a00;
+  --orange: #e8590c;
+  /* How much a tone is darkened under white text (solid tabs). */
+  --tone-deepen: 84%;
+
+  --code-bg: #1b1c21;
+  --code-head: #25262c;
+  --code-text: #e7e7e1;
+  --code-muted: #8a8c93;
+  --code-key: #f6b04a;
+  --code-string: #8fd19e;
+  --code-number: #f59e6b;
+  --code-keyword: #d7a0f2;
+  --code-flag: #7cb8ff;
+
+  --wall-a: rgba(246, 160, 25, 0.22);
+  --wall-b: rgba(47, 128, 250, 0.14);
+  --wall-c: rgba(182, 42, 217, 0.08);
+  --wall-line: rgba(35, 37, 29, 0.07);
+
+  --shadow-sm: 0 1px 2px rgba(35, 37, 29, 0.08);
+  --shadow-md: 0 10px 30px -14px rgba(24, 34, 44, 0.32), 0 2px 6px rgba(24, 34, 44, 0.06);
+  --shadow-window: 0 28px 70px -20px rgba(24, 34, 44, 0.5), 0 4px 14px -4px rgba(24, 34, 44, 0.16);
+
+  --radius-window: 14px;
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --font-sans:
+    "IBM Plex Sans Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --menubar-h: 46px;
+  --menubar-inset: 8px;
+  --desk-top: calc(var(--menubar-h) + var(--menubar-inset) * 2);
+
+  --dur: 160ms;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Alpine wallpaper (shell/Scenery.tsx): a clear afternoon. */
+  --sc-sky-1: #4d86ad;
+  --sc-sky-2: #93bccc;
+  --sc-sky-3: #eed9b0;
+  --sc-glow: rgba(255, 236, 190, 0.6);
+  --sc-sun: #fff3d1;
+  --sc-crater: transparent;
+  --sc-cloud: rgba(255, 255, 255, 0.62);
+  --sc-star: transparent;
+  --sc-far-1: #a6a6cc;
+  --sc-far-2: #8288b2;
+  --sc-snow: #f4f2ea;
+  --sc-shade: rgba(52, 58, 112, 0.2);
+  --sc-haze: rgba(232, 226, 212, 0.6);
+  --sc-mid: #7d9aa6;
+  --sc-near: #4f7a6c;
+  --sc-tree-far: #3f6a5d;
+  --sc-fore: #2f5a4c;
+  --sc-tree: #22433a;
+  --sc-trail: rgba(246, 236, 210, 0.8);
+  --sc-tent: #f6a019;
+  --sc-tent-side: #d9870c;
+  --sc-door: #5a3a0a;
+  --sc-lamp: transparent;
+  --sc-pole: #2b2a24;
+  --sc-flag: #e8590c;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #16171b;
+  --surface: #1e1f24;
+  --surface-2: #25262c;
+  --surface-3: #2d2e36;
+  --window: rgba(22, 24, 33, 0.8);
+  --window-rim: rgba(255, 255, 255, 0.1);
+  --window-sheen: rgba(255, 255, 255, 0.07);
+  --border: #3f414b;
+  --border-soft: #33353d;
+  --text: #edede7;
+  --muted: #9a9ca3;
+  --accent: #ff7a33;
+  --edge: #0c0d10;
+  --marker: rgba(246, 160, 25, 0.3);
+  --marker-blue: rgba(96, 160, 255, 0.28);
+  --overlay: rgba(0, 0, 0, 0.5);
+
+  --blue: #6aa6ff;
+  --green: #4cc98f;
+  --purple: #d46ef0;
+  --teal: #3ccfc4;
+  --red: #ff6b6f;
+  --yellow: #f6b73c;
+  --orange: #ff8a4c;
+  --tone-deepen: 70%;
+
+  --code-bg: #121317;
+  --code-head: #1b1c21;
+
+  --wall-a: rgba(246, 160, 25, 0.12);
+  --wall-b: rgba(96, 160, 255, 0.1);
+  --wall-c: rgba(212, 110, 240, 0.07);
+  --wall-line: rgba(237, 237, 231, 0.06);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+  --shadow-window: 0 28px 70px -18px rgba(0, 0, 0, 0.75), 0 4px 14px -4px rgba(0, 0, 0, 0.4);
+
+  /* The same valley at night: moon, stars and a lit tent. */
+  --sc-sky-1: #0b1020;
+  --sc-sky-2: #18203a;
+  --sc-sky-3: #2a3150;
+  --sc-glow: rgba(241, 233, 210, 0.2);
+  --sc-sun: #efe7cf;
+  --sc-crater: rgba(170, 160, 130, 0.35);
+  --sc-cloud: rgba(150, 160, 200, 0.1);
+  --sc-star: rgba(233, 230, 255, 0.85);
+  --sc-far-1: #343b5e;
+  --sc-far-2: #262c48;
+  --sc-snow: #9aa0bc;
+  --sc-shade: rgba(5, 8, 20, 0.35);
+  --sc-haze: rgba(20, 26, 48, 0.6);
+  --sc-mid: #1f2640;
+  --sc-near: #182033;
+  --sc-tree-far: #141b2c;
+  --sc-fore: #111726;
+  --sc-tree: #0b0f1a;
+  --sc-trail: rgba(255, 210, 140, 0.25);
+  --sc-tent: #c47a12;
+  --sc-tent-side: #8f560a;
+  --sc-door: #ffd27a;
+  --sc-lamp: rgba(255, 190, 90, 0.35);
+  --sc-pole: #6b6f80;
+  --sc-flag: #c4501a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+  }
+}
+
+:root[data-motion="reduce"] {
+  --dur: 0ms;
+}
+
+/* Colour tones used by categories, tabs, badges and desktop icons. */
+.tone-blue {
+  --tone: var(--blue);
+}
+.tone-green {
+  --tone: var(--green);
+}
+.tone-purple {
+  --tone: var(--purple);
+}
+.tone-teal {
+  --tone: var(--teal);
+}
+.tone-red {
+  --tone: var(--red);
+}
+.tone-yellow {
+  --tone: var(--yellow);
+}
+.tone-orange {
+  --tone: var(--orange);
+}
+.tone-muted {
+  --tone: var(--muted);
+}

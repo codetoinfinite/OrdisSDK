@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "wolframalpha-llm",
+  "packageName": "github:garoth/wolframalpha-llm-mcp#7383d19c2d62edcfe37801247c5d8fb8b43233c4",
+  "description": "Integrates with WolframAlpha's LLM API to enable complex mathematical and scientific queries, offering tools for asking questions and getting simplified answers.",
+  "url": "https://github.com/garoth/wolframalpha-llm-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "WolframAlpha LLM MCP"
+}

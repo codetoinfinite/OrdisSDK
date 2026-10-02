@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "temporal-workflows",
+  "packageName": "github.com/mocksi/temporal-mcp/cmd/temporal-mcp",
+  "description": "Exposes Temporal workflows as tools for AI assistants, enabling organizations to leverage existing workflow infrastructure without custom integration code.",
+  "url": "https://github.com/mocksi/temporal-mcp",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Temporal MCP",
+  "packageVersion": "2b52d3a85cf26981b82e2bbe548fd8f8069aa27b"
+}

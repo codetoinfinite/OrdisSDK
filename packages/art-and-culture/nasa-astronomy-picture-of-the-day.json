@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "nasa-astronomy-picture-of-the-day",
+  "packageName": "nasa-apod-mcp",
+  "description": "Integrates with NASA's Astronomy Picture of the Day API to retrieve daily space images and descriptions directly within the Cursor IDE development environment.",
+  "url": "https://github.com/liuwanglei-tal/nasa-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "NASA MCP"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "simple-file-vector-store",
+  "packageName": "@lishenxydlgzs/simple-files-vectorstore",
+  "description": "Provides semantic search capabilities for local files and directories using vector embeddings and efficient storage techniques.",
+  "url": "https://github.com/lishenxydlgzs/simple-files-vectorstore",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Simple Files Vectorstore"
+}

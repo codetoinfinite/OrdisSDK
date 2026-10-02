@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "unity-ai-bridge",
+  "packageName": "unity-mcp",
+  "description": "Bridge between Unity game environments and AI systems for executing C# code, querying game objects, and performing asynchronous operations like automated testing and scene analysis.",
+  "url": "https://github.com/tsavo/unity-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Unity MCP"
+}

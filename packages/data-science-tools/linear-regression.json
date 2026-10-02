@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "linear-regression",
+  "packageName": "git+https://github.com/heetvekariya/linear-regression-mcp@5726a91f0a6e3c5c943688bbf1db17882c4a62f4",
+  "description": "Train linear regression models.",
+  "url": "https://github.com/heetvekariya/linear-regression-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Linear Regression MCP",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "bloom-growth",
+  "packageName": "git+https://github.com/franccesco/bloomy-mcp@1a2cdbc890ba6aadcb0cc3401fe5c64d3a42b9bd",
+  "description": "Integrates with Bloom Growth's GraphQL API to enable interaction with growth management and analytics tools for AI-assisted workflows.",
+  "url": "https://github.com/franccesco/bloomy-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Bloomy MCP",
+  "bin": "bloomy-server",
+  "withPackages": ["mcp<2"]
+}

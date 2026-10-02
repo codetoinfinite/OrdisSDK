@@ -1,0 +1,28 @@
+name: Deploy alphesdk-registry
+
+env:
+  GITHUB_BUILD_NUMBER: ${{ github.run_number }}
+
+on:
+  workflow_dispatch:
+
+# Using concurrency to cancel previous runs
+concurrency:
+  group: '${{ github.workflow }}@${{  github.head_ref || github.ref }}' # Grouping all runs by deploy
+  cancel-in-progress: false # This cancels in-starting job within the same group
+
+jobs:
+  deploy-alphesdk:
+    name: Build and push docker (alphesdk-registry)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Docker (alphesdk-registry)
+        uses: ./.github/actions/build-push-docker
+        with:
+          dockerfile: Dockerfile
+          image: alphesdk-registry
+          username: ${{ github.actor }}
+          password: ${{ secrets.CR_PAT }}

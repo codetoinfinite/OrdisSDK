@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "pokemon-tcg-card-search",
+  "packageName": "ptcg-mcp",
+  "description": "Enables searching and displaying Pokemon Trading Card Game cards with rich filtering capabilities for name, type, legality, and more through the Pokemon TCG API.",
+  "url": "https://github.com/jlgrimes/ptcg-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "PTCG MCP"
+}

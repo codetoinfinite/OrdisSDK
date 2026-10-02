@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "rowik-(personal-mediawiki)",
+  "packageName": "git+https://github.com/roshan/rowik-mcp@30f920f139b4b79e0aa484fff6febb1defa0dc58",
+  "description": "Integrates with a personal MediaWiki instance to enable searching, retrieving, and manipulating wiki content for enhanced knowledge management and research workflows.",
+  "url": "https://github.com/roshan/rowik-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Rowik MCP",
+  "bin": "python",
+  "binArgs": ["-m", "main"],
+  "withPackages": ["mcp<2"]
+}

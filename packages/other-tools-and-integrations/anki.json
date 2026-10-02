@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "anki",
+  "packageName": "github:scorzeth/anki-mcp-server#9078e84aeef5832f32dd282d55f745c464beb9a6",
+  "description": "Integrates with Anki to enable AI-driven flashcard creation, retrieval, and review processes for enhanced spaced repetition learning.",
+  "url": "https://github.com/scorzeth/anki-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Anki MCP Server"
+}

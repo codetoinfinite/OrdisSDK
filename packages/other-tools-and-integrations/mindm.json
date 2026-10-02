@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "mindm",
+  "packageName": "mindm_mcp",
+  "description": "MindManager integration for automation on Windows + macOS",
+  "url": "https://github.com/robertzaufall/mindm-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "MindM MCP",
+  "bin": "mindm-mcp",
+  "withPackages": ["mcp<2"]
+}

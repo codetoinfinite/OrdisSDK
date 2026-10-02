@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "beeminder",
+  "packageName": "mcp-beeminder",
+  "description": "Integrates with the Beeminder API to enable retrieval and analysis of personal productivity goals and progress data.",
+  "url": "https://github.com/strickvl/mcp-beeminder",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Beeminder MCP"
+}

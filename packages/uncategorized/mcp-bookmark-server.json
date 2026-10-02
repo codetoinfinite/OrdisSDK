@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "packageName": "mcp-bookmark-server",
+  "description": "MCP Server for adding bookmarks in openai RAG",
+  "url": "https://github.com/pree-dew/mcp-bookmark",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "open ai api key",
+      "required": true
+    }
+  },
+  "bin": "mcp-bookmark-server",
+  "withPackages": ["mcp<2"]
+}

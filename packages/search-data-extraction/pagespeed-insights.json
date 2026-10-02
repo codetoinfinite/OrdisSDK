@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "pagespeed-insights",
+  "packageName": "mcp-server-pagespeed",
+  "description": "Integrates with Google PageSpeed Insights to analyze webpage performance and provide optimization recommendations for improved loading speed and user experience",
+  "url": "https://github.com/enemyrr/mcp-server-pagespeed",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "PageSpeed Insights MCP"
+}

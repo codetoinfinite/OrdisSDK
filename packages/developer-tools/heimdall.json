@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "heimdall",
+  "packageName": "@shinzolabs/heimdall",
+  "description": "Manage your agent tools and MCP server configs with ease.",
+  "url": "https://github.com/shinzo-labs/heimdall",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Heimdall MCP Server"
+}

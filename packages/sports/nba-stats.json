@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "nba-stats",
+  "packageName": "git+https://github.com/taidgh-robinson/nba-mcp-server@89f055e0f1e7ef1b1152b7f9fd8b01e54aa77035",
+  "description": "Provides real-time NBA game data including scores, player statistics, and play-by-play information through the nba_api package for accessing current basketball information not in Claude's training data.",
+  "url": "https://github.com/taidgh-robinson/nba-mcp-server",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "NBA MCP Server",
+  "bin": "python",
+  "binArgs": ["-m", "nba"],
+  "withPackages": ["mcp<2"]
+}

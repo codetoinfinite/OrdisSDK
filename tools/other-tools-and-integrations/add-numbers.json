@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "add-numbers",
+  "name": "Add two numbers",
+  "description": "Add two numbers and return the sum.",
+  "category": "other-tools-and-integrations",
+  "tags": ["math", "testing"],
+  "mcp": {
+    "server": "@modelcontextprotocol/server-everything",
+    "tool": "add"
+  }
+}

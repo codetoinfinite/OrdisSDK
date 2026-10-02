@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "current-time",
+  "name": "Current time",
+  "description": "Get the current time in any IANA time zone.",
+  "category": "other-tools-and-integrations",
+  "tags": ["time"],
+  "mcp": {
+    "server": "mcp-server-time",
+    "tool": "get_current_time"
+  }
+}

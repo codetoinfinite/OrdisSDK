@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "a2a-bridge",
+  "packageName": "github:tesla0225/mcp-a2a#6700a28664344c87f1f587b949f99c4b1dd4d47e",
+  "description": "Bridges LLMs with Agent-to-Agent protocol-compatible agents, enabling delegation of complex tasks to specialized external agents without requiring direct protocol implementation",
+  "url": "https://github.com/tesla0225/mcp-a2a",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "A2A Bridge"
+}

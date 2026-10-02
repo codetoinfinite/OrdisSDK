@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Helium MCP",
+  "packageName": "@alphesdk-remote/helium-mcp",
+  "description": "Real-time news with bias scoring across 5,000+ sources (15+ dimensions), AI-powered options pricing, balanced news synthesis, live market data, and meme search. 9 tools. 50 free queries, no signup needed.",
+  "url": "https://github.com/connerlambden/helium-mcp",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://heliumtrades.com/mcp"
+    }
+  ]
+}

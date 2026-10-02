@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "unconventional-thinking",
+  "packageName": "github:stagsz/unconventional-thinking#499aaf9783a5b6e974fe6270ca9cc9875772f138",
+  "description": "Integrates unconventional ideation techniques to facilitate structured brainstorming and creative problem-solving sessions.",
+  "url": "https://github.com/stagsz/unconventional-thinking",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Unconventional Thinking MCP"
+}

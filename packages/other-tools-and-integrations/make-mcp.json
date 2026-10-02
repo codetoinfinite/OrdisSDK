@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "make-mcp",
+  "packageName": "git+https://github.com/rorymb/make_mcp@ba2b60ea8f5ab8791570f2161d654ee2be105e55",
+  "description": "Simplifies the creation of custom MCP servers through natural language requests, providing documentation on implementation structure, components, and best practices without requiring technical expertise.",
+  "url": "https://github.com/rorymb/make_mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "Make MCP",
+  "bin": "make_mcp",
+  "withPackages": ["mcp<2"]
+}

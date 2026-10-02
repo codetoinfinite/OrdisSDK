@@ -1,0 +1,46 @@
+*.log
+node_modules
+logs
+*.log
+dist
+.requests/
+demo/
+
+# Local secrets (only .env.example is committed)
+.env
+.env.*
+!.env.example
+
+# Vercel build output (scripts/vercel-build.mjs)
+.vercel
+
+# MCP Client Test
+terminal-security.json
+terminal-tool.json
+docs-config.json
+.clinerules-*
+doc/docs/*
+sqlite_mcp_server.db
+gorev.db
+mcp-all/
+python-mcp/.magg/
+python-mcp/.SourceSageAssets/
+python-mcp/.SourceSageignore
+python-mcp/yfinance.cache
+python-mcp/claude_playground/
+
+# Python Virtual Environment
+.venv/
+uv.lock
+main.py
+
+meilisearch
+*.pid
+data.ms/
+
+e2b-template/node/package.json
+e2b-template/node/pnpm-lock.yaml
+e2b-template/python/uv.lock
+e2b-template/python/pyproject.toml
+
+/scripts/official-registry/output/

@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "puppeteer-linux",
+  "packageName": "mcp-puppeteer-linux",
+  "description": "Enables browser automation on Linux systems for web interactions, screenshots, and JavaScript execution using Puppeteer",
+  "url": "https://github.com/phialsbasement/mcp-puppeteer-linux",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Puppeteer MCP Linux"
+}

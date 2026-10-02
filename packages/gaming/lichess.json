@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "lichess",
+  "packageName": "lichess-mcp",
+  "description": "Integrates with the Lichess chess platform to enable natural language-driven gameplay, analysis, and tournament participation through its API.",
+  "url": "https://github.com/karayaman/lichess-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Lichess MCP"
+}

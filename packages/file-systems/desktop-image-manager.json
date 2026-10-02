@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "desktop-image-manager",
+  "packageName": "@jzone-mcp/desktop-image-manager-mcp",
+  "description": "Provides tools for managing and manipulating local desktop images with capabilities for file counting, filename retrieval, and image compression using the Sharp library",
+  "url": "https://github.com/zhixiaoqiang/desktop-image-manager-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Desktop Image Manager MCP"
+}

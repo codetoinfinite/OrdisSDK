@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "nexonco-(civic-precision-oncology)",
+  "packageName": "nexonco-mcp",
+  "description": "Connects to the CIViC GraphQL API for precision oncology research, enabling flexible searches across diseases, therapies, molecular profiles, and phenotypes with detailed evidence reports and literature citations.",
+  "url": "https://github.com/nexgene-research/nexonco-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Nexonco MCP",
+  "bin": "nexonco"
+}

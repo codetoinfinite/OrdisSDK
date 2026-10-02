@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "pdf-to-markdown-converter",
+  "packageName": "git+https://github.com/futureunreal/mcp-pdf2md@8a5945d3ff9fd451b91914fb70b8bb12421031d9",
+  "description": "Converts PDF documents to Markdown format while preserving document structure, enabling content migration and making PDF content more accessible and editable.",
+  "url": "https://github.com/futureunreal/mcp-pdf2md",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "PDF2MD MCP",
+  "bin": "pdf2md",
+  "withPackages": ["mcp<2"]
+}

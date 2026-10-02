@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "azure-data-explorer-(kusto)",
+  "packageName": "github.com/abhirockzz/mcp_kusto",
+  "description": "Integrates with Azure Data Explorer to enable listing databases, retrieving table schemas, and executing KQL queries for data analysis and exploration.",
+  "url": "https://github.com/abhirockzz/mcp_kusto",
+  "runtime": "go",
+  "license": "unknown",
+  "env": {},
+  "name": "Kusto MCP",
+  "packageVersion": "152573c7455895978bba389d5e6e6c6480944034"
+}

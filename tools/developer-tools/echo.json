@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "echo",
+  "name": "Echo",
+  "description": "Send a message and get it back unchanged; handy for testing a connection.",
+  "category": "developer-tools",
+  "tags": ["testing"],
+  "mcp": {
+    "server": "@modelcontextprotocol/server-everything",
+    "tool": "echo"
+  }
+}

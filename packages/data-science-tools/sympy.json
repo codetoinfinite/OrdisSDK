@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "sympy",
+  "packageName": "git+https://github.com/sdiehl/sympy-mcp@646c69558b622ab0e2814c58aa82143e56b76c33",
+  "description": "Provides a stateful symbolic mathematics engine for precise algebraic operations, calculus, vector analysis, tensor calculations, and differential equation solving without hallucinations.",
+  "url": "https://github.com/sdiehl/sympy-mcp",
+  "runtime": "python",
+  "license": "apache-2.0",
+  "env": {},
+  "name": "Sympy MCP",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

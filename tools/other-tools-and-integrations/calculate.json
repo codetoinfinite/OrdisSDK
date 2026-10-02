@@ -1,0 +1,12 @@
+{
+  "type": "tool",
+  "key": "calculate",
+  "name": "Calculate",
+  "description": "Evaluate a math expression and return the result.",
+  "category": "other-tools-and-integrations",
+  "tags": ["math"],
+  "mcp": {
+    "server": "mcp-server-calculator",
+    "tool": "calculate"
+  }
+}

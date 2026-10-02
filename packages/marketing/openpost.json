@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "OpenPost",
+  "packageName": "@alphesdk-remote/openpost",
+  "description": "Open-source social publishing and scheduling with an authenticated MCP server for preparing destination-specific content, reusing media, validating, scheduling, publishing, and inspecting delivery status.",
+  "url": "https://github.com/getopenpost/openpost",
+  "readme": "https://docs.openpo.st/mcp/",
+  "runtime": "docker",
+  "license": "AGPL-3.0-only",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.openpo.st/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}

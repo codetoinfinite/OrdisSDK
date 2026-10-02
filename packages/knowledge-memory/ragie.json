@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "ragie",
+  "packageName": "@ragieai/mcp-server",
+  "description": "Integrates with Ragie's knowledge base retrieval system to enable efficient querying and information extraction from large-scale datasets.",
+  "url": "https://github.com/ragieai/ragie-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Ragie MCP Server"
+}

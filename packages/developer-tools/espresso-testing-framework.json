@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "espresso-testing-framework",
+  "packageName": "espresso-mcp",
+  "description": "Integrates with Espresso testing framework to enable automated Android application testing through test execution, result analysis, and mobile UI interaction capabilities.",
+  "url": "https://github.com/vs4vijay/espresso-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Espresso MCP",
+  "bin": "espresso-mcp",
+  "withPackages": ["mcp<2"]
+}

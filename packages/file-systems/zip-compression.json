@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "zip-compression",
+  "packageName": "zip-mcp",
+  "description": "Enables direct file compression and decompression operations using ZIP format through fastMCP and zip.js utilities for efficient file handling within conversations.",
+  "url": "https://github.com/7gugu/zip-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Zip MCP"
+}

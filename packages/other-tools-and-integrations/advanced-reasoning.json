@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "advanced-reasoning",
+  "packageName": "github:azdeltaqq/mcp-reasoning-server#7131e73aeeeeee4b72ac11d3667d11d874284d54",
+  "description": "Provides advanced reasoning capabilities through simulated algorithms including Monte Carlo Tree Search, Beam Search, and Hybrid Reasoning, delivering structured JSON responses with complete reasoning traces for complex problem-solving in software development.",
+  "url": "https://github.com/azdeltaqq/mcp-reasoning-server",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "Reasoning MCP Server"
+}

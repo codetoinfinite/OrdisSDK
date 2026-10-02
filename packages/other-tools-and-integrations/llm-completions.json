@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "llm-completions",
+  "packageName": "@pyroprompts/any-chat-completions-mcp",
+  "description": "Connect to OpenAI-compatible chat completion APIs.",
+  "url": "https://github.com/pyroprompts/any-chat-completions-mcp",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "Any Chat Completions MCP"
+}

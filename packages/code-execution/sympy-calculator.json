@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "sympy-calculator",
+  "packageName": "git+https://github.com/611711dark/mcp_calculate_server@9dee7f04f6da57c39a2b1fca9ca2cd566dbdbc3c",
+  "description": "Provides symbolic mathematics capabilities through a Python-based server that leverages SymPy for complex calculations, equation solving, and mathematical manipulation.",
+  "url": "https://github.com/611711dark/mcp_calculate_server",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "SymPy Calculator MCP Server",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

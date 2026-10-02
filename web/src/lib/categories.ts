@@ -1,0 +1,73 @@
+import type { LucideIcon } from "lucide-react";
+import {
+  Activity,
+  Bot,
+  BrainCircuit,
+  ChartColumn,
+  Cloud,
+  Coins,
+  Cpu,
+  Database,
+  FolderOpen,
+  Gamepad2,
+  GitBranch,
+  Globe,
+  HardDrive,
+  Languages,
+  Layers,
+  LifeBuoy,
+  MapPin,
+  Megaphone,
+  MessagesSquare,
+  Palette,
+  Plane,
+  Puzzle,
+  ScanSearch,
+  Shapes,
+  ShieldCheck,
+  SquareTerminal,
+  Terminal,
+  Trophy,
+  Users,
+  Wrench,
+} from "lucide-react";
+
+export type Tone = "blue" | "green" | "purple" | "teal" | "red" | "yellow" | "orange";
+
+/** Category keys from config/categories.mjs, in their canonical order. */
+const ICONS: Record<string, LucideIcon> = {
+  uncategorized: Shapes,
+  aggregators: Layers,
+  "art-and-culture": Palette,
+  "browser-automation": Globe,
+  "cloud-platforms": Cloud,
+  "code-execution": SquareTerminal,
+  "coding-agents": Bot,
+  "command-line": Terminal,
+  communication: MessagesSquare,
+  "customer-data-platforms": Users,
+  databases: Database,
+  "data-platforms": HardDrive,
+  "developer-tools": Wrench,
+  "data-science-tools": ChartColumn,
+  "embedded-system": Cpu,
+  "file-systems": FolderOpen,
+  "finance-fintech": Coins,
+  gaming: Gamepad2,
+  "knowledge-memory": BrainCircuit,
+  "location-services": MapPin,
+  marketing: Megaphone,
+  monitoring: Activity,
+  "search-data-extraction": ScanSearch,
+  security: ShieldCheck,
+  sports: Trophy,
+  "support-service-management": LifeBuoy,
+  "translation-services": Languages,
+  "travel-transportation": Plane,
+  "version-control": GitBranch,
+  "other-tools-and-integrations": Puzzle,
+};
+
+export function categoryIcon(key: string): LucideIcon {
+  return ICONS[key] ?? Shapes;
+}

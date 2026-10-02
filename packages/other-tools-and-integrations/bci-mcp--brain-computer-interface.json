@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "bci-mcp-(brain-computer-interface)",
+  "packageName": "bci-mcp",
+  "description": "Enables AI systems to receive and process neural signals from multiple EEG devices through real-time signal processing, providing brain activity data for more intuitive human-AI interactions.",
+  "url": "https://github.com/enkhbold470/bci-mcp",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "BCI MCP"
+}

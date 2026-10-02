@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "cinema-4d",
+  "packageName": "git+https://github.com/ttiimmaacc/cinema4d-mcp@6bab376f0adbbfe20698c79689a14547e6bd9bb9",
+  "description": "Enables Claude to interact with Cinema 4D through a socket-based communication system for scene manipulation, rendering, and animation directly from conversations.",
+  "url": "https://github.com/ttiimmaacc/cinema4d-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Cinema 4D MCP",
+  "bin": "cinema4d-mcp-wrapper",
+  "withPackages": ["mcp<2"]
+}

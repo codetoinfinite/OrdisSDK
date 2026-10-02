@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "key": "sound-effects",
+  "packageName": "git+https://github.com/tijs/py-sound-mcp@e0efff3eca03ee5fde6da470887033543bb60fe5",
+  "description": "Plays customizable sound effects for coding events across Windows, macOS, and Linux, providing audio feedback without requiring users to read text notifications.",
+  "url": "https://github.com/tijs/py-sound-mcp",
+  "runtime": "python",
+  "license": "mit",
+  "env": {},
+  "name": "Sound Effects MCP",
+  "bin": "mcp-sound-tool",
+  "withPackages": ["mcp<2"]
+}

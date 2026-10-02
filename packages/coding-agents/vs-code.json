@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "vs-code",
+  "packageName": "vscode-mcp-server",
+  "description": "Exposes VS Code's filesystem, editing capabilities, symbol search, diagnostics, and terminal access as tools for AI-assisted coding tasks directly within your existing VS Code environment.",
+  "url": "https://github.com/juehang/vscode-mcp-server",
+  "runtime": "node",
+  "license": "mit",
+  "env": {},
+  "name": "VS Code MCP Server"
+}

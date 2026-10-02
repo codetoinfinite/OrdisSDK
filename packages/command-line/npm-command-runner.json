@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "npm-command-runner",
+  "packageName": "github:seido/mcp_npm#b5e6d7a2b24cb92dc542cd71c779add41387a939",
+  "description": "Execute npm and npx commands.",
+  "url": "https://github.com/seido/mcp_npm",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "NPM MCP"
+}

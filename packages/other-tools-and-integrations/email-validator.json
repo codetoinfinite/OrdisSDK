@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "key": "email-validator",
+  "packageName": "git+https://github.com/abhi5h3k/mcp-email-verify@ec73c5e5ed767b85892a20566bcc14fef210cd57",
+  "description": "Validates email addresses through Abstract API, checking format, deliverability, and identifying disposable or role-based addresses to reduce bounces and prevent fake signups.",
+  "url": "https://github.com/abhi5h3k/mcp-email-verify",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {},
+  "name": "MCP Email Verify",
+  "bin": "python",
+  "binArgs": ["-m", "server"],
+  "withPackages": ["mcp<2"]
+}

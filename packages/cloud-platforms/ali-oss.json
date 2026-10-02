@@ -1,0 +1,11 @@
+{
+  "type": "mcp-server",
+  "key": "ali-oss",
+  "packageName": "oss-mcp",
+  "description": "Provides a bridge between AI systems and Ali OSS cloud storage, enabling file upload, download, listing, and management operations through a RESTful API.",
+  "url": "https://github.com/1yhy/oss-mcp",
+  "runtime": "node",
+  "license": "unknown",
+  "env": {},
+  "name": "OSS MCP"
+}

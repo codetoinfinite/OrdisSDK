@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "packageName": "scout-mcp-local",
+  "description": "An MCP server for Scout Monitoring data interactions.",
+  "url": "https://github.com/scoutapp/scout-mcp-local",
+  "runtime": "python",
+  "license": "unknown",
+  "env": {
+    "SCOUT_API_KEY": {
+      "description": "Your API key for Scout Monitoring.",
+      "required": true
+    }
+  },
+  "bin": "scout-mcp-local",
+  "withPackages": ["mcp<2"]
+}

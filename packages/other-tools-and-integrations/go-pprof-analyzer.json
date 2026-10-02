@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "key": "go-pprof-analyzer",
+  "packageName": "github.com/ZephyrDeng/pprof-analyzer-mcp",
+  "description": "Analyzes Go performance profiles to extract key metrics and generate flame graphs for diagnosing bottlenecks, memory issues, and concurrency problems in Go applications.",
+  "url": "https://github.com/zephyrdeng/pprof-analyzer-mcp",
+  "runtime": "go",
+  "license": "mit",
+  "env": {},
+  "name": "PPROF Analyzer MCP",
+  "packageVersion": "2805923ecc449a45cc25cce464976fb16c160c20"
+}
