@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "easygroupflights",
+  "description": "Group flight quotes for parties of 10 or more passengers.",
+  "packageName": "@alphesdk-remote/com-easygroupflights-easygroupflights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.easygroupflights.com/mcp"
+    }
+  ],
+  "url": "https://github.com/codeblockssk/easygroupflights-mcp",
+  "readme": "https://github.com/codeblockssk/easygroupflights-mcp#readme"
+}

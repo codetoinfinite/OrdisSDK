@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "hypernatt-terminal",
+  "description": "Liquidation radar, execution context and Li.Fi swaps for AI agents. 6 MCP tools; x402 payments.",
+  "packageName": "@alphesdk-remote/io-github-dialloube-research-hypernatt-terminal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hypernatt.com/mcp/protocol"
+    }
+  ],
+  "url": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal",
+  "readme": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-terminal#readme"
+}

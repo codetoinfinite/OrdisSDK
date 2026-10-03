@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OSIR Domain Registrar",
+  "description": "Register, renew, transfer, and manage domains, DNS, VPS, and email with 105 tools. By OSIR.",
+  "packageName": "@alphesdk-remote/com-osir-domain-registrar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://be.osir.com/mcp/http"
+    }
+  ],
+  "url": "https://github.com/Osir-Inc/mcp-a2a",
+  "readme": "https://github.com/Osir-Inc/mcp-a2a#readme"
+}

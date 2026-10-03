@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Data Center Index",
+  "description": "AI infrastructure tracker: data center campuses, power projects, MW and the companies behind them",
+  "packageName": "@alphesdk-remote/ai-datacenterindex-datacenterindex",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datacenterindex.ai/mcp"
+    }
+  ],
+  "url": "https://datacenterindex.ai/data"
+}

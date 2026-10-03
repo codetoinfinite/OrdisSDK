@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "IndustryLens",
+  "description": "B2B SaaS competitor pricing changes, strategic moves, market landscapes, reports and comparisons.",
+  "packageName": "@alphesdk-remote/com-industry-lens-mcp-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.industry-lens.com/mcp/public"
+    }
+  ],
+  "url": "https://github.com/IndustryLensOp/industrylens-mcp-docs",
+  "readme": "https://github.com/IndustryLensOp/industrylens-mcp-docs#readme"
+}

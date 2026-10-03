@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "衍象坊 · 奇门遁甲 & 大六壬",
+  "description": "Qimen Dunjia & Da Liu Ren divination: complete nine-palace charts and four-lesson analysis.",
+  "packageName": "@alphesdk-remote/io-github-139user-tword-divination",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://profound.fate-craft.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/139user/twords",
+  "readme": "https://github.com/139user/twords#readme"
+}

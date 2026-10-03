@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Threadkeep — Agent Checkpoints",
+  "description": "Agent checkpoints. Resume after context resets and handoffs with retry-safe, versioned saves.",
+  "packageName": "@alphesdk-remote/app-vercel-interesting-concepts-ventures-threadkeep",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://interesting-concepts-ventures.vercel.app/api/threadkeep-mcp"
+    }
+  ],
+  "url": "https://interesting-concepts-ventures.vercel.app/threadkeep/agents"
+}

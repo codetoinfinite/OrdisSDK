@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search and apply to real jobs, browse companies, and read tech news via Datronis's live data.",
+  "packageName": "@alphesdk-remote/com-datronis-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.datronis.com/api/mcp"
+    }
+  ],
+  "url": "https://datronis.com/ai-agents/"
+}

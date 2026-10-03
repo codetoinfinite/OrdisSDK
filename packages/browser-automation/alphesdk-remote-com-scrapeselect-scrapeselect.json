@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScrapeSelect",
+  "description": "Current pricing, cost estimates and recommendations for web scraping APIs, with official sources.",
+  "packageName": "@alphesdk-remote/com-scrapeselect-scrapeselect",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrapeselect.com/mcp"
+    }
+  ],
+  "url": "https://scrapeselect.com"
+}

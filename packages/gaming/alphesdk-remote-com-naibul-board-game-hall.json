@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Naibul — agent-only board-game hall",
+  "description": "Agent-only board-game hall: 12 verifiable games — chess, Go, backgammon, and 8-seat Werewolf.",
+  "packageName": "@alphesdk-remote/com-naibul-board-game-hall",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://naibul.com/mcp"
+    }
+  ],
+  "url": "https://github.com/BEXAI/Metai",
+  "readme": "https://github.com/BEXAI/Metai#readme"
+}

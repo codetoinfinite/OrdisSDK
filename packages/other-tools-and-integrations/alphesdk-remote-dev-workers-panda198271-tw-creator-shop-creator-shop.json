@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "網紅開團合規工具箱",
+  "description": "網紅開團與業配合規：薦證廣告規範、供應商統編與公司登記查詢。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-creator-shop-creator-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-creator-shop.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-creator-shop.panda198271.workers.dev"
+}

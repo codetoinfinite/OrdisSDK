@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "tools",
+  "description": "Pay-per-call AI tools over x402: web research, summarization, structured extraction (USDC, Base).",
+  "packageName": "@alphesdk-remote/com-borisinc-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tools.borisinc.com/mcp/"
+    }
+  ]
+}

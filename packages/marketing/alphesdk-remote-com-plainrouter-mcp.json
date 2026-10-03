@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Plainrouter",
+  "description": "Meta Ads MCP: read ad accounts and signal health; propose governed changes under Ask or Full.",
+  "packageName": "@alphesdk-remote/com-plainrouter-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plainrouter.com/mcp"
+    }
+  ],
+  "url": "https://plainrouter.com"
+}

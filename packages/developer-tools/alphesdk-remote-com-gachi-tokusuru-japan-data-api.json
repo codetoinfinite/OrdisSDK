@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gachi Data API — Japan Station & Accessibility Data",
+  "description": "Deep, obscure Japanese station, accessibility & hazard data for AI agents. English-first.",
+  "packageName": "@alphesdk-remote/com-gachi-tokusuru-japan-data-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.gachi-tokusuru.com/mcp"
+    }
+  ],
+  "url": "https://github.com/eng213035/gachi-data-api",
+  "readme": "https://github.com/eng213035/gachi-data-api#readme"
+}

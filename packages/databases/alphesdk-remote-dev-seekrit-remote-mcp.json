@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "seekrit — secrets for agents",
+  "description": "Encrypted store for API keys and database URLs your code needs. Use them without reading them.",
+  "packageName": "@alphesdk-remote/dev-seekrit-remote-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.seekrit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/mileszim/seekrit",
+  "readme": "https://github.com/mileszim/seekrit#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pinsvit",
+  "description": "Find and book local businesses, or run yours with Pinsvit Business: bookings, front desk, bills.",
+  "packageName": "@alphesdk-remote/com-pinsvit-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinsvit.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://pinsvit.com/developers"
+}

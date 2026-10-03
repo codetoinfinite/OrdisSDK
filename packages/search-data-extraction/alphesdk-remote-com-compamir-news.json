@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "COMPAMIR News",
+  "description": "Search structured COMPAMIR news in Japanese and English, with links to source reports.",
+  "packageName": "@alphesdk-remote/com-compamir-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.compamir.com/mcp"
+    }
+  ],
+  "url": "https://compamir.com/data.html"
+}

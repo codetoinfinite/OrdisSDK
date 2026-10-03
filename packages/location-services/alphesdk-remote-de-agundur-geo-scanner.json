@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GEO Scanner",
+  "description": "Checks whether a website is readable and citable by AI systems (ChatGPT, Claude, Perplexity, etc.)",
+  "packageName": "@alphesdk-remote/de-agundur-geo-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.agundur.de/mcp.php"
+    }
+  ],
+  "url": "https://www.agundur.de/geo-scanner.html"
+}

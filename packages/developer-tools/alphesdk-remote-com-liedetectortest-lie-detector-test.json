@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lie Detector Test",
+  "description": "Find polygraph (lie detector) offices, pricing and service info across the US, Canada and the UK.",
+  "packageName": "@alphesdk-remote/com-liedetectortest-lie-detector-test",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://liedetectortest.com/wp-json/ldt-mcp/v1/mcp"
+    }
+  ],
+  "url": "https://liedetectortest.com/for-ai-agents"
+}

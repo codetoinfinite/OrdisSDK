@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JobsAI",
+  "description": "Czech AI job board: search live listings, read job details, apply for a consenting candidate.",
+  "packageName": "@alphesdk-remote/cz-jobsai-jobsai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.jobsai.cz/v1/mcp"
+    }
+  ],
+  "url": "https://jobsai.cz/agenti"
+}

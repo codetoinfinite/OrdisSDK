@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Bazaar",
+  "description": "Open, permissionless discovery marketplace for x402-payable resources. No account or KYC required.",
+  "packageName": "@alphesdk-remote/io-github-saylorinnovations-agent-bazaar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bazaar.saylorinnovations.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SaylorInnovations/open-x402-bazaar",
+  "readme": "https://github.com/SaylorInnovations/open-x402-bazaar#readme"
+}

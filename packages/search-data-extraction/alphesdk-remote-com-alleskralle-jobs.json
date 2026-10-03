@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jobs",
+  "description": "Job search engine with 500k+ listings across Austria, Germany and Switzerland (alleskralle.com).",
+  "packageName": "@alphesdk-remote/com-alleskralle-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.alleskralle.com/mcp"
+    }
+  ],
+  "url": "https://mcp.alleskralle.com"
+}

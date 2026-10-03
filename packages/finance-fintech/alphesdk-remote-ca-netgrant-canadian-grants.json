@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NetGrant — Canadian funding",
+  "description": "Search 1,300+ live Canadian funding opportunities — grants, tax credits, accelerators, and loans.",
+  "packageName": "@alphesdk-remote/ca-netgrant-canadian-grants",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.netgrant.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/saman-ns/netgrant-mcp",
+  "readme": "https://github.com/saman-ns/netgrant-mcp#readme"
+}

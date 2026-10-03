@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ship24 Tracking",
+  "description": "Track parcels across 2,500+ carriers and 3PLs: live delivery status, event history, carrier lookup.",
+  "packageName": "@alphesdk-remote/com-ship24-tracking-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ship24.com/mcp"
+    }
+  ],
+  "url": "https://docs.ship24.com"
+}

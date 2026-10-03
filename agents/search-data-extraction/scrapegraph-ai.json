@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "scrapegraph-ai",
+  "name": "ScrapeGraphAI",
+  "description": "Python library that builds LLM-driven scraping pipelines from a prompt describing the data you want from a site or document.",
+  "category": "search-data-extraction",
+  "tags": ["web-scraping", "llm", "extraction", "python"],
+  "repo": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+  "homepage": "https://scrapegraphai.com",
+  "publisher": "ScrapeGraphAI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Extracts structured information from websites and local documents without hand-written parsing rules. Data engineers and developers describe the target fields and get JSON back.",
+  "howItWorks": "Ready-made graph pipelines fetch pages with a headless browser, split and filter the content and pass it to a model that produces the requested structure. Different graph types cover single pages, searches and multi-page crawls.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the library"
+    },
+    {
+      "name": "LLM provider key or local model",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model used for extraction"
+    }
+  ],
+  "install": ["pip install scrapegraphai", "playwright install"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "Python",
+  "models": "OpenAI, Groq, Azure, Gemini, Ollama and others",
+  "mcp": "none",
+  "github": {
+    "stars": 31503,
+    "license": "MIT",
+    "pushedAt": "2026-09-25",
+    "checkedAt": "2026-10-03"
+  }
+}

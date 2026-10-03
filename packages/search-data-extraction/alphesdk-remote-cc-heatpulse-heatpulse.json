@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HeatPulse",
+  "description": "AI-news gateway for agents: curated events, digests, live LLM leaderboards, intent router.",
+  "packageName": "@alphesdk-remote/cc-heatpulse-heatpulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://heatpulse.cc/mcp"
+    }
+  ],
+  "url": "https://github.com/hungtrungthinh/heatpulse",
+  "readme": "https://github.com/hungtrungthinh/heatpulse#readme"
+}

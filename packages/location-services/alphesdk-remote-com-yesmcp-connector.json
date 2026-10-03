@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "yesmcp",
+  "description": "See what an MCP connector can do for your business, get a scenario map, book a consultation.",
+  "packageName": "@alphesdk-remote/com-yesmcp-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.yesmcp.com/mcp"
+    }
+  ],
+  "url": "https://yesmcp.com/connect/"
+}

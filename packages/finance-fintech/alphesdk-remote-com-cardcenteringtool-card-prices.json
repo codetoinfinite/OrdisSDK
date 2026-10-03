@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Midpoint Card Prices",
+  "description": "Trading card prices and grading ROI for 1.5M+ Pokémon, Magic, Yu-Gi-Oh! and sports cards. Read-only.",
+  "packageName": "@alphesdk-remote/com-cardcenteringtool-card-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cardcenteringtool.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kolourr/midpoint-mcp",
+  "readme": "https://github.com/kolourr/midpoint-mcp#readme"
+}

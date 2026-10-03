@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Gain visibility into the performance, availability, and health of your apps and infrastructure.",
+  "packageName": "@alphesdk-remote/com-googleapis-monitoring-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://monitoring.googleapis.com/mcp"
+    }
+  ]
+}

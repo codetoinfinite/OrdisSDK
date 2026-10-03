@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "intelligence",
+  "description": "Macro, market and decision intelligence over x402. Gaps are unavailable rather than estimated.",
+  "packageName": "@alphesdk-remote/ai-edge-agents-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pay.edge-agents.ai/mcp"
+    }
+  ],
+  "url": "https://edge-agents.ai/agents/mcp"
+}

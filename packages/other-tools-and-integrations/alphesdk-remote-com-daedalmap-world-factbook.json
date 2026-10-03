@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap CIA World Factbook",
+  "description": "CIA World Factbook country indicators: infrastructure, energy, demographics, economy, 2002-2026.",
+  "packageName": "@alphesdk-remote/com-daedalmap-world-factbook",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/world_factbook"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

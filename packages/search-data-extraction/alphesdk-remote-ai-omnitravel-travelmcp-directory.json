@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "travelMCP Directory",
+  "description": "Search MCP servers, agent skills and APIs for travel: hotel ID mapping, rates, rooms.",
+  "packageName": "@alphesdk-remote/ai-omnitravel-travelmcp-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://omnitravel.ai/mcp"
+    }
+  ],
+  "url": "https://omnitravel.ai"
+}

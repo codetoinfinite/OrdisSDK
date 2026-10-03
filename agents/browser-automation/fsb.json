@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "fsb",
+  "name": "FSB (Full Self-Browsing)",
+  "description": "Chrome extension agent that automates sites through the DOM in your own browser, with an MCP server for coding agents.",
+  "category": "browser-automation",
+  "tags": ["chrome-extension", "browser-agent", "dom", "mcp"],
+  "repo": "https://github.com/fullselfbrowsing/FSB",
+  "homepage": "https://full-selfbrowsing.com",
+  "publisher": "Full Self-Browsing",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Executes browsing tasks in the user's signed-in Chrome profile from a chat panel. It can also be controlled by external agents that connect over MCP.",
+  "howItWorks": "The extension reads page structure rather than screenshots, asks the configured model for actions and applies them directly to elements. It needs no build step and is loaded unpacked from the cloned folder. A companion npm package registers an MCP server with clients such as coding assistants.",
+  "requirements": [
+    {
+      "name": "Chrome",
+      "kind": "runtime",
+      "required": true,
+      "description": "Hosts the extension"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered in the extension settings"
+    }
+  ],
+  "install": ["git clone https://github.com/fullselfbrowsing/FSB.git", "cd FSB"],
+  "run": [],
+  "interfaces": ["chat"],
+  "language": "JavaScript",
+  "models": "Multiple providers, configured in settings",
+  "mcp": "server",
+  "github": {
+    "stars": 190,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

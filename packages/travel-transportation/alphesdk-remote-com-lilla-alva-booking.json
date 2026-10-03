@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Check availability, get quotes, and submit booking requests for Lilla Älva, a cabin in Sweden.",
+  "packageName": "@alphesdk-remote/com-lilla-alva-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lilla-alva.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/RiptideZ/swedish-haven-stays",
+  "readme": "https://github.com/RiptideZ/swedish-haven-stays#readme"
+}

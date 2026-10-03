@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "MSPortfolio — MCP-Native Engineering Portfolio",
+  "description": "MCP server for Mikhail (ManSio)'s engineering portfolio: projects, principles, lab, evidence.",
+  "packageName": "@alphesdk-remote/io-github-mansio-msp-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://msp-portfolio.mansio-dev.workers.dev/mcp"
+    }
+  ]
+}

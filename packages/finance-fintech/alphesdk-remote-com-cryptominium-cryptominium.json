@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cryptominium",
+  "description": "What a crypto position would really sell for: measured exit costs, address and transaction lookups.",
+  "packageName": "@alphesdk-remote/com-cryptominium-cryptominium",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cryptominium.com/mcp"
+    }
+  ],
+  "url": "https://cryptominium.com/developers"
+}

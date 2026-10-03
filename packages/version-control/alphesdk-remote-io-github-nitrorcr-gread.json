@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "gread",
+  "description": "An MCP server that gives your AI access to the source code and docs of all public github repos",
+  "packageName": "@alphesdk-remote/io-github-nitrorcr-gread",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.gread.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/NitroRCr/gread",
+  "readme": "https://github.com/NitroRCr/gread#readme"
+}

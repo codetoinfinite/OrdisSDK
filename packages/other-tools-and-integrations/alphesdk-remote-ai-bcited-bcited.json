@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "b/cited",
+  "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
+  "packageName": "@alphesdk-remote/ai-bcited-bcited",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bcited.ai/public"
+    }
+  ],
+  "url": "https://github.com/cmunkres/bcited-cf",
+  "readme": "https://github.com/cmunkres/bcited-cf#readme"
+}

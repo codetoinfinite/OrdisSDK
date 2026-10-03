@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Typestate",
+  "description": "Build and run a backend from plain English. Data, logic, endpoints, auth and jobs, deployed live.",
+  "packageName": "@alphesdk-remote/com-typestate-typestate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.typestate.com/mcp"
+    }
+  ],
+  "url": "https://typestate.com"
+}

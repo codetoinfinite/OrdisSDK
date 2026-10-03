@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mall Store Directory",
+  "description": "Search 6,926 mall stores across 49 malls in RO, US, UK, HU by city, operator, or category.",
+  "packageName": "@alphesdk-remote/com-adrianhomelab-mall-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mall-mcp.adrianhomelab.com/mcp"
+    }
+  ],
+  "url": "https://apify.com/darknezz/mall-store-directory"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Alternative Asset Literacy — Advisor",
+  "description": "Client-education toolkit for advisors: deep-dive tracks, calculators, free onboarding tools.",
+  "packageName": "@alphesdk-remote/com-alternativeassetliteracy-aal-advisor-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alternativeassetliteracy.com/mcp"
+    }
+  ],
+  "url": "https://github.com/untitledfinancial/aal-plugins",
+  "readme": "https://github.com/untitledfinancial/aal-plugins#readme"
+}

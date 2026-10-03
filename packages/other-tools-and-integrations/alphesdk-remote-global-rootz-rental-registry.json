@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "registry",
+  "description": "AI-native Caribbean vacation-rental registry: pricing, licensing, availability, source-linked.",
+  "packageName": "@alphesdk-remote/global-rootz-rental-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rental.rootz.global/mcp"
+    }
+  ],
+  "url": "https://github.com/rootz-global/mcp-servers",
+  "readme": "https://github.com/rootz-global/mcp-servers#readme"
+}

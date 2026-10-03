@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BlockVectra Docs",
+  "description": "JSON-RPC & Data API docs, chains, status, CU pricing, error help, API key signup. No key needed.",
+  "packageName": "@alphesdk-remote/com-blockvectra-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.blockvectra.com/mcp"
+    }
+  ],
+  "url": "https://docs.blockvectra.com/en/guides/ai-agents/"
+}

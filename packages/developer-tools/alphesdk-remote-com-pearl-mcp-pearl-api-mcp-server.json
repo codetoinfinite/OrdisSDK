@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "pearl-api-mcp-server",
+  "description": "Hybrid human + AI expertise for faster, trusted answers and decisions via MCP Server.",
+  "packageName": "@alphesdk-remote/com-pearl-mcp-pearl-api-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pearl.com/mcp"
+    }
+  ]
+}

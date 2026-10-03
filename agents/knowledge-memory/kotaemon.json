@@ -1,0 +1,63 @@
+{
+  "type": "external-agent",
+  "key": "kotaemon",
+  "name": "Kotaemon",
+  "description": "Clean, customisable RAG web UI for chatting with your own documents, usable by end users and pipeline developers.",
+  "category": "knowledge-memory",
+  "tags": ["rag", "document-qa", "gradio", "graphrag", "self-hosted"],
+  "repo": "https://github.com/Cinnamon/kotaemon",
+  "publisher": "Cinnamon",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets users upload documents and ask questions with cited answers, and gives developers a base for building their own RAG pipelines. It supports local and API-based models.",
+  "howItWorks": "A Gradio application wraps indexing and retrieval pipelines, with optional GraphRAG indexing and reasoning strategies for complex questions. Docker images come in full, lite and Ollama-bundled variants, or the app can be run from source with uv.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI models"
+    },
+    {
+      "name": "OPENAI_API_BASE",
+      "kind": "service",
+      "required": false,
+      "description": "OpenAI-compatible endpoint"
+    },
+    {
+      "name": "AZURE_OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Azure OpenAI models"
+    },
+    {
+      "name": "GRAPHRAG_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "GraphRAG indexing"
+    },
+    {
+      "name": "Python 3.10+ or Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the app"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/Cinnamon/kotaemon",
+    "cd kotaemon",
+    "uv sync --python 3.10",
+    "source .venv/bin/activate"
+  ],
+  "run": ["python app.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI, Azure OpenAI, Ollama and other local models",
+  "mcp": "none",
+  "github": {
+    "stars": 25799,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-14",
+    "checkedAt": "2026-10-03"
+  }
+}

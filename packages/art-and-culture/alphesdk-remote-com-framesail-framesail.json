@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "framesail",
+  "description": "Create long-form YouTube videos end to end: script, storyboard, voiceover, final MP4.",
+  "packageName": "@alphesdk-remote/com-framesail-framesail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.framesail.com/mcp"
+    }
+  ],
+  "url": "https://framesail.com/developers"
+}

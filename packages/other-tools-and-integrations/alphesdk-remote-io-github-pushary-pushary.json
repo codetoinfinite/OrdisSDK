@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pushary",
+  "description": "The decision layer for AI agents. Your agent asks, a person approves or denies on their phone.",
+  "packageName": "@alphesdk-remote/io-github-pushary-pushary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pushary.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/Pushary/pushary-skill",
+  "readme": "https://github.com/Pushary/pushary-skill#readme"
+}

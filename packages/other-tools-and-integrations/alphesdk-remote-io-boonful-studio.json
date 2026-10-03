@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Boonful Studio",
+  "description": "Publish and sell what you build with Claude: apps, ebooks and courses, with checkout and a feed.",
+  "packageName": "@alphesdk-remote/io-boonful-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://boonful.io/api/mcp"
+    }
+  ],
+  "url": "https://boonful.io"
+}

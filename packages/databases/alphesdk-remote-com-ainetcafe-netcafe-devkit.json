@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-devkit",
+  "description": "JSON/YAML, regex, diff, JWT, SQL dialects — the keyless millisecond ops an agent needs mid-task.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-devkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/dev?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

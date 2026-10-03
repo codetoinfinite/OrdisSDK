@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vector Panda Documentation",
+  "description": "Search and read Vector Panda docs: API operations, pricing, storage tiers, measured benchmarks.",
+  "packageName": "@alphesdk-remote/com-vectorpanda-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.vectorpanda.com/mcp"
+    }
+  ],
+  "url": "https://www.vectorpanda.com/docs"
+}

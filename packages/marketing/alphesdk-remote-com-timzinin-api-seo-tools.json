@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SEO Tools",
+  "description": "5 pay-per-call SEO tools over MCP. Free discovery, tool calls settle in USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-seo-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/seo-tools"
+    }
+  ]
+}

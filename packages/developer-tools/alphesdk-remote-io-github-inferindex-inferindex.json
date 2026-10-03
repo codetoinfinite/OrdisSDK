@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "InferIndex",
+  "description": "LLM API prices across 70+ providers: cheapest offer, comparisons, history and cost estimates.",
+  "packageName": "@alphesdk-remote/io-github-inferindex-inferindex",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.inferindex.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/InferIndex/inferindex-docs",
+  "readme": "https://github.com/InferIndex/inferindex-docs#readme"
+}

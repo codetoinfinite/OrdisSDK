@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PnL Labs — Solana Trust & Risk Checks",
+  "description": "Trust checks for Solana trading: realized-PnL wallet trust, token safety, trade cost, forensics.",
+  "packageName": "@alphesdk-remote/io-github-pnllabs-pnllabs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pnllabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/PnLlabs/pnllabs-mcp",
+  "readme": "https://github.com/PnLlabs/pnllabs-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Streaming Radar",
+  "description": "Streaming market intelligence: vertical drama, African OTT, piracy, sports, creator economy.",
+  "packageName": "@alphesdk-remote/com-streaming-lens-mcp-streaming-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.streaming-lens.com/public"
+    }
+  ],
+  "url": "https://lens.streaming-radar.com/mcp"
+}

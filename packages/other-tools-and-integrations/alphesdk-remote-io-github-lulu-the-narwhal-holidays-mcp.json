@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Holidays MCP",
+  "description": "Free, keyless public holidays lookup for any country and year, plus single-date holiday checks.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-holidays-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/holidays/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

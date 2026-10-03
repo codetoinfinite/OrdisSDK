@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Provides read access to your GKE and Kubernetes resources.",
+  "packageName": "@alphesdk-remote/com-googleapis-container-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://container.googleapis.com/mcp"
+    }
+  ]
+}

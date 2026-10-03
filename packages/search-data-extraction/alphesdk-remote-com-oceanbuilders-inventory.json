@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "inventory",
+  "description": "Search Ocean Builders' floating-home inventory, get unit specs and pricing, register buyer interest.",
+  "packageName": "@alphesdk-remote/com-oceanbuilders-inventory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.oceanbuilders.com/mcp"
+    }
+  ],
+  "url": "https://oceanbuilders.com"
+}

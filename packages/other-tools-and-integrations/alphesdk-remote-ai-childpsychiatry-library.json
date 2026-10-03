@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "library",
+  "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
+  "packageName": "@alphesdk-remote/ai-childpsychiatry-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://childpsychiatry.ai/api/mcp/v1"
+    }
+  ],
+  "url": "https://childpsychiatry.ai"
+}

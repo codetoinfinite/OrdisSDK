@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "french-rental-compliance",
+  "description": "FR/EN tools for French rental, frontalier & home-employment (CCN 3239) — sourced, dated answers.",
+  "packageName": "@alphesdk-remote/com-adminlanding-french-rental-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.adminlanding.com/mcp"
+    }
+  ],
+  "url": "https://adminlanding.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "smm.guide",
+  "description": "SMM panel catalog: cheapest services across panels, Trust Scores, reviews, comparisons, panel tools",
+  "packageName": "@alphesdk-remote/guide-smm-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smm.guide/mcp"
+    }
+  ],
+  "url": "https://smm.guide/developers/"
+}

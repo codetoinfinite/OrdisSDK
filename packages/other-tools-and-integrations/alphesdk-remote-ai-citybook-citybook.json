@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Citybook",
+  "description": "Live Calgary events for AI agents.",
+  "packageName": "@alphesdk-remote/ai-citybook-citybook",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.citybook.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/yeunge-pawlo/citybook",
+  "readme": "https://github.com/yeunge-pawlo/citybook#readme"
+}

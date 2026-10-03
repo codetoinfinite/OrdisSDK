@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FieldTranscript",
+  "description": "Verbatim transcription of public video/audio URLs to clean text, SRT, and timestamped records.",
+  "packageName": "@alphesdk-remote/com-fieldtranscript-transcriber",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fieldtranscript.com/mcp"
+    }
+  ],
+  "url": "https://fieldtranscript.com"
+}

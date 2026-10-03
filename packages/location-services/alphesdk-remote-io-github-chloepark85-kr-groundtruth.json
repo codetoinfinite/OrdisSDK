@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kr-groundtruth",
+  "description": "Korean fact-verification tools for AI agents: business registration, address, DART, apt prices, laws",
+  "packageName": "@alphesdk-remote/io-github-chloepark85-kr-groundtruth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kr-groundtruth-mcp.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://kr-groundtruth-mcp.vercel.app"
+}

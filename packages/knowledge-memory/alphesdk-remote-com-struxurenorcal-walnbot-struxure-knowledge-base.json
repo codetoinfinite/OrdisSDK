@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "StruXure NorCal Knowledge Base",
+  "description": "Public remote MCP server for StruXure NorCal pergola services and FAQs.",
+  "packageName": "@alphesdk-remote/com-struxurenorcal-walnbot-struxure-knowledge-base",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://walnbot.struxurenorcal.com/mcp/struxure-knowledge-base"
+    }
+  ]
+}

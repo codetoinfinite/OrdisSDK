@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ProductClank",
+  "description": "Boost posts and launch community growth campaigns from your AI assistant. OAuth, credit-billed.",
+  "packageName": "@alphesdk-remote/com-productclank-productclank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.productclank.com/mcp"
+    }
+  ],
+  "url": "https://github.com/covariance-network/productclank-mcp-server",
+  "readme": "https://github.com/covariance-network/productclank-mcp-server#readme"
+}

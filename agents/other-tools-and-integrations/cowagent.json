@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "cowagent",
+  "name": "CowAgent",
+  "description": "Always-on AI assistant that plans tasks, controls the computer and external services, and works across the web and major IM platforms.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-assistant", "skills", "im-channels", "memory", "knowledge-base"],
+  "repo": "https://github.com/zhayujie/CowAgent",
+  "homepage": "https://cowagent.ai",
+  "docs": "https://docs.cowagent.ai/guide/quick-start",
+  "publisher": "zhayujie",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Plans and executes tasks proactively, creates and runs skills, and keeps a personal knowledge base and long-term memory. Runs continuously on a personal computer or server.",
+  "howItWorks": "Messages arrive through channels, an agent core reasons over memory, knowledge, tools and skills, and pluggable model providers generate the output. A web console on port 9899 configures models, channels and skills, and a `cow` CLI controls the service.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Any supported model provider"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Only for the Docker Compose deployment"
+    }
+  ],
+  "install": ["bash <(curl -fsSL https://cdn.link-ai.tech/code/cow/run.sh)"],
+  "run": ["cow start"],
+  "interfaces": ["web", "chat", "cli", "desktop"],
+  "language": "Python",
+  "models": "Major LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 47219,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

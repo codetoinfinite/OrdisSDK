@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "nvidia-brev",
+  "packageName": "git+https://github.com/brevdev/brev-mcp@88bf6cebb83b81795f7e6199d9abaa2586236bd6",
   "description": "Bridges Nvidia Brev, enabling natural language control of workspaces, deployments, and cloud resources.",
   "url": "https://github.com/brevdev/brev-mcp",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Brev MCP"
+  "name": "Brev MCP",
+  "bin": "brev-mcp",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

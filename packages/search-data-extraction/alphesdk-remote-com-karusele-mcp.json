@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search Karusele stainless steel products and get product details via AI agents.",
+  "packageName": "@alphesdk-remote/com-karusele-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.karusele.com/mcp"
+    }
+  ],
+  "url": "https://karusele.com"
+}

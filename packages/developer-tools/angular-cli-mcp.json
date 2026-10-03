@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Angular CLI",
+  "description": "Angular CLI's MCP mode (ng mcp) with best practices, docs search and project tools.",
+  "packageName": "@angular/cli",
+  "packageVersion": "22.2.1",
+  "runtime": "node",
+  "bin": "ng",
+  "binArgs": [
+    "mcp"
+  ],
+  "readme": "https://angular.dev/ai/mcp",
+  "url": "https://github.com/angular/angular-cli",
+  "author": "Google (Angular)",
+  "env": {}
+}

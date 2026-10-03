@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Attio",
+  "description": "Attio-hosted CRM server for records, lists, notes and tasks.",
+  "packageName": "@alphesdk-remote/attio",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.attio.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.attio.com/mcp/overview",
+  "url": "https://github.com/attio",
+  "author": "Attio",
+  "env": {}
+}

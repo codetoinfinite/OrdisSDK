@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "webwright",
+  "name": "Webwright",
+  "description": "Browser agent from Microsoft that gives a coding model a terminal and Playwright sessions and solves each web task as a re-runnable script.",
+  "category": "browser-automation",
+  "tags": ["web-agent", "playwright", "terminal", "code-generation"],
+  "repo": "https://github.com/microsoft/Webwright",
+  "homepage": "https://microsoft.github.io/Webwright/",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Webwright completes web tasks such as searches and form flows, producing a single Python script that reproduces the whole run. It suits developers who want repeatable web automations from coding models.",
+  "howItWorks": "One agent loop works in a terminal, launching browser sessions and inspecting screenshots or page state only when needed, with helper tools for image question answering and self-reflection. YAML configs choose the OpenAI or Anthropic backend.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "With model_openai.yaml"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "With model_claude.yaml"
+    },
+    {
+      "name": "Chromium (Playwright)",
+      "kind": "runtime",
+      "required": true,
+      "description": "Browser"
+    }
+  ],
+  "install": ["pip install -e .", "playwright install chromium"],
+  "run": [
+    "python -m webwright.run.cli -c base.yaml -c model_openai.yaml -t \"Search for flights from SEA to JFK on 2026-08-15 to 2026-08-20\" --start-url https://www.google.com/flights --task-id demo_openai -o outputs/default"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI and Anthropic models",
+  "mcp": "none",
+  "github": {
+    "stars": 6023,
+    "license": "MIT",
+    "pushedAt": "2026-08-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RecallChecker — Vehicle Safety Recalls",
+  "description": "Check U.S. NHTSA vehicle safety recall campaigns by make, model, and year. Live official data.",
+  "packageName": "@alphesdk-remote/com-checkrecall-vehicle-recalls",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.checkrecall.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ollo12-prog/recallchecker",
+  "readme": "https://github.com/ollo12-prog/recallchecker#readme"
+}

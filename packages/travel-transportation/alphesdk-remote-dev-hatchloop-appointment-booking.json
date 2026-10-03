@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Appointment Booking",
+  "description": "Find real businesses and book appointments. Books via Cal.com; imports 12 platforms.",
+  "packageName": "@alphesdk-remote/dev-hatchloop-appointment-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hatchloop.dev/mcp/appointment-booking"
+    }
+  ],
+  "url": "https://github.com/basilalshukaili/agentbroker",
+  "readme": "https://github.com/basilalshukaili/agentbroker#readme"
+}

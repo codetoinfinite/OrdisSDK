@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Uptimepage",
+  "description": "Monitor uptime and incidents, run checks, and publish status updates from your Uptimepage org.",
+  "packageName": "@alphesdk-remote/dev-uptimepage-uptimepage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.uptimepage.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/uptimepage/uptimepage",
+  "readme": "https://github.com/uptimepage/uptimepage#readme"
+}

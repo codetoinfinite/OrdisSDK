@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CSS Crème",
+  "description": "Give your agent a real design system: tokens, measured WCAG contrast, and rules to follow.",
+  "packageName": "@alphesdk-remote/com-csscreme-design-systems",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://csscreme.com/mcp"
+    }
+  ],
+  "url": "https://github.com/damnepic/csscreme-skill",
+  "readme": "https://github.com/damnepic/csscreme-skill#readme"
+}

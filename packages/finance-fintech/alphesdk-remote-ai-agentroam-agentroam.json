@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentRoam",
+  "description": "Buy travel eSIMs, gift cards and mobile top-ups with crypto — user confirms before any order.",
+  "packageName": "@alphesdk-remote/ai-agentroam-agentroam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentroam.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/adiny/nomad-crypto-travel",
+  "readme": "https://github.com/adiny/nomad-crypto-travel#readme"
+}

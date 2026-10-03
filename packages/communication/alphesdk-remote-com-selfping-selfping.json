@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "selfping",
+  "description": "Text your own phone when a run finishes or needs you. A key can only message its own number.",
+  "packageName": "@alphesdk-remote/com-selfping-selfping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.selfping.com/api/mcp"
+    }
+  ],
+  "url": "https://www.selfping.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RBX Invest Roblox Limiteds market data",
+  "description": "Read-only Roblox Limiteds market data: RAP, resale prices, deals below RAP, creators, portfolios.",
+  "packageName": "@alphesdk-remote/com-rbxinvest-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rbxinvest.com/mcp"
+    }
+  ],
+  "url": "https://rbxinvest.com/api"
+}

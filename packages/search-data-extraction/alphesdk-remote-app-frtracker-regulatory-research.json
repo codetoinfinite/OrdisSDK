@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FRTracker — Federal Regulatory Research",
+  "description": "Source-linked US federal regulations: CFR provision history, obligations, rules, comments.",
+  "packageName": "@alphesdk-remote/app-frtracker-regulatory-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://frtracker.app/mcp"
+    }
+  ],
+  "url": "https://github.com/ajleahey/frtracker",
+  "readme": "https://github.com/ajleahey/frtracker#readme"
+}

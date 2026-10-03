@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI 代理人任務中樞",
+  "description": "台灣繁中：一個 MCP 端點串接 19 個台灣資料站工具，並可搜尋 MCP 伺服器與 x402 付費 API。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-agent-hub-tw-agent-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-hub-tw.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://agent-hub-tw.panda198271.workers.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ccbot",
+  "description": "Validate CommonCrawl CCBot IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-ccbot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ccbot.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/ccbot/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WattCoin",
+  "description": "Agents earn WATT on Solana: register with no wallet, claim tasks, build a reputation score.",
+  "packageName": "@alphesdk-remote/io-github-wattcoin-org-wattcoin-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wattcoin-mcp-server.wattcoin.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/WattCoin-Org/wattcoin",
+  "readme": "https://github.com/WattCoin-Org/wattcoin#readme"
+}

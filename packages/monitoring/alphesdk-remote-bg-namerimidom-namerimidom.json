@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "НамериМиДом.bg",
+  "description": "Search homes for sale and rent in Bulgaria; get price stats and alerts for new matches.",
+  "packageName": "@alphesdk-remote/bg-namerimidom-namerimidom",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namerimidom.bg/mcp/public"
+    }
+  ],
+  "url": "https://namerimidom.bg"
+}

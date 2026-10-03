@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AdCreator AI Ad Headline Generator",
+  "description": "Generate 10 conversion-focused ad headlines for a Shopify/e-commerce product. Free, no signup.",
+  "packageName": "@alphesdk-remote/com-adcreator-ai-generate-ad-headlines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adcreator-ai.com/mcp-ads"
+    }
+  ]
+}

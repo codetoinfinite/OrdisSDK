@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MeinBodenwert.de",
+  "description": "Amtliche Bodenrichtwerte (BORIS) und Flurstücke (ALKIS) der Bundesländer zu einer Adresse.",
+  "packageName": "@alphesdk-remote/de-meinbodenwert-bodenrichtwert",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://meinbodenwert.de/mcp"
+    }
+  ],
+  "url": "https://meinbodenwert.de/ki-assistenten"
+}

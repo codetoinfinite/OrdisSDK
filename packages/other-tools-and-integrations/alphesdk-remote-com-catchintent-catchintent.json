@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "catchintent",
+  "description": "The intent layer for B2B outbound. Find, triage, and act on warmth-scored leads.",
+  "packageName": "@alphesdk-remote/com-catchintent-catchintent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://engine.catchintent.com/mcp"
+    }
+  ]
+}

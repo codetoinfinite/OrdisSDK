@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "webanalyzer",
+  "description": "Free website analyzer: score any public URL 0-100 across 8 quality dimensions. No auth.",
+  "packageName": "@alphesdk-remote/dev-webanalyzer-webanalyzer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.webanalyzer.dev"
+    }
+  ],
+  "url": "https://github.com/Gechu03/webanalyzer-js",
+  "readme": "https://github.com/Gechu03/webanalyzer-js#readme"
+}

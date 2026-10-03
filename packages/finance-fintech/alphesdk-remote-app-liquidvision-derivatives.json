@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LiquidVision — Crypto Derivatives Data",
+  "description": "Exchange-exact crypto derivatives data for AI agents: OI, funding, liquidations, 13 venues.",
+  "packageName": "@alphesdk-remote/app-liquidvision-derivatives",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://liquidvision.app/mcp"
+    }
+  ],
+  "url": "https://liquidvision.app/data"
+}

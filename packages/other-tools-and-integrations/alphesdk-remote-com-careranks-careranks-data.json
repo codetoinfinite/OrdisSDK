@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CareRanks Data",
+  "description": "CMS quality ratings, payer-negotiated prices, and clinician data for 41K+ US healthcare facilities.",
+  "packageName": "@alphesdk-remote/com-careranks-careranks-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://careranks.com/mcp"
+    }
+  ],
+  "url": "https://careranks.com/docs/data/"
+}

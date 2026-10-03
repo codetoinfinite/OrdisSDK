@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BinaSmart",
+  "description": "Ethiopia: Addis rides, jobs, tenders, hotels, health, homes, cars, news and government guides",
+  "packageName": "@alphesdk-remote/et-bina-binasmart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bina.et/mcp"
+    }
+  ],
+  "url": "https://bina.et/mcp"
+}

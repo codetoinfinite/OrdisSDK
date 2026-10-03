@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Prognyx oncology intelligence",
+  "description": "Live ClinicalTrials.gov oncology trial comparison around an asset, plus landscapes and CI briefings.",
+  "packageName": "@alphesdk-remote/com-prognyx-oncology-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.prognyx.com/api/mcp"
+    }
+  ],
+  "url": "https://www.prognyx.com/mcp"
+}

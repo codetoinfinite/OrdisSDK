@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LinkDigest — Xiaohongshu, Douyin, TikTok, YouTube to text",
+  "description": "Xiaohongshu, Douyin, TikTok, YouTube, X links to text: transcript, on-screen text, images described",
+  "packageName": "@alphesdk-remote/dev-linkdigest-linkdigest",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://linkdigest.dev/mcp"
+    }
+  ],
+  "url": "https://linkdigest.dev"
+}

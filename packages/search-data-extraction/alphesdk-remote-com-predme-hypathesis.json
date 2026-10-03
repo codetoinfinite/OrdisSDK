@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "hypathesis",
+  "description": "Variable relationships from research papers with causal direction and source traceback.",
+  "packageName": "@alphesdk-remote/com-predme-hypathesis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hypathesis.com/mcp"
+    }
+  ]
+}

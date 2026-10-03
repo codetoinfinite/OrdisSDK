@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Professor Sausages — Trust & Verification",
+  "description": "Email, phone, domain, URL & OFAC verification; phishing and IBAN checks via x402.",
+  "packageName": "@alphesdk-remote/com-professorsausages-sausage-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.professorsausages.com/mcp/trust"
+    }
+  ],
+  "url": "https://x402.professorsausages.com/mcp"
+}

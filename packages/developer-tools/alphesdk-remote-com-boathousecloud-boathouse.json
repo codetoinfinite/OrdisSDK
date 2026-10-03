@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Boat House",
+  "description": "Deploy and share small apps with team login, persistent data, versioned updates and domains.",
+  "packageName": "@alphesdk-remote/com-boathousecloud-boathouse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.boathousecloud.com/mcp"
+    }
+  ],
+  "url": "https://github.com/allenzhangyiteng/boathouse-cloud",
+  "readme": "https://github.com/allenzhangyiteng/boathouse-cloud#readme"
+}

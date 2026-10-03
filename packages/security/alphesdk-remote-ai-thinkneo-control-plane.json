@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ThinkNEO Control Plane",
+  "description": "Enterprise AI Control Plane: governance, guardrails, spend tracking, compliance & smart routing.",
+  "packageName": "@alphesdk-remote/ai-thinkneo-control-plane",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thinkneo.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/thinkneo-ai/mcp-server",
+  "readme": "https://github.com/thinkneo-ai/mcp-server#readme"
+}

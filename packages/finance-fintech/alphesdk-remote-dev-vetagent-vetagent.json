@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vetagent",
+  "description": "Pre-trade safety check for AI agents: honeypot, tax, liquidity and rug risk before you buy.",
+  "packageName": "@alphesdk-remote/dev-vetagent-vetagent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vetagent.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/jakegu1/vetagent",
+  "readme": "https://github.com/jakegu1/vetagent#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sense2 Promotional Products",
+  "description": "21 tools: search 4,000+ Australian promotional products with live pricing, quotes and curated edits.",
+  "packageName": "@alphesdk-remote/io-github-24seagull-beep-sense2-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sense2.com.au/api/mcp"
+    }
+  ],
+  "url": "https://github.com/24seagull-beep/sense2-next",
+  "readme": "https://github.com/24seagull-beep/sense2-next#readme"
+}

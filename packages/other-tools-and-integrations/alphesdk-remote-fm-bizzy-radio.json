@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bizzy Radio",
+  "description": "Find Bizzy radio stations, read station cards and public author information. Read-only; no playback.",
+  "packageName": "@alphesdk-remote/fm-bizzy-radio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bizzy.fm/mcp"
+    }
+  ],
+  "url": "https://bizzy.fm"
+}

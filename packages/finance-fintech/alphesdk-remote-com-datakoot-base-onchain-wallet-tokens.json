@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Base Intel MCP",
+  "description": "Read-only on-chain intelligence for AI agents on Base: balances, tokens, gas, tx status.",
+  "packageName": "@alphesdk-remote/com-datakoot-base-onchain-wallet-tokens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://base.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/base-intel-mcp",
+  "readme": "https://github.com/datakoot/base-intel-mcp#readme"
+}

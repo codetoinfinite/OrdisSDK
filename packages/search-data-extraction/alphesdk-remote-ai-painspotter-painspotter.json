@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "painspotter",
+  "description": "AI-analyzed startup opportunities from Reddit, Hacker News & Product Hunt, with commercial scores.",
+  "packageName": "@alphesdk-remote/ai-painspotter-painspotter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://painspotter.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/archoor/reddit-insight",
+  "readme": "https://github.com/archoor/reddit-insight#readme"
+}

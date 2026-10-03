@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AskWatch Google Search Console MCP",
+  "description": "Ask Google Search Console in plain language. Hosted, free, no Google Cloud project.",
+  "packageName": "@alphesdk-remote/ai-askwatch-gsc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.askwatch.ai/gsc"
+    }
+  ],
+  "url": "https://askwatch.ai/free-tools/google-search-console-mcp"
+}

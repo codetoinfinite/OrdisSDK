@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "POSTFACT — Resolve Ambiguous Side Effects Before Retry",
+  "description": "Resolve whether an uncertain side-effecting action completed before software retries it.",
+  "packageName": "@alphesdk-remote/io-github-gsterlingpress-postfact",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://postfact-api-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/GSterlingPress/postfact-api",
+  "readme": "https://github.com/GSterlingPress/postfact-api#readme"
+}

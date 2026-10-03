@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "search-mcp",
+  "description": "Web search and clean-text page fetch for AI agents, with SSRF protection.",
+  "packageName": "@alphesdk-remote/dev-ioconnex-search-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search.ioconnex.dev/mcp"
+    }
+  ],
+  "url": "https://ioconnex.dev"
+}

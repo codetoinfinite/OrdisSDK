@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Switchboard Finance",
+  "description": "Australian business loans: ATO debt, caveat, equipment, property. Check fit, then a broker calls.",
+  "packageName": "@alphesdk-remote/io-github-nicklim123-switchboard-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.switchboardfinance.com.au/mcp"
+    }
+  ],
+  "url": "https://github.com/Nicklim123/switchboard-finance-mcp",
+  "readme": "https://github.com/Nicklim123/switchboard-finance-mcp#readme"
+}

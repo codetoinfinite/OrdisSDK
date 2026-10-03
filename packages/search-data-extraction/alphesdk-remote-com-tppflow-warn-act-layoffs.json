@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "warn-act-layoffs",
+  "description": "Search 5,950 US WARN Act layoff notices by state, employer, and date (CA, TX, NY, IL, NC).",
+  "packageName": "@alphesdk-remote/com-tppflow-warn-act-layoffs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tppflow.com/mcp"
+    }
+  ],
+  "url": "https://tppflow.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bibelstudium MCP",
+  "description": "Wortgetreue deutsche Bibelarbeit: Grundtext, Morphologie, Konkordanz, Querverweise",
+  "packageName": "@alphesdk-remote/de-bibelstudium-mcp-bibelstudium",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bibelstudium-mcp.de/mcp"
+    }
+  ],
+  "url": "https://github.com/fidpa/bibelstudium-mcp",
+  "readme": "https://github.com/fidpa/bibelstudium-mcp#readme"
+}

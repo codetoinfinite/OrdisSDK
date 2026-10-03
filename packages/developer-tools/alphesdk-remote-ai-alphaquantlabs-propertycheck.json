@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AQL PropertyCheck — Gold Coast Property Intelligence API",
+  "description": "Gold Coast property intelligence and due diligence for AI agents, renters and buyers.",
+  "packageName": "@alphesdk-remote/ai-alphaquantlabs-propertycheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.alphaquantlabs.ai/v1/mcp"
+    }
+  ],
+  "url": "https://agents.alphaquantlabs.ai/"
+}

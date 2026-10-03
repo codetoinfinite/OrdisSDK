@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Sentry",
+  "description": "Local stdio build of Sentry's server for issues, errors, traces and releases.",
+  "packageName": "@sentry/mcp-server",
+  "packageVersion": "0.42.0",
+  "runtime": "node",
+  "readme": "https://docs.sentry.io/product/sentry-mcp/",
+  "url": "https://github.com/getsentry/sentry-mcp",
+  "author": "Sentry",
+  "env": {
+    "SENTRY_ACCESS_TOKEN": {
+      "description": "Sentry user auth token",
+      "required": true
+    }
+  }
+}

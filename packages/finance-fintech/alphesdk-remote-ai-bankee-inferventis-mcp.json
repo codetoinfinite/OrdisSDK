@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Inferventis MCP Server",
+  "description": "Loan & mortgage calculator, compound interest, ROI, crypto prices, FX conversion for AI agents.",
+  "packageName": "@alphesdk-remote/ai-bankee-inferventis-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-server-295985738387.europe-west1.run.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Bankee-ai/inferventis",
+  "readme": "https://github.com/Bankee-ai/inferventis#readme"
+}

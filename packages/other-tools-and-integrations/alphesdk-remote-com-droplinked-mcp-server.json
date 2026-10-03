@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "droplinked",
+  "description": "Agentic commerce + trust MCP: discover, verify, and transact across droplinked's merchant network.",
+  "packageName": "@alphesdk-remote/com-droplinked-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.droplinked.com/mcp"
+    }
+  ],
+  "url": "https://github.com/droplinked/droplinked-mcp",
+  "readme": "https://github.com/droplinked/droplinked-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ContentIn — LinkedIn Ghostwriter",
+  "description": "Write LinkedIn posts in your voice: ideas, drafts, scheduling, analytics from your personal AI.",
+  "packageName": "@alphesdk-remote/io-contentin-linkedin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.contentin.io/mcp-server"
+    }
+  ],
+  "url": "https://contentin.io/linkedin-mcp-server/"
+}

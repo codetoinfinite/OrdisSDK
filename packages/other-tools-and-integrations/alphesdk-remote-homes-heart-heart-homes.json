@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Heart Homes — Dubai property data",
+  "description": "Dubai property prices, rents and trends from official Dubai Land Department records. Read-only.",
+  "packageName": "@alphesdk-remote/homes-heart-heart-homes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://heart.homes/mcp"
+    }
+  ],
+  "url": "https://heart.homes"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Corbelworks Utility Defect Scan and Buyer Intake",
+  "description": "Preflight utility evidence, open a $149 scan checkout, and file scoped buyer intake.",
+  "packageName": "@alphesdk-remote/dev-pages-corbelworks-reliability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://corbelworks.pages.dev/mcp"
+    }
+  ],
+  "url": "https://corbelworks.pages.dev/utility-defect-scan/"
+}

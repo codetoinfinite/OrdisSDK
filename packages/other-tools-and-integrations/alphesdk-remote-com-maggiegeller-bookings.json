@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dr. Maggie Geller, OD",
+  "description": "Book appointments with Dr. Maggie Geller OD (Vancouver optometrist; myopia, dry eye, contacts).",
+  "packageName": "@alphesdk-remote/com-maggiegeller-bookings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.maggiegeller.com/mcp"
+    }
+  ],
+  "url": "https://www.maggiegeller.com/"
+}

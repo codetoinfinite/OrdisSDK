@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CCAPI",
+  "description": "Image, video, music and text generation across 100+ models through one endpoint.",
+  "packageName": "@alphesdk-remote/ai-ccapi-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ccapi.ai/mcp"
+    }
+  ],
+  "url": "https://ccapi.ai/mcp"
+}

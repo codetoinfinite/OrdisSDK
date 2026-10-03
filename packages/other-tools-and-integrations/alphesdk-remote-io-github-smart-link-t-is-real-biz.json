@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "is-real-biz",
+  "description": "Verify business legitimacy by domain or name in <2s. Trust score, verdict, evidence. x402-payable.",
+  "packageName": "@alphesdk-remote/io-github-smart-link-t-is-real-biz",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://is-real-biz.is-real-biz.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Smart-link-t/is-real-biz",
+  "readme": "https://github.com/Smart-link-t/is-real-biz#readme"
+}

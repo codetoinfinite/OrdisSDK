@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mapmelon",
+  "description": "Search curated community colivings and see who else will be staying during your dates.",
+  "packageName": "@alphesdk-remote/com-mapmelon-mapmelon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mapmelon.com/api/mcp"
+    }
+  ],
+  "url": "https://www.mapmelon.com/mcp"
+}

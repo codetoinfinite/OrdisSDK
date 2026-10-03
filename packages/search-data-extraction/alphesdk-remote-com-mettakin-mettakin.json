@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mettakin",
+  "description": "First-person meditation experiences shared by humans. Search, read and cite them.",
+  "packageName": "@alphesdk-remote/com-mettakin-mettakin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mettakin.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mettakin/mettakin",
+  "readme": "https://github.com/mettakin/mettakin#readme"
+}

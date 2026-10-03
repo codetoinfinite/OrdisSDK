@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Book Houston magician and mentalist Rick Hebert for corporate events, weddings, and parties.",
+  "packageName": "@alphesdk-remote/com-hebertmagic-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hebertmagic.com/api/mcp"
+    }
+  ]
+}

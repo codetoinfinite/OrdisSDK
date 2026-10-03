@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "530A Model calculator",
+  "description": "Free, deterministic 530A (Trump Account) projections, verified rules, and searchable guides.",
+  "packageName": "@alphesdk-remote/com-530amodel-calculator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.530amodel.com"
+    }
+  ],
+  "url": "https://github.com/zach-eikenberry/530A",
+  "readme": "https://github.com/zach-eikenberry/530A#readme"
+}

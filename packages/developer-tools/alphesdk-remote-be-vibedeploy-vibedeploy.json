@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vibedeploy",
+  "description": "Deploy and host AI-built websites on EU infrastructure, straight from your AI agent.",
+  "packageName": "@alphesdk-remote/be-vibedeploy-vibedeploy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vibedeploy.be/mcp"
+    }
+  ],
+  "url": "https://github.com/thomasbillen-netizen/vibedeploy-mcp",
+  "readme": "https://github.com/thomasbillen-netizen/vibedeploy-mcp#readme"
+}

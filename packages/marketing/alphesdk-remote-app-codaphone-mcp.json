@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CodaPhone",
+  "description": "Business texting for AI agents: send texts, read threads, manage contacts and run campaigns.",
+  "packageName": "@alphesdk-remote/app-codaphone-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.codaphone.app"
+    }
+  ],
+  "url": "https://codaphone.app/developers/mcp"
+}

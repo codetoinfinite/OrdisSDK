@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Utilify",
+  "description": "AI agents compare and sign up for Texas utility plans: electricity, internet, gas, water, trash.",
+  "packageName": "@alphesdk-remote/io-github-utilify-io-utilify-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://utilify.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Utilify-io/utilify-mcp",
+  "readme": "https://github.com/Utilify-io/utilify-mcp#readme"
+}

@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "trae-agent",
+  "name": "Trae Agent",
+  "description": "ByteDance's LLM-based CLI agent for general software-engineering tasks, with a research-friendly modular design.",
+  "category": "coding-agents",
+  "tags": ["coding", "software-engineering", "cli", "trajectory"],
+  "repo": "https://github.com/bytedance/trae-agent",
+  "publisher": "ByteDance",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Trae Agent takes natural-language instructions such as fixing a bug or adding tests and works through them in a repository. Its transparent structure is aimed at people studying or extending coding agents.",
+  "howItWorks": "The trae-cli runs an agent loop with file-editing, bash and structured-thinking tools, records detailed trajectories and supports MCP services. Providers and models are set in a YAML config or environment variables.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Or ANTHROPIC_API_KEY, GOOGLE_API_KEY, OPENROUTER_API_KEY, DOUBAO_API_KEY depending on provider"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/bytedance/trae-agent.git",
+    "cd trae-agent",
+    "uv sync --all-extras",
+    "source .venv/bin/activate",
+    "cp trae_config.yaml.example trae_config.yaml"
+  ],
+  "run": ["trae-cli run \"Create a hello world Python script\"", "trae-cli interactive"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Google, OpenRouter, Doubao and others",
+  "mcp": "client",
+  "github": {
+    "stars": 12123,
+    "license": "MIT",
+    "pushedAt": "2026-02-05",
+    "checkedAt": "2026-10-03"
+  }
+}

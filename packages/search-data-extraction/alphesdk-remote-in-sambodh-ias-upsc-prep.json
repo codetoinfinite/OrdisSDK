@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sambodh IAS",
+  "description": "UPSC prep: interactive quizzes, previous-year questions, daily current affairs, cited study search",
+  "packageName": "@alphesdk-remote/in-sambodh-ias-upsc-prep",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sambodh-ias.in/mcp"
+    }
+  ],
+  "url": "https://sambodh-ias.in"
+}

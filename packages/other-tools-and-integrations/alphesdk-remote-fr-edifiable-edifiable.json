@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Edifiable",
+  "description": "French land-use plans (PLU): what a zone or a street allows, cited at the article. No key.",
+  "packageName": "@alphesdk-remote/fr-edifiable-edifiable",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://edifiable.fr/mcp"
+    }
+  ],
+  "url": "https://edifiable.fr/api"
+}

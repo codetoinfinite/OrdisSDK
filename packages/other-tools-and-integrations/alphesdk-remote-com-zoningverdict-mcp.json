@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ZoningVerdict",
+  "description": "Human-reviewed zoning answers with ordinance citations for covered US municipalities.",
+  "packageName": "@alphesdk-remote/com-zoningverdict-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zoningverdict.com/api/mcp?ref=mcp-registry"
+    }
+  ],
+  "url": "https://zoningverdict.com"
+}

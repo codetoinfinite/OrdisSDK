@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Doseedo",
+  "description": "Edit DAW sessions; convert Logic/Ableton/FL/PT/REAPER/Cubase/Dorico; stems, transcribe, generate",
+  "packageName": "@alphesdk-remote/com-doseedo-doseedo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.doseedo.com/mcp"
+    }
+  ],
+  "url": "https://doseedo.com/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vocaneo",
+  "description": "French job profiles, RNCP diplomas and 135,000 training programs. Read-only, no account.",
+  "packageName": "@alphesdk-remote/com-vocaneo-vocaneo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vocaneo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/CIB-PROD/vocaneo-mcp-connector",
+  "readme": "https://github.com/CIB-PROD/vocaneo-mcp-connector#readme"
+}

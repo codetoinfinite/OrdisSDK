@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Whenna",
+  "description": "Group scheduling: create a plan link, mark availability, get best times, lock the final time.",
+  "packageName": "@alphesdk-remote/com-whenna-whenna",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whenna.com/mcp"
+    }
+  ],
+  "url": "https://whenna.com"
+}

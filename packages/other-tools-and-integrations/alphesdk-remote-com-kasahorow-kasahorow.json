@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kasahorow",
+  "description": "Bilingual dictionary lookup and translation validation for kasahorow Fellows.",
+  "packageName": "@alphesdk-remote/com-kasahorow-kasahorow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nabanya.kasahorow.com/mcp"
+    }
+  ],
+  "url": "https://www.kasahorow.com"
+}

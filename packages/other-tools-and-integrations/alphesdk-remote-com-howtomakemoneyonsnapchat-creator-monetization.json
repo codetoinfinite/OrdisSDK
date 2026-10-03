@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "How To Make Money On Snapchat",
+  "description": "Read-only published criteria. Not affiliated with, endorsed by, or sponsored by Snap Inc.",
+  "packageName": "@alphesdk-remote/com-howtomakemoneyonsnapchat-creator-monetization",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://howtomakemoneyonsnapchat.com/mcp"
+    }
+  ],
+  "url": "https://howtomakemoneyonsnapchat.com/snapchat-mcp"
+}

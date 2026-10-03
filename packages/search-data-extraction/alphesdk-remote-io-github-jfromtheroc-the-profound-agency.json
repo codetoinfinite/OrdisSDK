@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "The Profound Agency",
+  "description": "Search, price and order press placements across 1,600+ publications. Free AI-visibility audits too.",
+  "packageName": "@alphesdk-remote/io-github-jfromtheroc-the-profound-agency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theprofound.agency/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/Jfromtheroc/the-profound-agency",
+  "readme": "https://github.com/Jfromtheroc/the-profound-agency#readme"
+}

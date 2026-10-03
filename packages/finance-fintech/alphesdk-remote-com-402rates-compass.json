@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Compass by 402rates",
+  "description": "Free agent tests (no account or payment); paid ping.",
+  "packageName": "@alphesdk-remote/com-402rates-compass",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.402rates.com/mcp/compass"
+    }
+  ],
+  "url": "https://402rates.com/compass/"
+}

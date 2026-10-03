@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Beglaubigt",
+  "description": "Incorporate a German GmbH or UG in chat, then finish and pay on a secure link.",
+  "packageName": "@alphesdk-remote/de-beglaubigt-incorporation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.beglaubigt.de/mcp"
+    }
+  ],
+  "url": "https://beglaubigt.de"
+}

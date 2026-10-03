@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "domain-da-pa-check",
+  "description": "Domain DA-PA Checker: Domain authority score & page authority score, spam score, backlink count.",
+  "packageName": "@alphesdk-remote/com-jojapi-domain-da-pa-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/domain-da-pa-check"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/domain-da-pa-check"
+}

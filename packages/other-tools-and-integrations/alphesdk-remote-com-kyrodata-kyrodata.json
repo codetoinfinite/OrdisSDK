@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kyrodata — Brazil Trade, Crop & Commodity Data",
+  "description": "Brazil exports and imports from MDIC/ComexStat, plus crop, climate and commodity forecasts.",
+  "packageName": "@alphesdk-remote/com-kyrodata-kyrodata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kyrodata.com/mcp"
+    }
+  ],
+  "url": "https://kyrodata.com/en-US/developers"
+}

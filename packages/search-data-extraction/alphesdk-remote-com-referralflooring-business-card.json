@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Referral Flooring",
+  "description": "Referral Flooring, Hamilton ON flooring installer: business facts, site search, quote requests.",
+  "packageName": "@alphesdk-remote/com-referralflooring-business-card",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.referralflooring.com/mcp"
+    }
+  ],
+  "url": "https://www.referralflooring.com/"
+}

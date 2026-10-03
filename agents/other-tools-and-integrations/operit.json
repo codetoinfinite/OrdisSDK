@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "operit",
+  "name": "Operit AI",
+  "description": "Android agent app that links cloud or on-device models to system functions, a terminal, the browser and files to perform real tasks.",
+  "category": "other-tools-and-integrations",
+  "tags": ["android", "mobile-agent", "assistant", "local-models"],
+  "repo": "https://github.com/AAswordman/Operit",
+  "homepage": "https://operit.app",
+  "publisher": "AAswordman",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Works as an on-phone assistant that can operate the device, run commands, browse and manage project workspaces across multi-turn tasks. It targets Android power users who want an agent running directly on their handset.",
+  "howItWorks": "The app wraps a chat interface around a tool layer that exposes Android capabilities, a built-in terminal environment and installable tool packages. Models can be remote or local. It is installed from an APK and needs Android 8.0 or newer on an ARM64 device.",
+  "requirements": [
+    {
+      "name": "Android 8.0+ ARM64 device",
+      "kind": "hardware",
+      "required": true,
+      "description": "Only arm64-v8a devices are supported"
+    },
+    {
+      "name": "Model access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Cloud provider key or a local model"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["chat", "desktop"],
+  "language": "Kotlin",
+  "models": "Cloud providers and local models",
+  "mcp": "client",
+  "github": {
+    "stars": 8336,
+    "license": "LGPL-3.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

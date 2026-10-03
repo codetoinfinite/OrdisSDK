@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DoctoFam Medical Clinic",
+  "description": "See your clinic's free slots, doctors, rooms, service prices and how busy each day is.",
+  "packageName": "@alphesdk-remote/com-doctofam-doctofam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.doctofam.com/mcp"
+    }
+  ],
+  "url": "https://www.doctofam.com/developers/#mcp"
+}

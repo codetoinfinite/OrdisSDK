@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Servana",
+  "description": "Search and message local service vendors (cleaning, med spa, yoga, personal training) by city.",
+  "packageName": "@alphesdk-remote/ai-servana-servana",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://servana.ai/api/mcp"
+    }
+  ],
+  "url": "https://servana.ai"
+}

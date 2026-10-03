@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "TravelType",
+  "description": "Search and explore a global travel points-of-interest catalog (cities, countries, POIs).",
+  "packageName": "@alphesdk-remote/io-github-traveltype-travel-poi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.traveltype.app"
+    }
+  ]
+}

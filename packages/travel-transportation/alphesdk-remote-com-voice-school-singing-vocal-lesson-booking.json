@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Voice School Lesson Booking",
+  "description": "Request online singing lessons with Voice School and Daria Klishina.",
+  "packageName": "@alphesdk-remote/com-voice-school-singing-vocal-lesson-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.voice-school.com/singing-vocal-lesson-booking/mcp"
+    }
+  ],
+  "url": "https://github.com/klishinoleg/voice",
+  "readme": "https://github.com/klishinoleg/voice#readme"
+}

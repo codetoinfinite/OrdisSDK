@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "forms",
+  "description": "Canadian contractor forms + tax tools: 126 cited forms, sourced 2026 tax estimates by province.",
+  "packageName": "@alphesdk-remote/ca-bluecraneworks-forms",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bluecraneworks.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/tstuckle/bluecrane-forms-mcp",
+  "readme": "https://github.com/tstuckle/bluecrane-forms-mcp#readme"
+}

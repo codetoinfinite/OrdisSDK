@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Statistics of the World",
+  "description": "490+ economic & demographic indicators for 218 countries from IMF, World Bank, UN, FRED.",
+  "packageName": "@alphesdk-remote/com-statisticsoftheworld-sotw",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://statisticsoftheworld.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/dregon03/statisticsoftheworld",
+  "readme": "https://github.com/dregon03/statisticsoftheworld#readme"
+}

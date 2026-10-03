@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LocalHelpNow",
+  "description": "What broke, what a fair repair costs with sources, and whether to repair or replace.",
+  "packageName": "@alphesdk-remote/com-localhelpnow-localhelpnow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://localhelpnow.com/api/mcp"
+    }
+  ],
+  "url": "https://localhelpnow.com"
+}

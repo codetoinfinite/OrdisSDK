@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cache Key Explosion Auditor",
+  "description": "Audits a sample of HTTP request URLs against explicit, documented cache-key standardization rules...",
+  "packageName": "@alphesdk-remote/com-mcpscores-cache-key-explosion-auditor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-factory.bowling-anthony.workers.dev/cache-key-explosion-auditor/mcp"
+    }
+  ],
+  "url": "https://mcp-factory.bowling-anthony.workers.dev/cache-key-explosion-auditor"
+}

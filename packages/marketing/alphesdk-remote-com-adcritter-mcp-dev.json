@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AdCritter for Builders",
+  "description": "AdCritter ads platform: docs, API reference, app scaffolding, and white-label integration.",
+  "packageName": "@alphesdk-remote/com-adcritter-mcp-dev",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.adcritter.com/mcp/dev"
+    }
+  ],
+  "url": "https://adcritter.ai"
+}

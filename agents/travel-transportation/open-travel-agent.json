@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "open-travel-agent",
+  "name": "Travel Agent",
+  "description": "Desktop travel assistant that researches and books trips in a built-in browser and stops before payment.",
+  "category": "travel-transportation",
+  "tags": ["travel", "booking", "desktop", "browser", "planning"],
+  "repo": "https://github.com/Prism-Shadow/travel-agent",
+  "homepage": "https://opentravelagent.vercel.app",
+  "publisher": "Prism-Shadow",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Plans trips, compares flights and hotels on real booking sites, fills forms and brings the user to the payment page to finish themselves.",
+  "howItWorks": "A desktop app places a chat next to a controlled browser that the agent operates, with a companion Chrome extension. The user adds a model provider key in the app, and the workflow requires explicit selection before any booking step.",
+  "requirements": [
+    {
+      "name": "Node.js and pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Node.js 24+ and pnpm 11 for running from source"
+    },
+    {
+      "name": "Model provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "For example Anthropic or DeepSeek, added in the Models screen"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/Prism-Shadow/travel-agent.git",
+    "cd travel-agent",
+    "pnpm install"
+  ],
+  "run": ["pnpm desktop"],
+  "interfaces": ["desktop", "chat"],
+  "language": "TypeScript",
+  "models": "Bring-your-own provider key (Anthropic, DeepSeek and others)",
+  "mcp": "none",
+  "github": {
+    "stars": 67,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-08",
+    "checkedAt": "2026-10-03"
+  }
+}

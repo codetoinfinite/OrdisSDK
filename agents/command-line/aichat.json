@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "aichat",
+  "name": "AIChat",
+  "description": "All-in-one LLM command-line tool with a shell assistant, chat REPL, document retrieval, function calling and configurable agents.",
+  "category": "command-line",
+  "tags": ["cli", "shell", "repl", "rag", "multi-provider"],
+  "repo": "https://github.com/sigoden/aichat",
+  "publisher": "sigoden",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gives terminal users one binary for chatting with many model providers, turning requests into shell commands, and querying local documents. Users can define agents that combine instructions, tools and documents.",
+  "howItWorks": "A Rust binary talks to more than twenty providers through a unified client. It offers one-shot and REPL modes, roles and sessions, built-in retrieval over files, and tool calling that agents build on. It can also serve a local HTTP endpoint and playground.",
+  "requirements": [
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for at least one supported provider, set up on first run"
+    }
+  ],
+  "install": ["cargo install aichat"],
+  "run": ["aichat hello"],
+  "interfaces": ["cli", "api"],
+  "language": "Rust",
+  "models": "20+ providers including OpenAI, Claude, Gemini, Ollama and Groq",
+  "mcp": "none",
+  "github": {
+    "stars": 10483,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-02-23",
+    "checkedAt": "2026-10-03"
+  }
+}

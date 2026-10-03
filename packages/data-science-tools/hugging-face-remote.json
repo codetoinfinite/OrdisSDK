@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Hugging Face",
+  "description": "Official Hub server for searching models, datasets, Spaces and papers and calling Gradio Spaces.",
+  "packageName": "@alphesdk-remote/hugging-face",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://huggingface.co/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://huggingface.co/docs/hub/hf-mcp-server",
+  "url": "https://github.com/evalstate/hf-mcp-server",
+  "author": "Hugging Face",
+  "env": {}
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VerifyDesk",
+  "description": "Verify companies in French and UK registries, EU VAT numbers and IBANs; screen US and UN sanctions.",
+  "packageName": "@alphesdk-remote/com-agenttoolworks-verifydesk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verifydesk.agenttoolworks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/agenttoolworks/mcp-servers",
+  "readme": "https://github.com/agenttoolworks/mcp-servers#readme"
+}

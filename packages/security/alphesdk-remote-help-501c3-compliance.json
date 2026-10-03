@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "501c3.HELP nonprofit compliance",
+  "description": "Nonprofit compliance rules for all 50 US states, each with its official citation and status",
+  "packageName": "@alphesdk-remote/help-501c3-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.501c3.help/"
+    }
+  ],
+  "url": "https://501c3.help/license/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Drop Index",
+  "description": "Live restock index per collectible niche + will-it-restock predictor (WAIT vs BUY-RESALE).",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-drop-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://index.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://index.dropwatchhq.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dream Interpretation MCP Server by RoxyAPI",
+  "description": "Dream symbol interpretation and dream-dictionary lookups for AI agents, one API key.",
+  "packageName": "@alphesdk-remote/com-roxyapi-dreams",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/dreams"
+    }
+  ],
+  "url": "https://roxyapi.com/products/dreams-api"
+}

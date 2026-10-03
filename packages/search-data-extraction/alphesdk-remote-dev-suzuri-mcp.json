@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Suzuri",
+  "description": "Semantic search across Japan's government white papers, in English or Japanese. Free beta.",
+  "packageName": "@alphesdk-remote/dev-suzuri-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://suzuri.dev/mcp"
+    }
+  ],
+  "url": "https://suzuri.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stampcard — digital stamp cards for small shops, no app for the customer",
+  "description": "Create a shop program, hand customers a browser stamp card by QR poster, stamp it from a phone.",
+  "packageName": "@alphesdk-remote/app-rowb-stampcard-cards",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stampcard.rowb.app/mcp"
+    }
+  ],
+  "url": "https://stampcard.rowb.app"
+}

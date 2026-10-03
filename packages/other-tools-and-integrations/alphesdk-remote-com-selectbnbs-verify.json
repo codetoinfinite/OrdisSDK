@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SelectBNBs Verify",
+  "description": "Check whether a short-term rental in South Korea is registered, using official government records.",
+  "packageName": "@alphesdk-remote/com-selectbnbs-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://selectbnbs.com/mcp"
+    }
+  ],
+  "url": "https://selectbnbs.com/verify/agents/"
+}

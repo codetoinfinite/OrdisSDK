@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Baron Power Play",
+  "description": "Pay-per-call AI infra for agents: DeFi market data, LLM inference, STT/TTS. x402 v2, USDC on Base.",
+  "packageName": "@alphesdk-remote/io-github-mintmachinehq-baron-power-play",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://baron-power-play.baronpowerplay.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/MintMachineHQ/baron-power-play-mcp",
+  "readme": "https://github.com/MintMachineHQ/baron-power-play-mcp#readme"
+}

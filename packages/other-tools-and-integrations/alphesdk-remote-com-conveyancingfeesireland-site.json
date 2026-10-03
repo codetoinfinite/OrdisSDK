@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Conveyancing Fees Ireland: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
+  "packageName": "@alphesdk-remote/com-conveyancingfeesireland-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://conveyancingfeesireland.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

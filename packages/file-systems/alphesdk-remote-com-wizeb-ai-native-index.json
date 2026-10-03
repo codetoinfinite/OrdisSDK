@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wizeb AI-Native Index",
+  "description": "AI-Native Index scoring, PDF report, Wizeb Q&A, and an Enhanced report agents buy over x402.",
+  "packageName": "@alphesdk-remote/com-wizeb-ai-native-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wizeb.com/mcp"
+    }
+  ],
+  "url": "https://github.com/rahnas/wizeb",
+  "readme": "https://github.com/rahnas/wizeb#readme"
+}

@@ -6,5 +6,8 @@
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Mureka MCP"
+  "name": "Mureka MCP",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

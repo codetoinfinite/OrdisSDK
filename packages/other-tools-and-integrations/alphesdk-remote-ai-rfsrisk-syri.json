@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SYRI — Stablecoin Yield Risk Index",
+  "description": "0-100 risk score for stablecoin yield venues (Aave, Morpho, Ondo, Ethena). Pay per call via x402.",
+  "packageName": "@alphesdk-remote/ai-rfsrisk-syri",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syri.rfsrisk.ai/mcp"
+    }
+  ],
+  "url": "https://syri.rfsrisk.ai"
+}

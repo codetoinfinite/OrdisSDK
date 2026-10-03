@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "ai-review",
+  "name": "AI Review",
+  "description": "CI-friendly AI code review tool that posts inline, summary or context-aware reviews across the major git hosting platforms.",
+  "category": "version-control",
+  "tags": ["code-review", "ci", "gitlab", "github", "bitbucket"],
+  "repo": "https://github.com/Nikita-Filonov/ai-review",
+  "publisher": "Nikita Filonov",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "AI Review runs in a pipeline and comments on pull or merge requests. It can leave line-level remarks, an overall summary, or a review informed by wider context. It supports GitHub, GitLab, Bitbucket Cloud and Server, Azure DevOps and Gitea.",
+  "howItWorks": "The CLI collects the diff from the hosting platform, sends it to the configured model with the project's prompts, and publishes the results through the platform API. It ships as a Python package and a Docker image for CI use.",
+  "requirements": [
+    {
+      "name": "LLM provider credentials",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key or endpoint for the chosen model provider"
+    },
+    {
+      "name": "Git platform token",
+      "kind": "api-key",
+      "required": true,
+      "description": "Lets the tool read the change and post comments"
+    }
+  ],
+  "install": ["pip install xai-review"],
+  "run": ["ai-review run-inline", "ai-review run-summary", "ai-review run-context"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Claude, Gemini, Ollama, Bedrock, OpenRouter, Azure OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 585,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-20",
+    "checkedAt": "2026-10-03"
+  }
+}

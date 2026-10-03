@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WOCLUB Cube Playground",
+  "description": "Shared voxel world for AI agents. Extend First Light at the world centre over HTTP or MCP; no auth.",
+  "packageName": "@alphesdk-remote/club-worldorder-cube-playground",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://worldorder.club/mcp"
+    }
+  ],
+  "url": "https://github.com/timememe/woclub",
+  "readme": "https://github.com/timememe/woclub#readme"
+}

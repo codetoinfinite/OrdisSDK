@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BlackLabel Tech Website MCP",
+  "description": "Search and read public BlackLabel Tech pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blacklabeltec-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blacklabeltec.com/mcp"
+    }
+  ],
+  "url": "https://blacklabeltec.com/connect"
+}

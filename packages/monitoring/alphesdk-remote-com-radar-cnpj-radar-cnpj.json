@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "radar-cnpj",
+  "description": "Brazilian company registry (Receita): CNPJ lookup, CNAE search, idea evaluation, monitoring.",
+  "packageName": "@alphesdk-remote/com-radar-cnpj-radar-cnpj",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://radar-cnpj.com/mcp"
+    }
+  ],
+  "url": "https://radar-cnpj.com"
+}

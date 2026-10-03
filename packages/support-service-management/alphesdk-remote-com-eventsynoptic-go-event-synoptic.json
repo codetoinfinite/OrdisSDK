@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "event-synoptic",
+  "description": "Live LA events, ticket price comparison, bars & nightlife with real-time happy hours",
+  "packageName": "@alphesdk-remote/com-eventsynoptic-go-event-synoptic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://go.eventsynoptic.com/mcp"
+    }
+  ],
+  "url": "https://go.eventsynoptic.com/developers"
+}

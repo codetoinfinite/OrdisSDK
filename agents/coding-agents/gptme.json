@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "gptme",
+  "name": "gptme",
+  "description": "Terminal agent that writes code, runs shell and Python, browses the web and looks at images on your behalf.",
+  "category": "coding-agents",
+  "tags": ["terminal", "shell", "python", "local-models", "acp"],
+  "repo": "https://github.com/gptme/gptme",
+  "homepage": "https://gptme.org",
+  "docs": "https://gptme.org/docs/",
+  "publisher": "gptme",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "gptme is a general personal agent with a strong coding focus. From a terminal chat it can create and patch files, execute commands, search the web and analyse screenshots. It works with hosted or local models and can be extended with plugins and skills.",
+  "howItWorks": "The model emits tool invocations that gptme executes locally, feeding results back into the conversation until the task is finished. Tools cover shell, a Python interpreter, file editing, browsing and vision. It also speaks MCP and ACP and has a desktop front end.",
+  "requirements": [
+    {
+      "name": "Python and pipx",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install and run the CLI"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed for hosted providers; local Ollama models work without one"
+    }
+  ],
+  "install": ["pipx install gptme"],
+  "run": ["gptme"],
+  "interfaces": ["cli", "web", "desktop"],
+  "language": "Python",
+  "models": "Anthropic, OpenAI, Google, DeepSeek, OpenRouter, local models via Ollama",
+  "mcp": "client",
+  "github": {
+    "stars": 4442,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

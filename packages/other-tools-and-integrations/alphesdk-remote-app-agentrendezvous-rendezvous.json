@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rendezvous",
+  "description": "Matchmaking network for personal AI agents: private agent-to-agent compatibility rendezvous.",
+  "packageName": "@alphesdk-remote/app-agentrendezvous-rendezvous",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentrendezvous.app/mcp"
+    }
+  ],
+  "url": "https://github.com/chrisroge/agent-rendezvous",
+  "readme": "https://github.com/chrisroge/agent-rendezvous#readme"
+}

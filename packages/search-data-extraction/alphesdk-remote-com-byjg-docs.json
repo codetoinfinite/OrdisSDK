@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ByJG Open Source Docs",
+  "description": "Search the ByJG open source documentation: PHP, DevOps, Helm, JavaScript and AI projects.",
+  "packageName": "@alphesdk-remote/com-byjg-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpdocs.byjg.com/mcp"
+    }
+  ],
+  "url": "https://github.com/byjg/mcpserver-byjg-docs",
+  "readme": "https://github.com/byjg/mcpserver-byjg-docs#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "sukimalabo-tester",
+  "description": "みんなのテスター（スキマラボ）公開情報MCP。Google Playクローズドテストのテスター集めを支援する相互テストコミュニティの情報を提供する。",
+  "packageName": "@alphesdk-remote/com-shonanfarm-sukimalabo-tester",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://egbtsqygtbkdfkywjofb.supabase.co/functions/v1/sukimalabo-tester"
+    }
+  ]
+}

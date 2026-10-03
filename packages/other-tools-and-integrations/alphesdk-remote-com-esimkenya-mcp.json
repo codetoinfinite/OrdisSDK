@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eSIM Kenya",
+  "description": "Live eSIM provider, plan, pricing, and coverage data for Kenya from esimkenya.com.",
+  "packageName": "@alphesdk-remote/com-esimkenya-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.esimkenya.com/mcp"
+    }
+  ],
+  "url": "https://github.com/esimkenya/esimkenya-mcp",
+  "readme": "https://github.com/esimkenya/esimkenya-mcp#readme"
+}

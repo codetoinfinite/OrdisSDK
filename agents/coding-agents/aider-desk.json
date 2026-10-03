@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "aider-desk",
+  "name": "AiderDesk",
+  "description": "Desktop platform for steering AI coding agents across projects and tasks, with git worktree isolation and reviewable changes.",
+  "category": "coding-agents",
+  "tags": ["desktop", "aider", "worktrees", "orchestration", "mcp"],
+  "repo": "https://github.com/hotovo/aider-desk",
+  "docs": "https://aiderdesk.hotovo.com/docs",
+  "publisher": "Hotovo",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "AiderDesk began as a graphical front end for Aider and grew into a workspace for managing agent-driven development. Developers organise work into projects and tasks, review every change, and run experiments in isolated worktrees. It targets professionals who want control over what the AI does.",
+  "howItWorks": "An Electron application hosts an agent with configurable tools alongside Aider. Each task can have its own worktree so several can progress in parallel. It connects to external MCP servers and can also act as one, and is extendable through an extensions system.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the model provider configured in the app"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "api"],
+  "language": "TypeScript",
+  "framework": "Aider",
+  "models": "Multiple providers configured in the app",
+  "mcp": "both",
+  "github": {
+    "stars": 1449,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

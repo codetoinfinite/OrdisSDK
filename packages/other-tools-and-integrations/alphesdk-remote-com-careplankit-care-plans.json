@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CarePlanKit — Nursing Care Plans",
+  "description": "Nursing care plans for students: diagnoses, SMART goals, interventions with rationale, sources.",
+  "packageName": "@alphesdk-remote/com-careplankit-care-plans",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.careplankit.com/mcp"
+    }
+  ],
+  "url": "https://careplankit.com/"
+}

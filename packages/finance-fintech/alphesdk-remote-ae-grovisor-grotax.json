@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "groTAX by Grovisor",
+  "description": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
+  "packageName": "@alphesdk-remote/ae-grovisor-grotax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.grovisor.ae/"
+    }
+  ],
+  "url": "https://grovisor.ae/tools"
+}

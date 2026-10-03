@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "MemeStack",
+  "description": "Search and browse a curated gallery of memes, infographics, and visual content.",
+  "packageName": "@alphesdk-remote/ai-memestack-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.memestack.ai/mcp"
+    }
+  ]
+}

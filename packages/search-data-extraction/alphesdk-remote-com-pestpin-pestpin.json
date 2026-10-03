@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PestPin",
+  "description": "US pest control license check by number, licensed-company search by city, and cost planning ranges.",
+  "packageName": "@alphesdk-remote/com-pestpin-pestpin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pestpin.com/mcp"
+    }
+  ],
+  "url": "https://pestpin.com/developers"
+}

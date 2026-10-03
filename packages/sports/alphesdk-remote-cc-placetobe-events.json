@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Place to Be",
+  "description": "What's on in any city: live, ranked concerts, sport, festivals, nightlife and culture.",
+  "packageName": "@alphesdk-remote/cc-placetobe-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://placetobe.cc/mcp"
+    }
+  ],
+  "url": "https://placetobe.cc/ai"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "agent-e",
+  "name": "Agent-E",
+  "description": "Agent that automates tasks in a web browser from natural-language commands using DOM distillation and Playwright skills.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "autogen", "playwright", "dom"],
+  "repo": "https://github.com/EmergenceAI/Agent-E",
+  "publisher": "Emergence AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Performs web actions such as searching, filling forms, navigating sites and gathering information on the user's behalf. It serves developers and researchers studying reliable web navigation agents.",
+  "howItWorks": "Built on the AG2 (AutoGen) conversation framework, it pairs a planning agent with a browser-navigation agent. The navigator calls a library of Playwright-backed skills and receives condensed views of the page DOM so the model can reason about it. Models are set through an env file and a JSON config.",
+  "requirements": [
+    {
+      "name": "Python with uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Environment managed by the install script"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in .env or agents_llm_config.json"
+    }
+  ],
+  "install": ["./install.sh"],
+  "run": ["python -m ae.main"],
+  "interfaces": ["cli", "api"],
+  "language": "Python",
+  "framework": "AG2 (AutoGen)",
+  "models": "OpenAI and other providers configured in agents_llm_config.json",
+  "mcp": "none",
+  "github": {
+    "stars": 1251,
+    "license": "MIT",
+    "pushedAt": "2026-05-04",
+    "checkedAt": "2026-10-03"
+  }
+}

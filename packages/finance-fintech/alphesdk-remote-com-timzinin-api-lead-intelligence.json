@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Lead Intelligence",
+  "description": "Pay-per-call lead intelligence tools with free MCP discovery and x402 payments.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-lead-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/lead-intelligence"
+    }
+  ]
+}

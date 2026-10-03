@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentFilings",
+  "description": "SEC filings, XBRL earnings, Form 4 insiders for ~2,800 US SEC filers. x402 pay-per-call, no signup.",
+  "packageName": "@alphesdk-remote/com-agentfilings-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentfilings.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Edwardk91/agentfilings-api",
+  "readme": "https://github.com/Edwardk91/agentfilings-api#readme"
+}

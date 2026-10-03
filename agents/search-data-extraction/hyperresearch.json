@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "hyperresearch",
+  "name": "Hyperresearch",
+  "description": "Deep-research harness that turns Claude Code or OpenAI Codex into a multi-step research agent with audited, sourced reports.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "claude-code", "codex", "skill", "provenance"],
+  "repo": "https://github.com/jordan-gibbs/hyperresearch",
+  "publisher": "Jordan Gibbs",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Runs a single research prompt through a multi-stage pipeline and returns a report in which every source is tracked. It is for users of Claude Code or Codex who want rigorous long-form research inside their project folder.",
+  "howItWorks": "A Python package installs a skill into the host coding agent; the user then invokes /hyperresearch in Claude Code or $hyperresearch in Codex. The pipeline scales its number of steps to the task and includes an adversarial audit pass. An optional extra adds an MCP server so other MCP clients can use it.",
+  "requirements": [
+    {
+      "name": "Claude Code or OpenAI Codex",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host agent that executes the skill"
+    },
+    {
+      "name": "CORE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional CORE academic source"
+    },
+    {
+      "name": "FRED_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional FRED economic data source"
+    }
+  ],
+  "install": ["cd your-project", "pip install hyperresearch", "hyperresearch install"],
+  "run": [],
+  "interfaces": ["cli", "ide"],
+  "language": "Python",
+  "framework": "Claude Code / Codex skills",
+  "models": "Whatever the host agent uses (Claude or OpenAI models)",
+  "mcp": "both",
+  "github": {
+    "stars": 3756,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

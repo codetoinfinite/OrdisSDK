@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Read-only catalog of Russian MFOs: loan terms, Bank of Russia registry data, ratings, reviews.",
+  "packageName": "@alphesdk-remote/com-zaimhub-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zaimhub.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/alexandrrzk-ctrl/zaimhub-mcp",
+  "readme": "https://github.com/alexandrrzk-ctrl/zaimhub-mcp#readme"
+}

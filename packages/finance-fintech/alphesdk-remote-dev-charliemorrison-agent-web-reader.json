@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-web-reader",
+  "description": "Pay-per-call data tools for AI agents: crypto signal, web reader, SEO audit. x402 USDC on Base.",
+  "packageName": "@alphesdk-remote/dev-charliemorrison-agent-web-reader",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.charliemorrison.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/charlie-morrison/x402-agent-data",
+  "readme": "https://github.com/charlie-morrison/x402-agent-data#readme"
+}

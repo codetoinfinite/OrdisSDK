@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "advertising-protocols",
+  "description": "Query 70+ ad tech protocols — OpenRTB, VAST, AdCP, AAMP, TCF, GPP — with citations.",
+  "packageName": "@alphesdk-remote/io-github-samrajtheailyceum-advertising-protocols",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inktdlomgdqrsqaalpey.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Samrajtheailyceum/adprotocols",
+  "readme": "https://github.com/Samrajtheailyceum/adprotocols#readme"
+}

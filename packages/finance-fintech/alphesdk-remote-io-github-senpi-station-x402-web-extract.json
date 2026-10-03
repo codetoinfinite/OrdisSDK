@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402 Web Extract",
+  "description": "Pay-per-use web extract, token prices, and wallet balances via x402 USDC micropayments.",
+  "packageName": "@alphesdk-remote/io-github-senpi-station-x402-web-extract",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-web-extract.senpi-agent.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Senpi-Station/x402-mcp-web-extract",
+  "readme": "https://github.com/Senpi-Station/x402-mcp-web-extract#readme"
+}

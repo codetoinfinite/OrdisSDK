@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ShotPulled",
+  "description": "Espresso dialing: log a shot, say how it tasted, get one change in your grinder's own clicks.",
+  "packageName": "@alphesdk-remote/com-shotpulled-shotpulled",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.shotpulled.com/mcp"
+    }
+  ],
+  "url": "https://shotpulled.com"
+}

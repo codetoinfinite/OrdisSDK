@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "inflation-signal",
+  "description": "Inflation & Fed liquidity thermometer: 47 macro series, too_low..too_high. Pay-per-call x402.",
+  "packageName": "@alphesdk-remote/com-airblockfz-inflation-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inflation-signal.airblock2026.workers.dev/mcp"
+    }
+  ],
+  "url": "https://airblockfz.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bench Agent Discovery",
+  "description": "Discover public AI agents, reusable recipes, and trusted benchmark evidence by task.",
+  "packageName": "@alphesdk-remote/io-github-virajmishra1-bench",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bench.virajmishratakehome.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/VirajMishra1/bench",
+  "readme": "https://github.com/VirajMishra1/bench#readme"
+}

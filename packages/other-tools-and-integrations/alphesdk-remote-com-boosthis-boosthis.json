@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Boosthis",
+  "description": "Read-only performance insights for your Boosthis projects: speed, crashes, traces, and fixes.",
+  "packageName": "@alphesdk-remote/com-boosthis-boosthis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.boosthis.com/mcp"
+    }
+  ],
+  "url": "https://www.boosthis.com/"
+}

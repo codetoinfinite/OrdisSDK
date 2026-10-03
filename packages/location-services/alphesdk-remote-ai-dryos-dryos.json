@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dryos",
+  "description": "Live US power market prices, load, generation, weather and permits for AI agents.",
+  "packageName": "@alphesdk-remote/ai-dryos-dryos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dryos.ai/mcp"
+    }
+  ],
+  "url": "https://www.dryos.ai/mcp"
+}

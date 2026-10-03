@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Google Analytics (unofficial)",
+  "description": "Connect Google Analytics to ChatGPT. Query GA4 data in plain English and get instant insights.",
+  "packageName": "@alphesdk-remote/com-safe-mcp-google-analytics-unofficial",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.safe-mcp.com/mcp"
+    }
+  ],
+  "url": "https://safe-mcp.com"
+}

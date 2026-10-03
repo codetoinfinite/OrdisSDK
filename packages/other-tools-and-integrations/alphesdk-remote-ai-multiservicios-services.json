@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Multiservicios services",
+  "description": "Lists Multiservicios services and leaves a request to be contacted. Does not quote, sell or issue.",
+  "packageName": "@alphesdk-remote/ai-multiservicios-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.multiservicios.ai/mcp"
+    }
+  ],
+  "url": "https://mcp.multiservicios.ai/doc"
+}

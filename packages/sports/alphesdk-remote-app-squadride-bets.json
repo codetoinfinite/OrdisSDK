@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SquadRide",
+  "description": "Turn sports picks into one link that opens them, loaded, in any US sportsbook. Free.",
+  "packageName": "@alphesdk-remote/app-squadride-bets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squadride.app/mcp"
+    }
+  ],
+  "url": "https://squadride.app/docs"
+}

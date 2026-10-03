@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "fugentic",
+  "description": "Fugentic helps any business to be found by customers using AI to find products and service.",
+  "packageName": "@alphesdk-remote/ai-fugentic-fugentic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fugentic.mcp.fugentic.ai/mcp"
+    }
+  ],
+  "url": "https://fugentic.mcp.fugentic.ai"
+}

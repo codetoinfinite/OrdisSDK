@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HANRIA agent mandate check",
+  "description": "Check an agent action against its operator's mandate before acting: permit, deny or escalate.",
+  "packageName": "@alphesdk-remote/ai-hanria-agent-mandate-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://check.hanria.ai/v1/mcp"
+    }
+  ],
+  "url": "https://hanria.ai/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Probity Wallet Reputation",
+  "description": "Pre-transaction risk screening for Ethereum addresses: signed score, sanctions, audit trail.",
+  "packageName": "@alphesdk-remote/ai-probitylabs-wallet-reputation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.probitylabs.ai/mcp"
+    }
+  ],
+  "url": "https://www.probitylabs.ai/docs"
+}

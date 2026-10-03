@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SPACEXPLORATION",
+  "description": "Search commercial real estate listings. Reads need no token; authoring is self-serve OAuth (DCR).",
+  "packageName": "@alphesdk-remote/com-spacexploration-listings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spacexploration.com/mcp"
+    }
+  ],
+  "url": "https://spacexploration.com"
+}

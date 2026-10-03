@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zicron medical chronology",
+  "description": "Quote, request and run page-cited medical chronologies for law firms and nurse consultants.",
+  "packageName": "@alphesdk-remote/ai-zicron-claims-medical-chronology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://claims.zicron.ai/mcp"
+    }
+  ],
+  "url": "https://claims.zicron.ai/medical-chronology"
+}

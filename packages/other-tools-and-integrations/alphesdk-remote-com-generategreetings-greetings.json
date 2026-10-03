@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Generate Greetings",
+  "description": "Create family-friendly greeting text and downloadable cards in 13 languages, including Hindi.",
+  "packageName": "@alphesdk-remote/com-generategreetings-greetings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://generategreetings.com/api/mcp"
+    }
+  ],
+  "url": "https://generategreetings.com/connectors"
+}

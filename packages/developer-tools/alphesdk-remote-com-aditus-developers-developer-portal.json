@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ADITUS Developer Portal MCP",
+  "description": "Read-only docs for the ADITUS event-technology APIs (ticketing, access, BI) and Shop Micro Frontend.",
+  "packageName": "@alphesdk-remote/com-aditus-developers-developer-portal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://developers.aditus.com/api/mcp"
+    }
+  ],
+  "url": "https://developers.aditus.com/mcp"
+}

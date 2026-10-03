@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Caliper",
+  "description": "Geometry and CAD file metadata extraction for STL, OBJ, PLY, PCD, LAS/LAZ, glTF/GLB.",
+  "packageName": "@alphesdk-remote/fit-caliper-caliper",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://caliper.fit/mcp/"
+    }
+  ],
+  "url": "https://caliper.fit"
+}

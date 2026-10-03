@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SmartFetch",
+  "description": "Paid fallback for public webpages: clean text, Markdown, links, metadata, and JavaScript rendering.",
+  "packageName": "@alphesdk-remote/io-github-friezaaaa-smartfetch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smartfetch-production-ea53.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Friezaaaa/smartfetch",
+  "readme": "https://github.com/Friezaaaa/smartfetch#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "生活即時查詢",
+  "description": "生活即時查詢：油價、統一發票、國定假日、樂透。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-life",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://life.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://life.penguindriver.com"
+}

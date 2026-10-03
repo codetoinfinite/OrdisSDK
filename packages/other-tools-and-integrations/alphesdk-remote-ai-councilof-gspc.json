@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Council of AI GSPC",
+  "description": "19 tools (14 free, 5 x402-metered): GSPC board, evidence, Ed25519 card verify. Measurement only.",
+  "packageName": "@alphesdk-remote/ai-councilof-gspc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://councilof.ai/mcp/"
+    }
+  ],
+  "url": "https://councilof.ai"
+}

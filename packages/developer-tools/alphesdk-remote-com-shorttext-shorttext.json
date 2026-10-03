@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "shorttext",
+  "description": "Paste short text, get a shareable URL. Read any by slug; create with an API key.",
+  "packageName": "@alphesdk-remote/com-shorttext-shorttext",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shorttext.com/mcp"
+    }
+  ],
+  "url": "https://shorttext.com"
+}

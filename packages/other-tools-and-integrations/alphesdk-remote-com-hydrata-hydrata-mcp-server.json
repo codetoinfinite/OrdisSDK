@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hydrata - ANUGA Flood Simulation",
+  "description": "Run ANUGA flood simulations, track progress, and retrieve results on Hydrata Cloud.",
+  "packageName": "@alphesdk-remote/com-hydrata-hydrata-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hydrata.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/Hydrata/hydrata-mcp-server",
+  "readme": "https://github.com/Hydrata/hydrata-mcp-server#readme"
+}

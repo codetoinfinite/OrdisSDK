@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "deal-tools",
+  "description": "Live index of startups that just raised funding, verified daily. Recent raises, lookups, stats.",
+  "packageName": "@alphesdk-remote/com-raised500-deal-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://raised500.com/api/mcp"
+    }
+  ],
+  "url": "https://raised500.com"
+}

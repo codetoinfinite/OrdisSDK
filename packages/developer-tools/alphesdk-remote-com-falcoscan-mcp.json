@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FalcoScan",
+  "description": "AI market intelligence on 7,000+ AI products in 29 markets. API, MCP and dashboard at falcoscan.com.",
+  "packageName": "@alphesdk-remote/com-falcoscan-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://falcoscan.com/api/mcp"
+    }
+  ],
+  "url": "https://falcoscan.com/mcp"
+}

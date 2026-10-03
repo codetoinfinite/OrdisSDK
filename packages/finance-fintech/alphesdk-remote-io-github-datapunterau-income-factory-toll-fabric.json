@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Income Factory Toll Fabric",
+  "description": "Eight metered machine-intelligence tools for AI agents with native x402 payment paths.",
+  "packageName": "@alphesdk-remote/io-github-datapunterau-income-factory-toll-fabric",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://income-factory-utility-gateway-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/DataPunterAU/IncomeFactory-Toll-Fabric",
+  "readme": "https://github.com/DataPunterAU/IncomeFactory-Toll-Fabric#readme"
+}

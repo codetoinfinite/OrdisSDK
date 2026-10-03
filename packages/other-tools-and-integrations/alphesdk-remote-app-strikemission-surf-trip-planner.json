@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "surf-trip-planner",
+  "description": "Surf trip planner: live 0-100 Strike Scores, 10-day forecasts, and trip picks for 1,100+ spots.",
+  "packageName": "@alphesdk-remote/app-strikemission-surf-trip-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.strikemission.app/api/mcp"
+    }
+  ]
+}

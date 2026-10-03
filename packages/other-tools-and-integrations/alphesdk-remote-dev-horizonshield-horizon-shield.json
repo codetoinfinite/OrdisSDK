@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "horizon-shield",
+  "description": "Buyer-side fair-price checks for Japanese renovation quotes; cost data is on a separate server.",
+  "packageName": "@alphesdk-remote/dev-horizonshield-horizon-shield",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.horizonshield.dev/mcp"
+    }
+  ]
+}

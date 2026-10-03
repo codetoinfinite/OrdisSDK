@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Rockmoon Financial Data",
+  "description": "Cross-market (US/JP/KR) structured financials, segments, ownership & metrics, traceable to filings.",
+  "packageName": "@alphesdk-remote/ai-rockmoon-financial-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rockmoon.ai/mcp"
+    }
+  ]
+}

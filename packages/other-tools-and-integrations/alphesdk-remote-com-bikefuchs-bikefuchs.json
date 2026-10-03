@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bikefuchs — Bike Parts Price Comparison",
+  "description": "Price comparison & cart optimizer for bike parts across German & Austrian shops",
+  "packageName": "@alphesdk-remote/com-bikefuchs-bikefuchs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bikefuchs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/bikefuchs/bikefuchs-mcp-stub",
+  "readme": "https://github.com/bikefuchs/bikefuchs-mcp-stub#readme"
+}

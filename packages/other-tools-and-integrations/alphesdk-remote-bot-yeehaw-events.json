@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "events",
+  "description": "Agent-first Austin events concierge — fresh, sourced answers to what's happening in Austin.",
+  "packageName": "@alphesdk-remote/bot-yeehaw-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yeehaw.bot/mcp"
+    }
+  ],
+  "url": "https://github.com/capitalthought/yeehaw-mcp",
+  "readme": "https://github.com/capitalthought/yeehaw-mcp#readme"
+}

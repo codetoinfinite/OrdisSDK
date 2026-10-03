@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Travel Per Diem & Allowance Calculator",
+  "description": "Compliant per diems in one call: official US GSA, German BMF and UK HMRC rates, with a trip…",
+  "packageName": "@alphesdk-remote/com-syntropicapi-travel-per-diem",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syntropicapi.com/mcp/travel-per-diem/mcp"
+    }
+  ],
+  "url": "https://syntropicapi.com/apis/travel-per-diem"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Assetize — IBM Maximo knowledge",
+  "description": "Cited IBM Maximo and MAS answers: upgrades, error codes, gotchas, versions and lifecycle.",
+  "packageName": "@alphesdk-remote/au-com-assetize-maximo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://assetize.com.au/mcp"
+    }
+  ],
+  "url": "https://github.com/softwarecomparereview/Assetize",
+  "readme": "https://github.com/softwarecomparereview/Assetize#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stonewake",
+  "description": "Seventeen read only tools over cited company, portfolio and country data for bank credit desks.",
+  "packageName": "@alphesdk-remote/ai-stonewake-stonewake",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stonewake.ai/mcp"
+    }
+  ],
+  "url": "https://docs.stonewake.ai/mcp"
+}

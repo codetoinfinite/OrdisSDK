@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Finish Grid",
+  "description": "A finishing tool, not a to-do list: file tasks, read today's plan, and work dispatched queues.",
+  "packageName": "@alphesdk-remote/com-thefinishgrid-finish-grid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thefinishgrid.com/mcp"
+    }
+  ],
+  "url": "https://thefinishgrid.com/developers"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Skill of Skills",
+  "description": "Quality-ranked, cross-platform directory of AI coding skills, plugins and MCP servers.",
+  "packageName": "@alphesdk-remote/io-911fund-skills-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skills.911fund.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/the911fund/skill-of-skills",
+  "readme": "https://github.com/the911fund/skill-of-skills#readme"
+}

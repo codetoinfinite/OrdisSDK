@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "World Airfares Flight Search",
+  "description": "Flight search MCP server providing search, pagination, and itinerary details for AI assistants.",
+  "packageName": "@alphesdk-remote/com-worldairfares-flights-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.worldairfares.com"
+    }
+  ]
+}

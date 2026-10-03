@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "A Corrida dos Bairros: preço do m² por bairro",
+  "description": "Preço do m² por bairro em 109 cidades do Brasil, nos 27 estados. Dados abertos, todo mês.",
+  "packageName": "@alphesdk-remote/br-com-acorridadosbairros-metro-quadrado",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://corrida.metroquadrado.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/minutojaragua/metro-quadrado",
+  "readme": "https://github.com/minutojaragua/metro-quadrado#readme"
+}

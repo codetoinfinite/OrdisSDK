@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Andrew's Freebies",
+  "description": "Find evidence-backed U.S. free trials and savings; public benefits are available by explicit scope.",
+  "packageName": "@alphesdk-remote/com-andrewsfreebies-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://andrewsfreebies.com/api/mcp"
+    }
+  ],
+  "url": "https://andrewsfreebies.com/agents"
+}

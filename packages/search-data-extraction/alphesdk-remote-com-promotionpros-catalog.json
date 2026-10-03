@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Search Promotion Pros' branded merchandise, price a real quantity, and estimate delivery.",
+  "packageName": "@alphesdk-remote/com-promotionpros-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.promotionpros.com/mcp"
+    }
+  ],
+  "url": "https://github.com/borissedov/pp-static-edge",
+  "readme": "https://github.com/borissedov/pp-static-edge#readme"
+}

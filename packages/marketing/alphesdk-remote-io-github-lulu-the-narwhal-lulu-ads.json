@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lulu Ads — Publisher Concierge",
+  "description": "Self-serve publisher onboarding for Lulu Ads. 70% CPA, disclosed sponsored field.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-lulu-ads",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-ads",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-ads#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "guide-registry",
+  "description": "Read-only Bicycle Guide registry: published guides, homes, taxonomy, capability spine. No auth.",
+  "packageName": "@alphesdk-remote/guide-governmentleader-guide-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://governmentleader.guide/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/bicycle-guide",
+  "readme": "https://github.com/people-analyst/bicycle-guide#readme"
+}

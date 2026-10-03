@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Read-only MCP for deali.co.il: search Israeli AliExpress deals, products and Hebrew guides.",
+  "packageName": "@alphesdk-remote/il-co-deali-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.deali.co.il/mcp"
+    }
+  ],
+  "url": "https://www.deali.co.il"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "YouTube Transcript AI",
+  "description": "Fetch the full transcript of any YouTube video as clean text. No API key, no signup.",
+  "packageName": "@alphesdk-remote/ai-youtube-transcript-youtube-transcript",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://youtube-transcript.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/zxl777/youtube-transcript-mcp",
+  "readme": "https://github.com/zxl777/youtube-transcript-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "shadcn/ui",
+  "description": "shadcn CLI's MCP mode for browsing and installing components from registries.",
+  "packageName": "shadcn",
+  "packageVersion": "4.21.1",
+  "runtime": "node",
+  "bin": "shadcn",
+  "binArgs": [
+    "mcp"
+  ],
+  "readme": "https://ui.shadcn.com/docs/mcp",
+  "url": "https://github.com/shadcn-ui/ui",
+  "author": "shadcn",
+  "env": {}
+}

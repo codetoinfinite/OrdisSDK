@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Neon (remote)",
+  "description": "Hosted Neon Postgres server for managing projects and branches, running SQL and migrations.",
+  "packageName": "@alphesdk-remote/neon-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.neon.tech/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://neon.com/docs/ai/neon-mcp-server",
+  "url": "https://github.com/neondatabase/mcp-server-neon",
+  "author": "Neon",
+  "env": {}
+}

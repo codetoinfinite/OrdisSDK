@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "x711 — Universal Agent Gas Station",
+  "description": "Pay-per-use tool API for AI agents. Free tier, x402 USDC micropayments, or API key.",
+  "packageName": "@alphesdk-remote/io-github-0580iris-lang-x711-gas-station",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x711.io/mcp"
+    }
+  ],
+  "url": "https://x711.io"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "arch-tools-mcp",
+  "description": "63 production tools for AI agents — one API key, pay per call in USDC (x402) or Stripe credits.",
+  "packageName": "@alphesdk-remote/io-github-deesmo-arch-tools-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://archtools.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Deesmo/Arch-AI-Tools",
+  "readme": "https://github.com/Deesmo/Arch-AI-Tools#readme"
+}

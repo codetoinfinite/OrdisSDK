@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AV女優判定AI",
+  "description": "日本の成人向け作品 (18歳以上) の出演者・作品検索。画像からの出演者判定はサイトで発行する認証コードが必要。",
+  "packageName": "@alphesdk-remote/com-ai-for-av-ai-for-av",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-for-av.com/mcp"
+    }
+  ],
+  "url": "https://ai-for-av.com/ai-assistant"
+}

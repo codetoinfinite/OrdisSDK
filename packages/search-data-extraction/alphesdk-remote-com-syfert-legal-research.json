@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Syfert Legal Research",
+  "description": "Verify legal citations, case treatment, quotes and whole briefs against 10.7M U.S. opinions",
+  "packageName": "@alphesdk-remote/com-syfert-legal-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.syfert.com/mcp"
+    }
+  ],
+  "url": "https://syfert.com/mcp/"
+}

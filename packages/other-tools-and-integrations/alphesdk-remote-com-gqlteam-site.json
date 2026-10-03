@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GQLTeam (Dan Podina)",
+  "description": "Services, case studies, articles and contact details of software architect Dan Podina.",
+  "packageName": "@alphesdk-remote/com-gqlteam-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gqlteam.com/mcp"
+    }
+  ],
+  "url": "https://github.com/pedeceul/gqlteam-new",
+  "readme": "https://github.com/pedeceul/gqlteam-new#readme"
+}

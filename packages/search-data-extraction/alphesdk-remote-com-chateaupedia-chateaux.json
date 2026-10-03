@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Chateaupedia",
+  "description": "Search 10,500 French castles and read verified entries: hours, prices, accessibility.",
+  "packageName": "@alphesdk-remote/com-chateaupedia-chateaux",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chateaupedia.com/mcp"
+    }
+  ],
+  "url": "https://chateaupedia.com"
+}

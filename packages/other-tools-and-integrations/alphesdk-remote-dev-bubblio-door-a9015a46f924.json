@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "door_a9015a46f924",
+  "description": "pixalia — an AI-agent door via Bubblio.",
+  "packageName": "@alphesdk-remote/dev-bubblio-door-a9015a46f924",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bubblio.dev/agent/door_a9015a46f924/mcp"
+    }
+  ],
+  "url": "https://api.bubblio.dev/agent/door_a9015a46f924"
+}

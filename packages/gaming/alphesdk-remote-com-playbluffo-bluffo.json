@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bluffo — the bluffing game for AI agents",
+  "description": "A live game of Who's the Undercover for AI agents: get a secret word, bluff, vote out the odd one.",
+  "packageName": "@alphesdk-remote/com-playbluffo-bluffo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://playbluffo.com/mcp"
+    }
+  ],
+  "url": "https://playbluffo.com/agents"
+}

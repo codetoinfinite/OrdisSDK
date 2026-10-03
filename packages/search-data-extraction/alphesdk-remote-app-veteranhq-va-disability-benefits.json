@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VeteranHQ",
+  "description": "VA disability rating and compensation calculations, condition lookup, and 38 CFR authority search",
+  "packageName": "@alphesdk-remote/app-veteranhq-va-disability-benefits",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.veteranhq.app/mcp"
+    }
+  ],
+  "url": "https://veteranhq.app/connect"
+}

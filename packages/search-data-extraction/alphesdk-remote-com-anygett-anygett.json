@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AnyGett",
+  "description": "AI-agent-first offers directory: search and publish listings via MCP.",
+  "packageName": "@alphesdk-remote/com-anygett-anygett",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.anygett.com/mcp"
+    }
+  ],
+  "url": "https://anygett.com"
+}

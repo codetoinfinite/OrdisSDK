@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SuperSkill Registry",
+  "description": "Find, inspect and install reviewed reusable AI-agent capabilities from superskill.sh.",
+  "packageName": "@alphesdk-remote/com-onlyharness-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://superskill.sh/mcp"
+    }
+  ],
+  "url": "https://github.com/elvismusli/onlyharness",
+  "readme": "https://github.com/elvismusli/onlyharness#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gemalli B2B Trade",
+  "description": "Global B2B trade: verified manufacturers, product search, sanctions screening, HS codes.",
+  "packageName": "@alphesdk-remote/com-gemalli-trade",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gemalli.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/GEMALLI-ORG/gemalli.com_prod",
+  "readme": "https://github.com/GEMALLI-ORG/gemalli.com_prod#readme"
+}

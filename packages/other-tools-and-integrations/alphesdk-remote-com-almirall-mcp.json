@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Almirall MCP",
+  "description": "Official Almirall company, product and brand info: Almax, Hidroxil, Calmatel, Cicopoli and more.",
+  "packageName": "@alphesdk-remote/com-almirall-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.almirall.com/mcp"
+    }
+  ],
+  "url": "https://www.almirall.com"
+}

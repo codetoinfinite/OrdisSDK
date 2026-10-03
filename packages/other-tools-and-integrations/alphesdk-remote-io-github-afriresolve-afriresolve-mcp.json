@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AfriResolve",
+  "description": "African intelligence infrastructure for AI apps, developers, and data products via MCP.",
+  "packageName": "@alphesdk-remote/io-github-afriresolve-afriresolve-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afriresolve-mcp.afriresolve28.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AFRIRESOLVE/afriresolve-mcp",
+  "readme": "https://github.com/AFRIRESOLVE/afriresolve-mcp#readme"
+}

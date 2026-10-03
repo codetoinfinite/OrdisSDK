@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Saymon RU Data API",
+  "description": "Russian company lookup (EGRUL/INN), Cyrillic search, RU page to Markdown. Pay per call in USDC.",
+  "packageName": "@alphesdk-remote/com-payforapi-saymon-ru-data-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://payforapi.com/mcp"
+    }
+  ]
+}

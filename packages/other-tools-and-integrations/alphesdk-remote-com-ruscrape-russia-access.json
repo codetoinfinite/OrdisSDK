@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "x402 Market Intelligence + Russian Web Access",
+  "description": "Check x402 endpoints before paying: liveness, price history, farm detection. Plus RU web access.",
+  "packageName": "@alphesdk-remote/com-ruscrape-russia-access",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ruscrape.com/mcp"
+    }
+  ],
+  "url": "https://ruscrape.com/pricing"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "mcp-server",
+  "name": "Mailgun",
+  "description": "Send email and inspect Mailgun domains, events, stats and deliverability.",
+  "packageName": "@mailgun/mcp-server",
+  "packageVersion": "2.1.3",
+  "runtime": "node",
+  "readme": "https://github.com/mailgun/mailgun-mcp-server",
+  "url": "https://github.com/mailgun/mailgun-mcp-server",
+  "author": "Mailgun (Sinch)",
+  "env": {
+    "MAILGUN_API_KEY": {
+      "description": "Mailgun API key",
+      "required": true
+    },
+    "MAILGUN_API_REGION": {
+      "description": "Set to eu for EU-hosted accounts",
+      "required": false
+    }
+  },
+  "bin": "mcp-server"
+}

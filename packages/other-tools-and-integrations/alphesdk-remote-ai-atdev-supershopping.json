@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "supershopping",
+  "description": "나만을 위한 AI 쇼핑 MCP — 상품을 자연어로 검색·비교·추천해 사용자의 효과적인 쇼핑을 돕습니다.",
+  "packageName": "@alphesdk-remote/ai-atdev-supershopping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://supershopping-mcp.atdev.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/alex-hoyeol-choi/headless-commerce",
+  "readme": "https://github.com/alex-hoyeol-choi/headless-commerce#readme"
+}

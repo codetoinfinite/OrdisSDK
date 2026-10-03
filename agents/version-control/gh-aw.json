@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "gh-aw",
+  "name": "GitHub Agentic Workflows",
+  "description": "GitHub CLI extension that turns Markdown-defined workflows into GitHub Actions jobs run by a coding agent with guardrails.",
+  "category": "version-control",
+  "tags": ["github-actions", "automation", "markdown-workflows", "ci", "gh-extension"],
+  "repo": "https://github.com/github/gh-aw",
+  "docs": "https://github.github.com/gh-aw/",
+  "publisher": "GitHub",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Maintainers describe repository automation such as issue triage, reports or code upkeep in natural language, and an AI engine carries it out inside GitHub Actions.",
+  "howItWorks": "Each workflow is a Markdown file with YAML frontmatter for triggers, permissions, tools and engine; gh aw compile produces a locked Actions workflow. Agent jobs are read-only and sandboxed by default, with writes applied through validated safe-output jobs.",
+  "requirements": [
+    {
+      "name": "GitHub CLI",
+      "kind": "runtime",
+      "required": true,
+      "description": "Extension host"
+    },
+    {
+      "name": "AI engine credentials",
+      "kind": "account",
+      "required": true,
+      "description": "For the chosen engine, e.g. GitHub Copilot, Claude Code, Codex or Gemini"
+    }
+  ],
+  "install": ["gh extension install github/gh-aw"],
+  "run": [],
+  "interfaces": ["cli"],
+  "language": "Go",
+  "models": "GitHub Copilot, Claude Code, OpenAI Codex, Google Gemini engines",
+  "mcp": "client",
+  "github": {
+    "stars": 5339,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

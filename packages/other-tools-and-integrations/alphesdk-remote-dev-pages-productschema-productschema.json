@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "productschema",
+  "description": "Audit a store's product page and get the JSON-LD Product markup it is missing. No account.",
+  "packageName": "@alphesdk-remote/dev-pages-productschema-productschema",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://productschema.pages.dev/mcp"
+    }
+  ],
+  "url": "https://productschema.pages.dev/"
+}

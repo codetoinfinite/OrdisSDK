@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TrueProxies",
+  "description": "Plans, services, usage, invoices, endpoints and connection checks for your TrueProxies account",
+  "packageName": "@alphesdk-remote/com-trueproxies-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trueproxies.com/mcp"
+    }
+  ],
+  "url": "https://github.com/trueproxies-com/trueproxies-mcp",
+  "readme": "https://github.com/trueproxies-com/trueproxies-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ChronoKey",
+  "description": "MCP tools: timestamps, UUID v4, gas prices, domain WHOIS, text extraction, and persistent memory.",
+  "packageName": "@alphesdk-remote/io-github-dyln01-chronokey",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bot.chronokey.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Dyln01/ChronoKey",
+  "readme": "https://github.com/Dyln01/ChronoKey#readme"
+}

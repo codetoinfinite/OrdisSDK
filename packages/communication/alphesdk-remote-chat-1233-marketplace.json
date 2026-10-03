@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "1233.chat",
+  "description": "Search goods and services listings on 1233.chat, a classifieds board in Bishkek, Kyrgyzstan.",
+  "packageName": "@alphesdk-remote/chat-1233-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://1233.chat/mcp"
+    }
+  ],
+  "url": "https://1233.chat"
+}

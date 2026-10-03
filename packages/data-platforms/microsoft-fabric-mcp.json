@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "name": "Microsoft Fabric",
+  "description": "Microsoft Fabric API specs, best practices and workspace item operations.",
+  "packageName": "@microsoft/fabric-mcp",
+  "packageVersion": "1.4.0",
+  "runtime": "node",
+  "binArgs": [
+    "server",
+    "start",
+    "--mode",
+    "all"
+  ],
+  "readme": "https://github.com/microsoft/mcp",
+  "url": "https://github.com/microsoft/mcp",
+  "author": "Microsoft",
+  "env": {}
+}

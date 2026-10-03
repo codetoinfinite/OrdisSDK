@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "graham-number-calculator",
+  "description": "Benjamin Graham's fair-value ceiling and margin of safety for a US-listed ticker.",
+  "packageName": "@alphesdk-remote/com-edgethirteen-www-graham-number-calculator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.edgethirteen.com/api/mcp/graham-number-calculator"
+    }
+  ],
+  "url": "https://www.edgethirteen.com/tools/graham-number-calculator"
+}

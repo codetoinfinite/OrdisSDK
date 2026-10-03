@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "aikstockdata — Korean Stock Data",
+  "description": "Korean stocks: median price path after each DART filing type, T+1 closes, earnings. 12 tools, no key",
+  "packageName": "@alphesdk-remote/com-aikstockdata-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aikstockdata.com/mcp"
+    }
+  ],
+  "url": "https://github.com/na77tech-creator/aikstockdata",
+  "readme": "https://github.com/na77tech-creator/aikstockdata#readme"
+}

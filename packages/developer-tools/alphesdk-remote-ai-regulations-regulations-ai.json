@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Regulations.ai — Global AI Law Tracker",
+  "description": "AI laws from 110+ countries, enforcement actions and a 3,900-term glossary. Free, no API key.",
+  "packageName": "@alphesdk-remote/ai-regulations-regulations-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regulations.ai/api/mcp/v1"
+    }
+  ],
+  "url": "https://github.com/martinsmitcom/regulationsai",
+  "readme": "https://github.com/martinsmitcom/regulationsai#readme"
+}

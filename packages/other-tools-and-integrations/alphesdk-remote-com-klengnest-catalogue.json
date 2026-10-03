@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "klengnest",
+  "description": "Baby gear to buy, with researched options and prices in euros. Free to read, no account.",
+  "packageName": "@alphesdk-remote/com-klengnest-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://klengnest.com/mcp"
+    }
+  ],
+  "url": "https://klengnest.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Entogo power-equipment knowledge & tools",
+  "description": "Entogo (Canada) transformers, switchgear, BESS, EV charging: catalogue, lead times, EV sizing, RFQ",
+  "packageName": "@alphesdk-remote/ca-entogo-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entogo.ca/mcp"
+    }
+  ],
+  "url": "https://entogo.ca/"
+}

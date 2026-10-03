@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Sigistry Plugin Catalog (formerly Claude Registry)",
+  "description": "Renamed: prefer com.sigistry/plugin-catalog. This legacy endpoint keeps working.",
+  "packageName": "@alphesdk-remote/com-clauderegistry-plugin-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clauderegistry.com/mcp"
+    }
+  ]
+}

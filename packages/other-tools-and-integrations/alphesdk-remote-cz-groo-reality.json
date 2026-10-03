@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GROO reality",
+  "description": "Nabídka nemovitostí GROO reality — byty, domy a pozemky v Praze a okolí. Jen pro čtení, bez klíče.",
+  "packageName": "@alphesdk-remote/cz-groo-reality",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.groo.cz/mcp"
+    }
+  ],
+  "url": "https://www.groo.cz/pro-ai"
+}

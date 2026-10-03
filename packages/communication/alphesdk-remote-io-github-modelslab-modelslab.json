@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ModelsLab",
+  "description": "Generate images, video, speech and music, and run LLM chat, across 10,000+ models on ModelsLab.",
+  "packageName": "@alphesdk-remote/io-github-modelslab-modelslab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modelslab.com/mcp/v7"
+    }
+  ],
+  "url": "https://github.com/ModelsLab/modelslab-mcp",
+  "readme": "https://github.com/ModelsLab/modelslab-mcp#readme"
+}

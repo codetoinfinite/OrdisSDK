@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Flamel Public Content",
+  "description": "Read-only MCP server for Flamel.ai's public content: company overview, blog, case studies, FAQs.",
+  "packageName": "@alphesdk-remote/ai-flamel-public-content",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.flamel.ai/mcp"
+    }
+  ],
+  "url": "https://flamel.ai"
+}

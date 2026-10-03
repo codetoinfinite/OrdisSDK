@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Japan Business Day",
+  "description": "Japan business days & holidays (official Cabinet Office data). Free tool + x402 USDC paid tools.",
+  "packageName": "@alphesdk-remote/io-github-rira365-japan-business-day",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://japan-business-day-api.matchan962.workers.dev/mcp"
+    }
+  ]
+}

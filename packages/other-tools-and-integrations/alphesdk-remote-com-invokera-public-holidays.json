@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Public Holidays",
+  "description": "Public holidays for 100+ countries — by year, or the next ones coming up. Via Nager.Date.",
+  "packageName": "@alphesdk-remote/com-invokera-public-holidays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/r/public-holidays"
+    }
+  ],
+  "url": "https://invokera.com/mcp/public-holidays"
+}

@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "marginalia-search",
+  "packageName": "github:bmorphism/marginalia-mcp-server#7dc65f945db4bc74291df59fc576d4136dc9eb6b",
   "description": "Integrates Marginalia Search to discover non-commercial and independent web content for research, trend analysis, and alternative perspectives.",
   "url": "https://github.com/bmorphism/marginalia-mcp-server",
   "runtime": "node",

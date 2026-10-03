@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "website-search",
+  "description": "Improve security writing, score it against rubrics, plan IR, CTI, vuln, and product strategy.",
+  "packageName": "@alphesdk-remote/com-zeltser-website-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://website-mcp.zeltser.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lennyzeltser/zeltser-website-mcp-server",
+  "readme": "https://github.com/lennyzeltser/zeltser-website-mcp-server#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SigRank — AI Operator Benchmarking",
+  "description": "SigRank benchmark MCP: cascade metrics, leaderboard, operator profiles, simulation, diagnostics.",
+  "packageName": "@alphesdk-remote/com-signalaf-sigrank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signalaf.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/SunrisesIllNeverSee/sigrank-app",
+  "readme": "https://github.com/SunrisesIllNeverSee/sigrank-app#readme"
+}

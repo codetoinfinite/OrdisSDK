@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Daily Studio Teleprompter",
+  "description": "Send a shoot's worth of scripts to the Daily Studio teleprompter on iPhone, in one link.",
+  "packageName": "@alphesdk-remote/app-dailystudio-teleprompter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dailystudio.app/mcp"
+    }
+  ],
+  "url": "https://dailystudio.app"
+}

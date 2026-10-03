@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vahada — Turkish drink prices",
+  "description": "Real drink prices in Turkish bars: cheapest by district, live happy hours, venues near you.",
+  "packageName": "@alphesdk-remote/com-getvahada-vahada",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getvahada.com/mcp"
+    }
+  ],
+  "url": "https://getvahada.com"
+}

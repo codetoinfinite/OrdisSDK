@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "financial-calculators",
+  "description": "Financial calculators over MCP: compound interest, FIRE, historical returns, deep links, 6 languages",
+  "packageName": "@alphesdk-remote/com-smartmoney77-financial-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smartmoney77.com/mcp"
+    }
+  ],
+  "url": "https://smartmoney77.com"
+}

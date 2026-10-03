@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "izHost",
+  "description": "izHost public read-only MCP: service pricing and live domain availability lookup.",
+  "packageName": "@alphesdk-remote/com-izhost-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.izhost.com"
+    }
+  ],
+  "url": "https://izhost.com/en/tools/ai-connect"
+}

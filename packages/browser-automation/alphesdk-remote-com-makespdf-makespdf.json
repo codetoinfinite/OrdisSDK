@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "makespdf",
+  "description": "Compliant PDFs (PDF/A-2A + PDF/UA-1) from markdown or a compact DSL - fast, no headless browser.",
+  "packageName": "@alphesdk-remote/com-makespdf-makespdf",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://makespdf.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://makespdf.com/docs/mcp?ref=mcp-registry"
+}

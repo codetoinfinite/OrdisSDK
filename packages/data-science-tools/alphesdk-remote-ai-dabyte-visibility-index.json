@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DABYTE AI Visibility Index",
+  "description": "Measured share of answer for 20 SaaS brands. An open dataset, not an audit of your site.",
+  "packageName": "@alphesdk-remote/ai-dabyte-visibility-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dabyte.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/creanlab/ai-visibility-index",
+  "readme": "https://github.com/creanlab/ai-visibility-index#readme"
+}

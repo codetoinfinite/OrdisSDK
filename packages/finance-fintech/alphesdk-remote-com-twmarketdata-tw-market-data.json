@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tw-market-data",
+  "description": "Taiwan stock market data (TWMD): official-source, point-in-time-safe datasets via read-only tools.",
+  "packageName": "@alphesdk-remote/com-twmarketdata-tw-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.twmarketdata.com/mcp"
+    }
+  ],
+  "url": "https://twmarketdata.com"
+}

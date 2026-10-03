@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nearwick business directory",
+  "description": "Businesses in every country, each with dated facts and no ratings. Read-only.",
+  "packageName": "@alphesdk-remote/com-nearwick-nearwick",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nearwick.com/mcp"
+    }
+  ],
+  "url": "https://nearwick.com"
+}

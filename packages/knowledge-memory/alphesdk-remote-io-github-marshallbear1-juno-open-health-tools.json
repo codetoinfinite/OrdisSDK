@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Juno Open Health Tools",
+  "description": "Consent-gated tools that turn user health notes into non-diagnostic appointment-prep materials.",
+  "packageName": "@alphesdk-remote/io-github-marshallbear1-juno-open-health-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://juno-health-tools.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/MarshallBear1/juno-open-health-tools",
+  "readme": "https://github.com/MarshallBear1/juno-open-health-tools#readme"
+}

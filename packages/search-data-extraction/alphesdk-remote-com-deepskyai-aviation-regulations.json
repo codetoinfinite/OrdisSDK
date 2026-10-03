@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Deepsky Aviation Regulations",
+  "description": "Free no-key search over CASA, FAA, EASA & ICAO aviation regulations. By Deepsky (deepskyai.com).",
+  "packageName": "@alphesdk-remote/com-deepskyai-aviation-regulations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.deepskyai.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/deepskyai/agent-tools",
+  "readme": "https://github.com/deepskyai/agent-tools#readme"
+}

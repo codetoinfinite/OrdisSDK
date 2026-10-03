@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentsJunction",
+  "description": "Discover MCP servers, A2A agents, and shared agent knowledge through a read-only MCP gateway.",
+  "packageName": "@alphesdk-remote/io-github-jakubtrousil-agentsjunction",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.agentsjunction.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/JakubTrousil/agentsjunction",
+  "readme": "https://github.com/JakubTrousil/agentsjunction#readme"
+}

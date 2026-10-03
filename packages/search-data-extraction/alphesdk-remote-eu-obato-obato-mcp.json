@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Obato",
+  "description": "Search boats for sale or rent, marinas and live market stats on Obato, Europe's boat marketplace.",
+  "packageName": "@alphesdk-remote/eu-obato-obato-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://obato.eu/mcp"
+    }
+  ],
+  "url": "https://obato.eu/verbind-je-ai-assistent"
+}

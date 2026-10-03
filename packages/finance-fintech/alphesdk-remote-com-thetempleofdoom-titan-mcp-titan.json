@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "titan",
+  "description": "GPU compute API: LLM inference (ornith-1.5) on RTX 4080, pay-per-credit in Bitcoin.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-titan-mcp-titan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://titan-mcp.thetempleofdoom.com/mcp"
+    }
+  ]
+}

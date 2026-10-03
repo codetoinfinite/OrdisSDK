@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Let Agents In",
+  "description": "Scan agent readiness, or find measured providers an unattended AI agent can finish with.",
+  "packageName": "@alphesdk-remote/com-letagentsin-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://letagentsin.com/mcp"
+    }
+  ],
+  "url": "https://letagentsin.com"
+}

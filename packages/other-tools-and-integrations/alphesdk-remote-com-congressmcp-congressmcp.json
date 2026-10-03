@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CongressMCP",
+  "description": "Federal and 50-state legislative data for AI: bills, text, votes, members, and committees.",
+  "packageName": "@alphesdk-remote/com-congressmcp-congressmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.congressmcp.com/mcp"
+    }
+  ],
+  "url": "https://www.congressmcp.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FlightFinder Aviation Safety Data",
+  "description": "Aviation accident narratives from 128 official authorities, plus FAA wildlife, laser and drone data",
+  "packageName": "@alphesdk-remote/com-himaxym-flightfinder-aviation-safety",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://himaxym.com/mcp"
+    }
+  ],
+  "url": "https://himaxym.com/developers"
+}

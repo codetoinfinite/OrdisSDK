@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WebLens",
+  "description": "Scrape, crawl, map and extract the web. Pay per call in USDC, no account or API key.",
+  "packageName": "@alphesdk-remote/dev-weblens-weblens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.weblens.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/vasilistotskas/weblens",
+  "readme": "https://github.com/vasilistotskas/weblens#readme"
+}

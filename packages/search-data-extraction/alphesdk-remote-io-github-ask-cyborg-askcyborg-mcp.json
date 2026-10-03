@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AskCyborg",
+  "description": "Analyst-debate research on every public and private company. 8 tools: search, score, compare, more.",
+  "packageName": "@alphesdk-remote/io-github-ask-cyborg-askcyborg-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.askcyborg.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Ask-Cyborg/askcyborg-mcp",
+  "readme": "https://github.com/Ask-Cyborg/askcyborg-mcp#readme"
+}

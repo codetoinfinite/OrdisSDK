@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GetRegisters: free source-backed practitioner tools",
+  "description": "Free source-backed NDIS pricing, packaging, care and licensing tools; searchable register previews.",
+  "packageName": "@alphesdk-remote/io-github-raycerossum-getregisters",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getregisters.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://getregisters.com/agents.html"
+}

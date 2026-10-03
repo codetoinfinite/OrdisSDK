@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PasteApply",
+  "description": "Honest resume/cover tailor for agents. Free generate; Stripe unlock for downloads. Streamable HTTP.",
+  "packageName": "@alphesdk-remote/com-pasteapply-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pasteapply.com/mcp"
+    }
+  ],
+  "url": "https://pasteapply.com"
+}

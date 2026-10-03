@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "nanoclaw",
+  "name": "NanoClaw",
+  "description": "Small AI assistant that runs each agent in its own Linux container, with per-agent identity and memory in chat.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-assistant", "containers", "isolation", "slack", "small-codebase"],
+  "repo": "https://github.com/nanocoai/nanoclaw",
+  "homepage": "https://nanoclaw.dev",
+  "publisher": "NanoCo",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Offers the core of an always-on personal assistant in a code base small enough to audit. Teammate agents can be spawned from chat, each with its own bot identity, container and memory, sharing rooms and canvases.",
+  "howItWorks": "A single process coordinates agents that execute inside containers with filesystem isolation. The setup script installs Node, pnpm and Docker when missing, sets up a credential gateway and provisions a Slack app per agent.",
+  "requirements": [
+    {
+      "name": "macOS or Linux",
+      "kind": "runtime",
+      "required": true,
+      "description": "Windows is supported through WSL2"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Container runtime for agents, installed by the script if absent"
+    },
+    {
+      "name": "Slack workspace",
+      "kind": "account",
+      "required": false,
+      "description": "For the Slack channel integration"
+    }
+  ],
+  "install": ["git clone https://github.com/nanocoai/nanoclaw.git nanoclaw-v2", "cd nanoclaw-v2"],
+  "run": ["bash nanoclaw.sh"],
+  "interfaces": ["chat", "cli"],
+  "language": "TypeScript",
+  "models": "Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 30863,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

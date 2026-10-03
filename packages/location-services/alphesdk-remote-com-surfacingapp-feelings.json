@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Surfacing Feelings",
+  "description": "Helps people name what they feel: 796 feeling words and a body map of 243 sensations.",
+  "packageName": "@alphesdk-remote/com-surfacingapp-feelings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://surfacing-mcp.knightcorrick.workers.dev/mcp"
+    }
+  ],
+  "url": "https://surfacingapp.com/feelings.html"
+}

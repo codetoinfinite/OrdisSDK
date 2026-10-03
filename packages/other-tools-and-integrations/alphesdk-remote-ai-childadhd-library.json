@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "library",
+  "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
+  "packageName": "@alphesdk-remote/ai-childadhd-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://childadhd.ai/api/mcp/v1"
+    }
+  ],
+  "url": "https://childadhd.ai"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MolTrust MCP Server",
+  "description": "Give an agent a verifiable identity, and check another agent's before dealing with it.",
+  "packageName": "@alphesdk-remote/io-github-moltycel-moltrust-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.moltrust.ch/mcp"
+    }
+  ],
+  "url": "https://github.com/MoltyCel/moltrust-mcp-server",
+  "readme": "https://github.com/MoltyCel/moltrust-mcp-server#readme"
+}

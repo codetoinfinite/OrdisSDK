@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Checksum Validator",
+  "description": "Validates Luhn, IBAN, ISBN, EAN/UPC, SWIFT/BIC, and EU VAT checksums and formats.",
+  "packageName": "@alphesdk-remote/com-apished-checksum-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/checksum"
+    }
+  ],
+  "url": "https://apished.com"
+}

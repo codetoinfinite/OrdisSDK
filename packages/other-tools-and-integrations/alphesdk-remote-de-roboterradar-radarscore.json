@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "radarscore",
+  "description": "Evidence-based humanoid robot data: RadarScore ratings, evidence grades A-D, prices, EU availability",
+  "packageName": "@alphesdk-remote/de-roboterradar-radarscore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roboterradar.de/mcp"
+    }
+  ],
+  "url": "https://roboterradar.de/mcp-server/"
+}

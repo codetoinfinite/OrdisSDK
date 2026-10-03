@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BestEOR: EOR pricing and employment costs",
+  "description": "Cited EOR provider fees, coverage and models, plus employer costs in 139 countries.",
+  "packageName": "@alphesdk-remote/co-besteor-eor-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://besteor.co/api/mcp"
+    }
+  ],
+  "url": "https://besteor.co/mcp-server"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pandough",
+  "description": "Flour-first dough plans: yeast, hydration, schedule from flour you own. No API key for plan tools.",
+  "packageName": "@alphesdk-remote/app-pandough-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pandough.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/mikepiechota/pandough",
+  "readme": "https://github.com/mikepiechota/pandough#readme"
+}

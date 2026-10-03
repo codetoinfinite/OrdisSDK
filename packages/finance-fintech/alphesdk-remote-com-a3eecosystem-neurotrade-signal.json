@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "NeuroTrade Signal API",
+  "description": "AI-powered crypto trading signals: direction, confidence, TP/SL, thesis, technicals. 8 strategies.",
+  "packageName": "@alphesdk-remote/com-a3eecosystem-neurotrade-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neurotrade.a3eecosystem.com/mcp"
+    }
+  ]
+}

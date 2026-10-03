@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SSCMFI Bond Calculations",
+  "description": "Industry-standard bond math for AI agents: price, yield, accrued interest, duration, yield-to-worst",
+  "packageName": "@alphesdk-remote/com-sscmfi-bond",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sscmfi.com/api/sscmfiMCPAPI"
+    }
+  ]
+}

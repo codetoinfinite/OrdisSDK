@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Live AI trend radar: trending AI topics, why-trending signals, daily digests. No API key.",
+  "packageName": "@alphesdk-remote/com-buzzradr-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://buzzradr.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/buzzradr/mcp",
+  "readme": "https://github.com/buzzradr/mcp#readme"
+}

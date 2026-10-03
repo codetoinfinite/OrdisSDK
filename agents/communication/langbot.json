@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "langbot",
+  "name": "LangBot",
+  "description": "Platform for building LLM-powered instant-messaging bots and agents on Discord, Telegram, Slack, LINE, WeChat, Lark and others.",
+  "category": "communication",
+  "tags": ["im-bots", "discord", "telegram", "rag", "tool-calling"],
+  "repo": "https://github.com/langbot-app/LangBot",
+  "publisher": "LangBot",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Creates chat bots with multi-turn dialogue, tool calling, multimodal input, streaming replies and a built-in knowledge base. One code base serves many messaging platforms.",
+  "howItWorks": "A Python service connects platform adapters to LLMs and integrates with external agent platforms such as Dify. It is brought up with Docker Compose from the repository's docker directory.",
+  "requirements": [
+    {
+      "name": "Docker Compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Documented quick-start path"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Messaging platform bot credentials",
+      "kind": "account",
+      "required": true,
+      "description": "For each connected chat platform"
+    }
+  ],
+  "install": ["git clone https://github.com/langbot-app/LangBot", "cd LangBot/docker"],
+  "run": ["docker compose --profile all up -d"],
+  "interfaces": ["chat", "web"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 17993,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

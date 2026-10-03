@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Voxhouses (Portugal)",
+  "description": "Property listings in Portugal: search, market stats, comparables, neighbourhoods.",
+  "packageName": "@alphesdk-remote/eu-voxs-voxhouses-pt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.voxhouses.pt/api/mcp"
+    }
+  ],
+  "url": "https://www.voxhouses.pt/"
+}

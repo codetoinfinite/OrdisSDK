@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "pr-agent",
+  "name": "PR-Agent",
+  "description": "AI pull request reviewer that writes reviews, improvement suggestions and answers for GitHub, GitLab, Bitbucket, Azure DevOps and Gitea.",
+  "category": "version-control",
+  "tags": ["code-review", "pull-requests", "github-action", "gitlab", "litellm"],
+  "repo": "https://github.com/The-PR-Agent/pr-agent",
+  "docs": "https://docs.pr-agent.ai",
+  "publisher": "PR-Agent community (originally Qodo)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "PR-Agent inspects a pull request and produces a structured review, concrete code suggestions or answers to questions about the change. Teams run it from a CLI, as a GitHub Action, or as a webhook service. It is now maintained by its community.",
+  "howItWorks": "Each command such as review, improve or ask maps to one focused LLM call. A compression strategy fits large diffs into the context window. Models are accessed through LiteLLM and results are posted back through the git provider's API.",
+  "requirements": [
+    {
+      "name": "OPENAI_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key used in the documented quick start"
+    },
+    {
+      "name": "GITHUB_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Token for the GitHub Action to comment on pull requests"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the pip-installed CLI"
+    }
+  ],
+  "install": ["pip install pr-agent"],
+  "run": [
+    "export OPENAI_KEY=your_key_here",
+    "pr-agent --pr_url https://github.com/owner/repo/pull/123 review"
+  ],
+  "interfaces": ["cli", "api", "chat"],
+  "language": "Python",
+  "framework": "LiteLLM",
+  "models": "OpenAI by default; other providers through LiteLLM",
+  "mcp": "none",
+  "github": {
+    "stars": 13246,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

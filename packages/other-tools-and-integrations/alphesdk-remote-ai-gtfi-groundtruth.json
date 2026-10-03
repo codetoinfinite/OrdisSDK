@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GroundTruth — subsurface scan QA & trade estimating",
+  "description": "Two independent AI models read a GPR, locate or pipe scan and flag the do-not-core call.",
+  "packageName": "@alphesdk-remote/ai-gtfi-groundtruth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gtfi.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Dranos-Bot/groundtruth-mcp",
+  "readme": "https://github.com/Dranos-Bot/groundtruth-mcp#readme"
+}

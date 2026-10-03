@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HenryKnows",
+  "description": "F-1 and J-1 student immigration answers with citations to regulations and agency guidance.",
+  "packageName": "@alphesdk-remote/info-henryknows-henryknows",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://henryknows.info/mcp"
+    }
+  ],
+  "url": "https://henryknows.info/connect/"
+}

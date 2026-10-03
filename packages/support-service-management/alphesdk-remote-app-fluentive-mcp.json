@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fluentive MCP",
+  "description": "Information, FAQs, features, and pricing for Fluentive's task management platform.",
+  "packageName": "@alphesdk-remote/app-fluentive-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fluentive.app"
+    }
+  ],
+  "url": "https://github.com/fluentive/mcp",
+  "readme": "https://github.com/fluentive/mcp#readme"
+}

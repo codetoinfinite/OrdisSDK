@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Adyen",
+  "description": "Payment links, sessions, refunds, terminals and merchant management on Adyen.",
+  "packageName": "@adyen/mcp",
+  "packageVersion": "0.6.0",
+  "runtime": "node",
+  "readme": "https://github.com/Adyen/adyen-mcp",
+  "url": "https://github.com/Adyen/adyen-mcp",
+  "author": "Adyen",
+  "env": {
+    "ADYEN_API_KEY": {
+      "description": "Adyen API key",
+      "required": true
+    }
+  }
+}

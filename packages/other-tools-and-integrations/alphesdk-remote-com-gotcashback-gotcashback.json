@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GotCashback",
+  "description": "Compare cashback rates across portals and discounted gift cards for stores in 30+ countries.",
+  "packageName": "@alphesdk-remote/com-gotcashback-gotcashback",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gotcashback.com"
+    }
+  ],
+  "url": "https://www.gotcashback.com/mcp-server/"
+}

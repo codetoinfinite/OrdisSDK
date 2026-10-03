@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "open-autoglm",
+  "name": "Open-AutoGLM Phone Agent",
+  "description": "Zhipu's open phone agent that reads the screen with a vision-language model and operates Android or HarmonyOS devices over ADB/HDC.",
+  "category": "other-tools-and-integrations",
+  "tags": ["phone-agent", "android", "adb", "gui-agent", "harmonyos"],
+  "repo": "https://github.com/zai-org/Open-AutoGLM",
+  "publisher": "Zhipu AI (Z.ai)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users state a task in natural language, such as opening an app and searching for something, and the agent taps and types through it on a connected phone.",
+  "howItWorks": "A Python loop captures the screen, queries the AutoGLM-Phone model through an OpenAI-compatible endpoint (Zhipu BigModel, ModelScope or self-hosted), and performs the returned action via ADB or HDC, with confirmation for sensitive steps.",
+  "requirements": [
+    {
+      "name": "Android device with USB debugging",
+      "kind": "hardware",
+      "required": true,
+      "description": "Target phone or emulator; HarmonyOS via HDC also supported"
+    },
+    {
+      "name": "adb",
+      "kind": "runtime",
+      "required": true,
+      "description": "Android platform-tools on PATH"
+    },
+    {
+      "name": "Model API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "BigModel or ModelScope key passed with --apikey, unless self-hosting"
+    }
+  ],
+  "install": ["pip install -r requirements.txt", "pip install -e ."],
+  "run": [
+    "python main.py --base-url https://open.bigmodel.cn/api/paas/v4 --model \"autoglm-phone\" --apikey \"your-bigmodel-api-key\" \"打开美团搜索附近的火锅店\""
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "AutoGLM-Phone (open weights or hosted)",
+  "mcp": "none",
+  "github": {
+    "stars": 26339,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-06",
+    "checkedAt": "2026-10-03"
+  }
+}

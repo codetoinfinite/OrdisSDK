@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "storefront",
+  "description": "US college admissions fit (College Scorecard bands) + verified admitted-student mentor search.",
+  "packageName": "@alphesdk-remote/guru-goanywhere-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goanywhere.guru/api/mcp"
+    }
+  ],
+  "url": "https://goanywhere.guru"
+}

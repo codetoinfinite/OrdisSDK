@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "US compliance and books health",
+  "description": "US company filing obligations, plus a 25-check bookkeeping diagnostic. Sourced, dated, no signup.",
+  "packageName": "@alphesdk-remote/com-medianfi-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://medianfi.com/mcp"
+    }
+  ],
+  "url": "https://github.com/median-labs/median-compliance-skill",
+  "readme": "https://github.com/median-labs/median-compliance-skill#readme"
+}

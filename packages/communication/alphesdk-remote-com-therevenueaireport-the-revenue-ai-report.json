@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Revenue AI Report",
+  "description": "Independent weekly on AI in B2B revenue teams: articles, frameworks, skills, playbooks, datasets.",
+  "packageName": "@alphesdk-remote/com-therevenueaireport-the-revenue-ai-report",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.therevenueaireport.com/mcp"
+    }
+  ],
+  "url": "https://www.therevenueaireport.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Canada Payroll — employer cost & take-home math (2026)",
+  "description": "Verified 2026 Canadian payroll math: employer total cost, employee take-home, net-to-gross. Free.",
+  "packageName": "@alphesdk-remote/ca-canada-payroll-canada-payroll",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://canada-payroll.ca/mcp"
+    }
+  ],
+  "url": "https://canada-payroll.ca"
+}

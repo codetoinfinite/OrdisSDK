@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ebook File Check",
+  "description": "Run EPUBCheck for EPUB specification errors and compare two exports.",
+  "packageName": "@alphesdk-remote/com-powmcp-epub-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powmcp.com/epub-check/mcp"
+    }
+  ],
+  "url": "https://github.com/powmcp/mcp-server-guide",
+  "readme": "https://github.com/powmcp/mcp-server-guide#readme"
+}

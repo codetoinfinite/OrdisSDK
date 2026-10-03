@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Defici Marketplace MCP Server",
+  "description": "Search and browse global classifieds across 80 markets. No auth required for read-only access.",
+  "packageName": "@alphesdk-remote/com-defici-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://defici.com/api/mcp"
+    }
+  ]
+}

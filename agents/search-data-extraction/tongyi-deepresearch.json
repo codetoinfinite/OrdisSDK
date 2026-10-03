@@ -1,0 +1,69 @@
+{
+  "type": "external-agent",
+  "key": "tongyi-deepresearch",
+  "name": "Tongyi DeepResearch",
+  "description": "Alibaba's open deep-research agent: an open-weights model plus a ReAct inference harness for long-horizon information seeking.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "open-weights", "react", "web-search"],
+  "repo": "https://github.com/Alibaba-NLP/DeepResearch",
+  "publisher": "Alibaba (Tongyi Lab)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It answers hard multi-step questions by searching, visiting pages, running code and reading files, and is mainly used by researchers to reproduce results or batch-run their own question sets.",
+  "howItWorks": "A ReAct loop drives the Tongyi-DeepResearch model, served locally or through an API, with search, page visit, scholar, Python sandbox and file-parsing tools. A shell script launches inference over a dataset of questions.",
+  "requirements": [
+    {
+      "name": "SERPER_KEY_ID",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search"
+    },
+    {
+      "name": "JINA_API_KEYS",
+      "kind": "api-key",
+      "required": true,
+      "description": "Page reading"
+    },
+    {
+      "name": "API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI-compatible key used for page summarisation, with API_BASE"
+    },
+    {
+      "name": "DASHSCOPE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "File parsing"
+    },
+    {
+      "name": "SANDBOX_FUSION_ENDPOINT",
+      "kind": "service",
+      "required": true,
+      "description": "Python sandbox endpoint"
+    },
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": false,
+      "description": "When serving the model locally (MODEL_PATH)"
+    }
+  ],
+  "install": [
+    "conda create -n react_infer_env python=3.10.0",
+    "conda activate react_infer_env",
+    "pip install -r requirements.txt",
+    "cp .env.example .env"
+  ],
+  "run": ["bash run_react_infer.sh"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Tongyi-DeepResearch-30B (open weights)",
+  "mcp": "none",
+  "github": {
+    "stars": 20001,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-02-27",
+    "checkedAt": "2026-10-03"
+  }
+}

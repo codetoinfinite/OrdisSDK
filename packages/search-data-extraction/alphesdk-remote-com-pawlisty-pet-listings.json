@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Pawlisty Pet Listings",
+  "description": "Search live Pawlisty pet listings by species, breed, location, and price.",
+  "packageName": "@alphesdk-remote/com-pawlisty-pet-listings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pawlisty.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "world-sense",
+  "description": "Read-only live geopolitical-risk sensing for agents. ARCANE notices; never forecasts or advises.",
+  "packageName": "@alphesdk-remote/com-arcaneforecasting-world-sense",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arcaneforecasting.com/mcp"
+    }
+  ],
+  "url": "https://github.com/griffin-the-arcanist/arcane-world-sense-mcp",
+  "readme": "https://github.com/griffin-the-arcanist/arcane-world-sense-mcp#readme"
+}

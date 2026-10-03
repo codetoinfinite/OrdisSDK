@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "masnavi",
+  "description": "Rumi's complete Masnavi (25,635 beyts) — search, quote, verify and explain. Free, no auth.",
+  "packageName": "@alphesdk-remote/ai-masnavi-masnavi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://masnavi.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/shahhoseini/masnavi-mcp",
+  "readme": "https://github.com/shahhoseini/masnavi-mcp#readme"
+}

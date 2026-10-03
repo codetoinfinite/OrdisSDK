@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Toplist",
+  "description": "Search 77,000+ MCP servers ranked by real adoption data to find the right one for any task.",
+  "packageName": "@alphesdk-remote/com-mcptoplist-mcptoplist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcptoplist.com/mcp"
+    }
+  ],
+  "url": "https://mcptoplist.com"
+}

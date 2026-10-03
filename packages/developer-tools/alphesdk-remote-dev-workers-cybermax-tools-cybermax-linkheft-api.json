@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Linkheft",
+  "description": "Domain authority API + MCP: 0-100 score, rank, trend, 50/call. $19/mo; 1,000 free lookups/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-linkheft-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://linkheft-api.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/store/linkheft-api/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HinduCalendar — panchang, festivals & muhurta",
+  "description": "Daily panchang, festivals, muhurta and birth details, identical to the HinduCalendar Android app.",
+  "packageName": "@alphesdk-remote/app-hinducalendar-hinducalendar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hinducalendar.app/mcp"
+    }
+  ],
+  "url": "https://hinducalendar.app/mcp-server"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Professor Sausages — Finance",
+  "description": "SEC filings, insider trades, 13F, IPO calendar, macro & FX MCP tools via x402.",
+  "packageName": "@alphesdk-remote/com-professorsausages-sausage-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.professorsausages.com/mcp/finance"
+    }
+  ],
+  "url": "https://x402.professorsausages.com/mcp"
+}

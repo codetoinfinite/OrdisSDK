@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YouCam for Beauty & Personal Care",
+  "description": "Provides YouCam API for skin, face & body analysis, beauty/makeup try-on, and hair & beard styling.",
+  "packageName": "@alphesdk-remote/com-makeupar-beauty",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-api-01.makeupar.com/mcp/beauty"
+    }
+  ],
+  "url": "https://yce.perfectcorp.com/ai-api"
+}

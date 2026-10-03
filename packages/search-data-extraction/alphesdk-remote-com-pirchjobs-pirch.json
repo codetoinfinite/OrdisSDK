@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pirch",
+  "description": "Verified job search: every listing confirmed live and accepting applicants within the last 72h.",
+  "packageName": "@alphesdk-remote/com-pirchjobs-pirch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pirchjobs.com/mcp"
+    }
+  ],
+  "url": "https://pirchjobs.com"
+}

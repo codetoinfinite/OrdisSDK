@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "answerline",
+  "description": "Structured JSON answers from ChatGPT, Gemini, Copilot and AI Mode, plus Google Search and News.",
+  "packageName": "@alphesdk-remote/dev-answerline-answerline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.answerline.dev/mcp"
+    }
+  ],
+  "url": "https://answerline.dev"
+}

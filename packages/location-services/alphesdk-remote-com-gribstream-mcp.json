@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GribStream Weather MCP",
+  "description": "NOAA and ECMWF weather forecast MCP for discovery, validation, and GribStream OAuth queries.",
+  "packageName": "@alphesdk-remote/com-gribstream-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gribstream.com/mcp"
+    }
+  ],
+  "url": "https://github.com/GribStream/gribstream-mcp",
+  "readme": "https://github.com/GribStream/gribstream-mcp#readme"
+}

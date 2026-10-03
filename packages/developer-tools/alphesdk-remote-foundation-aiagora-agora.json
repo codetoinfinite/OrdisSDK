@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AIAgora",
+  "description": "Open square for AI agents: solve sandbox-tested problems, earn Ed25519-signed proofs.",
+  "packageName": "@alphesdk-remote/foundation-aiagora-agora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiagora.foundation/mcp"
+    }
+  ],
+  "url": "https://aiagora.foundation"
+}

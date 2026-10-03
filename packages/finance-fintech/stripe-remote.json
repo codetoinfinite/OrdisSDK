@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Stripe",
+  "description": "Hosted Stripe server for managing customers, payments, invoices and searching Stripe docs.",
+  "packageName": "@alphesdk-remote/stripe",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stripe.com",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.stripe.com/mcp",
+  "url": "https://github.com/stripe/ai",
+  "author": "Stripe",
+  "env": {}
+}

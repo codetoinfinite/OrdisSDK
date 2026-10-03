@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "screening",
+  "description": "OFAC and global sanctions screening: crypto addresses, emails, websites, IDs, countries, VPN, geo",
+  "packageName": "@alphesdk-remote/com-compliapi-screening",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.compliapi.com/mcp"
+    }
+  ],
+  "url": "https://compliapi.com"
+}

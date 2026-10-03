@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rack Warehouse fitment",
+  "description": "What fits your vehicle at Rack Warehouse: roof racks, carriers, truck and ladder racks.",
+  "packageName": "@alphesdk-remote/com-rackwarehouse-fitment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rackwarehouse.com/mcp"
+    }
+  ],
+  "url": "https://www.rackwarehouse.com"
+}

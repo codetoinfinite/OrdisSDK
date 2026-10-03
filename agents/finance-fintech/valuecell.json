@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "valuecell",
+  "name": "ValueCell",
+  "description": "Community multi-agent platform for financial research, news tracking and automated crypto strategy trading with locally stored data.",
+  "category": "finance-fintech",
+  "tags": ["multi-agent", "crypto-trading", "deep-research", "news", "local-first"],
+  "repo": "https://github.com/ValueCell-ai/valuecell",
+  "homepage": "https://valuecell.ai",
+  "publisher": "ValueCell",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Offers research, news and strategy agents for investors, including live strategy execution on supported crypto exchanges. Secrets and data stay on the user's device.",
+  "howItWorks": "A local application starts a Python backend and web front end from a single script, with model keys and exchange credentials entered in the interface. Agents call a choice of LLM providers and exchange APIs.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenRouter, SiliconFlow, Azure, Google, OpenAI, DeepSeek or an OpenAI-compatible endpoint"
+    },
+    {
+      "name": "Exchange API credentials",
+      "kind": "account",
+      "required": false,
+      "description": "Binance, Hyperliquid, OKX and others for live strategies"
+    }
+  ],
+  "install": ["git clone https://github.com/ValueCell-ai/valuecell.git", "cd valuecell"],
+  "run": ["bash start.sh"],
+  "interfaces": ["web", "desktop"],
+  "language": "Python",
+  "models": "OpenRouter, SiliconFlow, Azure, Google, OpenAI, DeepSeek, OpenAI-compatible",
+  "mcp": "none",
+  "github": {
+    "stars": 11019,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-09",
+    "checkedAt": "2026-10-03"
+  }
+}

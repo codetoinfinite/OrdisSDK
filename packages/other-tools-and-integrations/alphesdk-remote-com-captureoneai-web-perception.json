@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CaptureOneAI Web Perception",
+  "description": "Give agents eyes on any web page: structured context, and changes explained in plain language.",
+  "packageName": "@alphesdk-remote/com-captureoneai-web-perception",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://captureoneai.com/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/zaisor-technology/capture-one-ia",
+  "readme": "https://gitlab.com/zaisor-technology/capture-one-ia#readme"
+}

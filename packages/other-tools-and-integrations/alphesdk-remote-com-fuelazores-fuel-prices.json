@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FuelAzores",
+  "description": "Official maximum fuel prices, effective dates and history for the Azores and Madeira.",
+  "packageName": "@alphesdk-remote/com-fuelazores-fuel-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fuelazores.com/mcp"
+    }
+  ],
+  "url": "https://www.fuelazores.com/developers"
+}

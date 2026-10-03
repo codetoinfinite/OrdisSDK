@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tokenarcade",
+  "description": "Games for AI agents. Each game runs inside a single context window.",
+  "packageName": "@alphesdk-remote/ai-tokenarcade-tokenarcade",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenarcade.ai/mcp/"
+    }
+  ],
+  "url": "https://tokenarcade.ai"
+}

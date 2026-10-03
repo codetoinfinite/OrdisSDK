@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Australian Manufacturing Directory",
+  "description": "Search 118,000+ Australian manufacturers by category and state, with Business contact access.",
+  "packageName": "@alphesdk-remote/io-github-1337mofo-australian-manufacturing-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ausmanufacturingdirectory.com/mcp"
+    }
+  ],
+  "url": "https://ausmanufacturingdirectory.com/developers#mcp"
+}

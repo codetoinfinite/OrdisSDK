@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Otto Data — Robinhood Chain",
+  "description": "Live Robinhood Chain tokenized-stock data: basis vs NASDAQ, gaps, pools, whale flows.",
+  "packageName": "@alphesdk-remote/app-ottodata-otto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ottodata.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Degergokalp/otto-data",
+  "readme": "https://github.com/Degergokalp/otto-data#readme"
+}

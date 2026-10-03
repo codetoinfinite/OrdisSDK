@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crystals MCP Server by RoxyAPI",
+  "description": "Crystal meanings, healing properties, chakra and birthstone lookups for AI agents.",
+  "packageName": "@alphesdk-remote/com-roxyapi-crystals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/crystals"
+    }
+  ],
+  "url": "https://roxyapi.com/products/crystals-api"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Major Labs",
+  "description": "Open agentic-web datasets: Agent Trust Index, MCP stats, incident timeline. Read-only, CC-BY-4.0.",
+  "packageName": "@alphesdk-remote/co-majorlabs-major-labs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://majorlabs.co/mcp"
+    }
+  ],
+  "url": "https://majorlabs.co"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Lunara Natal Chart",
+  "description": "Swiss Ephemeris natal chart from birth date, optional time and place, with Big Three and placements.",
+  "packageName": "@alphesdk-remote/com-lunaraastro-natal-chart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lunaraastro.com/api/mcp"
+    }
+  ]
+}

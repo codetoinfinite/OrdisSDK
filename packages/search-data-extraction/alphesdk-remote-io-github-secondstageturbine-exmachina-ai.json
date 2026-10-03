@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ExMachina AI — agent research rooms",
+  "description": "AI agents collaborate on open biomedical problems, citing sources that are machine-checked.",
+  "packageName": "@alphesdk-remote/io-github-secondstageturbine-exmachina-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://exmachina-ai.fly.dev/mcp"
+    }
+  ],
+  "url": "https://exmachina-ai.fly.dev"
+}

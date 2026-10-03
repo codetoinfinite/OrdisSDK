@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StreetProof Physical Brand Index",
+  "description": "Read-only, privacy-safe evidence of physical business presence for AI agents.",
+  "packageName": "@alphesdk-remote/com-streetproof-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://streetproof.com/mcp"
+    }
+  ],
+  "url": "https://streetproof.com/api-docs/mcp"
+}

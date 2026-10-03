@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Superforms",
+  "description": "Human-input bridge for AI agents with voice-first answer links, MCP tools, and HTTP APIs.",
+  "packageName": "@alphesdk-remote/co-superforms-superforms",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://superforms.co/mcp"
+    }
+  ],
+  "url": "https://github.com/brentgilmore/superforms-v2",
+  "readme": "https://github.com/brentgilmore/superforms-v2#readme"
+}

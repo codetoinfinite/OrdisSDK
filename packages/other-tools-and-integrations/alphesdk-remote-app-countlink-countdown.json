@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CountLink",
+  "description": "Shared countdown timers that stay in sync on every screen — no account, any number of viewers.",
+  "packageName": "@alphesdk-remote/app-countlink-countdown",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://countlink.app/mcp"
+    }
+  ],
+  "url": "https://github.com/mrbrunocode/countlink",
+  "readme": "https://github.com/mrbrunocode/countlink#readme"
+}

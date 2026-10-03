@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "browser-use-desktop",
+  "name": "Browser Use Desktop",
+  "description": "Desktop application that runs several browser agents side by side in a fresh Chromium that reuses your imported cookies.",
+  "category": "browser-automation",
+  "tags": ["desktop-app", "browser-agent", "multi-agent"],
+  "repo": "https://github.com/browser-use/desktop",
+  "publisher": "Browser Use",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets a user hand multiple web tasks to parallel agents from a native app while staying signed in to their usual sites. It suits people who want browser agents without writing code.",
+  "howItWorks": "The app starts its own Chromium instance, copies cookies from the user's browser into it and assigns tasks to agents built on the vendor's browser harness. Installers are published for macOS and Windows; the development setup is driven by a task runner.",
+  "requirements": [
+    {
+      "name": "macOS (Apple silicon) or Windows",
+      "kind": "runtime",
+      "required": true,
+      "description": "Platforms with published installers"
+    },
+    {
+      "name": "Model access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the agent's model"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "TypeScript",
+  "framework": "browser-use",
+  "models": "Configurable in the app",
+  "mcp": "none",
+  "github": {
+    "stars": 697,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

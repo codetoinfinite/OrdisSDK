@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "stock-moves-explained",
+  "description": "Explains why stocks moved. 'Why did Tesla drop?' 'What happened to NVDA?' S&P 500/NASDAQ/Dow.",
+  "packageName": "@alphesdk-remote/io-github-pink707legendary-stock-moves-explained",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.justhappened.wtf/mcp"
+    }
+  ],
+  "url": "https://github.com/justhappened-corp/stock-moves-explained",
+  "readme": "https://github.com/justhappened-corp/stock-moves-explained#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HyperXosist-Agent Remote MCP",
+  "description": "X feedback discovery, noise-reduced query planning, signal filtering, and AI handoffs.",
+  "packageName": "@alphesdk-remote/io-github-kg-ninja-hyperxosist-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kgninja.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/KG-NINJA/HyperXosist-Agent",
+  "readme": "https://github.com/KG-NINJA/HyperXosist-Agent#readme"
+}

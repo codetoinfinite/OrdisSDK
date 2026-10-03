@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Trend News Agency",
+  "description": "Trend News Agency: search and read 2.6M articles on Azerbaijan, the Caspian and Central Asia.",
+  "packageName": "@alphesdk-remote/az-trend-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.trend.az/mcp"
+    }
+  ],
+  "url": "https://www.trend.az/"
+}

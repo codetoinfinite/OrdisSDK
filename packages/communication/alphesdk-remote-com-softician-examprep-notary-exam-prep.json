@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Softician Notary Exam Prep",
+  "description": "Fetch real California Notary Public exam practice questions and grade answers in-chat.",
+  "packageName": "@alphesdk-remote/com-softician-examprep-notary-exam-prep",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://examprep.softician.com/mcp"
+    }
+  ],
+  "url": "https://github.com/realtorfico/examprep-api",
+  "readme": "https://github.com/realtorfico/examprep-api#readme"
+}

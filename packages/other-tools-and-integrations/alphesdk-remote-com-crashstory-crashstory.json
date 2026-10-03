@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CrashStory MCP",
+  "description": "Colorado personal injury attorney directory, AI-analyzed review intelligence, and crash data",
+  "packageName": "@alphesdk-remote/com-crashstory-crashstory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crashstory-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://crashstory.com/mcp"
+}

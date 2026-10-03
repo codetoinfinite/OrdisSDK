@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "rakentaja-outlet",
+  "description": "Finnish e-commerce for electrical & construction supplies. Read-only MCP with 4 tools.",
+  "packageName": "@alphesdk-remote/fi-rakentajaoutlet-rakentaja-outlet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rakentajaoutlet.fi/mcp"
+    }
+  ],
+  "url": "https://rakentajaoutlet.fi/sivu/ai"
+}

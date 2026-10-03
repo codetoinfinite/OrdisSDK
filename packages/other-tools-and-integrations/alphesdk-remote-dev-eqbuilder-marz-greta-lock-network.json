@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "marz-greta-lock-network",
+  "description": "EQ scoring plus a read-only Storelayer matcher and guarded self-install; no website credentials",
+  "packageName": "@alphesdk-remote/dev-eqbuilder-marz-greta-lock-network",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eqbuilder.dev/api/mcp"
+    }
+  ],
+  "url": "https://eqbuilder.dev"
+}

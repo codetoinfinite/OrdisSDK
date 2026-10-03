@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "callable",
+  "description": "API for AI agents to delegate tasks to real humans.",
+  "packageName": "@alphesdk-remote/io-github-ccstt-dev-callable",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getcallable.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/CCSTT-dev/callable-task-deck",
+  "readme": "https://github.com/CCSTT-dev/callable-task-deck#readme"
+}

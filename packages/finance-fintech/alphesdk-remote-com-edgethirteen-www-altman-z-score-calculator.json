@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "altman-z-score-calculator",
+  "description": "Altman Z-Score bankruptcy-risk screen for a US-listed ticker, inputs looked up automatically.",
+  "packageName": "@alphesdk-remote/com-edgethirteen-www-altman-z-score-calculator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.edgethirteen.com/api/mcp/altman-z-score-calculator"
+    }
+  ],
+  "url": "https://www.edgethirteen.com/tools/altman-z-score-calculator"
+}

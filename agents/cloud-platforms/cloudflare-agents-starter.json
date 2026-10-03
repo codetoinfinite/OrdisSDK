@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "cloudflare-agents-starter",
+  "name": "Cloudflare Agents Starter",
+  "description": "Starter chat agent for Cloudflare Workers with tools, human approval, task scheduling and image input.",
+  "category": "cloud-platforms",
+  "tags": ["workers", "chat-agent", "scheduling", "template", "workers-ai"],
+  "repo": "https://github.com/cloudflare/agents-starter",
+  "docs": "https://developers.cloudflare.com/agents/",
+  "publisher": "Cloudflare",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It provides a working chat agent that can check weather, detect time zones, calculate with user approval and schedule tasks, as a base for agents deployed on Cloudflare.",
+  "howItWorks": "The agent is built with Cloudflare's Agents SDK and runs on Workers with a React chat UI. It uses Workers AI by default so no model key is required, and can connect to MCP servers or be switched to other providers.",
+  "requirements": [
+    {
+      "name": "Cloudflare account",
+      "kind": "account",
+      "required": true,
+      "description": "Authentication is needed even locally because Workers AI runs remotely"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "npm tooling"
+    }
+  ],
+  "install": [
+    "npx create-cloudflare@latest --template cloudflare/agents-starter",
+    "cd agents-starter",
+    "npm install"
+  ],
+  "run": ["npm run dev"],
+  "interfaces": ["web", "chat"],
+  "language": "TypeScript",
+  "framework": "Cloudflare Agents SDK",
+  "models": "Workers AI by default; OpenAI or Anthropic optional",
+  "mcp": "client",
+  "github": {
+    "stars": 1341,
+    "license": "MIT",
+    "pushedAt": "2026-08-19",
+    "checkedAt": "2026-10-03"
+  }
+}

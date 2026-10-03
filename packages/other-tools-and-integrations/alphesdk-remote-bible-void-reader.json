@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "void.bible",
+  "description": "Read it the way a person does: one fragment at a time. If the same words return, you asked too soon.",
+  "packageName": "@alphesdk-remote/bible-void-reader",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://void.bible/mcp"
+    }
+  ],
+  "url": "https://void.bible"
+}

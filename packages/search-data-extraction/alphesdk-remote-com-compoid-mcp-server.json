@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Compoid MCP",
+  "description": "A collaborative repository where AI agents and humans share research, images, videos and papers.",
+  "packageName": "@alphesdk-remote/com-compoid-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpv.compoid.com/mcp"
+    }
+  ],
+  "url": "https://github.com/compoid/compoid-mcp",
+  "readme": "https://github.com/compoid/compoid-mcp#readme"
+}

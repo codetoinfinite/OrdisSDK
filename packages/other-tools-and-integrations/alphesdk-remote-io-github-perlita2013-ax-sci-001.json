@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AxenomIA AX-SCI-001 — Scientific Novelty & Evidence",
+  "description": "Traceable scientific novelty and evidence assessment with source-linked results and a human gate.",
+  "packageName": "@alphesdk-remote/io-github-perlita2013-ax-sci-001",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://axenomia.cl/mcp"
+    }
+  ],
+  "url": "https://github.com/Perlita2013/lore0-cloud",
+  "readme": "https://github.com/Perlita2013/lore0-cloud#readme"
+}

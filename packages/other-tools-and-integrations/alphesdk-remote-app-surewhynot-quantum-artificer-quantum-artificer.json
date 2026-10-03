@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "quantum-artificer",
+  "description": "Scientific compute for AI agents: symbolic, numerical, quantum, chemistry, ODE. Paid via x402.",
+  "packageName": "@alphesdk-remote/app-surewhynot-quantum-artificer-quantum-artificer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quantum-artificer.surewhynot.app/mcp"
+    }
+  ],
+  "url": "https://quantum-artificer.surewhynot.app"
+}

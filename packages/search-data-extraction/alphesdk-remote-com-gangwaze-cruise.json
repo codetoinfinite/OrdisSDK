@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gangwaze Cruise Tools",
+  "description": "Search cruises, check fares and price history, look up cabins, ships, lines and ports.",
+  "packageName": "@alphesdk-remote/com-gangwaze-cruise",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gangwaze.com/api/mcp"
+    }
+  ],
+  "url": "https://gangwaze.com/ai-agents"
+}

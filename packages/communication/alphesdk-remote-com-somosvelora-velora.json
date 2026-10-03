@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "velora",
+  "description": "Hosted Argentine commerce MCP: real AFIP invoicing, MercadoPago, logistics, catalog & WhatsApp.",
+  "packageName": "@alphesdk-remote/com-somosvelora-velora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tools.somosvelora.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/crossi-dev/velora-mcp",
+  "readme": "https://github.com/crossi-dev/velora-mcp#readme"
+}

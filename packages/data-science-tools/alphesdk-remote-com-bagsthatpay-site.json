@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Bags That Pay: the site's own MCP server — dataset, enquiry, entities, listing (enquiry = a...",
+  "packageName": "@alphesdk-remote/com-bagsthatpay-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bagsthatpay.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

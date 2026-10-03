@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TestWell Lab Tests",
+  "description": "Cash-pay lab tests: catalog search, all-in quotes by state, draw sites by ZIP, reviewed ranges.",
+  "packageName": "@alphesdk-remote/com-test-well-testwell",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.test-well.com/mcp"
+    }
+  ],
+  "url": "https://www.test-well.com/developers"
+}

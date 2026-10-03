@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "is-it-down",
+  "description": "Is GitHub, npm, Cloudflare or your AI provider down right now? 20 status pages, one call.",
+  "packageName": "@alphesdk-remote/ai-kaiv-is-it-down",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaiv.ai/api/bridge/mcp/is-it-down-a0a9031c"
+    }
+  ]
+}

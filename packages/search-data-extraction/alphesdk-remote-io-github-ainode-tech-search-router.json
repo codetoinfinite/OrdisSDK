@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "search-router",
+  "description": "4 web-search tiers (x402 USDC on Base) - simple/medium/deep/cached. Free health.",
+  "packageName": "@alphesdk-remote/io-github-ainode-tech-search-router",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search.api.ainode.tech/mcp"
+    }
+  ]
+}

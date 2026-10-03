@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fixidu",
+  "description": "Browse Fixidu live home-services catalog in India - categories, real prices, images.",
+  "packageName": "@alphesdk-remote/com-fixidu-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fixidu.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Fixitindia/FIXIDU-MCP-SERVER",
+  "readme": "https://github.com/Fixitindia/FIXIDU-MCP-SERVER#readme"
+}

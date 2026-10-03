@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Generate AI images, video, music, and sound effects, and upscale them, from any MCP client.",
+  "packageName": "@alphesdk-remote/com-budgetpixel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.budgetpixel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/budgetpixel-ai/budgetpixel-mcp",
+  "readme": "https://github.com/budgetpixel-ai/budgetpixel-mcp#readme"
+}

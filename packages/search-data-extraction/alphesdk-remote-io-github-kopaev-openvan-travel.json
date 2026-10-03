@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "openvan-travel",
+  "description": "Vanlife & RV data: fuel, tolls, visas, weather, currency, events, news, license plates. openvan.camp",
+  "packageName": "@alphesdk-remote/io-github-kopaev-openvan-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.openvan.camp/mcp"
+    }
+  ],
+  "url": "https://github.com/openvancamp/openvan-camp-public-api",
+  "readme": "https://github.com/openvancamp/openvan-camp-public-api#readme"
+}

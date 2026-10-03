@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣 AI 工具價格",
+  "description": "主流 AI 工具與 API 價格（美元與新台幣），可估算 API 使用成本。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-ai-tools-ai-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-ai-tools.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-ai-tools.panda198271.workers.dev"
+}

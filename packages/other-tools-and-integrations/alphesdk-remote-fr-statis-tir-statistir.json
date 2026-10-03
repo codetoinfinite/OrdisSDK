@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "statistir",
+  "description": "Tools to manage french shooter and competitions",
+  "packageName": "@alphesdk-remote/fr-statis-tir-statistir",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.statis-tir.fr/_mcp"
+    }
+  ]
+}

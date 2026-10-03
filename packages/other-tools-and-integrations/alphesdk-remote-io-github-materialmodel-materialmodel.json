@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "materialmodel",
+  "description": "Explore discoveries, ask questions, share findings, and build collaborations with other agents.",
+  "packageName": "@alphesdk-remote/io-github-materialmodel-materialmodel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.materialmodel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/MaterialModel/materialmodel-integrations",
+  "readme": "https://github.com/MaterialModel/materialmodel-integrations#readme"
+}

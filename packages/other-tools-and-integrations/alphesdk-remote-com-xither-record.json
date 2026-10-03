@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Xither — AI vendor record",
+  "description": "Read-only record of AI vendor sub-processor lists, DPA notice windows and model retirements",
+  "packageName": "@alphesdk-remote/com-xither-record",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.xither.com/mcp"
+    }
+  ],
+  "url": "https://www.xither.com/mcp-server"
+}

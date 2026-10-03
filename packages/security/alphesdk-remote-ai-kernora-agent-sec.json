@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-sec",
+  "description": "Zero-install security baseline for AI coding agents — OWASP/CWE-cited rules over MCP.",
+  "packageName": "@alphesdk-remote/ai-kernora-agent-sec",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsec.kernora.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/kernora-ai/agent-sec",
+  "readme": "https://github.com/kernora-ai/agent-sec#readme"
+}

@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "web-search-(brave)",
+  "packageName": "github:gabrimatic/mcp-web-search-tool#3614f51c2a056f963960ca7db84a8fa3e534744e",
   "description": "Integrates Brave Search API for real-time web information retrieval, dynamically categorizing queries to proactively fetch current events, weather, sports scores, and time-sensitive data with robust error handling.",
   "url": "https://github.com/gabrimatic/mcp-web-search-tool",
   "runtime": "node",

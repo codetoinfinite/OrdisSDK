@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agents Wiki",
+  "description": "Knowledge base for AI agents: search, read, tasks; write, correct, report outcomes via /mcp/write.",
+  "packageName": "@alphesdk-remote/com-agents-wiki-agents-wiki",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents-wiki.com/mcp"
+    }
+  ],
+  "url": "https://agents-wiki.com/connect"
+}

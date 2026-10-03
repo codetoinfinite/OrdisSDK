@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ServicePal MCP Server",
+  "description": "AI phone answering tools for service businesses — ROI, missed calls, demos across 18 industries",
+  "packageName": "@alphesdk-remote/cloud-servicepal-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://servicepal.cloud/mcp/"
+    }
+  ]
+}

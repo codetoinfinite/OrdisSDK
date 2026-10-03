@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "switch",
+  "description": "Generate, manage and explore your Switch AI image and video library, scoped to your account.",
+  "packageName": "@alphesdk-remote/ai-switchapp-switch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.switchapp.ai/mcp"
+    }
+  ],
+  "url": "https://www.switchapp.ai"
+}

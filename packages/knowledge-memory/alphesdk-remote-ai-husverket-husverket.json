@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Husverket – Swedish Prefab Houses",
+  "description": "Husverket AB knowledge base: 350 Q&A on attefallshus, prices and building permits in Sweden.",
+  "packageName": "@alphesdk-remote/ai-husverket-husverket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.husverket.ai/mcp"
+    }
+  ],
+  "url": "https://husverket.ai/connect/"
+}

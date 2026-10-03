@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "compliance-radar",
+  "description": "US small-biz & foreign-LLC filing deadlines: FinCEN BOI, IRS 5472, franchise tax, 1099 (sourced).",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-compliance-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compliance.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://compliance.dropwatchhq.com"
+}

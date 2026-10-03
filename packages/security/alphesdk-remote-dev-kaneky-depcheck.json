@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Depcheck",
+  "description": "Known vulnerabilities for exact package versions from OSV, with fixes. Paid per call, x402.",
+  "packageName": "@alphesdk-remote/dev-kaneky-depcheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://depcheck.kaneky.dev/mcp"
+    }
+  ],
+  "url": "https://depcheck.kaneky.dev/"
+}

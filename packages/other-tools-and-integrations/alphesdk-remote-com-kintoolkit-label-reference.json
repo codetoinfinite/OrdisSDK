@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KinToolkit: Medicine Dosage Calculator Label References for Children and Infants",
+  "description": "Tylenol (acetaminophen), Motrin (ibuprofen), Zyrtec (cetirizine): US pediatric dose labels.",
+  "packageName": "@alphesdk-remote/com-kintoolkit-label-reference",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kintoolkit.com/api/mcp"
+    }
+  ],
+  "url": "https://kintoolkit.com/developers"
+}

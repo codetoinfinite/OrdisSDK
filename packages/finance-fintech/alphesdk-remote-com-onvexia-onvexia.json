@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Onvexia — Crypto Fundamentals, Sentiment & Onchain Tracking",
+  "description": "Crypto fundamentals, sentiment, whale tracking and influencer call accuracy for traders and agents.",
+  "packageName": "@alphesdk-remote/com-onvexia-onvexia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onvexia.com/mcp"
+    }
+  ],
+  "url": "https://github.com/faraz152/onvexia-mcp",
+  "readme": "https://github.com/faraz152/onvexia-mcp#readme"
+}

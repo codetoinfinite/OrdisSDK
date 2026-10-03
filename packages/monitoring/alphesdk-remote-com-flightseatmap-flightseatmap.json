@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FlightSeatMap",
+  "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 150+ airlines.",
+  "packageName": "@alphesdk-remote/com-flightseatmap-flightseatmap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flightseatmap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/FlightSeatmap/mcp",
+  "readme": "https://github.com/FlightSeatmap/mcp#readme"
+}

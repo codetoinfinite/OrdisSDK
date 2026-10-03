@@ -1,0 +1,39 @@
+{
+  "type": "external-agent",
+  "key": "webbrain",
+  "name": "WebBrain",
+  "description": "Chrome and Firefox extension agent that reads and acts on web pages, designed to work with locally hosted models.",
+  "category": "browser-automation",
+  "tags": ["browser-extension", "browser-agent", "local-models"],
+  "repo": "https://github.com/webbrain-one/webbrain",
+  "publisher": "Emre Sokullu",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Answers questions about the current page and performs multi-step actions on it from a sidebar. It is aimed at privacy-minded users who want an agent backed by models on their own machine.",
+  "howItWorks": "The extension gathers page content, calls a local or remote OpenAI-style endpoint and executes the tool calls the model returns inside the tab. An MCP server package lets other agents use the same browser control. Recent versions are released under the GNU GPL according to the licence notice.",
+  "requirements": [
+    {
+      "name": "Chrome or Firefox",
+      "kind": "runtime",
+      "required": true,
+      "description": "Hosts the extension"
+    },
+    {
+      "name": "Model endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "Local server such as llama.cpp, Ollama or vLLM, or a cloud provider"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["chat"],
+  "language": "JavaScript",
+  "models": "Local models via llama.cpp, Ollama, vLLM; cloud providers optional",
+  "mcp": "server",
+  "github": {
+    "stars": 1187,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

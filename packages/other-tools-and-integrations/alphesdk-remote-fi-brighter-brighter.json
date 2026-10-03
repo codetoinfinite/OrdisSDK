@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Brighter",
+  "description": "Browse, backtest and write rule-based portfolios of tokenized US stocks.",
+  "packageName": "@alphesdk-remote/fi-brighter-brighter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.brighter.fi/mcp"
+    }
+  ],
+  "url": "https://brighter.fi"
+}

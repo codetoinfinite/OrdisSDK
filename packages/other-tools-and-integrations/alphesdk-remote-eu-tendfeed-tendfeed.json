@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tendfeed",
+  "description": "Bid/no-bid verdicts for open EU tenders, from 592,000 real TED contract awards.",
+  "packageName": "@alphesdk-remote/eu-tendfeed-tendfeed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tendfeed.eu/api/mcp/tendfeed"
+    }
+  ],
+  "url": "https://tendfeed.eu"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cooper",
+  "description": "Cooper: catálogo, cobertura, razas y turnos del marketplace argentino de cuidado canino.",
+  "packageName": "@alphesdk-remote/app-cooperpetcare-www-cooper",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cooperpetcare.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/somoscooper/cooper-webapp",
+  "readme": "https://github.com/somoscooper/cooper-webapp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Money You're Owed Catalog",
+  "description": "Informational Q&A: money owed to consumers (deposits, claims, unclaimed funds). No debt relief.",
+  "packageName": "@alphesdk-remote/com-moneyyoureowed-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moneyyoureowed.com/mcp"
+    }
+  ],
+  "url": "https://moneyyoureowed.com/connect"
+}

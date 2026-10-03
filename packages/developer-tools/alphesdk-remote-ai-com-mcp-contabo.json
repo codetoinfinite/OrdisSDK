@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Contabo (VPS) MCP Server",
+  "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
+  "packageName": "@alphesdk-remote/ai-com-mcp-contabo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contabo.run.mcp.com.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/la-rebelion/hapimcp",
+  "readme": "https://github.com/la-rebelion/hapimcp#readme"
+}

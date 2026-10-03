@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AP Exception Review — Meridian Parts (ad46e3f1)",
+  "description": "12 synthetic accounts-payable exception cases: duplicates, price variances, credit holds, partial re",
+  "packageName": "@alphesdk-remote/com-a2awire-benchmark-ap-exception-review-2026-09-10-ad46e3f1",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2awire.com/mcp/benchmarks/ap-exception-review-2026-09-10-ad46e3f1/http"
+    }
+  ],
+  "url": "https://github.com/ee324/a2awire",
+  "readme": "https://github.com/ee324/a2awire#readme"
+}

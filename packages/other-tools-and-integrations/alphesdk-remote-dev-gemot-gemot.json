@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gemot Deliberation Server",
+  "description": "Deliberation primitive for multi-agent coordination: cruxes, vote clustering, consensus.",
+  "packageName": "@alphesdk-remote/dev-gemot-gemot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gemot.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/justinstimatze/gemot",
+  "readme": "https://github.com/justinstimatze/gemot#readme"
+}

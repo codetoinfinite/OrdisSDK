@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OathReady: Canadian Citizenship Test",
+  "description": "Canadian citizenship test practice: verified questions, mock tests, IRCC stats, eligibility tools.",
+  "packageName": "@alphesdk-remote/ca-oathready-citizenship-test",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oathready.ca/api/mcp"
+    }
+  ],
+  "url": "https://oathready.ca"
+}

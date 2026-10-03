@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "eigent",
+  "name": "Eigent",
+  "description": "Desktop cowork app that runs a team of agents to automate multi-step workflows, locally or connected to the Eigent cloud.",
+  "category": "other-tools-and-integrations",
+  "tags": ["desktop", "multi-agent", "workforce", "camel", "mcp", "local"],
+  "repo": "https://github.com/eigent-ai/eigent",
+  "homepage": "https://www.eigent.ai",
+  "publisher": "Eigent AI (CAMEL-AI)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets a user build and manage a workforce of agents that split a complex task and execute parts in parallel, or run a single meta agent for focused jobs. Targets knowledge workers who want automation with local deployment and their own models.",
+  "howItWorks": "A desktop front end talks to a backend built on the CAMEL framework's multi-agent workforce. Agents use built-in browser and terminal toolkits, skills and MCP integrations, with a fully local backend option that supports local model servers such as vLLM, Ollama and LM Studio.",
+  "requirements": [
+    {
+      "name": "Node.js 18-22 and npm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the cloud-connected quick start from source"
+    },
+    {
+      "name": "LLM provider or local model server",
+      "kind": "service",
+      "required": true,
+      "description": "Any supported model, including local vLLM, Ollama or LM Studio"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "TypeScript",
+  "framework": "CAMEL",
+  "models": "Model-agnostic, including local models",
+  "mcp": "client",
+  "github": {
+    "stars": 15452,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

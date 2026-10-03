@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "vietnamese-calendar",
+  "description": "Vietnamese Lunar Calendar for date and calendar conversion, and cultural insights.",
+  "packageName": "@alphesdk-remote/com-am-lich-vietnamese-calendar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://am-lich.com/mcp"
+    }
+  ]
+}

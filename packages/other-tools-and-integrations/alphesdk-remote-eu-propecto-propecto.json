@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Propecto",
+  "description": "Sociétés européennes, dirigeants, comptes, marchés publics, aides et marques (lecture seule).",
+  "packageName": "@alphesdk-remote/eu-propecto-propecto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.propecto.eu/mcp"
+    }
+  ],
+  "url": "https://www.propecto.eu/api"
+}

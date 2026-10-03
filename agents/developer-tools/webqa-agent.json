@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "webqa-agent",
+  "name": "WebQA Agent",
+  "description": "Autonomous web QA agent that explores a site and reports on functionality, performance, user experience and security.",
+  "category": "developer-tools",
+  "tags": ["qa-agent", "web-testing", "performance", "ux"],
+  "repo": "https://github.com/MigoXLab/webqa-agent",
+  "publisher": "MigoXLab",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Tests a web application without pre-written cases, generating and executing checks and producing a report. Developers and QA engineers use it for quick audits of a site.",
+  "howItWorks": "An init command writes a config, then a generation command lets the agent plan test cases, drive Chrome through the Chrome DevTools MCP server and evaluate the results. It also ships its own MCP server so other agents can trigger tests, and a docker compose deployment is available.",
+  "requirements": [
+    {
+      "name": "Python 3.11+ with uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the agent"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for chrome-devtools-mcp"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in the generated config"
+    }
+  ],
+  "install": [
+    "uv init my-webqa && cd my-webqa",
+    "uv add webqa-agent",
+    "npm install -g chrome-devtools-mcp@latest"
+  ],
+  "run": ["uv run webqa-agent init", "uv run webqa-agent gen"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "OpenAI-compatible models",
+  "mcp": "both",
+  "github": {
+    "stars": 232,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "numbercheck",
+  "description": "Checks $TICKER numeric claims in financial writing against SEC EDGAR XBRL data from the latest 10-K.",
+  "packageName": "@alphesdk-remote/com-edgethirteen-www-numbercheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.edgethirteen.com/api/mcp/numbercheck"
+    }
+  ],
+  "url": "https://www.edgethirteen.com/tools/numbercheck"
+}

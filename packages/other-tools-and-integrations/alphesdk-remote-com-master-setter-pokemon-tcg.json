@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Master Setter Pokémon TCG Catalog",
+  "description": "Pokémon TCG cards in 14 languages: 196k cards, 272k printings, deepest Korean/Thai/Chinese.",
+  "packageName": "@alphesdk-remote/com-master-setter-pokemon-tcg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.master-setter.com/mcp"
+    }
+  ],
+  "url": "https://api.master-setter.com/"
+}

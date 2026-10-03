@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Stoory Hire Specialist",
+  "description": "Find and hire a human specialist from the Stoory marketplace, right from chat.",
+  "packageName": "@alphesdk-remote/io-github-stoorybot-stoory-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stoory.io/mcp"
+    }
+  ],
+  "url": "https://github.com/StooryGitServer/stoory-mcp-server",
+  "readme": "https://github.com/StooryGitServer/stoory-mcp-server#readme"
+}

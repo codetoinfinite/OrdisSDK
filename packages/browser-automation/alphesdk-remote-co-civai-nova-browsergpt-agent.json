@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Browser Automation Agent by Nova (CIVAI)",
+  "description": "I do everything related to Browser Automation & Management",
+  "packageName": "@alphesdk-remote/co-civai-nova-browsergpt-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/browsergpt-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/browsergpt-agent"
+}

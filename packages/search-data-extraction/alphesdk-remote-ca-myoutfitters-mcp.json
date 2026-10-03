@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search Canadian hunting and fishing outfitters, check availability, and send price requests.",
+  "packageName": "@alphesdk-remote/ca-myoutfitters-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://myoutfitters.ca/mcp"
+    }
+  ],
+  "url": "https://myoutfitters.ca"
+}

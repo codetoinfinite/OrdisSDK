@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Forkmate",
+  "description": "Free AI calorie & macro tracker: tell your AI what you ate and it logs it to your private food diary",
+  "packageName": "@alphesdk-remote/ai-forkmate-forkmate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.forkmate.ai/"
+    }
+  ],
+  "url": "https://github.com/shawnazar/forkmate-mcp",
+  "readme": "https://github.com/shawnazar/forkmate-mcp#readme"
+}

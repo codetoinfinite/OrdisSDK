@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "dnv-spain",
+  "description": "Spain Digital Nomad Visa: eligibility check by UGE rules, sworn translators search, visa facts.",
+  "packageName": "@alphesdk-remote/com-iberiapath-dnv-spain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iberiapath.com/mcp"
+    }
+  ],
+  "url": "https://iberiapath.com"
+}

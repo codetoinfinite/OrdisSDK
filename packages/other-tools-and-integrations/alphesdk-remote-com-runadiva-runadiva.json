@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RUNaDIVA",
+  "description": "Autonomous Decision Intelligence for evaluating economic decisions before value is committed.",
+  "packageName": "@alphesdk-remote/com-runadiva-runadiva",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runadiva.com/mcp"
+    }
+  ],
+  "url": "https://runadiva.com"
+}

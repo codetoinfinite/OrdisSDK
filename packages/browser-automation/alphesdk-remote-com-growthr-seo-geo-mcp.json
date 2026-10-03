@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Growthr SEO + GEO MCP",
+  "description": "SEO + GEO tools in your AI editor: scan as ChatGPT and Google crawlers see it, fix order, llms.txt.",
+  "packageName": "@alphesdk-remote/com-growthr-seo-geo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.growthr.com/mcp"
+    }
+  ],
+  "url": "https://mcp.growthr.com"
+}

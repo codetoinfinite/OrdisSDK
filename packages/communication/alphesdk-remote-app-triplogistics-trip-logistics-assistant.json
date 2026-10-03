@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "trip-logistics-assistant",
+  "description": "Book trip logistics in chat: cars, transfers, eSIM, luggage storage, tours & flight compensation.",
+  "packageName": "@alphesdk-remote/app-triplogistics-trip-logistics-assistant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.triplogistics.app/mcp"
+    }
+  ],
+  "url": "https://triplogistics.app"
+}

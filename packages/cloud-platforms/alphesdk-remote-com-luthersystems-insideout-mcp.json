@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "InsideOut (Riley)",
+  "description": "Designs, prices, and deploys AWS/GCP cloud infrastructure from plain-English requirements.",
+  "packageName": "@alphesdk-remote/com-luthersystems-insideout-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.luthersystems.com/v1/insideout-mcp"
+    }
+  ],
+  "url": "https://github.com/luthersystems/insideout-agent-skills",
+  "readme": "https://github.com/luthersystems/insideout-agent-skills#readme"
+}

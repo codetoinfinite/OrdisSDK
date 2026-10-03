@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mailcheer",
+  "description": "Manage a Mailcheer email workspace: subscribers, segments, campaigns, transactional sends and stats.",
+  "packageName": "@alphesdk-remote/com-mailcheer-mailcheer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mailcheer.com/api/mcp"
+    }
+  ],
+  "url": "https://mailcheer.com/docs/api"
+}

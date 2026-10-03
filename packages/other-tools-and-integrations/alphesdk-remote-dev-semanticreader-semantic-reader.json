@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Priority — TypeScript Compiler Intelligence",
+  "description": "Stateless TS/JS compiler facts for agents: references, imports, impact. No repo index or OAuth.",
+  "packageName": "@alphesdk-remote/dev-semanticreader-semantic-reader",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://semanticreader.dev/mcp/registry"
+    }
+  ],
+  "url": "https://semanticreader.dev"
+}

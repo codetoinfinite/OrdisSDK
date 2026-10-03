@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX TikTok MCP",
+  "description": "TikTok suggestions, video/image search/details, comments/replies, creators/posts, speech-to-text.",
+  "packageName": "@alphesdk-remote/com-52choujiang-tiktok-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/tiktok/mcp"
+    }
+  ]
+}

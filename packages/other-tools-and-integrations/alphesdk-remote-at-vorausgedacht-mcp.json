@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vorausgedacht.at",
+  "description": "Edelmetallkurse, MarktWache, gemeinfreie Bücher, unverbindlicher Rückruf-Service aus Österreich",
+  "packageName": "@alphesdk-remote/at-vorausgedacht-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vorausgedacht.at/mcp"
+    }
+  ],
+  "url": "https://vorausgedacht.at/ki/"
+}

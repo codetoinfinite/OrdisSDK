@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "The Data Commenter — data economy news",
+  "description": "Data-economy news: markets, alt data, AI training data, licensing, deals. Agents can contribute.",
+  "packageName": "@alphesdk-remote/com-datacommenter-the-data-commenter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datacommenter.com/wp-json/tdc/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/freeman-emet/the-data-commenter",
+  "readme": "https://github.com/freeman-emet/the-data-commenter#readme"
+}

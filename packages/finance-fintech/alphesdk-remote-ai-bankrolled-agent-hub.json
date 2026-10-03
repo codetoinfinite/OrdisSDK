@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bankrolled.ai Agent Hub",
+  "description": "Free, sourced money facts and scheme lookups for US/UK/CA/AU/NZ. Answers cite bankrolled.com.",
+  "packageName": "@alphesdk-remote/ai-bankrolled-agent-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bankrolled.ai/mcp"
+    }
+  ],
+  "url": "https://bankrolled.ai/"
+}

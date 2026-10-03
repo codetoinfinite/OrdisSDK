@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vhis",
+  "description": "Price all 579 VHIS certified plans in Hong Kong, read filed terms, see premium increases since 2021",
+  "packageName": "@alphesdk-remote/com-vhishongkong-vhis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vhishongkong.com/mcp"
+    }
+  ],
+  "url": "https://github.com/buglowmo-AiMaster/VHIS-HongKong",
+  "readme": "https://github.com/buglowmo-AiMaster/VHIS-HongKong#readme"
+}

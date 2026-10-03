@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "alumnium",
+  "name": "Alumnium",
+  "description": "AI layer for end-to-end tests that adds natural-language actions and checks on top of existing test drivers, plus an MCP server.",
+  "category": "developer-tools",
+  "tags": ["e2e-testing", "selenium", "playwright", "appium"],
+  "repo": "https://github.com/alumnium-hq/alumnium",
+  "homepage": "https://alumnium.ai",
+  "publisher": "Alumnium",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets test engineers write steps and assertions in plain language while keeping their current test framework. It works with web and mobile drivers and can also be attached to a coding agent to exercise an application.",
+  "howItWorks": "A wrapper object takes an existing driver session, sends the accessibility tree and optionally screenshots to a model, and converts the answer into driver commands or a verdict on an assertion. Packages exist for Python, TypeScript and Java, and a standalone binary runs as an MCP server.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key shown in the README; other providers are supported"
+    },
+    {
+      "name": "Selenium, Playwright or Appium driver",
+      "kind": "runtime",
+      "required": true,
+      "description": "Existing automation driver the library wraps"
+    }
+  ],
+  "install": ["pip install alumnium"],
+  "run": [],
+  "interfaces": ["library", "cli"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic, Google and other providers",
+  "mcp": "server",
+  "github": {
+    "stars": 1013,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

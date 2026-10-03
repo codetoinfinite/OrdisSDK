@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "hush",
+  "description": "A secret store for AI agents: the agent never sees the plaintext.",
+  "packageName": "@alphesdk-remote/com-royashbrook-hush",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://royashbrook.com/hush"
+    }
+  ],
+  "url": "https://github.com/royashbrook/hush",
+  "readme": "https://github.com/royashbrook/hush#readme"
+}

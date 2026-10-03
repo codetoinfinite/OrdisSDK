@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI-TENDER — open procurements of Belarus",
+  "description": "Open public procurements of Belarus: search by words or customer UNP, source link for each.",
+  "packageName": "@alphesdk-remote/by-ai-tender-tenders",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-tender.by/mcp"
+    }
+  ],
+  "url": "https://ai-tender.by/zakupki.php"
+}

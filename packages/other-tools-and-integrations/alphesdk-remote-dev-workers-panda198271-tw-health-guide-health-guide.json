@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣健康資訊",
+  "description": "台灣健康資訊：居家血壓、血糖判讀與就醫指引，依台灣官方指引整理。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-health-guide-health-guide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-health-guide.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-health-guide.panda198271.workers.dev"
+}

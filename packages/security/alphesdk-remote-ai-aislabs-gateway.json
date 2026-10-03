@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AIS Gateway — the campus front desk for AIS MCP buildings",
+  "description": "Front desk for the AIS MCP campus: lists our buildings (CVE, Flight Recorder), prices, how to pay",
+  "packageName": "@alphesdk-remote/ai-aislabs-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aislabs.ai/mcp"
+    }
+  ],
+  "url": "https://aislabs.ai/gateway"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-toolbelt",
+  "description": "29 pay-per-call DNS, SEO, SSL, security, and dev tools for AI agents. x402, no API key.",
+  "packageName": "@alphesdk-remote/com-papacasper-mcp-toolbelt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://papacasper.com/mcp"
+    }
+  ]
+}

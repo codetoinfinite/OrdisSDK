@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Penwright — writing-craft library, guide metadata, and magazine",
+  "description": "Read-only access to Penwright's writing-craft book library, grounded guide metadata (card-level...",
+  "packageName": "@alphesdk-remote/ink-penwright-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://penwright.ink/api/mcp"
+    }
+  ],
+  "url": "https://penwright.ink"
+}

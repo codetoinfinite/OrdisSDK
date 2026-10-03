@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LaraBench",
+  "description": "Search Laravel jobs, remote roles, Laravel news, and package releases in real time.",
+  "packageName": "@alphesdk-remote/com-larabench-larabench",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://larabench.com/mcp"
+    }
+  ],
+  "url": "https://larabench.com/docs/advanced-usage/mcp-server"
+}

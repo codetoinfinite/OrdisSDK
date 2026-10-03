@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentsouk",
+  "description": "Marketplace for AI agents: hire, sell, get paid in USDC on Base. Identity, jobs, reputation.",
+  "packageName": "@alphesdk-remote/dev-agentsouk-agentsouk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentsouk.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/agent-souk/agentsouk",
+  "readme": "https://github.com/agent-souk/agentsouk#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Storyflo",
+  "description": "Curated audio news, daily briefings, the Declassified library + market-linked signals.",
+  "packageName": "@alphesdk-remote/io-github-alisammour-storyflo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.storyflo.com/mcp/v1"
+    }
+  ],
+  "url": "https://github.com/Alisammour/storyflo-mcp",
+  "readme": "https://github.com/Alisammour/storyflo-mcp#readme"
+}

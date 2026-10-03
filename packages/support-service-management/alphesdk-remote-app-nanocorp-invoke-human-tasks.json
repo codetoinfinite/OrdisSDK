@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Invoke — hire a human from your AI agent (first post free)",
+  "description": "Let your AI agent hire a human for tasks it can't do — first post free.",
+  "packageName": "@alphesdk-remote/app-nanocorp-invoke-human-tasks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invoke.nanocorp.app/mcp"
+    }
+  ],
+  "url": "https://github.com/nanocorp-hq/invoke",
+  "readme": "https://github.com/nanocorp-hq/invoke#readme"
+}

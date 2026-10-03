@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bimhouse",
+  "description": "bim.house — words become buildings. Generate BIM, check code & structure, quote materials.",
+  "packageName": "@alphesdk-remote/house-bim-bimhouse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bim.house/mcp"
+    }
+  ],
+  "url": "https://bim.house"
+}

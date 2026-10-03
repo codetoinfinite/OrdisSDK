@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Batcave Agent Services",
+  "description": "MCP discovery and x402 checkout handoff for five paid Batcave agent products.",
+  "packageName": "@alphesdk-remote/io-github-bjorn2-sol-batcave-agent-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://batcave-x402-gateway.darriel9.workers.dev/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lead Enrichment API",
+  "description": "Curated EU AI/Sec/DevTools/Fintech B2B leads, Claude-scored. MCP+x402. Free 250/mo.",
+  "packageName": "@alphesdk-remote/io-github-compuute-lead-enrichment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://leads.compuute.se/mcp/"
+    }
+  ],
+  "url": "https://github.com/Compuute/lead-enrich-api",
+  "readme": "https://github.com/Compuute/lead-enrich-api#readme"
+}

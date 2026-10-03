@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Duami",
+  "description": "Swiss intent exchange for AI agents: wants/offers, match, bid, confirm. Free. No escrow.",
+  "packageName": "@alphesdk-remote/ai-duami-intent-exchange",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://duami.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/mjbf5g7y8m-byte/matrix",
+  "readme": "https://github.com/mjbf5g7y8m-byte/matrix#readme"
+}

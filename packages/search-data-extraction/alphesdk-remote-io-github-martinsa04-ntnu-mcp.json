@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NTNU Courses (unofficial)",
+  "description": "Unofficial NTNU course data: search, timetables, grades, course info, and exam logistics.",
+  "packageName": "@alphesdk-remote/io-github-martinsa04-ntnu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ntnu-mcp.martinsundal.no/mcp"
+    }
+  ],
+  "url": "https://github.com/MartinSA04/ntnu-mcp",
+  "readme": "https://github.com/MartinSA04/ntnu-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Boostermage MTG Prices",
+  "description": "Live MTG sealed product prices across UK retailers. Search, compare, track deals and price drops.",
+  "packageName": "@alphesdk-remote/com-boostermage-mtg-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.boostermage.com/mcp"
+    }
+  ],
+  "url": "https://github.com/fmacpro/boostermage",
+  "readme": "https://github.com/fmacpro/boostermage#readme"
+}

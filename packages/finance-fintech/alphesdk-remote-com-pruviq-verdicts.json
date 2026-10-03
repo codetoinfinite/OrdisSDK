@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PRUVIQ strategy verdicts (read-only)",
+  "description": "Read-only crypto strategy backtest & verification verdicts. No trading tools; every result is cited.",
+  "packageName": "@alphesdk-remote/com-pruviq-verdicts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pruviq.com/mcp"
+    }
+  ],
+  "url": "https://pruviq.com/methodology/"
+}

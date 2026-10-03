@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ichimoku Signal",
+  "description": "Free Ichimoku trend; paid confluence, levels, market scan and liquidity-ranked setups via x402.",
+  "packageName": "@alphesdk-remote/io-github-fizzl13-ichimoku-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ichimoku-signal.fizzl.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Fizzl13/ichimoku-signal",
+  "readme": "https://github.com/Fizzl13/ichimoku-signal#readme"
+}

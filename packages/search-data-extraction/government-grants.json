@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "government-grants",
+  "packageName": "github:tar-ive/grants-mcp#89d667ce69cb17396b03c291d3a5b43d06aa7e75",
   "description": "Integrates with the Simpler Grants API to enable keyword-based searching and retrieval of government grant opportunities.",
   "url": "https://github.com/tar-ive/grants-mcp",
   "runtime": "node",

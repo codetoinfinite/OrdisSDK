@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BlockchainAnalysis",
+  "description": "Compliance MCP for AI agents: sanctions & KYT screening on 50+ chains, stablecoin-freeze, oracle.",
+  "packageName": "@alphesdk-remote/io-blockchainanalysis-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blockchainanalysis.io/api/mcp"
+    }
+  ],
+  "url": "https://blockchainanalysis.io/tools/mcp"
+}

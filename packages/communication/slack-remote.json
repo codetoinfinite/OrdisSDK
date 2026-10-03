@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Slack",
+  "description": "Slack-hosted server for searching and sending messages, reading channels, canvases and users.",
+  "packageName": "@alphesdk-remote/slack",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.slack.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.slack.dev/ai/mcp-server",
+  "url": "https://github.com/slackapi",
+  "author": "Slack",
+  "env": {}
+}

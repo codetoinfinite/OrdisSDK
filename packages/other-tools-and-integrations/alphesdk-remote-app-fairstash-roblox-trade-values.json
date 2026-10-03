@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FairStash — Roblox trade values",
+  "description": "Roblox trade values and trade fairness for MM2, Adopt Me and Flee the Facility.",
+  "packageName": "@alphesdk-remote/app-fairstash-roblox-trade-values",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fairstash.app/api/mcp"
+    }
+  ],
+  "url": "https://fairstash.app/mcp"
+}

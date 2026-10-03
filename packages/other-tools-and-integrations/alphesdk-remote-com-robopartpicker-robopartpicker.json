@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RoboPartPicker",
+  "description": "Source-linked robotics projects, bills of materials and components for AI agents.",
+  "packageName": "@alphesdk-remote/com-robopartpicker-robopartpicker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://robopartpicker.com/mcp"
+    }
+  ],
+  "url": "https://github.com/brainbook0/robopartpicker-mcp",
+  "readme": "https://github.com/brainbook0/robopartpicker-mcp#readme"
+}

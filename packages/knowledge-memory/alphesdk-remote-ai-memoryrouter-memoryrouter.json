@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MemoryRouter",
+  "description": "Persistent AI memory shared across Claude, ChatGPT, coding agents, and compatible MCP clients.",
+  "packageName": "@alphesdk-remote/ai-memoryrouter-memoryrouter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.memoryrouter.ai/mcp"
+    }
+  ],
+  "url": "https://memoryrouter.ai"
+}

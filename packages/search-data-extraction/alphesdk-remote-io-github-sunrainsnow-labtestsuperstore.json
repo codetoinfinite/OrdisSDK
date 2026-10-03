@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LabTestSuperstore",
+  "description": "Read-only U.S. lab-test catalog, collection-site search, and reference-range context.",
+  "packageName": "@alphesdk-remote/io-github-sunrainsnow-labtestsuperstore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://labtestsuperstore-mcp.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://labtestsuperstore.com"
+}

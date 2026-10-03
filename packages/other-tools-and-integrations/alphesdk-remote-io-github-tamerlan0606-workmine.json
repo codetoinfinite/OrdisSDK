@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WORKMINE",
+  "description": "x402 pay-per-call APIs over MCP, settled in USDC on Base for autonomous agents and developers.",
+  "packageName": "@alphesdk-remote/io-github-tamerlan0606-workmine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://workmine-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Tamerlan0606/Dealfinder",
+  "readme": "https://github.com/Tamerlan0606/Dealfinder#readme"
+}

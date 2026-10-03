@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Trustbase Lab · Global Chemical Recycling Intelligence",
+  "description": "Chemical recycling data: rCB suppliers, policies, ASTM/GB standards, feedstock price indices.",
+  "packageName": "@alphesdk-remote/com-trustbaselab-rcb-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trustbaselab.com/mcp"
+    }
+  ],
+  "url": "https://trustbaselab.com/ai"
+}

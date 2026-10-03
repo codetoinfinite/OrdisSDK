@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "public",
+  "description": "Read-only opt-out guides, removal routes for 950+ data brokers, and privacy library search.",
+  "packageName": "@alphesdk-remote/com-myprivacyagent-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://myprivacyagent.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/msanchezgrice/leak-check-me",
+  "readme": "https://github.com/msanchezgrice/leak-check-me#readme"
+}

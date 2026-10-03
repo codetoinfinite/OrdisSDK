@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MyHairMail Agent Tools",
+  "description": "Open, read-only wig stock, restock ETAs and cross-brand color matching. No key; fair-use limits.",
+  "packageName": "@alphesdk-remote/com-myhairmailtools-agent-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.myhairmailtools.com/mcp"
+    }
+  ],
+  "url": "https://mcp.myhairmailtools.com"
+}

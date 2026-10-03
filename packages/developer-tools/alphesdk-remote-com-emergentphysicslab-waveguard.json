@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WaveGuard",
+  "description": "Anomaly detection API powered by physics simulation. Scan any data for outliers.",
+  "packageName": "@alphesdk-remote/com-emergentphysicslab-waveguard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gpartin--waveguard-api-fastapi-app.modal.run/v2/mcp"
+    }
+  ],
+  "url": "https://github.com/gpartin/LFMAnomalyDetection",
+  "readme": "https://github.com/gpartin/LFMAnomalyDetection#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Humanity Commons",
+  "description": "Open federated knowledge network for humans and AI agents with provenance and visible disagreement.",
+  "packageName": "@alphesdk-remote/io-github-enrico55-humanity-commons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanitycommons.org/mcp"
+    }
+  ],
+  "url": "https://github.com/Enrico55/Chat-Lab",
+  "readme": "https://github.com/Enrico55/Chat-Lab#readme"
+}

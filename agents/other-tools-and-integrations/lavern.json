@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "lavern",
+  "name": "Lavern",
+  "description": "Multi-agent legal work system in which specialist agents debate, verify each other's output and pause at human approval gates.",
+  "category": "other-tools-and-integrations",
+  "tags": ["legal", "multi-agent", "debate", "verification", "human-in-the-loop"],
+  "repo": "https://github.com/AnttiHero/lavern",
+  "homepage": "https://lavern.ai",
+  "publisher": "AnttiHero",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Runs legal tasks such as contract analysis through a team of role-specific agents and shows the process in a dashboard. Lawyers approve or redirect work at defined checkpoints.",
+  "howItWorks": "A Node.js server coordinates dozens of prompt-defined agents under a debate protocol with verification steps, and a separate dashboard visualises runs. A local mode works without a key; hosted models are enabled by provider keys.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the server and dashboard"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Hosted model access; MISTRAL_API_KEY is also supported"
+    }
+  ],
+  "install": ["npm install", "(cd viz && npm install)"],
+  "run": ["npm run serve:dev", "cd viz && npm run dev"],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Anthropic, Mistral",
+  "mcp": "none",
+  "github": {
+    "stars": 307,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-05",
+    "checkedAt": "2026-10-03"
+  }
+}

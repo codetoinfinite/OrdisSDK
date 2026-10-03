@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CryptoPulse Data API",
+  "description": "Pay-per-call crypto market intelligence for AI agents. USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/ai-saascloud-cryptopulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cryptopulse.saascloud.ai/mcp"
+    }
+  ],
+  "url": "https://cryptopulse.saascloud.ai"
+}

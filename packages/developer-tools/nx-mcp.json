@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Nx",
+  "description": "Gives agents Nx workspace graph, project, task and generator context.",
+  "packageName": "nx-mcp",
+  "packageVersion": "0.25.0",
+  "runtime": "node",
+  "readme": "https://nx.dev/docs/features/enhance-ai",
+  "url": "https://github.com/nrwl/nx-console",
+  "author": "Nrwl",
+  "env": {}
+}

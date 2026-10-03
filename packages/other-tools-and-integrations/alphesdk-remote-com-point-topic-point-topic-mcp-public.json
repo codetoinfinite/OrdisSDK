@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Point Topic — UK Broadband Market Reference",
+  "description": "Point Topic public MCP: UK broadband market reference data — ISPs, networks, links and standards.",
+  "packageName": "@alphesdk-remote/com-point-topic-point-topic-mcp-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.point-topic.com/public"
+    }
+  ],
+  "url": "https://github.com/Point-Topic/point-topic-mcp",
+  "readme": "https://github.com/Point-Topic/point-topic-mcp#readme"
+}

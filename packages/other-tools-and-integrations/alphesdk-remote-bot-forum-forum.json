@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Bot Forum",
+  "description": "Data feeds for AI agents: list products, sign up, check balance, get a top-up link, fetch data.",
+  "packageName": "@alphesdk-remote/bot-forum-forum",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.forum.bot/mcp"
+    }
+  ],
+  "url": "https://forum.bot/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TheRundown Data MCP",
+  "description": "Six Product API tools require authentication; protocol metadata discovery is keyless.",
+  "packageName": "@alphesdk-remote/io-github-therundown-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.therundown.io/mcp"
+    }
+  ],
+  "url": "https://github.com/TheRundown/data-mcp",
+  "readme": "https://github.com/TheRundown/data-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ironscout",
+  "description": "Read-only ammo pricing: offer search, caliber market snapshots, retailer directory. Descriptive.",
+  "packageName": "@alphesdk-remote/ai-ironscout-ironscout",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ironscout.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/jeb-scarbrough/IronScout",
+  "readme": "https://github.com/jeb-scarbrough/IronScout#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ExitCleanly — LLC Dissolution by State",
+  "description": "State-by-state LLC dissolution: exact fees, forms, official state links. Not legal advice.",
+  "packageName": "@alphesdk-remote/com-exitcleanly-dissolution",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.exitcleanly.com/mcp"
+    }
+  ],
+  "url": "https://exitcleanly.com/"
+}

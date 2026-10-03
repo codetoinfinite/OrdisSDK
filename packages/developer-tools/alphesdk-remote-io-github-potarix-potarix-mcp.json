@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Potarix Enricher",
+  "description": "Find company websites and verified business emails through the Potarix Enricher API.",
+  "packageName": "@alphesdk-remote/io-github-potarix-potarix-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.potarix.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Potarix/potarix-mcp",
+  "readme": "https://github.com/Potarix/potarix-mcp#readme"
+}

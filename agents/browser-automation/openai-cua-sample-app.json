@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "openai-cua-sample-app",
+  "name": "OpenAI Computer Use Sample Apps",
+  "description": "OpenAI's sample computer-use agents: one drives a browser with Playwright code, another a desktop via PyAutoGUI.",
+  "category": "browser-automation",
+  "tags": ["computer-use", "playwright", "desktop", "openai", "sample"],
+  "repo": "https://github.com/openai/openai-cua-sample-app",
+  "publisher": "OpenAI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "The repo shows how to build agents that operate software to finish a task, with a shared web console and practice labs (kanban board, paint canvas, booking site). It is for developers learning OpenAI's computer-use pattern.",
+  "howItWorks": "The model writes code that runs in a persistent runtime: JavaScript with Playwright for the browser agent, Python with PyAutoGUI for the desktop agent. A Responses API loop feeds results and screenshots back to the model.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI API access"
+    },
+    {
+      "name": "Node.js with pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Workspace tooling"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": false,
+      "description": "For the Python desktop app"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/openai/openai-cua-sample-app.git",
+    "cd openai-cua-sample-app",
+    "corepack enable",
+    "pnpm install --frozen-lockfile",
+    "cp .env.example .env",
+    "pnpm playwright:install"
+  ],
+  "run": ["pnpm dev:js"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "OpenAI models via the Responses API",
+  "mcp": "none",
+  "github": {
+    "stars": 1883,
+    "license": "MIT",
+    "pushedAt": "2026-09-04",
+    "checkedAt": "2026-10-03"
+  }
+}

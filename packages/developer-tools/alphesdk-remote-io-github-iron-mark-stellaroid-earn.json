@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Stellaroid Earn",
+  "description": "Read-only MCP server: verify credentials and browse escrows on the Stellar testnet contract.",
+  "packageName": "@alphesdk-remote/io-github-iron-mark-stellaroid-earn",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stellaroid.tech/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Iron-Mark/Hackathon-Stellaroid_Earn",
+  "readme": "https://github.com/Iron-Mark/Hackathon-Stellaroid_Earn#readme"
+}

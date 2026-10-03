@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Root Data Public Directory",
+  "description": "Public Root Data dental analytics directory for DSOs, dental practices, blog, and FAQ tools.",
+  "packageName": "@alphesdk-remote/ai-rootdata-public-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rootdata.ai/api/mcp"
+    }
+  ],
+  "url": "https://rootdata.ai/connect-root-data-mcp"
+}

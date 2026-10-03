@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "gemini-fullstack-langgraph-quickstart",
+  "name": "Gemini Fullstack LangGraph Quickstart",
+  "description": "Full-stack research agent that generates search queries with Gemini, reflects on gaps and returns an answer with citations.",
+  "category": "search-data-extraction",
+  "tags": ["research", "langgraph", "gemini", "react", "citations"],
+  "repo": "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users ask a question in a web chat and the agent performs iterative web research before replying with sourced conclusions. It is a reference for developers building research-augmented chat apps.",
+  "howItWorks": "A LangGraph graph on a FastAPI backend generates queries, calls Google Search through the Gemini API, reflects on whether more searching is needed and loops up to a limit before synthesising. A Vite/React frontend streams progress; a CLI example and Docker Compose setup are included.",
+  "requirements": [
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Gemini API key from Google AI Studio"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Frontend"
+    },
+    {
+      "name": "Python 3.11+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Backend"
+    },
+    {
+      "name": "LANGSMITH_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed for the docker-compose deployment"
+    }
+  ],
+  "install": ["cd backend", "pip install .", "cd frontend", "npm install"],
+  "run": ["make dev"],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Google Gemini",
+  "mcp": "none",
+  "github": {
+    "stars": 18345,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-06-14",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Govbase",
+  "description": "U.S. federal policy data — bills, Congress members, voting records, and civic info.",
+  "packageName": "@alphesdk-remote/com-govbase-govbase",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.govbase.com/mcp"
+    }
+  ],
+  "url": "https://github.com/govbase-inc/govbase",
+  "readme": "https://github.com/govbase-inc/govbase#readme"
+}

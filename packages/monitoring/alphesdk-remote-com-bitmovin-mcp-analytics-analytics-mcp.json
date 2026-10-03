@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bitmovin Observability MCP",
+  "description": "Query and analyse your data from Bitmovin Observability",
+  "packageName": "@alphesdk-remote/com-bitmovin-mcp-analytics-analytics-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://analytics.mcp.bitmovin.com"
+    }
+  ],
+  "url": "https://bitmovin.com"
+}

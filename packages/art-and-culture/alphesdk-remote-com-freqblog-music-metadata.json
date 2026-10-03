@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FreqBlog Music Metadata",
+  "description": "Audio features + harmonic set-building for tracks by name/ISRC. Spotify audio-features replacement.",
+  "packageName": "@alphesdk-remote/com-freqblog-music-metadata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.freqblog.com/mcp"
+    }
+  ]
+}

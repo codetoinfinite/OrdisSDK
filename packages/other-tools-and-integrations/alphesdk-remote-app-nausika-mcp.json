@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nausika",
+  "description": "Mediterranean marine, nautical, sailing: forecasts, tides, sea routes, anchorages, POIs for AI.",
+  "packageName": "@alphesdk-remote/app-nausika-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nausika.app"
+    }
+  ],
+  "url": "https://github.com/nausika-app/nausika-feedback",
+  "readme": "https://github.com/nausika-app/nausika-feedback#readme"
+}

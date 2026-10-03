@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CDC Social Vulnerability Index",
+  "description": "SVI scores and theme breakdowns by county and tract",
+  "packageName": "@alphesdk-remote/com-olyport-cdc-svi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/cdc-svi/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

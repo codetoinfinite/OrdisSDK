@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Antevo Mandates",
+  "description": "Your client book: who is due a review, what their mandate allows, and what has moved.",
+  "packageName": "@alphesdk-remote/ch-antevo-mandates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.antevo.ch/mcp/mandates/mcp"
+    }
+  ],
+  "url": "https://antevo.ch/mandate"
+}

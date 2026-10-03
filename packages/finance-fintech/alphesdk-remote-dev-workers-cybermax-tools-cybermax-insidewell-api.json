@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Insidewell",
+  "description": "Insider trading API + MCP: SEC Form 4 buys/sells, cluster buys. Keys $19/mo; 100 free/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-insidewell-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://insidewell-api.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/apis/insider-trading-api/"
+}

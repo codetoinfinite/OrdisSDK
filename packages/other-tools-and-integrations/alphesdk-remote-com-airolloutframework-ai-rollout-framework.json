@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Rollout Framework",
+  "description": "90-day AI adoption framework for managers: overview, pricing, FAQ and an AI readiness assessment.",
+  "packageName": "@alphesdk-remote/com-airolloutframework-ai-rollout-framework",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://airolloutframework.com/mcp"
+    }
+  ],
+  "url": "https://github.com/airolloutframework/ai-rollout-framework-data",
+  "readme": "https://github.com/airolloutframework/ai-rollout-framework-data#readme"
+}

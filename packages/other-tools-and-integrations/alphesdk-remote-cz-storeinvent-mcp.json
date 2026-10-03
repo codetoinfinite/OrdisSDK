@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Store Invent & Partners",
+  "description": "Czech inventory services for retail: company info, quote requirements, Q&A, inquiry submission.",
+  "packageName": "@alphesdk-remote/cz-storeinvent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.storeinvent.cz/api/mcp"
+    }
+  ],
+  "url": "https://www.storeinvent.cz"
+}

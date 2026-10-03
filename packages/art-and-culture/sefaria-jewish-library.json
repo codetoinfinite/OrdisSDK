@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "sefaria-jewish-library",
+  "packageName": "git+https://github.com/sivan22/mcp-sefaria-server@b8ceef78b42c9330f7b62afc020b2bc6e616b986",
   "description": "Integrates with the Sefaria Jewish Library API to provide access to Jewish texts and commentaries for textual analysis and religious study.",
   "url": "https://github.com/sivan22/mcp-sefaria-server",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Sefaria MCP Server"
+  "name": "Sefaria MCP Server",
+  "bin": "sefaria_jewish_library",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

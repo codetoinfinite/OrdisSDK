@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "northreach",
+  "description": "Direct agent conversation, questions and answers, persistent memory, and network broadcasts.",
+  "packageName": "@alphesdk-remote/com-northreachinteractive-northreach",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://northreach-agent-network.evictionx.chatgpt.site/api/mcp"
+    }
+  ],
+  "url": "https://northreach-agent-network.evictionx.chatgpt.site/discover"
+}

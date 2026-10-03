@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Postel",
+  "description": "Draft, schedule and publish X (Twitter) and LinkedIn posts in your own voice.",
+  "packageName": "@alphesdk-remote/app-postel-postel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.postel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/robinfaraj/postel-mcp",
+  "readme": "https://github.com/robinfaraj/postel-mcp#readme"
+}

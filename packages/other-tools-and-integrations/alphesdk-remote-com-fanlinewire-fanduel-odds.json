@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FanLine Wire — Real-Time FanDuel Odds",
+  "description": "Live and prematch FanDuel odds, price drops and feed health. No key, no signup.",
+  "packageName": "@alphesdk-remote/com-fanlinewire-fanduel-odds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fanlinewire.com/mcp"
+    }
+  ],
+  "url": "https://fanlinewire.com"
+}

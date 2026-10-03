@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "X1-BaaS Scraping API",
+  "description": "Stealth scraping API for AI agents. Clean Markdown from any URL. x402 crypto payments.",
+  "packageName": "@alphesdk-remote/com-tazpal-x1-baas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tazpal.com/mcp"
+    }
+  ]
+}

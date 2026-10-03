@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX X / Twitter MCP",
+  "description": "X / Twitter public post, comment, reply, user, search, and video speech-to-text tools.",
+  "packageName": "@alphesdk-remote/com-52choujiang-x-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/x/mcp"
+    }
+  ]
+}

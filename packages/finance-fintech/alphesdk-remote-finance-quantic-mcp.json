@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Quantic Finance",
+  "description": "Dividend portfolio tracking and planning for US and EU markets: income, safety, Spain-aware taxes.",
+  "packageName": "@alphesdk-remote/finance-quantic-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quantic.finance/mcp"
+    }
+  ],
+  "url": "https://quantic.finance"
+}

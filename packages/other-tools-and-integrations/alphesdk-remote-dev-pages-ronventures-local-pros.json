@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Local Pros by Ron Ventures",
+  "description": "Find owner-operated plumbers, HVAC techs, electricians and roofers in OK, KS, NE, IA and MO.",
+  "packageName": "@alphesdk-remote/dev-pages-ronventures-local-pros",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ronventures.pages.dev/mcp"
+    }
+  ],
+  "url": "https://ronventures.pages.dev/connector"
+}

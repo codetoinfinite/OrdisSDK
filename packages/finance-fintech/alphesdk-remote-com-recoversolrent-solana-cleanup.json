@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Solana Cleanup",
+  "description": "Read-only Solana and crypto reserve-recovery scans, pricing, chain facts, and methodology.",
+  "packageName": "@alphesdk-remote/com-recoversolrent-solana-cleanup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recoversolrent.com/mcp"
+    }
+  ],
+  "url": "https://recoversolrent.com/developers"
+}

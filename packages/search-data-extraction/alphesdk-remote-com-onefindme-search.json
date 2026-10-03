@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OneFindMe",
+  "description": "Search AliExpress in any language: real listings with price, rating, orders and links.",
+  "packageName": "@alphesdk-remote/com-onefindme-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onefindme.com/mcp"
+    }
+  ],
+  "url": "https://onefindme.com/mcp"
+}

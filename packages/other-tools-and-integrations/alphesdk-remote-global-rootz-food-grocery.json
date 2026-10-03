@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "grocery",
+  "description": "Signed US food & grocery data: Kroger prices, nutrition, allergens, recalls, diet filters.",
+  "packageName": "@alphesdk-remote/global-rootz-food-grocery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://food.rootz.global/mcp"
+    }
+  ],
+  "url": "https://github.com/rootz-global/mcp-servers",
+  "readme": "https://github.com/rootz-global/mcp-servers#readme"
+}

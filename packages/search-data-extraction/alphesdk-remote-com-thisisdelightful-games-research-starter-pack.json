@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Delightful's Game Research Starter Pack",
+  "description": "Where to look for games industry research: 873 sources across ten markets, cited and free.",
+  "packageName": "@alphesdk-remote/com-thisisdelightful-games-research-starter-pack",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://games.thisisdelightful.com/mcp"
+    }
+  ],
+  "url": "https://github.com/itsmepants2/games-research-starter-pack",
+  "readme": "https://github.com/itsmepants2/games-research-starter-pack#readme"
+}

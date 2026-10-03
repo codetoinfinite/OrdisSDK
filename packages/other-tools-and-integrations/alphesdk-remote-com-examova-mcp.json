@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Examova — Exam Prep",
+  "description": "Practice questions, exam facts & study guides for professional certification exams.",
+  "packageName": "@alphesdk-remote/com-examova-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://examova.com/api/mcp"
+    }
+  ],
+  "url": "https://examova.com"
+}

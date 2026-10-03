@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ResolveMesh Compatibility Intelligence",
+  "description": "Read-only, source-backed compatibility lookups and approved changes for ResolveMesh's catalog.",
+  "packageName": "@alphesdk-remote/com-resolvemesh-compatibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://resolvemesh.com/mcp/public"
+    }
+  ]
+}

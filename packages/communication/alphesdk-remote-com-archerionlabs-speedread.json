@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Speed Reader",
+  "description": "Turn any article, document, or chat reply into a one-word-at-a-time RSVP reading session.",
+  "packageName": "@alphesdk-remote/com-archerionlabs-speedread",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://archerionlabs.com/mcp/speedread"
+    }
+  ],
+  "url": "https://github.com/Starsalaya/speed-reader",
+  "readme": "https://github.com/Starsalaya/speed-reader#readme"
+}

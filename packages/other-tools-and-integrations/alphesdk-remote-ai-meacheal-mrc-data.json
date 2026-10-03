@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MRC Data — China's Apparel Supply Chain Infrastructure",
+  "description": "China's apparel supply chain data for AI: 1,000+ suppliers, 350+ fabrics, 170+ clusters.",
+  "packageName": "@alphesdk-remote/ai-meacheal-mrc-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meacheal.ai/mcp"
+    }
+  ],
+  "url": "https://api.meacheal.ai"
+}

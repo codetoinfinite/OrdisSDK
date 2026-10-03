@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pricing",
+  "description": "Instant pricing and draft orders for custom index tabs and binder dividers, from the maker.",
+  "packageName": "@alphesdk-remote/com-tabzoola-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tabzoola.com/api/mcp"
+    }
+  ],
+  "url": "https://tabzoola.com"
+}

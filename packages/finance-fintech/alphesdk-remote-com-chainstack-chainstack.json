@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Chainstack",
+  "description": "Deploy and manage blockchain nodes across 70+ protocols, search docs, request testnet funds.",
+  "packageName": "@alphesdk-remote/com-chainstack-chainstack",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chainstack.com/mcp"
+    }
+  ],
+  "url": "https://github.com/chainstacklabs/mcp-server",
+  "readme": "https://github.com/chainstacklabs/mcp-server#readme"
+}

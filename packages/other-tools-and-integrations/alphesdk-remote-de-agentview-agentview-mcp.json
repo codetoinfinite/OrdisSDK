@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentView",
+  "description": "Display delivery platform for AI agents. Push HTML, dashboards and live data to screens.",
+  "packageName": "@alphesdk-remote/de-agentview-agentview-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentview.de/mcp"
+    }
+  ],
+  "url": "https://agentview.de/developers.html"
+}

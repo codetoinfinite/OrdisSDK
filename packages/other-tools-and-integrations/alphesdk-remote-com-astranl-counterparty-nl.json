@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AstraNL Dutch counterparty check",
+  "description": "Check a Dutch supplier before you pay: KvK register, name match, VIES VAT, EU sanctions. No key.",
+  "packageName": "@alphesdk-remote/com-astranl-counterparty-nl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://astranl.com/mcp/streamable?profile=counterparty"
+    }
+  ],
+  "url": "https://astranl.com/check-counterparty/"
+}

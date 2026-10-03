@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "New Site Radar",
+  "description": "Rising new AI tool sites with cross-checked traffic, revenue signals and model releases.",
+  "packageName": "@alphesdk-remote/com-newsiteradar-new-site-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://newsiteradar.com/api/mcp"
+    }
+  ],
+  "url": "https://newsiteradar.com/mcp"
+}

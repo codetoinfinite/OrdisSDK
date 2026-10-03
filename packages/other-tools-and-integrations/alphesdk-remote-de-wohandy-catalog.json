@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wohandy.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Handys – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wohandy-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wohandy.de/api/mcp"
+    }
+  ],
+  "url": "https://wohandy.de"
+}

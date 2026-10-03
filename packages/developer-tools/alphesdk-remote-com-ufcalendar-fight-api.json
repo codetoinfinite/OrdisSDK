@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "UFCalendar Fight API — MMA MCP server",
+  "description": "Fight API MCP: UFC, PFL, BKFC, RIZIN, OKTAGON events, results, stats, rankings, judges scorecards.",
+  "packageName": "@alphesdk-remote/com-ufcalendar-fight-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ufcalendar.com/mcp"
+    }
+  ],
+  "url": "https://github.com/UFCalendar/fight-api-skill",
+  "readme": "https://github.com/UFCalendar/fight-api-skill#readme"
+}

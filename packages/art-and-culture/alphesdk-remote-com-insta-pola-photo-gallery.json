@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Insta-Pola Photo Gallery",
+  "description": "Create shared event photo galleries with a QR code, a live photo wall and AI caption suggestions.",
+  "packageName": "@alphesdk-remote/com-insta-pola-photo-gallery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.insta-pola.com/mcp"
+    }
+  ],
+  "url": "https://www.insta-pola.com"
+}

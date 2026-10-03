@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "directory",
+  "description": "Read-only directory of vetted AI implementation agencies from the Ashton & Forge marketplace.",
+  "packageName": "@alphesdk-remote/com-ashtonforge-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ashtonforge.com/mcp/directory"
+    }
+  ]
+}

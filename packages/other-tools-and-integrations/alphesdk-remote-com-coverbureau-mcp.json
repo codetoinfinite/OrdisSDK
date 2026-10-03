@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CoverBureau",
+  "description": "Checks certificates of insurance (ACORD 25) against your requirements. Pay per call, x402 USDC.",
+  "packageName": "@alphesdk-remote/com-coverbureau-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coverbureau.com/mcp"
+    }
+  ],
+  "url": "https://coverbureau.com"
+}

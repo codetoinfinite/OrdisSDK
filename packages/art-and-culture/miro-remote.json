@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Miro",
+  "description": "Read and create content on Miro whiteboards.",
+  "packageName": "@alphesdk-remote/miro",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.miro.com/",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.miro.com/docs/mcp-intro",
+  "url": "https://github.com/miroapp",
+  "author": "Miro",
+  "env": {}
+}

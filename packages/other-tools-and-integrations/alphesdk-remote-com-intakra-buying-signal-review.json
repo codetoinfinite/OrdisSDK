@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Intakra Public Signal Review",
+  "description": "Score supplied buying-signal evidence and prepare review-only why-now briefs. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-intakra-buying-signal-review",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://intakra.com/mcp"
+    }
+  ],
+  "url": "https://intakra.com/mcp-guide"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tu Lugar",
+  "description": "Search and manage Paraguay & LatAm real estate from any AI assistant.",
+  "packageName": "@alphesdk-remote/com-tulugar-tulugar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tulugar.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/JanKratochvil1/tulugar-mcp-server",
+  "readme": "https://github.com/JanKratochvil1/tulugar-mcp-server#readme"
+}

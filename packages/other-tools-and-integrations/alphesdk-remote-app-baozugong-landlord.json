@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YieldLord · 包租公",
+  "description": "RENT-ranked covered-call, CSP & wheel income ideas, your positions & Greeks. Never places orders.",
+  "packageName": "@alphesdk-remote/app-baozugong-landlord",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://baozugong.app/api/mcp"
+    }
+  ],
+  "url": "https://baozugong.app/mcp-guide"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Axiom Agentic Tools",
+  "description": "x402-paid Base agent tools (USDC). 5 deterministic tools. No API keys. No NFT pass.",
+  "packageName": "@alphesdk-remote/io-github-0xaxiom-axiom-agentic-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentic.clawbots.org/api/agentic/mcp"
+    }
+  ],
+  "url": "https://github.com/0xAxiom/axiom-agentic-tools",
+  "readme": "https://github.com/0xAxiom/axiom-agentic-tools#readme"
+}

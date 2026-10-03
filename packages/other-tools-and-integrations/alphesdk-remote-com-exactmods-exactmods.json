@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ExactMods",
+  "description": "Source-cited ARRMA 3S / 4x4 parts fitment with revision scope, confidence, sources, and guides.",
+  "packageName": "@alphesdk-remote/com-exactmods-exactmods",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://exactmods.com/mcp"
+    }
+  ],
+  "url": "https://exactmods.com"
+}

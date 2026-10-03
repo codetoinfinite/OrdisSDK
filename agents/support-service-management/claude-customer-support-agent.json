@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "claude-customer-support-agent",
+  "name": "Claude Customer Support Agent",
+  "description": "Next.js customer-support chat powered by Claude with retrieval from Amazon Bedrock Knowledge Bases.",
+  "category": "support-service-management",
+  "tags": ["customer-support", "rag", "bedrock", "nextjs", "claude"],
+  "repo": "https://github.com/anthropics/claude-quickstarts",
+  "subpath": "customer-support-agent",
+  "publisher": "Anthropic",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It answers customer questions from a company knowledge base, shows its sources and reasoning, detects the user's mood and flags when a human agent should take over. A customisable starter for support teams.",
+  "howItWorks": "A Next.js app calls Claude with context retrieved from a Bedrock Knowledge Base and renders structured output including debug details and redirection hints.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic API key"
+    },
+    {
+      "name": "BAWS_ACCESS_KEY_ID",
+      "kind": "api-key",
+      "required": true,
+      "description": "AWS key for Bedrock Knowledge Bases"
+    },
+    {
+      "name": "BAWS_SECRET_ACCESS_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "AWS secret for Bedrock Knowledge Bases"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Next.js app"
+    }
+  ],
+  "install": ["npm install"],
+  "run": ["npm run dev"],
+  "interfaces": ["web", "chat"],
+  "language": "TypeScript",
+  "models": "Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 17785,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

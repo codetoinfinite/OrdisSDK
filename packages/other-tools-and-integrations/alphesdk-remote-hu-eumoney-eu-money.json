@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EU Money",
+  "description": "Magyar uniós pályázatok, feltételek, összegek, határidők és útmutatók forrásolt keresője.",
+  "packageName": "@alphesdk-remote/hu-eumoney-eu-money",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eumoney.hu/chatgpt/mcp"
+    }
+  ],
+  "url": "https://eumoney.hu/ai-integraciok"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "samigpt",
+  "name": "SamiGPT (AI SOC Agent)",
+  "description": "SOC analyst agent platform that links case management, SIEM, EDR and threat intelligence so an LLM can investigate alerts.",
+  "category": "security",
+  "tags": ["soc", "siem", "edr", "threat-intel", "blue-team"],
+  "repo": "https://github.com/M507/AI-SOC-Agent",
+  "publisher": "M507",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gives security operations teams an assistant that can pull alerts, query logs, look up indicators and update cases during triage. It is designed to plug into the tools a SOC already runs.",
+  "howItWorks": "Integrations for case management, SIEM such as Elastic, endpoint detection and threat intelligence are exposed as tools on an MCP server. A setup wizard configures the connections, and chat front ends such as Open WebUI drive the investigations.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Onboarding stack is started with Docker Compose"
+    },
+    {
+      "name": "Security tooling",
+      "kind": "service",
+      "required": true,
+      "description": "SIEM, EDR, case management and intel services to connect"
+    }
+  ],
+  "install": [],
+  "run": ["docker compose -p samigpt-onboarding -f onboarding/docker-compose.yml up --build"],
+  "interfaces": ["web", "api", "chat"],
+  "language": "Python",
+  "models": "Depends on the connected MCP client or chat front end",
+  "mcp": "server",
+  "github": {
+    "stars": 51,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

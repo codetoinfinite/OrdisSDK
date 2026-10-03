@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Steledger",
+  "description": "Durable identity and memory for AI agents, anchored on the Emercoin blockchain.",
+  "packageName": "@alphesdk-remote/com-steledger-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.steledger.com/mcp"
+    }
+  ],
+  "url": "https://github.com/steledger/steledger-gateway",
+  "readme": "https://github.com/steledger/steledger-gateway#readme"
+}

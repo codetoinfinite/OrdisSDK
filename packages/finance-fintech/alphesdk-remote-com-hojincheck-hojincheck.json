@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HojinCheck — Japanese corporate verification API (hojin = 法人/corporate entity)",
+  "description": "Verify Japanese companies, invoice-issuer registrations and addresses against government open data.",
+  "packageName": "@alphesdk-remote/com-hojincheck-hojincheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hojincheck.com/mcp"
+    }
+  ],
+  "url": "https://hojincheck.com"
+}

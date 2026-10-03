@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "commsharbor",
+  "description": "Transactional e-mail and permission-based campaigns, multi-tenant, with a full audit trail.",
+  "packageName": "@alphesdk-remote/com-commsharbor-commsharbor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://commsharbor.com/mcp"
+    }
+  ],
+  "url": "https://commsharbor.com"
+}

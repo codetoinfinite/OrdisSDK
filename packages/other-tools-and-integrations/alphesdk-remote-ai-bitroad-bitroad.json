@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "bitroad",
+  "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
+  "packageName": "@alphesdk-remote/ai-bitroad-bitroad",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.bitroad.ai/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/bitroadai/bitroad-mcp",
+  "readme": "https://github.com/bitroadai/bitroad-mcp#readme"
+}

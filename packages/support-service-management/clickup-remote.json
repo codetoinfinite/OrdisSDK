@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "ClickUp",
+  "description": "ClickUp-hosted server for tasks, docs, comments and time tracking.",
+  "packageName": "@alphesdk-remote/clickup",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.clickup.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+  "url": "https://github.com/clickup",
+  "author": "ClickUp",
+  "env": {}
+}

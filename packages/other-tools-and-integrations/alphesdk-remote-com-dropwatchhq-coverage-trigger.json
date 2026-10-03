@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "coverage-trigger",
+  "description": "Leads of businesses that just legally need commercial insurance: new FMCSA authority + new entities.",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-coverage-trigger",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coverage.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://coverage.dropwatchhq.com"
+}

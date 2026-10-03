@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Wen Receipts: the site's own MCP server — dataset, enquiry, entities, listing (enquiry = a human...",
+  "packageName": "@alphesdk-remote/com-wenreceipts-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wenreceipts.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

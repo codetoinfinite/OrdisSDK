@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Afterglow Checklists",
+  "description": "Read your practical Afterglow checklists and save confirmed task progress in your linked account.",
+  "packageName": "@alphesdk-remote/com-soxoa-afterglow-checklists",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afterglow-lime.vercel.app/mcp"
+    }
+  ],
+  "url": "https://afterglow-lime.vercel.app/developers"
+}

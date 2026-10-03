@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reference-data",
+  "description": "European govt data, cited: rates, VAT, tax, wages, holidays, FX. 35 countries; Germany free.",
+  "packageName": "@alphesdk-remote/dev-euroref-reference-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://euroref.dev/mcp"
+    }
+  ],
+  "url": "https://euroref.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Puptra PDF Snapshot",
+  "description": "One-call URL-to-PDF and full-page screenshot API with Puppeteer's page.pdf()/page.screenshot()...",
+  "packageName": "@alphesdk-remote/com-saastemly-puptra-pdf-snapshot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://puptra-pdf-snapshot.saastemly.com/mcp"
+    }
+  ],
+  "url": "https://puptra-pdf-snapshot.saastemly.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "creationloop",
+  "description": "CreationLoop is your Marketing Agent. Read the overview, offer, and FAQ; apply as a design partner.",
+  "packageName": "@alphesdk-remote/ai-creationloop-creationloop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://creationloop.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/marino129/creationloop-mcp",
+  "readme": "https://github.com/marino129/creationloop-mcp#readme"
+}

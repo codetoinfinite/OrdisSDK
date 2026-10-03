@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "electron.dance",
+  "description": "electron.dance MCP server: upcoming gigs, community links, RSVP, and Spotify top tracks.",
+  "packageName": "@alphesdk-remote/io-github-ric-lavers-electron-dance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://electron.dance/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Ric-Lavers/electron.dance",
+  "readme": "https://github.com/Ric-Lavers/electron.dance#readme"
+}

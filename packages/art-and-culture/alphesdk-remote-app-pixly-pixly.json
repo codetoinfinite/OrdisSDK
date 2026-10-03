@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pixly",
+  "description": "Every visual AI tool for property listings — staging, enhancement, decluttering, cinematic video.",
+  "packageName": "@alphesdk-remote/app-pixly-pixly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pixly.app/api/mcp"
+    }
+  ],
+  "url": "https://pixly.app/mcp"
+}

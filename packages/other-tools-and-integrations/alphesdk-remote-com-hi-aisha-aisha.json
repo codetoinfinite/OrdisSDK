@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "aisha",
+  "description": "Verified local businesses, bookable by AI agents: services, prices, availability and appointments.",
+  "packageName": "@alphesdk-remote/com-hi-aisha-aisha",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hi-aisha.com/mcp"
+    }
+  ],
+  "url": "https://hi-aisha.com"
+}

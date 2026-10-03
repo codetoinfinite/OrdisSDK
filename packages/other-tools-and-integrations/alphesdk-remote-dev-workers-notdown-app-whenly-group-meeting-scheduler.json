@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Whenly — group meeting scheduler for AI agents",
+  "description": "Find a time a group can meet: no-login availability poll that picks the best meeting slot.",
+  "packageName": "@alphesdk-remote/dev-workers-notdown-app-whenly-group-meeting-scheduler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whenly.notdown-app.workers.dev/mcp"
+    }
+  ],
+  "url": "https://whenly.notdown-app.workers.dev"
+}

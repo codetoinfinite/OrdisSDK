@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tarteel MCP Server",
+  "description": "Quran MCP server for translation, tafsir, mutashabihat, recitation playlists, and prayer times.",
+  "packageName": "@alphesdk-remote/io-github-tarteelai-tarteel-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tarteel.ai/mcp"
+    }
+  ],
+  "url": "https://mcp.tarteel.ai/docs/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TokenOS Gas & Fee Tracker",
+  "description": "Live fees on five chains",
+  "packageName": "@alphesdk-remote/ai-tokenos-gas-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenos.ai/api/mcp/apps/gas-tracker"
+    }
+  ],
+  "url": "https://tokenos.ai/mcp/gas-tracker"
+}

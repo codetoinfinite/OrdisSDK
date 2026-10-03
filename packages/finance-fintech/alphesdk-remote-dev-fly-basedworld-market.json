@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Basedworld Agent HQ",
+  "description": "Find public creator tools, work and conversation. Read-only; no wallet, posting or payment.",
+  "packageName": "@alphesdk-remote/dev-fly-basedworld-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://basedworld.fly.dev/mcp"
+    }
+  ]
+}

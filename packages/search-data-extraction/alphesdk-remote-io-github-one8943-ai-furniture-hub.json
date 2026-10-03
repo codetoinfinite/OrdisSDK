@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Furniture & Home Product Hub",
+  "description": "MCP server for mm-precision furniture search, fit checks, curated sets, and AIO audits.",
+  "packageName": "@alphesdk-remote/io-github-one8943-ai-furniture-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-furniture-hub.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ONE8943/ai-furniture-hub",
+  "readme": "https://github.com/ONE8943/ai-furniture-hub#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Manawa Terminal",
+  "description": "Live market data, financial analysis, and portfolio research tools across 10,000+ tickers.",
+  "packageName": "@alphesdk-remote/app-manawa-manawa-terminal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.manawa.app/mcp"
+    }
+  ],
+  "url": "https://www.manawa.app"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tetrees MCP",
+  "description": "Own, grow and trade portable agent intelligence via TAIP/1 Packs and MCP.",
+  "packageName": "@alphesdk-remote/ai-tetrees-ex-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ex.tetrees.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/TetreesEX/TetreesAgent_EX",
+  "readme": "https://github.com/TetreesEX/TetreesAgent_EX#readme"
+}

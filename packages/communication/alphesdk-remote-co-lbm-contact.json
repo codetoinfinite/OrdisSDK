@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Voix contact",
+  "description": "Reach a human at Voix: submit the studio contact form and get a reply by email.",
+  "packageName": "@alphesdk-remote/co-lbm-contact",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lbm.co/mcp"
+    }
+  ],
+  "url": "https://lbm.co/"
+}

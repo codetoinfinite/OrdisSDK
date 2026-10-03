@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pulltrader Seller Economics",
+  "description": "Compare what a trading-card seller keeps across eBay, Pulltrader, and other card marketplaces.",
+  "packageName": "@alphesdk-remote/app-pulltrader-seller-economics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pulltrader.app/mcp"
+    }
+  ],
+  "url": "https://github.com/pulltrader/pulltrader-mcp",
+  "readme": "https://github.com/pulltrader/pulltrader-mcp#readme"
+}

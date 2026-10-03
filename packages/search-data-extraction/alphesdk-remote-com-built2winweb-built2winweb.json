@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BuiltToWinWeb",
+  "description": "Search BuiltToWinWeb's services, industries and blog. Flat-fee custom PHP sites for small business.",
+  "packageName": "@alphesdk-remote/com-built2winweb-built2winweb",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://built2winweb.com/mcp"
+    }
+  ],
+  "url": "https://built2winweb.com"
+}

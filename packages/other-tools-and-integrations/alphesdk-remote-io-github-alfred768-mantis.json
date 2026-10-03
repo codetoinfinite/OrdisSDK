@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mantis",
+  "description": "Cross-venue prediction market routing for AI agents with arbitrage, quotes, history, and signals.",
+  "packageName": "@alphesdk-remote/io-github-alfred768-mantis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mantiss.store/mcp"
+    }
+  ],
+  "url": "https://github.com/Alfred768/prediction-router-portal",
+  "readme": "https://github.com/Alfred768/prediction-router-portal#readme"
+}

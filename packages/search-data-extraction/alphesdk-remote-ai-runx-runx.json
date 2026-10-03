@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "runx",
+  "description": "The governed runtime for agent skills. Search the catalog and inspect a skill before running it.",
+  "packageName": "@alphesdk-remote/ai-runx-runx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.runx.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/runxhq/runx",
+  "readme": "https://github.com/runxhq/runx#readme"
+}

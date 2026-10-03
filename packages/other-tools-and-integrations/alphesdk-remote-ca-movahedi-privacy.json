@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "movahedi.ca Privacy Data",
+  "description": "Canadian privacy enforcement, glossary, and Quebec Law 25 guidance for AI agents.",
+  "packageName": "@alphesdk-remote/ca-movahedi-privacy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://movahedi.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/movahedi-ca/movahedi-ca",
+  "readme": "https://github.com/movahedi-ca/movahedi-ca#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TOP GUN GEO-Lens",
+  "description": "Brand visibility auditing across LLMs, AI search, and answer engines with GEO reports and scores.",
+  "packageName": "@alphesdk-remote/io-github-spacemandomains-top-gun-geo-lens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://top-gun-mcp-server.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/spacemandomains/top_gun_mcp_server",
+  "readme": "https://github.com/spacemandomains/top_gun_mcp_server#readme"
+}

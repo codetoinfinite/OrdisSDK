@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FX Context",
+  "description": "FX macro context for CPI, NFP, PCE, Fed, ECB, BoE, BoJ, historical analogs, and FX market reactions.",
+  "packageName": "@alphesdk-remote/com-coco-pier-fx-context",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fx.coco-pier.com/mcp"
+    }
+  ],
+  "url": "https://fx.coco-pier.com"
+}

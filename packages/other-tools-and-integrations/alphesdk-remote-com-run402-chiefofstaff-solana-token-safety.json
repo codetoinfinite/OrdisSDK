@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "chiefofstaff token safety (Solana + Robinhood Chain)",
+  "description": "Pre-trade token safety checks for Solana and Robinhood Chain, $0.01 USDC per call via x402.",
+  "packageName": "@alphesdk-remote/com-run402-chiefofstaff-solana-token-safety",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chiefofstaff-solana.run402.com/mcp/remote"
+    }
+  ],
+  "url": "https://chiefofstaff-solana.run402.com/mcp/"
+}

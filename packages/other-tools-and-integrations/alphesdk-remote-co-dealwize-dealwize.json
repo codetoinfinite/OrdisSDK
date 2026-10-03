@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dealwize",
+  "description": "Analyse B2B sales deals, uncover risks, stakeholders, next steps, and winning actions.",
+  "packageName": "@alphesdk-remote/co-dealwize-dealwize",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dealwize.co/api/v1/mcp"
+    }
+  ],
+  "url": "https://dealwize.co/mcp"
+}

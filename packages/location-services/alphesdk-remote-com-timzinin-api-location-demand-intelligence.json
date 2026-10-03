@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Location & Demand Intelligence",
+  "description": "Pay-per-call where-and-when-to-operate signals from official local statistics.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-location-demand-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/location-demand-intelligence"
+    }
+  ]
+}

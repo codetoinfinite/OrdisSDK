@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HackMyIP — no-key IP intelligence",
+  "description": "Free no-key IP intelligence: geolocation, VPN detection, DNS, WHOIS, blacklists, breach checks",
+  "packageName": "@alphesdk-remote/io-github-0xvibly-hackmyip-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hackmyip.com/mcp"
+    }
+  ],
+  "url": "https://github.com/0xvibly/hackmyip-mcp",
+  "readme": "https://github.com/0xvibly/hackmyip-mcp#readme"
+}

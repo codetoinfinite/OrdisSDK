@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AlphaCreek SEC Filings MCP",
+  "description": "Access SEC filings efficiently (10-K, 10-Q, etc), save time and tokens, and get cited answers.",
+  "packageName": "@alphesdk-remote/ai-alphacreek-alphacreek-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.alphacreek.ai/mcp"
+    }
+  ],
+  "url": "https://www.alphacreek.ai/mcp-docs"
+}

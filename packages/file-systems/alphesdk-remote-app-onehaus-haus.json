@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "haus",
+  "description": "OneHaus household tools: tasks, calendar, contacts, pets, vehicles, documents and more.",
+  "packageName": "@alphesdk-remote/app-onehaus-haus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.onehaus.app"
+    }
+  ],
+  "url": "https://github.com/Im5tu/haus",
+  "readme": "https://github.com/Im5tu/haus#readme"
+}

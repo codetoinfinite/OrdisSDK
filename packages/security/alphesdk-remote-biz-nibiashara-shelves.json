@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ni Biashara Shelves — Africa FX, freight & compliance checks (x402)",
+  "description": "Africa FX, US carrier/broker checks, OFAC screening — paid per call via x402.",
+  "packageName": "@alphesdk-remote/biz-nibiashara-shelves",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.nibiashara.biz/mcp"
+    }
+  ],
+  "url": "https://agents.nibiashara.biz"
+}

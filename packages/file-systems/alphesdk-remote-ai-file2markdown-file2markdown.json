@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "file2markdown",
+  "description": "Convert documents and web pages to clean Markdown: PDF, DOCX, XLSX, EPUB, scanned files, any URL.",
+  "packageName": "@alphesdk-remote/ai-file2markdown-file2markdown",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.file2markdown.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Robinhill85/file2markdown-mcp",
+  "readme": "https://github.com/Robinhill85/file2markdown-mcp#readme"
+}

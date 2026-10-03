@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "normhyra",
+  "description": "Swedish normhyra calculation engine: convert rents, process rent rolls, generate PDF reports.",
+  "packageName": "@alphesdk-remote/ai-normhyra-normhyra",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.normhyra.ai/"
+    }
+  ],
+  "url": "https://normhyra.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "auregistre",
+  "description": "French companies: dated changes and insolvencies (BODACC), filed accounts by year (INPI). No key.",
+  "packageName": "@alphesdk-remote/fr-auregistre-auregistre",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auregistre.fr/mcp"
+    }
+  ],
+  "url": "https://auregistre.fr/api"
+}

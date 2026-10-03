@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Packrift MCP",
+  "description": "Find, size, price and order packaging: boxes, mailers, poly bags, tape. Live price and stock.",
+  "packageName": "@alphesdk-remote/io-github-packrift-packrift-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.packrift.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Packrift/packrift-mcp",
+  "readme": "https://github.com/Packrift/packrift-mcp#readme"
+}

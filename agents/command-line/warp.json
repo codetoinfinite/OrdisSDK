@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "warp",
+  "name": "Warp",
+  "description": "Agentic terminal and development environment where a built-in agent or your own CLI agent works alongside normal shell use.",
+  "category": "command-line",
+  "tags": ["terminal", "agentic", "desktop", "rust", "developer-environment"],
+  "repo": "https://github.com/warpdotdev/warp",
+  "homepage": "https://www.warp.dev",
+  "docs": "https://docs.warp.dev",
+  "publisher": "Warp",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Replaces a conventional terminal with one that can plan and run multi-step tasks, write and edit code and explain output. Developers can use the bundled agent or bring another command-line agent into the same environment.",
+  "howItWorks": "A native Rust application renders the terminal and hosts agent sessions that execute commands with the user's approval. The client source is public, and the repository includes scripts to bootstrap dependencies and run a local build.",
+  "requirements": [
+    {
+      "name": "Rust toolchain",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed to build from source; installed by the bootstrap script"
+    },
+    {
+      "name": "Warp account",
+      "kind": "account",
+      "required": false,
+      "description": "Used for hosted AI features"
+    }
+  ],
+  "install": ["./script/bootstrap"],
+  "run": ["./script/run"],
+  "interfaces": ["desktop", "cli"],
+  "language": "Rust",
+  "models": "Multiple hosted models through Warp, or an external CLI agent",
+  "mcp": "client",
+  "github": {
+    "stars": 65349,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

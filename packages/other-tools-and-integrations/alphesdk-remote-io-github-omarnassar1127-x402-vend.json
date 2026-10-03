@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402-vend — WebIntel",
+  "description": "Pay-per-call web & EU business intelligence for AI agents (x402 USDC on Base). 11 tools.",
+  "packageName": "@alphesdk-remote/io-github-omarnassar1127-x402-vend",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.omardev.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/OmarNassar1127/x402-vend",
+  "readme": "https://github.com/OmarNassar1127/x402-vend#readme"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "avante-nvim",
+  "name": "avante.nvim",
+  "description": "Neovim plugin that brings Cursor-style AI editing to the editor, with suggestions you apply in place and agentic tools.",
+  "category": "coding-agents",
+  "tags": ["neovim", "plugin", "cursor-like", "acp", "lua"],
+  "repo": "https://github.com/avante-corp/avante.nvim",
+  "publisher": "avante.nvim maintainers",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "avante.nvim lets Neovim users ask a model about the current code and apply the proposed changes with a keystroke. It supports project instruction files and an agentic mode that uses tools. It is for developers who want AI assistance without leaving Neovim.",
+  "howItWorks": "The plugin opens a sidebar where the model's response is turned into diffs against the buffer. Providers are configured in Lua, and external agents can be attached through the Agent Client Protocol. An optional retrieval service adds codebase context.",
+  "requirements": [
+    {
+      "name": "Neovim",
+      "kind": "runtime",
+      "required": true,
+      "description": "The plugin runs inside Neovim and is installed with a plugin manager"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the configured provider, unless a local model is used"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["ide"],
+  "language": "Lua",
+  "models": "OpenAI, Anthropic, Mistral, DeepSeek, Ollama, llama.cpp and others",
+  "mcp": "none",
+  "github": {
+    "stars": 18173,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

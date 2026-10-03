@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TaskRail",
+  "description": "Delivered-price deals, cancel/refund paths, used-value comparisons, and compatibility checks.",
+  "packageName": "@alphesdk-remote/com-alamavar-taskrail-taskrail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taskrail.alamavar.com/mcp"
+    }
+  ],
+  "url": "https://github.com/shuqairns/taskrail",
+  "readme": "https://github.com/shuqairns/taskrail#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Civica citizenship test prep",
+  "description": "Read-only citizenship test facts, official sources and sample questions for 8 countries.",
+  "packageName": "@alphesdk-remote/com-citizenleap-civica",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.citizenleap.com/mcp"
+    }
+  ],
+  "url": "https://citizenleap.com"
+}

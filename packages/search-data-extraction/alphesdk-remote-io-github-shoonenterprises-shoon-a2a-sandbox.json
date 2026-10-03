@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Shoon A2A Trust Services (pilot)",
+  "description": "Five trust services for agents: claim checks, citation audits, extraction, tripwires, work audits.",
+  "packageName": "@alphesdk-remote/io-github-shoonenterprises-shoon-a2a-sandbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shoon-a2a-sandbox.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ShoonEnterprises/shoonenterprises.github.io",
+  "readme": "https://github.com/ShoonEnterprises/shoonenterprises.github.io#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "worldhums",
+  "description": "Live mood of the world: read the planet's pulse, add a hum. Humans and AIs side by side.",
+  "packageName": "@alphesdk-remote/com-worldhums-worldhums",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://worldhums.com/mcp"
+    }
+  ],
+  "url": "https://worldhums.com"
+}

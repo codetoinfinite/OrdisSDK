@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "marketplace",
+  "description": "Book, reschedule and cancel appointments at any business on the BookingMaven marketplace.",
+  "packageName": "@alphesdk-remote/com-bookingmaven-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bookingmaven.com/mcp"
+    }
+  ],
+  "url": "https://bookingmaven.com"
+}

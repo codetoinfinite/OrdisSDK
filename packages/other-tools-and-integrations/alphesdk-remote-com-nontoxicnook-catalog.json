@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Read-only tools over an independently vetted catalog of non-toxic home and baby products.",
+  "packageName": "@alphesdk-remote/com-nontoxicnook-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nontoxicnook.com/api/mcp"
+    }
+  ],
+  "url": "https://nontoxicnook.com/connect"
+}

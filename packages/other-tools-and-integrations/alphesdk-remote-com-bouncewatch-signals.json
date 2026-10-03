@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BounceWatch Signal Intelligence",
+  "description": "Millions of dated buying and momentum signals: who raised, who's hiring, what changed and when",
+  "packageName": "@alphesdk-remote/com-bouncewatch-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bouncewatch.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://bouncewatch.com/mcp"
+}

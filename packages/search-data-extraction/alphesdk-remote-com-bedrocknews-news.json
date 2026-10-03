@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BedrockNews",
+  "description": "GRIN-scored news for agents: discover by verdict, pull full analysis, traverse extraction graphs.",
+  "packageName": "@alphesdk-remote/com-bedrocknews-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bedrocknews.com/api/mcp"
+    }
+  ],
+  "url": "https://bedrocknews.com"
+}

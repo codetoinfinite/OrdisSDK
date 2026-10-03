@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Insurance Research Expert by Spot",
+  "description": "Commercial insurance research: provider comparisons, pricing, and fit guidance.",
+  "packageName": "@alphesdk-remote/insure-spot-insurance-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spot.insure/mcp"
+    }
+  ],
+  "url": "https://github.com/claritylabs-inc/insurance-research-expert-by-spot",
+  "readme": "https://github.com/claritylabs-inc/insurance-research-expert-by-spot#readme"
+}

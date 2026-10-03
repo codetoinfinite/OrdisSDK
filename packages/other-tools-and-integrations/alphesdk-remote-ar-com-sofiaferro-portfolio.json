@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "portfolio",
+  "description": "Sofia Ferro's portfolio: projects, blog posts, JSON Resume and a contact tool (es/en).",
+  "packageName": "@alphesdk-remote/ar-com-sofiaferro-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sofiaferro.com.ar/api/mcp"
+    }
+  ],
+  "url": "https://www.sofiaferro.com.ar"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Costable — Parametric Should-Cost Analysis",
+  "description": "Parametric should-cost: P50/P80/P90 estimates, 801 materials, 25 countries, quote review.",
+  "packageName": "@alphesdk-remote/io-github-1337mofo-costable",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://costable.ai/api/mcp"
+    }
+  ]
+}

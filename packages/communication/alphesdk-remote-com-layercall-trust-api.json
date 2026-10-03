@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LayerCall",
+  "description": "Score an IP, email, phone, domain or device for fraud in one call, with the signals behind it.",
+  "packageName": "@alphesdk-remote/com-layercall-trust-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.layercall.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/LayerCall/layercall-sdk",
+  "readme": "https://github.com/LayerCall/layercall-sdk#readme"
+}

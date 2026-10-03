@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RegusciLabs Innovation Lab",
+  "description": "Read lab information, submit approved inquiries, and subscribe to Pulse with explicit consent.",
+  "packageName": "@alphesdk-remote/com-reguscilabs-www-innovation-lab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.reguscilabs.com/api/mcp"
+    }
+  ],
+  "url": "https://www.reguscilabs.com/developers"
+}

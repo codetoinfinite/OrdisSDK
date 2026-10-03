@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Captia Industrial Knowledge",
+  "description": "Industrial glossary, protocol reference, technical search and OEE calculation. Read-only.",
+  "packageName": "@alphesdk-remote/com-captiatechnology-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.captiatechnology.com/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/captia-technology/captia-landing-page",
+  "readme": "https://github.com/captia-technology/captia-landing-page#readme"
+}

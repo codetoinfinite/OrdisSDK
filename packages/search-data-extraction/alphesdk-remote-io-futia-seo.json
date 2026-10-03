@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FUTIA",
+  "description": "SEO answers for AI agents: Search Console reads free, plus competitor, keyword, backlink, SERP data.",
+  "packageName": "@alphesdk-remote/io-futia-seo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://futia.io/api/mcp"
+    }
+  ],
+  "url": "https://futia.io"
+}

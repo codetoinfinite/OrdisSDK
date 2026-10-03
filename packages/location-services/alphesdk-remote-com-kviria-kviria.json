@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kviria",
+  "description": "The location engine for AI agents: one verified coordinate from where a user means. Beta: US.",
+  "packageName": "@alphesdk-remote/com-kviria-kviria",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kviria.com/mcp"
+    }
+  ],
+  "url": "https://kviria.com"
+}

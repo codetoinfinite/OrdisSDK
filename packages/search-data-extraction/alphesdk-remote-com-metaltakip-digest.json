@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MetalTakip Digest",
+  "description": "Turkish gold-market digest, derived indicators and analysis search. Keyless, read-only, gated.",
+  "packageName": "@alphesdk-remote/com-metaltakip-digest",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.metaltakip.com/api/mcp"
+    }
+  ],
+  "url": "https://www.metaltakip.com/yapay-zeka"
+}

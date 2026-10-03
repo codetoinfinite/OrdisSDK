@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jobily Jobs",
+  "description": "Search Greek job listings on Jobily.gr by role, location, sector or company. Anonymous, read-only.",
+  "packageName": "@alphesdk-remote/gr-jobily-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobily.gr/mcp"
+    }
+  ],
+  "url": "https://jobily.gr"
+}

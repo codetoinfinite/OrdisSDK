@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Premier Letters",
+  "description": "Send real pen-written letters, cards and postcards: quote, preview, order and track by mail.",
+  "packageName": "@alphesdk-remote/com-premierletters-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.premierletters.com/api/mcp"
+    }
+  ],
+  "url": "https://www.premierletters.com/developers"
+}

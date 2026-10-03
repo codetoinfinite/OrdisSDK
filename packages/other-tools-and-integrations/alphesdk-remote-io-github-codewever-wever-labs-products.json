@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wever Labs Agent Products",
+  "description": "Agent commerce: 27 tools, 10 production services, signed authority, planning, Base USDC x402.",
+  "packageName": "@alphesdk-remote/io-github-codewever-wever-labs-products",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://weverlabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/CodeWever/wever-labs-mcp-registry",
+  "readme": "https://github.com/CodeWever/wever-labs-mcp-registry#readme"
+}

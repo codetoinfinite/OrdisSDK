@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vigía",
+  "description": "What breaks between versions, per-version vulnerabilities, compatible versions: npm/PyPI facts.",
+  "packageName": "@alphesdk-remote/cloud-coredls-vigia-vigia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vigia.coredls.cloud/mcp"
+    }
+  ],
+  "url": "https://vigia.coredls.cloud"
+}

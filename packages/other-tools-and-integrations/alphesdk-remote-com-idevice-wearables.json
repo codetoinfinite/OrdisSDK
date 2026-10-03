@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "iDevice Wearables",
+  "description": "Wearables and phones: prices, availability, compatibility, specs, comparisons, leak claims. No key.",
+  "packageName": "@alphesdk-remote/com-idevice-wearables",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://idevice.com/api/mcp"
+    }
+  ],
+  "url": "https://idevice.com/mcp"
+}

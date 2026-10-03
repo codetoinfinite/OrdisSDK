@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentfeed",
+  "description": "Israeli businesses for AI agents, with consent: search, compare, prices, declared gaps, order links.",
+  "packageName": "@alphesdk-remote/io-github-nitairevivo-agentfeed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentfeed-plum.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Nitairevivo/agentfeed",
+  "readme": "https://github.com/Nitairevivo/agentfeed#readme"
+}

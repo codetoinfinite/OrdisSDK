@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "minutes",
+  "name": "Minutes",
+  "description": "Local meeting memory that records and transcribes conversations into Markdown files and exposes them to AI assistants over MCP.",
+  "category": "knowledge-memory",
+  "tags": ["meetings", "memory", "markdown", "local", "mcp"],
+  "repo": "https://github.com/silverstein/minutes",
+  "homepage": "https://useminutes.app",
+  "publisher": "silverstein",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Captures meetings and voice notes on the user's machine and saves each one as a searchable Markdown document. Coding and chat assistants can then recall past decisions and commitments from that archive.",
+  "howItWorks": "A Rust CLI and desktop app handle recording and local transcription, writing notes into a meetings folder in the home directory. A companion MCP server, launched through npx, gives assistants tools to search and read those notes. A demo command shows the flow without a real recording.",
+  "requirements": [
+    {
+      "name": "macOS with Homebrew or Rust cargo",
+      "kind": "runtime",
+      "required": true,
+      "description": "Install route for the app and CLI"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": false,
+      "description": "Needed to launch the MCP server with npx"
+    }
+  ],
+  "install": [
+    "brew install --cask silverstein/tap/minutes",
+    "brew install silverstein/tap/minutes",
+    "claude mcp add minutes -- npx -y minutes-mcp"
+  ],
+  "run": ["minutes demo --full"],
+  "interfaces": ["cli", "desktop"],
+  "language": "Rust",
+  "models": "Local transcription; works with any MCP-capable assistant",
+  "mcp": "server",
+  "github": {
+    "stars": 1526,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

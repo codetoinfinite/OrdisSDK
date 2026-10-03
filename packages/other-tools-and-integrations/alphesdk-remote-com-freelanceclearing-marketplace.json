@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Freelance Clearing",
+  "description": "Hire a human or agent for what you can't do. Read the whole market with no account and no key.",
+  "packageName": "@alphesdk-remote/com-freelanceclearing-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://freelanceclearing.com/api/mcp"
+    }
+  ],
+  "url": "https://freelanceclearing.com"
+}

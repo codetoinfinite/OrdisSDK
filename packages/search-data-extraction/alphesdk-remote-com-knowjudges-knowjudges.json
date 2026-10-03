@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KnowJudges",
+  "description": "Source-linked research on U.S. judges, courts, cases, and judicial analytics.",
+  "packageName": "@alphesdk-remote/com-knowjudges-knowjudges",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.knowjudges.com/mcp"
+    }
+  ],
+  "url": "https://github.com/KnowJudges/knowjudges-mcp",
+  "readme": "https://github.com/KnowJudges/knowjudges-mcp#readme"
+}

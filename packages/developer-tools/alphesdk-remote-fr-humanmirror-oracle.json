@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumanMirror Oracle",
+  "description": "Structured analysis API and remote MCP tool for text, JSON records and numeric series.",
+  "packageName": "@alphesdk-remote/fr-humanmirror-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanmirror.fr/api/oracle/mcp/"
+    }
+  ],
+  "url": "https://humanmirror.fr/oracle/"
+}

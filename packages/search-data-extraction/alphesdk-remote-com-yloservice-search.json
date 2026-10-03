@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "YloService",
+  "description": "Search local service providers by skill and country",
+  "packageName": "@alphesdk-remote/com-yloservice-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yloservice.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "openfang-rail",
+  "description": "Deterministic banking, LEI, VAT, SWIFT & compliance checks via MCP with signed XDR-1 receipts.",
+  "packageName": "@alphesdk-remote/io-github-89rat-openfang-rail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hcrb.in/mcp"
+    }
+  ],
+  "url": "https://hcrb.in"
+}

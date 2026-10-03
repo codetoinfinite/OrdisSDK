@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Relvato",
+  "description": "Website monitoring: add sites, configure and run monitors, read health, review results, apply fixes.",
+  "packageName": "@alphesdk-remote/com-relvato-relvato",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.relvato.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Relvato/relvato-mcp",
+  "readme": "https://github.com/Relvato/relvato-mcp#readme"
+}

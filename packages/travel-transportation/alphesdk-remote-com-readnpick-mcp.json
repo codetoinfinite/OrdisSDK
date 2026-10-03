@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "EU261/EC261 flight compensation eligibility and flight distance checks via AI agents.",
+  "packageName": "@alphesdk-remote/com-readnpick-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.readnpick.com/mcp"
+    }
+  ],
+  "url": "https://readnpick.com"
+}

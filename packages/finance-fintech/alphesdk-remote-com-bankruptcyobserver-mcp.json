@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bankruptcy Observer",
+  "description": "US business bankruptcy MCP: filings, dockets, documents, case summaries. Free tier + subscription.",
+  "packageName": "@alphesdk-remote/com-bankruptcyobserver-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bankruptcyobserver.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jmtroller/mcp-documentation",
+  "readme": "https://github.com/jmtroller/mcp-documentation#readme"
+}

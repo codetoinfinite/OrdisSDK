@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MoveSurge",
+  "description": "Market news with the measured price reaction attached to the event that caused it.",
+  "packageName": "@alphesdk-remote/com-movesurge-movesurge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://movesurge.com/mcp"
+    }
+  ],
+  "url": "https://movesurge.com/llms.txt"
+}

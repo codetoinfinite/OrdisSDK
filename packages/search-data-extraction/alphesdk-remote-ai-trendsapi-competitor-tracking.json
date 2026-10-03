@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Competitor Tracking API",
+  "description": "Track competitor brand demand across search, social and news. Free key at trendsapi.ai",
+  "packageName": "@alphesdk-remote/ai-trendsapi-competitor-tracking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://competitor-tracking.api.trendsapi.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/trendsapi-ai/trends-mcp",
+  "readme": "https://github.com/trendsapi-ai/trends-mcp#readme"
+}

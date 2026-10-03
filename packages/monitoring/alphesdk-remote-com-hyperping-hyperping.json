@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "hyperping",
+  "description": "Uptime, API and server monitoring with outages, reporting, on-call and status pages.",
+  "packageName": "@alphesdk-remote/com-hyperping-hyperping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hyperping.io/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/hyperping/mcp-server",
+  "readme": "https://github.com/hyperping/mcp-server#readme"
+}

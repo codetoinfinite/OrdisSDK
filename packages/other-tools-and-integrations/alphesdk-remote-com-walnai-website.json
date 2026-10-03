@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Walnai Website MCP",
+  "description": "Public remote MCP server for Walnai AI Consulting services, pricing, calculator, FAQs, and adoption.",
+  "packageName": "@alphesdk-remote/com-walnai-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://walnai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Krypto-IT/WalnaiWebsite",
+  "readme": "https://github.com/Krypto-IT/WalnaiWebsite#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "voxodds",
+  "description": "All-in outcome rankings with live depth, fees, verified rules, EV checks, and track records.",
+  "packageName": "@alphesdk-remote/com-voxodds-voxodds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voxodds.com/mcp"
+    }
+  ],
+  "url": "https://github.com/softdevfz/voxodds-mcp",
+  "readme": "https://github.com/softdevfz/voxodds-mcp#readme"
+}

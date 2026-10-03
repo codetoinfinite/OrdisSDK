@@ -1,0 +1,57 @@
+{
+  "type": "external-agent",
+  "key": "open-computer-use",
+  "name": "Open Computer Use",
+  "description": "Computer-use agent built on open-weight models that controls an Ubuntu desktop sandbox with keyboard, mouse and shell.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "sandbox", "open-models", "desktop"],
+  "repo": "https://github.com/e2b-dev/open-computer-use",
+  "publisher": "E2B",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Executes desktop tasks in a remote Linux sandbox from a text prompt, showing that computer use is possible without proprietary computer-use models. It is intended for developers experimenting with different model combinations.",
+  "howItWorks": "Three roles are configured in a settings file: a grounding model that locates UI elements, a vision model that reads the screen and an action model that decides what to do. The agent loops over screenshots of an E2B desktop sandbox and issues input events or shell commands, optionally starting from a prompt passed on the command line.",
+  "requirements": [
+    {
+      "name": "E2B_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Creates the desktop sandbox"
+    },
+    {
+      "name": "HF_TOKEN",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to hosted grounding models"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "One of FIREWORKS_API_KEY, OPENROUTER_API_KEY, LLAMA_API_KEY, GROQ_API_KEY, GEMINI_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY or MOONSHOT_API_KEY"
+    },
+    {
+      "name": "Python 3.10+, Poetry, ffmpeg",
+      "kind": "runtime",
+      "required": true,
+      "description": "Local tooling"
+    }
+  ],
+  "install": [
+    "brew install poetry ffmpeg",
+    "git clone https://github.com/e2b-dev/open-computer-use/",
+    "cd open-computer-use",
+    "poetry install"
+  ],
+  "run": ["poetry run start"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Open models via Fireworks, OpenRouter, Groq, Llama API and others; OS-Atlas or ShowUI for grounding",
+  "mcp": "none",
+  "github": {
+    "stars": 2306,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-09",
+    "checkedAt": "2026-10-03"
+  }
+}

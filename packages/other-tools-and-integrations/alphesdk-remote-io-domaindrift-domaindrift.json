@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "domaindrift",
+  "description": "Signed internet telemetry, read-only: DNS, TLS, WHOIS, reachability. Every record Ed25519-signed.",
+  "packageName": "@alphesdk-remote/io-domaindrift-domaindrift",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domaindrift.io/mcp"
+    }
+  ],
+  "url": "https://domaindrift.io/agents"
+}

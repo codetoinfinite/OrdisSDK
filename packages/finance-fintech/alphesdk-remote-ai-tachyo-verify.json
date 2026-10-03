@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "verify",
+  "description": "Cryptographic proof of wallet ownership in two steps, with no keys and no custody.",
+  "packageName": "@alphesdk-remote/ai-tachyo-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auth.xbarry.ai/api/mcp/verify"
+    }
+  ]
+}

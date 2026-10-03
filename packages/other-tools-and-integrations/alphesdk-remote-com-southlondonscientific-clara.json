@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clara — Personal Clean Air Planner",
+  "description": "UK personal air quality advice and daily exposure assessment. Pairs with Hermes for live data.",
+  "packageName": "@alphesdk-remote/com-southlondonscientific-clara",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clara-mcp.southlondonscientific.com/mcp"
+    }
+  ],
+  "url": "https://www.southlondonscientific.com"
+}

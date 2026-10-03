@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "codewhale",
+  "name": "Codewhale",
+  "description": "Rust terminal coding agent that runs on hosted or local models and supports multi-agent roles, skills, hooks and MCP servers.",
+  "category": "coding-agents",
+  "tags": ["terminal", "rust", "multi-agent", "local-models", "hooks"],
+  "repo": "https://github.com/Hmbown/Codewhale",
+  "homepage": "https://codewhale.net",
+  "publisher": "Hunter Bown",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Codewhale edits code, runs commands and explains what it changed, either interactively or as a one-off command. Different agent roles can be combined on a task. It works with cloud or local models.",
+  "howItWorks": "A native binary provides a TUI and a non-interactive exec command. The model provider is connected from inside the app, and behaviour is extended with skills, lifecycle hooks and external tool servers.",
+  "requirements": [
+    {
+      "name": "Model provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "A hosted provider key or a local model, connected via the in-app provider command"
+    }
+  ],
+  "install": ["curl -fsSL https://codewhale.net/install.sh | sh"],
+  "run": ["codewhale", "codewhale exec \"fix the failing tests and explain what changed\""],
+  "interfaces": ["cli"],
+  "language": "Rust",
+  "models": "Hosted and local models",
+  "mcp": "client",
+  "github": {
+    "stars": 41037,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

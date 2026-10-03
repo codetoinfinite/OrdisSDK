@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FDE Lessons API",
+  "description": "Forward Deployed Engineering rules traced to real incidents. Agent pays per query, no account.",
+  "packageName": "@alphesdk-remote/io-github-ignatiustheyoungerai-fde-lessons-warn-feed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ignatiustheyoungerai.com/mcp"
+    }
+  ],
+  "url": "https://ignatiustheyoungerai.com"
+}

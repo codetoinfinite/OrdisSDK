@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Atlassian Rovo (Jira, Confluence)",
+  "description": "Atlassian-hosted server that lets agents search and edit Jira issues and Confluence pages.",
+  "packageName": "@alphesdk-remote/atlassian-rovo-jira-confluence",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.atlassian.com/v2/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://support.atlassian.com/rovo/docs/getting-started-with-the-atlassian-remote-mcp-server/",
+  "url": "https://github.com/atlassian/atlassian-mcp-server",
+  "author": "Atlassian",
+  "env": {}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "trust-tools",
+  "description": "Website security ratings, token verification, and tamper-evident ledger heads from Obelisk Gate.",
+  "packageName": "@alphesdk-remote/com-obeliskgate-trust-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://obeliskgate.com/mcp"
+    }
+  ],
+  "url": "https://obeliskgate.com/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Money-Engine x402 Research",
+  "description": "Free agent discovery + paid x402 research (outline 0.01 / brief 0.02 USDC Base).",
+  "packageName": "@alphesdk-remote/com-devvizion-x402-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.devvizion.com/mcp"
+    }
+  ],
+  "url": "https://x402.devvizion.com"
+}

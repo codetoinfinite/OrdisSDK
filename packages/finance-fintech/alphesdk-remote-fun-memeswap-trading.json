@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MemeSwap MCP",
+  "description": "Buy & research hot/new memes. Quotes + unsigned swaps; wallet signs. Not a launcher. Fee 0.85%. NFA.",
+  "packageName": "@alphesdk-remote/fun-memeswap-trading",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.memeswap.fun/mcp"
+    }
+  ],
+  "url": "https://memeswap.fun/"
+}

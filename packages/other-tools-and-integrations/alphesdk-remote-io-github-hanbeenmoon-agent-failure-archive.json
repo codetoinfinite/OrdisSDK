@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Failure Archive",
+  "description": "186 real AI agent post-mortems, 107 of them measurement failures. Free tools, paid via x402.",
+  "packageName": "@alphesdk-remote/io-github-hanbeenmoon-agent-failure-archive",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://desktop-ai2ata5-1.tailfeb765.ts.net/mcp"
+    }
+  ],
+  "url": "https://github.com/HanbeenMoon/agent-failure-archive",
+  "readme": "https://github.com/HanbeenMoon/agent-failure-archive#readme"
+}

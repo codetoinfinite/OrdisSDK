@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ifthenpay Payments MCP",
+  "description": "Remote MCP for ifthenpay payments: Multibanco, MB WAY and Payshop.",
+  "packageName": "@alphesdk-remote/com-ifthenpay-payments",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.ifthenpay.com/mcp/payments/"
+    }
+  ],
+  "url": "https://github.com/ifthenpay/mcp-payments",
+  "readme": "https://github.com/ifthenpay/mcp-payments#readme"
+}

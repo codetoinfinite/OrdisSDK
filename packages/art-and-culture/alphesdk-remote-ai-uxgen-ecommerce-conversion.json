@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "uxgen",
+  "description": "Ecommerce conversion for coding agents: AOV bundles, cart, upsell, imagery, page audit.",
+  "packageName": "@alphesdk-remote/ai-uxgen-ecommerce-conversion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.uxgen.ai/mcp"
+    }
+  ],
+  "url": "https://www.uxgen.ai/mcp"
+}

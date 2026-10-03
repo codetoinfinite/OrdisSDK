@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "lawglance",
+  "name": "LawGlance",
+  "description": "RAG-based legal assistant that answers questions about Indian law from a curated set of statutes.",
+  "category": "other-tools-and-integrations",
+  "tags": ["legal", "rag", "indian-law", "assistant", "streamlit"],
+  "repo": "https://github.com/lawglance/lawglance",
+  "publisher": "LawGlance",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Answers plain-language legal questions grounded in sources such as the Indian Constitution and other national acts. It is meant to make legal information more accessible to the public, not to replace a lawyer.",
+  "howItWorks": "A LangChain retrieval pipeline looks up relevant passages from an indexed corpus of legal texts and has an OpenAI model compose the answer. A Streamlit app provides the chat UI and a FastAPI backend is also included; Redis caching of chat history and responses is optional.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM and embeddings"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python environment manager"
+    },
+    {
+      "name": "Redis",
+      "kind": "service",
+      "required": false,
+      "description": "Caching, recommended for production"
+    }
+  ],
+  "install": ["git clone https://github.com/lawglance/lawglance.git", "uv sync"],
+  "run": ["uv run streamlit run app.py"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "LangChain",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 323,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-21",
+    "checkedAt": "2026-10-03"
+  }
+}

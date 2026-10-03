@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "certdesk",
+  "description": "TLS cert verdict (OK/WARN/CRITICAL/UNKNOWN) from the served chain: expiry, revocation, alerts",
+  "packageName": "@alphesdk-remote/dev-certdesk-certdesk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://certdesk.dev/mcp"
+    }
+  ],
+  "url": "https://certdesk.dev/en/api/"
+}

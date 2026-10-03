@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BetterChess",
+  "description": "Chess MCP for Claude: engine analysis, attack maps, game review. One URL, no install.",
+  "packageName": "@alphesdk-remote/co-betterchess-betterchess",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.betterchess.co"
+    }
+  ],
+  "url": "https://betterchess.co/connector"
+}

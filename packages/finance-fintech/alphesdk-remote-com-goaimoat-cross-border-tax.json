@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Cross-Border Tax Compliance",
+  "description": "VAT registration, US sales-tax nexus and filing calendars for cross-border sellers",
+  "packageName": "@alphesdk-remote/com-goaimoat-cross-border-tax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tax.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp#readme"
+}

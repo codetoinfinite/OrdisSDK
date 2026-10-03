@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Owl Group Trading — Indicator Code",
+  "description": "Verified cross-platform implementations of Owl Group Trading indicators as queryable code.",
+  "packageName": "@alphesdk-remote/com-owlgrouptrading-indicator-code",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://owlgrouptrading.com/mcp"
+    }
+  ]
+}

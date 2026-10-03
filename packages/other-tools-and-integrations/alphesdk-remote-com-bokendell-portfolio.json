@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bo Kendell — Portfolio",
+  "description": "Bo Kendell's portfolio: projects, writing, work history, resume, and live activity.",
+  "packageName": "@alphesdk-remote/com-bokendell-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bokendell.com/mcp"
+    }
+  ],
+  "url": "https://github.com/bokendell/bokendell",
+  "readme": "https://github.com/bokendell/bokendell#readme"
+}

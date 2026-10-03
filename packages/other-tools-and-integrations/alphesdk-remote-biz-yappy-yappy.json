@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Yappy",
+  "description": "Yappy for macOS (yappy.biz): release, pricing, features, requirements, Mac compatibility.",
+  "packageName": "@alphesdk-remote/biz-yappy-yappy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yappy.biz/mcp"
+    }
+  ],
+  "url": "https://yappy.biz"
+}

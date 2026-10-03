@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MyPenny",
+  "description": "Portable AI memory you own. Keep memories and notes across Claude, ChatGPT, and other AI tools.",
+  "packageName": "@alphesdk-remote/ai-mypenny-mypenny",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.mypenny.ai/mcp"
+    }
+  ],
+  "url": "https://mypenny.ai"
+}

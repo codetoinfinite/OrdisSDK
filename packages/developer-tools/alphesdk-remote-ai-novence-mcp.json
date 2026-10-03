@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Novence",
+  "description": "Hosted MCP for creating, checking, deploying, and hosting static sites for AI agents.",
+  "packageName": "@alphesdk-remote/ai-novence-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.novence.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Novence-ai/mcp",
+  "readme": "https://github.com/Novence-ai/mcp#readme"
+}

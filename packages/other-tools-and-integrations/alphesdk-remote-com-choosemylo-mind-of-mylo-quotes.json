@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mind-of-mylo-quotes",
+  "description": "Machine-learning-backed insurance premium estimates from Mylo, comparing 100+ carriers.",
+  "packageName": "@alphesdk-remote/com-choosemylo-mind-of-mylo-quotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://choosemylo.com/api/gateway/chatbot/mcp"
+    }
+  ],
+  "url": "https://github.com/choosemylo/mind-of-mylo-chatbot",
+  "readme": "https://github.com/choosemylo/mind-of-mylo-chatbot#readme"
+}

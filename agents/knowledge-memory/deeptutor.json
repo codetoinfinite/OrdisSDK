@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "deeptutor",
+  "name": "DeepTutor",
+  "description": "Personalised AI tutoring system that teaches from your own materials with research, practice and web search tools.",
+  "category": "knowledge-memory",
+  "tags": ["tutoring", "education", "rag", "research", "personalised-learning"],
+  "repo": "https://github.com/HKUDS/DeepTutor",
+  "homepage": "https://deeptutor.info",
+  "publisher": "HKU Data Intelligence Lab (HKUDS)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Acts as a long-term study companion: it explains material from your knowledge base, generates exercises and helps with research. It is for students and self-learners.",
+  "howItWorks": "A Python backend and web front end are installed as one package and configured through an interactive init command that sets ports, LLM provider and optional embedding and search providers. The tutor can use web search providers, MCP services and command-line apps as tools.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Chosen during deeptutor init"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the backend"
+    }
+  ],
+  "install": [
+    "mkdir -p my-deeptutor && cd my-deeptutor",
+    "pip install -U deeptutor",
+    "deeptutor init"
+  ],
+  "run": ["deeptutor start"],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "models": "Configurable LLM, embedding and search providers",
+  "mcp": "client",
+  "github": {
+    "stars": 40712,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-27",
+    "checkedAt": "2026-10-03"
+  }
+}

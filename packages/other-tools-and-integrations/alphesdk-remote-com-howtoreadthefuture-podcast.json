@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "How to Read the Future",
+  "description": "Read released episodes, transcripts, citations, clips, reading trails, and flashcards.",
+  "packageName": "@alphesdk-remote/com-howtoreadthefuture-podcast",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://howtoreadthefuture.com/mcp"
+    }
+  ],
+  "url": "https://howtoreadthefuture.com/"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Bitwarden",
+  "description": "Vault and organization management through the Bitwarden CLI and API.",
+  "packageName": "@bitwarden/mcp-server",
+  "packageVersion": "2026.7.0",
+  "runtime": "node",
+  "readme": "https://github.com/bitwarden/mcp-server",
+  "url": "https://github.com/bitwarden/mcp-server",
+  "author": "Bitwarden",
+  "env": {
+    "BW_CLIENT_ID": {
+      "description": "Organization API client ID",
+      "required": false
+    },
+    "BW_CLIENT_SECRET": {
+      "description": "Organization API client secret",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FitMySoft — Field Service Software Prices",
+  "description": "Verified pricing for Jobber, Housecall Pro, Workiz & more, with per-user fees quoted verbatim.",
+  "packageName": "@alphesdk-remote/com-fitmysoft-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fitmysoft.com/mcp"
+    }
+  ],
+  "url": "https://fitmysoft.com/"
+}

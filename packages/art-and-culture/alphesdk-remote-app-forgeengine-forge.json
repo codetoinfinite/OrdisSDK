@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Forge Engine",
+  "description": "Design spec + milestones AI coding agents read before building; drift flagged, changes reviewed.",
+  "packageName": "@alphesdk-remote/app-forgeengine-forge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mmvdabzadclebfxyzudg.supabase.co/functions/v1/forge-mcp"
+    }
+  ],
+  "url": "https://github.com/alongkornonline2019/forge-mcp",
+  "readme": "https://github.com/alongkornonline2019/forge-mcp#readme"
+}

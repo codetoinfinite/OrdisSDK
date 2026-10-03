@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kubova — 3D Container Loading",
+  "description": "Pack cargo into containers & onto pallets; a verifiable 3D loading plan. Free tier + REST API.",
+  "packageName": "@alphesdk-remote/com-kubova-container-loading",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kubova.com/mcp"
+    }
+  ],
+  "url": "https://kubova.com"
+}

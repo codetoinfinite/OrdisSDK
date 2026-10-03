@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Immobilien Eichmann – Angebote",
+  "description": "Live MCP for Immobilien Eichmann listings (Konstanz). Tools: search_listings, get_listing.",
+  "packageName": "@alphesdk-remote/de-immobilieneichmann-listings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://immobilieneichmann.de/mcp"
+    }
+  ],
+  "url": "https://github.com/ChristianHohlfeld/eichmannimmobilien",
+  "readme": "https://github.com/ChristianHohlfeld/eichmannimmobilien#readme"
+}

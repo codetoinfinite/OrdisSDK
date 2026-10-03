@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agendaforge",
+  "description": "Event management for organizers: events, sessions, speakers, agendas, forms, approval-gated writes.",
+  "packageName": "@alphesdk-remote/app-agendaforge-agendaforge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agendaforge.app/mcp"
+    }
+  ],
+  "url": "https://agendaforge.app"
+}

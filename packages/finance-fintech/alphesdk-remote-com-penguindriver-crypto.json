@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣加密貨幣資料",
+  "description": "台灣加密貨幣資料：交易所、USDT 匯率溢價、法規與防詐。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-crypto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crypto.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://crypto.penguindriver.com"
+}

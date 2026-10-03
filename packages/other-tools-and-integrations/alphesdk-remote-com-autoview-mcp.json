@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Autoview",
+  "description": "Place and inspect orders on your own exchange accounts from an MCP-connected agent.",
+  "packageName": "@alphesdk-remote/com-autoview-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.autoview.com/mcp/"
+    }
+  ],
+  "url": "https://autoview.com/mcp/"
+}

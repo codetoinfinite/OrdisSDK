@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clino: Swiss household employment",
+  "description": "Hiring plan with dates, cost, net wage, minimum wage and rules for Swiss household employment.",
+  "packageName": "@alphesdk-remote/ch-clino-household-employment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clino.ch/mcp"
+    }
+  ],
+  "url": "https://clino.ch/en/mcp"
+}

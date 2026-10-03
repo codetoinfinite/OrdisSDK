@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Phoenix operational_context unpaid canary",
+  "description": "Unpaid qualification-gated operational_context canary. Staging data. No wallet.",
+  "packageName": "@alphesdk-remote/io-github-phoenixclaw01-operational-context",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://phoenix-collective-os-isolated-validation-phoenix-collective.vercel.app/api/mcp/operational-context/mcp"
+    }
+  ],
+  "url": "https://github.com/PhoenixClaw01/phoenix-collective-os",
+  "readme": "https://github.com/PhoenixClaw01/phoenix-collective-os#readme"
+}

@@ -1,0 +1,55 @@
+{
+  "type": "external-agent",
+  "key": "testzeus-hercules",
+  "name": "TestZeus Hercules",
+  "description": "Testing agent that reads Gherkin feature files and executes them against UIs and APIs, including security and visual checks.",
+  "category": "developer-tools",
+  "tags": ["testing-agent", "gherkin", "qa", "playwright"],
+  "repo": "https://github.com/test-zeus-ai/testzeus-hercules",
+  "homepage": "https://testzeus.com/hercules",
+  "publisher": "TestZeus",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Runs acceptance tests written in Given/When/Then form without step-definition code. QA teams use it for web UI, API, accessibility, security and visual validation, and receive standard test reports.",
+  "howItWorks": "Feature files are handed to a set of cooperating agents that plan each scenario and call tools for browser control, API requests and scans. Browser steps go through Playwright. Model choice comes from environment variables, and results are written to an output folder.",
+  "requirements": [
+    {
+      "name": "LLM_MODEL_NAME",
+      "kind": "service",
+      "required": true,
+      "description": "Model to use"
+    },
+    {
+      "name": "LLM_MODEL_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for that model"
+    },
+    {
+      "name": "LLM_MODEL_BASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Custom endpoint when needed"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    }
+  ],
+  "install": ["pip install testzeus-hercules", "playwright install --with-deps"],
+  "run": [
+    "testzeus-hercules --input-file opt/input/test.feature --output-path opt/output --test-data-path opt/test_data"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Groq, Mistral and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 1174,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-08-04",
+    "checkedAt": "2026-10-03"
+  }
+}

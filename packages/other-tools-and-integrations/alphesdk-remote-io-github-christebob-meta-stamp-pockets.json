@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "meta-stamp-pockets",
+  "description": "Attribution and settlement infrastructure for AI agent content access over HTTP 402 and MCP.",
+  "packageName": "@alphesdk-remote/io-github-christebob-meta-stamp-pockets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://metastampv3-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Christebob/meta-stamp-pockets",
+  "readme": "https://github.com/Christebob/meta-stamp-pockets#readme"
+}

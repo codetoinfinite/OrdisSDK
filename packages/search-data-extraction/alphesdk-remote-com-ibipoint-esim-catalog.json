@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IbiPoint eSIM Catalog",
+  "description": "Search prepaid travel eSIM data plans for 200+ countries with live prices and a buy link.",
+  "packageName": "@alphesdk-remote/com-ibipoint-esim-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ibipoint.com/esimshop/wp-json/ibipoint/mcp"
+    }
+  ],
+  "url": "https://ibipoint.com"
+}

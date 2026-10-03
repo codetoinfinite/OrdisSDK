@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SAIKYO: pay from Russia",
+  "description": "USDT/RUB rate, foreign Visa card terms, how to pay for foreign services from Russia, Shop search.",
+  "packageName": "@alphesdk-remote/exchange-saikyo-saikyo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saikyo.exchange/api/mcp"
+    }
+  ],
+  "url": "https://saikyo.exchange/en/mcp-server"
+}

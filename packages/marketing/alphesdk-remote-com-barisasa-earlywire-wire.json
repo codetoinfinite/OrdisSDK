@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Earlywire — Marketing & Growth Intelligence",
+  "description": "Marketing, growth & SEO intel: 120+ practitioner sources, judged daily, with citable summaries.",
+  "packageName": "@alphesdk-remote/com-barisasa-earlywire-wire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://earlywire.barisasa.com/mcp"
+    }
+  ],
+  "url": "https://earlywire.barisasa.com"
+}

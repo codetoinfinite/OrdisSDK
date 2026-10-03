@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jobherder job search",
+  "description": "Paid job search: 7 matched roles, each with a tailored CV and cover letter.",
+  "packageName": "@alphesdk-remote/com-jobherder-job-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobherder.com/mcp"
+    }
+  ],
+  "url": "https://jobherder.com/agents"
+}

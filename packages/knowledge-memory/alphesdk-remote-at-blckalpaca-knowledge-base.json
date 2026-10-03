@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Blck Alpaca Knowledge Base",
+  "description": "Search Blck Alpaca's knowledge base on SEO, GEO, AI agents and marketing automation.",
+  "packageName": "@alphesdk-remote/at-blckalpaca-knowledge-base",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blckalpaca.at/mcp"
+    }
+  ],
+  "url": "https://blckalpaca.at/de/entwickler"
+}

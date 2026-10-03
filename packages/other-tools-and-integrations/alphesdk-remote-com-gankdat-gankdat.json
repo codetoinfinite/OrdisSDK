@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "gankdat",
+  "description": "UK & EU tenders, awards, planning, companies, charities, schools, NHS, care, gambling, trade marks.",
+  "packageName": "@alphesdk-remote/com-gankdat-gankdat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gankdat.com/mcp"
+    }
+  ],
+  "url": "https://gankdat.com"
+}

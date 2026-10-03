@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "gentry.fr, le logement en France",
+  "description": "French housing data for every commune: sale prices, rents, property tax and rent control.",
+  "packageName": "@alphesdk-remote/fr-gentry-logement",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gentry.fr/mcp"
+    }
+  ],
+  "url": "https://gentry.fr/agents"
+}

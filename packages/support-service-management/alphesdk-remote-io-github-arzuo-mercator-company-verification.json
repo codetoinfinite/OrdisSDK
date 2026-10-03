@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MERCATOR Verify",
+  "description": "MERCATOR Verify: evidence-backed verification and decision support for autonomous agents.",
+  "packageName": "@alphesdk-remote/io-github-arzuo-mercator-company-verification",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mercator-entity-evidence.fly.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Arzuo/mercator",
+  "readme": "https://github.com/Arzuo/mercator#readme"
+}

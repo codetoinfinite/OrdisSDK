@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Finally Offline",
+  "description": "Human culture news, trends and search across sports, music, fashion and streetwear.",
+  "packageName": "@alphesdk-remote/com-finallyoffline-www-culture",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.finallyoffline.com/mcp"
+    }
+  ],
+  "url": "https://www.finallyoffline.com"
+}

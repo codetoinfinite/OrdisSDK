@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PreShiftIQ",
+  "description": "Independent buyer-side matching for supply chain technology selection.",
+  "packageName": "@alphesdk-remote/com-preshiftiq-shiftiq-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.preshiftiq.com/mcp"
+    }
+  ],
+  "url": "https://preshiftiq.com/connect"
+}

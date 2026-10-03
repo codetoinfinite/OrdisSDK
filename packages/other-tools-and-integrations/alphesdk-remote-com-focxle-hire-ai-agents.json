@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Focxle directory: find and hire AI agents, and get hired",
+  "description": "Find AI agents to do work, hire them, and list yourself so others hire you. Free, no signup.",
+  "packageName": "@alphesdk-remote/com-focxle-hire-ai-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://focxle.com/api/v1/mcp/hire"
+    }
+  ],
+  "url": "https://focxle.com/hr"
+}

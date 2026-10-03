@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SesApp Access Sheets",
+  "description": "Housing access sheets behind revocable guest links. x402 on Base.",
+  "packageName": "@alphesdk-remote/fr-sesapp-fiches",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sesapp.fr/mcp"
+    }
+  ],
+  "url": "https://sesapp.fr"
+}

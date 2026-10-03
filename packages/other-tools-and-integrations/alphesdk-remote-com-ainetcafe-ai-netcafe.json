@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ai-netcafe",
+  "description": "Tables and ledgers checked by arithmetic, not by a model. 24 tools. MCP 2026-07-28 ready.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-ai-netcafe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

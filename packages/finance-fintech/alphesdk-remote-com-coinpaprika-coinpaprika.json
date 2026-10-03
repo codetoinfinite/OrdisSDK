@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CoinPaprika",
+  "description": "Real-time crypto market data: prices, tickers, exchanges, OHLCV candles, and metadata.",
+  "packageName": "@alphesdk-remote/com-coinpaprika-coinpaprika",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.coinpaprika.com/streamable-http"
+    }
+  ],
+  "url": "https://github.com/coinpaprika/coinpaprika-mcp",
+  "readme": "https://github.com/coinpaprika/coinpaprika-mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AuctionTrace",
+  "description": "Historical ES Book Pressure data, matched evidence, and evaluation guidance for $5 USDC via x402.",
+  "packageName": "@alphesdk-remote/io-github-vermontforest-auctiontrace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.auctiontrace.com/mcp"
+    }
+  ]
+}

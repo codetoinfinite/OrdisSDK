@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "kurashigram",
+  "description": "日本の暮らしの値段を毎日調べて答える。日用品・家電の最安値、81市の物価、ふるさと納税、給付の手引き。出典つき、推定なし。",
+  "packageName": "@alphesdk-remote/io-github-kotaro-studio-kurashigram",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kurashigram.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kotaro-Studio/kurashigram",
+  "readme": "https://github.com/Kotaro-Studio/kurashigram#readme"
+}

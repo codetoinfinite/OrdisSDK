@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AINSOF",
+  "description": "Human-made production music for sync — search by brief or reference, preview, score to picture.",
+  "packageName": "@alphesdk-remote/io-ainsof-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ainsof.io"
+    }
+  ],
+  "url": "https://github.com/AINSOF-Tech/mcp",
+  "readme": "https://github.com/AINSOF-Tech/mcp#readme"
+}

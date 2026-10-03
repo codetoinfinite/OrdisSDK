@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "forgecode",
+  "name": "Forge",
+  "description": "Rust-based terminal coding agent that works with many model providers and can isolate tasks in git worktree sandboxes.",
+  "category": "coding-agents",
+  "tags": ["terminal", "rust", "worktrees", "multi-provider"],
+  "repo": "https://github.com/tailcallhq/forgecode",
+  "homepage": "https://forgecode.dev",
+  "publisher": "Tailcall",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Forge is an AI pair programmer for the shell. It implements features, fixes bugs, explains code and can write commit messages. It is for developers who prefer a fast native CLI over an editor plugin.",
+  "howItWorks": "After logging in to a provider, the user runs the agent interactively or with a single prompt. The agent uses file and shell tools, can attach external tool servers through configuration, and can work inside a separate worktree to keep the main checkout untouched.",
+  "requirements": [
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set up with the provider login command"
+    }
+  ],
+  "install": ["curl -fsSL https://forgecode.dev/cli | sh"],
+  "run": ["forge provider login", "forge"],
+  "interfaces": ["cli"],
+  "language": "Rust",
+  "models": "Multiple providers selected at login",
+  "mcp": "client",
+  "github": {
+    "stars": 7638,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

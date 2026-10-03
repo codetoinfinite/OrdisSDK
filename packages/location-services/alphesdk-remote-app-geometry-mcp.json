@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GEOMETRY",
+  "description": "Deterministic calendars and cosmic date JSON for AI agents via MCP (Gregorian 1900-2100).",
+  "packageName": "@alphesdk-remote/app-geometry-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.geometry.app/mcp"
+    }
+  ],
+  "url": "https://github.com/goqolabs/geometry-mcp",
+  "readme": "https://github.com/goqolabs/geometry-mcp#readme"
+}

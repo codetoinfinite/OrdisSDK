@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SkinGrind",
+  "description": "CS2 skin prices, case odds and ROI, Armory value, and Trade Up contracts.",
+  "packageName": "@alphesdk-remote/com-skingrind-skingrind",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cloud.skingrind.com/mcp"
+    }
+  ],
+  "url": "https://skingrind.com/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "acervo-juridico",
+  "description": "Acervo jurídico brasileiro: busca, Markdown, grafo de normas e precedentes, citação verificável.",
+  "packageName": "@alphesdk-remote/br-com-wikijuridica-acervo-juridico",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wikijuridica.com.br/mcp"
+    }
+  ],
+  "url": "https://wikijuridica.com.br"
+}

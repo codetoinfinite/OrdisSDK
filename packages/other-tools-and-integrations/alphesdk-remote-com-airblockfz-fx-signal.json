@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "fx-signal",
+  "description": "FX bottom/top signals: 48 pairs (USD/KRW base), verdict + score, scans. Pay-per-call x402.",
+  "packageName": "@alphesdk-remote/com-airblockfz-fx-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fx-signal.airblock2026.workers.dev/mcp"
+    }
+  ],
+  "url": "https://airblockfz.com"
+}

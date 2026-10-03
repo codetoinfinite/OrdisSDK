@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nogogo AI - French Company Reliability",
+  "description": "Check one French company by name or SIREN and get its Nogogo A-E reliability grade for free.",
+  "packageName": "@alphesdk-remote/fr-nogogo-nogogo-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-public.nogogo.fr/mcp"
+    }
+  ],
+  "url": "https://nogogo.fr/integration"
+}

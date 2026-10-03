@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Aura",
+  "description": "Email address, webhook, durable memory and zero-token waiting for agents. Paid in USDC via x402.",
+  "packageName": "@alphesdk-remote/dev-rohnelt-aura-aura",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aura.rohnelt.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/phillypmack/aura-agent",
+  "readme": "https://github.com/phillypmack/aura-agent#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OPC UA NodeSet Gate",
+  "description": "Deterministic release-compatibility preflight for OPC UA NodeSet2 XML.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-opc-ua-nodeset-compatibility-gate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nodeset.regevidencehub.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/opc-ua-nodeset-compatibility-gate",
+  "readme": "https://github.com/ChanghuLiu/opc-ua-nodeset-compatibility-gate#readme"
+}

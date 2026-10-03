@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Aggregate — LLM benchmark aggregate",
+  "description": "Fused LLM rankings: one IRT/Elo scale across ~5,000 public benchmark leaderboards, updated daily.",
+  "packageName": "@alphesdk-remote/ai-theaggregate-the-aggregate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theaggregate.ai/mcp"
+    }
+  ],
+  "url": "https://theaggregate.ai/mcp"
+}

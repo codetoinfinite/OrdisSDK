@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Surf Hut",
+  "description": "Signed proof-of-time, 30-day stash, live NOAA surf data. No auth. The hut keeps honest clocks.",
+  "packageName": "@alphesdk-remote/com-aisurfhut-surf-hut",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aisurfhut.com/mcp"
+    }
+  ],
+  "url": "https://aisurfhut.com"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "agenticseek",
+  "name": "AgenticSeek",
+  "description": "Local-first assistant that browses the web, writes and runs code and plans multi-step tasks on your own hardware.",
+  "category": "other-tools-and-integrations",
+  "tags": ["local", "privacy", "web-browsing", "coding", "voice"],
+  "repo": "https://github.com/Fosowl/agenticSeek",
+  "publisher": "Fosowl",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Searches and reads websites, fills forms, writes and debugs programs in several languages and breaks larger jobs into steps. Meant for users who want a private assistant running on local models.",
+  "howItWorks": "A router picks the best specialised agent for each request and a planner coordinates several agents for complex tasks. Docker runs bundled services such as SearxNG, and a config.ini file selects the local or remote model provider.",
+  "requirements": [
+    {
+      "name": "Python 3.10.x",
+      "kind": "runtime",
+      "required": true,
+      "description": "Recommended Python version"
+    },
+    {
+      "name": "Docker Engine and Docker Compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs bundled services such as SearxNG"
+    },
+    {
+      "name": "GPU for local models",
+      "kind": "hardware",
+      "required": false,
+      "description": "Needed to run roughly 14B reasoning models locally; an API provider can be used instead"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/Fosowl/agenticSeek.git",
+    "cd agenticSeek",
+    "mv .env.example .env"
+  ],
+  "run": [],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "models": "Ollama, LM Studio and other local providers, or OpenAI-style APIs",
+  "mcp": "none",
+  "github": {
+    "stars": 27420,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

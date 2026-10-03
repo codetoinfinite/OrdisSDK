@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ClearMarket",
+  "description": "Reference data for prediction markets: graded resolution clarity, cross-venue links, provenance.",
+  "packageName": "@alphesdk-remote/fyi-clearmarket-clearmarket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.clearmarket.fyi/mcp"
+    }
+  ],
+  "url": "https://github.com/JDSource/clearmarket",
+  "readme": "https://github.com/JDSource/clearmarket#readme"
+}

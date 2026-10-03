@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GateCore Marketplace",
+  "description": "Procure governed AI capabilities: machine-readable price, scope, trust, gateway-delegation terms.",
+  "packageName": "@alphesdk-remote/com-gatecoreai-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gatecoreai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/GateCoreAI-com/gatecore-mcp",
+  "readme": "https://github.com/GateCoreAI-com/gatecore-mcp#readme"
+}

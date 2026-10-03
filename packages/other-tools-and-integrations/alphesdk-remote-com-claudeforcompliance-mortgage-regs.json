@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "C4C: Mortgage Industry Regulations",
+  "description": "Verbatim U.S. mortgage regulatory text with citations and effective dates. Read-only, no sign-in.",
+  "packageName": "@alphesdk-remote/com-claudeforcompliance-mortgage-regs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.claudeforcompliance.com/mcp"
+    }
+  ],
+  "url": "https://github.com/earl-hash/c4c-mcp",
+  "readme": "https://github.com/earl-hash/c4c-mcp#readme"
+}

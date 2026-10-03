@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "One API for 100+ AI video, image, music and speech models.",
+  "packageName": "@alphesdk-remote/com-unifically-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.unifically.com/mcp"
+    }
+  ],
+  "url": "https://github.com/unifically-dev/unifically-mcp",
+  "readme": "https://github.com/unifically-dev/unifically-mcp#readme"
+}

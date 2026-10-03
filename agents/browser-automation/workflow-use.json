@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "workflow-use",
+  "name": "Workflow Use",
+  "description": "Records or generates deterministic browser workflows and replays them, falling back to an agent when a step breaks.",
+  "category": "browser-automation",
+  "tags": ["rpa", "workflows", "browser-agent", "recording"],
+  "repo": "https://github.com/browser-use/workflow-use",
+  "publisher": "Browser Use",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Captures a web process once and turns it into a reusable, parameterised workflow that runs faster and cheaper than a free-roaming agent. It is aimed at teams replacing brittle RPA scripts; the project describes itself as early stage.",
+  "howItWorks": "A browser extension records interactions and a Python package converts them into a workflow file. A CLI can run a workflow directly, run it as a tool filled in from a prompt, or generate a new one from a description. When a recorded step fails, a browser-use agent takes over that step.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model used for generation and fallback"
+    },
+    {
+      "name": "Node.js and uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Build the extension and the Python environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/browser-use/workflow-use",
+    "cd extension && npm install && npm run build",
+    "cd .. && cd workflows",
+    "uv sync",
+    "source .venv/bin/activate",
+    "playwright install chromium",
+    "cp .env.example .env"
+  ],
+  "run": ["python cli.py run-workflow examples/example.workflow.json"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "framework": "browser-use",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 4203,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

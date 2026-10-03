@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "motion-tools",
+  "description": "Render animated motion-graphics overlays as MP4: lower thirds, titles, callouts",
+  "packageName": "@alphesdk-remote/com-mographr-motion-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mographr.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kossik/mographr-mcp-docs",
+  "readme": "https://github.com/kossik/mographr-mcp-docs#readme"
+}

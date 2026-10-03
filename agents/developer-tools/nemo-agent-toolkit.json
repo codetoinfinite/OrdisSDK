@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "nemo-agent-toolkit",
+  "name": "NVIDIA NeMo Agent Toolkit",
+  "description": "NVIDIA's toolkit for configuring, running, profiling and evaluating agent workflows from YAML, shipped with runnable example agents.",
+  "category": "developer-tools",
+  "tags": ["framework", "workflows", "profiling", "evaluation", "nim"],
+  "repo": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+  "publisher": "NVIDIA",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Developers describe an agent, its tools and its model in a config file and run it with one command; the repo's examples cover ReAct agents, RAG, MCP, A2A and more. It also instruments agents built in other frameworks.",
+  "howItWorks": "Workflows are composed of functions, LLMs and an agent type declared in YAML and executed by the nat CLI. It integrates with frameworks such as LangChain and adds observability, evaluation and profiling.",
+  "requirements": [
+    {
+      "name": "NVIDIA_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for NVIDIA-hosted NIM models used by the examples"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "pip install"
+    }
+  ],
+  "install": ["pip install \"nvidia-nat[langchain]\"", "export NVIDIA_API_KEY=<your_api_key>"],
+  "run": ["nat run --config_file workflow.yml --input \"List five subspecies of Aardvarks\""],
+  "interfaces": ["cli", "api", "library"],
+  "language": "Python",
+  "models": "NVIDIA NIM models and other providers",
+  "mcp": "both",
+  "github": {
+    "stars": 2654,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

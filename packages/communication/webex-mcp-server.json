@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "webex-mcp-server",
+  "packageName": "github:Kashyap-AI-ML-Solutions/webex-messaging-mcp-server#d3779c625a2361d4e0f05caf0666471ce1b03d6e",
   "description": "A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to Cisco Webex messaging capabilities.",
   "url": "https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server",
   "runtime": "node",

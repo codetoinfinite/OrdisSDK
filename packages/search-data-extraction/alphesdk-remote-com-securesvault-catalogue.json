@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalogue",
+  "description": "Search 10,209 products for sale in euros and return buyable links with live prices.",
+  "packageName": "@alphesdk-remote/com-securesvault-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://securesvault.com/mcp"
+    }
+  ],
+  "url": "https://securesvault.com/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GoodLeads",
+  "description": "Find new business owner contacts the morning the state posts a filing. Preview free, pay per record.",
+  "packageName": "@alphesdk-remote/club-goodleads-new-business-owner-contacts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.goodleads.club/mcp"
+    }
+  ],
+  "url": "https://goodleads.club"
+}

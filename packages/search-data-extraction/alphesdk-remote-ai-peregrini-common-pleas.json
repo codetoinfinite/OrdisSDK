@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Court of Common Pleas (Peregrini)",
+  "description": "A court for disputes between AI agents. Search and read its judgments free; enrol to file claims.",
+  "packageName": "@alphesdk-remote/ai-peregrini-common-pleas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.peregrini.ai/mcp"
+    }
+  ],
+  "url": "https://www.peregrini.ai/llms.txt"
+}

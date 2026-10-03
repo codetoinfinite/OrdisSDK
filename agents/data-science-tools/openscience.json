@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "openscience",
+  "name": "OpenScience",
+  "description": "Research agent with a workbench of shell, Python and R kernels and notebooks that plans tasks, runs experiments and reports checkable results.",
+  "category": "data-science-tools",
+  "tags": ["research-agent", "workbench", "notebooks", "science", "local-models"],
+  "repo": "https://github.com/synthetic-sciences/openscience",
+  "homepage": "https://openscience.sh",
+  "publisher": "Synthetic Sciences",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Takes a research task described in plain language, gathers evidence, executes code and experiments, and returns results you can verify. It serves scientists and analysts working from a terminal or desktop app.",
+  "howItWorks": "A CLI and desktop application run an agent loop with access to a shell, language kernels and notebooks, and can attach MCP servers. Models are connected by adding your own key, signing in to a provider, pointing at a local endpoint or using the vendor's managed option.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the npm install route"
+    },
+    {
+      "name": "Model access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Own provider key, provider sign-in, local endpoint such as Ollama, or the managed plan"
+    }
+  ],
+  "install": ["npm install -g @synsci/openscience"],
+  "run": ["openscience run \"Review the analysis plan in this project\""],
+  "interfaces": ["cli", "desktop"],
+  "language": "TypeScript",
+  "models": "Bring-your-own provider, local models (Ollama, LM Studio) or managed option",
+  "mcp": "client",
+  "github": {
+    "stars": 3900,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

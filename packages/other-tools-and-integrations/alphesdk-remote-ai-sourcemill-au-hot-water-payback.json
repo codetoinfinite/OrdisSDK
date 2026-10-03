@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Australian Heat Pump Hot Water Rebate & Payback",
+  "description": "Heat pump vs gas hot water (AU): rebate stack, net outlay and payback verdict by postcode.",
+  "packageName": "@alphesdk-remote/ai-sourcemill-au-hot-water-payback",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://heatpump.sourcemill.ai/mcp"
+    }
+  ],
+  "url": "https://heatpump.sourcemill.ai"
+}

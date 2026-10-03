@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Folionomiq",
+  "description": "Measures a portfolio from price history: real bets, look-through, past crises in money. No advice.",
+  "packageName": "@alphesdk-remote/com-folionomiq-folionomiq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://folionomiq.com/mcp"
+    }
+  ],
+  "url": "https://folionomiq.com/connect"
+}

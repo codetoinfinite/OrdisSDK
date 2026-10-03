@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Trusgent MCP",
+  "description": "Trusgent MCP — Trust Layer for AI agents. HK registry + Agent Cards. Default: get_merged_profile.",
+  "packageName": "@alphesdk-remote/io-github-trusgent-trusgent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.trusgent.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Trusgent/trusgent-mcp",
+  "readme": "https://github.com/Trusgent/trusgent-mcp#readme"
+}

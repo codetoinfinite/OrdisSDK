@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "WorkOS",
+  "description": "Hosted WorkOS server for managing organizations, users, SSO and directory sync.",
+  "packageName": "@alphesdk-remote/workos",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.workos.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://workos.com/docs",
+  "url": "https://github.com/workos",
+  "author": "WorkOS",
+  "env": {}
+}

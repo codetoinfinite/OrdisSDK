@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BlitzReels Video Editor",
+  "description": "Create, edit, reframe, caption, organize, generate, and export short-form videos with BlitzReels.",
+  "packageName": "@alphesdk-remote/com-blitzreels-blitzreels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.blitzreels.com/api/mcp"
+    }
+  ],
+  "url": "https://www.blitzreels.com/agents"
+}

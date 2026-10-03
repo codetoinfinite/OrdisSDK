@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "open-deep-research-smolagents",
+  "name": "Open Deep Research (smolagents)",
+  "description": "Hugging Face's open replication of Deep Research: a smolagents agent that browses and reads files to answer hard questions.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "smolagents", "gaia", "code-agent"],
+  "repo": "https://github.com/huggingface/smolagents",
+  "subpath": "examples/open_deep_research",
+  "publisher": "Hugging Face",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Given a question, it searches the web, navigates pages, inspects documents and writes an answer. It reaches 55% on the GAIA validation set and serves as a reference for research agents.",
+  "howItWorks": "A code-writing manager agent delegates to a text-browser search agent and file-inspection tools from the smolagents library. It is run from a script with a chosen model id.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "For the default o1 model"
+    },
+    {
+      "name": "SERPER_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search; SERPAPI_API_KEY is the alternative"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/huggingface/smolagents.git",
+    "cd smolagents/examples/open_deep_research",
+    "pip install -r requirements.txt",
+    "pip install -e ../../.[dev]"
+  ],
+  "run": ["python run.py --model-id \"o1\" \"Your question here!\""],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "smolagents",
+  "models": "OpenAI o1 by default; other models supported by smolagents",
+  "mcp": "none",
+  "github": {
+    "stars": 29658,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

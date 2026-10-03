@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Regulatory Intel MCP",
+  "description": "US Federal Register for AI agents: rules, notices, executive orders, agency lookup. No keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-federal-register-rules",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regulatory.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/regulatory-intel-mcp",
+  "readme": "https://github.com/datakoot/regulatory-intel-mcp#readme"
+}

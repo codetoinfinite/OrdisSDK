@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Saylor Innovations: pay-per-call data",
+  "description": "271 x402 agent APIs: research, law, medicine, science, finance, public data, security and crypto.",
+  "packageName": "@alphesdk-remote/com-saylorinnovations-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saylorinnovations.com/mcp"
+    }
+  ],
+  "url": "https://saylorinnovations.com"
+}

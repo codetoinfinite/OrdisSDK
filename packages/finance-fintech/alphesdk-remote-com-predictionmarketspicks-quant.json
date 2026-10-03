@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Prediction Markets Quant",
+  "description": "Free, no key: NFL prop board, Kalshi vs Polymarket gaps, 15-min crypto, Fed odds, NHL, EV/Kelly.",
+  "packageName": "@alphesdk-remote/com-predictionmarketspicks-quant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predictionmarketspicks.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/predictionmarketspicks/mcp",
+  "readme": "https://github.com/predictionmarketspicks/mcp#readme"
+}

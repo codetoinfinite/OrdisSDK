@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "applebot",
+  "description": "Validate whether an IP address belongs to Applebot. Remote MCP server exposing a validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-applebot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://applebot.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/applebot/"
+}

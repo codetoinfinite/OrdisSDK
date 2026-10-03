@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Taco Street Locating",
+  "description": "Free human-backed apartment locating for Austin, Dallas & Houston, TX. A free locator books tours.",
+  "packageName": "@alphesdk-remote/com-tacostreetlocating-ai-taco-street-locating",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.tacostreetlocating.com/mcp"
+    }
+  ],
+  "url": "https://ai.tacostreetlocating.com"
+}

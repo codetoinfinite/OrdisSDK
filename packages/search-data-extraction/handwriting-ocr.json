@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "handwriting-ocr",
+  "packageName": "github:handwriting-ocr/handwriting-ocr-mcp-server#1afb28df399d2758f14fc93d0d95c6f440af7541",
   "description": "Integrates with Handwriting OCR API to extract and digitize text from handwritten documents in various image formats, enabling conversion of physical notes and manuscripts into editable text.",
   "url": "https://github.com/handwriting-ocr/handwriting-ocr-mcp-server",
   "runtime": "node",

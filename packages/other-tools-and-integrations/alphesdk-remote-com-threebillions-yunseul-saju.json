@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "윤슬 Yunseul — 사주 만세력",
+  "description": "Korean Saju (Four Pillars) calculator: birth chart, day pillar, luck flow, monthly fortune",
+  "packageName": "@alphesdk-remote/com-threebillions-yunseul-saju",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yunseul.threebillions.com/api/agent/mcp"
+    }
+  ],
+  "url": "https://yunseul.threebillions.com"
+}

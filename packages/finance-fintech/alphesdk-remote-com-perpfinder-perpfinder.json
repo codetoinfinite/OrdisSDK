@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PerpFinder",
+  "description": "Read-only perp futures data: all-in trading cost, venue fees, funding rates and volume ranking",
+  "packageName": "@alphesdk-remote/com-perpfinder-perpfinder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://perpfinder.com/api/mcp"
+    }
+  ],
+  "url": "https://perpfinder.com/docs/mcp"
+}

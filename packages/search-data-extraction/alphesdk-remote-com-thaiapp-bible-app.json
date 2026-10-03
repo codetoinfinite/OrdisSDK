@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "bible-app",
+  "description": "Read-only Bible for AI: search & read scripture in Thai & English, plus a daily verse.",
+  "packageName": "@alphesdk-remote/com-thaiapp-bible-app",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thaiapp.com/bible-app/mcp"
+    }
+  ]
+}

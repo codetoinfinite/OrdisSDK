@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Maritime VSAT spares: part search, fitment, supersession and quote requests for satmarin.com",
+  "packageName": "@alphesdk-remote/com-satmarin-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://satmarin.com/mcp"
+    }
+  ],
+  "url": "https://satmarin.com/mcp-docs/"
+}

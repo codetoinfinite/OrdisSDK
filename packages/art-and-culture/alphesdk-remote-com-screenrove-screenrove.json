@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Screenrove",
+  "description": "Real product UI captures (onboarding, pricing, in-app screens) with design guides for coding agents.",
+  "packageName": "@alphesdk-remote/com-screenrove-screenrove",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://screenrove.com/mcp"
+    }
+  ],
+  "url": "https://screenrove.com/agents"
+}

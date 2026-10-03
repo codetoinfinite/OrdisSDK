@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAPL Tours Jamaica",
+  "description": "Private airport rides from Montego Bay (MBJ) to Jamaican hotels and villas, plus tours",
+  "packageName": "@alphesdk-remote/com-mapltours-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mapltours.com/mcp"
+    }
+  ],
+  "url": "https://mapltours.com/connect"
+}

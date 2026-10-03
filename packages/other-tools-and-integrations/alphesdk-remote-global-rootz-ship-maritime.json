@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "maritime",
+  "description": "Signed global shipping & commodity data: oil, LNG, grain, sanctions, fleet, emissions.",
+  "packageName": "@alphesdk-remote/global-rootz-ship-maritime",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ship.rootz.global/mcp"
+    }
+  ],
+  "url": "https://github.com/rootz-global/mcp-servers",
+  "readme": "https://github.com/rootz-global/mcp-servers#readme"
+}

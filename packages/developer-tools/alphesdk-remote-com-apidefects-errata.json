@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Errata",
+  "description": "What is known to be broken in an MCP server or API operation, with the check that found it.",
+  "packageName": "@alphesdk-remote/com-apidefects-errata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apidefects.com/mcp"
+    }
+  ],
+  "url": "https://apidefects.com"
+}

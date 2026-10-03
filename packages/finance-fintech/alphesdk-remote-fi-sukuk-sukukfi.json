@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SukukFi",
+  "description": "Live vault metrics and docs for SukukFi, Islamic trade finance on Berachain. Read-only.",
+  "packageName": "@alphesdk-remote/fi-sukuk-sukukfi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sukuk.fi/mcp"
+    }
+  ],
+  "url": "https://sukuk.fi"
+}

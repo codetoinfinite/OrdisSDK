@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MANDA",
+  "description": "Search Japan's M&A marketplace MANDA - public business-for-sale listings (read-only, no auth)",
+  "packageName": "@alphesdk-remote/bz-manda-manda",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://manda.bz/mcp"
+    }
+  ],
+  "url": "https://manda.bz"
+}

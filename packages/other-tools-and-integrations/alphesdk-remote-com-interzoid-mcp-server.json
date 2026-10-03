@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "58 AI data quality, data matching, and data enrichment APIs for better data ROI",
+  "packageName": "@alphesdk-remote/com-interzoid-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.interzoid.com/mcp"
+    }
+  ],
+  "url": "https://github.com/interzoid/interzoid-mcp-server",
+  "readme": "https://github.com/interzoid/interzoid-mcp-server#readme"
+}

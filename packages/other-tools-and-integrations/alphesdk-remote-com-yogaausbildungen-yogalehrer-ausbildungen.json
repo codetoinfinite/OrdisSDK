@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Yoga-Ausbildungen",
+  "description": "German yoga teacher trainings: hours, format, certification, Bildungsurlaub, with sources.",
+  "packageName": "@alphesdk-remote/com-yogaausbildungen-yogalehrer-ausbildungen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yogaausbildungen.com/mcp"
+    }
+  ],
+  "url": "https://yogaausbildungen.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "offer-request",
+  "description": "Read Buckhead company information; prepare and send a mineral rights inquiry.",
+  "packageName": "@alphesdk-remote/io-github-buckhead-energy-offer-request",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.buckheadenergy.com/mcp/actions/v1"
+    }
+  ],
+  "url": "https://www.buckheadenergy.com/sell"
+}

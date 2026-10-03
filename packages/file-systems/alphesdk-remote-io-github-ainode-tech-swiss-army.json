@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "swiss-army",
+  "description": "22 utility tools (x402 USDC on Base): currency, PDF, image, GDPR. Free health.",
+  "packageName": "@alphesdk-remote/io-github-ainode-tech-swiss-army",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://swiss.api.ainode.tech/mcp"
+    }
+  ]
+}

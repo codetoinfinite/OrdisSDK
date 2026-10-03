@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PredMCP",
+  "description": "Polymarket + Hyperliquid + macro for AI agents. 38 tools, signal backtest, SSE streaming. Free tier.",
+  "packageName": "@alphesdk-remote/io-github-raviolelabs-predmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predmcp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/RavioleLabs/predmcp",
+  "readme": "https://github.com/RavioleLabs/predmcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Daystruct",
+  "description": "Find source-package workflows, inspect live prices and evidence, and connect with a scoped key.",
+  "packageName": "@alphesdk-remote/ai-daystruct-api-daystruct",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.daystruct.ai/mcp"
+    }
+  ],
+  "url": "https://api.daystruct.ai/integrations/source-packages"
+}

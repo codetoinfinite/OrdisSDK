@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Invoice Duplicate Recovery",
+  "description": "Computes exact overpayments across caller-supplied approved invoices, payments, and recorded cred...",
+  "packageName": "@alphesdk-remote/com-mcpscores-invoice-duplicate-recovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-factory.bowling-anthony.workers.dev/invoice-duplicate-recovery/mcp"
+    }
+  ],
+  "url": "https://mcp-factory.bowling-anthony.workers.dev/invoice-duplicate-recovery"
+}

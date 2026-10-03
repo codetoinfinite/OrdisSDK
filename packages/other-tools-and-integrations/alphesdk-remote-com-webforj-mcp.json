@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "webforJ MCP Server",
+  "description": "WebforJ's MCP server, provides tools, resources, prompts for scaffolding and developing webforJ apps",
+  "packageName": "@alphesdk-remote/com-webforj-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.webforj.com/mcp"
+    }
+  ]
+}

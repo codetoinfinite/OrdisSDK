@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "AI-powered data integration platform. Onboard users and run DPF data workflows.",
+  "packageName": "@alphesdk-remote/com-dpf-it-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dpf-it.com/mcp"
+    }
+  ]
+}

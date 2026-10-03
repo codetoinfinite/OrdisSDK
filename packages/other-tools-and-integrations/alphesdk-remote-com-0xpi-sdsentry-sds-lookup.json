@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SDSentry — SDS Lookup & OSHA HazCom",
+  "description": "Free safety data sheet (SDS) lookup by product name, plus an OSHA HazCom readiness check.",
+  "packageName": "@alphesdk-remote/com-0xpi-sdsentry-sds-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sdsentry.0xpi.com/mcp-sds"
+    }
+  ]
+}

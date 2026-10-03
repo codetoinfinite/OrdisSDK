@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "education-data",
+  "description": "Bilingual (EN+ZH) education data: 299 universities, 234 intl schools, degree-ROI, sourced answers.",
+  "packageName": "@alphesdk-remote/co-brightkey-education-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brightkey.co/api/mcp"
+    }
+  ],
+  "url": "https://brightkey.co"
+}

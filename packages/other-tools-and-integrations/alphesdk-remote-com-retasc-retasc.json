@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "retasc",
+  "description": "The issue tracker AI coding agents pull work from: atomic claims, dependency-aware dispatch.",
+  "packageName": "@alphesdk-remote/com-retasc-retasc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.retasc.com/mcp"
+    }
+  ],
+  "url": "https://retasc.com"
+}

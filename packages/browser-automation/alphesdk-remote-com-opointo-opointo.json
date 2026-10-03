@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "opointo",
+  "description": "Design a React Native app in a browser and emit it as a real Expo project you own, iOS and Android.",
+  "packageName": "@alphesdk-remote/com-opointo-opointo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://opointo.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/opointoHQ/opointo-mcp",
+  "readme": "https://github.com/opointoHQ/opointo-mcp#readme"
+}

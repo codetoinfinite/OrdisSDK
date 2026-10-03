@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dayze — Life Context",
+  "description": "Life context for agents: get_context_pack + public notable packs. x402 + OAuth.",
+  "packageName": "@alphesdk-remote/com-dayze-life-context",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dayze.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/gohluke/dayze-mcp",
+  "readme": "https://github.com/gohluke/dayze-mcp#readme"
+}

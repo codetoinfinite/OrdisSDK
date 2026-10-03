@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "StackSwap",
+  "description": "B2B GTM stack intelligence: search ~400 tools, compare vendors, find overlaps, audit SaaS spend.",
+  "packageName": "@alphesdk-remote/io-github-stonesofcreation-stackswap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stackswap.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/StonesofCreation/stackswap-mcp",
+  "readme": "https://github.com/StonesofCreation/stackswap-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Admit Coach — College Search & Costs",
+  "description": "Search US colleges and compare historical admissions, costs and aid using public federal data.",
+  "packageName": "@alphesdk-remote/com-admit-coach-university-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://admit-coach.com/api/mcp/"
+    }
+  ],
+  "url": "https://admit-coach.com/mcp-server"
+}

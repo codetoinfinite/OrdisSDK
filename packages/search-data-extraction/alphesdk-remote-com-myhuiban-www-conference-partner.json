@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Conference Partner",
+  "description": "Conference & journal CFP deadlines, CCF/ICORE/QUALIS rankings, acceptance rates, research fields.",
+  "packageName": "@alphesdk-remote/com-myhuiban-www-conference-partner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.myhuiban.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sundou82/conference-partner-mcp",
+  "readme": "https://github.com/sundou82/conference-partner-mcp#readme"
+}

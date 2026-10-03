@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cork & Curve wine travel",
+  "description": "Verified wineries and wine bars in 31 regions with provenance, wine festivals, tours and stays.",
+  "packageName": "@alphesdk-remote/com-corkandcurve-wine-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://corkandcurve.com/mcp"
+    }
+  ],
+  "url": "https://corkandcurve.com"
+}

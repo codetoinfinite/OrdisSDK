@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CompareFairly",
+  "description": "Neutral, sourced comparisons on any topic, in 32 languages. Each value links to its source.",
+  "packageName": "@alphesdk-remote/com-comparefairly-comparefairly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://comparefairly.com/mcp"
+    }
+  ],
+  "url": "https://comparefairly.com"
+}

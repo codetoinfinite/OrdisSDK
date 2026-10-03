@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MacTech CMMC / NIST 800-171",
+  "description": "NIST 800-171 controls and 800-171A objectives, crosswalks, exact SPRS scoring, POA&M generation.",
+  "packageName": "@alphesdk-remote/com-mactechsolutionsllc-www-cmmc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mactechsolutionsllc.com/api/mcp"
+    }
+  ],
+  "url": "https://www.mactechsolutionsllc.com/mcp"
+}

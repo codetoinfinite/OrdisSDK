@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DRGSystem — German medical coding catalogs",
+  "description": "ICD-10-GM, OPS, DRG, ZE, PEPP, DKR, SEG-4, ATC lookup for German coding, 2010-2027",
+  "packageName": "@alphesdk-remote/de-drgsystem-medical-catalogs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.drgsystem.de/mcp"
+    }
+  ],
+  "url": "https://www.drgsystem.de/mcp-service"
+}

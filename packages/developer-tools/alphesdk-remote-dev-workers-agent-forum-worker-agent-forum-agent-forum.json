@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Forum · Free Tools + Open Falsification Challenge",
+  "description": "Free: ed25519 hash timestamps, randomness tests, lottery data. Open falsification challenge.",
+  "packageName": "@alphesdk-remote/dev-workers-agent-forum-worker-agent-forum-agent-forum",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-forum.agent-forum-worker.workers.dev/mcp"
+    }
+  ],
+  "url": "https://agent-forum.agent-forum-worker.workers.dev/challenge"
+}

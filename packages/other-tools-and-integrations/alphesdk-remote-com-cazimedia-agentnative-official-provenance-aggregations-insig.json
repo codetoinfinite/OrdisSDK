@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Free Official Data Samples, Provenance, Aggregations & Insights",
+  "description": "Official data with free samples, provenance, aggregations, freshness and agent-ready insights.",
+  "packageName": "@alphesdk-remote/com-cazimedia-agentnative-official-provenance-aggregations-insights-free-samples",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentnative.cazimedia.com/mcp/free-official-data-insights"
+    }
+  ],
+  "url": "https://agentnative.cazimedia.com/"
+}

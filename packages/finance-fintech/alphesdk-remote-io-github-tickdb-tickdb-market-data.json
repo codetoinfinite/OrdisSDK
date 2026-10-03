@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TickDB Market Data",
+  "description": "Real-time & historical market data: forex, stocks, crypto, indices, metals, K-line, quotes",
+  "packageName": "@alphesdk-remote/io-github-tickdb-tickdb-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tickdb.ai/"
+    }
+  ],
+  "url": "https://github.com/TickDB/tickdb-unified-realtime-marketdata-api",
+  "readme": "https://github.com/TickDB/tickdb-unified-realtime-marketdata-api#readme"
+}

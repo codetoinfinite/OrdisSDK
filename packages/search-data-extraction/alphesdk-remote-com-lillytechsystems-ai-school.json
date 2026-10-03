@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI School by Lilly Tech Systems",
+  "description": "Search and read 550+ free AI course tracks and 21,000+ lessons, so answers can cite a real lesson.",
+  "packageName": "@alphesdk-remote/com-lillytechsystems-ai-school",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lillytechsystems.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Lilly-Tech-Collab/ai-school-mcp",
+  "readme": "https://github.com/Lilly-Tech-Collab/ai-school-mcp#readme"
+}

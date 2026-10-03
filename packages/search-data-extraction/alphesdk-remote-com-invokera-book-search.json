@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Book Search (Open Library)",
+  "description": "Search books and authors across Open Library, the Internet Archive open catalog.",
+  "packageName": "@alphesdk-remote/com-invokera-book-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/r/book-search"
+    }
+  ],
+  "url": "https://invokera.com/mcp/book-search"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FilingFirehose",
+  "description": "SEC EDGAR filings parsed: 8-K body-text classification, 13D activist tagging, S-3 ATM detection.",
+  "packageName": "@alphesdk-remote/com-filingfirehose-firehose",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filingfirehose.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jaablon/filingfirehose-python",
+  "readme": "https://github.com/jaablon/filingfirehose-python#readme"
+}

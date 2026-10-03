@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TradeAssi",
+  "description": "Crypto tools for AI agents: live market data, exchange-wide screener, backtests and paper trading.",
+  "packageName": "@alphesdk-remote/com-tradeassi-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradeassi.com/mcp"
+    }
+  ],
+  "url": "https://tradeassi.com"
+}

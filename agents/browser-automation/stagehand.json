@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "stagehand",
+  "name": "Stagehand",
+  "description": "Browser automation SDK that mixes code with natural-language act, extract and observe steps and includes an autonomous agent mode.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "sdk", "typescript", "automation"],
+  "repo": "https://github.com/browserbase/stagehand",
+  "homepage": "https://stagehand.dev",
+  "publisher": "Browserbase",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives developers a way to write browser automations where some steps are deterministic code and others are plain-language instructions resolved by an LLM. It also offers an agent that completes a whole task from a single instruction.",
+  "howItWorks": "The SDK launches or attaches to a Chrome browser and exposes primitives for acting, extracting structured data and observing possible actions. Each primitive sends page context to a model and turns the answer into concrete browser operations. It can run locally or against Browserbase's hosted browsers, with packages for TypeScript, Python and Go.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the TypeScript package"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key used in the README example; other providers are supported"
+    },
+    {
+      "name": "Chrome",
+      "kind": "runtime",
+      "required": true,
+      "description": "Local browser when not using a hosted one"
+    }
+  ],
+  "install": ["pnpm add @browserbasehq/stagehand 'zod@~4.4.3'"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic, Google and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 25521,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

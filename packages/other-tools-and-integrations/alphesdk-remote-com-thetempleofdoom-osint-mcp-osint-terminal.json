@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "osint-terminal",
+  "description": "454 OSINT recon tools + server-side entity correlation & person sweeps. Keyless.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-osint-mcp-osint-terminal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://osint-mcp.thetempleofdoom.com/mcp"
+    }
+  ]
+}

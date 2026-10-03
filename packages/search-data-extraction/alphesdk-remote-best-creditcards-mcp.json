@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "creditcards.best",
+  "description": "Search, compare and estimate rewards across US credit cards. Verified fees, APRs and bonuses.",
+  "packageName": "@alphesdk-remote/best-creditcards-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.creditcards.best"
+    }
+  ],
+  "url": "https://creditcards.best/mcp-info"
+}

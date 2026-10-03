@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "docs",
+  "description": "Search and query nTop's knowledge base and engineering guides from AI applications.",
+  "packageName": "@alphesdk-remote/com-ntop-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.ntop.com/mcp"
+    }
+  ]
+}

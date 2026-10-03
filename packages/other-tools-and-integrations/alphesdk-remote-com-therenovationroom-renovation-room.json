@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "renovation-room",
+  "description": "Find vetted Chicagoland renovation contractors and get fact-checked Chicago renovation answers.",
+  "packageName": "@alphesdk-remote/com-therenovationroom-renovation-room",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://therenovationroom.com/wp-json/trr-mcp/v1/mcp"
+    }
+  ],
+  "url": "https://therenovationroom.com"
+}

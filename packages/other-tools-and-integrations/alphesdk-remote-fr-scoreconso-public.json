@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScoreConso — service documentaire",
+  "description": "Service public documentaire ScoreConso en lecture seule (guides, statuts, contenus vérifiés).",
+  "packageName": "@alphesdk-remote/fr-scoreconso-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scoreconso.fr/mcp"
+    }
+  ],
+  "url": "https://scoreconso.fr"
+}

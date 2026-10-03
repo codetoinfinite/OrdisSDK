@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Prince Cloud",
+  "description": "Convert Markdown, HTML, and web pages to high-quality PDF with Prince.",
+  "packageName": "@alphesdk-remote/cloud-prince-prince",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prince.cloud/mcp"
+    }
+  ],
+  "url": "https://prince.cloud"
+}

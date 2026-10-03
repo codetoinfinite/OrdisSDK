@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Arclan MCP Registry",
+  "description": "MCP registry: 138k servers crawled, handshake-validated, reliability-scored. 744 production-safe.",
+  "packageName": "@alphesdk-remote/ai-arclan-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arclan.ai/mcp"
+    }
+  ]
+}

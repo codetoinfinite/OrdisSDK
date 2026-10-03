@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eFon international call rates & VoIP",
+  "description": "International call & VoIP rates: per-minute prices to call 200+ countries, comparison, dialing help.",
+  "packageName": "@alphesdk-remote/com-efon-call-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://efon.com/mcp"
+    }
+  ],
+  "url": "https://efon.com"
+}

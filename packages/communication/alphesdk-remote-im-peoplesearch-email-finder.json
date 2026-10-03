@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PeopleSearch.im",
+  "description": "Plain-English people search with verified work emails, email verification and LinkedIn lookup.",
+  "packageName": "@alphesdk-remote/im-peoplesearch-email-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://peoplesearch.im/api/mcp"
+    }
+  ],
+  "url": "https://peoplesearch.im/mcp"
+}

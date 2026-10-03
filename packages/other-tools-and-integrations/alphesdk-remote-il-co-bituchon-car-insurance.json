@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ביטוחון: Israeli car data and car-insurance facts",
+  "description": "Israeli car data by plate or model, licence fee, recalls, thefts and car-insurance facts.",
+  "packageName": "@alphesdk-remote/il-co-bituchon-car-insurance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bituchon.co.il/api/mcp"
+    }
+  ],
+  "url": "https://bituchon.co.il/developers"
+}

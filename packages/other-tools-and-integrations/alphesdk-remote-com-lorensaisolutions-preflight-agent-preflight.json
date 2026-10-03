@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Preflight",
+  "description": "Six paid URL-intelligence tools for autonomous agents and agent swarms.",
+  "packageName": "@alphesdk-remote/com-lorensaisolutions-preflight-agent-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://preflight.lorensaisolutions.com/mcp"
+    }
+  ],
+  "url": "https://preflight.lorensaisolutions.com"
+}

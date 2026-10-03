@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Answering Service Quotes: the site's own MCP server — dataset, enquiry (enquiry = a human...",
+  "packageName": "@alphesdk-remote/com-answeringservicequotes-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://answeringservicequotes.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Comparr",
+  "description": "Compare prices across French merchants, with recorded price history and verified price drops.",
+  "packageName": "@alphesdk-remote/fr-comparr-comparr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.comparr.fr/mcp"
+    }
+  ],
+  "url": "https://www.comparr.fr"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "newsgurus-intel",
+  "description": "Pay-per-call trading intelligence for AI agents: live market regime, trading signals, composite conv",
+  "packageName": "@alphesdk-remote/io-github-collectorguru-newsgurus-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.newsgurus.ai/mcp/"
+    }
+  ],
+  "url": "https://api.newsgurus.ai"
+}

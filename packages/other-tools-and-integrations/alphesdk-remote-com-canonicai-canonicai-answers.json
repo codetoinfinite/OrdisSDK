@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CanonicAI — cited Answers corpus",
+  "description": "Read-only hosted MCP over CanonicAI's cited Answers corpus on canonicai.com.",
+  "packageName": "@alphesdk-remote/com-canonicai-canonicai-answers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://canonicai.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/canonicai-site",
+  "readme": "https://github.com/people-analyst/canonicai-site#readme"
+}

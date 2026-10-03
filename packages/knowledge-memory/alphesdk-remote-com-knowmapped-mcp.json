@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KnowMapped",
+  "description": "Search, retrieve, create, and update visual knowledge maps in a user's KnowMapped account.",
+  "packageName": "@alphesdk-remote/com-knowmapped-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.knowmapped.com/mcp"
+    }
+  ],
+  "url": "https://knowmapped.com/integrations/mcp/"
+}

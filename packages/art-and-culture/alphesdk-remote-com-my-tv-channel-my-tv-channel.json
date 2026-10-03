@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "My TV Channel",
+  "description": "Create and run 24/7 linear TV channels. Import videos by URL; we transcode, schedule and stream.",
+  "packageName": "@alphesdk-remote/com-my-tv-channel-my-tv-channel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://my-tv-channel.com/api/mytvchannel/mcp"
+    }
+  ],
+  "url": "https://my-tv-channel.com"
+}

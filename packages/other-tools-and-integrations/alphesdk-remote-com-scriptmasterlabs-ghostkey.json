@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GhostKey — Route Paid APIs with x402",
+  "description": "Find paid APIs, check access policy and price, and route x402 requests. No autonomous spending.",
+  "packageName": "@alphesdk-remote/com-scriptmasterlabs-ghostkey",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squeezeos-api.onrender.com/mcp/ghostkey"
+    }
+  ],
+  "url": "https://gitlab.com/timothy.walton45/sml-portfolio",
+  "readme": "https://gitlab.com/timothy.walton45/sml-portfolio#readme"
+}

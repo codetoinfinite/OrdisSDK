@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "keywordise",
+  "description": "Auto-apply to jobs: matches your CV, tailors a fresh CV per posting, and applies for you.",
+  "packageName": "@alphesdk-remote/com-keywordise-keywordise",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://keywordise.com/mcp"
+    }
+  ],
+  "url": "https://keywordise.com/"
+}

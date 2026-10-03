@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Tsunami Data",
+  "description": "Global tsunami events from NOAA NCEI, 2000 BC-present: wave height, runups, and counts.",
+  "packageName": "@alphesdk-remote/com-daedalmap-tsunamis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/tsunamis"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wospeicher.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Stromspeicher – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wospeicher-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wospeicher.de/api/mcp"
+    }
+  ],
+  "url": "https://wospeicher.de"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Continuity",
+  "description": "Private story bible for fiction writers, shared with AI assistants over MCP.",
+  "packageName": "@alphesdk-remote/io-github-lahutchins91-continuity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://continuitywriter.com/mcp"
+    }
+  ],
+  "url": "https://continuitywriter.com"
+}

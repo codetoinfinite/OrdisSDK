@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RiskState — Crypto Risk Engine",
+  "description": "Live BTC/ETH risk state: risk policy, market structure and trading playbooks. Keyless free tier.",
+  "packageName": "@alphesdk-remote/ai-riskstate-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.riskstate.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Riskstate/mcp",
+  "readme": "https://github.com/Riskstate/mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "304NotModified",
+  "description": "Sourced answers on FR/EU rules + French company search (SIREN, NAF) for agents, quoted and budgeted",
+  "packageName": "@alphesdk-remote/com-304notfound-304notmodified",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://304notfound.com/mcp"
+    }
+  ],
+  "url": "https://304notfound.com"
+}

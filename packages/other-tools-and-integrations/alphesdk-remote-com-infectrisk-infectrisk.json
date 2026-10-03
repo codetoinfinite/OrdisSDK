@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "InfectRisk",
+  "description": "Flu, COVID-19 and RSV activity for 24 countries, plus the tracked WHO outbreak notifications.",
+  "packageName": "@alphesdk-remote/com-infectrisk-infectrisk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://infectrisk.com/api/mcp"
+    }
+  ],
+  "url": "https://infectrisk.com"
+}

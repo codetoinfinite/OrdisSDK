@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Anahana Content MCP",
+  "description": "Wellness and angel-number articles in 24 languages, plus Nema products with prices and page links.",
+  "packageName": "@alphesdk-remote/com-anahana-content-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.anahana.com/mcp"
+    }
+  ],
+  "url": "https://www.anahana.com/en/ai-agents/"
+}

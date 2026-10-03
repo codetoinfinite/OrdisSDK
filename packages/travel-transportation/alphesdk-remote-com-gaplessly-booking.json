@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gaplessly Booking",
+  "description": "Find free appointment and table times at Gaplessly venues, then hand the guest a booking link.",
+  "packageName": "@alphesdk-remote/com-gaplessly-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gaplessly.com/api/mcp"
+    }
+  ],
+  "url": "https://gaplessly.com/docs/mcp"
+}

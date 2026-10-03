@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hazard",
+  "description": "Disaster risk for any Japanese address from official government data. 6 hazards, sources cited.",
+  "packageName": "@alphesdk-remote/com-mamoie-hazard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mamoie.com/api/mcp"
+    }
+  ],
+  "url": "https://mamoie.com/developers"
+}

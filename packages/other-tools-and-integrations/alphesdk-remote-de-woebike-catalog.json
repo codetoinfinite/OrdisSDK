@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "woebike.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für E-Bikes – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-woebike-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://woebike.de/api/mcp"
+    }
+  ],
+  "url": "https://woebike.de"
+}

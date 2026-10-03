@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Best Time to Book Hotels",
+  "description": "Best-time-to-book verdicts, live last-minute hotel deals, and city price calendars, from data.",
+  "packageName": "@alphesdk-remote/com-besttimetobookhotels-booking-timing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.besttimetobookhotels.com/api/mcp"
+    }
+  ],
+  "url": "https://www.besttimetobookhotels.com/mcp"
+}

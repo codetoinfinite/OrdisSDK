@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "Discover cities where it's currently 5PM around the world with timezone and location data.",
+  "packageName": "@alphesdk-remote/com-findyourfivepm-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.findyourfivepm.com"
+    }
+  ]
+}

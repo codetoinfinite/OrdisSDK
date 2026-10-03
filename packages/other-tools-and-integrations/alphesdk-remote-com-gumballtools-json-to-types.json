@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JSON to Types",
+  "description": "Convert JSON samples into TypeScript interfaces and Zod schemas, with inference caveats.",
+  "packageName": "@alphesdk-remote/com-gumballtools-json-to-types",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://json-to-types.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

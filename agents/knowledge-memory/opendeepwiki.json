@@ -1,0 +1,58 @@
+{
+  "type": "external-agent",
+  "key": "opendeepwiki",
+  "name": "OpenDeepWiki",
+  "description": "Turns Git repositories, ZIP archives and local folders into generated wiki docs with chat and MCP access.",
+  "category": "knowledge-memory",
+  "tags": ["code-documentation", "repository-wiki", "knowledge-base", "chat", "mcp"],
+  "repo": "https://github.com/AIDotNet/OpenDeepWiki",
+  "publisher": "AIDotNet",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Analyses a code base and writes structured documentation for it, then serves the result as a public site that can also be queried by chat. It is for teams that want browsable, AI-generated knowledge bases for their repositories.",
+  "howItWorks": "A .NET backend imports the source, uses separate models to build the documentation catalogue and write the content, and publishes it through a Next.js site. The same index backs chat, an embeddable widget and an MCP endpoint. It starts with Docker Compose on SQLite, or PostgreSQL with an alternate compose file.",
+  "requirements": [
+    {
+      "name": "CHAT_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key for chat"
+    },
+    {
+      "name": "WIKI_CATALOG_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key for catalogue generation"
+    },
+    {
+      "name": "WIKI_CONTENT_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key for content generation"
+    },
+    {
+      "name": "JWT_SECRET_KEY",
+      "kind": "runtime",
+      "required": true,
+      "description": "Auth signing secret"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the stack"
+    }
+  ],
+  "install": ["git clone https://github.com/AIDotNet/OpenDeepWiki.git", "cd OpenDeepWiki"],
+  "run": ["docker compose up -d --build"],
+  "interfaces": ["web", "api"],
+  "language": "C#",
+  "models": "OpenAI-compatible endpoints and Ollama",
+  "mcp": "server",
+  "github": {
+    "stars": 3614,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

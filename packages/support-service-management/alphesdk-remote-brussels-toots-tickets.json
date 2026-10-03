@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tickets",
+  "description": "Agenda and ticketing for Toots Jazz Club, Brussels: browse concerts, check seats, reserve tickets.",
+  "packageName": "@alphesdk-remote/brussels-toots-tickets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toots.brussels/mcp"
+    }
+  ],
+  "url": "https://toots.brussels/api"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Compabase",
+  "description": "MCP server for 3M+ Polish companies — KRS & CEIDG financials, ownership, and industry search.",
+  "packageName": "@alphesdk-remote/io-github-contentwriterco-compabase",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compabase.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ContentWriterco/Compabase-MCP",
+  "readme": "https://github.com/ContentWriterco/Compabase-MCP#readme"
+}

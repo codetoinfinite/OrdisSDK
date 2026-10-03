@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Humanity Loop",
+  "description": "Distributed public-interest agent network with bounded passive contributor nodes.",
+  "packageName": "@alphesdk-remote/io-github-lesterhau-humanity-loop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanity-loop.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Lesterhau/humanity-loop",
+  "readme": "https://github.com/Lesterhau/humanity-loop#readme"
+}

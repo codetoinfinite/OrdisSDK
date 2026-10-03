@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Qualisend Email Verification",
+  "description": "Verify email addresses and clean lists to improve deliverability and sender reputation.",
+  "packageName": "@alphesdk-remote/com-qualisend-email-verification",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.qualisend.com/api/mcp"
+    }
+  ],
+  "url": "https://app.qualisend.com"
+}

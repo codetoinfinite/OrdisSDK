@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "library",
+  "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
+  "packageName": "@alphesdk-remote/ai-childanxiety-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://childanxiety.ai/api/mcp/v1"
+    }
+  ],
+  "url": "https://childanxiety.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SmartFin",
+  "description": "Backtest S&P 500 stocks and ETFs on real prices, plus loan, savings, FIRE and retirement tools.",
+  "packageName": "@alphesdk-remote/fyi-smartfin-smartfin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smartfin.fyi/mcp"
+    }
+  ],
+  "url": "https://smartfin.fyi"
+}

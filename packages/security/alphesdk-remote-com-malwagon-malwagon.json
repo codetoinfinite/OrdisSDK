@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Malwagon",
+  "description": "Submit files and URLs to a malware sandbox, poll scans, fetch reports, hashes and IOCs.",
+  "packageName": "@alphesdk-remote/com-malwagon-malwagon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://malwagon.com/mcp"
+    }
+  ],
+  "url": "https://malwagon.com"
+}

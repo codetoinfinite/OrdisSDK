@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "endpoint-diligence",
+  "description": "Live x402 endpoint trust/diligence check before you pay it. $0.02/call via x402.",
+  "packageName": "@alphesdk-remote/com-x402supply-endpoint-diligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://diligence.x402supply.com/mcp"
+    }
+  ],
+  "url": "https://x402supply.com"
+}

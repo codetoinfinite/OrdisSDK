@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "CODENIVERSE Thai dev agency: services, company profile, and articles on AI agents and automation.",
+  "packageName": "@alphesdk-remote/com-codeniverse-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.codeniverse.com/mcp"
+    }
+  ],
+  "url": "https://codeniverse.com"
+}

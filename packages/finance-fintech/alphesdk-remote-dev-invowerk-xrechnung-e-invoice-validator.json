@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "invowerk",
+  "description": "E-invoice checker for ZUGFeRD, Factur-X, XRechnung and Peppol BIS. Free web tool, API and MCP.",
+  "packageName": "@alphesdk-remote/dev-invowerk-xrechnung-e-invoice-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.invowerk.dev/mcp/"
+    }
+  ],
+  "url": "https://github.com/invowerk-dev/invowerk",
+  "readme": "https://github.com/invowerk-dev/invowerk#readme"
+}

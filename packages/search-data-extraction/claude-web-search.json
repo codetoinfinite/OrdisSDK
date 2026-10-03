@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "claude-web-search",
+  "packageName": "github:doriandarko/claude-search-mcp#53d58ee1d141b737f2aa72fa68ee882736634586",
   "description": "Enables real-time web searches with configurable domain filtering and result limits for accessing up-to-date information beyond training data",
   "url": "https://github.com/doriandarko/claude-search-mcp",
   "runtime": "node",

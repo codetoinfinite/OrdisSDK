@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "numberRank",
+  "description": "Is a phone number VoIP or a real carrier line? Line type, score and grade, free, no auth.",
+  "packageName": "@alphesdk-remote/dev-numberrank-numberrank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://numberrank.dev/mcp"
+    }
+  ],
+  "url": "https://numberrank.dev"
+}

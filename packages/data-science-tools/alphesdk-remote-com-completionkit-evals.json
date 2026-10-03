@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CompletionKit",
+  "description": "Prompt evals over MCP: run a prompt on your dataset, score each output 1-5 with an LLM judge.",
+  "packageName": "@alphesdk-remote/com-completionkit-evals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://completionkit.com/mcp"
+    }
+  ],
+  "url": "https://github.com/homemade-software-inc/completion-kit",
+  "readme": "https://github.com/homemade-software-inc/completion-kit#readme"
+}

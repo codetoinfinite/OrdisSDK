@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Florida Water Damage Cost: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
+  "packageName": "@alphesdk-remote/com-floridawaterdamagecost-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://floridawaterdamagecost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

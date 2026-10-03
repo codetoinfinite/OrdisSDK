@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "scrap-autos-mcp",
+  "description": "Instant Canadian scrap-car value quotes by year/make/model, provincial rates, and pickup leads.",
+  "packageName": "@alphesdk-remote/com-scrap-autos-scrap-autos-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrap-autos.com/mcp/v1"
+    }
+  ],
+  "url": "https://scrap-autos.com"
+}

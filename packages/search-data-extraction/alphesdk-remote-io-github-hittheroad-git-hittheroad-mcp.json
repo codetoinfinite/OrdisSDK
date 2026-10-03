@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hit The Road Rentals",
+  "description": "Search campervans and motorhomes worldwide. 300+ rental companies. AU, NZ, US, CA, UK and more.",
+  "packageName": "@alphesdk-remote/io-github-hittheroad-git-hittheroad-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hittheroad.rentals/mcp"
+    }
+  ],
+  "url": "https://github.com/HitTheRoad-Git/hittheroad-mcp",
+  "readme": "https://github.com/HitTheRoad-Git/hittheroad-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "remirror (返照） — psyche audits for AI agents",
+  "description": "Psyche audits for AI agents: declared vs self-reported vs revealed objectives, diffed and flagged.",
+  "packageName": "@alphesdk-remote/io-github-ontodistro-remirror",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remirror.net/mcp"
+    }
+  ],
+  "url": "https://github.com/OntoDistro/remirror",
+  "readme": "https://github.com/OntoDistro/remirror#readme"
+}

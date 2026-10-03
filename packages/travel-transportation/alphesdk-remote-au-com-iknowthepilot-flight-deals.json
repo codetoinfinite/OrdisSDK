@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "I Know The Pilot",
+  "description": "Find curated cheap flight and travel deals from Australia.",
+  "packageName": "@alphesdk-remote/au-com-iknowthepilot-flight-deals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iknowthepilot.com.au/mcp"
+    }
+  ]
+}

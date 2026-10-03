@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScoreCompute",
+  "description": "35 MCP tools: Rust computation, Discovery, composition and model-scoped signed claim checks.",
+  "packageName": "@alphesdk-remote/com-scorecompute-scorecompute",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scorecompute.com/mcp"
+    }
+  ],
+  "url": "https://scorecompute.com/"
+}

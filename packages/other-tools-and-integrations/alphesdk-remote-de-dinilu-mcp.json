@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dinilu Deutschland — bedruckte Werbeartikel",
+  "description": "Aktuelle Preise, Optionen und Versandkosten für bedruckte Werbeartikel.",
+  "packageName": "@alphesdk-remote/de-dinilu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dinilu.de/mcp"
+    }
+  ],
+  "url": "https://dinilu.de/ueber-uns/entwickler"
+}

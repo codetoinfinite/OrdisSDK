@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RenooLab - artisans in France",
+  "description": "Find French tradespeople, plan multi-trade projects, submit moderated contacts, create profiles.",
+  "packageName": "@alphesdk-remote/fr-renoolab-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.renoolab.fr/mcp"
+    }
+  ],
+  "url": "https://github.com/mehdimicra/renoolab-mcp",
+  "readme": "https://github.com/mehdimicra/renoolab-mcp#readme"
+}

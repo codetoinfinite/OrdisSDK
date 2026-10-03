@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Warmth Engine Observatory",
+  "description": "Coordination Intelligence: AI infrastructure coordination dynamics across geopolitical blocs",
+  "packageName": "@alphesdk-remote/com-warmthengine-observatory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://warmthengine.com/mcp"
+    }
+  ],
+  "url": "https://github.com/warmthengine/warmth-engine-observatory",
+  "readme": "https://github.com/warmthengine/warmth-engine-observatory#readme"
+}

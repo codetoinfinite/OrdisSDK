@@ -1,0 +1,55 @@
+{
+  "type": "external-agent",
+  "key": "fara",
+  "name": "Fara",
+  "description": "Microsoft's open computer-use agent models with a CLI that completes web tasks in a Playwright browser.",
+  "category": "browser-automation",
+  "tags": ["computer-use", "browser", "small-model", "open-weights", "playwright"],
+  "repo": "https://github.com/microsoft/fara",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Fara takes a natural-language web task and carries it out by viewing the page and issuing mouse and keyboard actions. The models are small enough to self-host and are aimed at developers and researchers.",
+  "howItWorks": "The fara-cli harness screenshots a Playwright browser, sends it to a Fara model served from Microsoft Foundry or a local vLLM server, and executes the predicted action until the task finishes. The endpoint is described in a JSON config file.",
+  "requirements": [
+    {
+      "name": "Model endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "Fara hosted on Microsoft Foundry (endpoint config JSON with api_key) or self-hosted with vLLM"
+    },
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": false,
+      "description": "Only when self-hosting the weights"
+    },
+    {
+      "name": "Playwright",
+      "kind": "runtime",
+      "required": true,
+      "description": "Browser control"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/microsoft/fara.git",
+    "cd fara",
+    "python3 -m venv .venv",
+    "source .venv/bin/activate",
+    "pip install -e .",
+    "playwright install"
+  ],
+  "run": [
+    "fara-cli --task \"whats the weather in new york now\" --endpoint_config azure_foundry_config.json"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Fara1.5 4B/9B/27B (open weights)",
+  "mcp": "none",
+  "github": {
+    "stars": 6207,
+    "license": "MIT",
+    "pushedAt": "2026-09-22",
+    "checkedAt": "2026-10-03"
+  }
+}

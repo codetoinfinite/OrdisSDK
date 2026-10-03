@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "memoket",
+  "description": "Memoket — access your recording transcripts, summaries, and key takeaways over MCP.",
+  "packageName": "@alphesdk-remote/ai-memoket-memoket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.memoket.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/memoket/memoket-backend-go",
+  "readme": "https://github.com/memoket/memoket-backend-go#readme"
+}

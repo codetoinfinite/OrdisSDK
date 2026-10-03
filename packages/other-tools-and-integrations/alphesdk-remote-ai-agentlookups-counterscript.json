@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CounterScript - Drug Price Benchmarks",
+  "description": "Free US drug-price benchmarks from federal data (CMS NADAC): a benchmark, not a price anyone owes.",
+  "packageName": "@alphesdk-remote/ai-agentlookups-counterscript",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rx.agentlookups.ai/mcp"
+    }
+  ],
+  "url": "https://rx.agentlookups.ai"
+}

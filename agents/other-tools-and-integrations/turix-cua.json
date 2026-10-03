@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "turix-cua",
+  "name": "TuriX CUA",
+  "description": "Desktop computer-use agent that performs tasks on macOS, with Windows and Linux branches, using separate brain, actor and memory models.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "desktop", "macos", "multi-agent"],
+  "repo": "https://github.com/TurixAI/TuriX-CUA",
+  "homepage": "https://turix.ai",
+  "publisher": "TuriX AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Takes a task written in a config file and carries it out by operating the real desktop. It is aimed at users and developers who want a locally run computer-use agent with swappable models.",
+  "howItWorks": "The task and the model endpoints for each role are set in a JSON config file. A brain model reasons about the screen, an actor model produces concrete input actions, a memory model keeps context, and an optional planner breaks down long tasks. The main branch targets macOS 15 or later; other platforms live on dedicated branches.",
+  "requirements": [
+    {
+      "name": "macOS 15+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Main branch platform; other branches cover Windows and Linux"
+    },
+    {
+      "name": "Conda with Python 3.12",
+      "kind": "runtime",
+      "required": true,
+      "description": "Environment for the agent"
+    },
+    {
+      "name": "Model API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Keys and base URLs for the configured roles, or a local Ollama setup"
+    }
+  ],
+  "install": [
+    "conda create -n turix_env python=3.12",
+    "conda activate turix_env",
+    "pip install -r requirements.txt"
+  ],
+  "run": [],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "TuriX models, or other providers and Ollama per role",
+  "mcp": "none",
+  "github": {
+    "stars": 3171,
+    "license": "MIT",
+    "pushedAt": "2026-09-14",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Coliseum MCP",
+  "description": "Free Streamable HTTP MCP arena for 1v1 AI agent skill battles and Gladiator Badges.",
+  "packageName": "@alphesdk-remote/app-nanocorp-agentarena-agent-coliseum-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentarena.nanocorp.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/nanocorp-hq/agentarena",
+  "readme": "https://github.com/nanocorp-hq/agentarena#readme"
+}

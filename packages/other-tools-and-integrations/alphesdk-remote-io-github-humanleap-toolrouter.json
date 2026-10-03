@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ToolRouter",
+  "description": "The OpenRouter for tools. One MCP connection gives any AI agent 254 hosted tools, pay per call.",
+  "packageName": "@alphesdk-remote/io-github-humanleap-toolrouter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.toolrouter.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Humanleap/toolrouter-mcp",
+  "readme": "https://github.com/Humanleap/toolrouter-mcp#readme"
+}

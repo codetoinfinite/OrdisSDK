@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "mulder",
+  "name": "Mulder",
+  "description": "Agentic digital forensics investigator that works through disk and memory evidence in phases and writes an ATT&CK-mapped report.",
+  "category": "security",
+  "tags": ["dfir", "forensics", "incident-response", "mitre-attack", "blue-team"],
+  "repo": "https://github.com/calebevans/mulder",
+  "publisher": "Caleb Evans",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Takes a folder of forensic evidence and conducts an investigation for incident responders, covering triage through reporting. Findings are recorded in a case database and summarised with technique mappings.",
+  "howItWorks": "A five-phase pipeline splits work between planner, executor and analyst roles running on Claude Code. Every forensic tool is exposed through typed MCP servers, so the model never runs arbitrary shell commands. A setup command downloads rule sets, signatures and helper binaries, and a container image ships everything preinstalled.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic key; Vertex AI, Bedrock and LiteLLM routes are covered in the usage guide"
+    },
+    {
+      "name": "Forensic packages",
+      "kind": "runtime",
+      "required": true,
+      "description": "System tools such as sleuthkit and yara on Debian or Ubuntu, or use the Docker image"
+    }
+  ],
+  "install": [
+    "sudo apt install git sleuthkit yara p7zip-full binutils",
+    "pipx install \"mulder-dfir[forensics]\"",
+    "mulder setup"
+  ],
+  "run": ["mulder investigate /path/to/evidence my-case-id"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "Claude Code",
+  "models": "Anthropic Claude; other models via LiteLLM",
+  "mcp": "both",
+  "github": {
+    "stars": 88,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

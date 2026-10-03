@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VerixID Verifier",
+  "description": "Verify VerixID proof-of-existence records and optionally prove ownership.",
+  "packageName": "@alphesdk-remote/com-verixid-verifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.verixid.com/"
+    }
+  ],
+  "url": "https://verixid.com"
+}

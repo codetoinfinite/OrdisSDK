@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "king-of-the-hill",
+  "description": "x402 game: take the crown, each take raises the next price 1.5x. hill_status is free.",
+  "packageName": "@alphesdk-remote/dev-workers-3labsio-kingofthehill-king-of-the-hill",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kingofthehill.3labsio.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/fieldproofhq/kingofthehill",
+  "readme": "https://github.com/fieldproofhq/kingofthehill#readme"
+}

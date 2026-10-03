@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "blipboard",
+  "description": "Ambient split-flap display board agents push text to; humans watch it on any screen.",
+  "packageName": "@alphesdk-remote/app-blip-board-blipboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blip-board.app/mcp"
+    }
+  ],
+  "url": "https://blip-board.app"
+}

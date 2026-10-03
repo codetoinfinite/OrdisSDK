@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tamgara",
+  "description": "Fill in 1,000+ legal PDF templates in many languages, get a signed PDF back. Free, no API key.",
+  "packageName": "@alphesdk-remote/com-tamgara-tamgara",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tamgara.com/api/mcp"
+    }
+  ],
+  "url": "https://tamgara.com/api/"
+}

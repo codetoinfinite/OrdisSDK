@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "magentic-lite",
+  "name": "MagenticLite (Magentic-UI)",
+  "description": "Microsoft's human-in-the-loop agent app that automates browser and local file tasks using small, on-device-friendly models.",
+  "category": "browser-automation",
+  "tags": ["web-agent", "human-in-the-loop", "small-models", "files", "browser"],
+  "repo": "https://github.com/microsoft/magentic-ui",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "MagenticLite, the successor to Magentic-UI, carries out web research, form filling and file management in one workflow while letting the user steer, approve or take over at any point.",
+  "howItWorks": "A local web app pairs an orchestrator model (MagenticBrain) with the Fara browser-use model; the orchestrator plans and delegates browser actions and file operations. Users connect a model endpoint during in-app onboarding.",
+  "requirements": [
+    {
+      "name": "Model endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "Endpoint serving the orchestrator and Fara models, connected in onboarding"
+    },
+    {
+      "name": "Python 3.12",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installed into a uv virtual environment"
+    }
+  ],
+  "install": [
+    "mkdir magentic-lite && cd magentic-lite",
+    "uv venv --python=3.12 --seed .venv",
+    "source .venv/bin/activate",
+    "uv pip install \"magentic_ui>=0.2.0\""
+  ],
+  "run": ["magentic-ui --port 8081"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "MagenticBrain orchestrator + Fara browser model via a hosted or local endpoint",
+  "mcp": "none",
+  "github": {
+    "stars": 10090,
+    "license": "MIT",
+    "pushedAt": "2026-09-23",
+    "checkedAt": "2026-10-03"
+  }
+}

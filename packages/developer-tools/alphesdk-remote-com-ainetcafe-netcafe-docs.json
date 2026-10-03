@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-docs",
+  "description": "Statements, invoices, tables, ledgers — every result carries its own arithmetic proof.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/docs?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

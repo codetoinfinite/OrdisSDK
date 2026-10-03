@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Piratefly Flight Price Judge",
+  "description": "Is this flight price good right now? Verdicts from 90 days of observed fares on 500+ routes.",
+  "packageName": "@alphesdk-remote/com-piratefly-flight-deals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://piratefly.com/mcp"
+    }
+  ],
+  "url": "https://piratefly.com/mcp-server"
+}

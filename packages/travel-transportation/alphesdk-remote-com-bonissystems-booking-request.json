@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Booking Request",
+  "description": "Self-authenticating booking-request receipt anchored to the Knox chain; never represents a person.",
+  "packageName": "@alphesdk-remote/com-bonissystems-booking-request",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonissystems.com/api/knox/agents/booking-request/mcp"
+    }
+  ],
+  "url": "https://bonissystems.com/concierge"
+}

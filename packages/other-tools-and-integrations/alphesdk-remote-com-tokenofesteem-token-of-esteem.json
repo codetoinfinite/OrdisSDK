@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "token-of-esteem",
+  "description": "A press your agent can commission: a funny, personalized printed booklet, mailed as a gift.",
+  "packageName": "@alphesdk-remote/com-tokenofesteem-token-of-esteem",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tokenofesteem.com/v1/mcp"
+    }
+  ],
+  "url": "https://tokenofesteem.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Allcams live cams",
+  "description": "Live cam rooms online now on Stripchat, Chaturbate, Cam4, LiveJasmin, BongaCams: categories, models.",
+  "packageName": "@alphesdk-remote/fm-allcams-cams",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://allcams.fm/api/mcp"
+    }
+  ],
+  "url": "https://allcams.fm/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Underpriced AI",
+  "description": "Real eBay sold prices by photo or description. Signed-in photo scans: your currency and eBay drafts.",
+  "packageName": "@alphesdk-remote/com-underpricedai-underpriced-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://underpricedai.com/api/mcp"
+    }
+  ],
+  "url": "https://underpricedai.com/mcp"
+}

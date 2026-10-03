@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Star Wars MCP",
+  "description": "Star Wars API (SWAPI) as a remote MCP server: films, people, planets, species, starships, vehicles.",
+  "packageName": "@alphesdk-remote/build-swapi-star-wars",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://swapi.build/mcp"
+    }
+  ],
+  "url": "https://github.com/eldermoraes/swapi.build",
+  "readme": "https://github.com/eldermoraes/swapi.build#readme"
+}

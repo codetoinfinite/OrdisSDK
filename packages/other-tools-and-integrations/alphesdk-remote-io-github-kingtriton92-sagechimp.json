@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SageChimp book verdicts",
+  "description": "Unpaid-vs-ARC book verdicts, catalog facts, series order, and sample reviews.",
+  "packageName": "@alphesdk-remote/io-github-kingtriton92-sagechimp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sagechimp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kingtriton92/sagechimp",
+  "readme": "https://github.com/Kingtriton92/sagechimp#readme"
+}

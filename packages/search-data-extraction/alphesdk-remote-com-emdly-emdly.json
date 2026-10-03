@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "emdly",
+  "description": "Search, install and submit Markdown skills for AI agents; private Brain files when signed in.",
+  "packageName": "@alphesdk-remote/com-emdly-emdly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emdly.com/mcp"
+    }
+  ],
+  "url": "https://emdly.com"
+}

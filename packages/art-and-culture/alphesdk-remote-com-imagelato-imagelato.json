@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Imagelato Image Processing",
+  "description": "Set up image processing templates and check batch results, projects and webhooks.",
+  "packageName": "@alphesdk-remote/com-imagelato-imagelato",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.imagelato.com/mcp"
+    }
+  ],
+  "url": "https://www.imagelato.com/developers/#claude-mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PreClick — An MCP-native URL preflight scanning service for autonomous agents.",
+  "description": "PreClick scans links for threats and confirms intent match with high accuracy before agents click.",
+  "packageName": "@alphesdk-remote/ai-preclick-preclick-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://preclick.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/cybrlab-ai/preclick-mcp",
+  "readme": "https://github.com/cybrlab-ai/preclick-mcp#readme"
+}

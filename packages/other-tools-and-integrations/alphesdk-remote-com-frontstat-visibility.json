@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "visibility",
+  "description": "See whether ChatGPT, Claude and Gemini recommend a startup's product, and who they name instead.",
+  "packageName": "@alphesdk-remote/com-frontstat-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://frontstat.com/api/mcp"
+    }
+  ],
+  "url": "https://frontstat.com/mcp"
+}

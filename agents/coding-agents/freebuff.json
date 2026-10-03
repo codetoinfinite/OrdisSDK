@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "freebuff",
+  "name": "Freebuff",
+  "description": "Free, ad-supported multi-agent coding tool for the terminal that coordinates specialised agents to edit your codebase.",
+  "category": "coding-agents",
+  "tags": ["multi-agent", "terminal", "free", "hosted-models"],
+  "repo": "https://github.com/CodebuffAI/freebuff",
+  "homepage": "https://freebuff.com",
+  "publisher": "Codebuff",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Freebuff (formerly Codebuff) lets developers ask for code changes in natural language from inside a project directory. It is free to use because it is funded by ads. It also has desktop, browser and GitHub entry points.",
+  "howItWorks": "A request is passed between specialised agents for gathering context, planning, editing and reviewing. The client talks to the vendor's hosted service, which supplies the models. No personal model key is needed for the standard flow.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "Freebuff account",
+      "kind": "account",
+      "required": true,
+      "description": "The CLI relies on the hosted backend"
+    }
+  ],
+  "install": ["npm install -g freebuff"],
+  "run": ["cd ~/my-project", "freebuff"],
+  "interfaces": ["cli", "desktop", "web"],
+  "language": "TypeScript",
+  "models": "Hosted model catalogue chosen by the service",
+  "mcp": "none",
+  "github": {
+    "stars": 13106,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

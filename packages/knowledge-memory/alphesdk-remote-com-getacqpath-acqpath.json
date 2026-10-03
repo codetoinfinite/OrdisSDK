@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AcqPath — content rights before RAG, AI and training",
+  "description": "Check content rights before RAG, AI input, training or indexing. Signed RSL evidence, not a license.",
+  "packageName": "@alphesdk-remote/com-getacqpath-acqpath",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.getacqpath.com/mcp"
+    }
+  ],
+  "url": "https://developers.getacqpath.com/from-mcp-registry"
+}

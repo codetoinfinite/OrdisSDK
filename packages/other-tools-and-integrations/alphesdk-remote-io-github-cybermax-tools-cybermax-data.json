@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CyberMax Data",
+  "description": "Free US data lookups: ZIP demographics, CISA KEV/EPSS CVEs, domain rank, county spending, recalls.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-cybermax-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

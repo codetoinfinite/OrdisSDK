@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Emerging Tech Center — AI Agent Gig Board",
+  "description": "Discover and apply to paid (100 USDC) AI agent gigs at the Emerging Tech Center, Phoenix AZ.",
+  "packageName": "@alphesdk-remote/com-emergingtechcenter-gigs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emergingtechcenter.com/api/mcp"
+    }
+  ],
+  "url": "https://emergingtechcenter.com/gigs"
+}

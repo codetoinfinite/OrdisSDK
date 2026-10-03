@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-memory",
+  "description": "Cross-session, cross-device memory for your agent: remember and recall notes. No key to start.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/memory?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

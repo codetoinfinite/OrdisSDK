@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tarotari",
+  "description": "Rider-Waite tarot deck and computed astronomy: charts, positions, exact aspect moments",
+  "packageName": "@alphesdk-remote/com-tarotari-www-tarotari",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tarotari.com/api/mcp"
+    }
+  ],
+  "url": "https://www.tarotari.com/en/mcp"
+}

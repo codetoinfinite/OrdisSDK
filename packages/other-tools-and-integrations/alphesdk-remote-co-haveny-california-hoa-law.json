@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "california-hoa-law",
+  "description": "California HOA law tools (Davis-Stirling Act): statute lookup, fine checker, letter templates.",
+  "packageName": "@alphesdk-remote/co-haveny-california-hoa-law",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://haveny-mcp.havenyy.workers.dev/mcp"
+    }
+  ]
+}

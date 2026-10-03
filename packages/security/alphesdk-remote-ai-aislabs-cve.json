@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AIS CVE Priorities — daily exploit-ranked patch list for AI agents",
+  "description": "Daily CVE priorities ranked by real exploitation (KEV+EPSS) for AI agents; free teaser, paid full",
+  "packageName": "@alphesdk-remote/ai-aislabs-cve",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aislabs.ai/cve/mcp"
+    }
+  ],
+  "url": "https://aislabs.ai/gateway"
+}

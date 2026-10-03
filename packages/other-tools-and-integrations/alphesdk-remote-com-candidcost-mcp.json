@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Cited, receipt-backed US home-buying data & calculators — education-only, every number sourced.",
+  "packageName": "@alphesdk-remote/com-candidcost-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://candidcost.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/RCOLKITT/candidcost",
+  "readme": "https://github.com/RCOLKITT/candidcost#readme"
+}

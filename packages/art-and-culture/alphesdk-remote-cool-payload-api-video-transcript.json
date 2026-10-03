@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "video-transcript",
+  "description": "Any video URL to LLM-ready transcript. ASR built in, no captions needed. TikTok, X, TED and more.",
+  "packageName": "@alphesdk-remote/cool-payload-api-video-transcript",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.payload.cool/mcp/"
+    }
+  ],
+  "url": "https://api.payload.cool"
+}

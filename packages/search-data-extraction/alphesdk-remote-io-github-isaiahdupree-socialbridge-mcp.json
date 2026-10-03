@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "socialbridge-mcp",
+  "description": "Unified social-media data across 10 networks: profiles, posts, search, comments, cross-search.",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-socialbridge-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://socialbridge-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/socialbridge-mcp",
+  "readme": "https://github.com/IsaiahDupree/socialbridge-mcp#readme"
+}

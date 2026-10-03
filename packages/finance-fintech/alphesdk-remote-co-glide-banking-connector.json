@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Glide — wallets and US banking",
+  "description": "Instant Base + Solana wallets, free and x402-payable. US bank account after a 2-min check.",
+  "packageName": "@alphesdk-remote/co-glide-banking-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://glide.co/api/connector/mcp"
+    }
+  ],
+  "url": "https://glide.co/connector"
+}

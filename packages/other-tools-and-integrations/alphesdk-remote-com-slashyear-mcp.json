@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "slashyear — sourced history",
+  "description": "Sourced history: 85,753 dated events, each quoted from a citable Wikipedia revision id.",
+  "packageName": "@alphesdk-remote/com-slashyear-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://slashyear.com/mcp"
+    }
+  ],
+  "url": "https://slashyear.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NiMCoffee 新印象咖啡",
+  "description": "Order freshly self-roasted specialty coffee from NiMCoffee, a coffee roaster in Fuzhou, China.",
+  "packageName": "@alphesdk-remote/com-nimcoffee-nimcoffee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nimcoffee.com/mcp"
+    }
+  ],
+  "url": "https://nimcoffee.com/open"
+}

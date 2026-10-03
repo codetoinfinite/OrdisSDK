@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "appdesigns App Store screenshots",
+  "description": "App Store and Google Play screenshots MCP: your agent captures the app, you edit and export. Free.",
+  "packageName": "@alphesdk-remote/click-appdesigns-screenshots",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://appdesigns.click/api/mcp"
+    }
+  ],
+  "url": "https://github.com/haider-nawaz/app-store-screenshots-mcp",
+  "readme": "https://github.com/haider-nawaz/app-store-screenshots-mcp#readme"
+}

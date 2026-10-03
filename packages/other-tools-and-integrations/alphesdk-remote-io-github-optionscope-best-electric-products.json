@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "best-electric-products",
+  "description": "Editorial picks for e-bikes, power stations, EV chargers, and robot vacuums, by use case and budget",
+  "packageName": "@alphesdk-remote/io-github-optionscope-best-electric-products",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bestelectricproducts.com/mcp"
+    }
+  ],
+  "url": "https://bestelectricproducts.com"
+}

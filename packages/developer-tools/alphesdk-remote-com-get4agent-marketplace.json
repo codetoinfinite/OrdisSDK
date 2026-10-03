@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "marketplace",
+  "description": "Free KZ agent utilities (Kazpost tracking, IIN/BIN, IBAN, LEI, FX) + governed API marketplace.",
+  "packageName": "@alphesdk-remote/com-get4agent-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://get4agent.com/mcp"
+    }
+  ],
+  "url": "https://get4agent.com"
+}

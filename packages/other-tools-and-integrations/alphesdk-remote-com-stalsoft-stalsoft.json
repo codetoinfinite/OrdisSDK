@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stalsoft – Dr. Alex Stolz, IT- und KI-Beratung",
+  "description": "Öffentliche Inhalte von stalsoft.com: Profil, Leistungen, FAQ, Publikationen, Kontakt, Suche.",
+  "packageName": "@alphesdk-remote/com-stalsoft-stalsoft",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.stalsoft.com/mcp"
+    }
+  ],
+  "url": "https://www.stalsoft.com"
+}

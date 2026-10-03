@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StockCake",
+  "description": "Search millions of CC0 public-domain AI images: previews, dimensions, provenance, license.",
+  "packageName": "@alphesdk-remote/com-stockcake-stockcake",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stockcake.com/api/mcp"
+    }
+  ],
+  "url": "https://stockcake.com/info/mcp"
+}

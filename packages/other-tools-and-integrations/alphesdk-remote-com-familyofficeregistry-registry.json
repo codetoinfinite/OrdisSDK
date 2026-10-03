@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Family Office Registry",
+  "description": "Sourced, dated records of family offices in Switzerland, Liechtenstein, Austria, Germany and Dubai.",
+  "packageName": "@alphesdk-remote/com-familyofficeregistry-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://familyofficeregistry.com/api/mcp"
+    }
+  ],
+  "url": "https://familyofficeregistry.com"
+}

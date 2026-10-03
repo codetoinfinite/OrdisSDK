@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mati Logistics — supplier & product sourcing",
+  "description": "Find products by description or Bill of Materials, over 100k+ suppliers and products",
+  "packageName": "@alphesdk-remote/com-matilogistics-sourcing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.matilogistics.com/api/mcp"
+    }
+  ],
+  "url": "https://www.matilogistics.com/mcp"
+}

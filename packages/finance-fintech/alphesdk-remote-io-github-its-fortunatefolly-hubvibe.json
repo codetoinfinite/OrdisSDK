@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HubVibe: Pay-per-Call Tools for AI Agents: Web Search, Email Verify, KYC, Stocks, Crypto, News, Data",
+  "description": "Web search, email verify, KYC, sanctions, stocks, SEC, crypto, news, data: 63 pay-per-call tools",
+  "packageName": "@alphesdk-remote/io-github-its-fortunatefolly-hubvibe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hubvibe-io.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Its-fortunatefolly/HubVibe",
+  "readme": "https://github.com/Its-fortunatefolly/HubVibe#readme"
+}

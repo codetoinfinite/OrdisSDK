@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "search-mcp",
+  "description": "Web search and clean-text fetch MCP server (Tavily-powered, SSRF-guarded).",
+  "packageName": "@alphesdk-remote/io-github-anon2052-search-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search-mcp-tgsn.onrender.com/mcp/"
+    }
+  ]
+}

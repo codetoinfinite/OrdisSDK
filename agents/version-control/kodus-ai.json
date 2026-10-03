@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "kodus-ai",
+  "name": "Kodus",
+  "description": "Self-hostable AI code review agent that comments on pull requests across GitHub, GitLab, Bitbucket, Azure DevOps and Forgejo.",
+  "category": "version-control",
+  "tags": ["code-review", "self-hosted", "pull-requests", "custom-rules"],
+  "repo": "https://github.com/kodustech/kodus-ai",
+  "homepage": "https://kodus.io",
+  "publisher": "Kodus",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Kodus runs a reviewer agent called Kody on every pull request and leaves feedback on bugs, security and quality. Teams define their own review rules and bring their own model key. Code outside the enterprise files is AGPL-3.0.",
+  "howItWorks": "The monorepo contains an API, a worker, a webhook service and a web app. Webhooks from the git host trigger review jobs that the worker runs against the configured model, and the results are posted as comments. A setup script prepares the local stack.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Bring-your-own key for reviews"
+    },
+    {
+      "name": "Node.js and Yarn",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used by the setup script"
+    },
+    {
+      "name": "Git hosting account",
+      "kind": "account",
+      "required": true,
+      "description": "Repository platform to review pull requests on"
+    }
+  ],
+  "install": ["git clone https://github.com/kodustech/kodus-ai.git", "cd kodus-ai", "yarn setup"],
+  "run": [],
+  "interfaces": ["web", "cli", "api"],
+  "language": "TypeScript",
+  "models": "Bring-your-own key for major providers",
+  "mcp": "none",
+  "github": {
+    "stars": 1442,
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

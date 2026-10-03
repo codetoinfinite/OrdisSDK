@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "toolbox",
+  "packageName": "github:xiaoguomeiyitian/toolbox#214086c6658a258ba44fd95854cacac01d9d36e8",
   "description": "An AI-powered automation tool development platform.",
   "url": "https://github.com/xiaoguomeiyitian/toolbox",
   "runtime": "node",

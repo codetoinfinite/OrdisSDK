@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ABS Data (observed)",
+  "description": "Australian Bureau of Statistics data: 1,227 tables, offering only options confirmed to serve data",
+  "packageName": "@alphesdk-remote/io-github-samjb123-abs-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://abs-data-front-door.aicolab.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AI-CoLab/abs-data-mcp",
+  "readme": "https://github.com/AI-CoLab/abs-data-mcp#readme"
+}

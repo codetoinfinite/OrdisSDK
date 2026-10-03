@@ -4,7 +4,7 @@ import path from "node:path";
 import { afterEach, describe, expect, it } from "vitest";
 import { BLOCK_REASON } from "../../../shared/utils/blocklist-util";
 import { Catalog, HIDDEN_DOC_FIELDS, loadCatalogFiles } from "../catalog-repository";
-import { ToolFileSchema } from "../catalog-schema";
+import { AnyAgentFileSchema, ToolFileSchema } from "../catalog-schema";
 import { catalogInput } from "./catalog-fixture";
 
 describe("Catalog", () => {
@@ -31,7 +31,7 @@ describe("Catalog", () => {
       },
       // 4 curated + srv-math/echo; srv-math/add and srv-blocked/add are covered by curated tools
       tools: { total: 5, curated: 4 },
-      agents: { total: 2, runnable: 1 },
+      agents: { total: 2, runnable: 1, external: 0, official: 0 },
       categories: 2,
       version: "9.9.9",
     });
@@ -177,6 +177,68 @@ describe("Catalog", () => {
     const agent = catalog.docs.find((d) => d.type === "agent" && d.key === "math-helper");
     expect(agent).toMatchObject({ fServers: ["srv-math"], fRuntime: "node", runnable: true });
     for (const field of HIDDEN_DOC_FIELDS) expect(agent).toHaveProperty(field);
+  });
+});
+
+describe("external agents", () => {
+  const base = catalogInput();
+  const catalog = new Catalog(
+    catalogInput({
+      agents: [
+        ...base.agents,
+        AnyAgentFileSchema.parse({
+          type: "external-agent",
+          key: "repo-coder",
+          name: "Repo Coder",
+          description: "Edits code in a repository",
+          category: "dev",
+          repo: "https://github.com/acme/repo-coder",
+          publisher: "Acme",
+          publisherType: "company",
+          official: true,
+          whatItDoes: "Plans and applies code changes.",
+          howItWorks: "A loop of model calls and shell tools.",
+          requirements: [{ name: "ACME_API_KEY", kind: "api-key" }],
+          install: ["pip install repo-coder"],
+          run: ["repo-coder"],
+          github: { stars: 1200, pushedAt: "2026-09-01", checkedAt: "2026-10-03" },
+        }),
+      ],
+    }),
+  );
+
+  it("are documented, never runnable, and keep their source details", () => {
+    expect(catalog.agent("repo-coder")).toMatchObject({
+      kind: "external",
+      runnable: false,
+      official: true,
+      author: "Acme",
+      stars: 1200,
+      servers: [],
+      issues: [],
+      external: {
+        repo: "https://github.com/acme/repo-coder",
+        mcp: "none",
+        requirements: [{ name: "ACME_API_KEY", kind: "api-key", required: true }],
+      },
+    });
+    expect(catalog.agent("math-helper")?.kind).toBe("chat");
+  });
+
+  it("are counted and searchable as agents", () => {
+    expect(catalog.stats.agents).toEqual({ total: 3, runnable: 1, external: 1, official: 1 });
+    expect(catalog.docs.find((d) => d.type === "agent" && d.key === "repo-coder")).toMatchObject({
+      kind: "external",
+      validated: true,
+      blocked: false,
+      official: true,
+      fNeedsKeys: true,
+    });
+  });
+
+  it("rejects repositories outside github.com", () => {
+    const file = { type: "external-agent", key: "x", repo: "https://evil.example/a/b" };
+    expect(AnyAgentFileSchema.safeParse(file).success).toBe(false);
   });
 });
 

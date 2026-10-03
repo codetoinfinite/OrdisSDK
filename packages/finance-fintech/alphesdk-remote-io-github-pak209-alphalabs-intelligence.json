@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "alphalabs-intelligence",
+  "description": "Live trading-pipeline intelligence for AI agents: signal scoring, calibration, recorded outcomes.",
+  "packageName": "@alphesdk-remote/io-github-pak209-alphalabs-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pak-labs.com/mcp"
+    }
+  ],
+  "url": "https://api.pak-labs.com"
+}

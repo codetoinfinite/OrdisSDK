@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Store Catalog",
+  "description": "Shopify and WooCommerce product catalogs for agents: list, search, full product with barcodes.",
+  "packageName": "@alphesdk-remote/com-agenttoolworks-storecatalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://storecatalog.agenttoolworks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/agenttoolworks/mcp-servers",
+  "readme": "https://github.com/agenttoolworks/mcp-servers#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cloud World Model",
+  "description": "Simulate cloud architectures before provisioning. 9 free demo tools; an API key unlocks all 62.",
+  "packageName": "@alphesdk-remote/ai-cloudworldmodel-cloud-world-model",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cloudworldmodel.ai/mcp"
+    }
+  ],
+  "url": "https://www.cloudworldmodel.ai"
+}

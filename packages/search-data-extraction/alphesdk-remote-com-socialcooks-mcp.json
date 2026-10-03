@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Social Cooks MCP",
+  "description": "Munich social media marketing agency: info, services, case studies, content search + lead intake",
+  "packageName": "@alphesdk-remote/com-socialcooks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialcooks.com/mcp"
+    }
+  ]
+}

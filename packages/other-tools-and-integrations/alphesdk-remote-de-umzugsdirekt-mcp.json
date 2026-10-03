@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "UmzugsDirekt Umzugsrechner MCP - German moving cost estimates for Stuttgart and nationwide.",
+  "packageName": "@alphesdk-remote/de-umzugsdirekt-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.umzugsdirekt.de/mcp"
+    }
+  ],
+  "url": "https://umzugsdirekt.de"
+}

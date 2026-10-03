@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "publish",
+  "description": "Publish browser games to Playfrog and get a shareable play link. Static HTML5, files sent inline.",
+  "packageName": "@alphesdk-remote/games-playfrog-publish",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-open.playfrog.games/mcp"
+    }
+  ],
+  "url": "https://playfrog.gg/docs"
+}

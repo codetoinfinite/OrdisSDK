@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Euvra",
+  "description": "Discover, compare, route, and execute machine-accessible capabilities for AI agents.",
+  "packageName": "@alphesdk-remote/dev-euvra-euvra",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://euvra.dev/mcp"
+    }
+  ]
+}

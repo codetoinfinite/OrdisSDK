@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "New Runtime public records",
+  "description": "AI-engineering archive: search, what is new, forecasts, topic briefs, URL context; moderated inbox.",
+  "packageName": "@alphesdk-remote/com-newruntime-archive",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://newruntime.com/mcp"
+    }
+  ],
+  "url": "https://newruntime.com/agents/"
+}

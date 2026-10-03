@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "chainpulse — real-time crypto + prediction market data for AI agents",
+  "description": "Crypto prices, gas, DeFi TVL, and live Polymarket odds. x402 pay-per-call, $0.001, no API key.",
+  "packageName": "@alphesdk-remote/in-fastdb-md-chainpulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://md.fastdb.in/pulse/mcp"
+    }
+  ],
+  "url": "https://md.fastdb.in/pulse"
+}

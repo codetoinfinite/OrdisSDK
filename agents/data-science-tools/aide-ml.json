@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "aide-ml",
+  "name": "AIDE ML",
+  "description": "ML engineering agent that searches a tree of candidate solutions to optimise a metric you describe in plain language.",
+  "category": "data-science-tools",
+  "tags": ["ml-engineering", "tree-search", "automl", "kaggle", "code-generation"],
+  "repo": "https://github.com/WecoAI/aideml",
+  "homepage": "https://weco.ai",
+  "publisher": "Weco AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Given a data folder, a goal and an evaluation metric, it writes and iteratively improves training scripts and returns the best one. It is used by practitioners and as a research baseline for automated ML.",
+  "howItWorks": "The agent drafts solutions, runs them, and then debugs or refines the most promising nodes in a solution tree. Results are saved as a best script plus an HTML tree visualisation, and a Streamlit UI is available from a source checkout.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Default model provider; Anthropic, Gemini or an OpenAI-compatible base URL also work"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the aideml package"
+    }
+  ],
+  "install": ["pip install -U aideml", "export OPENAI_API_KEY=<your-key>"],
+  "run": [
+    "aide data_dir=\"example_tasks/house_prices\" goal=\"Predict the sales price for each house\" eval=\"RMSE between log-prices\""
+  ],
+  "interfaces": ["cli", "web", "library"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, OpenAI-compatible local models",
+  "mcp": "none",
+  "github": {
+    "stars": 1553,
+    "license": "MIT",
+    "pushedAt": "2026-09-03",
+    "checkedAt": "2026-10-03"
+  }
+}

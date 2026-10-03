@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "probe402",
+  "description": "Independent health, price and history for x402/MPP endpoints. Metered over x402; free grade on web.",
+  "packageName": "@alphesdk-remote/com-probe402-endpoint-history",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://probe402.com/mcp"
+    }
+  ],
+  "url": "https://probe402.com/method"
+}

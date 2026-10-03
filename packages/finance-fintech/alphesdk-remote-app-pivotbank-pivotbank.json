@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PivotBank",
+  "description": "Convert bank statement PDFs to Excel, CSV, OFX or QBO, every row checked against the balances.",
+  "packageName": "@alphesdk-remote/app-pivotbank-pivotbank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pivotbank.app/mcp"
+    }
+  ],
+  "url": "https://pivotbank.app"
+}

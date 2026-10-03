@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LowerScript Prescription Prices",
+  "description": "Live Rx cash prices at nearby pharmacies in 8 US states + the free LowerScript card. Not insurance.",
+  "packageName": "@alphesdk-remote/com-lowerscript-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.lowerscript.com/.netlify/functions/mcp"
+    }
+  ],
+  "url": "https://www.lowerscript.com/tools"
+}

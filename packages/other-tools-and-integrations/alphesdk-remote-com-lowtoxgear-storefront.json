@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lowtoxgear Storefront",
+  "description": "Read-only catalogue MCP for Lowtoxgear — Australian low-tox lifestyle brand. 5 tools.",
+  "packageName": "@alphesdk-remote/com-lowtoxgear-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lowtoxgear.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lowtoxgear/lowtoxgear-mcp",
+  "readme": "https://github.com/lowtoxgear/lowtoxgear-mcp#readme"
+}

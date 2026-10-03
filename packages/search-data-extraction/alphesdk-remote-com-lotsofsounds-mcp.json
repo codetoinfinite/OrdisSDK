@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lots of Sounds",
+  "description": "CC0 sound effects API for AI agents — search, preview, and download via MCP.",
+  "packageName": "@alphesdk-remote/com-lotsofsounds-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lotsofsounds.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lotsofsounds/free-sound-effects-api",
+  "readme": "https://github.com/lotsofsounds/free-sound-effects-api#readme"
+}

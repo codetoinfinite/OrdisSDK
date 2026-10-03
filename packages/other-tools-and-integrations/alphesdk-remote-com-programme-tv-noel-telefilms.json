@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Programme TV Noël",
+  "description": "Recherche de téléfilms de Noël et de leurs diffusions TV, en lecture seule, horaires Europe/Paris.",
+  "packageName": "@alphesdk-remote/com-programme-tv-noel-telefilms",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.programme-tv-noel.com/mcp"
+    }
+  ],
+  "url": "https://www.programme-tv-noel.com/mcp/api-et-acces-ia.html"
+}

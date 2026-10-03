@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Octopus Deploy",
+  "description": "Query Octopus Deploy projects, releases, deployments and tasks.",
+  "packageName": "@octopusdeploy/mcp-server",
+  "packageVersion": "2.3.2",
+  "runtime": "node",
+  "readme": "https://github.com/OctopusDeploy/mcp-server",
+  "url": "https://github.com/OctopusDeploy/mcp-server",
+  "author": "Octopus Deploy",
+  "env": {
+    "OCTOPUS_API_KEY": {
+      "description": "Octopus API key",
+      "required": true
+    },
+    "OCTOPUS_SERVER_URL": {
+      "description": "Octopus server URL",
+      "required": true
+    }
+  }
+}

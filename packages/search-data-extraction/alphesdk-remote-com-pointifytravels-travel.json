@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pointify Travel",
+  "description": "Search award flights and cash fares, optimize points, and predict fares inside ChatGPT and Claude.",
+  "packageName": "@alphesdk-remote/com-pointifytravels-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pointifytravels.com/mcp"
+    }
+  ],
+  "url": "https://pointifytravels.com/ai"
+}

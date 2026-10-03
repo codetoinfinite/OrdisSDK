@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eudr",
+  "description": "Compile EUDR Annex II Due Diligence Statements from operator, supplier, and plot geolocation.",
+  "packageName": "@alphesdk-remote/io-github-vortx-ai-eudr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eudr.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Vortx-AI/eudr-plugin",
+  "readme": "https://github.com/Vortx-AI/eudr-plugin#readme"
+}

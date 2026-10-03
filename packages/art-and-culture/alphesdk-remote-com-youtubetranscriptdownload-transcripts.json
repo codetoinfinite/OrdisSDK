@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YouTube Transcript Downloader",
+  "description": "Clean YouTube transcripts for agents: single videos, channels, playlists, plus AI caption cleanup.",
+  "packageName": "@alphesdk-remote/com-youtubetranscriptdownload-transcripts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://youtubetranscriptdownload.com/api/mcp"
+    }
+  ],
+  "url": "https://youtubetranscriptdownload.com/mcp"
+}

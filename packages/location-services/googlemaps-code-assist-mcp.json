@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Google Maps Code Assist",
+  "description": "Grounds coding agents in current Google Maps Platform docs and samples.",
+  "packageName": "@googlemaps/code-assist-mcp",
+  "packageVersion": "0.2.1",
+  "runtime": "node",
+  "readme": "https://developers.google.com/maps/ai/mcp",
+  "url": "https://github.com/googlemaps/platform-ai",
+  "author": "Google Maps Platform",
+  "env": {}
+}

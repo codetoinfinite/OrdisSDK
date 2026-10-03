@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "sourcers-desk",
+  "description": "Recruiter-grade boolean/x-ray search strings from a 20-year sourcing playbook.",
+  "packageName": "@alphesdk-remote/com-sourcerdesk-sourcers-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sourcerdesk.com/mcp"
+    }
+  ],
+  "url": "https://github.com/glennquinting/sourcerdesk-api-docs",
+  "readme": "https://github.com/glennquinting/sourcerdesk-api-docs#readme"
+}

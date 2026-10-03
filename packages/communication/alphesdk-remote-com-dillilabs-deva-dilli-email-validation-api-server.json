@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "dilli-email-validation-api-server",
+  "description": "An MCP server that provides tools to validate an email address using Dilli Email Validation API.",
+  "packageName": "@alphesdk-remote/com-dillilabs-deva-dilli-email-validation-api-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deva.dillilabs.com/mcp"
+    }
+  ]
+}

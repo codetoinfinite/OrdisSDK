@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Blue Pillow Hotels & Stays",
+  "description": "Neutral hotel & stay price comparison for AI agents: live prices from 16+ booking sites. No signup.",
+  "packageName": "@alphesdk-remote/com-bluepillow-hotels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.b2a.bluepillow.com/"
+    }
+  ],
+  "url": "https://b2a.bluepillow.com"
+}

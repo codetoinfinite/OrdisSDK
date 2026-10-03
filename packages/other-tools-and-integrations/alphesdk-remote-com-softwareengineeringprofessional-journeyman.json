@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "journeyman",
+  "description": "Read-only Pattern-Assist corpus for aspiring software engineers: grounded dev patterns with sources.",
+  "packageName": "@alphesdk-remote/com-softwareengineeringprofessional-journeyman",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://journeyman.softwareengineeringprofessional.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/journeyman",
+  "readme": "https://github.com/people-analyst/journeyman#readme"
+}

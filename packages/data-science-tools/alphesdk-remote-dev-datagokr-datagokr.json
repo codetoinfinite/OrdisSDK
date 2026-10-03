@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "datagokr — 공공데이터포털 검색을 더 쉽게 (find data.go.kr datasets easily)",
+  "description": "data.go.kr 10.9만 데이터셋을 말로 검색·미리보기(키 불필요). 활용신청·다운로드는 내 계정·키로(데스크탑 확장).",
+  "packageName": "@alphesdk-remote/dev-datagokr-datagokr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datagokr.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/datagokr-dev/datagokr",
+  "readme": "https://github.com/datagokr-dev/datagokr#readme"
+}

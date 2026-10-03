@@ -1,0 +1,60 @@
+{
+  "type": "external-agent",
+  "key": "ii-researcher",
+  "name": "II-Researcher",
+  "description": "Deep-search agent that browses the web, reasons over findings and writes fully referenced answers.",
+  "category": "search-data-extraction",
+  "tags": ["deep-search", "web-browsing", "citations", "litellm", "reasoning"],
+  "repo": "https://github.com/Intelligent-Internet/ii-researcher",
+  "homepage": "https://ii.inc",
+  "publisher": "Intelligent Internet",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Answers difficult questions with comprehensive, cited responses. It ships as a complete self-hostable stack for developers who want their own deep-search service.",
+  "howItWorks": "A reasoning model plans searches through Tavily or SerpAPI, scrapes pages (optionally with Firecrawl), compresses context with a faster model and iterates before writing the answer. Models are reached through a LiteLLM proxy. The stack includes a CLI, a streaming FastAPI backend, a Next.js UI and an MCP server.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the LiteLLM/OpenAI-compatible endpoint"
+    },
+    {
+      "name": "OPENAI_BASE_URL",
+      "kind": "service",
+      "required": true,
+      "description": "LiteLLM proxy address"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Required when SEARCH_PROVIDER=tavily"
+    },
+    {
+      "name": "SERPAPI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Required when SEARCH_PROVIDER=serpapi"
+    },
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Required when SCRAPER_PROVIDER=firecrawl"
+    }
+  ],
+  "install": ["pip install ii-researcher", "pip install litellm"],
+  "run": ["python ii_researcher/cli.py --question \"your question here\" --stream"],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Python",
+  "framework": "LiteLLM",
+  "models": "Any model reachable through LiteLLM",
+  "mcp": "server",
+  "github": {
+    "stars": 504,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-02",
+    "checkedAt": "2026-10-03"
+  }
+}

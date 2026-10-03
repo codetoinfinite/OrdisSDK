@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SigmaDiario — Datos de Argentina",
+  "description": "Live Argentina data: dolar rates, quiniela and lotteries, holidays, river levels, inflation, news.",
+  "packageName": "@alphesdk-remote/com-sigmadiario-datos-argentina",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sigmadiario.com/api/mcp"
+    }
+  ],
+  "url": "https://sigmadiario.com/desarrolladores"
+}

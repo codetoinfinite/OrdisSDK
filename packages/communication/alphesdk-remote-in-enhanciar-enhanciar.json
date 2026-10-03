@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Enhanciar — company brain",
+  "description": "Ask your team's code, Slack and docs from any MCP client. Every answer cited to source. Early access",
+  "packageName": "@alphesdk-remote/in-enhanciar-enhanciar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://enhanciar.in/enhanciar/mcp/"
+    }
+  ],
+  "url": "https://enhanciar.in"
+}

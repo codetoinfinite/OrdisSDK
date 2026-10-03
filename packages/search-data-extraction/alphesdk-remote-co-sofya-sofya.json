@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sofya",
+  "description": "Web search, fetch, extract, and research for AI agents. Markdown output + AI-synthesized answers.",
+  "packageName": "@alphesdk-remote/co-sofya-sofya",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sofya.co/mcp"
+    }
+  ],
+  "url": "https://sofya.co"
+}

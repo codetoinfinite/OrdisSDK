@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "agno-dash",
+  "name": "Dash",
+  "description": "Self-learning data agent that answers questions over a Postgres database using layered context and remembered fixes.",
+  "category": "databases",
+  "tags": ["data-agent", "text-to-sql", "self-learning", "postgres", "slack"],
+  "repo": "https://github.com/agno-agi/dash",
+  "publisher": "Agno",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Answers analytical questions in natural language and improves over time by recording error patterns and corrections. Aimed at teams wanting a reference data agent they can deploy and adapt.",
+  "howItWorks": "Built on the Agno framework with a knowledge base of table descriptions, validated queries and business rules stored in PostgreSQL with pgvector. It is served as an API through Docker Compose and can be used from Agno's hosted UI, Slack or a terminal.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Compose stack with API and database"
+    },
+    {
+      "name": "SLACK_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Slack integration, with SLACK_SIGNING_SECRET"
+    }
+  ],
+  "install": ["git clone https://github.com/agno-agi/dash.git && cd dash", "cp example.env .env"],
+  "run": [
+    "docker compose up -d --build",
+    "docker exec -it dash-api python scripts/generate_data.py",
+    "docker exec -it dash-api python scripts/load_knowledge.py"
+  ],
+  "interfaces": ["api", "web", "chat", "cli"],
+  "language": "Python",
+  "framework": "Agno",
+  "models": "OpenAI by default",
+  "mcp": "none",
+  "github": {
+    "stars": 2267,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-10",
+    "checkedAt": "2026-10-03"
+  }
+}

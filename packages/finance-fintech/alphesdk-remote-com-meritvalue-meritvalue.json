@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MeritValue",
+  "description": "Intrinsic stock value from SEC filings: DCF, EPV, Graham, moat signals. Deterministic, not guessed.",
+  "packageName": "@alphesdk-remote/com-meritvalue-meritvalue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.meritvalue.com/mcp"
+    }
+  ],
+  "url": "https://www.meritvalue.com/api-keys"
+}

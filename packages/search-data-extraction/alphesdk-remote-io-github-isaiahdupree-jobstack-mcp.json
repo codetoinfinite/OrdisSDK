@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "jobstack-mcp",
+  "description": "Unified jobs search over official feeds + ATS boards (USAJOBS, Adzuna, Muse, Greenhouse, Lever...)",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-jobstack-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobstack-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/jobstack-mcp",
+  "readme": "https://github.com/IsaiahDupree/jobstack-mcp#readme"
+}

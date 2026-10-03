@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "lens",
+  "description": "Create your digital twin: a public page that answers from your own material, with citations.",
+  "packageName": "@alphesdk-remote/ai-mindola-lens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.mindola.ai/mcp/lens"
+    }
+  ],
+  "url": "https://github.com/Mindola-ai/mcp-server",
+  "readme": "https://github.com/Mindola-ai/mcp-server#readme"
+}

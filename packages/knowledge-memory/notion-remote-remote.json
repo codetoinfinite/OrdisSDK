@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Notion (remote)",
+  "description": "Notion-hosted OAuth server for searching, reading and editing a workspace's pages and databases.",
+  "packageName": "@alphesdk-remote/notion-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.notion.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.notion.com/docs/mcp",
+  "url": "https://github.com/makenotion/notion-mcp-server",
+  "author": "Notion",
+  "env": {}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "termalin-web",
+  "description": "Run commands and read/write files on your servers over Termalin's keyless tunnels (hosted MCP).",
+  "packageName": "@alphesdk-remote/in-termal-termalin-web",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://termal.in/api/v1/mcp"
+    }
+  ],
+  "url": "https://termal.in/mcp/"
+}

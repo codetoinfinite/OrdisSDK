@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Runekist",
+  "description": "Total Battle clan insights, chest rewards, and stacking calculations through Runekist.",
+  "packageName": "@alphesdk-remote/com-runekist-runekist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runekist.com/mcp"
+    }
+  ],
+  "url": "https://runekist.com/mcp/setup"
+}

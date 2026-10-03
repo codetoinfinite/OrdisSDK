@@ -10,5 +10,8 @@
       "description": "StackHawk API key",
       "required": true
     }
-  }
+  },
+  "withPackages": [
+    "mcp<2"
+  ]
 }

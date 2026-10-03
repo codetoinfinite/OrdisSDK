@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "meta-agent-tools",
+  "description": "Registry of MCP servers, agent skills and plugins: search, filter, comments, likes, publish.",
+  "packageName": "@alphesdk-remote/com-agentalog-meta-agent-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentalog.com/mcp"
+    }
+  ],
+  "url": "https://agentalog.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Weather, climate, terrain, fire and flood risk data for any point or polygon on Earth. Free tier.",
+  "packageName": "@alphesdk-remote/com-pixelgust-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pixelgust.com/mcp"
+    }
+  ],
+  "url": "https://pixelgust.com/docs#mcp"
+}

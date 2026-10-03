@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ServiceBuddy Auto Repair Savings & Quote Auditor",
+  "description": "Auto repair quote auditor, labor price benchmarks, and service deals for any US ZIP.",
+  "packageName": "@alphesdk-remote/help-servicebuddy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.servicebuddy.help/mcp"
+    }
+  ],
+  "url": "https://github.com/piers-fawkes/service-buddy",
+  "readme": "https://github.com/piers-fawkes/service-buddy#readme"
+}

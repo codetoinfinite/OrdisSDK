@@ -1,10 +1,13 @@
 {
   "type": "mcp-server",
-  "packageName": "painter-(canvas-drawing)",
+  "packageName": "github:flrngel/mcp-painter#c938c2b0bc8b5c0afda918a197d5718c6c4c7438",
   "description": "Provides a drawing interface for creating and manipulating canvas elements with basic shape rendering and PNG export capabilities",
   "url": "https://github.com/flrngel/mcp-painter",
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "Painter MCP"
+  "name": "Painter MCP",
+  "binArgs": [
+    "stdio"
+  ]
 }

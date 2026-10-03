@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DevDome Analytics",
+  "description": "Website traffic, bot reports, realtime visitors and site health for your DevDome sites",
+  "packageName": "@alphesdk-remote/com-devdome-analytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://analytics.devdome.com/mcp"
+    }
+  ],
+  "url": "https://devdome.com/docs/mcp/"
+}

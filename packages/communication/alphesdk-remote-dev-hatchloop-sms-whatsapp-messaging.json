@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SMS and WhatsApp Messaging",
+  "description": "Send WhatsApp, SMS, email or voice to a business with the compliance gate enforced.",
+  "packageName": "@alphesdk-remote/dev-hatchloop-sms-whatsapp-messaging",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hatchloop.dev/mcp/sms-whatsapp-messaging"
+    }
+  ],
+  "url": "https://github.com/basilalshukaili/agentbroker",
+  "readme": "https://github.com/basilalshukaili/agentbroker#readme"
+}

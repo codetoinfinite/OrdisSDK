@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "website2vat",
+  "description": "Finds public VAT and company registration identifiers from website domains.",
+  "packageName": "@alphesdk-remote/com-website2vat-website2vat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://website2vat.com/mcp"
+    }
+  ],
+  "url": "https://website2vat.com"
+}

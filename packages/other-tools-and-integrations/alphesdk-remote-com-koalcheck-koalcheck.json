@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "koalcheck",
+  "description": "TipRanks for X finfluencers — scores who's actually right vs SPY. Free & anonymous, no key.",
+  "packageName": "@alphesdk-remote/com-koalcheck-koalcheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.koalcheck.com/mcp"
+    }
+  ],
+  "url": "https://koalcheck.com"
+}

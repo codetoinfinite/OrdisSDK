@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Onsa",
+  "description": "Find scored B2B leads, read campaign replies and send approved LinkedIn outreach.",
+  "packageName": "@alphesdk-remote/ai-onsa-onsa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.onsa.ai/api/mcp"
+    }
+  ],
+  "url": "https://onsa.ai/mcp"
+}

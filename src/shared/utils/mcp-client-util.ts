@@ -246,11 +246,12 @@ export async function getMcpClient(
   }
 
   // A Vercel function can't keep a spawned server alive, and the server would run next to the
-  // deployment's secrets. Remote servers above still work there; the rest need a real host.
+  // deployment's secrets. Remote servers above still work there; the rest need a sandbox or a real
+  // host.
   if (process.env.VERCEL) {
     throw new Error(
       `Vercel can't start local MCP servers (${mcpServerConfig.packageName}). ` +
-        "Node packages can run in a sandbox: set MCP_SANDBOX_PROVIDER to SANDOCK, E2B or DAYTONA.",
+        "Node packages can run in a sandbox: set MCP_SANDBOX_PROVIDER to VERCEL (or SANDOCK, E2B, DAYTONA).",
     );
   }
 

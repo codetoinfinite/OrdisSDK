@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "fire-enrich",
+  "name": "Fire Enrich",
+  "description": "Web app that enriches a CSV of email addresses with company data gathered by a sequence of research agents.",
+  "category": "search-data-extraction",
+  "tags": ["data-enrichment", "multi-agent", "nextjs", "leads"],
+  "repo": "https://github.com/firecrawl/fire-enrich",
+  "publisher": "Firecrawl",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Takes a list of contacts and fills in fields such as company description, funding and industry, citing the pages each value came from. It is meant for sales and growth teams who want an open alternative to paid enrichment tools.",
+  "howItWorks": "A Next.js app accepts an uploaded CSV and chosen fields. Specialised extraction phases run one after another, each searching and scraping the web through Firecrawl and using an OpenAI model to pull out values, with rows streamed back live. Personal email domains are skipped to save calls.",
+  "requirements": [
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search and scraping"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Data extraction model"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the app"
+    }
+  ],
+  "install": ["npm install"],
+  "run": ["npm run dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "framework": "Next.js",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 1271,
+    "license": "MIT",
+    "pushedAt": "2025-10-08",
+    "checkedAt": "2026-10-03"
+  }
+}

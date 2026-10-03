@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CarsMultiverse — the recall record",
+  "description": "Vehicle safety recalls from four registers, matched across borders on the maker's own code.",
+  "packageName": "@alphesdk-remote/com-carsmultiverse-recall-record",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://carsmultiverse.com/wp-json/cmvmcp/v1/mcp"
+    }
+  ],
+  "url": "https://carsmultiverse.com/data/"
+}

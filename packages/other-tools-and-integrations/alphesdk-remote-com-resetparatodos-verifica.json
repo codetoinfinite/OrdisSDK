@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "RESET Verifica",
+  "description": "Deterministic Mexican/LatAm verification + sanctions & PEP screening for AI agents. Pay via x402.",
+  "packageName": "@alphesdk-remote/com-resetparatodos-verifica",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.resetparatodos.com/mcp"
+    }
+  ]
+}

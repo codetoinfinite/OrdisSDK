@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "vet",
+  "name": "Vet",
+  "description": "Verification tool that checks whether code changes, and the agent conversations behind them, actually achieve the stated goal.",
+  "category": "developer-tools",
+  "tags": ["verification", "code-review", "agent-oversight", "ci"],
+  "repo": "https://github.com/imbue-ai/vet",
+  "publisher": "Imbue",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Vet compares a diff against what the developer or coding agent said they were trying to do and reports mismatches and problems. It is used as a safety net after an agent finishes work. It runs from the command line, as an agent skill or in CI.",
+  "howItWorks": "The user passes the goal as text and optionally a base commit. Vet gathers the changes and any conversation history and has a model look for issues. An agentic mode hands the investigation to an existing coding agent harness.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key for the default provider"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the pip-installed CLI"
+    }
+  ],
+  "install": ["pip install verify-everything"],
+  "run": [
+    "vet \"Implement X without breaking Y\"",
+    "vet \"Refactor storage layer\" --base-commit main"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Anthropic by default; other providers configurable",
+  "mcp": "none",
+  "github": {
+    "stars": 518,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-09-14",
+    "checkedAt": "2026-10-03"
+  }
+}

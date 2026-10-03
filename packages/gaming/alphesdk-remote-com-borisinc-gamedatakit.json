@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "gamedatakit",
+  "description": "Live Steam market data for AI agents: top sellers, deals, player counts. Paid per call via x402.",
+  "packageName": "@alphesdk-remote/com-borisinc-gamedatakit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.borisinc.com/mcp"
+    }
+  ]
+}

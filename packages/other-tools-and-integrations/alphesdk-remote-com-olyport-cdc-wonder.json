@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CDC Mortality (WONDER)",
+  "description": "Leading causes of death, mortality rates, infant mortality, and drug overdose data",
+  "packageName": "@alphesdk-remote/com-olyport-cdc-wonder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/cdc-wonder/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OptimToken",
+  "description": "Compare LLM API pricing, estimate workload costs, and benchmark cloud compute. By OptimNow.",
+  "packageName": "@alphesdk-remote/io-github-optimnow-ai-pricing-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-pricing-hub-mcp-9604f763.alpic.live/"
+    }
+  ],
+  "url": "https://github.com/OptimNow/ai-pricing-hub-mcp",
+  "readme": "https://github.com/OptimNow/ai-pricing-hub-mcp#readme"
+}

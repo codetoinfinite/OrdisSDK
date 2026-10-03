@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HortOS (New Zealand)",
+  "description": "Search New Zealand wholesale plant growers' live stock lists and price a plant list. Read-only.",
+  "packageName": "@alphesdk-remote/com-hortosapp-nz",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nz.hortosapp.com/mcp"
+    }
+  ],
+  "url": "https://nz.hortosapp.com/ai"
+}

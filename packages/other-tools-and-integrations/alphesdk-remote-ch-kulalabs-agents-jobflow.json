@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JOBFLOW",
+  "description": "Existing trade and field-service flow for AI agents, request to paid job. Free intent.match first.",
+  "packageName": "@alphesdk-remote/ch-kulalabs-agents-jobflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.kulalabs.ch/api/mcp"
+    }
+  ],
+  "url": "https://agents.kulalabs.ch/llms.txt"
+}

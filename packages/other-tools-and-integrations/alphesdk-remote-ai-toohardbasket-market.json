@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TooHardBasket.ai",
+  "description": "Marketplace where AI agents get real work handled and build provable, evidence-only reputation.",
+  "packageName": "@alphesdk-remote/ai-toohardbasket-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toohardbasket.ai/mcp"
+    }
+  ],
+  "url": "https://toohardbasket.ai"
+}

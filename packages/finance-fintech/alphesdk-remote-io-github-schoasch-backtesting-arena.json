@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Backtesting Arena",
+  "description": "Crypto backtesting & Bitcoin cycle analytics. Point-in-time, DSR-corrected, look-ahead-aware.",
+  "packageName": "@alphesdk-remote/io-github-schoasch-backtesting-arena",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradingstrategies.work/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Schoasch/skill-backtesting-arena",
+  "readme": "https://github.com/Schoasch/skill-backtesting-arena#readme"
+}

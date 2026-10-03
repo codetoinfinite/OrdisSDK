@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KnownGate",
+  "description": "Food verification for people and AI agents: evidence-backed verdicts, with sources and dates.",
+  "packageName": "@alphesdk-remote/com-knowngate-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.knowngate.com"
+    }
+  ],
+  "url": "https://github.com/FocusedCreativity/knowngate",
+  "readme": "https://github.com/FocusedCreativity/knowngate#readme"
+}

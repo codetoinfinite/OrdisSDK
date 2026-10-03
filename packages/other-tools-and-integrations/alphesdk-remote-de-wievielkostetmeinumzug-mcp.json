@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "German moving cost estimates with sources: volume catalog, 6400 routes, versioned methodology",
+  "packageName": "@alphesdk-remote/de-wievielkostetmeinumzug-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wievielkostetmeinumzug.de/mcp"
+    }
+  ],
+  "url": "https://wievielkostetmeinumzug.de"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Roamward MCP",
+  "description": "Plan U.S. road trips across 104 published drives with reviewed stops and honest detour costs.",
+  "packageName": "@alphesdk-remote/app-roamward-roamward-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.roamward.app/api/mcp"
+    }
+  ],
+  "url": "https://www.roamward.app/agents"
+}

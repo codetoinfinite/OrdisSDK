@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "profile",
+  "description": "Answers about Trafford Crump and sorts collaboration requests.",
+  "packageName": "@alphesdk-remote/com-traffordcrump-profile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://traffordcrump-agent.traffordcrump.workers.dev/mcp"
+    }
+  ]
+}

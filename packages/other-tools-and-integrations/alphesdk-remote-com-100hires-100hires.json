@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "100Hires - AI ATS & Recruitment Software",
+  "description": "Official 100Hires MCP: AI ATS & Recruitment Software for candidates, jobs, applications, interviews.",
+  "packageName": "@alphesdk-remote/com-100hires-100hires",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.100hires.com/mcp"
+    }
+  ],
+  "url": "https://github.com/100Hires/mcp",
+  "readme": "https://github.com/100Hires/mcp#readme"
+}

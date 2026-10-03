@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "atlas",
+  "description": "Agent-design pattern guidance via 5 hosted read-only tools; Streamable HTTP, no auth, one Release.",
+  "packageName": "@alphesdk-remote/dev-agentic-atlas-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentic-atlas.dev/mcp/"
+    }
+  ],
+  "url": "https://agentic-atlas.dev/"
+}

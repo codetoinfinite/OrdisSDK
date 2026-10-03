@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "elthio-mcp",
+  "description": "Supplement safety for AI agents. 1,500+ rules, NIH+FDA data, quality grading A-D.",
+  "packageName": "@alphesdk-remote/io-github-iomed-commits-elthio-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elthio-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Iomed-commits/elthio-mcp",
+  "readme": "https://github.com/Iomed-commits/elthio-mcp#readme"
+}

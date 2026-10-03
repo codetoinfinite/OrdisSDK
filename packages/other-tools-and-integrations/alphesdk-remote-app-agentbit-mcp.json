@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentBIT",
+  "description": "x402 router-proxy + 79 keyless pay-per-call tools on Base. Pay once, we run the best tool.",
+  "packageName": "@alphesdk-remote/app-agentbit-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentbit.app/mcp"
+    }
+  ],
+  "url": "https://github.com/socialbitro/agentbit-mcp",
+  "readme": "https://github.com/socialbitro/agentbit-mcp#readme"
+}

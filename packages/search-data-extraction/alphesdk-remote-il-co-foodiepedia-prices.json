@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Israeli supermarket prices (Foodiepedia)",
+  "description": "Prices in 31 Israeli supermarket chains by barcode. Free search; API key or x402 pay-per-call.",
+  "packageName": "@alphesdk-remote/il-co-foodiepedia-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://foodiepedia.co.il/api/mcp/"
+    }
+  ],
+  "url": "https://foodiepedia.co.il/developers"
+}

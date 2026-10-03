@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Multilo",
+  "description": "Search Multilo's docs, fetch any public page as clean Markdown, and read the changelog.",
+  "packageName": "@alphesdk-remote/com-multilo-multilo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.multilo.com/api/mcp"
+    }
+  ],
+  "url": "https://www.multilo.com"
+}

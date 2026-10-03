@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HemmaBo Host Booking Engine",
+  "description": "6 runtime tools: 2 HemmaBo tools, 2 host onboarding tools, and 2 VRP verification tools. Not an OTA.",
+  "packageName": "@alphesdk-remote/com-hemmabo-hemmabo-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hemmabo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/HemmaBo-se/hemmabo-mcp-server",
+  "readme": "https://github.com/HemmaBo-se/hemmabo-mcp-server#readme"
+}

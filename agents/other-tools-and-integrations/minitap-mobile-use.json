@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "minitap-mobile-use",
+  "name": "mobile-use (Minitap)",
+  "description": "Agent that controls real Android and iOS apps from natural language and can return structured data scraped from them.",
+  "category": "other-tools-and-integrations",
+  "tags": ["mobile-agent", "android", "ios", "multi-agent"],
+  "repo": "https://github.com/minitap-ai/mobile-use",
+  "homepage": "https://minitap.ai",
+  "publisher": "Minitap",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Operates a phone to finish tasks inside apps and to pull information out of them in a requested output shape. It targets developers automating mobile workflows and data collection.",
+  "howItWorks": "Several cooperating agents plan and execute UI actions against a connected device or emulator. A launcher script starts the stack in Docker, or the main module can be run directly with a goal and an optional description of the desired output.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "For the quick-launch script"
+    },
+    {
+      "name": "Android or iOS device",
+      "kind": "hardware",
+      "required": true,
+      "description": "Device or emulator to control"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for a supported provider, set in the env file"
+    }
+  ],
+  "install": ["chmod +x mobile-use.sh"],
+  "run": [
+    "bash ./mobile-use.sh \"Open Gmail, find first 3 unread emails, and list their sender and subject line\" --output-description \"A JSON list of objects, each with 'sender' and 'subject' keys\""
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "OpenAI, Google, xAI, OpenRouter, MiniMax",
+  "mcp": "none",
+  "github": {
+    "stars": 3219,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-14",
+    "checkedAt": "2026-10-03"
+  }
+}

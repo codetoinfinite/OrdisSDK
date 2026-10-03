@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DCL Trust Oracle — AI/LLM Output Audit (x402 MCP)",
+  "description": "AI/LLM agent output audit MCP: policy eval, tamper-evident chain, AI safety, x402 USDC on Base.",
+  "packageName": "@alphesdk-remote/com-fronesislabs-dcl-trust-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fronesislabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Fronesis-Labs/dcl-webhook",
+  "readme": "https://github.com/Fronesis-Labs/dcl-webhook#readme"
+}

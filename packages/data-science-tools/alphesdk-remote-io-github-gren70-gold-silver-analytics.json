@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "gold-silver-analytics",
+  "description": "Analytical Re-Rate (RR) Scores + 9-factor breakdowns on ~300 junior precious-metals miners.",
+  "packageName": "@alphesdk-remote/io-github-gren70-gold-silver-analytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gold-silver-analytics-mcp-production.up.railway.app/mcp"
+    }
+  ]
+}

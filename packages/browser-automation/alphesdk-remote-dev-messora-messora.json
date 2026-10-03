@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MESSORA",
+  "description": "Scrape, crawl and search the web for AI agents via MCP.",
+  "packageName": "@alphesdk-remote/dev-messora-messora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.messora.dev/mcp"
+    }
+  ],
+  "url": "https://docs.messora.dev/en/mcp"
+}

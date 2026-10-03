@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DAITK (Dibblee AI Tool Kit) - Total Import Cost",
+  "description": "Import duty into Canada only. By HS code and origin: tariff, surtax, quota, anti-dumping.",
+  "packageName": "@alphesdk-remote/com-dibind-daitk-total-import-cost",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://daitk-tic.dibind.com/mcp"
+    }
+  ],
+  "url": "https://daitk-tic.dibind.com"
+}

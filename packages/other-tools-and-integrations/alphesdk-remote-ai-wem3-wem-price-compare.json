@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WEM Price Compare",
+  "description": "Price comparison across partner retailers. Read-only, 90-day history, disclosed affiliate.",
+  "packageName": "@alphesdk-remote/ai-wem3-wem-price-compare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wem3.ai/api/mcp"
+    }
+  ],
+  "url": "https://wem3.ai/extension/ai"
+}

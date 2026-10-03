@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CSIDIA — operational notes and capabilities",
+  "description": "AI regulation, data protection and compliance notes from CSIDIA, plus its capability catalogue.",
+  "packageName": "@alphesdk-remote/com-csidia-notes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.csidia.com/mcp"
+    }
+  ],
+  "url": "https://csidia.com"
+}

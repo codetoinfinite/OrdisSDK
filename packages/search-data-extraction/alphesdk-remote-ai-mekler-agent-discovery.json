@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Mekler Agent Service Discovery",
+  "description": "Discover paid CSV and spec validation, citation overlap, and web page extraction for agents.",
+  "packageName": "@alphesdk-remote/ai-mekler-agent-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catalog.mekler.ai/mcp"
+    }
+  ]
+}

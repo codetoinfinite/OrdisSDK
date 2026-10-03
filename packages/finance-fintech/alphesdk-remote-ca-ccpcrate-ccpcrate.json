@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ccpcrate — Canadian CCPC corporate tax",
+  "description": "Deterministic Canadian CCPC rate stack: small business deduction and grinds, Part IV, RDTOH.",
+  "packageName": "@alphesdk-remote/ca-ccpcrate-ccpcrate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ccpcrate.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/polud/ccpcrate",
+  "readme": "https://github.com/polud/ccpcrate#readme"
+}

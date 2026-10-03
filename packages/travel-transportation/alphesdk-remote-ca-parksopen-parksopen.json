@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Parks Open",
+  "description": "Live BC Parks campsite and day-pass status with freshness and official booking links.",
+  "packageName": "@alphesdk-remote/ca-parksopen-parksopen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://parksopen.ca/api/mcp"
+    }
+  ],
+  "url": "https://parksopen.ca/agents"
+}

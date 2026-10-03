@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RoboParts 机器人零部件兼容性",
+  "description": "852 humanoid/bionic robot parts, 20 categories, 4-dimension compatibility checking. Vendor-neutral.",
+  "packageName": "@alphesdk-remote/cc-roboparts-roboparts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roboparts.cc/mcp"
+    }
+  ],
+  "url": "https://github.com/lm203688/roboparts",
+  "readme": "https://github.com/lm203688/roboparts#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "isitdeprecated",
+  "description": "Check if an AI model is deprecated, retiring, or silently changed price or context window.",
+  "packageName": "@alphesdk-remote/com-isitdeprecated-isitdeprecated",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://isitdeprecated.com/mcp"
+    }
+  ],
+  "url": "https://isitdeprecated.com"
+}

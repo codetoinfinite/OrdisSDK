@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ibo",
+  "description": "Commission cinematic AI campaign films from IBO Studio, with custom scoping when needed.",
+  "packageName": "@alphesdk-remote/io-github-41fred-ibo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ibouniverse.com/mcp"
+    }
+  ],
+  "url": "https://github.com/41fred/ibo-mcp",
+  "readme": "https://github.com/41fred/ibo-mcp#readme"
+}

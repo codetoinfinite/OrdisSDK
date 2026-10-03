@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "Browse property verification missions. Connect with Scouts for GPS-verified tours.",
+  "packageName": "@alphesdk-remote/com-homevisto-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.homevisto.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tbrajkovic/HomeVisto",
+  "readme": "https://github.com/tbrajkovic/HomeVisto#readme"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Vercel",
+  "description": "Vercel-hosted server for searching docs and managing projects, deployments and logs.",
+  "packageName": "@alphesdk-remote/vercel",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vercel.com",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://vercel.com/docs/mcp/vercel-mcp",
+  "url": "https://github.com/vercel",
+  "author": "Vercel",
+  "env": {}
+}

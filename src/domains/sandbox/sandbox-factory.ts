@@ -1,6 +1,7 @@
 import { DaytonaSandboxClient } from "./clients/daytona-client";
 import { E2BSandboxClient } from "./clients/e2b-client";
 import { SandockSandboxClient } from "./clients/sandock-client";
+import { VercelSandboxClient } from "./clients/vercel-client";
 import type { MCPSandboxProvider, SandboxClient } from "./sandbox-types";
 
 /**
@@ -22,6 +23,9 @@ export class SandboxFactory {
 
       case "E2B":
         return new E2BSandboxClient(runtime);
+
+      case "VERCEL":
+        return new VercelSandboxClient();
 
       case "LOCAL":
         throw new Error("LOCAL provider should not use sandbox client");

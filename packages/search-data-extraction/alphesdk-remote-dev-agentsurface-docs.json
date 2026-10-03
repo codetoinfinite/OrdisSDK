@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Surface",
+  "description": "Search and read the Agent Surface guide to making websites, apps, APIs and CLIs work with AI agents.",
+  "packageName": "@alphesdk-remote/dev-agentsurface-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsurface.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/howells/agentsurface",
+  "readme": "https://github.com/howells/agentsurface#readme"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "stagewise",
+  "name": "stagewise",
+  "description": "Agentic development environment that combines a browser with a coding agent that can see the page's console and debugger.",
+  "category": "coding-agents",
+  "tags": ["agentic-ide", "frontend", "browser", "byok", "debugger"],
+  "repo": "https://github.com/stagewise-io/stagewise",
+  "homepage": "https://stagewise.io",
+  "publisher": "stagewise GmbH",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "stagewise lets developers browse a running web app and ask a built-in agent to change it in the same window. The agent can make temporary tweaks or permanent edits in a connected codebase, and can analyse the components and styles of any site. It is aimed mainly at front-end work.",
+  "howItWorks": "The desktop app embeds a browser whose console and debugger are exposed to the agent as context and tools. Users bring their own model keys or subscriptions, including custom and local providers. Changes can be viewed and applied through an editor integration.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Bring-your-own key or supported subscription"
+    },
+    {
+      "name": "stagewise account",
+      "kind": "account",
+      "required": true,
+      "description": "Created during onboarding"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "TypeScript",
+  "models": "All popular providers, OpenRouter, custom and local endpoints",
+  "mcp": "none",
+  "github": {
+    "stars": 6824,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

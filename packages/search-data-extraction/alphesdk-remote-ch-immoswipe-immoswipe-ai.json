@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "immoswipe-ai",
+  "description": "Search Swiss rentals & homes, housing guides/FAQs, tenant Chancen-Check and Mieter-Pool signup.",
+  "packageName": "@alphesdk-remote/ch-immoswipe-immoswipe-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.immoswipe.ch/mcp"
+    }
+  ],
+  "url": "https://github.com/Immoswipe/immoswipe-ai",
+  "readme": "https://github.com/Immoswipe/immoswipe-ai#readme"
+}

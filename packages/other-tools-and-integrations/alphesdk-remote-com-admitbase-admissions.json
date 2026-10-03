@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AdmitBase Admissions",
+  "description": "Admissions data & match scores for law, medical, dental, MBA, pharmacy, vet, optometry schools",
+  "packageName": "@alphesdk-remote/com-admitbase-admissions",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://admitbase.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Cnd-North/entrance",
+  "readme": "https://github.com/Cnd-North/entrance#readme"
+}

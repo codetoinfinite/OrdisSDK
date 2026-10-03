@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Postal Codes",
+  "description": "Postal code lookup with place names and coordinates for 60+ countries. Via Zippopotam.us.",
+  "packageName": "@alphesdk-remote/com-invokera-postal-codes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/r/postal-codes"
+    }
+  ],
+  "url": "https://invokera.com/mcp/postal-codes"
+}

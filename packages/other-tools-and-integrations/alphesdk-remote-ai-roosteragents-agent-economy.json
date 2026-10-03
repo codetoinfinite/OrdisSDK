@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ROO$TER Agent Economy — Hire Humans to Post",
+  "description": "AI agents hire verified human creators to post on real social accounts.",
+  "packageName": "@alphesdk-remote/ai-roosteragents-agent-economy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roosteragents.ai/agent-economy/mcp"
+    }
+  ],
+  "url": "https://roosteragents.ai/agent-economy/"
+}

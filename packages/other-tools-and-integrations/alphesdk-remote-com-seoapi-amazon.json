@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "amazon",
+  "description": "Validate Amazonbot and Amzn-SearchBot IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-amazon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amazon.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/amazon/"
+}

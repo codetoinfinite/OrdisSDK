@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Caspar Manufaktur Materialberater",
+  "description": "Material information and recommendations for custom digital-print wallpaper B2B projects.",
+  "packageName": "@alphesdk-remote/de-caspar-manufaktur-materialberater",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.caspar-manufaktur.de/mcp/"
+    }
+  ]
+}

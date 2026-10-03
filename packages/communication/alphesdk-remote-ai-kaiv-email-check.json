@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "email-check",
+  "description": "Email posture for any domain: can it receive mail, can it be spoofed? MX, SPF and DMARC.",
+  "packageName": "@alphesdk-remote/ai-kaiv-email-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaiv.ai/api/bridge/mcp/email-check-b6ab5250"
+    }
+  ]
+}

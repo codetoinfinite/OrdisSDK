@@ -215,6 +215,9 @@ export async function runAgentChat(
     if (request.agentKey) {
       const agent = catalog.agent(request.agentKey);
       if (!agent) throw new Error(`Agent '${request.agentKey}' not found`);
+      if (agent.kind === "external") {
+        throw new Error(`Agent '${request.agentKey}' runs from its own repository, not here`);
+      }
       refs = agent.resolvedServers.map(({ server, tools }) => ({ server, tools }));
       systemPrompt = agent.systemPrompt;
       maxSteps = agent.maxSteps;

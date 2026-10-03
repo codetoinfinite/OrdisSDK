@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kapruka MCP",
+  "description": "Free public MCP server for Kapruka.com — Sri Lanka's largest e-commerce platform.",
+  "packageName": "@alphesdk-remote/com-kapruka-kapruka-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kapruka.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kapruka/mcp",
+  "readme": "https://github.com/kapruka/mcp#readme"
+}

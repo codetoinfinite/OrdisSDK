@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "knowledge",
+  "description": "Knowledge Base von designare.at – Michael Kanda, Web & KI aus Wien. Semantische Suche über RAG.",
+  "packageName": "@alphesdk-remote/at-designare-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://designare.at/api/mcp"
+    }
+  ],
+  "url": "https://github.com/michael-kanda/designare",
+  "readme": "https://github.com/michael-kanda/designare#readme"
+}

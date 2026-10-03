@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Contribution Exchange",
+  "description": "Contribution Exchange MCP: domain discovery, policies, preflight, proposals, and signals.",
+  "packageName": "@alphesdk-remote/com-signalaf-contribution-exchange",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signalaf.com/api/exchange/mcp"
+    }
+  ],
+  "url": "https://github.com/SunrisesIllNeverSee/sigrank-app",
+  "readme": "https://github.com/SunrisesIllNeverSee/sigrank-app#readme"
+}

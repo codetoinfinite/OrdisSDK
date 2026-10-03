@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Machine Relations Index",
+  "description": "Which source domains AI answer engines cite, by buyer category and question shape.",
+  "packageName": "@alphesdk-remote/ai-machinerelations-mri",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://machinerelations.ai/mcp"
+    }
+  ],
+  "url": "https://machinerelations.ai/machine-relations-index"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cintra Supply Quote Desk",
+  "description": "Get wholesale quotes and order industrial, MRO, and operational supplies from a US B2B distributor.",
+  "packageName": "@alphesdk-remote/com-cintrasupply-cintra-quote",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cintrasupply.com/mcp"
+    }
+  ],
+  "url": "https://www.cintrasupply.com/agents"
+}

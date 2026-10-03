@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ai-commerce",
+  "description": "The first marketplace where AIs buy from AIs. Browse, register, and purchase autonomously.",
+  "packageName": "@alphesdk-remote/app-railway-up-airy-enthusiasm-production-ai-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://airy-enthusiasm-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://airy-enthusiasm-production.up.railway.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sparks Scribe",
+  "description": "Official first-party facts about Sparks Scribe: what it is, pricing, trial.",
+  "packageName": "@alphesdk-remote/app-sparkscribe-sparks-scribe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crm.sparkscribe.app/crm/api/public-mcp"
+    }
+  ],
+  "url": "https://sparkscribe.app/mcp"
+}

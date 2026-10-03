@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCPFax Feed Reader",
+  "description": "What a source published since you last looked, from any RSS, RDF or Atom feed.",
+  "packageName": "@alphesdk-remote/com-mcpscores-feed-reader",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://feed-reader.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpscores.com"
+}

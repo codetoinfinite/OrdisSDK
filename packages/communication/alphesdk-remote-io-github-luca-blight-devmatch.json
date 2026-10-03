@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DevMatch",
+  "description": "DevMatch — evidence-based engineer hiring for mission-driven teams.",
+  "packageName": "@alphesdk-remote/io-github-luca-blight-devmatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dev-match.xyz/mcp"
+    }
+  ],
+  "url": "https://dev-match.xyz"
+}

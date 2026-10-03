@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Blipsmith Sound Effects",
+  "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
+  "packageName": "@alphesdk-remote/ai-blipsmith-sound-effects",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blipsmith.ai/api/mcp"
+    }
+  ],
+  "url": "https://blipsmith.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "commodity-signal",
+  "description": "Commodity futures bottom/top signals: 28 futures, verdict + score, scans. Pay-per-call x402.",
+  "packageName": "@alphesdk-remote/com-airblockfz-commodity-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://commodity-signal.airblock2026.workers.dev/mcp"
+    }
+  ],
+  "url": "https://airblockfz.com"
+}

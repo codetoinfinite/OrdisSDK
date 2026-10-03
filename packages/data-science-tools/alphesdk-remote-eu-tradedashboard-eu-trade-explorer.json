@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EU Trade Explorer",
+  "description": "EU customs-trade & industrial-production statistics (Eurostat Comext/PRODCOM)",
+  "packageName": "@alphesdk-remote/eu-tradedashboard-eu-trade-explorer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tradedashboard.eu/mcp"
+    }
+  ],
+  "url": "https://tradedashboard.eu"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hutlists — Alpine huts",
+  "description": "Search 5,630 mountain huts in the Alps: records, elevation, season, booking, availability.",
+  "packageName": "@alphesdk-remote/com-hutlists-hutlists",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hutlists.com/mcp"
+    }
+  ],
+  "url": "https://hutlists.com"
+}

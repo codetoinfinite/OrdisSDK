@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "apMZoomAI · Dongdaemun wholesale",
+  "description": "Search Dongdaemun (Seoul) wholesale fashion items, new arrivals and stalls on apMZoomAI.",
+  "packageName": "@alphesdk-remote/com-apmzoom-www-dongdaemun",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.apmzoom.com/mcp"
+    }
+  ],
+  "url": "https://github.com/apmleokeo-gif/apmzoom-mcp",
+  "readme": "https://github.com/apmleokeo-gif/apmzoom-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "coccocbot",
+  "description": "Validate Cốc Cốc Bot IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-coccocbot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coccocbot.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/coccocbot/"
+}

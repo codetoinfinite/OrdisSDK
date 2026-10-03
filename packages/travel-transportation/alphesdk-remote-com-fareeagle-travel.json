@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FareEagle Travel",
+  "description": "Flights, hotels, buses and holiday packages in India at live fares, plus visa help; pay on fareeagle",
+  "packageName": "@alphesdk-remote/com-fareeagle-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fareeagle.com/mcp"
+    }
+  ],
+  "url": "https://www.fareeagle.com/developers"
+}

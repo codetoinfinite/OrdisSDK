@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Codacy",
+  "description": "Code quality, security issues and coverage from Codacy, plus local CLI analysis.",
+  "packageName": "@codacy/codacy-mcp",
+  "packageVersion": "0.6.25",
+  "runtime": "node",
+  "readme": "https://docs.codacy.com/codacy-guardrails/codacy-guardrails-getting-started/",
+  "url": "https://github.com/codacy/codacy-mcp-server",
+  "author": "Codacy",
+  "env": {
+    "CODACY_ACCOUNT_TOKEN": {
+      "description": "Codacy account API token",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HubSpot Integrations MCP",
+  "description": "MCP server for the HubSpot Integrations Center HubDB: search and retrieve integration data.",
+  "packageName": "@alphesdk-remote/io-github-centrify-internal-hubspot-integrations-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://n6k96b1ql7.execute-api.us-west-2.amazonaws.com/prod/"
+    }
+  ],
+  "url": "https://github.com/Centrify-Internal/hubspot-mcp-server",
+  "readme": "https://github.com/Centrify-Internal/hubspot-mcp-server#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sinh Vũ Studio",
+  "description": "Sinh Vũ Studio (Vietnam brand design): services, sectors, cases, price bands, articles. Read-only.",
+  "packageName": "@alphesdk-remote/com-sinhvu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sinhvu.com/mcp"
+    }
+  ],
+  "url": "https://sinhvu.com/"
+}

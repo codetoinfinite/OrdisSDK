@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "snooze",
+  "description": "Watch domains and forecast when they drop; check a name's domain, handles, and trademark.",
+  "packageName": "@alphesdk-remote/domains-snooze-snooze",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.snooze.domains/mcp"
+    }
+  ],
+  "url": "https://snooze.domains/mcp"
+}

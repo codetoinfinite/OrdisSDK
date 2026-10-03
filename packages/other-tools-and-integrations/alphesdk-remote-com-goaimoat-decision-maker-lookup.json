@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Decision-Maker Lookup",
+  "description": "Find B2B decision makers and verify work emails.",
+  "packageName": "@alphesdk-remote/com-goaimoat-decision-maker-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contacts.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp#readme"
+}

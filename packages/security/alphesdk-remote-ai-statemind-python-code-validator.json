@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Python Code Validator",
+  "description": "Proves AI-generated Python does what you asked: lint, types, security, sandbox run, exact fixes.",
+  "packageName": "@alphesdk-remote/ai-statemind-python-code-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.statemind.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/jkanselaar/python-code-validator",
+  "readme": "https://github.com/jkanselaar/python-code-validator#readme"
+}

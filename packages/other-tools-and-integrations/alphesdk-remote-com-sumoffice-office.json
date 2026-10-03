@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SumOffice — real Word and Excel for agents",
+  "description": "Real Word and Excel for agents: open your .docx/.xlsm, read, propose, apply, get it back intact.",
+  "packageName": "@alphesdk-remote/com-sumoffice-office",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://view.sumoffice.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SumOfficeApp/sumoffice-mcp",
+  "readme": "https://github.com/SumOfficeApp/sumoffice-mcp#readme"
+}

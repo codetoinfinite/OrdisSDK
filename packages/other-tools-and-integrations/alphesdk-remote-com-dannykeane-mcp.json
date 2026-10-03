@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Danny Keane",
+  "description": "Danny Keane's profile as read-only tools: background, work history, contact, and site pages.",
+  "packageName": "@alphesdk-remote/com-dannykeane-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dannykeane.com/mcp"
+    }
+  ],
+  "url": "https://dannykeane.com/developers/mcp"
+}

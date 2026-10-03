@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "blobpedia",
+  "description": "Celestia knowledge base: CIPs, docs, forum, videos, GitHub, plus live on-chain state",
+  "packageName": "@alphesdk-remote/io-github-unitynodes-blobpedia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blobpedia.org/mcp"
+    }
+  ],
+  "url": "https://github.com/UnityNodes/blobpedia",
+  "readme": "https://github.com/UnityNodes/blobpedia#readme"
+}

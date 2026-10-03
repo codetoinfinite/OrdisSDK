@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Black Water Window Cleaning Website MCP",
+  "description": "Search and read public Black Water Window Cleaning pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blackwaterwindowcleaning-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blackwaterwindowcleaning.com/mcp"
+    }
+  ],
+  "url": "https://blackwaterwindowcleaning.com/connect"
+}

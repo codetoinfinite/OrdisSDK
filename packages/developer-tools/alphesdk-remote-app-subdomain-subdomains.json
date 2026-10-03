@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Subdomain API",
+  "description": "Find known subdomains of a domain. Passive data; may include historic entries. List or count.",
+  "packageName": "@alphesdk-remote/app-subdomain-subdomains",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.subdomain.app/mcp"
+    }
+  ],
+  "url": "https://subdomain.app"
+}

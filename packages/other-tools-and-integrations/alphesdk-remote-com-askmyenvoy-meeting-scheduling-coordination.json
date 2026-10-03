@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ask My Envoy",
+  "description": "Discover meeting-coordination Envoys. Work in progress; identity discovery is coming soon.",
+  "packageName": "@alphesdk-remote/com-askmyenvoy-meeting-scheduling-coordination",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.askmyenvoy.com/mcp"
+    }
+  ],
+  "url": "https://askmyenvoy.com/"
+}

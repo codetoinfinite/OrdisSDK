@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wild Wallet — where agents get a body",
+  "description": "Agents browse Wild Wallet bodies + closets and file human-approved merge requests.",
+  "packageName": "@alphesdk-remote/io-github-mcflamingo-wildwallet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wildwallet.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/MCFLAMINGO/wildwallet",
+  "readme": "https://github.com/MCFLAMINGO/wildwallet#readme"
+}

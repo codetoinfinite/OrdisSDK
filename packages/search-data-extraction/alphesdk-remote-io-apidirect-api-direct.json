@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "API Direct",
+  "description": "Search social media, news, forums and Google Maps: LinkedIn, X, Reddit, TikTok, YouTube.",
+  "packageName": "@alphesdk-remote/io-apidirect-api-direct",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apidirect.io/mcp"
+    }
+  ],
+  "url": "https://apidirect.io"
+}

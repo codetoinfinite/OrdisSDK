@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Whichli · Photo Polls",
+  "description": "Turn photos or product links into a poll your friends vote on. One link, free, no account needed.",
+  "packageName": "@alphesdk-remote/com-whichli-photo-polls",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whichli.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/cetinkol/whichli",
+  "readme": "https://github.com/cetinkol/whichli#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kai CSV Profiler and Domain Watch Intake",
+  "description": "Bounded CSV profiling plus review-only host monitoring requests through one remote MCP endpoint.",
+  "packageName": "@alphesdk-remote/io-dedyn-kai-system-agent-csv-profiler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kaix402m3.pythonanywhere.com/mcp"
+    }
+  ],
+  "url": "https://kaix402m3.pythonanywhere.com/docs"
+}

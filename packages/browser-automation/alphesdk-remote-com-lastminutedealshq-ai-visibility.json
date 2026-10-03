@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ai-visibility",
+  "description": "AI-search-visibility tools: check crawler access, generate llms.txt, lint robots.txt, census data.",
+  "packageName": "@alphesdk-remote/com-lastminutedealshq-ai-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-visibility.lastminutedealshq.com/mcp"
+    }
+  ]
+}

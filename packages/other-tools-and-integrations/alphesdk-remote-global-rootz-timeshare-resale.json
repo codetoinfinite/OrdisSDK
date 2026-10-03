@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "resale",
+  "description": "AI-native timeshare marketplace with FL DBPR + CFPB government-source data. Source-linked.",
+  "packageName": "@alphesdk-remote/global-rootz-timeshare-resale",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://timeshare.rootz.global/mcp"
+    }
+  ],
+  "url": "https://github.com/rootz-global/mcp-servers",
+  "readme": "https://github.com/rootz-global/mcp-servers#readme"
+}

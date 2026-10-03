@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Census ACS Demographics",
+  "description": "Population, income, poverty, education, housing, and commuting from the US Census ACS",
+  "packageName": "@alphesdk-remote/com-olyport-census",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/census/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

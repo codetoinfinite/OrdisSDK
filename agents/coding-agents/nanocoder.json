@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "nanocoder",
+  "name": "Nanocoder",
+  "description": "Community-built terminal coding agent that favours local models through Ollama while also supporting OpenAI-compatible APIs.",
+  "category": "coding-agents",
+  "tags": ["terminal", "local-first", "ollama", "community", "mcp"],
+  "repo": "https://github.com/Nano-Collective/nanocoder",
+  "docs": "https://docs.nanocollective.org/nanocoder",
+  "publisher": "Nano Collective",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Nanocoder brings agentic coding to the terminal for people who want to stay local and provider-independent. It can edit files, run commands and review changes. Modes ranging from manual approval to fully automatic control how much freedom it has.",
+  "howItWorks": "The CLI runs a tool loop against the configured provider. Operating modes (normal, auto-accept, yolo, plan, architect) change the approval behaviour, and external tool servers are declared in its configuration. A dedicated review command inspects code changes.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "Model provider",
+      "kind": "service",
+      "required": true,
+      "description": "A local Ollama server or an OpenAI-compatible or OpenRouter endpoint"
+    }
+  ],
+  "install": ["npm install -g @nanocollective/nanocoder"],
+  "run": ["nanocoder", "nanocoder --provider ollama --model llama3.1"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "Ollama, OpenRouter, any OpenAI-compatible API",
+  "mcp": "client",
+  "github": {
+    "stars": 2496,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

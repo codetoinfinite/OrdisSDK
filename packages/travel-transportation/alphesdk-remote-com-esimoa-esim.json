@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "esimoa — travel eSIM comparison",
+  "description": "Compare travel eSIM plans by country, days and data — live prices and links to buy on esimoa.",
+  "packageName": "@alphesdk-remote/com-esimoa-esim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.esimoa.com/mcp"
+    }
+  ],
+  "url": "https://github.com/nbase-io/esimoa-mcp",
+  "readme": "https://github.com/nbase-io/esimoa-mcp#readme"
+}

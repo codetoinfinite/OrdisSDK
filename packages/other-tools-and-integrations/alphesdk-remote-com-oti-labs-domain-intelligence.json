@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Domain Intelligence",
+  "description": "WHOIS/RDAP, DNS, SSL, live subdomains with IPs, and SPF/DMARC/DKIM for any domain.",
+  "packageName": "@alphesdk-remote/com-oti-labs-domain-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oti-labs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/osiris-technical-institute/domain-intelligence-api",
+  "readme": "https://github.com/osiris-technical-institute/domain-intelligence-api#readme"
+}

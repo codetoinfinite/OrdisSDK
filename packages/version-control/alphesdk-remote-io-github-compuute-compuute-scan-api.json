@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Compuute MCP Security Scanner",
+  "description": "Scan any public GitHub MCP-server repo for security issues. 37 MCP-specific L1 rules, 8 languages.",
+  "packageName": "@alphesdk-remote/io-github-compuute-compuute-scan-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scan.compuute.se/mcp/"
+    }
+  ],
+  "url": "https://github.com/Compuute/compuute-scan-api",
+  "readme": "https://github.com/Compuute/compuute-scan-api#readme"
+}

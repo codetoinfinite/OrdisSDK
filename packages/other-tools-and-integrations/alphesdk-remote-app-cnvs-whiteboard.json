@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cnvs.app",
+  "description": "Real-time collaborative whiteboard — AI agents and humans edit the same board live over MCP.",
+  "packageName": "@alphesdk-remote/app-cnvs-whiteboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cnvs.app/mcp"
+    }
+  ],
+  "url": "https://github.com/lksrz/cnvs-whiteboard-skills",
+  "readme": "https://github.com/lksrz/cnvs-whiteboard-skills#readme"
+}

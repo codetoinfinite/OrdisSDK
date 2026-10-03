@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "obol",
+  "description": "Pre-trade safety verdicts for agents: token rug/honeypot, calldata guard, wallet risk — signed x402.",
+  "packageName": "@alphesdk-remote/dev-fly-obol-x402-obol",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://obol-mcp.fly.dev/mcp"
+    }
+  ]
+}

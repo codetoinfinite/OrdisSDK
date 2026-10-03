@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ProxyCove",
+  "description": "Buy and manage residential, mobile and datacenter proxies in 170+ countries, prepaid per GB",
+  "packageName": "@alphesdk-remote/com-proxycove-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.proxycove.com/mcp"
+    }
+  ],
+  "url": "https://github.com/proxycove/mcp-server",
+  "readme": "https://github.com/proxycove/mcp-server#readme"
+}

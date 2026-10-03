@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Interact with your Google Bigtable resources using natural language commands.",
+  "packageName": "@alphesdk-remote/com-googleapis-bigtableadmin-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bigtableadmin.googleapis.com/mcp"
+    }
+  ]
+}

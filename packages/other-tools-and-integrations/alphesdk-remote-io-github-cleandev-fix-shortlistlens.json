@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ShortlistLens",
+  "description": "Structured website and review evidence for AI-assisted local-business shortlisting.",
+  "packageName": "@alphesdk-remote/io-github-cleandev-fix-shortlistlens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shortlistlens-mcp.streaming22box.workers.dev/mcp"
+    }
+  ]
+}

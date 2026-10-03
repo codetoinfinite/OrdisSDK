@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Nordax AI Entity Network",
+  "description": "Search and verify 360K+ business entities with trust scores and W3C credentials.",
+  "packageName": "@alphesdk-remote/ai-nordax-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nordax.ai/mcp"
+    }
+  ]
+}

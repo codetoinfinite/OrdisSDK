@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "aggrometer",
+  "description": "The gaming attention graph: Steam players, Twitch live viewers, aggro ratio, hype, history.",
+  "packageName": "@alphesdk-remote/io-github-aggrometer-aggrometer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aggrometer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Aggrometer/aggrometer",
+  "readme": "https://github.com/Aggrometer/aggrometer#readme"
+}

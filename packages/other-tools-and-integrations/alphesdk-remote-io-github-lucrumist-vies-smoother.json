@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VIES Smoother",
+  "description": "SLA'd EU VAT validation on VIES. Honest 3-state result, never guesses. 100 free lookups.",
+  "packageName": "@alphesdk-remote/io-github-lucrumist-vies-smoother",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vantane.com/mcp"
+    }
+  ],
+  "url": "https://vantane.com"
+}

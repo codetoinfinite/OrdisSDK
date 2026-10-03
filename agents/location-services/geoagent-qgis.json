@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "geoagent-qgis",
+  "name": "GeoAgent",
+  "description": "QGIS plugin that carries out geoprocessing and map tasks from natural-language instructions.",
+  "category": "location-services",
+  "tags": ["gis", "qgis", "geoprocessing", "langgraph", "ollama"],
+  "repo": "https://github.com/iamtekson/GeoAgent",
+  "homepage": "https://plugins.qgis.org/plugins/geo_agent/",
+  "publisher": "Tek Kshetri",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets GIS users ask for layer loading, selections and processing operations in plain language inside QGIS instead of clicking through tools.",
+  "howItWorks": "LangGraph agents call LangChain tools that wrap QGIS functions. The plugin is installed from the QGIS plugin manager, installs its Python dependencies on first use and talks to a local Ollama model or a hosted provider.",
+  "requirements": [
+    {
+      "name": "QGIS",
+      "kind": "runtime",
+      "required": true,
+      "description": "QGIS 3.2 or newer"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Local Ollama, or a key for OpenAI, Google Gemini or Anthropic"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "chat"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Ollama, OpenAI, Gemini, Anthropic",
+  "mcp": "none",
+  "github": {
+    "stars": 44,
+    "license": "MIT",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

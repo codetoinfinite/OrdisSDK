@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Ailabra Agent Profit Ledger",
+  "description": "Determine autonomous-agent profit and cash flow with x402-paid MCP tools and signed reports.",
+  "packageName": "@alphesdk-remote/io-github-jsjfin-agent-profit-ledger",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.ailabra.org/mcp"
+    }
+  ]
+}

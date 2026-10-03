@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "cline",
+  "name": "Cline",
+  "description": "Coding agent for the terminal, a desktop app and VS Code that plans, edits files and runs commands with the user approving each step.",
+  "category": "coding-agents",
+  "tags": ["vscode", "cli", "plan-act", "human-in-the-loop", "mcp"],
+  "repo": "https://github.com/cline/cline",
+  "homepage": "https://cline.bot",
+  "docs": "https://docs.cline.bot",
+  "publisher": "Cline Bot Inc.",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Cline takes a task, explores the project, proposes a plan and then carries it out by editing files and running shell commands. Developers stay in control because actions require approval. Project rules files and external tool servers let teams tailor its behaviour.",
+  "howItWorks": "The agent alternates between a planning mode and an acting mode. In acting mode it calls tools for file edits, terminal commands and connected MCP servers, pausing for permission. It is model-agnostic and the same core is exposed through a CLI, an editor extension, a desktop app and an SDK.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key or account for a supported provider, or a local model server"
+    }
+  ],
+  "install": ["npm i -g cline"],
+  "run": [],
+  "interfaces": ["cli", "ide", "desktop", "library"],
+  "language": "TypeScript",
+  "models": "Anthropic, OpenAI, Google, OpenRouter, Bedrock, Azure, Vertex, Groq, Cerebras, Ollama, LM Studio, OpenAI-compatible",
+  "mcp": "client",
+  "github": {
+    "stars": 69752,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

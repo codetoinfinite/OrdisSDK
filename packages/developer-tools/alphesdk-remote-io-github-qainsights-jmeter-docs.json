@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JMeter Docs",
+  "description": "Apache JMeter community documentation, conversion tools, linters, and calculators for AI agents.",
+  "packageName": "@alphesdk-remote/io-github-qainsights-jmeter-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.jmeter.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/QAInsights/docs.jmeter.ai",
+  "readme": "https://github.com/QAInsights/docs.jmeter.ai#readme"
+}

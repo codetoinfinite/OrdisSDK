@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "e-eSIM Catalog",
+  "description": "Search travel eSIM data plans worldwide with live prices, plan details and a buy link.",
+  "packageName": "@alphesdk-remote/com-e-esim-esim-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://e-esim.com/wp-json/e-esim/mcp"
+    }
+  ],
+  "url": "https://e-esim.com"
+}

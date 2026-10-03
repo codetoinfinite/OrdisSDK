@@ -1,15 +1,20 @@
-import { Ban, Bot, CircleAlert, Hash, KeyRound } from "lucide-react";
+import { Ban, BookOpen, Bot, CircleAlert, GitBranch, Globe, Hash, KeyRound } from "lucide-react";
 import { type ReactNode, useEffect, useRef, useState } from "react";
 import { getAgent } from "../lib/api";
-import { plural } from "../lib/format";
+import { formatCount, httpUrl, plural } from "../lib/format";
 import { fromAgent } from "../lib/items";
 import { type AgentLang, agentSnippet } from "../lib/snippets";
 import { markStep, missingKeys, useAllEnvs } from "../lib/state";
-import type { AgentDetail, AgentResolvedServer } from "../lib/types";
+import type {
+  AgentDetail,
+  AgentResolvedServer,
+  ExternalAgentInfo,
+  ExternalRequirement,
+} from "../lib/types";
 import { useAsync } from "../lib/useAsync";
 import { AgentChat } from "../ui/AgentChat";
 import { CodeBlock } from "../ui/CodeBlock";
-import { Badge, Button, Callout, Monogram, Section, Tabs } from "../ui/core";
+import { Badge, Button, buttonClass, Callout, Monogram, Section, Tabs } from "../ui/core";
 import {
   DetailError,
   DetailHead,
@@ -20,7 +25,7 @@ import {
 } from "../ui/Detail";
 import { EnvForm } from "../ui/EnvForm";
 import { itemBadges } from "../ui/ItemCard";
-import { Link } from "../wm/Link";
+import { ExternalA, Link } from "../wm/Link";
 import { paths } from "../wm/routes";
 import { useWin, useWindowTitle } from "../wm/WindowManager";
 
@@ -282,6 +287,210 @@ function AgentView({ agent }: { agent: AgentDetail }) {
   );
 }
 
+const REQUIREMENT_KIND: Record<ExternalRequirement["kind"], string> = {
+  "api-key": "API key",
+  runtime: "Runtime",
+  service: "Service",
+  hardware: "Hardware",
+  account: "Account",
+};
+
+const PUBLISHER_TYPE: Record<ExternalAgentInfo["publisherType"], string> = {
+  company: "Company",
+  community: "Open-source community",
+  individual: "Individual developer",
+};
+
+const MCP_ROLE: Record<ExternalAgentInfo["mcp"], string> = {
+  client: "Connects to MCP servers",
+  server: "Exposes itself as an MCP server",
+  both: "MCP client and server",
+  none: "No MCP support documented",
+};
+
+/** "https://github.com/owner/name" -> "owner/name". */
+const repoSlug = (repo: string) => repo.replace(/^https:\/\/github\.com\//, "");
+
+function Requirement({ item }: { item: ExternalRequirement }) {
+  return (
+    <li className="agent-req">
+      <div className="agent-req-head">
+        <code className="agent-req-name">{item.name}</code>
+        <Badge tone={item.kind === "api-key" ? "yellow" : "muted"}>
+          {REQUIREMENT_KIND[item.kind]}
+        </Badge>
+        {!item.required && <Badge>Optional</Badge>}
+      </div>
+      {item.description && <p className="agent-req-text">{item.description}</p>}
+    </li>
+  );
+}
+
+/** An agent that runs from its own repository: documentation instead of a chat. */
+function ExternalAgentView({ agent, info }: { agent: AgentDetail; info: ExternalAgentInfo }) {
+  const repo = httpUrl(info.repo);
+  const homepage = httpUrl(info.homepage);
+  const docs = httpUrl(info.docs);
+  const required = info.requirements.filter((item) => item.required);
+  const optional = info.requirements.filter((item) => !item.required);
+
+  const facts: Fact[] = [
+    { label: "Publisher", value: `${info.publisher} · ${PUBLISHER_TYPE[info.publisherType]}` },
+  ];
+  if (repo) {
+    facts.push({
+      label: "Repository",
+      value: (
+        <ExternalA href={repo} className="link">
+          {repoSlug(info.repo)}
+        </ExternalA>
+      ),
+    });
+  }
+  if (info.subpath) facts.push({ label: "Folder", value: <code>{info.subpath}</code> });
+  if (info.github?.license) facts.push({ label: "Licence", value: info.github.license });
+  if (info.github) {
+    facts.push(
+      { label: "GitHub stars", value: formatCount(info.github.stars) },
+      { label: "Last commit", value: info.github.pushedAt.slice(0, 10) },
+    );
+  }
+  if (info.language) facts.push({ label: "Language", value: info.language });
+  if (info.framework) facts.push({ label: "Built with", value: info.framework });
+  if (info.models) facts.push({ label: "Models", value: info.models });
+  if (info.interfaces.length)
+    facts.push({ label: "Interfaces", value: info.interfaces.join(", ") });
+  facts.push(
+    { label: "MCP", value: MCP_ROLE[info.mcp] },
+    {
+      label: "Category",
+      value: (
+        <Link href={paths.explore({ type: "agent", category: agent.category })} className="link">
+          {agent.categoryName || agent.category}
+        </Link>
+      ),
+    },
+  );
+  if (agent.tags.length) {
+    facts.push({
+      label: "Tags",
+      value: (
+        <div className="badge-row">
+          {agent.tags.map((tag) => (
+            <Badge key={tag} tone="muted" icon={Hash}>
+              {tag}
+            </Badge>
+          ))}
+        </div>
+      ),
+    });
+  }
+  facts.push({ label: "Catalog key", value: <code>{agent.key}</code> });
+
+  return (
+    <div className="page detail">
+      <DetailHead
+        name={agent.name}
+        icon={Bot}
+        sub={
+          <>
+            <span>by {info.publisher}</span>
+            {itemBadges(fromAgent(agent))}
+          </>
+        }
+        actions={
+          <>
+            {repo && (
+              <ExternalA href={repo} className={buttonClass(undefined, "md")}>
+                <GitBranch size={16} />
+                Source
+              </ExternalA>
+            )}
+            <StackButton type="agent" id={agent.key} name={agent.name} />
+          </>
+        }
+      />
+
+      <div className="detail-body">
+        <div className="detail-main">
+          <Callout kind="info" title="Runs from its own source">
+            This agent is not hosted here. Install it from its repository with the steps below; the
+            page lists what it needs first.
+          </Callout>
+
+          <Section title="What it does">
+            <p className="agent-doc-text">{info.whatItDoes}</p>
+          </Section>
+
+          <Section title="How it works">
+            <p className="agent-doc-text">{info.howItWorks}</p>
+          </Section>
+
+          {info.requirements.length > 0 && (
+            <Section
+              title="What it needs"
+              sub={`${plural(required.length, "requirement")}${optional.length ? `, ${optional.length} optional` : ""}`}
+            >
+              <ul className="agent-reqs">
+                {[...required, ...optional].map((item) => (
+                  <Requirement key={`${item.kind}:${item.name}`} item={item} />
+                ))}
+              </ul>
+            </Section>
+          )}
+
+          {info.install.length > 0 && (
+            <Section title="Install" sub="Read the commands before you run them.">
+              <CodeBlock code={info.install.join("\n")} lang="bash" title="install" />
+            </Section>
+          )}
+
+          {info.install.length === 0 && info.run.length === 0 && (
+            <Section title="Set up">
+              <p className="agent-doc-text">
+                This project installs through a download, plugin store or guided setup rather than a
+                short command. Follow the setup guide in its {docs ? "documentation" : "repository"}
+                .
+              </p>
+            </Section>
+          )}
+
+          {info.run.length > 0 && (
+            <Section title="Run">
+              <CodeBlock code={info.run.join("\n")} lang="bash" title="run" />
+            </Section>
+          )}
+        </div>
+
+        <aside className="detail-aside">
+          {(homepage || docs) && (
+            <section className="facts-card">
+              <h2 className="facts-title">Links</h2>
+              <div className="agent-links">
+                {docs && (
+                  <ExternalA href={docs} className="link agent-link">
+                    <BookOpen size={14} /> Documentation
+                  </ExternalA>
+                )}
+                {homepage && (
+                  <ExternalA href={homepage} className="link agent-link">
+                    <Globe size={14} /> Website
+                  </ExternalA>
+                )}
+              </div>
+            </section>
+          )}
+          <Facts items={facts}>
+            {info.github && (
+              <p className="code-note">Repository checked {info.github.checkedAt.slice(0, 10)}.</p>
+            )}
+          </Facts>
+        </aside>
+      </div>
+    </div>
+  );
+}
+
 export function AgentPage() {
   const { route } = useWin();
   const key = route.params.id ?? "";
@@ -305,5 +514,6 @@ export function AgentPage() {
     );
   }
   if (!data) return <DetailSkeleton />;
+  if (data.external) return <ExternalAgentView agent={data} info={data.external} />;
   return <AgentView agent={data} />;
 }

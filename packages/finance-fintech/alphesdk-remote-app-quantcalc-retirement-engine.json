@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "QuantCalc Retirement Engine",
+  "description": "Retirement Monte Carlo with a tax-aware withdrawal-order and Roth-conversion recommendation.",
+  "packageName": "@alphesdk-remote/app-quantcalc-retirement-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.quantcalc.app"
+    }
+  ],
+  "url": "https://github.com/quantcalc-app/quantcalc-mcp-plugin",
+  "readme": "https://github.com/quantcalc-app/quantcalc-mcp-plugin#readme"
+}

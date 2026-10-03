@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "heropedia",
+  "description": "Consult 324+ expert personas (Buffett, Jobs, Munger, Torvalds, ...) via 4 read-only registry tools.",
+  "packageName": "@alphesdk-remote/io-github-siliconroshibill-heropedia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.heropedia.org/mcp"
+    }
+  ],
+  "url": "https://github.com/SiliconRoshiBill/heropedia-plugin",
+  "readme": "https://github.com/SiliconRoshiBill/heropedia-plugin#readme"
+}

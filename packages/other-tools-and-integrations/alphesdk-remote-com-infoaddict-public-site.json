@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "InfoAddict Public Site",
+  "description": "Read-only public information about InfoAddict, Dan Crane, services, and contact options.",
+  "packageName": "@alphesdk-remote/com-infoaddict-public-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://infoaddict.com/mcp"
+    }
+  ]
+}

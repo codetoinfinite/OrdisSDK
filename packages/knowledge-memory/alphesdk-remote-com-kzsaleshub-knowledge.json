@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KZSalesHub Knowledge",
+  "description": "B2B sales, marketing, AI and management knowledge base for Kazakhstan and Central Asia (RU).",
+  "packageName": "@alphesdk-remote/com-kzsaleshub-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kzsaleshub.com/mcp"
+    }
+  ],
+  "url": "https://kzsaleshub.com/knowledge/"
+}

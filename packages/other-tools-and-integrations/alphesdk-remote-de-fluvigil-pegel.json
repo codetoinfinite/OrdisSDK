@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pegel",
+  "description": "German and Swiss river gauges, groundwater and flood levels from ten official sources",
+  "packageName": "@alphesdk-remote/de-fluvigil-pegel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fluvigil.de/mcp"
+    }
+  ],
+  "url": "https://fluvigil.de/mcp"
+}

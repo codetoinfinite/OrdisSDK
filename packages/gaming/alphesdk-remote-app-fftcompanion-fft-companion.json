@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FFT Companion",
+  "description": "Final Fantasy Tactics game data across the PSX, War of the Lions and Ivalice Chronicles releases",
+  "packageName": "@alphesdk-remote/app-fftcompanion-fft-companion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fftcompanion.app/mcp"
+    }
+  ],
+  "url": "https://fftcompanion.app"
+}

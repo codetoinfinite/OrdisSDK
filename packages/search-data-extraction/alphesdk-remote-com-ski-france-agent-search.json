@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ski-france.com Agent Search",
+  "description": "Ski apartment search with one- or two-week prices, availability, destinations and ski passes.",
+  "packageName": "@alphesdk-remote/com-ski-france-agent-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://en.ski-france.com/api/agent/v1/mcp/"
+    }
+  ]
+}

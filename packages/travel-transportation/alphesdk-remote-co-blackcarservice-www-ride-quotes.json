@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Black Car Service — Bay Area Ride Quotes",
+  "description": "Bay Area SUV fare estimates, tentative availability and booking links for airport and hourly rides.",
+  "packageName": "@alphesdk-remote/co-blackcarservice-www-ride-quotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.blackcarservice.co/api/mcp"
+    }
+  ],
+  "url": "https://www.blackcarservice.co/ai"
+}

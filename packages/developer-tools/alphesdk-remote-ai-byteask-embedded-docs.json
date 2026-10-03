@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "embedded-docs",
+  "description": "Page-cited retrieval for embedded docs, datasheets, MISRA, CMSIS, and RTOS references.",
+  "packageName": "@alphesdk-remote/ai-byteask-embedded-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.byteask.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ByteAsk/ByteAsk-Embedded-MCP",
+  "readme": "https://github.com/ByteAsk/ByteAsk-Embedded-MCP#readme"
+}

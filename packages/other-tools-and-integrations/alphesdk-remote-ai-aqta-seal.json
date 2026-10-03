@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "seal",
+  "description": "Verify Seal AI decision receipts: signed evidence anyone can check, no account needed.",
+  "packageName": "@alphesdk-remote/ai-aqta-seal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.aqta.ai/api/mcp"
+    }
+  ],
+  "url": "https://app.aqta.ai/demo"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Instagram Agent by Nova (CIVAI)",
+  "description": "I use your Instagram Web browser session (Integrations → Instagram Web) via instagrapi, not Meta /…",
+  "packageName": "@alphesdk-remote/co-civai-nova-instagram-web-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/instagram-web-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/instagram-web-agent"
+}

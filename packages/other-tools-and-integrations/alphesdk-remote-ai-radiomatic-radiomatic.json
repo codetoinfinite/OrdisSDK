@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RadioMatic: achtergrondmuziek en muzieklicenties voor bedrijven",
+  "description": "Muziek in je zaak: Buma/Stemra- en Sena-kosten 2026, licentieplicht en goedkopere opties.",
+  "packageName": "@alphesdk-remote/ai-radiomatic-radiomatic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://radiomatic.ai/mcp/"
+    }
+  ],
+  "url": "https://radiomatic.ai/kennis/radiomatic-in-chatgpt-en-claude/"
+}

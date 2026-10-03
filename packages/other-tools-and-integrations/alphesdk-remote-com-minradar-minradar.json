@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "minradar",
+  "description": "App Store opportunity data for coding agents: unmet demand, paying markets, build briefs.",
+  "packageName": "@alphesdk-remote/com-minradar-minradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://minradar.com/mcp"
+    }
+  ],
+  "url": "https://github.com/caozhi1984/codex-quant",
+  "readme": "https://github.com/caozhi1984/codex-quant#readme"
+}

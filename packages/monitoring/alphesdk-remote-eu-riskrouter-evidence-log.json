@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "evidence-log",
+  "description": "Tamper-evident evidence log: signed heads, proofs, and recording salted digests of your records.",
+  "packageName": "@alphesdk-remote/eu-riskrouter-evidence-log",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.riskrouter.eu/mcp"
+    }
+  ],
+  "url": "https://riskrouter.eu/ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bsv.cx",
+  "description": "Timestamp & verify evidence on-chain, free. Proofpack: a portable BEEF+BUMP proof bundle per txid.",
+  "packageName": "@alphesdk-remote/cx-bsv-bsv-cx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bsv.cx/mcp"
+    }
+  ],
+  "url": "https://bsv.cx/"
+}

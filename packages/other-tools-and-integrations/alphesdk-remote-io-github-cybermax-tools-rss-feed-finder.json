@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Feedpeck: RSS Feed Finder & Reader by Website",
+  "description": "Feedpeck: find any site's RSS/Atom/JSON feeds + latest posts. Free, no key.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-rss-feed-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://feedpeck.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

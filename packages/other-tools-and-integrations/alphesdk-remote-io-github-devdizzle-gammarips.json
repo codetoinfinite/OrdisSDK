@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GammaRips Options Intelligence",
+  "description": "Anti-firehose options-flow data for AI agents: curated daily pool, features, realized outcomes.",
+  "packageName": "@alphesdk-remote/io-github-devdizzle-gammarips",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gammarips.com/mcp"
+    }
+  ],
+  "url": "https://github.com/DevDizzle/gammarips-mcp",
+  "readme": "https://github.com/DevDizzle/gammarips-mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Alvrun business support",
+  "description": "Ask a business's official customer support and get their verified answer, with sources.",
+  "packageName": "@alphesdk-remote/com-alvrun-support",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alvrun.com/api/mcp"
+    }
+  ]
+}

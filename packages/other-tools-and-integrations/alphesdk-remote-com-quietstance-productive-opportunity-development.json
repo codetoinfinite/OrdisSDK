@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Quiet Stance Productive Opportunity Intake",
+  "description": "Permission-aware intake for infrastructure, project development, commercial energy, and solar.",
+  "packageName": "@alphesdk-remote/com-quietstance-productive-opportunity-development",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quietstance.com/mcp"
+    }
+  ],
+  "url": "https://quietstance.com/for-agents"
+}

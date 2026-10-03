@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "agents-deep-research",
+  "name": "Agents Deep Research",
+  "description": "Deep-research assistant built on the OpenAI Agents SDK, with iterative and deep modes for long reports.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "openai-agents-sdk", "multi-agent", "reports"],
+  "repo": "https://github.com/qx-labs/agents-deep-research",
+  "publisher": "QX Labs",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Researches a topic in depth and writes a report, either through a single iterative researcher or a deeper mode that plans sections and researches them separately. It is for developers who want an Agents SDK-based research pipeline.",
+  "howItWorks": "Agents identify knowledge gaps, select tools such as web search and site crawling, and loop until a time or iteration limit is hit; the deep mode runs several of these in parallel under a planner. It is available as a pip package with a command-line entry point.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM access (other providers supported)"
+    },
+    {
+      "name": "SEARCH_PROVIDER",
+      "kind": "runtime",
+      "required": false,
+      "description": "Selects the search backend"
+    },
+    {
+      "name": "SERPER_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Serper web search"
+    }
+  ],
+  "install": ["pip install deep-researcher"],
+  "run": [
+    "deep-researcher --mode deep --query \"Provide a comprehensive overview of quantum computing\" --max-iterations 3 --max-time 10 --verbose"
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "framework": "OpenAI Agents SDK",
+  "models": "OpenAI, Azure OpenAI, Anthropic, Gemini, DeepSeek, Perplexity, OpenRouter, Hugging Face, local models",
+  "mcp": "none",
+  "github": {
+    "stars": 792,
+    "license": "Apache-2.0",
+    "pushedAt": "2025-12-27",
+    "checkedAt": "2026-10-03"
+  }
+}

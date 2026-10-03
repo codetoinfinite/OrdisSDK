@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "llms.txt 檢查工具",
+  "description": "檢查網站 llms.txt 與 AI 爬蟲 robots.txt 設定，並自動產生 llms.txt。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-llms-check-llms-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llms-check.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://llms-check.panda198271.workers.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣加密貨幣資料",
+  "description": "台灣合規虛擬資產業者名單、詐騙網址檢查與加密貨幣稅務估算。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-crypto-api-crypto-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-crypto-api.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-crypto-api.panda198271.workers.dev"
+}

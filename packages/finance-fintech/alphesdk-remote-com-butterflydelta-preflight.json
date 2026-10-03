@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Butterfly Delta Preflight",
+  "description": "Signed exact-order pre-submit gate for crypto bots using live Coinbase and Gemini execution data.",
+  "packageName": "@alphesdk-remote/com-butterflydelta-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://butterflydelta.com/api/mcp"
+    }
+  ],
+  "url": "https://butterflydelta.com/"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Dedemed ShopMCP",
+  "description": "Öffentlicher Read-only-MCP: Med-Dent24 Produktkatalog. Kein Login, keine Kundendaten.",
+  "packageName": "@alphesdk-remote/com-med-dent24-shop-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.med-dent24.com/mcp"
+    }
+  ]
+}

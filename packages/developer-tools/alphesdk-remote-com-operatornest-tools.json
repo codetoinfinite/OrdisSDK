@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OperatorNest tools",
+  "description": "Calculate API and subscription costs, meeting time zones, recurring schedules and cron matches.",
+  "packageName": "@alphesdk-remote/com-operatornest-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://operatornest.com/mcp"
+    }
+  ],
+  "url": "https://github.com/OperatorNest/mcp-tools",
+  "readme": "https://github.com/OperatorNest/mcp-tools#readme"
+}

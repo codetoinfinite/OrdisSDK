@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eSIM Eagle Plan Finder",
+  "description": "Find public eSIM plans by destination, trip length, data needs, currency, and locale.",
+  "packageName": "@alphesdk-remote/com-esimeagle-plans",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://esimeagle.com/mcp"
+    }
+  ],
+  "url": "https://esimeagle.com"
+}

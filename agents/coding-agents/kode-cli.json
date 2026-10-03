@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "kode-cli",
+  "name": "Kode",
+  "description": "Terminal coding agent with subagents and multi-model support that understands AGENTS.md and Claude-style project configuration.",
+  "category": "coding-agents",
+  "tags": ["terminal", "subagents", "agents-md", "acp", "multi-model"],
+  "repo": "https://github.com/shareAI-lab/Kode-CLI",
+  "publisher": "shareAI-lab",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Kode helps developers understand, edit and run code from the command line. It can delegate work to subagents and switch between many models. Existing AGENTS.md files and .claude directories are picked up automatically.",
+  "howItWorks": "The CLI runs interactively or with a one-shot prompt flag. Tool servers are managed with its mcp subcommands, and it can itself be driven by editors through the Agent Client Protocol. Different models can be assigned to different roles.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for one of the supported model providers"
+    }
+  ],
+  "install": ["npm install -g @shareai-lab/kode"],
+  "run": ["kode", "kode -p \"explain this function\" path/to/file.js"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "20+ models from multiple providers",
+  "mcp": "client",
+  "github": {
+    "stars": 5232,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-08-27",
+    "checkedAt": "2026-10-03"
+  }
+}

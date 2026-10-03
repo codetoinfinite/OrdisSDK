@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Etherscan",
+  "description": "Read-only Etherscan V2 blockchain data: balances, transactions, transfers, tokens, contracts, logs.",
+  "packageName": "@alphesdk-remote/io-etherscan-etherscan-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-keyless.etherscan.io/mcp"
+    }
+  ],
+  "url": "https://docs.etherscan.io/build-with-ai/mcp"
+}

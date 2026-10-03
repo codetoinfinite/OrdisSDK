@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "openchatbi",
+  "name": "OpenChatBI",
+  "description": "Chat BI agent that links questions to a data catalog, writes SQL for your warehouse and plots the results.",
+  "category": "databases",
+  "tags": ["chatbi", "text-to-sql", "langgraph", "plotly", "data-catalog"],
+  "repo": "https://github.com/zhongyu09/openchatbi",
+  "docs": "https://zhongyu09.github.io/openchatbi/",
+  "publisher": "zhongyu09",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets analysts ask questions of a data warehouse and receive SQL, result tables and Plotly charts. It maintains a catalog of tables and columns to pick the right schema elements.",
+  "howItWorks": "A LangGraph workflow performs schema linking, SQL generation and execution, then visualisation, with optional MCP tools added through configuration. Settings such as the default LLM provider and warehouse credentials live in a YAML file, and a Streamlit app provides the UI.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.11 or newer"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI, Anthropic or another supported provider set in config.yaml"
+    },
+    {
+      "name": "Data warehouse credentials",
+      "kind": "service",
+      "required": true,
+      "description": "Presto, PostgreSQL, MySQL or similar"
+    }
+  ],
+  "install": ["pip install openchatbi"],
+  "run": ["cp example/config.yaml openchatbi/config.yaml", "python run_streamlit_ui.py"],
+  "interfaces": ["web", "library"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "OpenAI, Anthropic and other configured providers",
+  "mcp": "client",
+  "github": {
+    "stars": 658,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Domain & Company Intel MCP",
+  "description": "Domain intel for AI agents: RDAP registration, DNS, email deliverability, tech stack.",
+  "packageName": "@alphesdk-remote/com-datakoot-domain-dns-whois",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domain.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/domain-intel-mcp",
+  "readme": "https://github.com/datakoot/domain-intel-mcp#readme"
+}

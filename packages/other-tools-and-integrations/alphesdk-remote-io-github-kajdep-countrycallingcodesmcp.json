@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Country Calling Codes",
+  "description": "Calling codes, phone analysis, dialing guidance, batch normalization and calling windows.",
+  "packageName": "@alphesdk-remote/io-github-kajdep-countrycallingcodesmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.countrycalling.codes/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Kajdep/v0-countrycallingcodes",
+  "readme": "https://github.com/Kajdep/v0-countrycallingcodes#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Anthony Hunt · SHAART Agency docs",
+  "description": "Search anthonyhunts.com and read any page as Markdown: GoHighLevel and AI automation guides",
+  "packageName": "@alphesdk-remote/com-anthonyhunts-shaart-agency-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.anthonyhunts.com/api/mcp/docs"
+    }
+  ],
+  "url": "https://github.com/anthonyhunts/shaart-agent-kit",
+  "readme": "https://github.com/anthonyhunts/shaart-agent-kit#readme"
+}

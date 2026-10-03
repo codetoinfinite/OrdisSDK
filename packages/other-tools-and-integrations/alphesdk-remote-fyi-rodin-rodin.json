@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rodin",
+  "description": "Find ~5 thinkers whose intellectual fingerprint matches a passage of text.",
+  "packageName": "@alphesdk-remote/fyi-rodin-rodin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rodin.fyi/mcp"
+    }
+  ],
+  "url": "https://github.com/peacewalkerT/rodin",
+  "readme": "https://github.com/peacewalkerT/rodin#readme"
+}

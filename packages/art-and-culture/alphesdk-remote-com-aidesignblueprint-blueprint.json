@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Design Blueprint",
+  "description": "Doctrine and validators for governable agentic AI products.",
+  "packageName": "@alphesdk-remote/com-aidesignblueprint-blueprint",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aidesignblueprint.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Michelangelo-Z/ai-design-blueprint",
+  "readme": "https://github.com/Michelangelo-Z/ai-design-blueprint#readme"
+}

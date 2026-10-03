@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-readiness",
+  "description": "Scores any public website on how usable it is by AI agents, with per-check evidence.",
+  "packageName": "@alphesdk-remote/com-webmcp-tool-agent-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://webmcp-tool.com/api/mcp"
+    }
+  ],
+  "url": "https://webmcp-tool.com/mcp"
+}

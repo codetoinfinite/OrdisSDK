@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MailVakt",
+  "description": "Use when email lands in spam: audits SPF, DKIM, DMARC, MX and returns the DNS records to fix it.",
+  "packageName": "@alphesdk-remote/com-mailvakt-mailvakt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mailvakt.com/mcp"
+    }
+  ],
+  "url": "https://mailvakt.com"
+}

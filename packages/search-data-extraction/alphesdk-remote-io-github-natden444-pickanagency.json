@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "pickanagency",
+  "description": "Search 47,000+ marketing agencies and get AI-matched with fitted agencies, from Pick an Agency.",
+  "packageName": "@alphesdk-remote/io-github-natden444-pickanagency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pickanagency.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/Natden444/pickanagency-mcp",
+  "readme": "https://github.com/Natden444/pickanagency-mcp#readme"
+}

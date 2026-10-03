@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ocolta Review Summaries",
+  "description": "Read categorical signals, confidence and indicator counts from your recoverable Ocolta reviews.",
+  "packageName": "@alphesdk-remote/com-soxoa-ocolta-review-summaries",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.ocolta.com/mcp"
+    }
+  ],
+  "url": "https://app.ocolta.com/workspace/integrations"
+}

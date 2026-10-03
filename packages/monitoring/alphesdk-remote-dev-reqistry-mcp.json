@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Reqistry",
+  "description": "Discover, compare, and monitor 1,400+ APIs directly from your AI coding agent.",
+  "packageName": "@alphesdk-remote/dev-reqistry-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.reqistry.dev/mcp"
+    }
+  ],
+  "url": "https://reqistry.dev"
+}

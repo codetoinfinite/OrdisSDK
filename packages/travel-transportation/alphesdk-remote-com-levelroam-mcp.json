@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "LevelRoam",
+  "description": "Read-only game, setup, place, evidence and travel decision tools with explicit provenance.",
+  "packageName": "@alphesdk-remote/com-levelroam-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://levelroam.com/mcp"
+    }
+  ]
+}

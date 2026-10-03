@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "marketplace",
+  "description": "Search and discover credentialed operational systems on the GallanDigital marketplace.",
+  "packageName": "@alphesdk-remote/com-gallandigital-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gallandigital.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ZWingett/gallandigital-marketplace",
+  "readme": "https://github.com/ZWingett/gallandigital-marketplace#readme"
+}

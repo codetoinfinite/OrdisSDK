@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "monappamoi",
+  "description": "Host AI-generated single-file HTML apps with JSON persistence. No signup.",
+  "packageName": "@alphesdk-remote/fr-monappamoi-apps",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://monappamoi.fr/mcp"
+    }
+  ]
+}

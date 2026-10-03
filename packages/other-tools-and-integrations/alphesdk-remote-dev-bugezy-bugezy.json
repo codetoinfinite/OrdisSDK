@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BugEzy",
+  "description": "Voice-powered bug reporting with 13 MCP tools. Record bugs by talking; let AI find and fix them.",
+  "packageName": "@alphesdk-remote/dev-bugezy-bugezy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bugezy.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/fox100039-design/bugezy",
+  "readme": "https://github.com/fox100039-design/bugezy#readme"
+}

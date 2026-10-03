@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Qumge: Agent Capabilities & Skills",
+  "description": "Find, call and pay per call: the capability layer for agents, plus skills. One key or OAuth.",
+  "packageName": "@alphesdk-remote/com-qumge-skills",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qumge.com/mcp"
+    }
+  ]
+}

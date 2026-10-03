@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Power BI Modeling",
+  "description": "Build and edit Power BI semantic models (tables, measures, DAX).",
+  "packageName": "@microsoft/powerbi-modeling-mcp",
+  "packageVersion": "1.0.0",
+  "runtime": "node",
+  "binArgs": [
+    "--start"
+  ],
+  "readme": "https://github.com/microsoft/powerbi-modeling-mcp",
+  "url": "https://github.com/microsoft/powerbi-modeling-mcp",
+  "author": "Microsoft",
+  "env": {}
+}

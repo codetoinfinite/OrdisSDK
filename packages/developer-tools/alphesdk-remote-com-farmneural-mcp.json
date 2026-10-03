@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FarmNeural Public API",
+  "description": "Public, read-only MCP server for FarmNeural company facts, packages, and capabilities.",
+  "packageName": "@alphesdk-remote/com-farmneural-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.farmneural.com/api/mcp"
+    }
+  ],
+  "url": "https://www.farmneural.com/bots"
+}

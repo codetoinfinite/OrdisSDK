@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Black Label Bots Website MCP",
+  "description": "Search and read public Black Label Bots pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blacklabelbots-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blacklabelbots.com/mcp"
+    }
+  ],
+  "url": "https://blacklabelbots.com/connect"
+}

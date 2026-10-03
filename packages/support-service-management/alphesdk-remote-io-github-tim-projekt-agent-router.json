@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Router",
+  "description": "Discover and call AI agents via MCP. Supports A2A agents and platform agents with async tasks.",
+  "packageName": "@alphesdk-remote/io-github-tim-projekt-agent-router",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-router.org/mcp-http/mcp"
+    }
+  ],
+  "url": "https://github.com/Tim-Projekt/agent-router.org",
+  "readme": "https://github.com/Tim-Projekt/agent-router.org#readme"
+}

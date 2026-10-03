@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "japan-data-mcp",
+  "description": "Japanese law, corporation & statistics data as MCP, normalized to English with source attribution.",
+  "packageName": "@alphesdk-remote/app-netlify-japan-data-mcp-japan-data-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://japan-data-mcp.netlify.app/mcp"
+    }
+  ],
+  "url": "https://japan-data-mcp.netlify.app"
+}

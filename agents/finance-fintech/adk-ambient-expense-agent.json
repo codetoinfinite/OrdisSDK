@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "adk-ambient-expense-agent",
+  "name": "ADK Ambient Expense Agent",
+  "description": "Event-driven ADK agent that processes expense reports from Pub/Sub, auto-approving small ones and routing large ones to a manager.",
+  "category": "finance-fintech",
+  "tags": ["expenses", "event-driven", "human-in-the-loop", "adk", "pubsub"],
+  "repo": "https://github.com/google/adk-recipes",
+  "subpath": "core/python/ambient-expense-agent",
+  "docs": "https://adk.dev",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Expense events arrive in the background; amounts under a threshold are approved immediately, while larger ones get an LLM risk review and wait for a manager's decision in an approval UI. It demonstrates ambient (non-chat) agents for finance operations teams.",
+  "howItWorks": "An ADK graph workflow mixes plain function nodes for business rules with LLM nodes for judgement, pausing for human input on high-value items. Locally it runs a backend and an approval frontend; Terraform deploys two Cloud Run services with Pub/Sub and monitoring alerts.",
+  "requirements": [
+    {
+      "name": "GOOGLE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "AI Studio key in .env; Vertex AI variables are the alternative"
+    },
+    {
+      "name": "make",
+      "kind": "runtime",
+      "required": true,
+      "description": "Recipe is driven by Makefile targets"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": false,
+      "description": "For the approval frontend"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google/adk-recipes.git",
+    "cd adk-recipes/core/python/ambient-expense-agent",
+    "echo \"GOOGLE_API_KEY=YOUR_AI_STUDIO_API_KEY\" >> .env"
+  ],
+  "run": ["make install && make dev", "make install-frontend && make dev-frontend"],
+  "interfaces": ["api", "web"],
+  "language": "Python",
+  "framework": "Google ADK",
+  "models": "Gemini (AI Studio or Vertex AI)",
+  "mcp": "none",
+  "github": {
+    "stars": 10411,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

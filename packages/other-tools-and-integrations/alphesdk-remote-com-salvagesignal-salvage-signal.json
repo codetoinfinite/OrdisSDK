@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Chicago Demolition Leads | Salvage Signal",
+  "description": "Chicago demolition and reclaimed-brick leads, pricing, and a human-confirmed Daily Drop handoff.",
+  "packageName": "@alphesdk-remote/com-salvagesignal-salvage-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://salvagesignal.com/api/mcp"
+    }
+  ],
+  "url": "https://salvagesignal.com"
+}

@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "olas-trader",
+  "name": "Olas Trader",
+  "description": "Autonomous on-chain agent that places bets on prediction markets such as Omen and Polymarket using AI-estimated probabilities.",
+  "category": "finance-fintech",
+  "tags": ["prediction-markets", "on-chain", "olas", "polymarket", "autonomous"],
+  "repo": "https://github.com/valory-xyz/trader",
+  "publisher": "Valory",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Continuously finds open prediction markets, requests a probability estimate, and bets when it sees an edge. It is run by people participating in the Olas agent economy.",
+  "howItWorks": "Built as an Open Autonomy service, it runs as a finite-state machine that samples markets, asks an AI Mech service for a prediction, and transacts through a Safe wallet. Most users run it through the Pearl app; developers set it up from source.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.10 to 3.14 with uv"
+    },
+    {
+      "name": "Agent key and Safe",
+      "kind": "account",
+      "required": true,
+      "description": "Funded on-chain accounts on Gnosis or Polygon"
+    },
+    {
+      "name": "RPC endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "Blockchain node access"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/valory-xyz/trader.git",
+    "cd trader",
+    "uv sync --all-groups",
+    "uv run autonomy init --reset --author valory --remote --ipfs --ipfs-node \"/dns/registry.autonolas.tech/tcp/443/https\"",
+    "uv run autonomy packages sync --update-packages"
+  ],
+  "run": [],
+  "interfaces": ["cli", "desktop"],
+  "language": "Python",
+  "framework": "Open Autonomy",
+  "models": "Predictions supplied by AI Mech tools",
+  "mcp": "none",
+  "github": {
+    "stars": 80,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "airbnb-data",
+  "description": "Airbnb search, listing details, and calendar availability as clean structured data.",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-airbnb-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/airbnb-data"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/airbnb-data",
+  "readme": "https://github.com/DataLeadsPRO/airbnb-data#readme"
+}

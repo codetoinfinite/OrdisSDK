@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "InfoSec Job Board",
+  "description": "Search 10k+ live cybersecurity jobs from 246 security companies, plus salary benchmarks and stats.",
+  "packageName": "@alphesdk-remote/com-infosecjobboard-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.infosecjobboard.com/api/mcp"
+    }
+  ],
+  "url": "https://www.infosecjobboard.com/developers"
+}

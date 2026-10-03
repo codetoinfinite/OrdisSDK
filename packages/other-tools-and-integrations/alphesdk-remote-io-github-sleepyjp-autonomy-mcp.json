@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Autonomy — canonical service discovery",
+  "description": "Read-only Autonomy capability, schema, status and pricing discovery. Paid execution remains paused.",
+  "packageName": "@alphesdk-remote/io-github-sleepyjp-autonomy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.theautonomy.ai/mcp"
+    }
+  ],
+  "url": "https://theautonomy.ai/agents"
+}

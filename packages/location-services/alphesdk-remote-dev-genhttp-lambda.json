@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GenHTTP Lambda",
+  "description": "Write, deploy and host small C# web services and sites at a public address.",
+  "packageName": "@alphesdk-remote/dev-genhttp-lambda",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://genhttp.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/MDA2AV/GenHTTP.Lambda",
+  "readme": "https://github.com/MDA2AV/GenHTTP.Lambda#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shotlee",
+  "description": "Peptide and GLP-1 dosing math (dose to syringe units) plus search over Shotlee's articles.",
+  "packageName": "@alphesdk-remote/app-shotlee-shotlee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.shotlee.app/api/mcp"
+    }
+  ],
+  "url": "https://www.shotlee.app/for-agents"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Browser MCP",
+  "description": "Automates the user's own Chrome profile through a companion extension.",
+  "packageName": "@browsermcp/mcp",
+  "packageVersion": "0.1.3",
+  "runtime": "node",
+  "readme": "https://browsermcp.io",
+  "url": "https://github.com/BrowserMCP/mcp",
+  "author": "Browser MCP (community)",
+  "env": {}
+}

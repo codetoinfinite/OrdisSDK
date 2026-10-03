@@ -1,0 +1,29 @@
+{
+  "type": "mcp-server",
+  "name": "Okta",
+  "description": "Manage Okta users, groups, applications, policies and logs.",
+  "packageName": "okta-mcp-server",
+  "packageVersion": "1.1.7",
+  "runtime": "python",
+  "readme": "https://github.com/okta/okta-mcp-server",
+  "url": "https://github.com/okta/okta-mcp-server",
+  "author": "Okta",
+  "env": {
+    "OKTA_ORG_URL": {
+      "description": "Okta org URL",
+      "required": true
+    },
+    "OKTA_CLIENT_ID": {
+      "description": "Okta API service app client ID",
+      "required": true
+    },
+    "OKTA_PRIVATE_KEY": {
+      "description": "Private key for private-key-JWT auth",
+      "required": false
+    },
+    "OKTA_KEY_ID": {
+      "description": "Key ID for the private key",
+      "required": false
+    }
+  }
+}

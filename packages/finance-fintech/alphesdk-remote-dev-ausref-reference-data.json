@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reference-data",
+  "description": "Oceania govt data, cited: rates, VAT, tax, wages, holidays, FX. 8 countries; Australia free.",
+  "packageName": "@alphesdk-remote/dev-ausref-reference-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ausref.dev/mcp"
+    }
+  ],
+  "url": "https://ausref.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tabflows",
+  "description": "Tabflows facts: DPC Finder, price quotes, integrations, workflows, site search, demo booking",
+  "packageName": "@alphesdk-remote/com-tabflows-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tabflows.com/api/mcp"
+    }
+  ],
+  "url": "https://www.tabflows.com/mcp"
+}

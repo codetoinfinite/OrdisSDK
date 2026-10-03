@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Free finance and trading calculators as MCP tools: risk/reward, RMD, Coast FIRE, inflation.",
+  "packageName": "@alphesdk-remote/com-economicium-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://economicium-mcp.economicium.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Economicium-stack/economicium",
+  "readme": "https://github.com/Economicium-stack/economicium#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Intune Ready",
+  "description": "Fixed-price Microsoft Intune and Windows 365 setup for small businesses: tiers, scope, FAQ, facts.",
+  "packageName": "@alphesdk-remote/com-intuneready-intune-ready",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://intuneready.com/mcp"
+    }
+  ],
+  "url": "https://intuneready.com/"
+}

@@ -82,6 +82,60 @@ An agent is a system prompt plus the servers (and optionally the tools) it may u
 | `starterPrompts` | optional list of prompts the UI offers |
 | `maxSteps` | model calls per chat turn, 1–10, default 6 |
 
+## Add an external agent
+
+An external agent is an open-source agent that lives in its own repository. The catalog documents
+it (what it does, what it needs, how to run it) and links to the source; it is not run on this
+host and has no chat. Create `agents/<category>/<key>.json`:
+
+```json
+{
+  "type": "external-agent",
+  "key": "repo-coder",
+  "name": "Repo Coder",
+  "description": "Terminal agent that plans and applies code changes in a repository.",
+  "category": "developer-tools",
+  "tags": ["coding", "cli"],
+  "repo": "https://github.com/acme/repo-coder",
+  "docs": "https://docs.acme.example/repo-coder",
+  "publisher": "Acme",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Reads the repository, proposes a plan and edits files after you approve.",
+  "howItWorks": "A loop of model calls with file and shell tools, run in your terminal.",
+  "requirements": [
+    { "name": "ACME_API_KEY", "kind": "api-key", "required": true, "description": "Model access" },
+    { "name": "Node.js 20+", "kind": "runtime", "required": true }
+  ],
+  "install": ["npm install -g repo-coder"],
+  "run": ["repo-coder"],
+  "interfaces": ["CLI"],
+  "language": "TypeScript",
+  "models": "Any OpenAI-compatible provider",
+  "mcp": "client",
+  "github": { "stars": 1200, "license": "MIT", "pushedAt": "2026-09-01", "checkedAt": "2026-10-03" }
+}
+```
+
+| Field | Rule |
+| --- | --- |
+| `type` | `"external-agent"` |
+| `key`, `name`, `description`, `category`, `tags` | as for tools |
+| `repo` | `https://github.com/<owner>/<name>`; no other host is accepted |
+| `subpath` | optional folder inside the repository, for monorepos |
+| `homepage`, `docs` | optional `https://` URLs |
+| `publisher`, `publisherType` | who maintains it; `company`, `community` or `individual` |
+| `official` | `true` when the publisher is the organisation that owns the product; shown as **Official** |
+| `whatItDoes`, `howItWorks` | plain text, written in your own words; shown as text, never as HTML |
+| `requirements` | each has `name`, `kind` (`api-key`, `runtime`, `service`, `hardware`, `account`), `required` (default `true`) and an optional `description` |
+| `install`, `run` | shell commands, one per entry; the page shows them, nothing runs them |
+| `interfaces`, `language`, `framework`, `models` | optional facts |
+| `mcp` | `client`, `server`, `both` or `none` (default) |
+| `github` | optional repository facts as of `checkedAt` |
+
+External agents have `kind: "external"` and `runnable: false` in the API, and `POST /agents/chat`
+rejects their keys. Agents with a `systemPrompt` have `kind: "chat"`.
+
 ## Validate
 
 ```sh

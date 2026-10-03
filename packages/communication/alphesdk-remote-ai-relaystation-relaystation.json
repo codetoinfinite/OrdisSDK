@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Relaystation",
+  "description": "Pay-per-call agent infrastructure: file storage & handoff, compute tools, messaging, e-sign, KYC.",
+  "packageName": "@alphesdk-remote/ai-relaystation-relaystation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.relaystation.ai/mcp"
+    }
+  ],
+  "url": "https://relaystation.ai"
+}

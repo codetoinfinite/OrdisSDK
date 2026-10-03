@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sunset Website MCP",
+  "description": "Search and read public Sunset pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-sunsetmixing-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sunsetmixing.com/mcp"
+    }
+  ],
+  "url": "https://sunsetmixing.com/connect"
+}

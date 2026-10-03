@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "seoul-apt-signal",
+  "description": "Seoul apartment signals: 25 districts from official transactions, scans. Pay-per-call x402.",
+  "packageName": "@alphesdk-remote/com-airblockfz-seoul-apt-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://seoul-apt-signal.airblock2026.workers.dev/mcp"
+    }
+  ],
+  "url": "https://airblockfz.com"
+}

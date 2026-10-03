@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "kilo-code",
+  "name": "Kilo Code",
+  "description": "Coding agent for VS Code, JetBrains and the terminal with specialised modes for coding, planning, questions and debugging.",
+  "category": "coding-agents",
+  "tags": ["vscode", "jetbrains", "cli", "autocomplete", "multi-mode"],
+  "repo": "https://github.com/Kilo-Org/kilocode",
+  "homepage": "https://kilo.ai",
+  "docs": "https://kilo.ai/docs",
+  "publisher": "Kilo Code",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Kilo Code writes and edits code from natural language, plans larger changes, answers questions about a codebase and helps track down bugs. It also offers inline completions and a marketplace of tool servers. It is aimed at developers who want one agent across editor and terminal.",
+  "howItWorks": "Work is routed to a mode (code, plan, ask, debug or a custom one), each with its own instructions and permissions. The agent calls tools to read and change files and run commands, and can be run unattended from the CLI. Models are selected from a large catalogue of providers.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to at least one supported model"
+    }
+  ],
+  "install": ["npm install -g @kilocode/cli"],
+  "run": ["kilo", "kilo run --auto \"run tests and fix any failures\""],
+  "interfaces": ["cli", "ide"],
+  "language": "TypeScript",
+  "models": "500+ models across many providers",
+  "mcp": "client",
+  "github": {
+    "stars": 27478,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "finisma – ZUGFeRD e-invoices",
+  "description": "Verify ZUGFeRD/Factur-X e-invoices, convert PDF invoices to ZUGFeRD, check VAT IDs and Peppol.",
+  "packageName": "@alphesdk-remote/de-finisma-finisma",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finisma.de/api/mcp"
+    }
+  ],
+  "url": "https://finisma.de/entwickler/connector"
+}

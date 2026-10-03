@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "referral-codes",
+  "description": "Verified referral and discount codes for crypto exchanges, wallets and trading tools. Read-only.",
+  "packageName": "@alphesdk-remote/discount-cryptoexchange-referral-codes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cryptoexchange.discount/mcp"
+    }
+  ],
+  "url": "https://cryptoexchange.discount"
+}

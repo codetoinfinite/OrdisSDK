@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nueve de Diciembre — River Plate",
+  "description": "Noticias, historia, palmarés y estadísticas de River Plate. Sitio de hinchas, no oficial.",
+  "packageName": "@alphesdk-remote/com-nuevedediciembre-river-plate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nuevedediciembre.com/api/mcp"
+    }
+  ],
+  "url": "https://nuevedediciembre.com"
+}

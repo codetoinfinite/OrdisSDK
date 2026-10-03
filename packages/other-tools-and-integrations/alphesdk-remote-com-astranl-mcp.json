@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AstraNL",
+  "description": "Evidence-checked context and NL coordination for AI agents. AstraNL never holds third-party funds.",
+  "packageName": "@alphesdk-remote/com-astranl-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://astranl.com/mcp/streamable"
+    }
+  ],
+  "url": "https://astranl.com/agent-hands/"
+}

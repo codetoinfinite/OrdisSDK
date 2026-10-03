@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ONE HEART eSIM",
+  "description": "一心eSIM商品目錄查詢與下單服務：查詢各國eSIM上網方案的即時價格與庫存、依旅遊天數與用量推薦方案、協助建立訂單並取得LinePay或ECPay付款連結。",
+  "packageName": "@alphesdk-remote/com-oneheartesim-mcp-esim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.oneheartesim.com/"
+    }
+  ]
+}

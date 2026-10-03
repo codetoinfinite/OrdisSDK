@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tuki — Travel Marketplace (Chile y Latinoamérica)",
+  "description": "Tours, alojamientos y traslados en Chile/LATAM con checkout único y precios de operadores locales.",
+  "packageName": "@alphesdk-remote/cl-tuki-travel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tuki.cl/mcp/"
+    }
+  ],
+  "url": "https://github.com/tatanmas/tuki",
+  "readme": "https://github.com/tatanmas/tuki#readme"
+}

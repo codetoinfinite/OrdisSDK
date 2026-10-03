@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Agent Governance",
+  "description": "Audit MCP configs and skill files for over-broad scope and injection risk. 6 of 8 free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-govern",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/govern"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

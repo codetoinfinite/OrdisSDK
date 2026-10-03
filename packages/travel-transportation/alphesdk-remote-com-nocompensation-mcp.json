@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Flight compensation claims info and submission via AI agents",
+  "packageName": "@alphesdk-remote/com-nocompensation-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nocompensation.com/mcp"
+    }
+  ],
+  "url": "https://nocompensation.com"
+}

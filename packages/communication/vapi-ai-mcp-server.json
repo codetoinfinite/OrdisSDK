@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Vapi",
+  "description": "Manage Vapi voice assistants, phone numbers and outbound calls.",
+  "packageName": "@vapi-ai/mcp-server",
+  "packageVersion": "0.0.11",
+  "runtime": "node",
+  "readme": "https://docs.vapi.ai/sdk/mcp-server",
+  "url": "https://github.com/VapiAI/mcp-server",
+  "author": "Vapi",
+  "env": {
+    "VAPI_TOKEN": {
+      "description": "Vapi API token",
+      "required": true
+    }
+  }
+}

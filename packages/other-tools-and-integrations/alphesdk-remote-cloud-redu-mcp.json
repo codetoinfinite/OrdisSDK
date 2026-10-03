@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Agent-native cloud, EU-hosted. Provision VMs, networks & databases on redu.cloud via MCP.",
+  "packageName": "@alphesdk-remote/cloud-redu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.redu.cloud/mcp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "The Agent Bar",
+  "description": "An agent-native paid bar with four house drinks, a free 256-bottle Cellar, notes, and receipts.",
+  "packageName": "@alphesdk-remote/bar-theagent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theagent.bar/mcp"
+    }
+  ]
+}

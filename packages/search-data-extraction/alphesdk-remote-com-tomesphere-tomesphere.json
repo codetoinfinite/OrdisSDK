@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tomesphere",
+  "description": "Search 8.5M scientific papers with LLM TLDRs, citations, linked entities, figures, and full text.",
+  "packageName": "@alphesdk-remote/com-tomesphere-tomesphere",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tomesphere.com/api/mcp"
+    }
+  ],
+  "url": "https://tomesphere.com/mcp"
+}

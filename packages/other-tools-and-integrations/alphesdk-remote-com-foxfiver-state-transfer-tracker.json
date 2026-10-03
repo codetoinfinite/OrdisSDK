@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "state-transfer-tracker",
+  "description": "Whiteout Survival State Transfer tracker: phase dates, active status, remaining pass chances.",
+  "packageName": "@alphesdk-remote/com-foxfiver-state-transfer-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://transfer.foxfiver.com/mcp"
+    }
+  ]
+}

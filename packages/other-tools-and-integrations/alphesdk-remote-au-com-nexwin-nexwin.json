@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nexwin",
+  "description": "Check bookings, review calls and chats, and manage appointments in your Nexwin AI receptionist.",
+  "packageName": "@alphesdk-remote/au-com-nexwin-nexwin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nexwin.com.au/mcp"
+    }
+  ],
+  "url": "https://nexwin.com.au/chatgpt-claude-app.html"
+}

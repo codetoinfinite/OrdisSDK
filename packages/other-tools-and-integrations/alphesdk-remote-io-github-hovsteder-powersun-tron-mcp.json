@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "powersun-tron-mcp",
+  "description": "TRON Energy marketplace + DEX swap aggregator for AI agents. 27 MCP tools.",
+  "packageName": "@alphesdk-remote/io-github-hovsteder-powersun-tron-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powersun.vip/mcp"
+    }
+  ],
+  "url": "https://github.com/Hovsteder/powersun-tron-mcp",
+  "readme": "https://github.com/Hovsteder/powersun-tron-mcp#readme"
+}

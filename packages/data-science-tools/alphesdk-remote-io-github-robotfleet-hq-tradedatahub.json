@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TradeDataHub",
+  "description": "Contractor dataset discovery, masked previews, pricing, and production API plans from $39/month.",
+  "packageName": "@alphesdk-remote/io-github-robotfleet-hq-tradedatahub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tradedatahub.net/mcp"
+    }
+  ],
+  "url": "https://www.tradedatahub.net/developers/mcp/"
+}

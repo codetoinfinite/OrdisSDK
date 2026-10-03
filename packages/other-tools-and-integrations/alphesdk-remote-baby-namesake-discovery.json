@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Namesake — baby name catalog and guides",
+  "description": "Read-only access to Namesake's baby name catalog: meaning, origin, pronunciation, popularity trend.",
+  "packageName": "@alphesdk-remote/baby-namesake-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namesake.baby/api/mcp"
+    }
+  ],
+  "url": "https://namesake.baby"
+}

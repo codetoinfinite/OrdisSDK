@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CortexPlus",
+  "description": "Personal memory layer: files, notes, messages, tasks and email, semantically indexed.",
+  "packageName": "@alphesdk-remote/io-cortexplus-cortexplus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cortexplus.io/mcp"
+    }
+  ],
+  "url": "https://cortexplus.io/connect"
+}

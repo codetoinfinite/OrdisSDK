@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "oassis — web scraping, crawling and browser control for AI agents",
+  "description": "Scrape to markdown, map and crawl sites, drive a real browser. Pay per call, no API key, no signup.",
+  "packageName": "@alphesdk-remote/dev-oassis-scraper-crawler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.oassis.dev/mcp"
+    }
+  ],
+  "url": "https://oassis.dev"
+}

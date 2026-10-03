@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Visibility Audit — Can AI crawlers read and cite your site?",
+  "description": "One-call audit: robots.txt AI-bot rules, llms.txt, JSON-LD, meta tags, sitemap. Score plus fixes.",
+  "packageName": "@alphesdk-remote/app-rowb-ai-visibility-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-visibility.rowb.app/mcp"
+    }
+  ],
+  "url": "https://ai-visibility.rowb.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse · Chain",
+  "description": "Cross-chain markets: prices, DeFi TVL, yields, stablecoins, gas, order books, perps funding.",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse-chain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp/chain"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

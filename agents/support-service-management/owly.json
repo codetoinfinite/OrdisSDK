@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "owly",
+  "name": "Owly",
+  "description": "Self-hosted AI customer-support agent that replies to customers over WhatsApp, email and phone from one dashboard.",
+  "category": "support-service-management",
+  "tags": ["customer-support", "whatsapp", "email", "phone", "self-hosted"],
+  "repo": "https://github.com/Hesper-Labs/owly",
+  "publisher": "Hesper Labs",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Handles incoming customer messages and calls for a small business, answering from stored business information and logging every conversation. Owners manage channels, tickets and settings in a web admin.",
+  "howItWorks": "A TypeScript web application with a Prisma-managed database connects channel adapters to a language model. It starts with Docker Compose or a local Node workflow, and a chat endpoint allows other systems to send messages to the agent.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Compose setup; Node.js is the alternative for local development"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in the .env file copied from the example"
+    }
+  ],
+  "install": ["git clone https://github.com/hsperus/owly.git", "cd owly", "cp .env.example .env"],
+  "run": ["docker compose up -d"],
+  "interfaces": ["web", "api", "chat"],
+  "language": "TypeScript",
+  "models": "Configured through the environment file",
+  "mcp": "none",
+  "github": {
+    "stars": 132,
+    "license": "MIT",
+    "pushedAt": "2026-04-14",
+    "checkedAt": "2026-10-03"
+  }
+}

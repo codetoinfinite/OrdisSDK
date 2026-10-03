@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "docs-mcp",
+  "description": "Remote MCP server for Tandem docs, install guides, SDKs, workflows, and agent setup help.",
+  "packageName": "@alphesdk-remote/ac-tandem-docs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tandem.ac/mcp"
+    }
+  ],
+  "url": "https://github.com/frumu-ai/tandem",
+  "readme": "https://github.com/frumu-ai/tandem#readme"
+}

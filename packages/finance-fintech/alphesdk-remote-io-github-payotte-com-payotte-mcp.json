@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "payotte-mcp",
+  "description": "Verified Canadian real-estate pros + housing data: rates, transfer tax, rent-vs-buy, QC assessments.",
+  "packageName": "@alphesdk-remote/io-github-payotte-com-payotte-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://payotte-mcp.payotte.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Payotte-com/payotte-mcp",
+  "readme": "https://github.com/Payotte-com/payotte-mcp#readme"
+}

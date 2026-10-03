@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "energyai",
+  "description": "Solar, weatherization, EV charging, battery and heat-pump decision tools for AI agents.",
+  "packageName": "@alphesdk-remote/com-energyaisolution-energyai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.energyaisolution.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jdhart81/energyai-mcp",
+  "readme": "https://github.com/jdhart81/energyai-mcp#readme"
+}

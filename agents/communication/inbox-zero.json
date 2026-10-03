@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "inbox-zero",
+  "name": "Inbox Zero",
+  "description": "AI email assistant that sorts mail by plain-English rules, drafts replies, blocks cold email and bulk-unsubscribes.",
+  "category": "communication",
+  "tags": ["email", "assistant", "automation", "gmail", "productivity"],
+  "repo": "https://github.com/elie222/inbox-zero",
+  "homepage": "https://www.getinboxzero.com",
+  "publisher": "Inbox Zero",
+  "publisherType": "company",
+  "official": false,
+  "whatItDoes": "Manages an inbox for busy people by labelling, archiving and drafting according to instructions written in ordinary language. It also prepares meeting briefs and can be reached through Slack or Telegram chat.",
+  "howItWorks": "A Next.js application connects to the mail provider and evaluates each message against the user's rules with a language model, then performs the chosen action. A setup CLI configures and starts a self-hosted instance, or the repo can be run with pnpm for development.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the setup CLI and the application"
+    },
+    {
+      "name": "Email account OAuth",
+      "kind": "account",
+      "required": true,
+      "description": "Google or Microsoft credentials for mailbox access"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model provider configured during setup"
+    }
+  ],
+  "install": ["npx @inbox-zero/cli setup"],
+  "run": ["npx @inbox-zero/cli start"],
+  "interfaces": ["web", "chat", "cli"],
+  "language": "TypeScript",
+  "models": "Multiple providers selectable in configuration",
+  "mcp": "none",
+  "github": {
+    "stars": 12398,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

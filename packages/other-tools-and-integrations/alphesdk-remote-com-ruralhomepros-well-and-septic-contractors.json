@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rural Home Pros",
+  "description": "US well drillers and septic contractors: services, emergency service, estimates, with sources.",
+  "packageName": "@alphesdk-remote/com-ruralhomepros-well-and-septic-contractors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ruralhomepros.com/mcp"
+    }
+  ],
+  "url": "https://ruralhomepros.com"
+}

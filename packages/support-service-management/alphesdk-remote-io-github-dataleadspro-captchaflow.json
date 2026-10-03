@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "captchaflow",
+  "description": "Universal captcha solving with the industry-standard createTask / getTaskResult protocol, 19 task",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-captchaflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://captcha.dataleads.pro/mcp/captchaflow"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/captchaflow",
+  "readme": "https://github.com/DataLeadsPRO/captchaflow#readme"
+}

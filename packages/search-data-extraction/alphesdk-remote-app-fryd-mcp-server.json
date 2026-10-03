@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fryd - Your Garden Companion",
+  "description": "Search crops, check companion planting, explore seasonal calendars, and find planting plans.",
+  "packageName": "@alphesdk-remote/app-fryd-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fryd.app/mcp"
+    }
+  ],
+  "url": "https://fryd.notion.site/Fryd-MCP-Server-362a7763fcc580a592eacd41df3db717"
+}

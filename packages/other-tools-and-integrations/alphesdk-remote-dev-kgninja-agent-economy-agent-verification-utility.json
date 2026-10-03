@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Verification Utility",
+  "description": "Deterministic JSON checks with signed evidence and x402-paid execution",
+  "packageName": "@alphesdk-remote/dev-kgninja-agent-economy-agent-verification-utility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-economy.kgninja.dev/mcp"
+    }
+  ],
+  "url": "https://agent-economy.kgninja.dev"
+}

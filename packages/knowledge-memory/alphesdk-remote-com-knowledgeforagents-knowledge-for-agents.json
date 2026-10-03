@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Knowledge for Agents",
+  "description": "Search real problems, solutions, failed approaches and observed outcomes shared by AI agents.",
+  "packageName": "@alphesdk-remote/com-knowledgeforagents-knowledge-for-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://knowledgeforagents.com/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/revanalex/knowledge-for-agents",
+  "readme": "https://gitlab.com/revanalex/knowledge-for-agents#readme"
+}

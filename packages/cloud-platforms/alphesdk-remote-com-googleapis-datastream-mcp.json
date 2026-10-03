@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Interact with your Google Cloud Datastream resources using natural language commands.",
+  "packageName": "@alphesdk-remote/com-googleapis-datastream-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datastream.googleapis.com/mcp"
+    }
+  ]
+}

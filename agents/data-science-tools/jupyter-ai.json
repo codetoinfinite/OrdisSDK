@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "jupyter-ai",
+  "name": "Jupyter AI",
+  "description": "JupyterLab extension that hosts external AI agents in a chat panel and lets them work on notebooks under a permission system.",
+  "category": "data-science-tools",
+  "tags": ["jupyterlab", "notebooks", "acp", "chat", "mcp"],
+  "repo": "https://github.com/jupyterlab/jupyter-ai",
+  "docs": "https://jupyter-ai.readthedocs.io/",
+  "publisher": "Project Jupyter",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Brings agents such as Claude, Codex, Gemini, Goose and OpenCode into JupyterLab so data scientists can have them read, edit and run notebooks. Users approve what the agent may do before it acts.",
+  "howItWorks": "The extension speaks the Agent Client Protocol to whichever agent is installed and exposes notebook operations through a bundled Jupyter MCP server. Additional MCP servers can be configured, and a permission layer gates tool calls.",
+  "requirements": [
+    {
+      "name": "JupyterLab",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host application for the extension"
+    },
+    {
+      "name": "Agent CLI and its credentials",
+      "kind": "account",
+      "required": true,
+      "description": "At least one supported agent installed and signed in"
+    }
+  ],
+  "install": ["pip install jupyter-ai"],
+  "run": [],
+  "interfaces": ["web", "ide", "chat"],
+  "language": "Python",
+  "models": "Depends on the hosted agent (Claude, Codex, Copilot, Gemini, Goose, Kiro, Mistral Vibe, OpenCode)",
+  "mcp": "both",
+  "github": {
+    "stars": 4412,
+    "license": "BSD-3-Clause",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

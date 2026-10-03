@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Straelo Relay",
+  "description": "MCP tools for agents: web research, content extraction, email, DNS, and blockchain intelligence.",
+  "packageName": "@alphesdk-remote/com-straelo-relay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://relay.straelo.com/mcp/"
+    }
+  ]
+}

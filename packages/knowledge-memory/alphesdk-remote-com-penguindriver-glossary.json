@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI 與科技名詞白話解釋",
+  "description": "AI 與科技名詞白話解釋：MCP、RAG、AI 代理人等名詞的白話定義。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-glossary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://glossary.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://glossary.penguindriver.com"
+}

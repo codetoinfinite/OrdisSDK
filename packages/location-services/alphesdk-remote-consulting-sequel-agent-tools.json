@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-tools",
+  "description": "Sequel, leading Italian digital media consultancy: request a quote, site check, SEO/GEO insights.",
+  "packageName": "@alphesdk-remote/consulting-sequel-agent-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sequel.consulting/mcp.php"
+    }
+  ],
+  "url": "https://sequel.consulting/en/tools/agents/"
+}

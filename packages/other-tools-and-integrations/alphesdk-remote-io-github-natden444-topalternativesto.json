@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TopAlternativesTo",
+  "description": "Compare software: verified pricing with its source and date, and ranked alternatives.",
+  "packageName": "@alphesdk-remote/io-github-natden444-topalternativesto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://topalternatives.to/api/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/AgenticAdvertising/topalternativesto-mcp",
+  "readme": "https://github.com/AgenticAdvertising/topalternativesto-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mako Metrics",
+  "description": "Competitor Meta ads intelligence reports. List plans, create orders, Stripe checkout for humans.",
+  "packageName": "@alphesdk-remote/com-makometrics-mako-metrics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ufupdlaxddckqxbgbhwu.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/loganriebel/mako-metrics-mcp",
+  "readme": "https://github.com/loganriebel/mako-metrics-mcp#readme"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "ai-shell",
+  "name": "AI Shell",
+  "description": "CLI that converts a plain-language request into a shell command, explains it, and lets you run, revise or cancel it.",
+  "category": "command-line",
+  "tags": ["shell", "cli", "command-generation", "openai"],
+  "repo": "https://github.com/BuilderIO/ai-shell",
+  "publisher": "Builder.io",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Helps developers who cannot recall exact command syntax by drafting the command and describing what it will do. A chat mode supports longer back-and-forth in the terminal.",
+  "howItWorks": "A Node CLI sends the prompt to an OpenAI model and returns a command with an explanation. The user then chooses to execute, edit the request or abort. The key and other options are stored through a built-in config command.",
+  "requirements": [
+    {
+      "name": "OPENAI_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI key stored with the config command"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installed as a global npm package"
+    }
+  ],
+  "install": ["npm install -g @builder.io/ai-shell", "ai config set OPENAI_KEY=<your token>"],
+  "run": ["ai <prompt>", "ai chat"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 5302,
+    "license": "MIT",
+    "pushedAt": "2026-01-05",
+    "checkedAt": "2026-10-03"
+  }
+}

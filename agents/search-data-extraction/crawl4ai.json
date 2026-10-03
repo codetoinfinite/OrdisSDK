@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "crawl4ai",
+  "name": "Crawl4AI",
+  "description": "Crawler and scraper that turns websites into clean Markdown or LLM-extracted structured data, usable as a CLI, library or server.",
+  "category": "search-data-extraction",
+  "tags": ["crawler", "scraping", "markdown", "llm-extraction"],
+  "repo": "https://github.com/unclecode/crawl4ai",
+  "homepage": "https://crawl4ai.com",
+  "docs": "https://docs.crawl4ai.com",
+  "publisher": "unclecode",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Fetches pages, including dynamic ones, and produces model-ready Markdown or answers to extraction questions. It is used to feed RAG pipelines, agents and data collection jobs.",
+  "howItWorks": "An asynchronous crawler drives a headless browser, cleans the result and applies extraction strategies that may call an LLM. A command-line tool covers one-off crawls, and a Docker image runs it as an API service protected by a token.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package and its setup command"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only for question-style extraction, set through the config command"
+    }
+  ],
+  "install": ["pip install -U crawl4ai", "crawl4ai-setup", "crawl4ai-doctor"],
+  "run": ["crwl https://news.ycombinator.com -o markdown"],
+  "interfaces": ["cli", "library", "api"],
+  "language": "Python",
+  "models": "Any provider supported through its LLM config, optional",
+  "mcp": "server",
+  "github": {
+    "stars": 84664,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-25",
+    "checkedAt": "2026-10-03"
+  }
+}

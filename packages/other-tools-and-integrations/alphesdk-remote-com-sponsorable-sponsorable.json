@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "sponsorable",
+  "description": "Find brands that already sponsor podcasts like yours, then reveal the buyer to pitch.",
+  "packageName": "@alphesdk-remote/com-sponsorable-sponsorable",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.sponsorable.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sponsorable/mcp",
+  "readme": "https://github.com/sponsorable/mcp#readme"
+}

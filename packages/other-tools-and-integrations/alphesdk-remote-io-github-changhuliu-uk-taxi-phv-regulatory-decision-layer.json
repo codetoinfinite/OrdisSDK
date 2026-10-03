@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub Taxi",
+  "description": "RegEvidenceHub Taxi: England taxi/PHV licensing preflight and council comparison.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-uk-taxi-phv-regulatory-decision-layer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taxi.regevidencehub.com/ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/uk-taxi-phv-mcp",
+  "readme": "https://github.com/ChanghuLiu/uk-taxi-phv-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Catalogue Homeoceutics / Homeoceutics Catalog",
+  "description": "Catalogue public anonyme en lecture seule. Anonymous, read-only public catalog.",
+  "packageName": "@alphesdk-remote/com-homeoceutics-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://homeoceutics.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://homeoceutics.com/fr/mcp"
+}

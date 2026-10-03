@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NiceVois",
+  "description": "Free stem, lead/backing vocal, noise and reverb splitting, no account. Train and use RVC voices.",
+  "packageName": "@alphesdk-remote/com-nicevois-rvc-training",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nicevois.com/api/mcp"
+    }
+  ],
+  "url": "https://nicevois.com/agent-api"
+}

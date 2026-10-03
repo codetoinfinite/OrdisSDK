@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MarketPing",
+  "description": "Indian stocks: NSE/BSE filings read by AI with price reactions, fundamentals, IPOs and FPI flows.",
+  "packageName": "@alphesdk-remote/in-marketping-marketping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.marketping.in/mcp"
+    }
+  ],
+  "url": "https://github.com/choudharyvinod964/marketping",
+  "readme": "https://github.com/choudharyvinod964/marketping#readme"
+}

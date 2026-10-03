@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "swirl-search",
+  "name": "SWIRL Community",
+  "description": "Federated AI search and RAG that queries your existing apps live and returns a ranked, cited answer.",
+  "category": "search-data-extraction",
+  "tags": ["federated-search", "rag", "enterprise-search", "connectors"],
+  "repo": "https://github.com/swirlai/swirl-search",
+  "homepage": "https://www.swirlaiconnect.com",
+  "docs": "https://docs.swirlaiconnect.com/quick-start",
+  "publisher": "SWIRL",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Sends one question to many connected systems at once, re-ranks the combined results and writes an answer with source links. It is for organisations that want search and RAG without copying data into a vector database.",
+  "howItWorks": "Connectors query each source through its own API at request time, results are relevance-ranked centrally, and an LLM summarises the top hits. It runs from a Docker Compose file. A first-class MCP server is part of the Enterprise edition, not this community edition.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM used for answer generation"
+    },
+    {
+      "name": "MSAL_CB_PORT",
+      "kind": "runtime",
+      "required": true,
+      "description": "Callback port for Microsoft auth"
+    },
+    {
+      "name": "MSAL_HOST",
+      "kind": "runtime",
+      "required": true,
+      "description": "Callback host for Microsoft auth"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the stack"
+    }
+  ],
+  "install": [
+    "curl https://raw.githubusercontent.com/swirlai/swirl-search/main/docker-compose.yaml -o docker-compose.yaml",
+    "export MSAL_CB_PORT=8000",
+    "export MSAL_HOST=localhost",
+    "export OPENAI_API_KEY='<your-OpenAI-API-key>'"
+  ],
+  "run": ["docker-compose pull && docker-compose up"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "OpenAI by default",
+  "mcp": "none",
+  "github": {
+    "stars": 3047,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-26",
+    "checkedAt": "2026-10-03"
+  }
+}

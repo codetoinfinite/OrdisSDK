@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Near Me",
+  "description": "Find participating local service providers and book live appointment times.",
+  "packageName": "@alphesdk-remote/com-voicedispatcher-mcp-near-me",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpnear.com/mcp"
+    }
+  ],
+  "url": "https://mcpnear.com/mcp-near-me"
+}

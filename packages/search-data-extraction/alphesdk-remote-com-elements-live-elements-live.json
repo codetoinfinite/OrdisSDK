@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Elements Live",
+  "description": "Research intensity for 118 elements and topics, ~10M papers. Free element scores; x402 pay-per-call.",
+  "packageName": "@alphesdk-remote/com-elements-live-elements-live",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.elements-live.com/mcp"
+    }
+  ]
+}

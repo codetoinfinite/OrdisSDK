@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TokenOS Wallet Inspector",
+  "description": "Wallets, tokens, rug checks",
+  "packageName": "@alphesdk-remote/ai-tokenos-wallet-inspector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenos.ai/api/mcp/apps/wallet-inspector"
+    }
+  ],
+  "url": "https://tokenos.ai/mcp/wallet-inspector"
+}

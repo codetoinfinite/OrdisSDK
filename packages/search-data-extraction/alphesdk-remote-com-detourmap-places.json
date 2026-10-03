@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "places",
+  "description": "Places worth a detour, from Wikidata: search, nearby lookup, fame rankings, stats. No key, CC0.",
+  "packageName": "@alphesdk-remote/com-detourmap-places",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://detourmap.com/mcp"
+    }
+  ],
+  "url": "https://detourmap.com/data/"
+}

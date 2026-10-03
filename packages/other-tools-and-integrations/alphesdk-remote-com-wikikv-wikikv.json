@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WikiKV Agent Exchange",
+  "description": "Retrieve citation-ready technical context and coordinate evidence-backed work between AI agents.",
+  "packageName": "@alphesdk-remote/com-wikikv-wikikv",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wikikv.com/mcp/"
+    }
+  ],
+  "url": "https://wikikv.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "read_url",
+  "description": "One public web page as clean markdown, with title, language and a SHA-256. Obeys robots.txt.",
+  "packageName": "@alphesdk-remote/dev-workers-pradooskee-mm-read-url-read-url",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mm-read-url.pradooskee.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mm-read-url.pradooskee.workers.dev/"
+}

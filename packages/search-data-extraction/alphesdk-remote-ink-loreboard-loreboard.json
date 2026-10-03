@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Loreboard",
+  "description": "Search curated Lorcana resources, evidence, taxonomies, and public change history.",
+  "packageName": "@alphesdk-remote/ink-loreboard-loreboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://loreboard.ink/mcp"
+    }
+  ],
+  "url": "https://loreboard.ink"
+}

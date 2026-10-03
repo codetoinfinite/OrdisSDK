@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AccordTrace",
+  "description": "Tamper-evident proof creation and verification for AI agents via MCP, A2A, and REST.",
+  "packageName": "@alphesdk-remote/io-github-kosta1985-accord-trace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://accordtrace.notary-labs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Kosta1985/notary-protocol",
+  "readme": "https://github.com/Kosta1985/notary-protocol#readme"
+}

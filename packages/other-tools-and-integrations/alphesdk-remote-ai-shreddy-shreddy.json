@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shreddy",
+  "description": "Measured mountain bike jumps and speeds at bike parks: public clips, read-only.",
+  "packageName": "@alphesdk-remote/ai-shreddy-shreddy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.shreddy.ai/mcp"
+    }
+  ],
+  "url": "https://www.shreddy.ai/ai"
+}

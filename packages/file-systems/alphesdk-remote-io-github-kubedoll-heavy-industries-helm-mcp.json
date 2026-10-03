@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Helm MCP",
+  "description": "Give your AI assistant access to real Helm chart data. No more hallucinated values.yaml files.",
+  "packageName": "@alphesdk-remote/io-github-kubedoll-heavy-industries-helm-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://helm-mcp.kubedoll.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kubedoll-Heavy-Industries/helm-mcp",
+  "readme": "https://github.com/Kubedoll-Heavy-Industries/helm-mcp#readme"
+}

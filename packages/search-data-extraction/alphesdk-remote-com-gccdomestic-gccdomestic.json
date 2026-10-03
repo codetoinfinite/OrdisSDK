@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GCC Domestic",
+  "description": "Verify 1,700+ GCC domestic-worker agencies (1,400+ gov-verified); search 900+ EN/AR guides.",
+  "packageName": "@alphesdk-remote/com-gccdomestic-gccdomestic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.gccdomestic.com/mcp"
+    }
+  ],
+  "url": "https://www.gccdomestic.com/mcp"
+}

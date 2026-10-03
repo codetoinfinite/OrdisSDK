@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ministry of Gems — Gemmology & Gemstones",
+  "description": "Gemology & gemmology: 215 FGAA terms, 25 handbooks, live gem stock, signed passport verification.",
+  "packageName": "@alphesdk-remote/au-com-ministryofgems-gemmology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mog-concierge.33guruge.workers.dev/mcp"
+    }
+  ],
+  "url": "https://ministryofgems.com.au/pages/ai-index"
+}

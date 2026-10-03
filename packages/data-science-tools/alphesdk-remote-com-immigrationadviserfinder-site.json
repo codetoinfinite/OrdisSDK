@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Immigration Adviser Finder: the site's own MCP server — dataset, enquiry, entities (enquiry = a...",
+  "packageName": "@alphesdk-remote/com-immigrationadviserfinder-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://immigrationadviserfinder.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

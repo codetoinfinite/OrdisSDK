@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wedding Seat",
+  "description": "Anonymous, no-login wedding planning: create a project, add guests, auto-generate a seating plan.",
+  "packageName": "@alphesdk-remote/com-wedding-seat-wedding-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wedding-seat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/naturalnet/wedding-seat-app",
+  "readme": "https://github.com/naturalnet/wedding-seat-app#readme"
+}

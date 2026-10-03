@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bab Aljazair",
+  "description": "Prepare Algerian consular procedures with offices, sources, and interactive checklists.",
+  "packageName": "@alphesdk-remote/fr-larabi-bab-aljazair",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bab-aljazair.larabi.fr/mcp"
+    }
+  ],
+  "url": "https://bab-aljazair.larabi.fr"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vigo-mcp",
+  "description": "AI-powered Hong Kong SFC regulatory intelligence. Bilingual EN/ZH compliance queries.",
+  "packageName": "@alphesdk-remote/io-github-365xbusiness-vigo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lsoatzzwpltpydwyfqqv.supabase.co/functions/v1/vigo-mcp"
+    }
+  ],
+  "url": "https://github.com/OrphicOne-Platform/vigo-mcp",
+  "readme": "https://github.com/OrphicOne-Platform/vigo-mcp#readme"
+}

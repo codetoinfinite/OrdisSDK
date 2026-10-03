@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "vipcars",
+  "description": "Verified used cars from Uni Rent's rental fleet (Croatia): search, compare and send inquiries.",
+  "packageName": "@alphesdk-remote/hr-vip-cars-vipcars",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vip-cars.hr/mcp"
+    }
+  ]
+}

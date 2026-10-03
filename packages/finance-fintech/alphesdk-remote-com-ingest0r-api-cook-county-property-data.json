@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cook County / Chicago Property Data (free tier, no wallet needed)",
+  "description": "Cook County / Chicago property by address or PIN: sales, permits, assessments, comps. 25 free/day.",
+  "packageName": "@alphesdk-remote/com-ingest0r-api-cook-county-property-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ingest0r.com/mcp"
+    }
+  ],
+  "url": "https://api.ingest0r.com"
+}

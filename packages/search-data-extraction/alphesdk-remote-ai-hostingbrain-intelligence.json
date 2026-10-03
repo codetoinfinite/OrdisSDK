@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HostingBrain Intelligence",
+  "description": "Market research on European hosting and domains: ownership, structure, pricing, technology adoption.",
+  "packageName": "@alphesdk-remote/ai-hostingbrain-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hostingbrain.ai/mcp"
+    }
+  ],
+  "url": "https://hostingbrain.ai"
+}

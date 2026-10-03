@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "lastseen score",
+  "description": "Trust scores and dated liveness/drift facts for MCP servers, from the lastseen.dev notary register.",
+  "packageName": "@alphesdk-remote/dev-lastseen-score",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://score.lastseen.dev/mcp"
+    }
+  ],
+  "url": "https://score.lastseen.dev"
+}

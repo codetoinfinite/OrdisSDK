@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Citevana AI visibility tools",
+  "description": "Free MCP tools for AI-search visibility: crawler checks, page audits, and llms.txt generation.",
+  "packageName": "@alphesdk-remote/com-citevana-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citevana.com/api/mcp"
+    }
+  ],
+  "url": "https://citevana.com/developers"
+}

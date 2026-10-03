@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "aicatalog",
+  "description": "Search a Ukrainian catalog of 21,000+ AI tools — search tools, get details, list categories.",
+  "packageName": "@alphesdk-remote/io-github-stroybatping-aicatalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aicatalog.com.ua/api/v1/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Professor Sausages — Web & Documents",
+  "description": "Read pages & files to text, news, weather, market holidays and timezones via x402.",
+  "packageName": "@alphesdk-remote/com-professorsausages-sausage-web",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.professorsausages.com/mcp/web"
+    }
+  ],
+  "url": "https://x402.professorsausages.com/mcp"
+}

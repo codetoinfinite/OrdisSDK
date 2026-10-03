@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wopool.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Pools – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wopool-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wopool.de/api/mcp"
+    }
+  ],
+  "url": "https://wopool.de"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pet Data Station",
+  "description": "Source-verified pet food regulations, recalls, nutrient standards and species care data.",
+  "packageName": "@alphesdk-remote/com-petforai-pet-data-station",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://petforai.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/LongJourneyCai/Pet-data-station",
+  "readme": "https://github.com/LongJourneyCai/Pet-data-station#readme"
+}

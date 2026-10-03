@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HProxy",
+  "description": "Free proxy list, live proxy checker and IP lookup for AI agents. No key, nothing to install.",
+  "packageName": "@alphesdk-remote/com-hproxy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hproxy.com/mcp"
+    }
+  ],
+  "url": "https://github.com/hproxy-com/hproxy-mcp",
+  "readme": "https://github.com/hproxy-com/hproxy-mcp#readme"
+}

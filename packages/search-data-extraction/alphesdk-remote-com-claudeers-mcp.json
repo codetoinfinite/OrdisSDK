@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Claudeers MCP Server",
+  "description": "Search the Claudeers registry of Claude tools, ranked by maintenance and community signals.",
+  "packageName": "@alphesdk-remote/com-claudeers-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://claudeers.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://claudeers.com/mcp-tools"
+}

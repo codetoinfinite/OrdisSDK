@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rumors pick-up lines",
+  "description": "Curated multilingual pick-up lines (Tagalog, pt-BR, Indonesian+) with English glosses.",
+  "packageName": "@alphesdk-remote/app-rumors-lines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rumors.app/api/mcp"
+    }
+  ],
+  "url": "https://rumors.app/"
+}

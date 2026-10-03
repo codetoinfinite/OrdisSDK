@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "potpie",
+  "name": "Potpie",
+  "description": "Builds a living context graph of your codebase and engineering history so coding agents can answer, plan and debug with project knowledge.",
+  "category": "developer-tools",
+  "tags": ["context-graph", "codebase-knowledge", "cli", "agent-context"],
+  "repo": "https://github.com/potpie-ai/potpie",
+  "homepage": "https://potpie.ai",
+  "publisher": "Potpie AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Potpie indexes code, structure, decisions and team knowledge and makes it available to the coding agent you already use. Developers can also search the graph, record decisions and browse it in a web explorer. It targets teams whose agents lack project-specific context.",
+  "howItWorks": "A setup wizard creates local configuration, storage, a background daemon and agent skills, and wires Potpie into the chosen coding harness. The agent then ingests and queries context on demand through the CLI. A UI command opens a graph explorer in the browser.",
+  "requirements": [
+    {
+      "name": "Python with uv or pip",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installs the CLI"
+    },
+    {
+      "name": "Coding agent harness",
+      "kind": "service",
+      "required": true,
+      "description": "An existing coding agent that Potpie plugs into"
+    }
+  ],
+  "install": ["uv tool install potpie"],
+  "run": ["potpie setup", "potpie ui"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Uses the model of the connected coding harness",
+  "mcp": "none",
+  "github": {
+    "stars": 5736,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

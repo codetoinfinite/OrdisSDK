@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Alice — Santé territoriale France Care",
+  "description": "Donnees sante territoriale France : acces aux soins, FINESS, RNA — 35 000+ communes",
+  "packageName": "@alphesdk-remote/io-github-france-care-alice-territorial",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alice.france-care.fr/api/mcp"
+    }
+  ],
+  "url": "https://github.com/France-Care/france-care-sites",
+  "readme": "https://github.com/France-Care/france-care-sites#readme"
+}

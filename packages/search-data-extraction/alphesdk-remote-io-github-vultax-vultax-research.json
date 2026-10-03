@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vi Assistant by Vultax",
+  "description": "Vi market evidence, hypothetical price scenarios and published Vultax research.",
+  "packageName": "@alphesdk-remote/io-github-vultax-vultax-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vultax.com/vi-mcp"
+    }
+  ],
+  "url": "https://github.com/Vultax/vultax-research-plugin",
+  "readme": "https://github.com/Vultax/vultax-research-plugin#readme"
+}

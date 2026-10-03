@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Arclight Events",
+  "description": "Live events in 50 cities: AI/tech meetups, hackathons, conferences, concerts. Free, read-only.",
+  "packageName": "@alphesdk-remote/events-arclight-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arclight.events/api/mcp"
+    }
+  ],
+  "url": "https://arclight.events/mcp"
+}

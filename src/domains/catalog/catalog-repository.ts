@@ -9,7 +9,7 @@ import { getNpxArgs, getUvxArgs } from "../../shared/utils/mcp-client-util";
 import { formatZodIssues } from "../../shared/utils/response-util";
 import type { CategoryConfig } from "../config/config-types";
 import type { MCPServerPackageConfig, PackagesList } from "../package/package-types";
-import { AgentFileSchema, ToolFileSchema } from "./catalog-schema";
+import { AnyAgentFileSchema, ToolFileSchema } from "./catalog-schema";
 import type {
   AgentDetail,
   AgentFile,
@@ -172,11 +172,26 @@ const blockedServer = (server: string) => `Server '${server}' is blocked (hostin
 const notCached = (tool: string, server: string) =>
   `Tool '${tool}' is not in the cached tool list of '${server}'`;
 
+/** Agents on the home page; the full list is /catalog/agents. */
+const FEATURED_AGENTS = 12;
+
 const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
 const runnableFirst = (
   a: { name: string; runnable: boolean },
   b: { name: string; runnable: boolean },
 ) => Number(b.runnable) - Number(a.runnable) || byName(a, b);
+
+/** Chat agents that run first, then external agents: official ones, then by GitHub stars. */
+const agentOrder = (a: AgentDetail, b: AgentDetail) =>
+  Number(b.kind === "chat") - Number(a.kind === "chat") ||
+  Number(b.runnable) - Number(a.runnable) ||
+  Number(!!b.official) - Number(!!a.official) ||
+  (b.stars ?? 0) - (a.stars ?? 0) ||
+  byName(a, b);
+
+/** Search rank of an external agent: 20 to 70, by official status and stars (log scale). */
+const externalPopularity = (agent: AgentDetail) =>
+  Math.min(70, 20 + (agent.official ? 15 : 0) + Math.round(Math.log10((agent.stars ?? 0) + 1) * 8));
 
 export const toToolSummary = (t: ToolDetail): ToolSummary => ({
   key: t.key,
@@ -200,6 +215,9 @@ export const toAgentSummary = (a: AgentDetail): AgentSummary => ({
   ...(a.author ? { author: a.author } : {}),
   servers: a.servers,
   runnable: a.runnable,
+  kind: a.kind,
+  ...(a.external ? { official: !!a.official } : {}),
+  ...(a.stars !== undefined ? { stars: a.stars } : {}),
 });
 
 /**
@@ -331,6 +349,7 @@ export class Catalog {
       const found = agent.resolvedServers.flatMap((s) => (s.summary ? [s.summary] : []));
       const runtimes = new Set(found.map((s) => s.runtime));
       const [runtime] = runtimes;
+      const { external } = agent;
       this.docs.push({
         id: docId("agent", agent.key),
         type: "agent",
@@ -339,19 +358,36 @@ export class Catalog {
         category: agent.category,
         categoryName: agent.categoryName,
         tags: agent.tags,
-        validated: found.length === agent.servers.length && found.every((s) => s.validated),
+        validated: external
+          ? !!agent.official
+          : found.length === agent.servers.length && found.every((s) => s.validated),
         blocked: found.some((s) => s.blocked),
-        popularity: agent.runnable ? 80 : 10,
+        popularity: external ? externalPopularity(agent) : agent.runnable ? 80 : 10,
         key: agent.key,
         servers: agent.servers,
         runnable: agent.runnable,
+        kind: agent.kind,
+        ...(external ? { official: !!agent.official } : {}),
+        ...(agent.stars !== undefined ? { stars: agent.stars } : {}),
         text: joinText([
           agent.systemPrompt,
           ...agent.starterPrompts,
           agent.author,
           ...agent.resolvedServers.flatMap((s) => [s.server, ...(s.tools ?? [])]),
+          ...(external
+            ? [
+                external.whatItDoes,
+                external.framework,
+                external.language,
+                external.models,
+                ...external.interfaces,
+                keyWords(external.repo.slice("https://github.com/".length)),
+              ]
+            : []),
         ]),
-        fNeedsKeys: found.some((s) => s.needsKeys),
+        fNeedsKeys: external
+          ? external.requirements.some((r) => r.required && r.kind === "api-key")
+          : found.some((s) => s.needsKeys),
         ...(runtimes.size === 1 ? { fRuntime: runtime } : {}),
         fServers: agent.servers,
       });
@@ -410,7 +446,7 @@ export class Catalog {
         return summary && !summary.blocked ? [summary] : [];
       }),
       tools: [...this.tools].sort(runnableFirst).map(toToolSummary),
-      agents: [...this.agents].sort(runnableFirst).map(toAgentSummary),
+      agents: [...this.agents].sort(agentOrder).slice(0, FEATURED_AGENTS).map(toAgentSummary),
     };
 
     const byRuntime: Record<string, number> = {};
@@ -431,6 +467,8 @@ export class Catalog {
       agents: {
         total: this.agents.length,
         runnable: this.agents.filter((a) => a.runnable).length,
+        external: this.agents.filter((a) => a.kind === "external").length,
+        official: this.agents.filter((a) => a.official).length,
       },
       categories: input.categories.length,
       version: input.version,
@@ -495,6 +533,30 @@ export class Catalog {
   }
 
   private buildAgent(file: AgentFile, categoryName: (key: string) => string): AgentDetail {
+    if (file.type === "external-agent") {
+      const { type: _type, key, name, description, category, tags, official, ...external } = file;
+      return {
+        key,
+        name,
+        description,
+        category,
+        categoryName: categoryName(category),
+        tags,
+        author: external.publisher,
+        servers: [],
+        runnable: false,
+        kind: "external",
+        official,
+        ...(external.github ? { stars: external.github.stars } : {}),
+        systemPrompt: "",
+        starterPrompts: [],
+        maxSteps: 0,
+        resolvedServers: [],
+        issues: [],
+        external,
+      };
+    }
+
     const issues: string[] = [];
     const resolvedServers = file.servers.map((ref): AgentResolvedServer => {
       const entry = this.serverMap.get(ref.server);
@@ -528,6 +590,7 @@ export class Catalog {
       ...(file.author ? { author: file.author } : {}),
       servers: file.servers.map((s) => s.server),
       runnable: resolvedServers.every((s) => s.found && !s.summary?.blocked),
+      kind: "chat",
       ...(file.model ? { model: file.model } : {}),
       systemPrompt: file.systemPrompt,
       starterPrompts: file.starterPrompts,
@@ -568,7 +631,7 @@ export async function readCatalogInput(): Promise<CatalogInput> {
 
   const categoryKeys = new Set(categories.map((c) => c.key));
   const tools = loadCatalogFiles(path.join(ROOT_DIR, "tools"), ToolFileSchema, categoryKeys);
-  const agents = loadCatalogFiles(path.join(ROOT_DIR, "agents"), AgentFileSchema, categoryKeys);
+  const agents = loadCatalogFiles(path.join(ROOT_DIR, "agents"), AnyAgentFileSchema, categoryKeys);
 
   return {
     packagesList,

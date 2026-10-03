@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "aurora",
+  "name": "Aurora",
+  "description": "Self-hosted incident investigation agents that take alerts, run cloud and cluster commands in a sandbox, and write up root cause and fixes.",
+  "category": "monitoring",
+  "tags": ["incident-response", "root-cause-analysis", "sre", "cloud", "postmortem"],
+  "repo": "https://github.com/Arvo-AI/aurora",
+  "publisher": "Arvo AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Receives alerts from incident and monitoring tools and investigates them automatically across cloud accounts and Kubernetes. It produces root cause findings and postmortems and can open pull requests with proposed fixes, for SRE and platform teams.",
+  "howItWorks": "Webhooks from sources such as PagerDuty, Datadog, Grafana, New Relic, OpsGenie and incident.io start an investigation. Agents choose from more than thirty tools and execute kubectl, aws, az and gcloud commands inside isolated pods. Secrets are held in Vault, a web UI shows progress, and an MCP server exposes the system to other clients.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The stack is started through make targets that drive Docker"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in the .env file for the chosen provider"
+    },
+    {
+      "name": "VAULT_TOKEN",
+      "kind": "service",
+      "required": true,
+      "description": "Root token printed by the vault-init container, added to .env after first start"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/arvo-ai/aurora.git && cd aurora",
+    "make init",
+    "nano .env"
+  ],
+  "run": [
+    "make prod-prebuilt",
+    "docker logs vault-init 2>&1 | grep \"Root Token:\"",
+    "make down && make prod-prebuilt"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Google Gemini, Vertex AI, OpenRouter, Ollama, Amazon Bedrock",
+  "mcp": "server",
+  "github": {
+    "stars": 431,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

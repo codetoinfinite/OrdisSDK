@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Amazon CloudWatch",
+  "description": "Metrics, alarms and Logs Insights queries for troubleshooting.",
+  "packageName": "awslabs.cloudwatch-mcp-server",
+  "packageVersion": "0.3.1",
+  "runtime": "python",
+  "readme": "https://awslabs.github.io/mcp/servers/cloudwatch-mcp-server/",
+  "url": "https://github.com/awslabs/mcp",
+  "author": "AWS (awslabs)",
+  "env": {
+    "AWS_PROFILE": {
+      "description": "AWS credentials profile",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS region",
+      "required": false
+    }
+  }
+}

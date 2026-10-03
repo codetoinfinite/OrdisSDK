@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dubai Cost of Living Prices",
+  "description": "Dubai cost of living: groceries, schools, fuel, rent, utilities, phone plans, electronics and visas",
+  "packageName": "@alphesdk-remote/ae-brainy-grocery-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prices.brainy.ae/mcp"
+    }
+  ],
+  "url": "https://prices.brainy.ae/developers.html"
+}

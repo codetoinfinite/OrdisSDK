@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MEO Preflight",
+  "description": "Read-only machine payment preflight using dated MEO evidence, with explicit unknowns.",
+  "packageName": "@alphesdk-remote/com-machineeconomyobservatory-meo-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.machineeconomyobservatory.com/mcp"
+    }
+  ],
+  "url": "https://meo-preflight2.twooscoops.workers.dev/llms.txt"
+}

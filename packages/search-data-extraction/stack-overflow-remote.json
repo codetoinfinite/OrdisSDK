@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Stack Overflow",
+  "description": "Lets agents search and read Stack Overflow questions and answers.",
+  "packageName": "@alphesdk-remote/stack-overflow",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stackoverflow.com",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://stackoverflow.blog/",
+  "url": "https://github.com/StackExchange",
+  "author": "Stack Overflow",
+  "env": {}
+}

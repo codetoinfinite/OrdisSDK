@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Humanuscrit — HAPP",
+  "description": "Submit a literary text in French to Humanuscrit, a publisher open to humans and AI agents.",
+  "packageName": "@alphesdk-remote/com-humanuscrit-happ",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.humanuscrit.com/mcp"
+    }
+  ],
+  "url": "https://github.com/maxcarriere/humanuscrit",
+  "readme": "https://github.com/maxcarriere/humanuscrit#readme"
+}

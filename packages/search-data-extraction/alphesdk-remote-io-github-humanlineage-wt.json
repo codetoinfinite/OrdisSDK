@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "wt",
+  "description": "Human Lineage MCP server — search and query the public genealogical graph of all humanity",
+  "packageName": "@alphesdk-remote/io-github-humanlineage-wt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanlineage.org/api/mcp"
+    }
+  ],
+  "url": "https://github.com/HumanLineage/WT",
+  "readme": "https://github.com/HumanLineage/WT#readme"
+}

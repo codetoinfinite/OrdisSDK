@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ferienwohnung Bruno – Garmisch-Partenkirchen",
+  "description": "Ferienwohnung Garmisch-Partenkirchen: Infos, FAQ, Preise, Angebote, Verfügbarkeit, Preisrechner",
+  "packageName": "@alphesdk-remote/de-fewo-bruno-gap-ferienwohnung-bruno",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fewo-bruno-gap.de/mcp"
+    }
+  ],
+  "url": "https://www.fewo-bruno-gap.de"
+}

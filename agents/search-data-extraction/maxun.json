@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "maxun",
+  "name": "Maxun",
+  "description": "Self-hostable web data platform with recorded and AI-described robots for extraction, crawling, search and change monitoring.",
+  "category": "search-data-extraction",
+  "tags": ["web-scraping", "no-code", "crawler", "monitoring"],
+  "repo": "https://github.com/getmaxun/maxun",
+  "homepage": "https://www.maxun.dev",
+  "docs": "https://docs.maxun.dev",
+  "publisher": "Maxun",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Builds reusable robots that pull structured data from websites, either by recording browser actions or by describing the data wanted. It also converts pages to Markdown, crawls sites and watches pages for changes, for teams that need web data as an API.",
+  "howItWorks": "A web application manages robots that replay human-like browser sessions on a schedule or on demand and expose results through an API and SDK. An AI mode uses a language model to work out what to extract from a description. It can be deployed locally with or without Docker following the docs.",
+  "requirements": [
+    {
+      "name": "Docker or Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "For self-hosting as described in the docs"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only for AI extraction mode"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web", "api", "library"],
+  "language": "TypeScript",
+  "models": "Configurable LLM for AI mode",
+  "mcp": "none",
+  "github": {
+    "stars": 17631,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

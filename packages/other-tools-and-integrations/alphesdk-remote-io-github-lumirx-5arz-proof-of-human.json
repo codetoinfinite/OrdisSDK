@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "5arz-proof-of-human",
+  "description": "Prove a real, unique human performed an action; mint a signed, verifiable Proof-of-Human credential.",
+  "packageName": "@alphesdk-remote/io-github-lumirx-5arz-proof-of-human",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.5arz.com"
+    }
+  ],
+  "url": "https://5arz.com/agentic-commerce"
+}

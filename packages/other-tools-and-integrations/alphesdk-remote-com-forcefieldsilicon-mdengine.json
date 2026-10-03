@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MDEngine",
+  "description": "MD workbench for agents: 13 analysis tools, renders, hosted GPU runs; LAMMPS + OpenMM.",
+  "packageName": "@alphesdk-remote/com-forcefieldsilicon-mdengine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.forcefieldsilicon.com/mcp"
+    }
+  ],
+  "url": "https://github.com/forcefieldsilicon/mdengine",
+  "readme": "https://github.com/forcefieldsilicon/mdengine#readme"
+}

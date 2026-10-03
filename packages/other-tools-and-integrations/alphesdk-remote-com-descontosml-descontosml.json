@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "descontosml",
+  "description": "Promoções, histórico de preço e cupons validados do Mercado Livre Brasil",
+  "packageName": "@alphesdk-remote/com-descontosml-descontosml",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://descontosml.com/mcp"
+    }
+  ],
+  "url": "https://descontosml.com"
+}

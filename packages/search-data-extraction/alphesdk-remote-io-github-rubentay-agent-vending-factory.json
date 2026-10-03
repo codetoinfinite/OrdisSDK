@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Vending Factory",
+  "description": "Pay-per-call MCP tools via x402 USDC: ZAR prices, data extraction, Python sandbox, SA flights.",
+  "packageName": "@alphesdk-remote/io-github-rubentay-agent-vending-factory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-vending-factory-3srpjtr7na-ew.a.run.app/mcp"
+    }
+  ],
+  "url": "https://github.com/RubenTay/agent-vending-factory",
+  "readme": "https://github.com/RubenTay/agent-vending-factory#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LoveTheNorth Public Videos",
+  "description": "Read-only public LoveTheNorth video discovery; no writes, private data, or model-training access.",
+  "packageName": "@alphesdk-remote/ca-lovethenorth-public-videos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lovethenorth.ca/mcp"
+    }
+  ],
+  "url": "https://lovethenorth.ca/llms.txt"
+}

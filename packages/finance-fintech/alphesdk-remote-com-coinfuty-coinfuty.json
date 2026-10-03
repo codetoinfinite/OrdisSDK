@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Coinfuty",
+  "description": "Free crypto futures data: open interest, funding, long/short, liquidations, volume. No API key.",
+  "packageName": "@alphesdk-remote/com-coinfuty-coinfuty",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.coinfuty.com/api/mcp"
+    }
+  ],
+  "url": "https://www.coinfuty.com/mcp"
+}

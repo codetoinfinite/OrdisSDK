@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "browser-operator",
+  "name": "Browser Operator",
+  "description": "AI-native browser with a built-in multi-agent platform for research and task automation, shipped as a desktop app.",
+  "category": "browser-automation",
+  "tags": ["agentic-browser", "multi-agent", "chromium"],
+  "repo": "https://github.com/BrowserOperator/browser-operator-core",
+  "homepage": "https://browseroperator.io",
+  "publisher": "Browser Operator",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets users run research and automation tasks directly in a browser they control, with their own model keys. It positions itself as an open alternative to commercial agentic browsers.",
+  "howItWorks": "Built on the Chromium DevTools front end, it embeds an agent framework in which specialised agents share browser tools and hand work to one another. The user picks a provider in the settings, and prebuilt applications are offered for macOS and Windows.",
+  "requirements": [
+    {
+      "name": "macOS or Windows",
+      "kind": "runtime",
+      "required": true,
+      "description": "Platforms with downloads"
+    },
+    {
+      "name": "LLM provider key or local model",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured in the app"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "chat"],
+  "language": "TypeScript",
+  "models": "OpenAI, OpenRouter, LiteLLM and local models",
+  "mcp": "none",
+  "github": {
+    "stars": 509,
+    "license": "BSD-3-Clause",
+    "pushedAt": "2026-03-19",
+    "checkedAt": "2026-10-03"
+  }
+}

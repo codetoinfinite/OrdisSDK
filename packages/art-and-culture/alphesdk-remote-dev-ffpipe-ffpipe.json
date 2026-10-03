@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ffpipe — video conversion, probe & frames",
+  "description": "Convert, probe, and split video into frames — real FFmpeg, paid per job with x402 on Base.",
+  "packageName": "@alphesdk-remote/dev-ffpipe-ffpipe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ffpipe.dev/mcp"
+    }
+  ],
+  "url": "https://ffpipe.dev"
+}

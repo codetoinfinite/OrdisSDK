@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Smasher Studio — AI Fashion Design",
+  "description": "AI fashion design — product photos, videos, tech packs, colorways & fabric sims.",
+  "packageName": "@alphesdk-remote/io-github-atenkai-smasher-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.smasher.studio/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/Atenkai/smasher-studio-client",
+  "readme": "https://github.com/Atenkai/smasher-studio-client#readme"
+}

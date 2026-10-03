@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "virtual-lab",
+  "name": "Virtual Lab",
+  "description": "Team of LLM scientist agents, led by a principal investigator agent, that hold meetings to tackle open research problems.",
+  "category": "data-science-tools",
+  "tags": ["science", "multi-agent", "team-meetings", "biology", "research"],
+  "repo": "https://github.com/zou-group/virtual-lab",
+  "publisher": "Zou Group, Stanford",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Organises group and one-to-one meetings between role-playing scientist agents to plan and carry out research, with a human providing direction. It was demonstrated on designing nanobodies.",
+  "howItWorks": "A Python package defines agents with roles and runs structured meetings with agendas, critiques and summaries through the OpenAI API. Workflows are driven from notebooks.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    }
+  ],
+  "install": ["pip install virtual-lab"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "Python",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 738,
+    "license": "MIT",
+    "pushedAt": "2025-12-31",
+    "checkedAt": "2026-10-03"
+  }
+}

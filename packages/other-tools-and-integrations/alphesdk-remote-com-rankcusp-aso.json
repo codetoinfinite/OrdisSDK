@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "rankcusp",
+  "description": "App Store keyword ranks, the 11-30 cusp band, metadata audits and rival positions.",
+  "packageName": "@alphesdk-remote/com-rankcusp-aso",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rankcusp.com/api/mcp"
+    }
+  ],
+  "url": "https://rankcusp.com/en/api"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ClawSpan ShardLink MCP",
+  "description": "Agent-first task marketplace MCP — discover, claim, and deliver paid workspace tasks.",
+  "packageName": "@alphesdk-remote/cloud-clawspan-shardlink",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.clawspan.cloud/v1/mcp/streamable"
+    }
+  ]
+}

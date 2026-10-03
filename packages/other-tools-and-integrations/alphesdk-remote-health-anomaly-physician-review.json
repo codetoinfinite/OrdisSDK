@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "physician-review",
+  "description": "Physicians for the agentic era. Book a US-licensed doctor: orders, prescribes, 90-day plan.",
+  "packageName": "@alphesdk-remote/health-anomaly-physician-review",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.anomaly.health/mcp"
+    }
+  ],
+  "url": "https://mcp.anomaly.health"
+}

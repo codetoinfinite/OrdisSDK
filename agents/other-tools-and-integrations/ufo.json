@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "ufo",
+  "name": "UFO",
+  "description": "Microsoft's desktop agent system that automates Windows applications and orchestrates tasks across Windows, Linux and Android devices.",
+  "category": "other-tools-and-integrations",
+  "tags": ["desktop-automation", "windows", "gui-agent", "multi-device", "computer-use"],
+  "repo": "https://github.com/microsoft/UFO",
+  "docs": "https://microsoft.github.io/UFO/",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "UFO turns natural-language requests into actions inside desktop applications, and in its newer Galaxy mode splits a request into sub-tasks dispatched to several registered devices. It targets users and researchers automating multi-step GUI work.",
+  "howItWorks": "The UFO2 desktop agent combines UI Automation and vision to control Windows apps through a host agent and per-app agents. Galaxy adds a ConstellationAgent that decomposes a request into a task DAG, assigns tasks to device agents and runs them asynchronously. LLM settings live in YAML config files.",
+  "requirements": [
+    {
+      "name": "Windows",
+      "kind": "runtime",
+      "required": true,
+      "description": "Desktop agent targets Windows; Galaxy also drives Linux and Android devices"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in config/ufo/agents.yaml or config/galaxy/agent.yaml"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs from source"
+    }
+  ],
+  "install": [
+    "pip install -r requirements.txt",
+    "copy config\\ufo\\agents.yaml.template config\\ufo\\agents.yaml"
+  ],
+  "run": ["python -m ufo --task <task_name>"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Azure OpenAI and other configurable providers",
+  "mcp": "both",
+  "github": {
+    "stars": 9897,
+    "license": "MIT",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

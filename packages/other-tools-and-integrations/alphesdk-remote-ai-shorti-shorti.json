@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shorti",
+  "description": "What short-form formats to shoot this week, how their hits were made, and a check of your take.",
+  "packageName": "@alphesdk-remote/ai-shorti-shorti",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shorti.ai/mcp"
+    }
+  ],
+  "url": "https://shorti.ai"
+}

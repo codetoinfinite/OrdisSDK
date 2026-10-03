@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bronjoy Marketplace",
+  "description": "Search and book appointments at service businesses across Uzbekistan.",
+  "packageName": "@alphesdk-remote/com-bronjoy-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bronjoy.com/api/mcp"
+    }
+  ],
+  "url": "https://docs.bronjoy.com/en/integrations/mcp"
+}

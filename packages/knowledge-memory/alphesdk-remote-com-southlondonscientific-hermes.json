@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hermes — Air Quality Intelligence",
+  "description": "UK air quality MCP: live readings, historical trends, LAQM stats, WHO checks, knowledge base.",
+  "packageName": "@alphesdk-remote/com-southlondonscientific-hermes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hermes.southlondonscientific.com/mcp"
+    }
+  ],
+  "url": "https://www.southlondonscientific.com"
+}

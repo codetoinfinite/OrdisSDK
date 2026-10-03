@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CliDeck MCP — Network Knowledge",
+  "description": "Free verified network knowledge for AI agents: deterministic answers, honest unknowns.",
+  "packageName": "@alphesdk-remote/com-clideck-network-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.clideck.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SmartRoot7/clideck-mcp",
+  "readme": "https://github.com/SmartRoot7/clideck-mcp#readme"
+}

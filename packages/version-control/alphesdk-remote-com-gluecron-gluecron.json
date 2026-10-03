@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gluecron",
+  "description": "AI-native git hosting — repos, PRs, issues, CI gates, and AI code review over MCP (60 tools).",
+  "packageName": "@alphesdk-remote/com-gluecron-gluecron",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gluecron.com/mcp"
+    }
+  ],
+  "url": "https://gluecron.com"
+}

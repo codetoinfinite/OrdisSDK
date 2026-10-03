@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Turniermeister — Tournament Engine",
+  "description": "Turnier engine: AI prepares a real tournament (bracket, schedule) and returns a claim link.",
+  "packageName": "@alphesdk-remote/io-github-martymcflyjr-turniermeister",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.turniermeister.at/mcp"
+    }
+  ],
+  "url": "https://github.com/MartyMcFlyJr/turniermeister",
+  "readme": "https://github.com/MartyMcFlyJr/turniermeister#readme"
+}

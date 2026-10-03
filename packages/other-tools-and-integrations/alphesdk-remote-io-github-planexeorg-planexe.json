@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PlanExe",
+  "description": "MCP server for generating rough-draft project plans from natural-language prompts.",
+  "packageName": "@alphesdk-remote/io-github-planexeorg-planexe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.planexe.org/mcp"
+    }
+  ],
+  "url": "https://github.com/PlanExeOrg/PlanExe",
+  "readme": "https://github.com/PlanExeOrg/PlanExe#readme"
+}

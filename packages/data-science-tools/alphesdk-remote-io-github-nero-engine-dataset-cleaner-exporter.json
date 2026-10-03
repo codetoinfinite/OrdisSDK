@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dataset Cleaner & Exporter",
+  "description": "Dedupe, flatten and clean messy JSON rows (emails, phones, URLs, HTML) in one call, as JSON or CSV.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-dataset-cleaner-exporter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataset-cleaner-exporter.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Nero-Engine/dataset-cleaner-exporter-mcp",
+  "readme": "https://github.com/Nero-Engine/dataset-cleaner-exporter-mcp#readme"
+}

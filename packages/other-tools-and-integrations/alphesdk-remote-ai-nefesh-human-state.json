@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nefesh — Real-Time Human State Awareness for AI",
+  "description": "Fuses biometric signals into a stress score (0-100) for AI adaptation. MCP + A2A native.",
+  "packageName": "@alphesdk-remote/ai-nefesh-human-state",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nefesh.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/nefesh-ai/nefesh-mcp-server",
+  "readme": "https://github.com/nefesh-ai/nefesh-mcp-server#readme"
+}

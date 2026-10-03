@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "flatmark",
+  "description": "Document to Markdown MCP server: PDF, Word, PowerPoint, Excel and HTML, with OCR for large files.",
+  "packageName": "@alphesdk-remote/dev-flatmark-markdown-converter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.flatmark.dev/mcp/"
+    }
+  ],
+  "url": "https://github.com/flatmark-dev/flatmark",
+  "readme": "https://github.com/flatmark-dev/flatmark#readme"
+}

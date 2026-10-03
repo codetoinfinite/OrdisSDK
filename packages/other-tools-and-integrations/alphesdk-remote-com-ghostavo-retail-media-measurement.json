@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gus Dantas · retail media measurement",
+  "description": "Retail media measurement in Gus Dantas's own words. No model inside: every answer is text he wrote.",
+  "packageName": "@alphesdk-remote/com-ghostavo-retail-media-measurement",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ghostavo.com/mcp"
+    }
+  ],
+  "url": "https://ghostavo.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SparkPay",
+  "description": "Stripe billing for indie apps: plans, coupons, subscriptions, customers and revenue reporting.",
+  "packageName": "@alphesdk-remote/dev-sparkpay-sparkpay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sparkpay.dev/api/mcp/mcp"
+    }
+  ],
+  "url": "https://sparkpay.dev"
+}

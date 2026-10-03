@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "serp-metrics",
+  "description": "Impression-weighted SERP position, click projection on your own CTR curve, share of voice",
+  "packageName": "@alphesdk-remote/com-toolsthatrank-serp-metrics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolsthatrank-mcp.lipmichal.workers.dev"
+    }
+  ],
+  "url": "https://toolsthatrank.com/"
+}

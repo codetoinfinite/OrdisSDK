@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "bidda-compliance",
+  "description": "10,065 source-verified compliance nodes, 39 pillars, 25 MCP tools (EU AI Act, GDPR, NIST, MITRE).",
+  "packageName": "@alphesdk-remote/com-bidda-bidda-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bidda.com/mcp"
+    }
+  ]
+}

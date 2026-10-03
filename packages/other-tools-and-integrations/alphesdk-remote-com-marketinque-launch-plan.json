@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "marketinque — launch plan & backlink index",
+  "description": "A 349-step SaaS launch plan and 958 backlink sources as tools an agent reads, acts on and records.",
+  "packageName": "@alphesdk-remote/com-marketinque-launch-plan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketinque.com/mcp"
+    }
+  ],
+  "url": "https://github.com/zeshutmax/demand-gen",
+  "readme": "https://github.com/zeshutmax/demand-gen#readme"
+}

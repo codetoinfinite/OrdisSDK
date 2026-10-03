@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "protogrid",
+  "description": "Find MCP servers by intent and get exactly how to connect to them right now. No proxying.",
+  "packageName": "@alphesdk-remote/dev-protogrid-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.protogrid.dev/mcp"
+    }
+  ],
+  "url": "https://protogrid.dev"
+}

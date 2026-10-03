@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TerraVue",
+  "description": "Analyze any US home: buy vs rent Monte Carlo, affordability, and ZIP-level appreciation data.",
+  "packageName": "@alphesdk-remote/app-terravue-terravue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.terravue.app/mcp"
+    }
+  ],
+  "url": "https://www.terravue.app"
+}

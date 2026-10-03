@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Custom Blinds Shop",
+  "description": "South Africa's first AI-transactable blinds, shutters and awnings catalogue with live ZAR pricing.",
+  "packageName": "@alphesdk-remote/io-github-customblinds-cb-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shop.customblinds.co.za/mcp"
+    }
+  ],
+  "url": "https://github.com/CustomBlinds/cb-shop-mcp",
+  "readme": "https://github.com/CustomBlinds/cb-shop-mcp#readme"
+}

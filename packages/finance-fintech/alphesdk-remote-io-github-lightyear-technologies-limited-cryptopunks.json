@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Lightyear CryptoPunks",
+  "description": "Browse traits, filter 10K punks, listings, bids, Merkle roots, and bid pricing for CryptoPunks.",
+  "packageName": "@alphesdk-remote/io-github-lightyear-technologies-limited-cryptopunks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://punks.lightyear.build/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "product-intelligence",
+  "description": "Smart home product intelligence: 1,080+ products with expert consensus scores and compatibility.",
+  "packageName": "@alphesdk-remote/com-smarthomeexplorer-www-product-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.smarthomeexplorer.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/nicks-sidehustle/smarthome-explorer-blog",
+  "readme": "https://github.com/nicks-sidehustle/smarthome-explorer-blog#readme"
+}

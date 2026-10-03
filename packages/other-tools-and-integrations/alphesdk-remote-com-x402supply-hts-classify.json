@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hts-classify",
+  "description": "Classifies products into HS/HTS customs codes for import/export workflows. $0.10/call via x402.",
+  "packageName": "@alphesdk-remote/com-x402supply-hts-classify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hts-classify.x402supply.com/mcp"
+    }
+  ],
+  "url": "https://x402supply.com"
+}

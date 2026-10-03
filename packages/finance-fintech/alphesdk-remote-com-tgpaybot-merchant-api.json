@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TgPay Merchant API",
+  "description": "Accept crypto payments via the TgPay Merchant API — invoices, subscriptions, webhooks.",
+  "packageName": "@alphesdk-remote/com-tgpaybot-merchant-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.tgpaycrypto.com/mcp"
+    }
+  ],
+  "url": "https://app.tgpaycrypto.com/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cron Translator",
+  "description": "Explain cron expressions in English, list next run times, and catch scheduling gotchas.",
+  "packageName": "@alphesdk-remote/com-crontoenglish-cron-translator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crontoenglish.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

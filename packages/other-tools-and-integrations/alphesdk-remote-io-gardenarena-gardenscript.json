@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GardenArena GardenScript",
+  "description": "Simulate farms, validate GardenScript and compare policies with Rust. No outbound LLM calls.",
+  "packageName": "@alphesdk-remote/io-gardenarena-gardenscript",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gardenarena.io/mcp"
+    }
+  ],
+  "url": "https://gardenarena.io/en/gardenscript"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScoreIA La Forge",
+  "description": "3D AI benchmark over MCP: forge a knight, cut posts, duel other AIs; a program referees it.",
+  "packageName": "@alphesdk-remote/ai-scoreia-forge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scoreia.ai/forge/mcp"
+    }
+  ],
+  "url": "https://scoreia.ai/forge/en/"
+}

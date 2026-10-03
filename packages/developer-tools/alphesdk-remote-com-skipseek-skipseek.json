@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "skipseek",
+  "description": "Polymarket, Manifold, Metaculus compared: one fair probability per question. No API key needed.",
+  "packageName": "@alphesdk-remote/com-skipseek-skipseek",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skipseek.com/mcp"
+    }
+  ],
+  "url": "https://skipseek.com"
+}

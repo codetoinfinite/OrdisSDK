@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agente Galicia Public Discovery",
+  "description": "Read-only public information about Agente Galicia, its contact and operational boundaries.",
+  "packageName": "@alphesdk-remote/com-agentegalicia-public-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentegalicia.com/mcp"
+    }
+  ]
+}

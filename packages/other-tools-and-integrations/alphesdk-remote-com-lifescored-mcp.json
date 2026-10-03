@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "life. scored.",
+  "description": "Rebuilds the scores real systems run on you — credit, actuarial, lending — in the open, cited.",
+  "packageName": "@alphesdk-remote/com-lifescored-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lifescored.com/mcp"
+    }
+  ],
+  "url": "https://github.com/royashbrook/lifescored",
+  "readme": "https://github.com/royashbrook/lifescored#readme"
+}

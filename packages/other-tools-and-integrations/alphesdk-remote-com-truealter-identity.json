@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "~Alter Identity",
+  "description": "Mint an agent identity in two free calls. Verify anyone. Earn 75% when someone reads you.",
+  "packageName": "@alphesdk-remote/com-truealter-identity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.truealter.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/true-alter/cli",
+  "readme": "https://github.com/true-alter/cli#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PolyPulse: Polymarket odds & movers",
+  "description": "Live Polymarket odds, 1h/24h movers, top markets. Free previews; full data via x402 USDC on Base.",
+  "packageName": "@alphesdk-remote/dev-workers-polypulse-x402-api-polypulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.polypulse-x402.workers.dev/mcp"
+    }
+  ],
+  "url": "https://api.polypulse-x402.workers.dev/"
+}

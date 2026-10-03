@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "nofx",
+  "name": "NOFX",
+  "description": "Self-hosted trading terminal in which LLMs make and execute trading decisions across multiple crypto exchanges.",
+  "category": "finance-fintech",
+  "tags": ["trading", "crypto", "exchanges", "go", "self-hosted"],
+  "repo": "https://github.com/NoFxAiOS/nofx",
+  "publisher": "NoFxAiOS",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets traders configure AI-driven strategies, connect exchange accounts and watch positions and decisions in a dashboard. It trades real funds, so it carries real financial risk.",
+  "howItWorks": "A Go backend runs the decision loop and exchange connectors, with a web front end on a local port. Model usage is paid from a funded wallet, and exchange credentials are entered in the app.",
+  "requirements": [
+    {
+      "name": "Exchange account",
+      "kind": "account",
+      "required": true,
+      "description": "API access to a supported exchange such as Hyperliquid"
+    },
+    {
+      "name": "Funded AI fee wallet",
+      "kind": "account",
+      "required": true,
+      "description": "USDC balance used to pay for model calls"
+    }
+  ],
+  "install": ["curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash"],
+  "run": [],
+  "interfaces": ["web"],
+  "language": "Go",
+  "models": "Multiple hosted LLMs through a pay-per-use gateway",
+  "mcp": "none",
+  "github": {
+    "stars": 12993,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-09-05",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "web3ctx",
+  "description": "Version-true web3 docs, ABIs and human-validated integration recipes over MCP.",
+  "packageName": "@alphesdk-remote/io-github-farseensh-web3ctx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.scarai.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/FarseenSh/web3ctx",
+  "readme": "https://github.com/FarseenSh/web3ctx#readme"
+}

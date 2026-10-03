@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "e-gonghun-(korean-military-service-records)",
+  "packageName": "git+https://github.com/shinkeonkim/e-gonghun-mcp@df771feaeae82d9c08b06d3c7c93fe03291f7665",
   "description": "Provides a bridge to the Korean military service records API for retrieving and verifying service history information with authentication and caching support",
   "url": "https://github.com/shinkeonkim/e-gonghun-mcp",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "E Gonghun MCP"
+  "name": "E Gonghun MCP",
+  "bin": "gonghun-mcp",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

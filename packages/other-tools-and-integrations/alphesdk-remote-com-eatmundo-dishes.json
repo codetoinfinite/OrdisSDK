@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eatmundo",
+  "description": "Cross-cuisine dish equivalence with shared-ingredient evidence: 1,956 dishes, 26 cuisines.",
+  "packageName": "@alphesdk-remote/com-eatmundo-dishes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.eatmundo.com/api/mcp"
+    }
+  ],
+  "url": "https://www.eatmundo.com"
+}

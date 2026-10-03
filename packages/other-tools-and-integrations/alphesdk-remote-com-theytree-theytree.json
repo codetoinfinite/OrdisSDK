@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TheYtree",
+  "description": "Public read-only MCP for the Y-chromosome haplogroup tree & Y-SNP resolution. 父系单倍群树查询与Y-SNP解析。",
+  "packageName": "@alphesdk-remote/com-theytree-theytree",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.theytree.com/api/v1/agent/mcp"
+    }
+  ],
+  "url": "https://www.theytree.com/mcp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "pandas-ai",
+  "name": "PandasAI",
+  "description": "Conversational data analysis for dataframes and databases: ask questions in plain language and get answers, tables or charts.",
+  "category": "data-science-tools",
+  "tags": ["dataframes", "text-to-sql", "charts", "python", "analytics"],
+  "repo": "https://github.com/sinaptik-ai/pandas-ai",
+  "homepage": "https://pandas-ai.com",
+  "docs": "https://docs.pandas-ai.com",
+  "publisher": "Sinaptik AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets analysts and developers query tabular data in natural language instead of writing pandas or SQL by hand. It can answer questions over one or several dataframes at once and produce charts as well as values.",
+  "howItWorks": "A Python library wraps your dataframes and sends the question plus schema context to an LLM, which writes analysis code that is then executed against the data. Model access goes through a LiteLLM extension, so the provider key is supplied in code when the model is configured.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.8 up to 3.11"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for whichever model is configured through the LiteLLM extension"
+    }
+  ],
+  "install": ["pip install pandasai", "pip install pandasai-litellm"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "Python",
+  "models": "Any LiteLLM-supported provider (OpenAI and others)",
+  "mcp": "none",
+  "github": {
+    "stars": 23811,
+    "pushedAt": "2025-10-28",
+    "checkedAt": "2026-10-03"
+  }
+}

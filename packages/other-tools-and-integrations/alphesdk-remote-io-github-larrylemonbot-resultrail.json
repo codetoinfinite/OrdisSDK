@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ResultRail by LarryBuildsAI",
+  "description": "Five-to-twelve-cent source-attributed public URL and domain result packs for AI agents.",
+  "packageName": "@alphesdk-remote/io-github-larrylemonbot-resultrail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proofbeforepay.vercel.app/resultrail/mcp"
+    }
+  ],
+  "url": "https://github.com/LarryLemonBot/resultrail-mcp-server",
+  "readme": "https://github.com/LarryLemonBot/resultrail-mcp-server#readme"
+}

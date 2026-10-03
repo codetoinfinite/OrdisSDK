@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Tracking & Returns",
+  "description": "Track packages across 1,300+ global carriers with real-time status and AI-powered delivery dates.",
+  "packageName": "@alphesdk-remote/com-aftership-mcp-tracking-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aftership.com/tracking/public"
+    }
+  ]
+}

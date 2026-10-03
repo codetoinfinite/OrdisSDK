@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Busymate DevTools",
+  "description": "Capture, inspect & debug HTTPS traffic across iOS, Android, browsers & backends — 304 MCP tools.",
+  "packageName": "@alphesdk-remote/dev-busymate-busymate-devtools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.busymate.dev"
+    }
+  ],
+  "url": "https://github.com/serebano/busymate-devtools",
+  "readme": "https://github.com/serebano/busymate-devtools#readme"
+}

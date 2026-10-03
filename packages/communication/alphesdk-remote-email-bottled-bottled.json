@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bottled",
+  "description": "Branded email on your own domain: send, reply, search, aliases, contacts and campaigns.",
+  "packageName": "@alphesdk-remote/email-bottled-bottled",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bottled.email/api/mcp/mcp"
+    }
+  ],
+  "url": "https://bottled.email"
+}

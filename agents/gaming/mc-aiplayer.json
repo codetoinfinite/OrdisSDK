@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "mc-aiplayer",
+  "name": "AIBot (mc_aiplayer)",
+  "description": "Server-side Fabric mod that adds an AI player to Minecraft which follows natural-language instructions through deterministic game tools.",
+  "category": "gaming",
+  "tags": ["minecraft", "fabric-mod", "game-agent", "tool-calling", "java"],
+  "repo": "https://github.com/zoyluoblue/mc_aiplayer",
+  "publisher": "zoyluoblue",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Creates a real server-spawned player that mines, crafts, builds and pursues goals when told to in chat or by command. It is for server owners who want an in-game assistant.",
+  "howItWorks": "An LLM issues tool calls through an OpenAI-compatible API, and the mod maps them to a goal engine and task state machines running inside the server. It is built with Gradle and configured by a JSON file with permission profiles.",
+  "requirements": [
+    {
+      "name": "Java 21",
+      "kind": "runtime",
+      "required": true,
+      "description": "With Fabric Loader for Minecraft 1.21.3"
+    },
+    {
+      "name": "DEEPSEEK_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the OpenAI-compatible model endpoint"
+    }
+  ],
+  "install": ["./gradlew build"],
+  "run": ["export DEEPSEEK_API_KEY=\"sk-your-key\"", "./gradlew runServer"],
+  "interfaces": ["chat"],
+  "language": "Java",
+  "models": "OpenAI-compatible endpoints (DeepSeek by default)",
+  "mcp": "none",
+  "github": {
+    "stars": 155,
+    "license": "MIT",
+    "pushedAt": "2026-09-02",
+    "checkedAt": "2026-10-03"
+  }
+}

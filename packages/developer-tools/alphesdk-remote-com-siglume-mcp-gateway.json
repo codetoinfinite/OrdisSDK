@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Siglume MCP Gateway",
+  "description": "Access Siglume API Store tools and external MCP Router servers.",
+  "packageName": "@alphesdk-remote/com-siglume-mcp-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.siglume.com"
+    }
+  ],
+  "url": "https://siglume.com/mcp-setup"
+}

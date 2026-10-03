@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "openmanus",
+  "name": "OpenManus",
+  "description": "Open general-purpose agent in the style of Manus that takes a task typed in the terminal and carries it out with tools.",
+  "category": "other-tools-and-integrations",
+  "tags": ["general-agent", "manus-alternative", "autonomous", "mcp", "multi-agent"],
+  "repo": "https://github.com/FoundationAgents/OpenManus",
+  "homepage": "https://openmanus.github.io/",
+  "publisher": "FoundationAgents",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Accepts a free-form idea or task from the terminal and works through it autonomously. Offers a single-agent mode, an MCP tool mode and an experimental multi-agent flow that can include a data analysis agent.",
+  "howItWorks": "A Python agent loop calls an LLM configured in a TOML config file and invokes tools. Separate entry points start the plain agent, the MCP-enabled variant and the multi-agent flow.",
+  "requirements": [
+    {
+      "name": "Python 3.12",
+      "kind": "runtime",
+      "required": true,
+      "description": "The documented conda environment uses Python 3.12"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model credentials set in the project config file"
+    }
+  ],
+  "install": [
+    "conda create -n open_manus python=3.12",
+    "conda activate open_manus",
+    "git clone https://github.com/FoundationAgents/OpenManus.git"
+  ],
+  "run": ["python main.py", "python run_mcp.py", "python run_flow.py"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Configurable LLM provider",
+  "mcp": "client",
+  "github": {
+    "stars": 58451,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

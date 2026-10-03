@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Logolark: Company Logo API & Favicon Finder by Domain",
+  "description": "Logolark: company domain to logo, square icon and brand colour. Free, no key.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-logo-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://logolark.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

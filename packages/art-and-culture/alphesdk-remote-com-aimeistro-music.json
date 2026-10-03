@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AImeistrO",
+  "description": "Autonomous music production for AI agents with MIDI generation, QC and provenance.",
+  "packageName": "@alphesdk-remote/com-aimeistro-music",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aimeistro.com/mcp"
+    }
+  ],
+  "url": "https://aimeistro.com"
+}

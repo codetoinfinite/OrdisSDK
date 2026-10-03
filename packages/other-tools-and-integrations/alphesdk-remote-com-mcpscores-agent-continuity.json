@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCPFax Agent Continuity",
+  "description": "Resume the work, not the conversation. A checkpoint by one model is resumable by another.",
+  "packageName": "@alphesdk-remote/com-mcpscores-agent-continuity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpfax-continuity.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpfax-continuity.bowling-anthony.workers.dev/"
+}

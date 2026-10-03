@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PackageGuard",
+  "description": "x402-gated safety checker for npm/PyPI packages before you npm install / pip install.",
+  "packageName": "@alphesdk-remote/io-github-dankaten-packageguard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://packageguard-k4s4.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/DanKaten/packageguard",
+  "readme": "https://github.com/DanKaten/packageguard#readme"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "parlant",
+  "name": "Parlant",
+  "description": "Control harness for customer-facing conversational agents that keeps replies consistent, compliant and on-brand.",
+  "category": "support-service-management",
+  "tags": ["customer-facing", "guidelines", "compliance", "conversational", "sdk"],
+  "repo": "https://github.com/emcie-co/parlant",
+  "homepage": "https://www.parlant.io",
+  "docs": "https://www.parlant.io/docs/quickstart/installation",
+  "publisher": "Emcie",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Businesses build support and sales agents whose behaviour is governed by explicit guidelines instead of one long system prompt. It targets regulated or sensitive B2C and B2B conversations.",
+  "howItWorks": "A Python SDK starts a server and creates agents with observations, guidelines and tools. Each guideline is matched against the conversation, so only relevant instructions and tool data reach the model, and guidelines can depend on or exclude one another.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "The SDK is a Python package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access for the agent"
+    }
+  ],
+  "install": ["pip install parlant"],
+  "run": [],
+  "interfaces": ["library", "api"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 18299,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-12",
+    "checkedAt": "2026-10-03"
+  }
+}

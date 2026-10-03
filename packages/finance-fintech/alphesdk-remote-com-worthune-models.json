@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Worthune Verified Financial Models",
+  "description": "61 verified financial models and a household planning engine: 20 MCP tools, 6 keyless, specs cited.",
+  "packageName": "@alphesdk-remote/com-worthune-models",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://worthune.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://worthune.com"
+}

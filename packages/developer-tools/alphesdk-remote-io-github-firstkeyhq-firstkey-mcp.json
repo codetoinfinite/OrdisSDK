@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FirstKey",
+  "description": "FirstKey MCP: agent wallets, free cycles faucet, and one-command site deploys on ICP.",
+  "packageName": "@alphesdk-remote/io-github-firstkeyhq-firstkey-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.firstkey.io/mcp"
+    }
+  ],
+  "url": "https://github.com/FirstKeyHQ/firstkey-mcp",
+  "readme": "https://github.com/FirstKeyHQ/firstkey-mcp#readme"
+}

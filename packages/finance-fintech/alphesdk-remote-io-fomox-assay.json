@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Assay: settlement verification",
+  "description": "Verify crypto payments really settled and how much arrived. 20 chains. Read only, no API key.",
+  "packageName": "@alphesdk-remote/io-fomox-assay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fomox.io/api/assay/mcp"
+    }
+  ],
+  "url": "https://fomox.io/assay"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Octopus",
+  "description": "Route tasks to people better placed than you: expertise you lack, or being there. Escrowed.",
+  "packageName": "@alphesdk-remote/com-tryoctopus-octopus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tryoctopus.com/mcp"
+    }
+  ],
+  "url": "https://tryoctopus.com"
+}

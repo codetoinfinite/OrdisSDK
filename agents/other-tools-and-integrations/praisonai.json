@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "praisonai",
+  "name": "PraisonAI",
+  "description": "Agent framework and CLI for running one agent or a whole team that researches, plans and executes tasks.",
+  "category": "other-tools-and-integrations",
+  "tags": ["multi-agent", "autonomous", "cli", "workforce", "low-code"],
+  "repo": "https://github.com/MervinPraison/PraisonAI",
+  "homepage": "https://praison.ai/docs",
+  "docs": "https://docs.praison.ai/docs/cli/cli-reference",
+  "publisher": "Mervin Praison",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Users launch autonomous agents, from a single assistant up to an organisation of agents, that carry out research, planning and task execution across applications with little boilerplate.",
+  "howItWorks": "Installed through a shell installer or pip, it provides a command line documented in the CLI reference alongside a Python package for defining agents.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    }
+  ],
+  "install": ["pip install praisonai"],
+  "run": [],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 9126,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

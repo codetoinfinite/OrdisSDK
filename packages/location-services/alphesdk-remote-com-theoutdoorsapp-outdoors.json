@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Outdoors",
+  "description": "US outdoor recreation: 37k+ trails, 30k+ campgrounds, parks, weather + wildfire safety. Read-only.",
+  "packageName": "@alphesdk-remote/com-theoutdoorsapp-outdoors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theoutdoorsapp.com/mcp"
+    }
+  ],
+  "url": "https://theoutdoorsapp.com/ai"
+}

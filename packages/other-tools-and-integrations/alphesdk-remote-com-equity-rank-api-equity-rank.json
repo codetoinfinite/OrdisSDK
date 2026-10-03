@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Equity Rank",
+  "description": "Model fair value estimates, margin-of-safety differentials and quality scores for 3,000 U.S. stocks.",
+  "packageName": "@alphesdk-remote/com-equity-rank-api-equity-rank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.equity-rank.com/mcp"
+    }
+  ],
+  "url": "https://www.equity-rank.com/developers"
+}

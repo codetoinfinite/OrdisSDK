@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EscapeStays by Luxury Lodging",
+  "description": "Book vacation rentals direct: search homes, check live availability, get a real total.",
+  "packageName": "@alphesdk-remote/com-luxurylodgingpm-stay-luxury-lodging",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stay.luxurylodgingpm.com/mcp"
+    }
+  ],
+  "url": "https://stay.luxurylodgingpm.com/ai"
+}

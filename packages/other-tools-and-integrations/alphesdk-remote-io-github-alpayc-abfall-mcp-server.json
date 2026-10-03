@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Abfallkalender Deutschland",
+  "description": "Waste collection dates for German addresses from municipal authority calendars.",
+  "packageName": "@alphesdk-remote/io-github-alpayc-abfall-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://abfall-mcp.alpaycelik.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AlpayC/abfall-mcp-server",
+  "readme": "https://github.com/AlpayC/abfall-mcp-server#readme"
+}

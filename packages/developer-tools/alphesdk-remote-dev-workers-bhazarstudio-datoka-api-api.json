@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Datoka API",
+  "description": "Signed API declarations for agent handoffs. Free demo and verification; receipts cost 0.002 USDC.",
+  "packageName": "@alphesdk-remote/dev-workers-bhazarstudio-datoka-api-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datoka-api.bhazarstudio.workers.dev/mcp"
+    }
+  ],
+  "url": "https://datoka-api.bhazarstudio.workers.dev/demo/"
+}

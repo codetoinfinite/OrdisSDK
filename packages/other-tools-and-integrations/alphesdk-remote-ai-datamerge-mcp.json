@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "DataMerge MCP",
+  "description": "B2B data enrichment for 375M+ companies: legal entities, corporate hierarchies, and contacts.",
+  "packageName": "@alphesdk-remote/ai-datamerge-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.datamerge.ai"
+    }
+  ]
+}

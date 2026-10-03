@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AegeanBot Direct Stays",
+  "description": "Search verified Greek vacation rentals with live availability, prices, policies, and booking links.",
+  "packageName": "@alphesdk-remote/com-aegeanbot-direct-stays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.aegeanbot.com/mcp"
+    }
+  ],
+  "url": "https://aegeanbot.com/mcp/"
+}

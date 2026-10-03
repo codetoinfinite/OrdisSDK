@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ai-model-pricing",
+  "description": "Live pricing data for AI models across vendors: input/output prices per 1k tokens as JSON.",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-ai-model-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/ai-model-pricing"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/ai-model-pricing",
+  "readme": "https://github.com/DataLeadsPRO/ai-model-pricing#readme"
+}

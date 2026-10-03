@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OwnerSpec",
+  "description": "Cited home water treatment answers, part matching and sizing calculators for AI agents.",
+  "packageName": "@alphesdk-remote/com-ownerspec-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ownerspec.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ownerspec-com/mcp-server",
+  "readme": "https://github.com/ownerspec-com/mcp-server#readme"
+}

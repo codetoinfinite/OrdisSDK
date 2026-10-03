@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "CoinGecko",
+  "description": "Crypto prices, market data, on-chain DEX data and metadata from CoinGecko.",
+  "packageName": "@coingecko/coingecko-mcp",
+  "packageVersion": "8.2.1",
+  "runtime": "node",
+  "readme": "https://docs.coingecko.com/reference/mcp-server",
+  "url": "https://github.com/coingecko/coingecko-typescript",
+  "author": "CoinGecko",
+  "env": {
+    "COINGECKO_PRO_API_KEY": {
+      "description": "Pro API key",
+      "required": false
+    },
+    "COINGECKO_DEMO_API_KEY": {
+      "description": "Demo API key",
+      "required": false
+    }
+  }
+}

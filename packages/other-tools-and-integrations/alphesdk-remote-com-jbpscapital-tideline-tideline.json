@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tideline",
+  "description": "Published end-of-day state of a rules-based SPY/QQQ index model. Read-only. Free tier: 30-day delay.",
+  "packageName": "@alphesdk-remote/com-jbpscapital-tideline-tideline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tideline.jbpscapital.com/mcp"
+    }
+  ],
+  "url": "https://tideline.jbpscapital.com/agents"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "image-processing",
+  "description": "Image processing for AI agents: resize, convert, compress, crop, and web-ready AI-generated images.",
+  "packageName": "@alphesdk-remote/ai-pictomancer-image-processing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pictomancer.ai/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/pictomancer.ai/pig-gateway",
+  "readme": "https://gitlab.com/pictomancer.ai/pig-gateway#readme"
+}

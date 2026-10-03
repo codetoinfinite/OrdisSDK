@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Grabblist",
+  "description": "Save and organize web finds in persistent, user-controlled collections for AI assistants.",
+  "packageName": "@alphesdk-remote/com-grabbitapp-grabblist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.grabbitapp.com/api/mcp"
+    }
+  ],
+  "url": "https://grabbitapp.com/docs/mcp"
+}

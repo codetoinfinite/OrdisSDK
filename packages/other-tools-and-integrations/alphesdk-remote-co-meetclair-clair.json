@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Clair",
+  "description": "Sell-side agent for retail: one typed waitlist transaction plus read-only machine manifests.",
+  "packageName": "@alphesdk-remote/co-meetclair-clair",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.meetclair.co/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Alumeet/clair",
+  "readme": "https://github.com/Alumeet/clair#readme"
+}

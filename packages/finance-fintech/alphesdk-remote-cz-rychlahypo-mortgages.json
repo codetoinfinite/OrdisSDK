@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rychlá Hypo – Czech mortgages",
+  "description": "Czech mortgage rates, payment comparison and max loan per bank for 6 major Czech banks.",
+  "packageName": "@alphesdk-remote/cz-rychlahypo-mortgages",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rychlahypo.cz/mcp"
+    }
+  ],
+  "url": "https://github.com/emil-asistent/rychlahypo-mcp",
+  "readme": "https://github.com/emil-asistent/rychlahypo-mcp#readme"
+}

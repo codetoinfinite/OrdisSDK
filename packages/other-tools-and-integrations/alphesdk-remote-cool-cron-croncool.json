@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Croncool Cron Jobs",
+  "description": "Check your cron jobs, recent runs, workflows and webhooks, and run a job now when you confirm.",
+  "packageName": "@alphesdk-remote/cool-cron-croncool",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cron.cool/mcp"
+    }
+  ],
+  "url": "https://www.cron.cool/developers/#mcp"
+}

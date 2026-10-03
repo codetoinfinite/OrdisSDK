@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wotablet.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Tablets – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wotablet-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wotablet.de/api/mcp"
+    }
+  ],
+  "url": "https://wotablet.de"
+}

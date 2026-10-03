@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pokemon TCG Pocket Catalog",
+  "description": "Look up Pokemon TCG Pocket cards, sets, packs, and evaluate decks with battle simulations.",
+  "packageName": "@alphesdk-remote/app-hologallery-pocket-pokemon-tcg-pocket-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pocket.hologallery.app/mcp"
+    }
+  ],
+  "url": "https://pocket.hologallery.app"
+}

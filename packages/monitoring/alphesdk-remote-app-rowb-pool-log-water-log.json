@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pool Log — CDC-range water test log (no AI)",
+  "description": "Deterministic pool and spa water test log. Checks readings against US CDC ranges. No AI.",
+  "packageName": "@alphesdk-remote/app-rowb-pool-log-water-log",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pool-log.rowb.app/mcp"
+    }
+  ],
+  "url": "https://pool-log.rowb.app"
+}

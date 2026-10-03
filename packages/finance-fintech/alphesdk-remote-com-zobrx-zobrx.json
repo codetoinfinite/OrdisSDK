@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "zobrx",
+  "description": "Read-only zobrx e-commerce data: P&L, orders, inventory, marketplace, tax & shelf insights.",
+  "packageName": "@alphesdk-remote/com-zobrx-zobrx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zobrx.com/mcp"
+    }
+  ]
+}

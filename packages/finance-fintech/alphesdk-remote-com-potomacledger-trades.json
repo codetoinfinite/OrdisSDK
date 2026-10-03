@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "trades",
+  "description": "Stock trades of U.S. Congress & executive-branch officials, with conflict flags. Read-only.",
+  "packageName": "@alphesdk-remote/com-potomacledger-trades",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://potomacledger.com/mcp"
+    }
+  ],
+  "url": "https://potomacledger.com/ai/"
+}

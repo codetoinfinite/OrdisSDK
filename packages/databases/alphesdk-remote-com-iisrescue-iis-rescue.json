@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IIS Rescue",
+  "description": "Legacy IIS, classic ASP and SQL Server migration: paths, FAQ, end-of-support dates, fit assessment.",
+  "packageName": "@alphesdk-remote/com-iisrescue-iis-rescue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iisrescue.com/mcp"
+    }
+  ],
+  "url": "https://iisrescue.com/"
+}

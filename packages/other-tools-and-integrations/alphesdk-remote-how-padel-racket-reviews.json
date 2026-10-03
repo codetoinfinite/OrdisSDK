@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "padel.how Racket Reviews",
+  "description": "Read-only padel.how racket catalogue: reviews, comparisons, brands, offers, and methodology.",
+  "packageName": "@alphesdk-remote/how-padel-racket-reviews",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://padel.how/mcp"
+    }
+  ],
+  "url": "https://padel.how/api/"
+}

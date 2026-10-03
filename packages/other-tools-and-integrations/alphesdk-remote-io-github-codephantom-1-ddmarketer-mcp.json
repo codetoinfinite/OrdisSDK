@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DDMarketer",
+  "description": "Find and validate SaaS ideas from real user complaints, scored for commercial intent.",
+  "packageName": "@alphesdk-remote/io-github-codephantom-1-ddmarketer-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ddmarketer.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/CodePhantom-1/ddmarketer-mcp",
+  "readme": "https://github.com/CodePhantom-1/ddmarketer-mcp#readme"
+}

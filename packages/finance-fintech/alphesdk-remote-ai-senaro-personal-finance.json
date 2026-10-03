@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Senaro Personal Finance",
+  "description": "Credit card payoff, mortgages, refinancing, 401(k), rent vs buy. Every rule and default is cited.",
+  "packageName": "@alphesdk-remote/ai-senaro-personal-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.senaro.ai/mcp"
+    }
+  ],
+  "url": "https://senaro.ai"
+}

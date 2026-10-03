@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "sprkly",
+  "description": "Schedule, publish and track social posts across TikTok, Instagram, Threads and YouTube Shorts.",
+  "packageName": "@alphesdk-remote/app-sprkly-sprkly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sprkly.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/YOUR_GH_USERNAME/sprkly-mcp",
+  "readme": "https://github.com/YOUR_GH_USERNAME/sprkly-mcp#readme"
+}

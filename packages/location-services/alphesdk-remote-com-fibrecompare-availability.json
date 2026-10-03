@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fibre Compare",
+  "description": "Check which fibre and broadband deals are available at a UK postcode or address (fibrecompare.com).",
+  "packageName": "@alphesdk-remote/com-fibrecompare-availability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fibrecompare.com/mcp"
+    }
+  ],
+  "url": "https://fibrecompare.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "machfive",
+  "description": "Generate hyper-personalized cold email sequences via MachFive API.",
+  "packageName": "@alphesdk-remote/io-github-bluecraft-ai-machfive",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.machfive.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Bluecraft-AI/machfive-mcp",
+  "readme": "https://github.com/Bluecraft-AI/machfive-mcp#readme"
+}

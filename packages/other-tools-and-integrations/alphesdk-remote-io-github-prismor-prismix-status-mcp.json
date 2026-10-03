@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "prismix-status-mcp",
+  "description": "Real-time status for 75+ AI services (OpenAI, Anthropic, Cursor). No auth, CORS-enabled.",
+  "packageName": "@alphesdk-remote/io-github-prismor-prismix-status-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prismix.dev/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Prismor/prismix-status-mcp",
+  "readme": "https://github.com/Prismor/prismix-status-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LensaOCR",
+  "description": "Tesseract-compatible OCR over HTTP: send an image, get its text and word boxes in Tesseract's...",
+  "packageName": "@alphesdk-remote/com-saastemly-lensaocr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lensaocr.saastemly.com/mcp"
+    }
+  ],
+  "url": "https://lensaocr.saastemly.com"
+}

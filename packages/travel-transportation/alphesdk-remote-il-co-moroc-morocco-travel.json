@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "morocco-travel",
+  "description": "Morocco travel for Israeli travelers: e-visa, itineraries, guides, Shabbat times, hilula dates.",
+  "packageName": "@alphesdk-remote/il-co-moroc-morocco-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://moroc.co.il/api/mcp"
+    }
+  ],
+  "url": "https://moroc.co.il"
+}

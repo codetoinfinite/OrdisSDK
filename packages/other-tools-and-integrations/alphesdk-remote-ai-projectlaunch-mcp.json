@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Agent-facing site in pre-launch; agents can read the site and submit intent.",
+  "packageName": "@alphesdk-remote/ai-projectlaunch-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://projectlaunch.ai/mcp"
+    }
+  ]
+}

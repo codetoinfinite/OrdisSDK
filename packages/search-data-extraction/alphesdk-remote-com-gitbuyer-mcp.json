@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Find the repo to build from: search 100k+ repos by base-fitness, clone free or buy over x402.",
+  "packageName": "@alphesdk-remote/com-gitbuyer-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gitbuyer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/bitfent/gitbuyer",
+  "readme": "https://github.com/bitfent/gitbuyer#readme"
+}

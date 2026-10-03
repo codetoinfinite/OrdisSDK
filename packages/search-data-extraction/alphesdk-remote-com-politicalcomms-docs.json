@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "docs",
+  "description": "Political Comms documentation MCP server: search docs, query the docs filesystem. No auth.",
+  "packageName": "@alphesdk-remote/com-politicalcomms-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.politicalcomms.com/mcp"
+    }
+  ],
+  "url": "https://docs.politicalcomms.com"
+}

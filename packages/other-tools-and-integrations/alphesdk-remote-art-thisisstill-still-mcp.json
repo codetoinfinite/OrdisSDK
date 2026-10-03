@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "STILL",
+  "description": "Artwork credits, figure captions and Chicago, MLA and APA citations in English and Ukrainian.",
+  "packageName": "@alphesdk-remote/art-thisisstill-still-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://still-mcp.still-limit-c6ac.workers.dev/mcp"
+    }
+  ],
+  "url": "https://thisisstill.art/ai"
+}

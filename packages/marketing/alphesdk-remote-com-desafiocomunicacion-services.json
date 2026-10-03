@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Desafío Comunicación",
+  "description": "Servicios de Google Ads, medición, automatización, casos y contacto.",
+  "packageName": "@alphesdk-remote/com-desafiocomunicacion-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.desafiocomunicacion.com/mcp"
+    }
+  ]
+}

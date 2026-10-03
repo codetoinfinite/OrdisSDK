@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ALT eSIM",
+  "description": "Search & buy travel data eSIMs for 70+ destinations — pay by Stripe link, get the eSIM QR. USD.",
+  "packageName": "@alphesdk-remote/com-altesim-esim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://altesim.com/api/mcp"
+    }
+  ],
+  "url": "https://altesim.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SCRIPTMASTERLABS — SqueezeOS MCP",
+  "description": "SqueezeOS MCP for live machine discovery and x402-paid USDC APIs on Base.",
+  "packageName": "@alphesdk-remote/com-scriptmasterlabs-squeezeos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squeezeos-api.onrender.com/mcp?registry=scriptmasterlabs"
+    }
+  ],
+  "url": "https://gitlab.com/script-master-labs-llc-group/squeezeos-api",
+  "readme": "https://gitlab.com/script-master-labs-llc-group/squeezeos-api#readme"
+}

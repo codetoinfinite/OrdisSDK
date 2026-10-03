@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dominick Prevete: Instant Term Sheet",
+  "description": "Written term sheets for 1–4 unit DSCR investment property loans, by email. Business-purpose only.",
+  "packageName": "@alphesdk-remote/com-dominickprevete-instant-term-sheet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dominickprevete.com/api/mcp/pricing"
+    }
+  ],
+  "url": "https://dominickprevete.com/instant-term-sheet"
+}

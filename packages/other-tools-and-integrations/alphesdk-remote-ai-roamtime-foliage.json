@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RoamTime Japan Foliage Forecast",
+  "description": "Forecast peak autumn-foliage dates for viewing spots across Japan. Free tier, no key.",
+  "packageName": "@alphesdk-remote/ai-roamtime-foliage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.roamtime.ai/mcp"
+    }
+  ],
+  "url": "https://roamtime.ai"
+}

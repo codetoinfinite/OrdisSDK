@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fly Where To?",
+  "description": "Worldwide nonstop flight routes from Wikipedia: airports, destinations, connections, airlines.",
+  "packageName": "@alphesdk-remote/com-flywhereto-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flywhereto.com/api/mcp"
+    }
+  ],
+  "url": "https://flywhereto.com/mcp"
+}

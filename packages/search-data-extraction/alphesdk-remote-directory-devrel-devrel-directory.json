@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DevRel Directory",
+  "description": "Search DevRel tools, communities, jobs, events, CFPs, and guides from devrel.directory.",
+  "packageName": "@alphesdk-remote/directory-devrel-devrel-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://devrel.directory/mcp"
+    }
+  ],
+  "url": "https://devrel.directory"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Go Rocket",
+  "description": "Turn a website URL into a 9:16 AI UGC video ad: see a sample, or create finished videos.",
+  "packageName": "@alphesdk-remote/ai-go-rocket-go-rocket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.go-rocket.ai/mcp/"
+    }
+  ],
+  "url": "https://www.go-rocket.ai/mcp-setup/"
+}

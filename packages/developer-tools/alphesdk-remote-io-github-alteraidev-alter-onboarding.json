@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Alter Onboarding",
+  "description": "Guide developers from setup through a verified, policy-aware, audited Alter API call.",
+  "packageName": "@alphesdk-remote/io-github-alteraidev-alter-onboarding",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.alterauth.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AlterAIDev/Alter-Vault",
+  "readme": "https://github.com/AlterAIDev/Alter-Vault#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fiscal",
+  "description": "Brazilian fiscal MCP server - issue NF-e, NFC-e, NFS-e, CT-e, MDF-e and DC-e via SEFAZ.",
+  "packageName": "@alphesdk-remote/br-com-brasilnfe-fiscal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.brasilnfe.com.br/services/Mcp"
+    }
+  ],
+  "url": "https://github.com/BrasilNFe/brasilnfe-mcp",
+  "readme": "https://github.com/BrasilNFe/brasilnfe-mcp#readme"
+}

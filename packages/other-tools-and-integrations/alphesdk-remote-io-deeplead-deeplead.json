@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Deeplead",
+  "description": "Find local businesses, companies and decision makers with verified emails for B2B outreach.",
+  "packageName": "@alphesdk-remote/io-deeplead-deeplead",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.deeplead.io/api/mcp"
+    }
+  ],
+  "url": "https://www.deeplead.io"
+}

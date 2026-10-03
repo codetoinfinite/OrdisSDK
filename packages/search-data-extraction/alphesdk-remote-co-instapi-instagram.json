@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "instapi: Instagram",
+  "description": "Instagram search and posts for AI agents, with images and videos AI-parsed to text.",
+  "packageName": "@alphesdk-remote/co-instapi-instagram",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://instapi.co/mcp"
+    }
+  ],
+  "url": "https://instapi.co/instagram-mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BenAwf",
+  "description": "BenAwf remote MCP for Strategy Lab. Streamable HTTP. Paper GA; live venue beta.",
+  "packageName": "@alphesdk-remote/com-benawf-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.benawf.com/mcp"
+    }
+  ],
+  "url": "https://benawf.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JustIdea Agency",
+  "description": "Services, published prices, site search and sales inquiries of JustIdea, a Polish e-commerce agency.",
+  "packageName": "@alphesdk-remote/agency-justidea-justidea-agency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://justidea.agency/mcp"
+    }
+  ],
+  "url": "https://justidea.agency/"
+}

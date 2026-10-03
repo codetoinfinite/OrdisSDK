@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Second Opinion",
+  "description": "Adversarial verification for AI agents - pay an independent skeptic per verdict in USDC via x402.",
+  "packageName": "@alphesdk-remote/com-secondopinionx402-second-opinion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://secondopinionx402.com/mcp"
+    }
+  ],
+  "url": "https://secondopinionx402.com"
+}

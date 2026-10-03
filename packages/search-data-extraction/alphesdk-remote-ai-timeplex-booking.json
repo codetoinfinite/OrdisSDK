@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Timeplex K-Beauty Booking",
+  "description": "Real-time booking for Korean beauty & wellness shops — search availability, get a booking link.",
+  "packageName": "@alphesdk-remote/ai-timeplex-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chat.timeplex.ai/mcp"
+    }
+  ],
+  "url": "https://timeplex.ai"
+}

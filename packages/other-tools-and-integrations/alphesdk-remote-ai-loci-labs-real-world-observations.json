@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Loci Labs Real-World Observations",
+  "description": "Fresh human-observable information about physical places and conditions that may be stale online.",
+  "packageName": "@alphesdk-remote/ai-loci-labs-real-world-observations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.loci-labs.ai/mcp"
+    }
+  ],
+  "url": "https://mcp.loci-labs.ai"
+}

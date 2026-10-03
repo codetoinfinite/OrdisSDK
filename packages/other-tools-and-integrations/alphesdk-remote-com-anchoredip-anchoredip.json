@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AnchoredIP",
+  "description": "Dedicated static outbound IPv4 over WireGuard. Free 7-day trial, no card, no sales call.",
+  "packageName": "@alphesdk-remote/com-anchoredip-anchoredip",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.anchoredip.com/api/mcp/"
+    }
+  ],
+  "url": "https://anchoredip.com"
+}

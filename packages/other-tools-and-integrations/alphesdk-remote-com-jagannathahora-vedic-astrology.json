@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jagannatha Hora — Vedic Astrology (Jyotish, Kundli, Horoscope, Panchang)",
+  "description": "Vedic astrology (Jyotish): birth charts, divisional charts, dashas, yogas, transits, panchang",
+  "packageName": "@alphesdk-remote/com-jagannathahora-vedic-astrology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jagannatha-hora-359167915530.europe-west1.run.app/mcp"
+    }
+  ],
+  "url": "https://jagannathahora.com/api-mcp/mcp-usage"
+}

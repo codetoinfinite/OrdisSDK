@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "runitonai-mcp",
+  "description": "Read-only MCP connector serving the Run It on AI book; index and Implementation Blocks are free.",
+  "packageName": "@alphesdk-remote/io-github-structlabs-io-runitonai-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.runitonai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/StructLabs-io/runitonai-mcp",
+  "readme": "https://github.com/StructLabs-io/runitonai-mcp#readme"
+}

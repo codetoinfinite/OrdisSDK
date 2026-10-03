@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alexandre Caramaschi: cursos e aulas de GEO em português",
+  "description": "58 cursos gratuitos de GEO, SEO e IA em português: texto das aulas, busca com fonte e contato.",
+  "packageName": "@alphesdk-remote/com-alexandrecaramaschi-public-content",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alexandrecaramaschi.com/api/mcp"
+    }
+  ],
+  "url": "https://alexandrecaramaschi.com/developers.md"
+}

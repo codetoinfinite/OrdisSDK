@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Truss",
+  "description": "Public MCP for Truss, Pniel Cohen's development & consultancy business: overview, services, contact",
+  "packageName": "@alphesdk-remote/il-co-trus-truss",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trus.co.il/mcp"
+    }
+  ],
+  "url": "https://trus.co.il"
+}

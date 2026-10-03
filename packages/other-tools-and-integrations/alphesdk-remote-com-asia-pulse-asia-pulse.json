@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Asia Pulse",
+  "description": "Korea and Japan attention and market records for agents. Paid per call over x402.",
+  "packageName": "@alphesdk-remote/com-asia-pulse-asia-pulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asia-pulse.com/mcp"
+    }
+  ],
+  "url": "https://asia-pulse.com"
+}

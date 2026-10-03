@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Market Category Booster",
+  "description": "Maps a product description onto the category path of a marketplace taxonomy.",
+  "packageName": "@alphesdk-remote/com-market-category-booster-mcb",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://market-category-booster.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/sammyrulez/market-cat-booster",
+  "readme": "https://github.com/sammyrulez/market-cat-booster#readme"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "chatdev",
+  "name": "ChatDev 2.0 (DevAll)",
+  "description": "Zero-code multi-agent platform where agent teams are defined by configuration and launched from a web console.",
+  "category": "other-tools-and-integrations",
+  "tags": ["multi-agent", "zero-code", "orchestration", "workflow", "web-console"],
+  "repo": "https://github.com/OpenBMB/ChatDev",
+  "publisher": "OpenBMB",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Users pick or define a multi-agent workflow, upload any input files and enter a request such as a data visualisation or a small game. The earlier virtual software company version lives on in a legacy branch.",
+  "howItWorks": "A Python backend server executes configured agent workflows and a Vue front end provides the console with a Launch tab. It can also run through Docker Compose or be called by an OpenClaw instance through a skill.",
+  "requirements": [
+    {
+      "name": "Python 3.12+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Backend, managed with uv"
+    },
+    {
+      "name": "Node.js 18+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Front end"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Stored in a .env file in the project root"
+    }
+  ],
+  "install": ["uv sync", "cd frontend && npm install"],
+  "run": [
+    "uv run python server_main.py --port 6400 --reload",
+    "cd frontend",
+    "VITE_API_BASE_URL=http://localhost:6400 npm run dev"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 34434,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-24",
+    "checkedAt": "2026-10-03"
+  }
+}

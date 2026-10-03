@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "submitby.ai",
+  "description": "A software directory your agent submits to. Search, submit, verify, and manage listings through MCP.",
+  "packageName": "@alphesdk-remote/io-github-elijen-submitbyai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://submitby.ai/mcp"
+    }
+  ],
+  "url": "https://submitby.ai"
+}

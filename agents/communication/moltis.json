@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "moltis",
+  "name": "Moltis",
+  "description": "Self-hosted personal agent server in Rust with sandboxed command execution, memory, voice and chat channels like Telegram and Discord.",
+  "category": "communication",
+  "tags": ["personal-assistant", "rust", "sandbox", "messaging", "self-hosted"],
+  "repo": "https://github.com/moltis-org/moltis",
+  "homepage": "https://moltis.org",
+  "publisher": "Moltis",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Runs a private assistant on your own hardware that you reach from a web interface or messaging apps such as Telegram, Signal and Discord. It remembers context over time and can execute tasks in isolation.",
+  "howItWorks": "A single Rust binary hosts the agent loop, memory store and channel connectors, running tool commands inside sandboxes. It connects to MCP servers for tools and can drive or be driven by external agents over the Agent Client Protocol. Distribution is by install script, Homebrew, container image or cargo.",
+  "requirements": [
+    {
+      "name": "LLM provider credentials",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access configured in the application"
+    },
+    {
+      "name": "Container runtime",
+      "kind": "runtime",
+      "required": false,
+      "description": "Used for sandboxed execution"
+    }
+  ],
+  "install": ["brew install moltis-org/tap/moltis"],
+  "run": [],
+  "interfaces": ["web", "chat", "cli"],
+  "language": "Rust",
+  "models": "Multiple hosted and local providers",
+  "mcp": "client",
+  "github": {
+    "stars": 2884,
+    "license": "MIT",
+    "pushedAt": "2026-09-22",
+    "checkedAt": "2026-10-03"
+  }
+}

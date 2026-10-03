@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "duckduckbot",
+  "description": "Validate DuckDuckBot IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-duckduckbot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://duckduckbot.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/duckduckbot/"
+}

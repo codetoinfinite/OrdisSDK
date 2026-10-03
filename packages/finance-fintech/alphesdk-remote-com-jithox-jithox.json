@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Jithox payment preflight: check an invoice payment before your AI agent pays",
+  "description": "Call preflight_payment before an agent pays an invoice: approval, IBAN, bank change; signed, free.",
+  "packageName": "@alphesdk-remote/com-jithox-jithox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jithox.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/victor-emmanuel-c/jithox-mcp",
+  "readme": "https://github.com/victor-emmanuel-c/jithox-mcp#readme"
+}

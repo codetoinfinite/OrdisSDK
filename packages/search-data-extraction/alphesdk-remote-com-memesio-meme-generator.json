@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Memesio Meme Generator",
+  "description": "MCP server for meme generation, template search, caption rendering, and AI meme creation.",
+  "packageName": "@alphesdk-remote/com-memesio-meme-generator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://memesio.com/api/mcp"
+    }
+  ],
+  "url": "https://memesio.com/developers/mcp"
+}

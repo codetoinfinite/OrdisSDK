@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "audit.domains - Domain Valuation",
+  "description": "Deterministic domain name valuation: fair-value interval, scored factors, real comparable sales.",
+  "packageName": "@alphesdk-remote/domains-audit-appraisal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://audit.domains/mcp"
+    }
+  ],
+  "url": "https://audit.domains"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sigao Li — personal MCP server",
+  "description": "Read-only access to Sigao Li's profile, CV and case studies. Bilingual (EN/ZH).",
+  "packageName": "@alphesdk-remote/com-sigaoli-profile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sigaoli.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SigaoLi/SigaoLi.github.io",
+  "readme": "https://github.com/SigaoLi/SigaoLi.github.io#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Spain Legal by Legal Fournier",
+  "description": "Spain legal MCP for visas, residency, Beckham Law, NIE/TIE, nationality, tax, tools, and handoff.",
+  "packageName": "@alphesdk-remote/com-legalfournier-spain-legal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://legalfournier.com/mcp/spain-legal"
+    }
+  ],
+  "url": "https://legalfournier.com/en/mcp/spain-legal/"
+}

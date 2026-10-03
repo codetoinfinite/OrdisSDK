@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-memory",
+  "description": "Agent memory: free durable storage (any keypair, no signup) that survives sessions and machines.",
+  "packageName": "@alphesdk-remote/dev-veritap-agent-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://locker.veritap.dev/mcp/memory"
+    }
+  ],
+  "url": "https://github.com/veritap-dev/veritap-locker",
+  "readme": "https://github.com/veritap-dev/veritap-locker#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Module",
+  "description": "Deterministic compliance and vertical knowledge bases for autonomous agents. Free 24hr trial.",
+  "packageName": "@alphesdk-remote/dev-agent-module-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agent-module.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AgentModule/mcp",
+  "readme": "https://github.com/AgentModule/mcp#readme"
+}

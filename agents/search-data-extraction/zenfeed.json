@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "zenfeed",
+  "name": "zenfeed",
+  "description": "AI information hub: an RSS reader, a live news knowledge base and a watcher that reports on events you follow.",
+  "category": "search-data-extraction",
+  "tags": ["rss", "news", "summarisation", "monitoring", "self-hosted"],
+  "repo": "https://github.com/glidea/zenfeed",
+  "publisher": "glidea",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Collects feeds, summarises and tags items with an LLM, lets you query the resulting news store, and sends scheduled or event-triggered briefings. Documentation is primarily in Chinese.",
+  "howItWorks": "A Go service ingests RSS (including RSSHub sources), runs each item through LLM rewrite and labelling rules, stores it for semantic search and applies notification rules. It is deployed with Docker Compose and can be exposed to assistants through an MCP server.",
+  "requirements": [
+    {
+      "name": "API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM provider key passed to the compose stack"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the services"
+    }
+  ],
+  "install": [
+    "curl -L -O https://raw.githubusercontent.com/glidea/zenfeed/main/docker-compose.yml"
+  ],
+  "run": ["API_KEY=\"sk-...\" docker-compose -p zenfeed up -d"],
+  "interfaces": ["web", "api"],
+  "language": "Go",
+  "models": "OpenAI-compatible LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 1715,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-07-10",
+    "checkedAt": "2026-10-03"
+  }
+}

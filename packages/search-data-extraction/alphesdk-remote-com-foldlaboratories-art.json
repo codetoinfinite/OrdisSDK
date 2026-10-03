@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fold Laboratories Art Catalogue",
+  "description": "Original art from galleries and artists: semantic search, provenance, live availability.",
+  "packageName": "@alphesdk-remote/com-foldlaboratories-art",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.foldlaboratories.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Fold-Laboratories/art-marketplace",
+  "readme": "https://github.com/Fold-Laboratories/art-marketplace#readme"
+}

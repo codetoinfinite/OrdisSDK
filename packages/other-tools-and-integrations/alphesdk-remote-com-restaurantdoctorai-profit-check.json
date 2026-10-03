@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RestaurantDoctorAI Profit Check",
+  "description": "Free restaurant profit check: 12 multiple-choice questions, a grade, and the biggest money leak.",
+  "packageName": "@alphesdk-remote/com-restaurantdoctorai-profit-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://restaurantdoctorai.com/api/mcp"
+    }
+  ],
+  "url": "https://restaurantdoctorai.com/ai-assistants"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Muralists Directory",
+  "description": "Search the curated directory of professional muralists and street artists in Europe.",
+  "packageName": "@alphesdk-remote/eu-muralists-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.muralists.eu/mcp"
+    }
+  ],
+  "url": "https://muralists.eu"
+}

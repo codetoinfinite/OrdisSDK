@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vouchtrail",
+  "description": "Evidence-first trust verdicts for AI-agent services — query one before you transact.",
+  "packageName": "@alphesdk-remote/com-vouchtrail-vouchtrail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vouchtrail.com/mcp"
+    }
+  ],
+  "url": "https://vouchtrail.com"
+}

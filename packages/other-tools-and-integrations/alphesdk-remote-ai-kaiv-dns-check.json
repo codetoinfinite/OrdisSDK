@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "dns-check",
+  "description": "Live DNS lookups for agents: A/MX/TXT/SPF/CNAME/PTR with TTLs and DNSSEC, via Google Public DNS.",
+  "packageName": "@alphesdk-remote/ai-kaiv-dns-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaiv.ai/api/bridge/mcp/dns-check-e159a722"
+    }
+  ]
+}

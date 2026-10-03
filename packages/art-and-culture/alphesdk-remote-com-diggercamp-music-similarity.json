@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "diggercamp",
+  "description": "Find independent music by how it sounds: similar tracks and playlists from a track link.",
+  "packageName": "@alphesdk-remote/com-diggercamp-music-similarity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.diggercamp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tommasosavorana/diggercamp-mcp",
+  "readme": "https://github.com/tommasosavorana/diggercamp-mcp#readme"
+}

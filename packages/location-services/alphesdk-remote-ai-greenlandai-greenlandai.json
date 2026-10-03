@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GreenlandAI",
+  "description": "GreenlandAI: world graph & map (companies, deposits, commodities), marketplace, wallets, proofs.",
+  "packageName": "@alphesdk-remote/ai-greenlandai-greenlandai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.greenlandai.ai/mcp"
+    }
+  ],
+  "url": "https://greenlandai.ai"
+}

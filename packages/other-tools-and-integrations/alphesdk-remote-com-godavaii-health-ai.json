@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GoDavaii Health AI",
+  "description": "Free health AI: drug interaction checks, medicine facts and health questions in 90+ languages",
+  "packageName": "@alphesdk-remote/com-godavaii-health-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.godavaii.com/api/mcp"
+    }
+  ],
+  "url": "https://www.godavaii.com/mcp"
+}

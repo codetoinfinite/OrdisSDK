@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Proxylang website translation",
+  "description": "Translate a website into other languages from one script tag. Free trial, no signup.",
+  "packageName": "@alphesdk-remote/dev-proxylang-translate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proxylang.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Proxylang/skills",
+  "readme": "https://github.com/Proxylang/skills#readme"
+}

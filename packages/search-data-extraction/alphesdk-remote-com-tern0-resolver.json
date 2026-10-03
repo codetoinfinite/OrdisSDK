@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Tern",
+  "description": "Resolve capability gaps: validate native MCPs, search live web, and record unmet demand.",
+  "packageName": "@alphesdk-remote/com-tern0-resolver",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tern0.com/mcp"
+    }
+  ]
+}

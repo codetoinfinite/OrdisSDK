@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mueblito",
+  "description": "Diseño de muebles 3D para Argentina: cotización en ARS, despiece para la maderera y catálogo.",
+  "packageName": "@alphesdk-remote/ar-mueblito-mueblito",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mueblito.ar/api/mcp"
+    }
+  ],
+  "url": "https://github.com/marce1994/proyecto-mueblito",
+  "readme": "https://github.com/marce1994/proyecto-mueblito#readme"
+}

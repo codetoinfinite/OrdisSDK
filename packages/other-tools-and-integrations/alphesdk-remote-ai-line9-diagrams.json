@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Line9",
+  "description": "Render Mermaid with Line9 layout in your assistant.",
+  "packageName": "@alphesdk-remote/ai-line9-diagrams",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.line9.ai/mcp"
+    }
+  ],
+  "url": "https://line9.ai/mcp"
+}

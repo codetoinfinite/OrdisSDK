@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Deploy files, sites, and Dockerfile apps to live URLs + private drives for agent memory.",
+  "packageName": "@alphesdk-remote/ai-dataecho-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataecho.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/mohocp/dataecho",
+  "readme": "https://github.com/mohocp/dataecho#readme"
+}

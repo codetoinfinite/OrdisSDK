@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cattle-market",
+  "description": "Mercado ganadero argentino: INMAG, precios, dispersión, remates, directorio y valor de la hectárea.",
+  "packageName": "@alphesdk-remote/ar-com-consignatarias-cattle-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.consignatarias.com.ar/api/mcp"
+    }
+  ],
+  "url": "https://www.consignatarias.com.ar"
+}

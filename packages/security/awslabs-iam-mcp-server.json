@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "AWS IAM",
+  "description": "Manage IAM users, roles, groups and policies.",
+  "packageName": "awslabs.iam-mcp-server",
+  "packageVersion": "1.1.1",
+  "runtime": "python",
+  "readme": "https://awslabs.github.io/mcp/servers/iam-mcp-server/",
+  "url": "https://github.com/awslabs/mcp",
+  "author": "AWS (awslabs)",
+  "env": {
+    "AWS_PROFILE": {
+      "description": "AWS credentials profile",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS region",
+      "required": false
+    }
+  }
+}

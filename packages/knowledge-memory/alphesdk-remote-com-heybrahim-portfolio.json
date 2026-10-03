@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Brahim Bousnguar — portfolio",
+  "description": "Brahim Bousnguar's portfolio: profile, availability, case studies, notes, CV requests.",
+  "packageName": "@alphesdk-remote/com-heybrahim-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.heybrahim.com/mcp"
+    }
+  ],
+  "url": "https://heybrahim.com/ai.html#mcp"
+}

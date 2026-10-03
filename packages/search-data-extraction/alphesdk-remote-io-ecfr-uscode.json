@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "US Code Federal Statutes",
+  "description": "Search and read U.S. Code statutes with legal and inline citations linking to uscode.ecfr.io.",
+  "packageName": "@alphesdk-remote/io-ecfr-uscode",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://uscode.ecfr.io/mcp"
+    }
+  ],
+  "url": "https://github.com/lrehmann/uscode-mcp",
+  "readme": "https://github.com/lrehmann/uscode-mcp#readme"
+}

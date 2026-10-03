@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "pi",
+  "name": "Pi",
+  "description": "Minimal, extensible coding agent harness for the terminal that you customise with extensions, skills and prompt templates.",
+  "category": "coding-agents",
+  "tags": ["agent-harness", "terminal", "extensions", "skills", "sdk"],
+  "repo": "https://github.com/earendil-works/pi",
+  "homepage": "https://pi.dev",
+  "docs": "https://pi.dev/docs/latest",
+  "publisher": "Earendil",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Pi is a deliberately small coding agent that developers shape to their own workflow rather than a batteries-included product. It handles reading, editing and running code in a project. It can also be scripted or embedded in other tools.",
+  "howItWorks": "A compact core loop exposes a few basic tools, and everything else is added through extensions and skills. It runs interactively, in a print or JSON mode, over RPC, or through an SDK. There is no built-in permission system, so isolation is left to the user.",
+  "requirements": [
+    {
+      "name": "Node.js 22.19+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm install route"
+    },
+    {
+      "name": "Model provider login or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured with the in-app /login command"
+    }
+  ],
+  "install": ["npm install -g --ignore-scripts @earendil-works/pi-coding-agent"],
+  "run": ["cd /path/to/project", "pi"],
+  "interfaces": ["cli", "api", "library"],
+  "language": "TypeScript",
+  "models": "Many hosted providers and subscriptions",
+  "mcp": "none",
+  "github": {
+    "stars": 111865,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

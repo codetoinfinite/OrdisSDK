@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentPay — Pay-per-call AI Microservices",
+  "description": "34 pay-per-call AI microservices via x402, USDC on Base, no API keys.",
+  "packageName": "@alphesdk-remote/help-agentpay-agentpay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentpay.help/mcp"
+    }
+  ],
+  "url": "https://github.com/ronaldanton/x402-shop",
+  "readme": "https://github.com/ronaldanton/x402-shop#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Email List — Free SMTP Relay for AI Agents",
+  "description": "Free transactional email + SMTP relay. Agents self-signup, no API key needed to start.",
+  "packageName": "@alphesdk-remote/com-agentemaillist-ai-free-transactional-email-smtp-relay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.agentemaillist.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lbesecker195/AI-Agent-Email-List",
+  "readme": "https://github.com/lbesecker195/AI-Agent-Email-List#readme"
+}

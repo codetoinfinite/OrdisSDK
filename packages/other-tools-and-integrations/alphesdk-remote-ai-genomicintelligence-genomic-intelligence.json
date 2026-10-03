@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Genomic Intelligence",
+  "description": "Hosted DNA language models: promoter, splice, enhancer, chromatin, expression, annotation",
+  "packageName": "@alphesdk-remote/ai-genomicintelligence-genomic-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.genomicintelligence.ai/mcp"
+    }
+  ],
+  "url": "https://genomicintelligence.ai"
+}

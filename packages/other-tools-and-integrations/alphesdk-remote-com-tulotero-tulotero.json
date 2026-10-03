@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TuLotero",
+  "description": "Resultados, botes, reglas y comprobación de premios de las loterías del Estado (España).",
+  "packageName": "@alphesdk-remote/com-tulotero-tulotero",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tulotero.com/mcp"
+    }
+  ],
+  "url": "https://mcp.tulotero.com"
+}

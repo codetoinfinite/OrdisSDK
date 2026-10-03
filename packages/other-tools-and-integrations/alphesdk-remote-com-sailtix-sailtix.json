@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sailtix",
+  "description": "Ferry and fast-boat schedules, seats and fares, boat and fishing charters across Indonesia.",
+  "packageName": "@alphesdk-remote/com-sailtix-sailtix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sailtix.com/mcp"
+    }
+  ],
+  "url": "https://sailtix.com"
+}

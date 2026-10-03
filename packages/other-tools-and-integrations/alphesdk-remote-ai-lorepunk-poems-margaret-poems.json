@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Margaret's poems",
+  "description": "Poems by Margaret Corvid (@lorepunk). Read, share, or commission a new one; she writes each by hand.",
+  "packageName": "@alphesdk-remote/ai-lorepunk-poems-margaret-poems",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://poems.lorepunk.ai/mcp"
+    }
+  ],
+  "url": "https://poems.lorepunk.ai"
+}

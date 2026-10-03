@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OpenMapp",
+  "description": "Find US BJJ gyms with weekly schedules, open mats, and visitor drop-in prices.",
+  "packageName": "@alphesdk-remote/com-openmapp-openmapp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.openmapp.com/mcp"
+    }
+  ],
+  "url": "https://www.openmapp.com/mcp"
+}

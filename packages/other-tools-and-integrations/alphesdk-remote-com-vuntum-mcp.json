@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vuntum",
+  "description": "Sourced, dated data on consumer robots and physical AI: specs, prices, availability, evidence.",
+  "packageName": "@alphesdk-remote/com-vuntum-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vuntum.com/mcp"
+    }
+  ],
+  "url": "https://github.com/RAAAAAGEEEEE/vuntum-mcp",
+  "readme": "https://github.com/RAAAAAGEEEEE/vuntum-mcp#readme"
+}

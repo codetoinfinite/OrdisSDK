@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "morphic",
+  "name": "Morphic",
+  "description": "AI search engine that returns grounded, cited answers rendered with a generative UI.",
+  "category": "search-data-extraction",
+  "tags": ["ai-search", "generative-ui", "answer-engine", "nextjs"],
+  "repo": "https://github.com/miurla/morphic",
+  "publisher": "miurla",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets users ask questions and get cited answers with rich inline components such as images and grids. It supports quick and adaptive search modes, chat history, sharing and file upload, for people who want to self-host an answer engine.",
+  "howItWorks": "A Next.js app calls an LLM with search tools backed by Tavily, SearXNG, Brave or Exa, and streams a JSON spec that the front end renders as UI components. Chat history is stored in PostgreSQL and authentication can use Supabase. It ships a Docker image and compose file.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM access (other providers can be configured)"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search"
+    },
+    {
+      "name": "Docker or Bun",
+      "kind": "runtime",
+      "required": true,
+      "description": "Docker Compose for deployment or Bun for local development"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/miurla/morphic.git",
+    "cd morphic",
+    "cp .env.local.example .env.local"
+  ],
+  "run": ["docker compose up -d"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "framework": "Vercel AI SDK",
+  "models": "OpenAI, Anthropic, Google, Ollama, Vercel AI Gateway, OpenAI-compatible providers",
+  "mcp": "none",
+  "github": {
+    "stars": 9151,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

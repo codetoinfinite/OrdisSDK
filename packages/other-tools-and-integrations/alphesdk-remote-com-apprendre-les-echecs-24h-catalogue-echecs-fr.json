@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Catalogue APP24, formations d'échecs en français",
+  "description": "94 formations d'échecs en français, prix à jour, conseil d'entraîneur. French chess courses.",
+  "packageName": "@alphesdk-remote/com-apprendre-les-echecs-24h-catalogue-echecs-fr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apprendre-les-echecs-24h.com/"
+    }
+  ],
+  "url": "https://boutique.apprendre-les-echecs-24h.com/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Calera FINSEC — Certified SEC Memory",
+  "description": "Certified SEC EDGAR fact memory for AI agents with zero hallucination and filing provenance.",
+  "packageName": "@alphesdk-remote/io-github-caseyyahbara-finsec",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finsec.caleralabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Calera-Labs/finsec-mcp",
+  "readme": "https://github.com/Calera-Labs/finsec-mcp#readme"
+}

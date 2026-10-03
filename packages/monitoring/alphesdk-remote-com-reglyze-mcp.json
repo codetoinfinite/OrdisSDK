@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "NIS2 tools: scope check, EU transposition, incident deadlines, and your own org's status (token).",
+  "packageName": "@alphesdk-remote/com-reglyze-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.reglyze.com/mcp"
+    }
+  ],
+  "url": "https://reglyze.com/en/mcp"
+}

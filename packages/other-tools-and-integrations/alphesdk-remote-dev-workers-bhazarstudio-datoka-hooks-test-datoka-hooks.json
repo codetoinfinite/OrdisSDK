@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Datoka Hooks",
+  "description": "Public webhook relay with signed observations, retries and verified receivers. Self-service beta.",
+  "packageName": "@alphesdk-remote/dev-workers-bhazarstudio-datoka-hooks-test-datoka-hooks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datoka-hooks-test.bhazarstudio.workers.dev/mcp"
+    }
+  ],
+  "url": "https://datoka-hooks-test.bhazarstudio.workers.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "foodose GLP-1 nutrition",
+  "description": "GLP-1 calorie and protein targets with a dose aware appetite ceiling, plus food and recipe search.",
+  "packageName": "@alphesdk-remote/co-foodose-glp1-nutrition",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.foodose.co/mcp"
+    }
+  ],
+  "url": "https://github.com/bajwavikram/foodose",
+  "readme": "https://github.com/bajwavikram/foodose#readme"
+}

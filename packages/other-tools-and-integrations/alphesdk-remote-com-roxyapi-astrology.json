@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Western Astrology MCP Server by RoxyAPI",
+  "description": "Western natal charts, horoscopes, transits and synastry for AI agents, verified vs NASA JPL.",
+  "packageName": "@alphesdk-remote/com-roxyapi-astrology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/astrology"
+    }
+  ],
+  "url": "https://roxyapi.com/products/astrology-api"
+}

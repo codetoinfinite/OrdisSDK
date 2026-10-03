@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RateAPI — live US mortgage, auto, HELOC, personal & deposit rates",
+  "description": "Live US mortgage, auto, HELOC, personal & deposit rates with evidence, plus who can join each lender",
+  "packageName": "@alphesdk-remote/dev-rateapi-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rateapi.dev/mcp"
+    }
+  ],
+  "url": "https://rateapi.dev/mcp"
+}

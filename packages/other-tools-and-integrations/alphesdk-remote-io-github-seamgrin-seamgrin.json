@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Seamgrin",
+  "description": "Find alterations, free tailor training, and paid work opportunities for experienced tailors.",
+  "packageName": "@alphesdk-remote/io-github-seamgrin-seamgrin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://seamgrin.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Seamgrin/dubdubdub",
+  "readme": "https://github.com/Seamgrin/dubdubdub#readme"
+}

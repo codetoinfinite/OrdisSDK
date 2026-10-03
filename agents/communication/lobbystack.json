@@ -1,0 +1,65 @@
+{
+  "type": "external-agent",
+  "key": "lobbystack",
+  "name": "LobbyStack",
+  "description": "Self-hostable AI phone receptionist that answers calls, books appointments, transfers callers and handles text messages.",
+  "category": "communication",
+  "tags": ["phone", "receptionist", "voice", "scheduling", "sms"],
+  "repo": "https://github.com/lobbystack/lobbystack",
+  "homepage": "https://lobbystack.com",
+  "docs": "https://docs.lobbystack.com",
+  "publisher": "LobbyStack",
+  "publisherType": "company",
+  "official": false,
+  "whatItDoes": "Picks up inbound calls for a small business, answers common questions, schedules appointments on a calendar and hands off to a person when needed. Staff get a dashboard with call history and an SMS inbox.",
+  "howItWorks": "Calls arrive through a Twilio SIP trunk and are handled by a realtime OpenAI voice model with tools for calendar booking and call transfer. A TypeScript application backed by PostgreSQL and Redis provides the dashboard and webhooks. Business knowledge can be gathered from the company website.",
+  "requirements": [
+    {
+      "name": "Docker and pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install and start the stack"
+    },
+    {
+      "name": "Twilio account",
+      "kind": "account",
+      "required": true,
+      "description": "Phone numbers and SIP trunk, including TWILIO_SIP_TRUNK_SID"
+    },
+    {
+      "name": "OpenAI account",
+      "kind": "api-key",
+      "required": true,
+      "description": "Voice model access, including OPENAI_WEBHOOK_SECRET"
+    },
+    {
+      "name": "GOOGLE_CLIENT_ID",
+      "kind": "account",
+      "required": false,
+      "description": "Google OAuth credentials for calendar booking, with GOOGLE_CLIENT_SECRET"
+    },
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Website crawling for the knowledge base"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/lobbystack/lobbystack.git",
+    "cd lobbystack",
+    "pnpm install",
+    "cp .env.example .env"
+  ],
+  "run": ["docker compose --env-file .env up -d --build"],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "OpenAI realtime voice models",
+  "mcp": "none",
+  "github": {
+    "stars": 34,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

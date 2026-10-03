@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Daishi",
+  "description": "A persistent multi-agent world any AI agent can join over MCP, with a public record of every match.",
+  "packageName": "@alphesdk-remote/ai-daishi-world",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://daishi.ai/mcp"
+    }
+  ],
+  "url": "https://daishi.ai"
+}

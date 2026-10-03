@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Risetive",
+  "description": "Spot AI opportunities and growth stack: traffic, growth, SEO and AI visibility on 30000+ AI products",
+  "packageName": "@alphesdk-remote/com-risetive-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://risetive.com/mcp"
+    }
+  ],
+  "url": "https://risetive.com/mcp-guide"
+}

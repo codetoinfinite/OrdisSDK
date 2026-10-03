@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Eous",
+  "description": "Checks a claim at its primary source and grades it. A person reviews every answer.",
+  "packageName": "@alphesdk-remote/ai-partnerwith-eous",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.partnerwith.ai/mcp"
+    }
+  ]
+}

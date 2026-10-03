@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bio-catalyst",
+  "description": "Verified biotech catalyst calendar (PDUFA/AdComm/trial readouts) anchored to official sources.",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-bio-catalyst",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://biocatalyst.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://biocatalyst.dropwatchhq.com"
+}

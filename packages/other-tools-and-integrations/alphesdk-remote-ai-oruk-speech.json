@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "oruk Speech",
+  "description": "Hosted speech-to-text + speech emotion/tone analysis for agents. No install; trial keys built in.",
+  "packageName": "@alphesdk-remote/ai-oruk-speech",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oruk.ai/mcp"
+    }
+  ],
+  "url": "https://oruk.ai/docs/mcp"
+}

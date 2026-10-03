@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Search Avva for an expert, then connect their model - judgment from real past decisions.",
+  "packageName": "@alphesdk-remote/chat-avva-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://avva.chat/mcp-catalog"
+    }
+  ],
+  "url": "https://avva.chat"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RQM WaveEngine Jobs",
+  "description": "Delegate 20 typed, evidence-backed WaveEngine signal work products with fixed-request x402.",
+  "packageName": "@alphesdk-remote/com-rqmtechnologies-waveengine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobs.rqmtechnologies.com/mcp/waveengine"
+    }
+  ],
+  "url": "https://github.com/RQM-Technologies-dev/RQM-Jobs-MCP",
+  "readme": "https://github.com/RQM-Technologies-dev/RQM-Jobs-MCP#readme"
+}

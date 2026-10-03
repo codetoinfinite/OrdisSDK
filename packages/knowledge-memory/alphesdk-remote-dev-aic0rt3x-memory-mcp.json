@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AI Cortex Storage",
+  "description": "Persistent cloud memory for AI agents. Store and search key-value memories across sessions.",
+  "packageName": "@alphesdk-remote/dev-aic0rt3x-memory-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://memory.aic0rt3x.dev/mcp"
+    }
+  ]
+}

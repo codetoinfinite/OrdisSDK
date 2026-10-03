@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crossave import duty & VAT",
+  "description": "EU import duty & VAT calculator (rules since 1 July 2026), real shop origins and shipping rates.",
+  "packageName": "@alphesdk-remote/io-github-crossave-crossave-dazi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crossave.com/mcp"
+    }
+  ],
+  "url": "https://crossave.com"
+}

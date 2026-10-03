@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Weather Markets Edge Desk",
+  "description": "Kalshi weather markets: live daily-high temperature edges, plus EV, Kelly and base-rate tools.",
+  "packageName": "@alphesdk-remote/com-predictionmarketspicks-weather",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predictionmarketspicks.com/api/mcp-weather/mcp"
+    }
+  ],
+  "url": "https://github.com/predictionmarketspicks/mcp",
+  "readme": "https://github.com/predictionmarketspicks/mcp#readme"
+}

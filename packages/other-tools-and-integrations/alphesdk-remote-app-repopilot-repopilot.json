@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RepoPilot",
+  "description": "Repository evidence for agents before they adopt dependencies, enter codebases, compare, or merge.",
+  "packageName": "@alphesdk-remote/app-repopilot-repopilot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://repopilot.app/api/mcp"
+    }
+  ],
+  "url": "https://repopilot.app"
+}

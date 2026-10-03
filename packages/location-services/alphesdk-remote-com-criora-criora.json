@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Criora climate risk",
+  "description": "Climate and disaster risk for any place: 7-day weather risk, hazards, climate profile, country risk.",
+  "packageName": "@alphesdk-remote/com-criora-criora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://criora.com/mcp"
+    }
+  ],
+  "url": "https://criora.com/docs/references/api-and-agents"
+}

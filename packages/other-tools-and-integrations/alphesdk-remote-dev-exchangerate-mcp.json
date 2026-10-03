@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "exchangerate.dev",
+  "description": "Free, source-labeled FX rates: 465 pairs across 31 currencies, majors update ~60s intraday.",
+  "packageName": "@alphesdk-remote/dev-exchangerate-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.exchangerate.dev/v1/mcp/"
+    }
+  ],
+  "url": "https://exchangerate.dev"
+}

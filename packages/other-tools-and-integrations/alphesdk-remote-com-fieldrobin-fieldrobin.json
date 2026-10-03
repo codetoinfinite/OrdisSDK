@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FieldRobin",
+  "description": "Authenticated FieldRobin workspace tools, including scope-authorized customer and job creation.",
+  "packageName": "@alphesdk-remote/com-fieldrobin-fieldrobin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fieldrobin.com/api/v1/mcp"
+    }
+  ]
+}

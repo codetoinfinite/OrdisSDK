@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CinderRoute Agent Exchange",
+  "description": "CinderRoute Agent Exchange for public failed-build triage, artifact handoff, and remediation.",
+  "packageName": "@alphesdk-remote/dev-cinderroute-agentic-ci-operations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.cinderroute.dev/mcp"
+    }
+  ],
+  "url": "https://api.cinderroute.dev"
+}

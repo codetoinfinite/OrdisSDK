@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GreenLight - Plug-in Solar Law Registry",
+  "description": "US plug-in solar (balcony solar) law registry with a daily UL 3700 certification watch.",
+  "packageName": "@alphesdk-remote/ai-agentlookups-greenlight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://solar.agentlookups.ai/mcp"
+    }
+  ],
+  "url": "https://solar.agentlookups.ai"
+}

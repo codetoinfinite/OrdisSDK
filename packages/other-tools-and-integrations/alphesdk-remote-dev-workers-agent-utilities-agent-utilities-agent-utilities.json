@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Utilities Hosted",
+  "description": "Wikipedia reading, page text and links for AI agents. Free trials; paid calls from $0.0003.",
+  "packageName": "@alphesdk-remote/dev-workers-agent-utilities-agent-utilities-agent-utilities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-utilities.agent-utilities.workers.dev/mcp/remote"
+    }
+  ],
+  "url": "https://agent-utilities.agent-utilities.workers.dev/integrations/agents?utm_source=mcp-registry"
+}

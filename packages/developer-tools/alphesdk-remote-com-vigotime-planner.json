@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "planner",
+  "description": "Compute real duty rosters from your AI assistant - rule-based vigotime planner, API key or OAuth.",
+  "packageName": "@alphesdk-remote/com-vigotime-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vigotime.com/mcp"
+    }
+  ],
+  "url": "https://developer.vigotime.com"
+}

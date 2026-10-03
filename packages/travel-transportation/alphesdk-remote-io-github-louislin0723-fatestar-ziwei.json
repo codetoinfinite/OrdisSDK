@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FateStar Ziwei",
+  "description": "Zi Wei Dou Shu for AI agents: free natal charts, six transit levels, and optional readings.",
+  "packageName": "@alphesdk-remote/io-github-louislin0723-fatestar-ziwei",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fatestar.top/api/mcp"
+    }
+  ],
+  "url": "https://github.com/LouisLin0723/fatestar-ziwei",
+  "readme": "https://github.com/LouisLin0723/fatestar-ziwei#readme"
+}

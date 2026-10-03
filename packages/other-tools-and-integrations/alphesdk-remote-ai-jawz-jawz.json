@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jawz",
+  "description": "Live macro data for AI agents: regime, conditions, liquidity, with input provenance. No signup.",
+  "packageName": "@alphesdk-remote/ai-jawz-jawz",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jawz.ai/api/mcp"
+    }
+  ],
+  "url": "https://jawz.ai"
+}

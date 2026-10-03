@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Orbitwren",
+  "description": "Orbital data center & space AI compute tracker MCP: projects, launches, orbits, alerts. 100 free/day",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-orbitwren",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://orbitwren.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/apis/orbital-data-center-api/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "dMoERA Creator",
+  "description": "Build, backtest, and deploy crypto trading strategies via MCP with 7-stage validation.",
+  "packageName": "@alphesdk-remote/io-github-cachecarti-dmoera-creator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dmoera.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/CacheCarti/dmoera-mcp",
+  "readme": "https://github.com/CacheCarti/dmoera-mcp#readme"
+}

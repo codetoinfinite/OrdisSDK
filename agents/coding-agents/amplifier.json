@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "amplifier",
+  "name": "Amplifier",
+  "description": "Microsoft's modular AI development assistant CLI, an early research preview assembled from swappable bundles.",
+  "category": "coding-agents",
+  "tags": ["coding", "modular", "cli", "research-preview"],
+  "repo": "https://github.com/microsoft/amplifier",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Amplifier answers questions and performs development work from the terminal, in one-shot or chat mode. Microsoft describes it as an experimental demonstrator without safety systems yet, to be used with supervision.",
+  "howItWorks": "A small core loads bundles that supply providers, tools and behaviours, so capabilities can be added or replaced. A first-run wizard configures the model provider.",
+  "requirements": [
+    {
+      "name": "LLM provider credentials",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic, OpenAI, Azure OpenAI key, or a local Ollama"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install the tool"
+    }
+  ],
+  "install": ["uv tool install git+https://github.com/microsoft/amplifier"],
+  "run": ["amplifier init", "amplifier run \"Explain async/await in Python\"", "amplifier"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Anthropic, OpenAI, Azure OpenAI, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 3129,
+    "license": "MIT",
+    "pushedAt": "2026-09-19",
+    "checkedAt": "2026-10-03"
+  }
+}

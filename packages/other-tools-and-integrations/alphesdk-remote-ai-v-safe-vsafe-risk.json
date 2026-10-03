@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "vsafe-risk",
+  "description": "KYB risk scores for Israeli companies: sanctions, insolvency, adverse media, cyber, registry.",
+  "packageName": "@alphesdk-remote/ai-v-safe-vsafe-risk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.v-safe.ai/mcp"
+    }
+  ]
+}

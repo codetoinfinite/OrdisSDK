@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fakturai — German E-Invoice (ZUGFeRD / Factur-X / E-Rechnung)",
+  "description": "KoSIT-verified German e-invoices: generate & validate ZUGFeRD, Factur-X, XRechnung, EN 16931.",
+  "packageName": "@alphesdk-remote/de-fakturai-erechnung",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fakturai.de/mcp"
+    }
+  ],
+  "url": "https://fakturai.de"
+}

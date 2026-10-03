@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Voxjobs (Portugal)",
+  "description": "Job listings in Portugal: search, salary statistics, comparables and companies.",
+  "packageName": "@alphesdk-remote/eu-voxs-voxjobs-pt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.voxjobs.pt/api/mcp"
+    }
+  ],
+  "url": "https://www.voxjobs.pt/"
+}

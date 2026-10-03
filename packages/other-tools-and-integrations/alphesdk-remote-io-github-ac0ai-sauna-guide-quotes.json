@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sauna Guide Quotes",
+  "description": "Prepare and submit private home sauna quote requests only after explicit user approval.",
+  "packageName": "@alphesdk-remote/io-github-ac0ai-sauna-guide-quotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sauna.guide/mcp"
+    }
+  ],
+  "url": "https://sauna.guide/integrations/sauna-guide-quotes"
+}

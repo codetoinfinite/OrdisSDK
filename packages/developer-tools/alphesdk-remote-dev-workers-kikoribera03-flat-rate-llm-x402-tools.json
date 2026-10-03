@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "x402-tools",
+  "description": "61 x402 pay-per-call tools that chain: each answer names the next call. No API key, no account.",
+  "packageName": "@alphesdk-remote/dev-workers-kikoribera03-flat-rate-llm-x402-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flat-rate-llm.kikoribera03.workers.dev/mcp"
+    }
+  ],
+  "url": "https://flat-rate-llm.kikoribera03.workers.dev/"
+}

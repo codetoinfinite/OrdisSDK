@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Frontier",
+  "description": "Discover Frontier inference capabilities and read sanitized usage through read-only tools.",
+  "packageName": "@alphesdk-remote/dev-openfrontier-frontier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openfrontier.dev/mcp"
+    }
+  ],
+  "url": "https://openfrontier.dev/docs"
+}

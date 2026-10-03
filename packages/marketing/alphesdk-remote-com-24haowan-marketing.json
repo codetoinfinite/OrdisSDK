@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "24好玩 · 互动营销模板与案例库",
+  "description": "检索 24好玩 H5 互动营销平台的活动模板库、客户案例库与帮助知识库。匿名只读，无需 API Key。",
+  "packageName": "@alphesdk-remote/com-24haowan-marketing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.24haowan.com/mcp"
+    }
+  ],
+  "url": "https://mcp.24haowan.com/"
+}

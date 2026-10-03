@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Elron Club Public Rentals",
+  "description": "Search Elron Club furnished apartments, availability, prices, details, and rental applications.",
+  "packageName": "@alphesdk-remote/club-elron-public-rentals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elron.club/api/agent/public/mcp"
+    }
+  ]
+}

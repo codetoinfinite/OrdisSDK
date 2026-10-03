@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "iPayX FX Audit",
+  "description": "Forensic FX audit. Detects hidden bank markups in real time. Returns spread bps + audit score 1-10.",
+  "packageName": "@alphesdk-remote/io-github-ipayx-stellar-fx-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wild-bird-a412.ybolduc.workers.dev/mcp"
+    }
+  ]
+}

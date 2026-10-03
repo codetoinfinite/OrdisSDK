@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Drone Intelligence",
+  "description": "Drone-sector market intelligence for AI agents: free briefings and profiles, licenced tracker data.",
+  "packageName": "@alphesdk-remote/ai-droneintelligence-drone-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://droneintelligence.ai/api/mcp"
+    }
+  ],
+  "url": "https://droneintelligence.ai/mcp"
+}

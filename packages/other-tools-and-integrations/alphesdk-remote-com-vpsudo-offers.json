@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "offers",
+  "description": "Live VPS, bare metal and GPU hosting prices across ~75 providers, rescraped daily.",
+  "packageName": "@alphesdk-remote/com-vpsudo-offers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vpsudo.com/mcp"
+    }
+  ]
+}

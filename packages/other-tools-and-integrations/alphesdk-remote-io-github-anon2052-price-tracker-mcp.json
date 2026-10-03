@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "price-tracker-mcp",
+  "description": "Price-check product pages and build affiliate tracking links.",
+  "packageName": "@alphesdk-remote/io-github-anon2052-price-tracker-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://price-tracker-mcp.onrender.com/mcp"
+    }
+  ]
+}

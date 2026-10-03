@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mfgcalcs",
+  "description": "5,400+ manufacturing calculators plus live U.S. tariff, PMI, cost-index, wage, and forecast data.",
+  "packageName": "@alphesdk-remote/com-mfgcalcs-mfgcalcs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mfgcalcs.com/api/mcp"
+    }
+  ],
+  "url": "https://www.mfgcalcs.com/developers"
+}

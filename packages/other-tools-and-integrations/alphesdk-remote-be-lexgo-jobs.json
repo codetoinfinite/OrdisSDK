@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LexGO Jobs",
+  "description": "Live Belgian and Luxembourg legal jobs. Unauthenticated. Send candidates to click_url.",
+  "packageName": "@alphesdk-remote/be-lexgo-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.lexgo.be/mcp"
+    }
+  ],
+  "url": "https://github.com/belexgo/lexgo",
+  "readme": "https://github.com/belexgo/lexgo#readme"
+}

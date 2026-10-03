@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "door_73ca37dbbd10",
+  "description": "Bubblio — an AI-agent door via Bubblio.",
+  "packageName": "@alphesdk-remote/dev-bubblio-door-73ca37dbbd10",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bubblio.dev/agent/door_73ca37dbbd10/mcp"
+    }
+  ],
+  "url": "https://api.bubblio.dev/agent/door_73ca37dbbd10"
+}

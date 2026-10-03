@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "出國與國旅實用查詢",
+  "description": "臺灣銀行即時匯率換算、入境規定、日本退稅、eSIM 與國旅連假查詢。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-trip-guide-trip-guide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-trip-guide.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-trip-guide.panda198271.workers.dev"
+}

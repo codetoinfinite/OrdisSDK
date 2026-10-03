@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "link-followability",
+  "description": "Check if a link on a live page is followable: rel tokens, meta robots and X-Robots-Tag",
+  "packageName": "@alphesdk-remote/com-handsofflinks-link-followability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://handsofflinks-mcp.lipmichal.workers.dev"
+    }
+  ],
+  "url": "https://handsofflinks.com/"
+}

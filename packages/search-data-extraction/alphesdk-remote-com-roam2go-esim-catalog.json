@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Roam2Go eSIM Catalog",
+  "description": "Search travel eSIM data plans for 230+ destinations with live prices and purchase links.",
+  "packageName": "@alphesdk-remote/com-roam2go-esim-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roam2go.com/wp-json/r2g-mcp/v1/mcp"
+    }
+  ],
+  "url": "https://roam2go.com"
+}

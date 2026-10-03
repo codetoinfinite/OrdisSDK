@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Mastermindset",
+  "description": "A 16-pillar map of health, wealth and happiness, plus the mindset archetypes.",
+  "packageName": "@alphesdk-remote/com-themastermindset-themastermindset",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://themastermindset.com/api/mcp"
+    }
+  ],
+  "url": "https://themastermindset.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Reliability",
+  "description": "Testing, benchmarking and auditing autonomous AI agents — methods, harnesses, evidence",
+  "packageName": "@alphesdk-remote/dev-agentreliability-agent-reliability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentreliability.dev/mcp?via=manifest"
+    }
+  ],
+  "url": "https://github.com/citarium/agentreliability-mcp",
+  "readme": "https://github.com/citarium/agentreliability-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hosco Hospitality Jobs",
+  "description": "Search Hosco's live hospitality jobs across Spain, Italy, France, the UK and Switzerland.",
+  "packageName": "@alphesdk-remote/com-hosco-hospitality-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hosco.com/mcp/public"
+    }
+  ],
+  "url": "https://www.hosco.com"
+}

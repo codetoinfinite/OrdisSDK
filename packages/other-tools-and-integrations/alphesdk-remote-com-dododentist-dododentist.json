@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DodoDentist Dental Clinic",
+  "description": "See your dental clinic's free slots, dentists, treatment prices and how busy each day is.",
+  "packageName": "@alphesdk-remote/com-dododentist-dododentist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dododentist.com/mcp"
+    }
+  ],
+  "url": "https://www.dododentist.com/developers/#mcp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "dify",
+  "name": "Dify",
+  "description": "LLM app platform combining visual workflows, a RAG pipeline and autonomous agents, self-hosted with Docker Compose.",
+  "category": "other-tools-and-integrations",
+  "tags": ["agent-platform", "workflow", "rag", "low-code", "self-hosted"],
+  "repo": "https://github.com/langgenius/dify",
+  "homepage": "https://cloud.dify.ai",
+  "docs": "https://docs.dify.ai/getting-started/install-self-hosted",
+  "publisher": "LangGenius",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets teams build and operate chat apps, RAG pipelines and agents through a visual interface, with model management and observability. It is for developers moving LLM applications from prototype to production.",
+  "howItWorks": "A web console and API server orchestrate workflows, knowledge retrieval and agents that can use tools and a sandbox. Models and tools are added through the console. The licence is Apache 2.0 with extra conditions that restrict multi-tenant hosting and logo removal.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Docker and Docker Compose; at least 2 CPU cores and 4 GiB RAM"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model credentials configured in the console"
+    }
+  ],
+  "install": ["cd dify", "cd docker", "cp .env.example .env"],
+  "run": ["docker compose up -d"],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Most hosted and self-hosted LLM providers",
+  "mcp": "both",
+  "github": {
+    "stars": 157743,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Scrappa",
+  "description": "Scraping API for Google Search, Maps, Flights, Jobs, YouTube, LinkedIn, Trustpilot and more.",
+  "packageName": "@alphesdk-remote/co-scrappa-scrappa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrappa.co/mcp"
+    }
+  ],
+  "url": "https://scrappa.co/docs/mcp-integration"
+}

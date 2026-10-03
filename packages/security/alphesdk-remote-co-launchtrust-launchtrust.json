@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LaunchTrust",
+  "description": "Compliance & security scan for your app: secrets, exposed files, headers, privacy, AI-disclosure.",
+  "packageName": "@alphesdk-remote/co-launchtrust-launchtrust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.launchtrust.co/mcp"
+    }
+  ],
+  "url": "https://github.com/mustafasalimerek-bit/launchtrust-mcp",
+  "readme": "https://github.com/mustafasalimerek-bit/launchtrust-mcp#readme"
+}

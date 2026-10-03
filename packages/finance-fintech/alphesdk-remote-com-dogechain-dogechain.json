@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dogechain",
+  "description": "Dogecoin blockchain lookups: transactions explained, addresses, blocks, fees, supply and charts.",
+  "packageName": "@alphesdk-remote/com-dogechain-dogechain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dogechain.com/mcp"
+    }
+  ],
+  "url": "https://dogechain.com"
+}

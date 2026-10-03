@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SPLIDIA — operational notes and capabilities",
+  "description": "Fibre optics, OTDR, network design and data centre notes from SPLIDIA, plus its service catalogue.",
+  "packageName": "@alphesdk-remote/com-splidia-notes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.splidia.com/mcp"
+    }
+  ],
+  "url": "https://splidia.com"
+}

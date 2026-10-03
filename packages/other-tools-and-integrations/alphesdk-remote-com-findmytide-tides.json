@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Find My Tide",
+  "description": "Tide times and heights for about 4,600 US and Canadian stations. Not for navigation.",
+  "packageName": "@alphesdk-remote/com-findmytide-tides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.findmytide.com/mcp"
+    }
+  ],
+  "url": "https://findmytide.com/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "business-oss",
+  "description": "Verified business OSS MCP for search, RSS, crawling, documents, browser, media and transcription.",
+  "packageName": "@alphesdk-remote/io-github-eshwarravula-business-oss",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onekivo.vercel.app/api/business-oss/mcp"
+    }
+  ],
+  "url": "https://github.com/Eshwarravula/OneKivo",
+  "readme": "https://github.com/Eshwarravula/OneKivo#readme"
+}

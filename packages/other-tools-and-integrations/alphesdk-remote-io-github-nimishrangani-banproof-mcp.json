@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BanProof AI",
+  "description": "Audit creator scripts for TikTok Shop and Amazon policy violations. Returns flags and safe rewrites.",
+  "packageName": "@alphesdk-remote/io-github-nimishrangani-banproof-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://banproof.io/mcp"
+    }
+  ],
+  "url": "https://github.com/NimishRangani/banproof-mcp",
+  "readme": "https://github.com/NimishRangani/banproof-mcp#readme"
+}

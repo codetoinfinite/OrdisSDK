@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AnywhereRoles remote jobs",
+  "description": "Remote job search as MCP tools: jobs, companies, categories, salaries. Links to original postings.",
+  "packageName": "@alphesdk-remote/com-anywhereroles-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://anywhereroles.com/mcp"
+    }
+  ],
+  "url": "https://anywhereroles.com/developers"
+}

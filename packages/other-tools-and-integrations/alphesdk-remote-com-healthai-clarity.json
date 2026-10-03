@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Clarity by Health AI",
+  "description": "Condition-aware ingredient and product checks for agents, with evidence tiers and citations.",
+  "packageName": "@alphesdk-remote/com-healthai-clarity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.healthai.com"
+    }
+  ],
+  "url": "https://github.com/healthai-hq/clarity-project",
+  "readme": "https://github.com/healthai-hq/clarity-project#readme"
+}

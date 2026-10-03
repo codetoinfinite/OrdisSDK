@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "memory-custom",
+  "packageName": "github:bro3886/mcp-memory-custom#a965b83d63321bda36815e4454901ecd6191f20e",
   "description": "Provides a knowledge graph-based memory system for creating, managing, and querying structured information with features like custom file paths, timestamping, and advanced search capabilities.",
   "url": "https://github.com/bro3886/mcp-memory-custom",
   "runtime": "node",

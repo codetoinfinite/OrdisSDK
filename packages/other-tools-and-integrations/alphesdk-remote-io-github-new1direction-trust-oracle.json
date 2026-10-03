@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "trust-oracle",
+  "description": "Independent A-F trust grade for any MCP server, watched for drift. Free, never for sale.",
+  "packageName": "@alphesdk-remote/io-github-new1direction-trust-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wmcp.sh/mcp/trust"
+    }
+  ],
+  "url": "https://github.com/New1Direction/webmcp-anything",
+  "readme": "https://github.com/New1Direction/webmcp-anything#readme"
+}

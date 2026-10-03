@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mycelium Emissions Database",
+  "description": "Search company carbon emissions: scope 1, 2 and 3 figures, Mycelium Scores and rankings.",
+  "packageName": "@alphesdk-remote/global-mycelium-emissions-database",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mycelium.global/mcp/server"
+    }
+  ],
+  "url": "https://github.com/MyceliumNetwork/mcp-server",
+  "readme": "https://github.com/MyceliumNetwork/mcp-server#readme"
+}

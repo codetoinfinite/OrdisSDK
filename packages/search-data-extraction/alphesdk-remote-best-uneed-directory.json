@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Uneed",
+  "description": "Search uneed.best's curated product directory: launches, rankings, deals and alternatives",
+  "packageName": "@alphesdk-remote/best-uneed-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.uneed.best/mcp"
+    }
+  ],
+  "url": "https://www.uneed.best/mcp"
+}

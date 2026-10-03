@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Errand",
+  "description": "Dispatch nearby humans for on-site checks, photos, pickups and queues with verified evidence.",
+  "packageName": "@alphesdk-remote/be-errand-errand",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://errand.be/api/mcp"
+    }
+  ],
+  "url": "https://errand.be"
+}

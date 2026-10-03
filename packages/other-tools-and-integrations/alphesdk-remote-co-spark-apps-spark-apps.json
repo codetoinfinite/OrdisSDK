@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Spark Apps Catalogue",
+  "description": "Read-only catalogue of the Spark apps: what each one does, its stack, and where it runs.",
+  "packageName": "@alphesdk-remote/co-spark-apps-spark-apps",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spark-apps.co/api/mcp/mcp"
+    }
+  ],
+  "url": "https://spark-apps.co"
+}

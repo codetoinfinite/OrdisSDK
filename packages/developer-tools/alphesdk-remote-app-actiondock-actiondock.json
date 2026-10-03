@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ActionDock",
+  "description": "Supervised API-write gateway for AI agents with policy, human approval and execution receipts.",
+  "packageName": "@alphesdk-remote/app-actiondock-actiondock",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://actiondock.app/mcp"
+    }
+  ],
+  "url": "https://actiondock.app/agents"
+}

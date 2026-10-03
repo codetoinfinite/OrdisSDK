@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Soxoa Automation Planner",
+  "description": "Estimate illustrative automation ROI and rank recurring workflows to automate. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-soxoa-automation-planning",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://soxoa.com/mcp"
+    }
+  ],
+  "url": "https://soxoa.com/mcp-guide"
+}

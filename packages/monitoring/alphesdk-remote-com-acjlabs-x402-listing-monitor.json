@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402 Bazaar Listing Monitor",
+  "description": "Checks x402 Bazaar resource listings against the public discovery catalog and flags drops.",
+  "packageName": "@alphesdk-remote/com-acjlabs-x402-listing-monitor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-listing-monitor.acjlabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/acjlabs/x402-listing-monitor",
+  "readme": "https://github.com/acjlabs/x402-listing-monitor#readme"
+}

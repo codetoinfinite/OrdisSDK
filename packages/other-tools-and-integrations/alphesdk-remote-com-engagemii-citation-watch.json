@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Engagemii Citation Watch",
+  "description": "Brands ChatGPT names for real buyer questions, updated every 30 minutes, with AI visibility scores.",
+  "packageName": "@alphesdk-remote/com-engagemii-citation-watch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.engagemii.com/api/mcp"
+    }
+  ],
+  "url": "https://engagemii.com/live"
+}

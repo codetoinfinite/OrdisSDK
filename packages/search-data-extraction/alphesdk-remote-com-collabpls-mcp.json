@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CollabPls",
+  "description": "SFW MCP to find verified creator scene partners: search, schedule, overlaps, open calls.",
+  "packageName": "@alphesdk-remote/com-collabpls-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://collabpls.com/mcp"
+    }
+  ]
+}

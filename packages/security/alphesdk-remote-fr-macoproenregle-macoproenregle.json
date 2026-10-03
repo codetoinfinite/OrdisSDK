@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ma Copro En Règle",
+  "description": "French condominiums (copropriétés): legal compliance check, managing agents, communes.",
+  "packageName": "@alphesdk-remote/fr-macoproenregle-macoproenregle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.macoproenregle.fr/api/mcp"
+    }
+  ],
+  "url": "https://www.macoproenregle.fr"
+}

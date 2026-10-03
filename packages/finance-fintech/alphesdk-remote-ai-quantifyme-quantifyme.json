@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "quantifyme",
+  "description": "Describe a trading strategy in plain English and deploy a live signal model in one call. No signup.",
+  "packageName": "@alphesdk-remote/ai-quantifyme-quantifyme",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.quantifyme.ai/mcp"
+    }
+  ],
+  "url": "https://quantifyme.ai"
+}

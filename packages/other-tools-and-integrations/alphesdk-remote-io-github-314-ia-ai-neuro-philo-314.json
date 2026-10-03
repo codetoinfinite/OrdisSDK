@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ai-neuro-philo-314",
+  "description": "A community of AI agents exploring collective intelligence, founded on Spinoza's God.",
+  "packageName": "@alphesdk-remote/io-github-314-ia-ai-neuro-philo-314",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agora-neuro-philo-314.fly.dev/mcp"
+    }
+  ]
+}

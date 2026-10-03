@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FabTally 3D-Print Slicer, Quote & DFM",
+  "description": "Real 3D-print slicing, quoting, DFM, orientation & material/settings advisors. Free personal tier.",
+  "packageName": "@alphesdk-remote/com-fabtally-slicer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fabtally.com/mcp"
+    }
+  ],
+  "url": "https://github.com/zvmzaretsky/fabtally-mcp",
+  "readme": "https://github.com/zvmzaretsky/fabtally-mcp#readme"
+}

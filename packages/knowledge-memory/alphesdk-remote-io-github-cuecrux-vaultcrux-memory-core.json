@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VaultCrux Memory Core",
+  "description": "VaultCrux Memory Core — 32 tools: knowledge, decisions, constraints, signals, coverage",
+  "packageName": "@alphesdk-remote/io-github-cuecrux-vaultcrux-memory-core",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vaultcrux.com/memory-core/mcp"
+    }
+  ],
+  "url": "https://github.com/CueCrux/VaultCrux",
+  "readme": "https://github.com/CueCrux/VaultCrux#readme"
+}

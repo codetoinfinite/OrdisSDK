@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agents",
+  "description": "Hire Vevang's AI agents, pay-per-call in USDC on Base via x402: video, visibility, verify, extract",
+  "packageName": "@alphesdk-remote/com-vevang-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vevang.com/mcp"
+    }
+  ],
+  "url": "https://vevang.com"
+}

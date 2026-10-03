@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "openmaic",
+  "name": "OpenMAIC",
+  "description": "Multi-agent interactive classroom that generates a course with slides, quizzes and projects and teaches it with AI teacher and classmate agents.",
+  "category": "other-tools-and-integrations",
+  "tags": ["education", "classroom", "multi-agent", "slides", "quizzes"],
+  "repo": "https://github.com/THU-MAIC/OpenMAIC",
+  "publisher": "Tsinghua University MAIC",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Turns a topic or document into an interactive lesson where agent teachers lecture and agent classmates discuss with the learner. Educators and learners use it to build and attend courses.",
+  "howItWorks": "A TypeScript web app orchestrates agents that author lesson content and then play classroom roles in real time. It runs with a package manager or Docker Compose and reads provider keys from a local env file.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One provider key is needed; GLM_API_KEY and others are alternatives"
+    },
+    {
+      "name": "Node.js with pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Builds and runs the app"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/THU-MAIC/OpenMAIC.git",
+    "cd OpenMAIC",
+    "pnpm install",
+    "cp .env.example .env.local"
+  ],
+  "run": ["pnpm dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Anthropic, GLM and other configured providers",
+  "mcp": "none",
+  "github": {
+    "stars": 39846,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "dubai-property-signal",
+  "description": "Dubai property signals: 42 areas, AED/sqft index, verdict + rankings. Pay-per-call x402.",
+  "packageName": "@alphesdk-remote/com-airblockfz-dubai-property-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dubai-property-signal.airblock2026.workers.dev/mcp"
+    }
+  ],
+  "url": "https://airblockfz.com"
+}

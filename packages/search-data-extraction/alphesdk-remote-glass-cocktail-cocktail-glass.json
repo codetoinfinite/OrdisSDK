@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cocktail Glass",
+  "description": "Search 500 cocktail recipes, get full recipes, find drinks by ingredient, suggest random picks.",
+  "packageName": "@alphesdk-remote/glass-cocktail-cocktail-glass",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cocktail.glass/mcp"
+    }
+  ],
+  "url": "https://cocktail.glass"
+}

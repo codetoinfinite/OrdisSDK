@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402-services",
+  "description": "The only x402 MCP server for Robinhood Chain (chainId 4663) - 147 onchain, trading & AI tools.",
+  "packageName": "@alphesdk-remote/ai-firmbrain-x402-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-services-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/bkrigmo1/robinhood-chain-x402",
+  "readme": "https://github.com/bkrigmo1/robinhood-chain-x402#readme"
+}

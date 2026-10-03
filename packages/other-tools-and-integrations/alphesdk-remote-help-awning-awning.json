@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Awning",
+  "description": "Find and book local services, classes and rentals; businesses set up and manage their pages.",
+  "packageName": "@alphesdk-remote/help-awning-awning",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.awning.help/mcp"
+    }
+  ],
+  "url": "https://awning.help/agents"
+}

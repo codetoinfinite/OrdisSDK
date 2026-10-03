@@ -1,0 +1,63 @@
+{
+  "type": "external-agent",
+  "key": "bilingual-book-maker",
+  "name": "Bilingual Book Maker",
+  "description": "Command-line tool that uses LLMs to translate epub, txt, md, srt and pdf files into bilingual editions.",
+  "category": "translation-services",
+  "tags": ["translation", "epub", "books", "subtitles", "bilingual"],
+  "repo": "https://github.com/yihong0618/bilingual_book_maker",
+  "publisher": "yihong0618",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Produces translated or side-by-side bilingual versions of books and documents you have the right to translate. It is for readers, translators and language learners.",
+  "howItWorks": "The tool splits a book into segments, sends them to the selected provider with optional running context for consistency, and rebuilds the file with the translation alongside the original. Providers are declared in a JSON file and include LLM APIs as well as classic engines such as DeepL.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI provider"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Claude provider"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Gemini provider"
+    },
+    {
+      "name": "BBM_DEEPL_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "DeepL provider"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the tool"
+    }
+  ],
+  "install": [
+    "pip install -r requirements.txt",
+    "cp bbm_providers.example.json bbm_providers.json"
+  ],
+  "run": [
+    "python3 make_book.py --book_name test_books/animal_farm.epub --provider openai --test --use_context session"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Claude, Gemini, Qwen, Groq, xAI, DeepL, Caiyun and OpenAI-compatible endpoints",
+  "mcp": "none",
+  "github": {
+    "stars": 9823,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

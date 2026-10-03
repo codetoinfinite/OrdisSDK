@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Storskarvia",
+  "description": "Writing studio for novels and screenplays: read your projects and run cited fact-checks.",
+  "packageName": "@alphesdk-remote/com-storskarvia-writing-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://storskarvia.com/mcp/"
+    }
+  ],
+  "url": "https://storskarvia.com"
+}

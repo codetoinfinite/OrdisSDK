@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Today's Horoscope",
+  "description": "Look up a Today's Horoscope page. Do not send birth dates. Entertainment only.",
+  "packageName": "@alphesdk-remote/info-todayshoroscope-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://todayshoroscope.info/mcp"
+    }
+  ],
+  "url": "https://github.com/findmetool/todayshoroscope",
+  "readme": "https://github.com/findmetool/todayshoroscope#readme"
+}

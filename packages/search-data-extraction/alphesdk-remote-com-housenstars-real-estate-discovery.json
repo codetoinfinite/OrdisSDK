@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HOUSE 'N' STARS Real Estate Discovery",
+  "description": "AI-native real estate discovery with structured property search and market intelligence.",
+  "packageName": "@alphesdk-remote/com-housenstars-real-estate-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hns-chatgpt-app.onrender.com/mcp"
+    }
+  ],
+  "url": "https://housenstars.com/ai-search-access-brief/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "texas-rrc-wellbores",
+  "description": "Texas RRC oil & gas wellbores: API numbers, completion dates, depth, plug status",
+  "packageName": "@alphesdk-remote/com-tppflow-texas-rrc-wellbores",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tppflow.com/rrc"
+    }
+  ],
+  "url": "https://tppflow.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Victano: EU tenders and grant calls",
+  "description": "EU tenders and grant calls, matched to your company and qualified, inside the AI you already use",
+  "packageName": "@alphesdk-remote/com-victano-victano",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.victano.com/mcp"
+    }
+  ],
+  "url": "https://victano.com"
+}

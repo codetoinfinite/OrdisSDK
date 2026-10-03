@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "gateway",
+  "description": "Governed AI actions with signed, verifiable receipts: free keyless reads, human-approved writes.",
+  "packageName": "@alphesdk-remote/ai-duvera-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.duvera.ai/mcp"
+    }
+  ],
+  "url": "https://duvera.ai"
+}

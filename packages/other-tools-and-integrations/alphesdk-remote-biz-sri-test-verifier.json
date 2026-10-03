@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SRI — MCP Server Inspector",
+  "description": "2,000+ MCP servers read at source level. Know what one does before you connect. Free, no key.",
+  "packageName": "@alphesdk-remote/biz-sri-test-verifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sri-test.biz/mcp"
+    }
+  ],
+  "url": "https://github.com/SRITEST0001/sri",
+  "readme": "https://github.com/SRITEST0001/sri#readme"
+}

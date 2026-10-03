@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sandboxd Code Run",
+  "description": "Hosted one-shot code execution: send a snippet plus optional files, get stdout, stderr, exit...",
+  "packageName": "@alphesdk-remote/com-saastemly-sandboxd-code-run",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sandboxd-code-run.saastemly.com/mcp"
+    }
+  ],
+  "url": "https://sandboxd-code-run.saastemly.com"
+}

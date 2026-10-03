@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cofferline",
+  "description": "Treasury and risk controls for agent wallets: policies, quotes, prediction-market orders.",
+  "packageName": "@alphesdk-remote/com-cofferline-treasury",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cofferline.com"
+    }
+  ],
+  "url": "https://cofferline.com/docs"
+}

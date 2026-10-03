@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Clerk (remote)",
+  "description": "Clerk-hosted server with SDK snippets and docs for implementing Clerk authentication.",
+  "packageName": "@alphesdk-remote/clerk-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.clerk.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server",
+  "url": "https://github.com/clerk",
+  "author": "Clerk",
+  "env": {}
+}

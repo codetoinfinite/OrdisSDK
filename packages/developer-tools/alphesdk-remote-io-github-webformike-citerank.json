@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CiteRank MCP",
+  "description": "Full AI visibility audits: schema, citations, agentic readiness, agent journeys, WordPress deploys.",
+  "packageName": "@alphesdk-remote/io-github-webformike-citerank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citerankscore.com/api/mcp-server"
+    }
+  ],
+  "url": "https://citerankscore.com"
+}

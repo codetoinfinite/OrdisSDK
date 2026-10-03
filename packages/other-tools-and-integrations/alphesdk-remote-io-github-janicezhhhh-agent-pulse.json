@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Pulse",
+  "description": "Reproducible benchmarks and reliability evidence for agent tools.",
+  "packageName": "@alphesdk-remote/io-github-janicezhhhh-agent-pulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-pulse-seven.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Janicezhhhh/agent-pulse",
+  "readme": "https://github.com/Janicezhhhh/agent-pulse#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RecallRadar",
+  "description": "Search U.S. FDA, USDA FSIS, and CPSC recalls, fetch one, or diff since a date. API key or x402.",
+  "packageName": "@alphesdk-remote/app-withglint-recallradar-recallradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recallradar.withglint.app/mcp"
+    }
+  ],
+  "url": "https://recallradar.withglint.app/docs"
+}

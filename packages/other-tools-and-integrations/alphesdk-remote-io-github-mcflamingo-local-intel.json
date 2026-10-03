@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "local-intel",
+  "description": "Hyperlocal business intelligence for AI agents. 20 MCP tools. Florida-first, Sunbelt expansion.",
+  "packageName": "@alphesdk-remote/io-github-mcflamingo-local-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gsb-swarm-production.up.railway.app/api/local-intel/mcp"
+    }
+  ],
+  "url": "https://github.com/MCFLAMINGO/gsb-swarm",
+  "readme": "https://github.com/MCFLAMINGO/gsb-swarm#readme"
+}

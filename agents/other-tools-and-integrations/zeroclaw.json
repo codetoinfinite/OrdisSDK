@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "zeroclaw",
+  "name": "ZeroClaw",
+  "description": "Agent runtime shipped as a single Rust binary that connects LLM providers to 30+ chat channels and can run as a service.",
+  "category": "other-tools-and-integrations",
+  "tags": ["rust", "agent-runtime", "single-binary", "channels", "always-on"],
+  "repo": "https://github.com/zeroclaw-labs/zeroclaw",
+  "homepage": "https://www.zeroclaw.com/",
+  "publisher": "ZeroClaw Labs",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Runs a configurable personal or team agent that talks through channels such as Discord and Telegram. It can be kept running in the background as a system service.",
+  "howItWorks": "A quickstart command picks a provider and writes a working config. Agents are defined as named entries in that config and started interactively or registered with systemd, launchctl or Windows Service.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic, OpenAI, Ollama or about twenty others"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/zeroclaw-labs/zeroclaw/master/install.sh | sh"
+  ],
+  "run": [
+    "zeroclaw quickstart",
+    "zeroclaw agent -a <alias>",
+    "zeroclaw service install",
+    "zeroclaw service start"
+  ],
+  "interfaces": ["cli", "chat"],
+  "language": "Rust",
+  "models": "Anthropic, OpenAI, Ollama and roughly 20 other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 32922,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

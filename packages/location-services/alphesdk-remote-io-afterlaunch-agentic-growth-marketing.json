@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AfterLaunch: the agentic growth marketing engine",
+  "description": "Growth marketing, SEO and GEO as agent tools: ranked moves, ship them, AI answer visibility.",
+  "packageName": "@alphesdk-remote/io-afterlaunch-agentic-growth-marketing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afterlaunch.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/afterlaunch/mcp",
+  "readme": "https://github.com/afterlaunch/mcp#readme"
+}

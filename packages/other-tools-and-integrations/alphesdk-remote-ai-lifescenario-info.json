@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Life Scenario",
+  "description": "For parents and teachers: SEL trait guides, practice scenarios, what-to-say guides (ages 6-14).",
+  "packageName": "@alphesdk-remote/ai-lifescenario-info",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lifescenario.ai/api/mcp"
+    }
+  ],
+  "url": "https://lifescenario.ai"
+}

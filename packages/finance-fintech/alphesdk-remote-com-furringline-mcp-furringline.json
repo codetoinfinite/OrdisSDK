@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FURRINGLINE",
+  "description": "Thai building materials: product search, prices before VAT, stock and material calculators.",
+  "packageName": "@alphesdk-remote/com-furringline-mcp-furringline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.furringline.com"
+    }
+  ],
+  "url": "https://github.com/nueyprap/furringline-mcp",
+  "readme": "https://github.com/nueyprap/furringline-mcp#readme"
+}

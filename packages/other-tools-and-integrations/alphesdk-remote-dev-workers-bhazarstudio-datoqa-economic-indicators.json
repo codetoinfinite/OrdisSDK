@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DatoQA — Economic Indicators",
+  "description": "Official country economic indicators and annual history, with units, dates, citations and gaps.",
+  "packageName": "@alphesdk-remote/dev-workers-bhazarstudio-datoqa-economic-indicators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datoqa.bhazarstudio.workers.dev/mcp/economy"
+    }
+  ],
+  "url": "https://datoqa.bhazarstudio.workers.dev/docs/economy/"
+}

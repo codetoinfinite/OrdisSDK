@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ridgerunner",
+  "description": "Search hunting, fishing, camping and outdoor gear from brands worldwide on Ridgerunner",
+  "packageName": "@alphesdk-remote/com-ridgerunner-outdoor-gear",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ridgerunner.com/mcp"
+    }
+  ],
+  "url": "https://mcp.ridgerunner.com/docs"
+}

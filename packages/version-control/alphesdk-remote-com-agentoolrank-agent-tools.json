@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentoolRank",
+  "description": "Search, compare and list 460+ open-source AI agent tools ranked by live GitHub activity.",
+  "packageName": "@alphesdk-remote/com-agentoolrank-agent-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentoolrank.com/api/mcp"
+    }
+  ],
+  "url": "https://agentoolrank.com/agents"
+}

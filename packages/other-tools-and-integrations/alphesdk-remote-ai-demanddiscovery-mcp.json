@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Demand Discovery AI",
+  "description": "Validate startup ideas with real people asking for them, each quote linked to its source.",
+  "packageName": "@alphesdk-remote/ai-demanddiscovery-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.demanddiscovery.ai/api/mcp"
+    }
+  ],
+  "url": "https://demanddiscovery.ai"
+}

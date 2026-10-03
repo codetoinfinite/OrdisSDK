@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CSS SOTA",
+  "description": "What CSS you can actually ship today, from live Baseline data and MDN browser-compat-data.",
+  "packageName": "@alphesdk-remote/io-github-lusrodri-css-sota-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://css-sota-mcp.lusrodri.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/LuSrodri/css-sota-mcp",
+  "readme": "https://github.com/LuSrodri/css-sota-mcp#readme"
+}

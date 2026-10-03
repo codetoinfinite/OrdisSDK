@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "busik.ch – Minibusfahrten Ukraine, Deutschland, Schweiz",
+  "description": "Search minibus trips between Ukraine, Germany and Switzerland. Read-only.",
+  "packageName": "@alphesdk-remote/ch-busik-fahrten",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://busik.ch/api/mcp"
+    }
+  ],
+  "url": "https://busik.ch/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Car Repair Cost Estimator",
+  "description": "Car repair cost estimates by make, model and repair type. 31 cost guides, VIN decode. Free.",
+  "packageName": "@alphesdk-remote/com-carrepaircostestimator-cost-estimator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://carrepaircostestimator.com/mcp"
+    }
+  ],
+  "url": "https://github.com/maximmaximovwork2018-gif/carrepaircostestimator-mcp",
+  "readme": "https://github.com/maximmaximovwork2018-gif/carrepaircostestimator-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bozfix",
+  "description": "Find verified electricians in Antalya, Turkey. Prices from real jobs, confirm-first requests.",
+  "packageName": "@alphesdk-remote/com-bozfix-bozfix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bozfix.com/api/mcp.php"
+    }
+  ],
+  "url": "https://bozfix.com"
+}

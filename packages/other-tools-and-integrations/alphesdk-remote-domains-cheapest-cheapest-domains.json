@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cheapest Domains",
+  "description": "Compare domain registration and renewal prices across registrars and check exact-name availability.",
+  "packageName": "@alphesdk-remote/domains-cheapest-cheapest-domains",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cheapest.domains/mcp"
+    }
+  ],
+  "url": "https://github.com/igalil/cheapest-domains-integrations",
+  "readme": "https://github.com/igalil/cheapest-domains-integrations#readme"
+}

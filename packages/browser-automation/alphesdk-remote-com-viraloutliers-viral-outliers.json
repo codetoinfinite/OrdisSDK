@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Viral Outliers",
+  "description": "Find viral outlier posts on TikTok, Instagram and YouTube, pull creator stats, and crawl on demand.",
+  "packageName": "@alphesdk-remote/com-viraloutliers-viral-outliers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://viraloutliers.com/api/mcp"
+    }
+  ],
+  "url": "https://viraloutliers.com"
+}

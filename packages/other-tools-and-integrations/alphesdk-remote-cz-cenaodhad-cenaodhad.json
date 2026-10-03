@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cenaodhad – ceny bytů v Praze z katastru",
+  "description": "cenaodhad.cz: odhad bytu v Praze z prodejů v katastru, domy a pozemky s makléřem, ověření inzerátu",
+  "packageName": "@alphesdk-remote/cz-cenaodhad-cenaodhad",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cenaodhad.cz/mcp"
+    }
+  ],
+  "url": "https://cenaodhad.cz"
+}

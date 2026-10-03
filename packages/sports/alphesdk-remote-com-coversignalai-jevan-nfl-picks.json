@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cover Signal — Jevan NFL Picks",
+  "description": "Free NFL ATS, moneyline and over/under picks, separate track records, and Jevan AI methodology.",
+  "packageName": "@alphesdk-remote/com-coversignalai-jevan-nfl-picks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coversignalai.com/mcp"
+    }
+  ],
+  "url": "https://coversignalai.com"
+}

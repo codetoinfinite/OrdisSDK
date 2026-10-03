@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "BrunoSan ArXiv Intelligence",
+  "description": "AI research intelligence for AI, ML, NLP, vision and robotics with citations and entity graphs.",
+  "packageName": "@alphesdk-remote/de-brunosan-arxiv",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arxiv.mcp.brunosan.de/mcp"
+    }
+  ]
+}

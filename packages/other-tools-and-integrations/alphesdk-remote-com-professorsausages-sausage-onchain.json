@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Professor Sausages — On-chain",
+  "description": "EVM gas, Chainlink prices, token-safety, swap quotes, ENS, OFAC & NFT via x402.",
+  "packageName": "@alphesdk-remote/com-professorsausages-sausage-onchain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.professorsausages.com/mcp/onchain"
+    }
+  ],
+  "url": "https://x402.professorsausages.com/mcp"
+}

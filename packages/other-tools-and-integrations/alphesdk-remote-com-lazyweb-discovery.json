@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lazyweb Public Discovery",
+  "description": "Keyless, read-only Lazyweb discovery for agents evaluating fit or researching public evidence.",
+  "packageName": "@alphesdk-remote/com-lazyweb-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.lazyweb.com/mcp/public"
+    }
+  ],
+  "url": "https://github.com/aboul3ata/lazyweb-public-mcp",
+  "readme": "https://github.com/aboul3ata/lazyweb-public-mcp#readme"
+}

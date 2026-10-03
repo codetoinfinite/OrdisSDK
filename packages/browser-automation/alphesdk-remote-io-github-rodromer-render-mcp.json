@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "render-mcp",
+  "description": "Hosted browser for AI agents: screenshots, post-JS DOM, console, WCAG. No install, no API key.",
+  "packageName": "@alphesdk-remote/io-github-rodromer-render-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://render.makermargins.com/mcp"
+    }
+  ],
+  "url": "https://github.com/RodRomer/render-mcp",
+  "readme": "https://github.com/RodRomer/render-mcp#readme"
+}

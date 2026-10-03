@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Plumbline — a trust layer for LLM answers",
+  "description": "Every figure re-checked against SQL-computed facts; unsupported questions refused with the reason.",
+  "packageName": "@alphesdk-remote/com-lattice-sys-plumbline-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plumbline.lattice-sys.com/mcp/demo"
+    }
+  ],
+  "url": "https://plumbline.lattice-sys.com/"
+}

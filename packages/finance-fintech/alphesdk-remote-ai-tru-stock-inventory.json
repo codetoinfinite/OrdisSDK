@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tru-Stock AI",
+  "description": "Find the cash trapped in your inventory, then size reorder points, safety stock and EOQ.",
+  "packageName": "@alphesdk-remote/ai-tru-stock-inventory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tru-stock.ai/api/mcp/public"
+    }
+  ],
+  "url": "https://www.tru-stock.ai"
+}

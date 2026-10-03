@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "EPK Properties Public Knowledge MCP",
+  "description": "Public EPK real estate listings and multilingual guides for Panama and the Dominican Republic.",
+  "packageName": "@alphesdk-remote/com-epkproperties-public-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.epkproperties.com/mcp"
+    }
+  ]
+}

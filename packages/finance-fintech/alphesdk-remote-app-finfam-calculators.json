@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FinFam Financial Calculators",
+  "description": "Free financial calculators (rent vs buy, mortgage, retirement) plus the FinFam Pulse money digest.",
+  "packageName": "@alphesdk-remote/app-finfam-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ff-api.finfam.app/mcp/mcp"
+    }
+  ],
+  "url": "https://finfam.app/ai"
+}

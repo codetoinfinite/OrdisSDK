@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Review Times",
+  "description": "Live review times for AI app stores: ChatGPT, Claude, Muse, Grok, Cursor. Check before you submit.",
+  "packageName": "@alphesdk-remote/fyi-reviewtimes-review-times",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reviewtimes.fyi/mcp"
+    }
+  ],
+  "url": "https://reviewtimes.fyi"
+}

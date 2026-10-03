@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Goce Petrov, brand designer",
+  "description": "Goce Petrov, senior brand designer for tech and AI startups: ask his agent or send him a brief.",
+  "packageName": "@alphesdk-remote/com-gocepetrov-goce-petrov",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.gocepetrov.com/mcp"
+    }
+  ],
+  "url": "https://www.gocepetrov.com"
+}

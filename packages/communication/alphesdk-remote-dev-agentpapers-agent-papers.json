@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Papers",
+  "description": "Registry of companies selling AI agents identity, phone, email, addresses, money, legal, insurance",
+  "packageName": "@alphesdk-remote/dev-agentpapers-agent-papers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentpapers.dev/api/mcp"
+    }
+  ]
+}

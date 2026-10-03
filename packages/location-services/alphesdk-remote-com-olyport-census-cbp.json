@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Census County Business Patterns",
+  "description": "Establishment counts, employment, and payroll by geography and NAICS code from Census CBP",
+  "packageName": "@alphesdk-remote/com-olyport-census-cbp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/census-cbp/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

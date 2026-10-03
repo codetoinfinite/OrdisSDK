@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "網紅開團合規工具箱",
+  "description": "網紅開團合規工具箱：開團廣告用語、定價、稅務與上架。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-creator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://creator.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://creator.penguindriver.com"
+}

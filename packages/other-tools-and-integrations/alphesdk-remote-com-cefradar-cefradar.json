@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CEF Radar",
+  "description": "U.S. closed-end funds from SEC filings: activist stakes, tender offers, votes, costs, holdings.",
+  "packageName": "@alphesdk-remote/com-cefradar-cefradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cefradar.com/mcp"
+    }
+  ],
+  "url": "https://cefradar.com/for-developers"
+}

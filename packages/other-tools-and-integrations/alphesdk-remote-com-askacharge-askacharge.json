@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "askacharge.com — EV charging network",
+  "description": "Operate a network of EV charge points over OCPP: status, sessions, tariffs, prices, remote commands",
+  "packageName": "@alphesdk-remote/com-askacharge-askacharge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://askacharge.com/askacharge/api/mcp"
+    }
+  ],
+  "url": "https://github.com/javierojan/askacharge-mcp",
+  "readme": "https://github.com/javierojan/askacharge-mcp#readme"
+}

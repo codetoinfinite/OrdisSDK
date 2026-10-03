@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StartupPerks",
+  "description": "Find the startup credits, perks and deals a company qualifies for, across 1,000+ cited programs.",
+  "packageName": "@alphesdk-remote/co-startupperks-startup-perks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://startupperks.co/mcp"
+    }
+  ],
+  "url": "https://startupperks.co/mcp-server"
+}

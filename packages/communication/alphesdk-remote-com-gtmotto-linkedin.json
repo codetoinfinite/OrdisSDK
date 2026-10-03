@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GTM Otto",
+  "description": "Self-driving LinkedIn prospecting: it sources, warms and invites daily. You approve every message.",
+  "packageName": "@alphesdk-remote/com-gtmotto-linkedin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.gtmotto.com/mcp"
+    }
+  ],
+  "url": "https://github.com/gtmotto/mcp",
+  "readme": "https://github.com/gtmotto/mcp#readme"
+}

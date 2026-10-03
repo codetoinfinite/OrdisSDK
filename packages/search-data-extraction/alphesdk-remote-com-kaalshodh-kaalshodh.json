@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kaalshodh — Indian astronomy time machine",
+  "description": "Observatory-grade Indian astronomy, years -5000..+5000: positions, eclipses, panchang date search.",
+  "packageName": "@alphesdk-remote/com-kaalshodh-kaalshodh",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kaalshodh.com/mcp"
+    }
+  ],
+  "url": "https://kaalshodh.com/mcp-server"
+}

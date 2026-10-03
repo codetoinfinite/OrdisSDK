@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "docs",
+  "description": "Search and fetch AgendaForge public documentation and marketing content. No authentication needed.",
+  "packageName": "@alphesdk-remote/app-agendaforge-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agendaforge.app/mcp/docs"
+    }
+  ],
+  "url": "https://agendaforge.app/developers"
+}

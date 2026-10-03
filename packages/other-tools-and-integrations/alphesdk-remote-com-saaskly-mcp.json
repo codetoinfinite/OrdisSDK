@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Saaskly: B2B software reviews and comparisons",
+  "description": "Independent UK business software reviews, rankings and real pricing as read-only MCP tools.",
+  "packageName": "@alphesdk-remote/com-saaskly-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saaskly.com/mcp"
+    }
+  ],
+  "url": "https://github.com/timmeredith/saaskly-mcp",
+  "readme": "https://github.com/timmeredith/saaskly-mcp#readme"
+}

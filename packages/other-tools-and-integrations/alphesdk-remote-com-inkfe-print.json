@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "InkFE Print",
+  "description": "Personalize business-card templates, review proofs, and prepare Shopify checkout.",
+  "packageName": "@alphesdk-remote/com-inkfe-print",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.inkfe.com/api/mcp"
+    }
+  ],
+  "url": "https://www.inkfe.com/mcp/docs"
+}

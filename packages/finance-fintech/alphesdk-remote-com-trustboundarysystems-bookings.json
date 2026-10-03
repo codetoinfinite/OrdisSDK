@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Trust Boundary Systems",
+  "description": "Book a strategy call with Trust Boundary Systems (blockchain, stablecoins, MPC, ZK, AI advisory).",
+  "packageName": "@alphesdk-remote/com-trustboundarysystems-bookings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trustboundarysystems.com/mcp"
+    }
+  ],
+  "url": "https://www.trustboundarysystems.com/"
+}

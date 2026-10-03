@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "calculator",
+  "description": "Calculators accessible via MCP with real-time collaborative sessions and shareable URLs.",
+  "packageName": "@alphesdk-remote/com-mcpcalc-calculator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpcalc.com/api/v1/mcp"
+    }
+  ]
+}

@@ -7,12 +7,14 @@ import {
   Bot,
   CircleAlert,
   Cloud,
+  GitBranch,
   KeyRound,
   Server,
+  Star,
   Wrench,
 } from "lucide-react";
 import type { ReactNode } from "react";
-import { cx, plural } from "../lib/format";
+import { compact, cx, plural } from "../lib/format";
 import type { CardItem } from "../lib/items";
 import { inStack, toast, toggleStack, useStack } from "../lib/state";
 import type { ItemType } from "../lib/types";
@@ -41,6 +43,26 @@ export function itemBadges(item: CardItem): ReactNode[] {
         Verified
       </Badge>,
     );
+  }
+  if (item.external) {
+    out.push(
+      item.official ? (
+        <Badge key="official" tone="green" icon={BadgeCheck} title="Published by its vendor">
+          Official
+        </Badge>
+      ) : (
+        <Badge key="community" icon={GitBranch} title="Open source, community maintained">
+          Community
+        </Badge>
+      ),
+    );
+    if (item.stars) {
+      out.push(
+        <Badge key="stars" icon={Star} title="GitHub stars">
+          {compact(item.stars)}
+        </Badge>,
+      );
+    }
   }
   if (item.runnable === false && !item.blocked) {
     out.push(

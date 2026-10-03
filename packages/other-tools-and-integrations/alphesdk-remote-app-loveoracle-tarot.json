@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Love Oracle — Tarot",
+  "description": "Tarot card meanings for love, and answers to the most-asked love questions, in 22 languages.",
+  "packageName": "@alphesdk-remote/app-loveoracle-tarot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.loveoracle.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Misko4b/love-oracle-tarot-dataset",
+  "readme": "https://github.com/Misko4b/love-oracle-tarot-dataset#readme"
+}

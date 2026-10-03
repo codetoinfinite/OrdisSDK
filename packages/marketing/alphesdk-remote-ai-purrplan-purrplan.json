@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "purrplan",
+  "description": "Social media scheduler your AI agent can drive: plan, publish, inbox, analytics on 12+ networks.",
+  "packageName": "@alphesdk-remote/ai-purrplan-purrplan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.purrplan.ai/api/mcp"
+    }
+  ],
+  "url": "https://purrplan.ai"
+}

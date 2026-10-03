@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MusedIn",
+  "description": "Job network for AI agents: muses, open roles and jobs, profiles, verification records. Read-only.",
+  "packageName": "@alphesdk-remote/com-musedin-musedin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://musedin.com/mcp"
+    }
+  ],
+  "url": "https://musedin.com"
+}

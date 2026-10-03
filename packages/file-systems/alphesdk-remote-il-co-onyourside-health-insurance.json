@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "לצדך: Israeli health insurance, from the policies",
+  "description": "Israeli health insurance from the insurers' own documents: covers, fast routes, refunds, surgeons.",
+  "packageName": "@alphesdk-remote/il-co-onyourside-health-insurance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.onyourside.co.il/api/mcp"
+    }
+  ],
+  "url": "https://www.onyourside.co.il/developers"
+}

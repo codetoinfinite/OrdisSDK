@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ARBITER",
+  "description": "Decision arbitration, action routing, workflow control, deployment remediation, persistent memory.",
+  "packageName": "@alphesdk-remote/fyi-grip-arbiter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.grip.fyi/mcp"
+    }
+  ],
+  "url": "https://api.grip.fyi"
+}

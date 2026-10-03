@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "遊戲發售日與預告片資料庫",
+  "description": "遊戲發售日與預告片資料庫：新作發售日、延期消息與官方預告。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-game",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://game.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://game.penguindriver.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FreeSign — Free e-signature",
+  "description": "Free e-signature for humans and AI agents — zero-document PDF signing from hashes only.",
+  "packageName": "@alphesdk-remote/com-free-sign-signing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://free-sign.com/mcp"
+    }
+  ],
+  "url": "https://free-sign.com"
+}

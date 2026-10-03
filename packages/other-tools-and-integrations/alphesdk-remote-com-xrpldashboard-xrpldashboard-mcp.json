@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "xrpldashboard",
+  "description": "Read-only XRP Ledger MCP tools with proof-annotation envelopes and signed daily snapshots.",
+  "packageName": "@alphesdk-remote/com-xrpldashboard-xrpldashboard-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.xrpldashboard.com/mcp?ref=anthropic"
+    }
+  ],
+  "url": "https://github.com/Enkryptedx/xrpldashboard",
+  "readme": "https://github.com/Enkryptedx/xrpldashboard#readme"
+}

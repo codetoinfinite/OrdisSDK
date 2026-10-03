@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PeppolStatus",
+  "description": "Peppol market intelligence and network monitoring: migrations, provider churn, leads, and uptime.",
+  "packageName": "@alphesdk-remote/com-peppolstatus-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.peppolstatus.com"
+    }
+  ],
+  "url": "https://peppolstatus.com/mcp"
+}

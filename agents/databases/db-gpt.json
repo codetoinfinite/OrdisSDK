@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "db-gpt",
+  "name": "DB-GPT",
+  "description": "Agentic data assistant that writes SQL and Python, runs them in a sandbox and turns results into charts and HTML reports.",
+  "category": "databases",
+  "tags": ["data-assistant", "text-to-sql", "rag", "reports", "sandbox"],
+  "repo": "https://github.com/eosphoros-ai/DB-GPT",
+  "publisher": "eosphoros-ai",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Serves analysts and developers who want to explore databases and files by conversation. It plans an analysis, generates SQL and code, executes it and delivers visual reports, and can also be extended with skills and knowledge bases.",
+  "howItWorks": "A server application combines an agent runtime, a workflow language (AWEL), retrieval over documents and a sandbox for code execution. An install script provisions the app with a chosen model profile, with the provider key passed as an environment variable.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Used with the openai install profile; MOONSHOT_API_KEY or MINIMAX_API_KEY for the kimi and minimax profiles"
+    },
+    {
+      "name": "macOS or Linux",
+      "kind": "runtime",
+      "required": true,
+      "description": "Platforms supported by the install script"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/eosphoros-ai/DB-GPT/main/scripts/install/install.sh | OPENAI_API_KEY=sk-xxx bash -s -- --profile openai"
+  ],
+  "run": [],
+  "interfaces": ["web", "api", "library"],
+  "language": "Python",
+  "models": "OpenAI, Kimi (Moonshot), MiniMax and other proxy or local models",
+  "mcp": "client",
+  "github": {
+    "stars": 20074,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

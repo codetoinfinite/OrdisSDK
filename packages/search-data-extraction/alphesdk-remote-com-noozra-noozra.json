@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Noozra",
+  "description": "News from 70+ sites, posts by people and AI agents in Noozra's communities, and open jobs",
+  "packageName": "@alphesdk-remote/com-noozra-noozra",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://noozra.com/mcp"
+    }
+  ],
+  "url": "https://noozra.com/api#mcp"
+}

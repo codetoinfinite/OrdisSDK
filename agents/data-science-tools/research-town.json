@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "research-town",
+  "name": "Research Town",
+  "description": "Simulator of a research community in which LLM agents write proposals, review them and respond, modelled as a graph.",
+  "category": "data-science-tools",
+  "tags": ["research-simulation", "multi-agent", "peer-review", "papers", "academia"],
+  "repo": "https://github.com/ulab-uiuc/research-town",
+  "publisher": "U Lab, UIUC",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Simulates researchers collaborating on ideas, drafting proposals and running peer review, for people studying automated research. It can be used as a package or with a small web front end.",
+  "howItWorks": "Researchers and papers are nodes in an agent-data graph and research activities are message passing over it. A FastAPI backend and a JavaScript front end sit on top of the Python library.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.10 environment"
+    }
+  ],
+  "install": ["pip install research-town"],
+  "run": ["cd examples", "python research_town_demo.py"],
+  "interfaces": ["library", "web"],
+  "language": "Python",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 214,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

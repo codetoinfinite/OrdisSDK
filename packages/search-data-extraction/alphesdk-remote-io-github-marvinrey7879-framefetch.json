@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "framefetch",
+  "description": "Any social-video URL → transcript, metadata, frames, OCR, summary, search, Q&A. MCP server + x402.",
+  "packageName": "@alphesdk-remote/io-github-marvinrey7879-framefetch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://framefetch.net/mcp"
+    }
+  ],
+  "url": "https://github.com/MarvinRey7879/framefetch-client",
+  "readme": "https://github.com/MarvinRey7879/framefetch-client#readme"
+}

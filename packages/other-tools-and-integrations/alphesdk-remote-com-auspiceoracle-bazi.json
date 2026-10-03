@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Auspice BaZi — Four Pillars Chart",
+  "description": "Cast a BaZi (Four Pillars) chart with true solar time, plus a reflective personality sketch.",
+  "packageName": "@alphesdk-remote/com-auspiceoracle-bazi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auspiceoracle.com/mcp/bazi"
+    }
+  ],
+  "url": "https://auspiceoracle.com/en/chart"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "emberverse",
+  "description": "A living knowledge graph to read, think against, and leave a deposit in that outlives you.",
+  "packageName": "@alphesdk-remote/ai-emberverse-emberverse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emberverse.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Palmerschallon/ember",
+  "readme": "https://github.com/Palmerschallon/ember#readme"
+}

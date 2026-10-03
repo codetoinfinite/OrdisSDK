@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "letta-code",
+  "name": "Letta Code",
+  "description": "Memory-first coding agent harness whose agents persist and learn across sessions instead of starting fresh each time.",
+  "category": "coding-agents",
+  "tags": ["memory", "stateful", "terminal", "long-lived-agent"],
+  "repo": "https://github.com/letta-ai/letta-code",
+  "docs": "https://docs.letta.com/letta-code",
+  "publisher": "Letta",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Letta Code is a coding agent that remembers your projects, preferences and past work. The same long-lived agent can be reached from the terminal, a desktop app, a web chat or messaging channels. It suits developers who want an assistant that improves with use.",
+  "howItWorks": "Agents are stateful objects stored on a Letta backend, which is the hosted cloud by default or a local server. The CLI attaches to an agent and gives it coding tools while the backend manages its memory. Users can connect their own model keys from inside the app.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "Letta account or local backend",
+      "kind": "account",
+      "required": true,
+      "description": "Stores agent state; Letta Cloud is the default"
+    }
+  ],
+  "install": ["npm install -g @letta-ai/letta-code"],
+  "run": ["letta"],
+  "interfaces": ["cli", "desktop", "web", "chat"],
+  "language": "TypeScript",
+  "framework": "Letta",
+  "models": "Models offered through Letta or your own provider keys",
+  "mcp": "none",
+  "github": {
+    "stars": 3503,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

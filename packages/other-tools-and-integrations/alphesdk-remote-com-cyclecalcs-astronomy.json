@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CycleCalcs Astronomy",
+  "description": "Read-only astronomy calculations: sun, moon, planets, eclipses, twilight and star positions.",
+  "packageName": "@alphesdk-remote/com-cyclecalcs-astronomy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cyclecalcs.com/mcp"
+    }
+  ],
+  "url": "https://www.cyclecalcs.com/api/mcp.html"
+}

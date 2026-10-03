@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FerryFlight",
+  "description": "Ferry-flight price estimates + aircraft, airport, FAA-registry, route & live-flight data.",
+  "packageName": "@alphesdk-remote/com-ferryflighthub-ferryflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ferryflighthub.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RoundWatch",
+  "description": "Durable Algorand USDC payment monitoring for autonomous workflows.",
+  "packageName": "@alphesdk-remote/io-github-vladyslav-webdev-roundwatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roundwatch-api.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Vladyslav-webDev/RoundWatch",
+  "readme": "https://github.com/Vladyslav-webDev/RoundWatch#readme"
+}

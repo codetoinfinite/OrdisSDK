@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SendaFax",
+  "description": "Send a fax in Australia (+61). Pay only if it delivers. Email receipt. No card at send.",
+  "packageName": "@alphesdk-remote/ai-sendafax-sendafax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sendafax.ai/api/mcp"
+    }
+  ],
+  "url": "https://sendafax.ai"
+}

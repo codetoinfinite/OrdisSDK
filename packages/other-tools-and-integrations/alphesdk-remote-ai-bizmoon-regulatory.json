@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "regulatory",
+  "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
+  "packageName": "@alphesdk-remote/ai-bizmoon-regulatory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bizmoon.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/uofuonye/bizmoon-plugins",
+  "readme": "https://github.com/uofuonye/bizmoon-plugins#readme"
+}

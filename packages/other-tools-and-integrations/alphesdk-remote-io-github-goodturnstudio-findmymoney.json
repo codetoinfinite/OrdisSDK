@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Find My Money",
+  "description": "Find unclaimed money in the US and UK: the official free searches and how to claim.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-findmymoney",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/findmymoney/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

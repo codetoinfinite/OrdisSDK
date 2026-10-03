@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PokerInk Poker Tools",
+  "description": "Exact Texas Hold'em equity and hand analysis, every runout enumerated. Free, no API key.",
+  "packageName": "@alphesdk-remote/com-pokerink-poker-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pokerink.com/api/mcp"
+    }
+  ],
+  "url": "https://pokerink.com/developers"
+}

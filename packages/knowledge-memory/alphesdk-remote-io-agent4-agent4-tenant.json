@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent4.io",
+  "description": "Build and run grounded business agents over MCP: agents, knowledge bases, skills, Storylines.",
+  "packageName": "@alphesdk-remote/io-agent4-agent4-tenant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agent4.io/v1/mcp"
+    }
+  ],
+  "url": "https://agent4.io"
+}

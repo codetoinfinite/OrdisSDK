@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "X-EGO",
+  "description": "Human approval for irreversible AI agent actions, bound to the exact tool call by a passkey tap",
+  "packageName": "@alphesdk-remote/com-x-ego-x-ego",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.x-ego.com/mcp"
+    }
+  ],
+  "url": "https://x-ego.com/docs"
+}

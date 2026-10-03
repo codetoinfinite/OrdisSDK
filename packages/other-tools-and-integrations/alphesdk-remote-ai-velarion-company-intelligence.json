@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Velarion Company Intelligence",
+  "description": "Cited exec, director and say-on-pay data for ~3,000 US public companies, 12 industries.",
+  "packageName": "@alphesdk-remote/ai-velarion-company-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.velarion.ai/mcp"
+    }
+  ],
+  "url": "https://intel.velarion.ai"
+}

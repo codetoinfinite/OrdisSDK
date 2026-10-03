@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ocr",
+  "description": "Arabic-first OCR, translation and document extraction. First call mints a free trial key.",
+  "packageName": "@alphesdk-remote/com-auto-reader-ocr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.auto-reader.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Samqra/auto-reader-ocr",
+  "readme": "https://github.com/Samqra/auto-reader-ocr#readme"
+}

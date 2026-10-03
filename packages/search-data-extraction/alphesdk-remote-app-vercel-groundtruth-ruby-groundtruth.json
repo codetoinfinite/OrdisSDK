@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Groundtruth — Ask Real Humans",
+  "description": "Human-in-the-loop user research: ask real people what the web can't answer, get verbatim replies",
+  "packageName": "@alphesdk-remote/app-vercel-groundtruth-ruby-groundtruth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://groundtruth-ruby.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/aniketshaw748-hub/groundtruth",
+  "readme": "https://github.com/aniketshaw748-hub/groundtruth#readme"
+}

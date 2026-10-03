@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "livonian",
+  "description": "Grounds LLMs in the real Livonian dictionary: attested words, inflections, romanization.",
+  "packageName": "@alphesdk-remote/com-valksor-livonian",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://livonian.valksor.com/mcp"
+    }
+  ],
+  "url": "https://livonian.valksor.com"
+}

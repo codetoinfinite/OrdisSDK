@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Verificate MCP",
+  "description": "Agentic code review, no signup to try: reality gates + frontier-model review, with veto.",
+  "packageName": "@alphesdk-remote/ai-verificate-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.verificate.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Verificate-Dev/verificate-mcp-quickstart",
+  "readme": "https://github.com/Verificate-Dev/verificate-mcp-quickstart#readme"
+}

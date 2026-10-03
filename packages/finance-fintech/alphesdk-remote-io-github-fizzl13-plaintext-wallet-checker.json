@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PlainText Wallet Approval Checker",
+  "description": "Checks a wallet's token/NFT approvals via GoPlus and explains risk in plain language.",
+  "packageName": "@alphesdk-remote/io-github-fizzl13-plaintext-wallet-checker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plaintext.fizzl.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Fizzl13/SmartContractExplainer",
+  "readme": "https://github.com/Fizzl13/SmartContractExplainer#readme"
+}

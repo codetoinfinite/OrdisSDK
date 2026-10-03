@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eurorack",
+  "description": "Citation-anchored Eurorack module reference: specs, compatibility, and patch techniques.",
+  "packageName": "@alphesdk-remote/com-eurorackref-eurorack",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eurorackref.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jallen/eurorack-reference",
+  "readme": "https://github.com/jallen/eurorack-reference#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Teppek",
+  "description": "Agent-accessible map of global supply & demand: jobs, homes, cars & services your AI can act on",
+  "packageName": "@alphesdk-remote/com-teppek-teppek",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.teppek.com/mcp"
+    }
+  ],
+  "url": "https://www.teppek.com"
+}

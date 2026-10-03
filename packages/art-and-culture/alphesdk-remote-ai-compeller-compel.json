@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Compeller",
+  "description": "Create and track AI music videos and audio-reactive visuals from songs.",
+  "packageName": "@alphesdk-remote/ai-compeller-compel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compeller.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Compellerai/compeller-mcp",
+  "readme": "https://github.com/Compellerai/compeller-mcp#readme"
+}

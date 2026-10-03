@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "billwatch",
+  "description": "Current US streaming and VPN plan prices for AI agents: deals, filters and price history.",
+  "packageName": "@alphesdk-remote/com-getbillwatchdog-billwatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getbillwatchdog.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Adamtbull/billwatchdog",
+  "readme": "https://github.com/Adamtbull/billwatchdog#readme"
+}

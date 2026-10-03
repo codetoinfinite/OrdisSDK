@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EveryHourDeal Shopping",
+  "description": "Search, compare and get deals on 1,800 US-warehouse home, patio, gym and pet products.",
+  "packageName": "@alphesdk-remote/com-everyhourdeal-shopping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://everyhourdeal-checkout.cybermax-tools.workers.dev/mcp"
+    }
+  ],
+  "url": "https://everyhourdeal.com"
+}

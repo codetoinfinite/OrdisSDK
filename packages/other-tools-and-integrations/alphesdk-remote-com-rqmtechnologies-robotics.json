@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RQM Robotics Jobs",
+  "description": "Delegate 20 typed RQM Robotics jobs for validation, diagnosis, comparison, and optimization.",
+  "packageName": "@alphesdk-remote/com-rqmtechnologies-robotics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobs.rqmtechnologies.com/mcp/robotics"
+    }
+  ],
+  "url": "https://github.com/RQM-Technologies-dev/RQM-Jobs-MCP",
+  "readme": "https://github.com/RQM-Technologies-dev/RQM-Jobs-MCP#readme"
+}

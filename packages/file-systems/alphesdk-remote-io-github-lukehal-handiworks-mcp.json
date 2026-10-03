@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Handiworks",
+  "description": "MCP tools for AI agents: render URLs to image/PDF, check link health, convert HTML/CSV/JSON.",
+  "packageName": "@alphesdk-remote/io-github-lukehal-handiworks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.handiworks.studio/mcp"
+    }
+  ],
+  "url": "https://handiworks.studio"
+}

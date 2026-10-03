@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "OpenSearch",
+  "description": "Search, index and cluster management tools for OpenSearch.",
+  "packageName": "opensearch-mcp-server-py",
+  "packageVersion": "0.12.0",
+  "runtime": "python",
+  "readme": "https://github.com/opensearch-project/opensearch-mcp-server-py",
+  "url": "https://github.com/opensearch-project/opensearch-mcp-server-py",
+  "author": "OpenSearch Project",
+  "env": {
+    "OPENSEARCH_URL": {
+      "description": "OpenSearch endpoint URL",
+      "required": true
+    },
+    "OPENSEARCH_USERNAME": {
+      "description": "Basic-auth username",
+      "required": false
+    },
+    "OPENSEARCH_PASSWORD": {
+      "description": "Basic-auth password",
+      "required": false
+    }
+  }
+}

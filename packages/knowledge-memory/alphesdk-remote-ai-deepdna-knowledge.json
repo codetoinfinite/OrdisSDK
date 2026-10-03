@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DeepDNA",
+  "description": "Cited gene, variant (rsID) and CPIC drug–gene lookups for AI agents. Read-only, no key.",
+  "packageName": "@alphesdk-remote/ai-deepdna-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deepdna.ai/mcp"
+    }
+  ],
+  "url": "https://deepdna.ai/docs/#mcp"
+}

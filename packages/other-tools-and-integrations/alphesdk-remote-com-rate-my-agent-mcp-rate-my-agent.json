@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rate-My-Agent",
+  "description": "Get matched with a top-rated, review-verified real estate agent in the US or Canada.",
+  "packageName": "@alphesdk-remote/com-rate-my-agent-mcp-rate-my-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rate-my-agent.com/mcp"
+    }
+  ],
+  "url": "https://www.rate-my-agent.com"
+}

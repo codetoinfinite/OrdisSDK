@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "cerebro",
+  "description": "Pay-per-call ($0.25 USDC) project cost estimator: modules + cheapest model mix that clears quality.",
+  "packageName": "@alphesdk-remote/io-github-carlos-vlab-cerebro",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cerebro-mcp-production-98cc.up.railway.app/mcp"
+    }
+  ]
+}

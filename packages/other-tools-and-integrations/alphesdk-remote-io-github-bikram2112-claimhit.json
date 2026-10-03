@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ClaimHit",
+  "description": "Find products & standards using a patent - verified targets for licensing or enforcement.",
+  "packageName": "@alphesdk-remote/io-github-bikram2112-claimhit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.claimhit.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Bikram2112/claimhit-mcp",
+  "readme": "https://github.com/Bikram2112/claimhit-mcp#readme"
+}

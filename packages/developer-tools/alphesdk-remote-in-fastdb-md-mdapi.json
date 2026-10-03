@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mdapi — HTML to Markdown for AI agents",
+  "description": "Web page or HTML to clean LLM-ready Markdown or JSON. x402 pay-per-call, $0.005, no API key.",
+  "packageName": "@alphesdk-remote/in-fastdb-md-mdapi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://md.fastdb.in/mcp"
+    }
+  ],
+  "url": "https://md.fastdb.in"
+}

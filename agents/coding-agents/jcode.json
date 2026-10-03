@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "jcode",
+  "name": "jcode",
+  "description": "Resource-efficient Rust coding agent harness with a fast terminal UI built for running many agent sessions at once.",
+  "category": "coding-agents",
+  "tags": ["terminal", "rust", "low-memory", "multi-session", "swarm"],
+  "repo": "https://github.com/1jehuang/jcode",
+  "docs": "https://jcode.sh/docs",
+  "publisher": "1jehuang",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "jcode is a terminal coding agent focused on low memory use and quick startup. It lets a developer run many sessions or headless workers side by side on one machine. An SDK allows it to be embedded elsewhere.",
+  "howItWorks": "Sessions share a single background daemon, so each additional agent adds only a few megabytes. The terminal UI attaches to that daemon while headless workers run without a UI. It is installed with a shell script and can update itself.",
+  "requirements": [
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to the model that powers the agent"
+    }
+  ],
+  "install": ["curl -fsSL https://jcode.sh/install | bash"],
+  "run": [],
+  "interfaces": ["cli", "library"],
+  "language": "Rust",
+  "models": "Claude and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 20276,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

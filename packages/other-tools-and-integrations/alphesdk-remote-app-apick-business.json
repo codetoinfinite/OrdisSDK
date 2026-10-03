@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Business",
+  "description": "Korean business, parcel and simple-auth employment, income, pension, license and health data",
+  "packageName": "@alphesdk-remote/app-apick-business",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/business"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

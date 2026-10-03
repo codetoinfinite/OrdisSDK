@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "A-du: ADU rentals, plans and rules",
+  "description": "Permit-verified ADU rentals, pre-approved plans and cited ADU rules for LA, San Diego, SF and NYC.",
+  "packageName": "@alphesdk-remote/homes-a-du-a-du",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a-du.homes/mcp"
+    }
+  ],
+  "url": "https://github.com/cfkoss/a-du",
+  "readme": "https://github.com/cfkoss/a-du#readme"
+}

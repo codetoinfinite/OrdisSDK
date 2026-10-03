@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ladderboard — round-robin ladders and match scores for small clubs",
+  "description": "Round-robin ladders and match scores for small clubs. Players join by QR poster; no app, no account.",
+  "packageName": "@alphesdk-remote/app-rowb-ladder-board",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ladder.rowb.app/mcp"
+    }
+  ],
+  "url": "https://ladder.rowb.app"
+}

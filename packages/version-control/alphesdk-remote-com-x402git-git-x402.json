@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "X402 Git",
+  "description": "Buy private git repos and agent skills with USDC over x402. Read the manifest free, then pay.",
+  "packageName": "@alphesdk-remote/com-x402git-git-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402git.com/api/mcp"
+    }
+  ],
+  "url": "https://x402git.com"
+}

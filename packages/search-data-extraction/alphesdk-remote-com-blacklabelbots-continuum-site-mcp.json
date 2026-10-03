@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Black Label Continuum Website MCP",
+  "description": "Search and read public Black Label Continuum pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blacklabelbots-continuum-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://continuum.blacklabelbots.com/agent/mcp"
+    }
+  ],
+  "url": "https://continuum.blacklabelbots.com/connect"
+}

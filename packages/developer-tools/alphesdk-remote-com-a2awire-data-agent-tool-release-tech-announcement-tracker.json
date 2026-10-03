@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Tool Release Tracker — buy per-query in-session (techlaunchwatch)",
+  "description": "Agent & dev-tool releases daily: versions, changelogs. Register in-session — free testnet funds.",
+  "packageName": "@alphesdk-remote/com-a2awire-data-agent-tool-release-tech-announcement-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2awire.com/mcp/data/techlaunchwatch-agent-tool-releases-tech-announcements-be9b9e/http"
+    }
+  ],
+  "url": "https://github.com/ee324/a2awire",
+  "readme": "https://github.com/ee324/a2awire#readme"
+}

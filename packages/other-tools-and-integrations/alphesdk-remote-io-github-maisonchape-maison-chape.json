@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "maison-chape",
+  "description": "Catalogue, accords mets-vins et points de vente des vins d'Occitanie de Maison CHAPE.",
+  "packageName": "@alphesdk-remote/io-github-maisonchape-maison-chape",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.maisonchape.fr/api/mcp"
+    }
+  ],
+  "url": "https://github.com/MaisonCHAPE/maisonchape-2026",
+  "readme": "https://github.com/MaisonCHAPE/maisonchape-2026#readme"
+}

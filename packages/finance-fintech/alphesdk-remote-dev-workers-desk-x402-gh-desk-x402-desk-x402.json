@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DESK LEAD x402 — high-ticket packs $50/$100/$150",
+  "description": "~17 tools; HT packs $50/$100/$150. tools/list free; tools/call USDC Base x402. Not financial advice.",
+  "packageName": "@alphesdk-remote/dev-workers-desk-x402-gh-desk-x402-desk-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://desk-x402.desk-x402-gh.workers.dev/mcp"
+    }
+  ],
+  "url": "https://desk-x402.desk-x402-gh.workers.dev"
+}

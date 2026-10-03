@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dataroia Data Trust",
+  "description": "Vérification B2B française : SIRET, SIRENE, dirigeants RNE, santé d'entreprise. Hébergé en France.",
+  "packageName": "@alphesdk-remote/com-dataroia-data-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dataroia.com/mcp/"
+    }
+  ],
+  "url": "https://dataroia.com/api.html"
+}

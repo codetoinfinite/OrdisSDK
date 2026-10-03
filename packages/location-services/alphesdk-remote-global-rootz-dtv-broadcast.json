@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "broadcast",
+  "description": "Which TV transmitters actually reach an address, terrain-graded, and what is on now.",
+  "packageName": "@alphesdk-remote/global-rootz-dtv-broadcast",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dtv.rootz.global/mcp"
+    }
+  ]
+}

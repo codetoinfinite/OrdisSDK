@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Eagles and Angels Limited AI Gateway",
+  "description": "MCP gateway for eaglesandangelsltd.com: products, prices, stock, cart links and articles.",
+  "packageName": "@alphesdk-remote/com-getbotlens-eaglesandangelsltd",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eaglesandangelsltd.mcp.getbotlens.com/mcp"
+    }
+  ],
+  "url": "https://eaglesandangelsltd.com"
+}

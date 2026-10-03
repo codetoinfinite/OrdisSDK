@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Energy Podcast Digest",
+  "description": "Read energypod.io's weekly energy digests, episode summaries, and transcripts. Read-only.",
+  "packageName": "@alphesdk-remote/io-energypod-energypod",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://energypod.io/mcp"
+    }
+  ],
+  "url": "https://github.com/m4rz910/podcast-toolkit",
+  "readme": "https://github.com/m4rz910/podcast-toolkit#readme"
+}

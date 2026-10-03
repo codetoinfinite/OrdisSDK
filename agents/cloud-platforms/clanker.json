@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "clanker",
+  "name": "Clanker",
+  "description": "CLI that answers questions about your cloud infrastructure and plans or applies changes across AWS, GCP, Azure, Cloudflare and Kubernetes.",
+  "category": "cloud-platforms",
+  "tags": ["cloud", "aws", "infrastructure", "cli", "devops"],
+  "repo": "https://github.com/bgdnvk/clanker",
+  "homepage": "https://clankercloud.ai",
+  "docs": "https://docs.clankercloud.ai",
+  "publisher": "Clanker Cloud",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets engineers ask in natural language what is running in their cloud accounts and get answers grounded in live resource data. It can also list resources and help plan and apply infrastructure changes.",
+  "howItWorks": "The tool shells out to the provider CLIs already installed on the machine to collect context, then passes that to an LLM to answer or produce a plan. An onboarding command detects and installs the provider CLIs it needs. Configuration is created with an init command and model keys are read from environment variables.",
+  "requirements": [
+    {
+      "name": "Provider CLIs",
+      "kind": "runtime",
+      "required": true,
+      "description": "Local cloud CLIs such as aws, gcloud, az, kubectl or flyctl for the platforms in use"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One model provider key is needed; GEMINI_API_KEY and COHERE_API_KEY are the documented alternatives"
+    }
+  ],
+  "install": ["brew tap clankercloud/tap", "brew install clanker"],
+  "run": [
+    "clanker config init",
+    "clanker onboarding scan",
+    "clanker ask --aws --profile clankercloud-tekbog \"what lambdas do we have?\" | cat"
+  ],
+  "interfaces": ["cli"],
+  "language": "Go",
+  "models": "OpenAI, Google Gemini, Cohere",
+  "mcp": "none",
+  "github": {
+    "stars": 377,
+    "license": "MIT",
+    "pushedAt": "2026-08-07",
+    "checkedAt": "2026-10-03"
+  }
+}

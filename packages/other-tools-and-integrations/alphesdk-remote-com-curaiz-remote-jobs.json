@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Curaiz Remote Jobs",
+  "description": "Find fresh remote jobs matched to a person's experience, goals, and eligible locations.",
+  "packageName": "@alphesdk-remote/com-curaiz-remote-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.curaiz.com/mcp"
+    }
+  ],
+  "url": "https://www.curaiz.com/remote-jobs-mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ClusterHack",
+  "description": "Run hackathons end to end: events, teams, submissions, judging and winners.",
+  "packageName": "@alphesdk-remote/dev-clusterhack-clusterhack",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clusterhack.dev/mcp/"
+    }
+  ],
+  "url": "https://clusterhack.dev/mcp-features"
+}

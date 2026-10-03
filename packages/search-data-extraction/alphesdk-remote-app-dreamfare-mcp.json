@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dreamfare",
+  "description": "Travel tools for AI agents: plan and edit real trips, search stays and tours, import travel videos.",
+  "packageName": "@alphesdk-remote/app-dreamfare-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dreamfare.app/mcp"
+    }
+  ],
+  "url": "https://dreamfare.app/mcp"
+}

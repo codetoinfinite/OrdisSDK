@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "生活即時查詢",
+  "description": "台灣國定假日、補班日、發票對獎、彩券開獎對獎與油價查詢。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-life-info-life-info",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-life-info.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-life-info.panda198271.workers.dev"
+}

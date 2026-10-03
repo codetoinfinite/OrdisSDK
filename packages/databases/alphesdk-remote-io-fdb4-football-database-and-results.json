@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Football Database and Results",
+  "description": "Historical football results, draws and no-draw streaks. 11 read-only tools, 6 need no API key.",
+  "packageName": "@alphesdk-remote/io-fdb4-football-database-and-results",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fdb4.io/mcp"
+    }
+  ],
+  "url": "https://fdb4.io/mcp"
+}

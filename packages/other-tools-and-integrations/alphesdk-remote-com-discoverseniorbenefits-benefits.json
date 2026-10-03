@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DiscoverSeniorBenefits",
+  "description": "Find US senior benefits by ZIP and check eligibility via deterministic rules citing .gov sources.",
+  "packageName": "@alphesdk-remote/com-discoverseniorbenefits-benefits",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.discoverseniorbenefits.com/mcp"
+    }
+  ],
+  "url": "https://discoverseniorbenefits.com/ai"
+}

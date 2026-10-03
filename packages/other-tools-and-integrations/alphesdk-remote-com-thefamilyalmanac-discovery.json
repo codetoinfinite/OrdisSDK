@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Family Almanac — parenting library, guide metadata, and magazine",
+  "description": "Read-only access to The Family Almanac's parenting-focused book library, grounded guide metadata...",
+  "packageName": "@alphesdk-remote/com-thefamilyalmanac-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thefamilyalmanac.com/api/mcp"
+    }
+  ],
+  "url": "https://thefamilyalmanac.com"
+}

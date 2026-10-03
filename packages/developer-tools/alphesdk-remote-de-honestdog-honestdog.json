@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "honestdog",
+  "description": "Vetted German dog-breeder directory, S-E breed health grades and tests, adoptable shelter dogs",
+  "packageName": "@alphesdk-remote/de-honestdog-honestdog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.honestdog.de/api/v1/mcp"
+    }
+  ],
+  "url": "https://www.honestdog.de/en/ai-assistants"
+}

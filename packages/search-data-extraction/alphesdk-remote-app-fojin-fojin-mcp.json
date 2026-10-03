@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fojin — Buddhist Canon Tools",
+  "description": "Buddhist canon tools: search, passages, cross-canon parallels, dictionaries — all URN-cited.",
+  "packageName": "@alphesdk-remote/app-fojin-fojin-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fojin.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/xr843/fojin",
+  "readme": "https://github.com/xr843/fojin#readme"
+}

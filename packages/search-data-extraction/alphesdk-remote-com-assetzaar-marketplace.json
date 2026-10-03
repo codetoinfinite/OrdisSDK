@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Assetzaar Marketplace",
+  "description": "Search Assetzaar's catalog of UI components, agent skills, SaaS kits and automations.",
+  "packageName": "@alphesdk-remote/com-assetzaar-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://assetzaar.com/api/mcp"
+    }
+  ],
+  "url": "https://assetzaar.com/mcp"
+}

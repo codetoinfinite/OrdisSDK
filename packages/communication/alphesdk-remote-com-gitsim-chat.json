@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Gitsim Chat",
+  "description": "Search, order, and manage eSIM data packages for 190+ countries.",
+  "packageName": "@alphesdk-remote/com-gitsim-chat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chat.gitsim.com/api/mcp"
+    }
+  ]
+}

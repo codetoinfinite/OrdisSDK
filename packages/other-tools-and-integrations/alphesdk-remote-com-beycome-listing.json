@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "listing",
+  "description": "List on MLS, sell, show, compare and close your real estate property on beycome.",
+  "packageName": "@alphesdk-remote/com-beycome-listing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.beycome.com/mcp"
+    }
+  ],
+  "url": "https://github.com/beycome/mcp.beycome.com",
+  "readme": "https://github.com/beycome/mcp.beycome.com#readme"
+}

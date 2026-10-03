@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "deepeye",
+  "name": "DeepEye",
+  "description": "Workflow-centred data agent that turns datasets into dashboards, reports and narrated data videos with a human in the loop.",
+  "category": "data-science-tools",
+  "tags": ["data-agent", "workflow", "dashboards", "data-video", "reports"],
+  "repo": "https://github.com/HKUSTDial/DeepEye",
+  "publisher": "HKUST DIAL Lab",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Helps analysts go from raw data to finished deliverables such as dashboards, written reports and data videos. Users can inspect and adjust the generated workflow at each step.",
+  "howItWorks": "The system composes a graph of agent nodes and tool nodes that it executes and revises, exposed through a web interface. It is deployed as a Docker Compose stack with object storage and an OpenAI-compatible LLM endpoint set in the environment file.",
+  "requirements": [
+    {
+      "name": "LLM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the model endpoint, with LLM_BASE_URL and LLM_MODEL"
+    },
+    {
+      "name": "JWT_SECRET_KEY",
+      "kind": "runtime",
+      "required": true,
+      "description": "Secret for user sessions"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Compose stack"
+    }
+  ],
+  "install": ["cp env.example .env"],
+  "run": ["docker compose up --build"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "Any OpenAI-compatible endpoint",
+  "mcp": "none",
+  "github": {
+    "stars": 245,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-08-09",
+    "checkedAt": "2026-10-03"
+  }
+}

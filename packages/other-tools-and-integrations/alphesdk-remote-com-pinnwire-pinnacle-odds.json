@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PinnWire — Pinnacle Odds, Price Drops & No-Vig Fair Prices",
+  "description": "Live and prematch Pinnacle odds, price drops and no-vig fair prices. Free demo access, no key.",
+  "packageName": "@alphesdk-remote/com-pinnwire-pinnacle-odds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinnwire.com/mcp"
+    }
+  ],
+  "url": "https://pinnwire.com"
+}

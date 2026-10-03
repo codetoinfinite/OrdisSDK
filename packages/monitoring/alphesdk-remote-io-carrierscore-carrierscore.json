@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "carrierscore",
+  "description": "FMCSA motor-carrier risk scores, monitoring, and carrier-selection evidence reports for AI agents.",
+  "packageName": "@alphesdk-remote/io-carrierscore-carrierscore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.carrierscore.io/mcp"
+    }
+  ],
+  "url": "https://github.com/csprout3/carrierscore-mcp",
+  "readme": "https://github.com/csprout3/carrierscore-mcp#readme"
+}

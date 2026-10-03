@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LebenslaufHeld",
+  "description": "German CV builder: render real PDFs (20 templates), ATS + completeness checks. Anonymous, no auth.",
+  "packageName": "@alphesdk-remote/de-lebenslaufheld-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lebenslaufheld.de/mcp"
+    }
+  ],
+  "url": "https://lebenslaufheld.de/mcp"
+}

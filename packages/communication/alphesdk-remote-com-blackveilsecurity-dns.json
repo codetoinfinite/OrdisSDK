@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BlackVeil DNS & Email Security Scanner",
+  "description": "DNS and email security scanner with 81 MCP tools for SPF, DMARC, DNSSEC, SSL, and brand audits.",
+  "packageName": "@alphesdk-remote/com-blackveilsecurity-dns",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dns-mcp.blackveilsecurity.com/mcp"
+    }
+  ],
+  "url": "https://github.com/MadaBurns/bv-mcp",
+  "readme": "https://github.com/MadaBurns/bv-mcp#readme"
+}

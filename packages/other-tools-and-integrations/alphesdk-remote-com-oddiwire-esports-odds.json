@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OddiWire — Esports Odds with No-Vig Probabilities",
+  "description": "Live and prematch esports odds (ODDIN.GG feed) with no-vig fair prices. Free demo access, no key.",
+  "packageName": "@alphesdk-remote/com-oddiwire-esports-odds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oddiwire.com/mcp"
+    }
+  ],
+  "url": "https://oddiwire.com"
+}

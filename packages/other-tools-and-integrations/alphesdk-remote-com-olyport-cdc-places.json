@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CDC PLACES Health Data",
+  "description": "County and tract-level health outcomes, behaviors, and preventive services from CDC PLACES",
+  "packageName": "@alphesdk-remote/com-olyport-cdc-places",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/cdc-places/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

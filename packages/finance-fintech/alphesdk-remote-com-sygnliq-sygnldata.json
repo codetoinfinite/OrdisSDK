@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "sygnldata — market intelligence for trading agents",
+  "description": "Market regime, execution-cost, bar-QC and backtest-audit tools for agents. Pay per call via x402.",
+  "packageName": "@alphesdk-remote/com-sygnliq-sygnldata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sygnliq.com/mcp"
+    }
+  ],
+  "url": "https://api.sygnliq.com"
+}

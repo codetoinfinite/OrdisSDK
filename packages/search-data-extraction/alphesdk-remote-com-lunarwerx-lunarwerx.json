@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LunarWerx",
+  "description": "Canonicalize Tailwind classes to their short form, and search LunarWerx free dev tools.",
+  "packageName": "@alphesdk-remote/com-lunarwerx-lunarwerx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lunarwerx.com/mcp"
+    }
+  ],
+  "url": "https://lunarwerx.com/mcp"
+}

@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "open-swe",
+  "name": "Open SWE",
+  "description": "Asynchronous coding agent that investigates tasks, implements them in isolated sandboxes, opens pull requests and watches CI.",
+  "category": "coding-agents",
+  "tags": ["async-agent", "langgraph", "pull-requests", "sandbox", "slack"],
+  "repo": "https://github.com/langchain-ai/open-swe",
+  "publisher": "LangChain",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Open SWE acts like a background teammate for engineering organisations. It takes work from a dashboard, GitHub, Slack or Linear, writes the change and submits a pull request, and can also review pull requests. It keeps following the task as CI results arrive.",
+  "howItWorks": "The agent is built on Deep Agents and LangGraph, with each conversation thread getting its own sandbox. It uses LangSmith for the default sandbox and tracing and can attach external tool servers. Setup is described in the repository's installation and development guides.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access for the agent"
+    },
+    {
+      "name": "LangSmith",
+      "kind": "service",
+      "required": false,
+      "description": "Default sandbox and tracing backend"
+    },
+    {
+      "name": "GitHub App",
+      "kind": "account",
+      "required": true,
+      "description": "Lets the agent read repositories and open pull requests"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web", "chat", "api"],
+  "language": "Python",
+  "framework": "LangGraph / Deep Agents",
+  "models": "Configurable hosted models",
+  "mcp": "client",
+  "github": {
+    "stars": 10791,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "llm-vision",
+  "name": "LLM Vision",
+  "description": "Home Assistant integration that has multimodal models analyse camera images, video and Frigate events and report what happened.",
+  "category": "other-tools-and-integrations",
+  "tags": ["home-assistant", "smart-home", "vision", "cameras", "automation"],
+  "repo": "https://github.com/valentinfrlch/ha-llmvision",
+  "homepage": "https://llmvision.org",
+  "publisher": "Valentin Froehlich",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Describes what cameras see so smart-home owners can get meaningful notifications and build automations on the content of an image or clip. It keeps a timeline of analysed events.",
+  "howItWorks": "The integration adds Home Assistant actions that send frames or clips to a configured multimodal model and return text or structured data. Stored events can be recalled later and used in automations. It is installed through the Home Assistant community store rather than by shell commands.",
+  "requirements": [
+    {
+      "name": "Home Assistant",
+      "kind": "service",
+      "required": true,
+      "description": "Running instance with HACS for installation"
+    },
+    {
+      "name": "Multimodal model provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for a hosted provider or a local model server"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenRouter, OpenAI, Anthropic, Gemini, Bedrock, Azure, Groq, Ollama, Open WebUI, LocalAI",
+  "mcp": "none",
+  "github": {
+    "stars": 1479,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-17",
+    "checkedAt": "2026-10-03"
+  }
+}

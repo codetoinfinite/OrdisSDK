@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Crypto Price MCP",
+  "description": "Free, keyless live cryptocurrency prices, market cap, and 24h change via CoinGecko.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-crypto-price-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/crypto/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

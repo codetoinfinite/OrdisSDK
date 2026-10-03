@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "metagpt",
+  "name": "MetaGPT",
+  "description": "Multi-agent system that simulates a software company and turns a one-line requirement into specs, designs and a code repository.",
+  "category": "other-tools-and-integrations",
+  "tags": ["multi-agent", "software-company", "sop", "code-generation", "data-interpreter"],
+  "repo": "https://github.com/FoundationAgents/MetaGPT",
+  "docs": "https://docs.deepwisdom.ai/main/en/guide/get_started/installation.html",
+  "publisher": "FoundationAgents (DeepWisdom)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Given a short requirement, it produces user stories, competitive analysis, data structures, API designs, documents and a generated project in a workspace folder. It also ships a Data Interpreter role that writes and runs analysis code. Aimed at developers who want an automated team of role-playing agents.",
+  "howItWorks": "LLM agents are assigned roles such as product manager, architect, project manager and engineer and follow standard operating procedures that pass artefacts from one role to the next. It is driven from the `metagpt` command line or as a Python library.",
+  "requirements": [
+    {
+      "name": "Python 3.9 - 3.11",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.9 or later but below 3.12"
+    },
+    {
+      "name": "Node.js and pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "The README asks for both to be installed before use"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access configured in the MetaGPT config file"
+    }
+  ],
+  "install": ["pip install --upgrade metagpt"],
+  "run": ["metagpt \"Create a 2048 game\""],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "OpenAI and other providers via config",
+  "mcp": "none",
+  "github": {
+    "stars": 70722,
+    "license": "MIT",
+    "pushedAt": "2026-01-21",
+    "checkedAt": "2026-10-03"
+  }
+}

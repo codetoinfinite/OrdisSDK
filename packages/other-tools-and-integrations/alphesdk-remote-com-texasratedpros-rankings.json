@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TexasRatedPros Rankings",
+  "description": "Texas service-company rankings, profiles, comparisons, score breakdowns, and methodology.",
+  "packageName": "@alphesdk-remote/com-texasratedpros-rankings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.texasratedpros.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/kossik/texasratedpros-mcp",
+  "readme": "https://github.com/kossik/texasratedpros-mcp#readme"
+}

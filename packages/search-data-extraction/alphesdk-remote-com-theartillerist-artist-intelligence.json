@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Artillerist Intelligence",
+  "description": "Search art research, estimate commissions, and prepare company intelligence purchases via x402.",
+  "packageName": "@alphesdk-remote/com-theartillerist-artist-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theartillerist.com/mcp"
+    }
+  ],
+  "url": "https://theartillerist.com/agent-intelligence"
+}

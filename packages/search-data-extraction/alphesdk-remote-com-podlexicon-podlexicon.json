@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PodLexicon",
+  "description": "Search and read AI summaries of 75,000+ podcast episodes across 130+ mostly long-form shows.",
+  "packageName": "@alphesdk-remote/com-podlexicon-podlexicon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://podlexicon.com/mcp/"
+    }
+  ],
+  "url": "https://podlexicon.com/agents"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "past.dev",
+  "description": "Memory for AI agents. Ask what is true now, get the facts back with their dated sources.",
+  "packageName": "@alphesdk-remote/dev-past-past",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://past.dev/mcp"
+    }
+  ],
+  "url": "https://past.dev/docs/mcp/overview"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentfulfyl",
+  "description": "Research storefront for AI agents: fixed GBP prices, evidence ledgers, citation-refund guarantee.",
+  "packageName": "@alphesdk-remote/io-github-capataina-agentfulfyl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentfulfyl.com/mcp"
+    }
+  ],
+  "url": "https://agentfulfyl.com"
+}

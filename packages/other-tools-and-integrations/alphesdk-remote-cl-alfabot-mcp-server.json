@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alfabot MCP Server",
+  "description": "Consulta de planes de productos Alfabot y agendamiento de reuniones para colegios y empresas",
+  "packageName": "@alphesdk-remote/cl-alfabot-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alfabot.cl/mcp"
+    }
+  ],
+  "url": "https://alfabot.cl/"
+}

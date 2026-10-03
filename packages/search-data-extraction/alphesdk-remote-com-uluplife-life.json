@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "life",
+  "description": "Create and search memories in your personal life constellation, UluP Life.",
+  "packageName": "@alphesdk-remote/com-uluplife-life",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.uluplife.com/api/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/UluPStudio/uluplife",
+  "readme": "https://gitlab.com/UluPStudio/uluplife#readme"
+}

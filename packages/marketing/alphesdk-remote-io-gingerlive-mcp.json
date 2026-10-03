@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GingerLive",
+  "description": "GingerLive livestream ad formats, network reach stats, campaign case studies, and streamer program.",
+  "packageName": "@alphesdk-remote/io-gingerlive-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gingerlive.io/mcp"
+    }
+  ],
+  "url": "https://github.com/gingerlive-io/gingerlive-mcp",
+  "readme": "https://github.com/gingerlive-io/gingerlive-mcp#readme"
+}

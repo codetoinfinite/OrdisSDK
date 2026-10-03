@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cybergenic",
+  "description": "Cancer gene co-occurrence and exclusivity in tumour cohorts, with confound controls and exact tests.",
+  "packageName": "@alphesdk-remote/im-cybergenic-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cybergenic.im/mcp?via=mcpregistry"
+    }
+  ],
+  "url": "https://cybergenic.im/connect?utm_source=mcpregistry&utm_medium=listing&utm_campaign=mcp-agent-channel"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Merlonix Monitoring",
+  "description": "Monitoring for agencies — uptime, SSL, DNS, blocklists, AI visibility, MCP health. 8 no-auth tools.",
+  "packageName": "@alphesdk-remote/com-merlonix-monitoring",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.merlonix.com/mcp"
+    }
+  ],
+  "url": "https://merlonix.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PrismFact",
+  "description": "Факты о бизнесе Томской области по ИНН: деньги, налоги, долг, статус. С источником и датой.",
+  "packageName": "@alphesdk-remote/com-prismfact-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prismfact.com/mcp"
+    }
+  ],
+  "url": "https://prismfact.com"
+}

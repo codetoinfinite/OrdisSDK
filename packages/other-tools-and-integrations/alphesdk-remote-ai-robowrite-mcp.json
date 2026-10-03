@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RoboWrite",
+  "description": "Hosted RoboWrite MCP server: recover briefs and drafts, run the reviewed URL-to-Markdown workflow.",
+  "packageName": "@alphesdk-remote/ai-robowrite-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.robowrite.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/RoboAdApp/robowrite-plugin",
+  "readme": "https://github.com/RoboAdApp/robowrite-plugin#readme"
+}

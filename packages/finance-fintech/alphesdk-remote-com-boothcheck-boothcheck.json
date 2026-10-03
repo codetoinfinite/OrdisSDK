@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "boothcheck",
+  "description": "What a stock price is betting on: implied growth, duration, and margin, read from SEC filings.",
+  "packageName": "@alphesdk-remote/com-boothcheck-boothcheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://boothcheck.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Keenan-ux/boothcheck-mcp",
+  "readme": "https://github.com/Keenan-ux/boothcheck-mcp#readme"
+}

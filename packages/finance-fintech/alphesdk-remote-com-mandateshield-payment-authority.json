@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MandateShield AI Payment Evidence",
+  "description": "Analyzes delegated AI payment authority and exposes supported Stripe/x402 evidence contracts.",
+  "packageName": "@alphesdk-remote/com-mandateshield-payment-authority",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mandateshield.com/api/mcp"
+    }
+  ],
+  "url": "https://mandateshield.com/connect"
+}

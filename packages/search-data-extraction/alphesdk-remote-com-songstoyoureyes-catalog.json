@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Songs To Your Eyes — production music catalogue",
+  "description": "Search 18,594 production-music cues by mood, sound and exact runtime. Instant preview links.",
+  "packageName": "@alphesdk-remote/com-songstoyoureyes-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.songstoyoureyes.com/mcp"
+    }
+  ],
+  "url": "https://www.songstoyoureyes.com"
+}

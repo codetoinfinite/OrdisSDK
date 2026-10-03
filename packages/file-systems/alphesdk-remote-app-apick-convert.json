@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Convert",
+  "description": "File conversion: PDF, DOCX, STT, asynchronous TTS with MP3/ASS downloads, watermarking",
+  "packageName": "@alphesdk-remote/app-apick-convert",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/convert"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

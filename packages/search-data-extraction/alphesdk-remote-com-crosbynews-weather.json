@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Crosby, TX Weather",
+  "description": "Crosby, TX weather, air quality, tropics, floods, fishing, pollen, burn bans, radar, news & schools.",
+  "packageName": "@alphesdk-remote/com-crosbynews-weather",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crosbynews.com/mcp"
+    }
+  ],
+  "url": "https://github.com/reloru/new-relo",
+  "readme": "https://github.com/reloru/new-relo#readme"
+}

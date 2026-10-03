@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kopp Real Estate München",
+  "description": "Munich real estate: market prices by district, current listings, free valuation and search requests.",
+  "packageName": "@alphesdk-remote/de-kopp-re-immobilien-muenchen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kopp-re.de/wp-json/kopp/v1/mcp"
+    }
+  ],
+  "url": "https://kopp-re.de/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "company-data",
+  "description": "Read-only data on 3.9M Romanian companies: search, profiles, financials, status, CAEN.",
+  "packageName": "@alphesdk-remote/com-firmeromanesti-company-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://firmeromanesti.com/mcp"
+    }
+  ],
+  "url": "https://github.com/QwertyBit-Ventures/firmeromanesti",
+  "readme": "https://github.com/QwertyBit-Ventures/firmeromanesti#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "fabricate",
+  "description": "Public Fabricate pricing and documentation tools.",
+  "packageName": "@alphesdk-remote/build-fabricate-fabricate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fabricate.build/mcp"
+    }
+  ]
+}

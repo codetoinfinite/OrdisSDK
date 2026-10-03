@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Listen to Sadhu",
+  "description": "Read-only semantic search over Vedic scripture verses, commentaries, and recorded lectures.",
+  "packageName": "@alphesdk-remote/app-listentosadhu-corpus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.listentosadhu.app/mcp"
+    }
+  ],
+  "url": "https://listentosadhu.app"
+}

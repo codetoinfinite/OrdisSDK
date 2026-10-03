@@ -22,5 +22,6 @@
       "description": "Your JWT private key, for use with signed playback IDs",
       "required": false
     }
-  }
+  },
+  "bin": "mcp-server"
 }

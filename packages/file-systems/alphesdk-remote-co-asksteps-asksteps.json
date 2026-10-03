@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "asksteps",
+  "description": "Turn a fillable PDF into an online form, build funnels, read submissions.",
+  "packageName": "@alphesdk-remote/co-asksteps-asksteps",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.asksteps.co/mcp"
+    }
+  ],
+  "url": "https://asksteps.co/entwickler/mcp"
+}

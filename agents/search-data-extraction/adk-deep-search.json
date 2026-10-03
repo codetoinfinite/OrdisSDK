@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "adk-deep-search",
+  "name": "ADK Deep Search Agent",
+  "description": "Full-stack research agent on Google's ADK that plans, searches the web iteratively and writes a cited report after the user approves the plan.",
+  "category": "search-data-extraction",
+  "tags": ["research", "adk", "gemini", "human-in-the-loop", "fullstack"],
+  "repo": "https://github.com/google/adk-recipes",
+  "subpath": "core/python/deep-search",
+  "docs": "https://adk.dev",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Given a research question, the agent drafts a multi-step plan, asks the user to approve it, then repeatedly searches and critiques its findings until it can produce a comprehensive report. It is a starting point for teams building their own research assistants on Gemini.",
+  "howItWorks": "A FastAPI backend built with the Agent Development Kit hosts several cooperating agents (planner, researcher, critic, writer) that call search through Gemini function calling; a React frontend drives it. It runs locally with an AI Studio key or Vertex AI and can be deployed to Cloud Run or Agent Runtime.",
+  "requirements": [
+    {
+      "name": "GOOGLE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "AI Studio key written to app/.env; Vertex AI variables are the alternative"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python package manager"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the React frontend"
+    },
+    {
+      "name": "make",
+      "kind": "runtime",
+      "required": true,
+      "description": "Recipe is driven by Makefile targets"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google/adk-recipes.git",
+    "cd adk-recipes/core/python/deep-search",
+    "echo \"GOOGLE_API_KEY=YOUR_AI_STUDIO_API_KEY\" >> app/.env"
+  ],
+  "run": ["make install && make dev"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "Google ADK",
+  "models": "Gemini (AI Studio or Vertex AI)",
+  "mcp": "none",
+  "github": {
+    "stars": 10411,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

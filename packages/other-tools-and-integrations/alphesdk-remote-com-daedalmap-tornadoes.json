@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Tornado Events",
+  "description": "US tornado events 1950-present from the NOAA Storm Prediction Center: EF rating, tracks, damage.",
+  "packageName": "@alphesdk-remote/com-daedalmap-tornadoes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/tornadoes"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

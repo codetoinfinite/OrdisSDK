@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TraderSpy",
+  "description": "AI crypto signals, whale positions, 19 technical indicators, derivatives, screener and backtests",
+  "packageName": "@alphesdk-remote/app-traderspy-traderspy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.traderspy.app/mcp"
+    }
+  ],
+  "url": "https://github.com/target1m/traderspy-mcp",
+  "readme": "https://github.com/target1m/traderspy-mcp#readme"
+}

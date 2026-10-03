@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pinch Grocery Prices (Australia)",
+  "description": "Live Australian grocery prices from Woolworths, Coles, Aldi and Harris Farm.",
+  "packageName": "@alphesdk-remote/com-pinch-app-grocery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinch-app.com/api/mcp"
+    }
+  ],
+  "url": "https://pinch-app.com"
+}

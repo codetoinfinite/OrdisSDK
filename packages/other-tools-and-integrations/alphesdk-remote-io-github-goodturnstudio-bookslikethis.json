@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Books Like This",
+  "description": "Books like one you enjoyed, a book's details and any film of it, and an author's books.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-bookslikethis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/bookslikethis/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

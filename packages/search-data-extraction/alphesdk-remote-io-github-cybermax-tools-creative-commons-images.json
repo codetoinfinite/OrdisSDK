@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Commonkite: Free Image Search API, Creative Commons & CC0",
+  "description": "Commonkite: free-to-use CC/public-domain images with license + credit line.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-creative-commons-images",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://commonkite.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

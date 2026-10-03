@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "librechat",
+  "name": "LibreChat",
+  "description": "Self-hosted multi-user chat platform with configurable Agents that use files, skills, code workers and subagents.",
+  "category": "other-tools-and-integrations",
+  "tags": ["chat", "agents", "self-hosted", "multi-user", "subagents"],
+  "repo": "https://github.com/LibreChat-AI/LibreChat",
+  "homepage": "https://librechat.ai/",
+  "publisher": "LibreChat",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Teams run their own chat service and create Agents that can inspect and edit files in attached workspaces, run Bash under approval controls and launch background tools or subagents. A beta management API creates and updates Agents programmatically.",
+  "howItWorks": "A web application hosts conversations and an Agents layer on top of the configured model endpoints. Per-user controls set whether file writes and commands are asked, allowed or denied. Setup steps are in the project documentation rather than the README.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the model endpoints you enable"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Multiple providers and custom endpoints",
+  "mcp": "none",
+  "github": {
+    "stars": 45209,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

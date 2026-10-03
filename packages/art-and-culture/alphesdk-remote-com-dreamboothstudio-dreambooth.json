@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dreambooth Studio",
+  "description": "Ask about your Dreambooth Studio photobooths: sessions, revenue, credits, projects, device status.",
+  "packageName": "@alphesdk-remote/com-dreamboothstudio-dreambooth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dreamboothstudio.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Dreambooth-Studio/dreambooth-mcp",
+  "readme": "https://github.com/Dreambooth-Studio/dreambooth-mcp#readme"
+}

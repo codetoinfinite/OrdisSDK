@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "blast-radius",
+  "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
+  "packageName": "@alphesdk-remote/ai-blast-radius-blast-radius",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blast-radius.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/kipmcc/blast-radius-live",
+  "readme": "https://github.com/kipmcc/blast-radius-live#readme"
+}

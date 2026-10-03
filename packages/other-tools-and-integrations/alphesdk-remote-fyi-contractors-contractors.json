@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "contractors.fyi",
+  "description": "US contractors ranked by city permits, permit costs and timelines, solar and generator sizing.",
+  "packageName": "@alphesdk-remote/fyi-contractors-contractors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contractors.fyi/mcp"
+    }
+  ],
+  "url": "https://contractors.fyi/ai/"
+}

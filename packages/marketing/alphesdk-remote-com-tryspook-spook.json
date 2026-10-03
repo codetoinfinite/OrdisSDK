@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Spook SEO",
+  "description": "Free SEO tools + the Spook SEO autopilot: analyze domains, generate and publish SEO articles.",
+  "packageName": "@alphesdk-remote/com-tryspook-spook",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tryspook.com/api/mcp"
+    }
+  ],
+  "url": "https://www.tryspook.com"
+}

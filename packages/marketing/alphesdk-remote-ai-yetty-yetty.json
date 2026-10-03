@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "yetty",
+  "description": "Build, edit and run real hosted websites from your AI - content, SEO, menus, store, rollback.",
+  "packageName": "@alphesdk-remote/ai-yetty-yetty",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.yetty.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/avniy/yetty-mcp",
+  "readme": "https://github.com/avniy/yetty-mcp#readme"
+}

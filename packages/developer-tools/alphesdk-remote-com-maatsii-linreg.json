@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Maatsii",
+  "description": "Live LinReg fan charts, 64-setup playbook, 11-section MTF TA. Remote MCP, no API key.",
+  "packageName": "@alphesdk-remote/com-maatsii-linreg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.maatsii.com/mcp"
+    }
+  ],
+  "url": "https://github.com/BL3IP/maatsii-cursor-plugin",
+  "readme": "https://github.com/BL3IP/maatsii-cursor-plugin#readme"
+}

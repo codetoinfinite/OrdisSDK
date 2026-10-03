@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Video Generation Cost Estimator",
+  "description": "Video generation cost estimates across providers, with provenance, freshness, and confidence.",
+  "packageName": "@alphesdk-remote/io-github-702exec-agent-data-platform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-data-platform.onrender.com/mcp"
+    }
+  ],
+  "url": "https://agent-data-platform.onrender.com/docs"
+}

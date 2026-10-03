@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "bitHuman docs",
+  "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+  "packageName": "@alphesdk-remote/ai-bithuman-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.bithuman.ai/docs-mcp"
+    }
+  ],
+  "url": "https://github.com/bithuman-product/public-docs",
+  "readme": "https://github.com/bithuman-product/public-docs#readme"
+}

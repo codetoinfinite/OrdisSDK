@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "gtm-tools",
+  "description": "A read-only verified record of agent-operable GTM tools: search, fetch, compare, track changes.",
+  "packageName": "@alphesdk-remote/dev-gtmtools-gtm-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gtmtools.dev/mcp"
+    }
+  ]
+}

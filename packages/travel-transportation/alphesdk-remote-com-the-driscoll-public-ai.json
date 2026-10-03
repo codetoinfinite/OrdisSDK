@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Driscoll Public AI",
+  "description": "Read-only property facts, indicative availability, authorised booking links and guest-safe support.",
+  "packageName": "@alphesdk-remote/com-the-driscoll-public-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://the-driscoll.com/mcp"
+    }
+  ],
+  "url": "https://the-driscoll.com/"
+}

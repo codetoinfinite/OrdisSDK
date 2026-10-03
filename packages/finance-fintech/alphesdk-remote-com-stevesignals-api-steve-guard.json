@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "steve-guard",
+  "description": "Solana + Robinhood-Chain token safety & net-USD accumulation intel for trading agents.",
+  "packageName": "@alphesdk-remote/com-stevesignals-api-steve-guard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.stevesignals.com/mcp"
+    }
+  ]
+}

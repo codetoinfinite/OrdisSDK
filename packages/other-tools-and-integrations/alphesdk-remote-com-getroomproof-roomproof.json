@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Roomproof",
+  "description": "Room planning to scale from your AI: it places furniture, Roomproof checks walkways and door swings.",
+  "packageName": "@alphesdk-remote/com-getroomproof-roomproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getroomproof.com/mcp"
+    }
+  ],
+  "url": "https://getroomproof.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jithox EU Counterparty Sanctions Preflight",
+  "description": "Read-only EU sanctions preflight: screen names/IDs against EU list. Evidence, not a verdict.",
+  "packageName": "@alphesdk-remote/com-jithox-eu-sanctions-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sanctions.mcp.jithox.com/mcp"
+    }
+  ],
+  "url": "https://sanctions.mcp.jithox.com/docs"
+}

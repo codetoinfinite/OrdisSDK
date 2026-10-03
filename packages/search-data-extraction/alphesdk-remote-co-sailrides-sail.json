@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sail",
+  "description": "Search places, compare ride-hailing options, and plan trotro minibus journeys.",
+  "packageName": "@alphesdk-remote/co-sailrides-sail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sailrides.co/mcp"
+    }
+  ],
+  "url": "https://sailrides.co/about/integrate"
+}

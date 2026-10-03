@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nostr Signer",
+  "description": "Approve Nostr signatures with your own browser signer without exposing a private key.",
+  "packageName": "@alphesdk-remote/com-frontiercrown-signer-nostr-signer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signer.frontiercrown.com/mcp"
+    }
+  ],
+  "url": "https://github.com/hudhaifahz/nostr-signer-chatgpt",
+  "readme": "https://github.com/hudhaifahz/nostr-signer-chatgpt#readme"
+}

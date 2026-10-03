@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Property Hazard MCP",
+  "description": "Flood, wildfire, earthquake, and coastal-storm hazard lookup for a US property.",
+  "packageName": "@alphesdk-remote/ai-zipquote-us-property-hazard-risk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zipquote.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ericshenus/us-property-hazard-risk",
+  "readme": "https://github.com/ericshenus/us-property-hazard-risk#readme"
+}

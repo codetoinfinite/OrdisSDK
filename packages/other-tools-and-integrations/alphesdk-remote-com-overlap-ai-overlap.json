@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Overlap",
+  "description": "Records what you're working on so Overlap can introduce you to someone two weeks ahead of you.",
+  "packageName": "@alphesdk-remote/com-overlap-ai-overlap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://overlap-ai.com/api/mcp"
+    }
+  ],
+  "url": "https://overlap-ai.com/connector"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Texas HVAC Replacement Cost: the site's own MCP server — enquiry (enquiry = a human handoff, not...",
+  "packageName": "@alphesdk-remote/com-texashvacreplacementcost-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://texashvacreplacementcost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

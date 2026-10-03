@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "scrapeunblocker-mcp-remote",
+  "description": "Fetch any web page's HTML, AI-parsed JSON, or Google results via the ScrapeUnblocker anti-bot API",
+  "packageName": "@alphesdk-remote/com-scrapeunblocker-scrapeunblocker-mcp-remote",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.scrapeunblocker.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp-remote",
+  "readme": "https://github.com/ScrapeUnblocker/scrapeunblocker-mcp-remote#readme"
+}

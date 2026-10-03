@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TitanStore Commerce MCP",
+  "description": "MCP commerce surface for compute credits, API keys, GPU instances, and cloud storage.",
+  "packageName": "@alphesdk-remote/io-github-fish-tacos-titan-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sati-search.fly.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Fish-Tacos/sati-commerce-demo",
+  "readme": "https://github.com/Fish-Tacos/sati-commerce-demo#readme"
+}

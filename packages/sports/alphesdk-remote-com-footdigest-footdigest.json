@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "footdigest",
+  "description": "Calibrated, sourced football predictions: odds, tournament sims, standings, brackets, model card.",
+  "packageName": "@alphesdk-remote/com-footdigest-footdigest",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://footdigest.com/mcp"
+    }
+  ],
+  "url": "https://footdigest.com/mcp"
+}

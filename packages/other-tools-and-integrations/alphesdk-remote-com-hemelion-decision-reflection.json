@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hemelion Decision and Pattern Reflection",
+  "description": "Native Clarity decision mapping, MindScan episode reflection, and read-only evidence tools.",
+  "packageName": "@alphesdk-remote/com-hemelion-decision-reflection",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hemelion.com/mcp"
+    }
+  ],
+  "url": "https://www.hemelion.com/integrations/mcp"
+}

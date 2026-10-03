@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Defiance Storefront",
+  "description": "Read-only catalog, sequence, evidence, policy, and COA-verification lookup for an RUO supplier.",
+  "packageName": "@alphesdk-remote/io-defianceinternational-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://defianceinternational.io/mcp"
+    }
+  ],
+  "url": "https://defianceinternational.io"
+}

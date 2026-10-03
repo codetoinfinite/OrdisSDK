@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lunium — Brazilian PIX and stablecoin payments",
+  "description": "PIX payments for Brazil: verify a settlement with no API key, or sell USDT/USDC for BRL over PIX.",
+  "packageName": "@alphesdk-remote/com-luniumpay-pix-brazilian-payments",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.luniumpay.com/mcp"
+    }
+  ],
+  "url": "https://luniumpay.com"
+}

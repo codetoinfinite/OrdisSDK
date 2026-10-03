@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TapeAPI: signed BNB Chain reads",
+  "description": "Signed BNB Chain reads (balances, tokens, NFTs, prices, TapeOut names) with verifiable receipts",
+  "packageName": "@alphesdk-remote/io-github-brucelanlan-tapeapi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tapeapi.fun/mcp"
+    }
+  ],
+  "url": "https://github.com/BruceLanLan/tapeapi",
+  "readme": "https://github.com/BruceLanLan/tapeapi#readme"
+}

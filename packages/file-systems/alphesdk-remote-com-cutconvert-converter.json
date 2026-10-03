@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CutConvert",
+  "description": "Convert subtitles, transcripts, broadcast captions (SCC/MCC/STL), EDLs, and Premiere files.",
+  "packageName": "@alphesdk-remote/com-cutconvert-converter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cutconvert.com/api/mcp"
+    }
+  ],
+  "url": "https://cutconvert.com/mcp"
+}

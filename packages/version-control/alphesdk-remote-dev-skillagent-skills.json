@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SkillAgent",
+  "description": "Search and fetch AI agent skills, rules files and MCP servers indexed from GitHub.",
+  "packageName": "@alphesdk-remote/dev-skillagent-skills",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skillagent.dev/mcp"
+    }
+  ],
+  "url": "https://skillagent.dev"
+}

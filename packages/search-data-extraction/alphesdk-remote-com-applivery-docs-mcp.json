@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search and read the public Applivery docs (MDM & app distribution). Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-applivery-docs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.applivery.com/mcp"
+    }
+  ],
+  "url": "https://github.com/applivery/docs-front",
+  "readme": "https://github.com/applivery/docs-front#readme"
+}

@@ -56,7 +56,7 @@ Before you begin, ensure your development environment meets the following requir
 - **Web Framework**: Hono.js + OpenAPI (Zod)
 - **Architecture**: Domain-Driven Design (DDD) + Service Object Pattern
 - **Search Service**: MeiliSearch (optional)
-- **Sandbox Providers**: LOCAL / Sandock / Daytona / E2B
+- **Sandbox Providers**: LOCAL / Vercel / Sandock / Daytona / E2B
 - **Build Tool**: TypeScript Compiler (tsc)
 - **Code Formatting**: Biome
 - **Testing**: Vitest
@@ -74,6 +74,7 @@ This project has two main purposes:
 - 🔍 **Search Service** - Full-text search powered by MeiliSearch (optional)
 - 🛡️ **Sandbox Execution** - Secure MCP tool execution in isolated environments:
   - **LOCAL** - Direct local execution (default)
+  - **Vercel** - Vercel Sandbox microVMs on your Vercel account; no key needed when deployed on Vercel (OIDC)
   - **Sandock** - Lightweight Docker sandbox for AI agents
   - **Daytona** - Cloud development environments
   - **E2B** - Code interpreter sandbox
@@ -528,11 +529,13 @@ If you need to customize, you can configure the following variables:
 | `DAYTONA_API_KEY` | Daytona API Key (required when switching Provider) | - |
 | `DAYTONA_API_URL` | Daytona service URL | - |
 | `E2B_API_KEY` | E2B API Key (required when switching Provider) | - |
+| `VERCEL_OIDC_TOKEN` | Vercel Sandbox token outside Vercel, written by `vercel env pull` (valid 12 hours) | - |
 
 #### Sandbox Provider Options
 
 - **SANDOCK** ⭐ - Default recommendation, lightweight Docker sandbox designed for AI Agents
 - **LOCAL** - Direct local execution, no isolation (for development and testing)
+- **VERCEL** - Vercel Sandbox microVMs billed to your Vercel account; no key on Vercel (OIDC). Only `MCP_SANDBOX_PROVIDER` selects it, not the `sandboxProvider` request parameter
 - **DAYTONA** - Cloud development environment (team collaboration)
 - **E2B** - Code interpreter sandbox (specific scenarios)
 

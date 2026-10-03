@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "gemini-cli",
+  "name": "Gemini CLI",
+  "description": "Google's terminal AI agent that uses Gemini to read and edit code, run shell commands, search the web and automate developer workflows.",
+  "category": "coding-agents",
+  "tags": ["terminal", "coding", "gemini", "mcp", "cli"],
+  "repo": "https://github.com/google-gemini/gemini-cli",
+  "homepage": "https://geminicli.com",
+  "docs": "https://geminicli.com/docs/",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gemini CLI lets developers talk to Gemini from the terminal to explore and change codebases, generate new projects, run commands and automate repository chores. It also works non-interactively for scripting, with plain, JSON or streaming JSON output.",
+  "howItWorks": "A Node.js CLI runs an agent loop against Gemini models with built-in tools for file operations, shell execution, web fetch and Google Search grounding. Additional tools are attached through MCP servers. Authentication is via Google sign-in, a Gemini API key, or Vertex AI.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm/npx install"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Gemini API key; alternative to signing in with a Google account"
+    },
+    {
+      "name": "GOOGLE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Vertex AI key, used together with GOOGLE_GENAI_USE_VERTEXAI=true"
+    },
+    {
+      "name": "GOOGLE_CLOUD_PROJECT",
+      "kind": "account",
+      "required": false,
+      "description": "Cloud project for Code Assist licence users"
+    }
+  ],
+  "install": ["npm install -g @google/gemini-cli"],
+  "run": ["gemini"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "Google Gemini models",
+  "mcp": "client",
+  "github": {
+    "stars": 107219,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

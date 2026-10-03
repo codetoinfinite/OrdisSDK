@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "iscabox",
+  "description": "Sport fishing in Brazil: species, spots, tides, lures and gear with today's prices (pt-BR).",
+  "packageName": "@alphesdk-remote/com-iscabox-iscabox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.iscabox.com/mcp"
+    }
+  ],
+  "url": "https://www.iscabox.com/api/mcp"
+}

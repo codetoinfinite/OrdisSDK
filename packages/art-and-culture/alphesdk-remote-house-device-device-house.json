@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "device-house",
+  "description": "device.house — words become circuits. Design devices: BoM, enclosure, firmware, routed PCB.",
+  "packageName": "@alphesdk-remote/house-device-device-house",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://device-house-mcp.fly.dev/mcp"
+    }
+  ],
+  "url": "https://device.house"
+}

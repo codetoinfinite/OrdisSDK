@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Edgar & Edgarette: SEC Filing Boards",
+  "description": "SEC filings the day they are filed, on nine boards, plus an actuarial reading of any US filer.",
+  "packageName": "@alphesdk-remote/io-github-huanggoodmanagency-edgar-and-edgarette",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pops4.com/boards/mcp"
+    }
+  ],
+  "url": "https://github.com/HuangGoodmanAgency/filing-boards",
+  "readme": "https://github.com/HuangGoodmanAgency/filing-boards#readme"
+}

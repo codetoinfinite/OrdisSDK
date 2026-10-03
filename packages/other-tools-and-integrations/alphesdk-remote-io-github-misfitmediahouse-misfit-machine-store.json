@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Misfit Machine Store",
+  "description": "UCP-compatible machine catalog for paid Misfit agent APIs and MCP services.",
+  "packageName": "@alphesdk-remote/io-github-misfitmediahouse-misfit-machine-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cibcxqrqiqvzpardbdrw.supabase.co/functions/v1/misfit-machine-store-mcp"
+    }
+  ],
+  "url": "https://misfitmediahouse.com"
+}

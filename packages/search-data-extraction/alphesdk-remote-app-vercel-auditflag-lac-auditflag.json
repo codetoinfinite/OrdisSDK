@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "auditflag",
+  "description": "Search SEC EDGAR for going-concern auditor opinions in real 10-K/10-Q filings.",
+  "packageName": "@alphesdk-remote/app-vercel-auditflag-lac-auditflag",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auditflag-lac.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://auditflag-lac.vercel.app"
+}

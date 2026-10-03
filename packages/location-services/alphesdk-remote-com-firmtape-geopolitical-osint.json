@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FirmTape Geo - public records of world events",
+  "description": "Geopolitical OSINT: sanctions, NOTAMs, maritime warnings, outages, conflict records with sources",
+  "packageName": "@alphesdk-remote/com-firmtape-geopolitical-osint",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geo.firmtape.com/mcp"
+    }
+  ],
+  "url": "https://firmtape.com/geo"
+}

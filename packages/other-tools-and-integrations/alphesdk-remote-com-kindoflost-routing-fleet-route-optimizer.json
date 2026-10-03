@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fleet Route Optimizer",
+  "description": "Splits deliveries across vehicles and orders each route: time windows, capacities, road times. Free.",
+  "packageName": "@alphesdk-remote/com-kindoflost-routing-fleet-route-optimizer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://routing.kindoflost.com/mcp"
+    }
+  ],
+  "url": "https://routing.kindoflost.com/mcp-server"
+}

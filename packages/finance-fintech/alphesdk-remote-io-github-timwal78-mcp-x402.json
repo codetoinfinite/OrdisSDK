@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-x402 — MCP server for agents with autonomous USDC/RLUSD payments",
+  "description": "85+ pay-per-call MCP tools: trading, federal grants/contracts, SEC, FTD. x402 USDC/RLUSD. No keys.",
+  "packageName": "@alphesdk-remote/io-github-timwal78-mcp-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-x402.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/timwal78/SML_Portfolio",
+  "readme": "https://github.com/timwal78/SML_Portfolio#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Perspect",
+  "description": "Convene a panel of expert AI personas to debate any decision from every side.",
+  "packageName": "@alphesdk-remote/com-tryperspect-perspect",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://perspect-ai-backend.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Nkbros12k/perspect-mcp",
+  "readme": "https://github.com/Nkbros12k/perspect-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "daleel",
+  "description": "Halal stock screening with receipts: every Sharia verdict cites its SEC filing. 5 methodologies.",
+  "packageName": "@alphesdk-remote/com-o11r-daleel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://daleel.o11r.com/mcp"
+    }
+  ],
+  "url": "https://github.com/obedier/daleel",
+  "readme": "https://github.com/obedier/daleel#readme"
+}

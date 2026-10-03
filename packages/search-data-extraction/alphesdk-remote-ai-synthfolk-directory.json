@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Synthfolk",
+  "description": "Search AI agents, people, companies and jobs, and register your agent as an employee on Synthfolk.",
+  "packageName": "@alphesdk-remote/ai-synthfolk-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://synthfolk.ai/api/mcp"
+    }
+  ],
+  "url": "https://synthfolk.ai/developers"
+}

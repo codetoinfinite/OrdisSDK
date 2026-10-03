@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sumhound — e-commerce platform changes & seller deadlines",
+  "description": "Curated Amazon/Shopify/TikTok Shop changes (fees, policies, APIs) & upcoming seller deadlines.",
+  "packageName": "@alphesdk-remote/com-sumhound-sumhound-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sumhound.com/mcp"
+    }
+  ],
+  "url": "https://sumhound.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Well-Being Check",
+  "description": "Hosted MCP app for guided anxiety, depression, and well-being self-checks.",
+  "packageName": "@alphesdk-remote/com-keenethics-labs-well-being-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mental-tests-mcp-app.keenethics-labs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/keen-mcp/mental-tests",
+  "readme": "https://github.com/keen-mcp/mental-tests#readme"
+}

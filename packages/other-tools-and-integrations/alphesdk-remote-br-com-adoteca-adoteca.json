@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Adoteca — Adoção de Pets no Brasil",
+  "description": "Cães e gatos para adoção no Brasil, de ONGs e protetores. Busque por cidade, porte, idade e saúde.",
+  "packageName": "@alphesdk-remote/br-com-adoteca-adoteca",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.adoteca.com.br/mcp"
+    }
+  ],
+  "url": "https://github.com/adoteca/adoteca",
+  "readme": "https://github.com/adoteca/adoteca#readme"
+}

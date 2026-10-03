@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "rotv-mcp",
+  "description": "Romanian TV guide MCP: live listings, prime time, search, recommendations, MCP Apps tonight card.",
+  "packageName": "@alphesdk-remote/eu-madeinro-rotv-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tv.madeinro.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/marian5070/rotv.mcp",
+  "readme": "https://github.com/marian5070/rotv.mcp#readme"
+}

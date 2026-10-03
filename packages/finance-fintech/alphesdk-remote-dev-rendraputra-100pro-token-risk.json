@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "100pro-token-risk",
+  "description": "Read-only risk tools: token screen, contract source, wallet. $0.10 USDC on Base.",
+  "packageName": "@alphesdk-remote/dev-rendraputra-100pro-token-risk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.rendraputra.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/rndrpp/100pro-mcp",
+  "readme": "https://github.com/rndrpp/100pro-mcp#readme"
+}

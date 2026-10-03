@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "localagi",
+  "name": "LocalAGI",
+  "description": "Self-hosted agent platform for creating assistants, automations and chat bots that run entirely on local models.",
+  "category": "other-tools-and-integrations",
+  "tags": ["local", "self-hosted", "no-code", "privacy", "mcp", "telegram"],
+  "repo": "https://github.com/mudler/LocalAGI",
+  "publisher": "Ettore Di Giacinto (mudler)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Users create agents in a web UI with a few clicks, without writing code or needing cloud keys. Agents can be connected to channels such as Telegram and extended with skills.",
+  "howItWorks": "Docker Compose starts the platform together with a local model backend, with separate compose files for CPU, NVIDIA, Intel and AMD GPUs. Agents are managed at localhost:8080 and can connect to MCP servers.",
+  "requirements": [
+    {
+      "name": "Docker Compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Starts the stack"
+    },
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": false,
+      "description": "Optional acceleration; CPU-only setup is the default"
+    }
+  ],
+  "install": ["git clone https://github.com/mudler/LocalAGI", "cd LocalAGI"],
+  "run": ["docker compose up"],
+  "interfaces": ["web", "chat", "api"],
+  "language": "Go",
+  "models": "Local models, selectable with MODEL_NAME",
+  "mcp": "client",
+  "github": {
+    "stars": 1988,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

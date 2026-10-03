@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "finrobot",
+  "name": "FinRobot",
+  "description": "Financial analysis agent platform with a desktop research workstation, an equity report web app and an educational AutoGen library.",
+  "category": "finance-fintech",
+  "tags": ["equity-research", "financial-analysis", "reports", "desktop", "multi-agent"],
+  "repo": "https://github.com/AI4Finance-Foundation/FinRobot",
+  "homepage": "https://finrobot.ai",
+  "publisher": "AI4Finance Foundation",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Produces equity research, valuation and financial analysis reports for analysts and students. The repository holds three generations: a desktop workstation, a self-hosted report generator and the original multi-agent library.",
+  "howItWorks": "The desktop product pairs a FastAPI and PydanticAI backend with a React and Tauri front end and pulls data from several market data providers with failover. Figures are computed deterministically and the LLM is used for narration; the earlier generations use the OpenAI Agents SDK and AutoGen.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access configured in the app or config files"
+    },
+    {
+      "name": "Market data API keys",
+      "kind": "api-key",
+      "required": false,
+      "description": "Providers such as FMP and Finnhub"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to set up the desktop project"
+    }
+  ],
+  "install": ["cd finrobot_desktop", "uv sync"],
+  "run": ["./dev.sh"],
+  "interfaces": ["desktop", "web", "library"],
+  "language": "Python",
+  "framework": "PydanticAI",
+  "models": "OpenAI and other configured providers",
+  "mcp": "none",
+  "github": {
+    "stars": 8125,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

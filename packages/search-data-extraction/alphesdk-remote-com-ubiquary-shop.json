@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "shop",
+  "description": "German IT & electronics shop: search 50k products, get quotes, order with agent limits.",
+  "packageName": "@alphesdk-remote/com-ubiquary-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ubiquary.com/mcp"
+    }
+  ],
+  "url": "https://dfitko.shop/"
+}

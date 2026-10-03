@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ANAMIZED Desk",
+  "description": "Agent floor and MCP market: catalog, rack, Stripe checkout, x402, A2A.",
+  "packageName": "@alphesdk-remote/io-github-anamized-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://anamized.grok.me/mcp"
+    }
+  ],
+  "url": "https://github.com/ANAMIZED/desk",
+  "readme": "https://github.com/ANAMIZED/desk#readme"
+}

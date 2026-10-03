@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Artvinci's frame calculator",
+  "description": "Artvinci's frame and estimated price calculator",
+  "packageName": "@alphesdk-remote/dev-archstone-hosted-artvinci",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.archstone.dev/d/kz63hcokp5djyhkedjrlt72dvm/mcp"
+    }
+  ],
+  "url": "https://artvinci.ro"
+}

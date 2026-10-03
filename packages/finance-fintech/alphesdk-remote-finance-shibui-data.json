@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Shibui Finance",
+  "description": "9,900+ US equities, 64 years of prices, financials, technicals, and earnings. Ask in plain English.",
+  "packageName": "@alphesdk-remote/finance-shibui-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.shibui.finance/mcp"
+    }
+  ]
+}

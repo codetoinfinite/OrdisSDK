@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RateZip Bank Deposit and Mortgage Rates",
+  "description": "Live US savings, CD, mortgage & HELOC rates with source + timestamp on every figure.",
+  "packageName": "@alphesdk-remote/com-ratezip-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ratezip.com/mcp"
+    }
+  ],
+  "url": "https://www.ratezip.com"
+}

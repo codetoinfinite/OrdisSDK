@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "squirrelscan",
+  "description": "Website QA for your coding agent: audit SEO, performance, security, accessibility over MCP.",
+  "packageName": "@alphesdk-remote/com-squirrelscan-squirrelscan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.squirrelscan.com/mcp"
+    }
+  ],
+  "url": "https://github.com/squirrelscan/squirrelscan",
+  "readme": "https://github.com/squirrelscan/squirrelscan#readme"
+}

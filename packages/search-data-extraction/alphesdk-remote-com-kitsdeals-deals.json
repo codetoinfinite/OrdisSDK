@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "deals",
+  "description": "Curated, human-reviewed deal feed for AI agents — live deal search + price watches. No auth.",
+  "packageName": "@alphesdk-remote/com-kitsdeals-deals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kitsdeals.com"
+    }
+  ],
+  "url": "https://kitsdeals.com"
+}

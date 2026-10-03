@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Booking.com Hotel Search (Live Prices)",
+  "description": "Live Booking.com hotel prices, plus per-country pricing for rate-parity monitoring.",
+  "packageName": "@alphesdk-remote/com-flightpowers-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hotels.flightpowers.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mtnrabi/google-flights-mcp",
+  "readme": "https://github.com/mtnrabi/google-flights-mcp#readme"
+}

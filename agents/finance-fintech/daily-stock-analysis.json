@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "daily-stock-analysis",
+  "name": "Daily Stock Analysis",
+  "description": "Scheduled stock analyst for A-share, Hong Kong and US tickers that combines market data and news into LLM reports pushed to chat apps.",
+  "category": "finance-fintech",
+  "tags": ["stocks", "a-shares", "daily-report", "notifications", "github-actions"],
+  "repo": "https://github.com/ZhuLinsen/daily_stock_analysis",
+  "homepage": "https://dsa.zhulinsen.tech",
+  "publisher": "ZhuLinsen",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Produces a daily decision-style briefing for a watchlist and delivers it by messaging channels such as Telegram or email. Individual investors can run it locally, on a schedule or free through GitHub Actions.",
+  "howItWorks": "A Python job pulls quotes and news from several data sources, asks an LLM to analyse each stock and formats the result for notification channels. It also offers a web UI and scheduling flags, all configured through an env file.",
+  "requirements": [
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One model key is needed; OPENAI_API_KEY, ANTHROPIC_API_KEY or AIHUBMIX_KEY are alternatives"
+    },
+    {
+      "name": "TUSHARE_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional market data source"
+    },
+    {
+      "name": "TELEGRAM_BOT_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "One of the optional notification channels"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git && cd daily_stock_analysis",
+    "pip install -r requirements.txt",
+    "cp .env.example .env && vim .env"
+  ],
+  "run": ["python main.py"],
+  "interfaces": ["cli", "web", "chat"],
+  "language": "Python",
+  "models": "Gemini, OpenAI-compatible, Anthropic, AIHubMix",
+  "mcp": "none",
+  "github": {
+    "stars": 65858,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

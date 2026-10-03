@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Robert Blust",
+  "description": "Robert Blust: One model, true everywhere",
+  "packageName": "@alphesdk-remote/ch-blust-mental-model",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blust.ch/mcp"
+    }
+  ]
+}

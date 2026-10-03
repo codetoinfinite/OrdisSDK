@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ParcelLaunch — 3D property listings from an address",
+  "description": "Turn a US address or parcel number into an interactive 3D flyover listing in about a minute.",
+  "packageName": "@alphesdk-remote/com-parcellaunch-parcellaunch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://parcellaunch.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Dranos-Bot/parcellaunch-mcp",
+  "readme": "https://github.com/Dranos-Bot/parcellaunch-mcp#readme"
+}

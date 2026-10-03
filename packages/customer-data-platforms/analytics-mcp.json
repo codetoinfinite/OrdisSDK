@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Google Analytics",
+  "description": "Run GA4 reports and read account/property configuration.",
+  "packageName": "analytics-mcp",
+  "packageVersion": "0.7.0",
+  "runtime": "python",
+  "readme": "https://github.com/googleanalytics/google-analytics-mcp",
+  "url": "https://github.com/googleanalytics/google-analytics-mcp",
+  "author": "Google",
+  "env": {
+    "GOOGLE_APPLICATION_CREDENTIALS": {
+      "description": "Path to ADC credentials JSON",
+      "required": false
+    },
+    "GOOGLE_PROJECT_ID": {
+      "description": "Google Cloud project ID",
+      "required": false
+    }
+  }
+}

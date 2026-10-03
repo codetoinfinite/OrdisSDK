@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "AI-powered career tools: job search, skills intelligence, career roadmaps, and resume building.",
+  "packageName": "@alphesdk-remote/ai-skillsinput-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.skillsinput.ai/mcp"
+    }
+  ]
+}

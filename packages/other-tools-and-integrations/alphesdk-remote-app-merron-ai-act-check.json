@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Merron",
+  "description": "Inspect selected project excerpts and screen user-confirmed facts for bounded EU AI Act readiness.",
+  "packageName": "@alphesdk-remote/app-merron-ai-act-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://merron.app/mcp"
+    }
+  ],
+  "url": "https://merron.app/integrations/mcp"
+}

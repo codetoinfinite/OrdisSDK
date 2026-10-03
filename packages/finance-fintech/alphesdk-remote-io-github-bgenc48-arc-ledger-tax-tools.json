@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Arc & Ledger Tax Tools",
+  "description": "Enrolled Agent tax tools: IRS notices, FBAR, LLC vs S-Corp, quarterly estimates & more.",
+  "packageName": "@alphesdk-remote/io-github-bgenc48-arc-ledger-tax-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arcandledger.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Bgenc48/arc-ledger-mcp",
+  "readme": "https://github.com/Bgenc48/arc-ledger-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cityparity — Cost-of-Living & Quality-of-Life Comparison",
+  "description": "Cost-of-living & quality-of-life comparison: take-home pay, equivalent salary, safety-net deltas.",
+  "packageName": "@alphesdk-remote/com-cityparity-cityparity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cityparity.com/mcp"
+    }
+  ],
+  "url": "https://github.com/summerstateofmind/cityparity",
+  "readme": "https://github.com/summerstateofmind/cityparity#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "welcome",
+  "description": "The Balanced Investor Club, the thinking companion for the markets. Educational, not advice.",
+  "packageName": "@alphesdk-remote/com-thebalancedinvestorclub-welcome",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thebalancedinvestorclub.com/api/mcp/mcp"
+    }
+  ]
+}

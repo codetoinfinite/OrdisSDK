@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "vexa",
+  "name": "Vexa",
+  "description": "Self-hosted meeting bots that join Google Meet, Teams and Zoom calls, stream transcripts over an API and feed knowledge agents.",
+  "category": "communication",
+  "tags": ["meetings", "transcription", "bots", "api", "self-hosted"],
+  "repo": "https://github.com/Vexa-ai/vexa",
+  "homepage": "https://vexa.ai",
+  "publisher": "Vexa",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Sends a bot into a video meeting on request and returns the transcript in real time for developers building meeting products or internal assistants. Agents can then answer questions over the collected meeting knowledge.",
+  "howItWorks": "A set of services launches browser-based bots per meeting, transcribes audio and exposes transcripts through REST and websocket endpoints. Agents run in sandboxes with access to stored transcripts and are reached through a chat endpoint. The whole stack is built and started with a single make target.",
+  "requirements": [
+    {
+      "name": "Docker and make",
+      "kind": "runtime",
+      "required": true,
+      "description": "The stack builds and runs in containers"
+    },
+    {
+      "name": "Transcription and LLM services",
+      "kind": "service",
+      "required": true,
+      "description": "Configured in the environment for transcripts and agent replies"
+    }
+  ],
+  "install": ["git clone https://github.com/Vexa-ai/vexa.git && cd vexa"],
+  "run": ["make all"],
+  "interfaces": ["api", "web"],
+  "language": "Python",
+  "models": "Configurable transcription and LLM backends",
+  "mcp": "none",
+  "github": {
+    "stars": 2848,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

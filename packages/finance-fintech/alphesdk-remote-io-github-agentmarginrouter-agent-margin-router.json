@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Margin Router",
+  "description": "38 x402 pay-per-call tools for AI agents (USDC/USDT on Base): web, crypto, on-chain, geo, packages",
+  "packageName": "@alphesdk-remote/io-github-agentmarginrouter-agent-margin-router",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-margin-router-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/AgentMarginRouter/AgentMarginRouter",
+  "readme": "https://github.com/AgentMarginRouter/AgentMarginRouter#readme"
+}

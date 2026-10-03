@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Promise",
+  "description": "Evidence-backed follow-through memory for what you owe, await, and need to remember.",
+  "packageName": "@alphesdk-remote/ai-usepromise-promise",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.usepromise.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/UsePromise/promise-mcp",
+  "readme": "https://github.com/UsePromise/promise-mcp#readme"
+}

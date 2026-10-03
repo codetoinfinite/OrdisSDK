@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Course Drift Oracle",
+  "description": "Signed drift reports for the ai-agents-for-beginners course. Free summary; $0.25 full report.",
+  "packageName": "@alphesdk-remote/io-github-710git-course-drift-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signetworks.atelieri.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/710git/course-drift-oracle",
+  "readme": "https://github.com/710git/course-drift-oracle#readme"
+}

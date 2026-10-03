@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RocketList",
+  "description": "Search current startup jobs and hiring companies through RocketList's public read-only data.",
+  "packageName": "@alphesdk-remote/ai-rocketlist-rocketlist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rocketlist.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/rocketlist-ai/startup-jobs",
+  "readme": "https://github.com/rocketlist-ai/startup-jobs#readme"
+}

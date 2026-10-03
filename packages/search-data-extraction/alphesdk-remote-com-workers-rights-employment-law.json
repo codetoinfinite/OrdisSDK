@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Workers' Rights",
+  "description": "Read-only employment-law research: 140K+ rulings, employer track records, rights & EEOC guides.",
+  "packageName": "@alphesdk-remote/com-workers-rights-employment-law",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.workers-rights.com/api/mcp"
+    }
+  ],
+  "url": "https://www.workers-rights.com"
+}

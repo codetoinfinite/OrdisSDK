@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Antevo Executive Brief",
+  "description": "Market and world intelligence — the daily editorial read, risk radar and dated archive.",
+  "packageName": "@alphesdk-remote/ch-antevo-executive",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.antevo.ch/mcp/executive/mcp"
+    }
+  ],
+  "url": "https://antevo.ch/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cerberus-index",
+  "description": "XRPL token rug-checks, issuer reputation & AMM data for AI agents. Pay-per-call USDC via x402.",
+  "packageName": "@alphesdk-remote/com-cerberusindex-cerberus-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cerberusindex.com/mcp"
+    }
+  ],
+  "url": "https://cerberusindex.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-build",
+  "description": "Deploy a live web app from one sentence. build_app + poll to a public HTTPS URL you own.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-build",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/build?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

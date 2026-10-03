@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Svg/icons MCP",
+  "description": "320K+ open-source SVG icons: 12 tools, anonymous metadata search; SVG, exports, collections via Pro.",
+  "packageName": "@alphesdk-remote/com-svgicons-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://svgicons.com/mcp"
+    }
+  ],
+  "url": "https://github.com/svgicons-com/mcp",
+  "readme": "https://github.com/svgicons-com/mcp#readme"
+}

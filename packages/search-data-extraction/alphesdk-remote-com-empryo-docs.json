@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "docs",
+  "description": "Search and read Empryo's documentation. Read-only, no auth, no local access.",
+  "packageName": "@alphesdk-remote/com-empryo-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://empryo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/proxysoul/empryo",
+  "readme": "https://github.com/proxysoul/empryo#readme"
+}

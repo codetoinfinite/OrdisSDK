@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Bonizu",
+  "description": "Semantic product discovery voor beauty & supplements (NL/Benelux) voor AI-agents.",
+  "packageName": "@alphesdk-remote/com-bonizu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonizu.com/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "No-logs VPN, real UK +44 number eSIMs and travel-data eSIMs, bought with crypto. No KYC, no account.",
+  "packageName": "@alphesdk-remote/com-buyukesim-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://buyukesim.com/mcp"
+    }
+  ],
+  "url": "https://buyukesim.com"
+}

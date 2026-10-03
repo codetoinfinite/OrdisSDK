@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "domainee",
+  "description": "Custom domains API for SaaS: connect, verify, and manage customer domains, SSL, and DNS",
+  "packageName": "@alphesdk-remote/dev-domainee-domainee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.domainee.dev/mcp"
+    }
+  ],
+  "url": "https://domainee.dev/mcp"
+}

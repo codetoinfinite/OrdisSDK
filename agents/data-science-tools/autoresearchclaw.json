@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "autoresearchclaw",
+  "name": "AutoResearchClaw",
+  "description": "Pipeline that takes a research idea through literature review, experiments and a written paper, autonomously or with checkpoints.",
+  "category": "data-science-tools",
+  "tags": ["autonomous-research", "paper-writing", "pipeline", "human-in-the-loop", "experiments"],
+  "repo": "https://github.com/aiming-lab/AutoResearchClaw",
+  "publisher": "AIMING Lab",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Turns a topic into a full research artefact, covering literature search, experiment design and execution, and manuscript drafting. Researchers can let it run unattended or approve stages in a co-pilot mode.",
+  "howItWorks": "A staged pipeline driven by a YAML config calls an LLM for each phase and runs generated experiment code, with extensible skills. It is installed from source and controlled through its own CLI.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Virtual environment for the editable install"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/aiming-lab/AutoResearchClaw.git",
+    "cd AutoResearchClaw",
+    "python3 -m venv .venv && source .venv/bin/activate",
+    "pip install -e .",
+    "researchclaw setup",
+    "researchclaw init"
+  ],
+  "run": [
+    "export OPENAI_API_KEY=\"sk-...\"",
+    "researchclaw run --config config.arc.yaml --topic \"Your research idea\" --auto-approve"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI-compatible providers",
+  "mcp": "none",
+  "github": {
+    "stars": 14564,
+    "license": "MIT",
+    "pushedAt": "2026-08-19",
+    "checkedAt": "2026-10-03"
+  }
+}

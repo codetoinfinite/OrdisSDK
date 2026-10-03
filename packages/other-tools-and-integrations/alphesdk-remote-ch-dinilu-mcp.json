@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dinilu Schweiz — bedruckte Werbeartikel",
+  "description": "Aktuelle Preise in CHF, Optionen und Versandkosten für bedruckte Werbeartikel.",
+  "packageName": "@alphesdk-remote/ch-dinilu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dinilu.ch/mcp"
+    }
+  ],
+  "url": "https://dinilu.ch/ueber-uns/entwickler"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcphost",
+  "description": "Host your MCP tool over streamable HTTP in one command.",
+  "packageName": "@alphesdk-remote/dev-mcphost-mcphost",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcphost.dev/mcp"
+    }
+  ],
+  "url": "https://mcphost.dev/docs"
+}

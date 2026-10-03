@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "onyx",
+  "name": "Onyx (formerly Danswer)",
+  "description": "Self-hosted knowledge layer and AI chat that indexes 50+ workplace apps and answers with that context.",
+  "category": "knowledge-memory",
+  "tags": ["enterprise-search", "rag", "connectors", "self-hosted", "chat"],
+  "repo": "https://github.com/onyx-dot-app/onyx",
+  "docs": "https://docs.onyx.app/deployment/overview",
+  "publisher": "Onyx (DanswerAI, Inc.)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Connects to a team's applications, indexes their content with metadata and permissions, and lets people or agents search and chat over it. It also offers web search, sandboxes and skills on top of search.",
+  "howItWorks": "Connectors pull documents into an internal index so queries are answered from a pre-built representation rather than live fan-out. A web UI and backend are deployed together with a single install script. Code outside the ee directories is MIT licensed; ee directories use a separate enterprise licence.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The deployment is container based"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key or self-hosted model configured in the app"
+    }
+  ],
+  "install": ["curl -fsSL https://onyx.app/install_onyx.sh | bash"],
+  "run": [],
+  "interfaces": ["web", "api", "chat"],
+  "language": "Python",
+  "models": "Hosted and self-hosted LLMs configured in the admin UI",
+  "mcp": "client",
+  "github": {
+    "stars": 32316,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

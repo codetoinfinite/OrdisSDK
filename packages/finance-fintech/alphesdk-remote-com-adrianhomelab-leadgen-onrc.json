@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Leadgen ONRC Romania",
+  "description": "Romania company registry: search 4.2M businesses by name/CUI, directors, financials.",
+  "packageName": "@alphesdk-remote/com-adrianhomelab-leadgen-onrc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://leadgen-mcp.adrianhomelab.com/mcp"
+    }
+  ],
+  "url": "https://github.com/darksider4all/leadgen-mcp",
+  "readme": "https://github.com/darksider4all/leadgen-mcp#readme"
+}

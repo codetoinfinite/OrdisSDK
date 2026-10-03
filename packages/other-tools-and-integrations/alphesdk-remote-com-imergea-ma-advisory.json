@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "IMERGEA M&A Advisory",
+  "description": "Free SME valuation, sell-readiness, M&A pricing, partner and deal-referral tools in EN/FR/ES/PT.",
+  "packageName": "@alphesdk-remote/com-imergea-ma-advisory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://imergea.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/imergea/imergea.com-mcp",
+  "readme": "https://github.com/imergea/imergea.com-mcp#readme"
+}

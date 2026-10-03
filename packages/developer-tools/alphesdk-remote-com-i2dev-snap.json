@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Snap Screenshots",
+  "description": "Screenshot any public web page from an AI agent. Free without signup, or with an API key.",
+  "packageName": "@alphesdk-remote/com-i2dev-snap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://snap.i2dev.com/mcp"
+    }
+  ],
+  "url": "https://snap.i2dev.com/docs/mcp"
+}

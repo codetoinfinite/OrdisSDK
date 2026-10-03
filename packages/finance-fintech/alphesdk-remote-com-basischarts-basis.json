@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Basis",
+  "description": "Crypto market data, 200 indicators, order flow and a chart link. No account, no API key.",
+  "packageName": "@alphesdk-remote/com-basischarts-basis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.basischarts.com/api/mcp"
+    }
+  ],
+  "url": "https://www.basischarts.com/mcp"
+}

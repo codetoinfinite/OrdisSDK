@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GoCodebook — California Building Codes",
+  "description": "Verbatim California Title 24 and local zoning code lookup by section number, with citations.",
+  "packageName": "@alphesdk-remote/com-gocodebook-codes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gocodebook.com/api/mcp"
+    }
+  ],
+  "url": "https://gocodebook.com"
+}

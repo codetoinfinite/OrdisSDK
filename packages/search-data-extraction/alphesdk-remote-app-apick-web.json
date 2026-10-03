@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Web",
+  "description": "Domain/IP intelligence, web page capture, search and YouTube video data APIs",
+  "packageName": "@alphesdk-remote/app-apick-web",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/web"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DropEngine x402 Agent Services",
+  "description": "16 x402 MCP services for security, invoices, web, commerce, routing and crypto.",
+  "packageName": "@alphesdk-remote/io-github-ahmet11159-x402-agent-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dropenginehq.com/api/agent-services"
+    }
+  ],
+  "url": "https://github.com/Ahmet11159/x402-mcp-platform",
+  "readme": "https://github.com/Ahmet11159/x402-mcp-platform#readme"
+}

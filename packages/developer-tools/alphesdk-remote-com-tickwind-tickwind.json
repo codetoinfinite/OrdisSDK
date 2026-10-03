@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tickwind US Market Boards",
+  "description": "No-API-key US market boards from SEC, Cboe, FINRA and CFTC: options flow, insiders, 13F, buybacks",
+  "packageName": "@alphesdk-remote/com-tickwind-tickwind",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tickwind.com/mcp"
+    }
+  ],
+  "url": "https://www.tickwind.com/en/mcp"
+}

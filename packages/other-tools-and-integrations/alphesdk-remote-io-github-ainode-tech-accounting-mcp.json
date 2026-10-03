@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "accounting-mcp",
+  "description": "8 EU accounting (x402 USDC on Base): reconcile, VAT, invoicing. Free health.",
+  "packageName": "@alphesdk-remote/io-github-ainode-tech-accounting-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xero.api.ainode.tech/mcp"
+    }
+  ]
+}

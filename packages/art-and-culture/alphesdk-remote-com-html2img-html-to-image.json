@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HTML to Image",
+  "description": "Render HTML and CSS to PNG images over HTTP. Send HTML and CSS and get a PNG back.",
+  "packageName": "@alphesdk-remote/com-html2img-html-to-image",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.html2img.com/mcp"
+    }
+  ],
+  "url": "https://html2img.com/mcp/"
+}

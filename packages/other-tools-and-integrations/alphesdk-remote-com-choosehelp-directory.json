@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ChooseHelp Treatment Directory",
+  "description": "Editorially independent addiction & mental-health directory — facilities, therapists, expert Q&A.",
+  "packageName": "@alphesdk-remote/com-choosehelp-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.choosehelp.com/mcp"
+    }
+  ],
+  "url": "https://www.choosehelp.com"
+}

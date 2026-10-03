@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sharpnel Trading — Dealer Gamma Levels",
+  "description": "Free dealer-gamma call walls, put walls and gamma flip for ES, NQ, SPX and QQQ, graded daily.",
+  "packageName": "@alphesdk-remote/com-sharpnel-trading-dealer-gamma-levels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sharpnel-trading.com/mcp"
+    }
+  ],
+  "url": "https://www.sharpnel-trading.com/for-ai-agents"
+}

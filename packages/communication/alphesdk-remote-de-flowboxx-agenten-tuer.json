@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agenten-tuer",
+  "description": "flowboxx Agenten-Tuer: ehrliche Antworten zu Websites, Software, KI, Telegram. Anfrage an Menschen.",
+  "packageName": "@alphesdk-remote/de-flowboxx-agenten-tuer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.flowboxx.de/mcp"
+    }
+  ],
+  "url": "https://agent.flowboxx.de/"
+}

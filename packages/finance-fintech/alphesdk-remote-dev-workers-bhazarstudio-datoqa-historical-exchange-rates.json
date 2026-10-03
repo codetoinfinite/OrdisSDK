@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DatoQA — Historical Exchange Rates",
+  "description": "Convert dated amounts to EUR using ECB references, or get historical rates. Exact dates; no trading.",
+  "packageName": "@alphesdk-remote/dev-workers-bhazarstudio-datoqa-historical-exchange-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datoqa.bhazarstudio.workers.dev/mcp/fx"
+    }
+  ],
+  "url": "https://datoqa.bhazarstudio.workers.dev/docs/fx/"
+}

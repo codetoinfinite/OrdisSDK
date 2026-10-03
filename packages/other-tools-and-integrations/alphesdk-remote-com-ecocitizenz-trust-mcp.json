@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ECZ-ID Trust MCP",
+  "description": "Read-only ECZ-ID Business Passport state lookup via the public ECZ-ID Resolver. Reports state only.",
+  "packageName": "@alphesdk-remote/com-ecocitizenz-trust-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trust-mcp.ecocitizenz.com/mcp"
+    }
+  ],
+  "url": "https://developers.ecocitizenz.com"
+}

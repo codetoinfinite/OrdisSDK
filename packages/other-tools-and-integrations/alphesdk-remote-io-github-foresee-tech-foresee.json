@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Foresee",
+  "description": "Let AI assistants shop for home and auto insurance: compare quote estimates across every carrier.",
+  "packageName": "@alphesdk-remote/io-github-foresee-tech-foresee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.go-foresee.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Foresee-Tech/foresee",
+  "readme": "https://github.com/Foresee-Tech/foresee#readme"
+}

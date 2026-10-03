@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Reelfy Agent Tools",
+  "description": "Pay-per-use AI and data tools via x402: image, video, music, voice, search, crypto. USDC.",
+  "packageName": "@alphesdk-remote/io-github-mgnlockii-reelfy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.reelfy.online/mcp"
+    }
+  ],
+  "url": "https://api.reelfy.online"
+}

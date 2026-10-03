@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GuruWalk",
+  "description": "Free walking tours & activities in 1,000+ cities — live availability, ratings & booking links.",
+  "packageName": "@alphesdk-remote/com-guruwalk-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://back.guruwalk.com/mcp"
+    }
+  ],
+  "url": "https://ai.guruwalk.com/docs/walkers"
+}

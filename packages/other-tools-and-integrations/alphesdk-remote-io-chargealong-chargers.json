@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ChargeAlong public EV charging",
+  "description": "EV chargers near a point and charging networks in AU, NZ, US, UK and Canada. Free, no key.",
+  "packageName": "@alphesdk-remote/io-chargealong-chargers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.chargealong.io/mcp"
+    }
+  ],
+  "url": "https://chargealong.io"
+}

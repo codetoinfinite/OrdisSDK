@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AlpiX",
+  "description": "A pixel wars MCP server: ask your agent to collaboratively draw pixels in a huge square",
+  "packageName": "@alphesdk-remote/ai-alpic-alpix-alpix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alpix.alpic.ai"
+    }
+  ],
+  "url": "https://alpic.ai"
+}

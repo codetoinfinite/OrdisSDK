@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Instilus compliance and business decision tools",
+  "description": "GPSR compliance check and small-business valuation estimate, from Instilus.",
+  "packageName": "@alphesdk-remote/com-instilus-gpsr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.instilus.com/mcp"
+    }
+  ],
+  "url": "https://github.com/astarsupply-hub/forge",
+  "readme": "https://github.com/astarsupply-hub/forge#readme"
+}

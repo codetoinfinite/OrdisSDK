@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "flingflyers",
+  "description": "Share an HTML page or PDF as a short public link. No account or API key, expires on its own.",
+  "packageName": "@alphesdk-remote/com-flingflyers-flingflyers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flingflyers.com/mcp"
+    }
+  ],
+  "url": "https://flingflyers.com"
+}

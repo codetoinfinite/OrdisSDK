@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Projet Ariane — Orientation",
+  "description": "Orientation en France : métiers, formations, Parcoursup, écoles, aides, offres. Sources officielles.",
+  "packageName": "@alphesdk-remote/fr-projet-ariane-ariane-orientation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.projet-ariane.fr/api/mcp/mcp"
+    }
+  ],
+  "url": "https://www.projet-ariane.fr"
+}

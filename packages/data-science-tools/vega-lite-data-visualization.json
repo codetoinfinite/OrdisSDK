@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "vega-lite-data-visualization",
+  "packageName": "git+https://github.com/markomitranic/mcp-vegalite-server@bc2e186e959652b4f6a662e35299078e63e8f266",
   "description": "Enables data visualization capabilities using Vega-Lite specification language to create custom charts and graphs from tabular data, with output as either text specifications or rendered PNG images.",
   "url": "https://github.com/markomitranic/mcp-vegalite-server",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "VegaLite MCP Server"
+  "name": "VegaLite MCP Server",
+  "bin": "mcp_server_vegalite",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

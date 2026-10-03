@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MaterialHandling.com",
+  "description": "Industrial equipment catalog: 15,000+ products, specs, live LTL freight rates, real quote requests.",
+  "packageName": "@alphesdk-remote/com-materialhandling-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://materialhandling-7c6.pages.dev/mcp"
+    }
+  ],
+  "url": "https://materialhandling.com/mcp"
+}

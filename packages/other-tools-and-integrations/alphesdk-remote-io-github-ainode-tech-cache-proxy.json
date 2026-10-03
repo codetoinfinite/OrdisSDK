@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "cache-proxy",
+  "description": "LLM caching proxy (x402 USDC on Base) - exact + semantic cache. Free health.",
+  "packageName": "@alphesdk-remote/io-github-ainode-tech-cache-proxy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cache.api.ainode.tech/mcp"
+    }
+  ]
+}

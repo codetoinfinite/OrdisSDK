@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Triplicate – export documents",
+  "description": "Matching invoices, packing list and shipping instruction from order data; HS code search; CBM.",
+  "packageName": "@alphesdk-remote/com-triplicatedocs-triplicate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.triplicatedocs.com/mcp"
+    }
+  ],
+  "url": "https://triplicatedocs.com/developers/"
+}

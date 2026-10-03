@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SeekinWeb — AI visibility",
+  "description": "Does AI recommend a business? Who it names instead, which sources it uses, plus AI readability.",
+  "packageName": "@alphesdk-remote/com-seekinweb-ai-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://seekinweb.com/api/mcp"
+    }
+  ],
+  "url": "https://seekinweb.com/mcp"
+}

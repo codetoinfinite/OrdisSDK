@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FilmRightsProof",
+  "description": "Film/TV public-record rights intelligence for AI agents with provenance and bounded verification.",
+  "packageName": "@alphesdk-remote/com-davisvillelabs-filmrights-filmrightsproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filmrightsproof.davisvillelabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/davisvillelabs/filmrightsproof",
+  "readme": "https://github.com/davisvillelabs/filmrightsproof#readme"
+}

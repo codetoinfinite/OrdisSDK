@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PropertyLabs",
+  "description": "Public building permits, property assessments, parcels and development intelligence.",
+  "packageName": "@alphesdk-remote/io-github-algofalgo-propertylabs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://propertylabs.org/mcp"
+    }
+  ],
+  "url": "https://propertylabs.org"
+}

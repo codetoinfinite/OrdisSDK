@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Foliade",
+  "description": "Turn PDFs into mobile flipbook catalogues: upload private drafts, customise, publish, get stats.",
+  "packageName": "@alphesdk-remote/com-gekkode-foliade",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://foliade.gekkode.com/mcp"
+    }
+  ],
+  "url": "https://foliade.gekkode.com/en/developpeurs/mcp-foliade"
+}

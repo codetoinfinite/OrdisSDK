@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PreteWorks API",
+  "description": "One key for the document-to-web pipeline: scrape, AI-extract, build & edit PDFs, fill forms.",
+  "packageName": "@alphesdk-remote/com-preteworks-preteworks-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.preteworks.com/mcp"
+    }
+  ],
+  "url": "https://api.preteworks.com"
+}

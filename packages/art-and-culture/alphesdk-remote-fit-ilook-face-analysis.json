@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "iLook Face Analysis",
+  "description": "Analyze user-submitted face photos with a complete report or 13 focused face-analysis tools.",
+  "packageName": "@alphesdk-remote/fit-ilook-face-analysis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ilook.fit/mcp"
+    }
+  ],
+  "url": "https://github.com/harshul1404/ilook",
+  "readme": "https://github.com/harshul1404/ilook#readme"
+}

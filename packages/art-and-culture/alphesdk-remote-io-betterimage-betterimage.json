@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "betterimage.io",
+  "description": "Social cards and OG images from designed templates: card from a URL, presets, meta tags, link checks",
+  "packageName": "@alphesdk-remote/io-betterimage-betterimage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://betterimage.io/mcp"
+    }
+  ],
+  "url": "https://github.com/mfundakowski/betterimage-mcp",
+  "readme": "https://github.com/mfundakowski/betterimage-mcp#readme"
+}

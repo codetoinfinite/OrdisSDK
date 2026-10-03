@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Distribution",
+  "description": "Free distribution preflight: channel candidates and permissions. No paid orders or publishing.",
+  "packageName": "@alphesdk-remote/com-agentdistributionservices-agent-distribution",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentdistributionservices.com/mcp"
+    }
+  ],
+  "url": "https://agentdistributionservices.com"
+}

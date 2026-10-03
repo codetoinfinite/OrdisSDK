@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "fixRAgent maintenance triage",
+  "description": "Assess a property maintenance photo: what it is, how urgent, which trade to call.",
+  "packageName": "@alphesdk-remote/io-github-russ4102-fixragent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fixragent.com/mcp"
+    }
+  ],
+  "url": "https://fixragent.com/docs?source=listing-mcp-registry-remote"
+}

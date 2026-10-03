@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sideways",
+  "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
+  "packageName": "@alphesdk-remote/com-usesideways-sideways",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usesideways.com/mcp"
+    }
+  ],
+  "url": "https://usesideways.com"
+}

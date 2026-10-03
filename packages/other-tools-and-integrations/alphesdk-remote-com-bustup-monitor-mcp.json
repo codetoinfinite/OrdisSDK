@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hokyo MCP Server",
+  "description": "豊胸モニター募集サイトのMCPサーバー。クリニック検索・術式情報・悩み相談・世代別記事を提供します。",
+  "packageName": "@alphesdk-remote/com-bustup-monitor-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bustup-monitor.com/mcp"
+    }
+  ],
+  "url": "https://bustup-monitor.com/"
+}

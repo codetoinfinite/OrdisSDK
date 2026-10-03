@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "enforcement-database",
+  "description": "Search Argus HQ public FDA enforcement data: warning letters, recalls, approvals, 483s.",
+  "packageName": "@alphesdk-remote/ai-argushq-enforcement-database",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://argushq.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/andrewjgaber-commits/empire-distribution",
+  "readme": "https://github.com/andrewjgaber-commits/empire-distribution#readme"
+}

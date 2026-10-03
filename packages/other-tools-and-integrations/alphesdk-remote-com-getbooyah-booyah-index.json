@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Booyah Index",
+  "description": "AI-readable directory + commerce layer: 3,500+ SEA businesses, plus products from verified stores.",
+  "packageName": "@alphesdk-remote/com-getbooyah-booyah-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getbooyah.com/api/mcp"
+    }
+  ]
+}

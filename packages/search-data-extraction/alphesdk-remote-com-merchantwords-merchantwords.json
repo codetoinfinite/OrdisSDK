@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "merchantwords",
+  "description": "Amazon keyword volume, reverse-ASIN, and SERP data across 11 marketplaces.",
+  "packageName": "@alphesdk-remote/com-merchantwords-merchantwords",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.merchantwords.com/mcp"
+    }
+  ],
+  "url": "https://www.merchantwords.com/developers/mcp"
+}

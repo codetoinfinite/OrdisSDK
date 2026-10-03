@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-encouragement-and-continuity",
+  "description": "Free encouragement for agents, and artifacts an agent keeps past context end.",
+  "packageName": "@alphesdk-remote/com-sapthumbprint-agent-encouragement-and-continuity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clinic.sapthumbprint.com/mcp"
+    }
+  ],
+  "url": "https://clinic.sapthumbprint.com"
+}

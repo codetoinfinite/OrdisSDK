@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "99 Data Rooms",
+  "description": "Read-only facts about 99 Data Rooms, a UK virtual data room: docs, glossary, pricing, use cases.",
+  "packageName": "@alphesdk-remote/com-99datarooms-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.99datarooms.com/mcp"
+    }
+  ],
+  "url": "https://99datarooms.com/mcp/"
+}

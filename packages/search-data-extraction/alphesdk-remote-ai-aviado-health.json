@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "health",
+  "description": "Supplement research, biomarker effects, drug interactions, and brand quality data",
+  "packageName": "@alphesdk-remote/ai-aviado-health",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aviado.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/kipmcc/aviado-mcp",
+  "readme": "https://github.com/kipmcc/aviado-mcp#readme"
+}

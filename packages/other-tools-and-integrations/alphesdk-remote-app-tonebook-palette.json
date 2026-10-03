@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tonebook Palette",
+  "description": "Choose a palette, compare digital colors and create portable outfit, event or packing boards.",
+  "packageName": "@alphesdk-remote/app-tonebook-palette",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tonebook-muse-mcp-staging.vercel.app/api/openai-mcp-v1"
+    }
+  ],
+  "url": "https://tonebook.app"
+}

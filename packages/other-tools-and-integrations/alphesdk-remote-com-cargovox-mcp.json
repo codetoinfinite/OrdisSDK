@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "CargoVox freight tracking and shipment info via AI agents",
+  "packageName": "@alphesdk-remote/com-cargovox-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cargovox.com/mcp"
+    }
+  ],
+  "url": "https://cargovox.com"
+}

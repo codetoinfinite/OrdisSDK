@@ -1070,6 +1070,63 @@ a.explore-cat:hover {
   color: var(--accent);
 }
 
+/* External agents: documentation in place of the chat. */
+.agent-doc-text {
+  max-width: 72ch;
+  margin: 0;
+  line-height: 1.6;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.agent-reqs {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.agent-req {
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.agent-req-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+}
+
+.agent-req-name {
+  font-size: 13px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.agent-req-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.agent-links {
+  display: grid;
+  gap: 8px;
+  font-size: 13.5px;
+}
+
+.agent-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .agent-keys {
   display: grid;
   gap: 16px;

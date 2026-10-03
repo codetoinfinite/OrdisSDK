@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jithox E-Invoice Readiness",
+  "description": "Read-only EU e-invoice checks: VAT format, VIES, Peppol lookup. Returns evidence, no filing.",
+  "packageName": "@alphesdk-remote/com-jithox-einvoice-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jithox.com/mcp"
+    }
+  ],
+  "url": "https://jithox.com/mcp/e-invoice"
+}

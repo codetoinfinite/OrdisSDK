@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ToolSnap MCP",
+  "description": "Deterministic AI agent microtools, no accounts/API keys. fetch_extract: 98% token cut. 38 tools.",
+  "packageName": "@alphesdk-remote/app-toolsnap-toolsnap-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.toolsnap.app/mcp"
+    }
+  ],
+  "url": "https://github.com/icosaedro-git/toolsnap-mcp",
+  "readme": "https://github.com/icosaedro-git/toolsnap-mcp#readme"
+}

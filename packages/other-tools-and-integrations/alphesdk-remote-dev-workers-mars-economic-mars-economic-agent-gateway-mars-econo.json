@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MARS Economic",
+  "description": "Supplier sourcing, procurement, commercial intelligence, RFQ routing and B2B deal coordination.",
+  "packageName": "@alphesdk-remote/dev-workers-mars-economic-mars-economic-agent-gateway-mars-economic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mars-economic-agent-gateway.mars-economic.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mars-economic-agent-gateway.mars-economic.workers.dev"
+}

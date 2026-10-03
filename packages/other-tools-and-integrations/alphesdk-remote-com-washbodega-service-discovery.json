@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wash Bodega Service Discovery",
+  "description": "Read-only bilingual Wash Bodega services, pricing, hours, pickup policy, and ordering handoff.",
+  "packageName": "@alphesdk-remote/com-washbodega-service-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://washbodega.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ashrunscode/washbodega",
+  "readme": "https://github.com/ashrunscode/washbodega#readme"
+}

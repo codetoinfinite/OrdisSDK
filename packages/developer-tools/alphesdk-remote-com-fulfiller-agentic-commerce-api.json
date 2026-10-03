@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fulfiller — print catalogue & quotes",
+  "description": "Print catalogue and live quotes from Fulfiller, a French online printer shipping across the EU.",
+  "packageName": "@alphesdk-remote/com-fulfiller-agentic-commerce-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fulfiller.com/agenticopenapi/mcp"
+    }
+  ],
+  "url": "https://www.fulfiller.com/agenticopenapi/docs"
+}

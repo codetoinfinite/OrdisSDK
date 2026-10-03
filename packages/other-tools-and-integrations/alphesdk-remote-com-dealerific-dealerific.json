@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dealerific",
+  "description": "Current retail deals by category and store, with buying guides. Affiliate links.",
+  "packageName": "@alphesdk-remote/com-dealerific-dealerific",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dealerific.com/api/mcp"
+    }
+  ],
+  "url": "https://dealerific.com"
+}

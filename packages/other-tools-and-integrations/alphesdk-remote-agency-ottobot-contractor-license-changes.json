@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Contractor Licence Changes",
+  "description": "Did this contractor's licence change? Observed lapses and reinstatements, not a snapshot.",
+  "packageName": "@alphesdk-remote/agency-ottobot-contractor-license-changes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://license-changes-mcp.ottobot2025.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/modelcontextprotocol/registry",
+  "readme": "https://github.com/modelcontextprotocol/registry#readme"
+}

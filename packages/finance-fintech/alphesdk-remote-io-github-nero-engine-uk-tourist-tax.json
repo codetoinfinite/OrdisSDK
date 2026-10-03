@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UK Tourist Tax (Visitor Levy) Calculator",
+  "description": "Works out UK tourist tax for a holiday let booking: Edinburgh, Glasgow, Cardiff and more. Free.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-uk-tourist-tax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tourist-tax.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tourist-tax.nerolabs.workers.dev/"
+}

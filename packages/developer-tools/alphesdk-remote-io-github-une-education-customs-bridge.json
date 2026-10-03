@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CustomsBridge TARIC Engine",
+  "description": "Deterministic HS6/TARIC customs resolution engine and bilingual FTS5 nomenclature API (UNE Node 04).",
+  "packageName": "@alphesdk-remote/io-github-une-education-customs-bridge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://customs.une.education/mcp.php"
+    }
+  ],
+  "url": "https://github.com/Une-education/customs-bridge",
+  "readme": "https://github.com/Une-education/customs-bridge#readme"
+}

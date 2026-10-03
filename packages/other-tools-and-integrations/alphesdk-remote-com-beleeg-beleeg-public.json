@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Beleeg (public, no account)",
+  "description": "Public league standings, schedules and brackets; start a league or bracket with no account.",
+  "packageName": "@alphesdk-remote/com-beleeg-beleeg-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://beleeg.com/api/mcp/public"
+    }
+  ],
+  "url": "https://beleeg.com/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SpellBook Finance",
+  "description": "Magic: The Gathering card prices, movers, arbitrage, sealed box EV, and seller inventory tools.",
+  "packageName": "@alphesdk-remote/com-spellbook-finance-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.spellbook-finance.com/mcp"
+    }
+  ],
+  "url": "https://spellbook-finance.com/agent/mcp.md"
+}

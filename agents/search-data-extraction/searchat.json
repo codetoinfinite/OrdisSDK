@@ -1,0 +1,63 @@
+{
+  "type": "external-agent",
+  "key": "searchat",
+  "name": "SearChat",
+  "description": "Conversational AI search engine with multi-model support, several search backends and a deep-research mode.",
+  "category": "search-data-extraction",
+  "tags": ["ai-search", "conversational-search", "deep-research", "searxng"],
+  "repo": "https://github.com/yokingma/SearChat",
+  "publisher": "yokingma",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Provides multi-turn, chat-style web search with cited answers and an optional deep-research workflow. It is for people who want to self-host a Perplexity-like service.",
+  "howItWorks": "A Turborepo monorepo pairs a Node.js/Koa backend with a Vue 3 front end. The backend calls search engines such as Bing, Google, SearXNG, Tavily or Exa and passes results to OpenAI-, Anthropic- or Gemini-compatible models. It deploys with Docker Compose or runs from source with yarn.",
+  "requirements": [
+    {
+      "name": "BING_SEARCH_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Bing search"
+    },
+    {
+      "name": "GOOGLE_SEARCH_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Google search"
+    },
+    {
+      "name": "TAVILY_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Tavily search"
+    },
+    {
+      "name": "SEARXNG_HOSTNAME",
+      "kind": "service",
+      "required": false,
+      "description": "SearXNG instance"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI-, Anthropic- or Gemini-compatible model access"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/yokingma/SearChat.git",
+    "cd SearChat",
+    "yarn install",
+    "cp apps/server/.env apps/server/.env.local"
+  ],
+  "run": ["yarn dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "OpenAI-, Anthropic- and Gemini-compatible APIs",
+  "mcp": "none",
+  "github": {
+    "stars": 1060,
+    "license": "MIT",
+    "pushedAt": "2026-09-01",
+    "checkedAt": "2026-10-03"
+  }
+}

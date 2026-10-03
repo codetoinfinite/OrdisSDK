@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Air Pipe",
+  "description": "Build, validate, deploy — HTTP APIs, cron jobs, webhooks and MCP tools — from your AI client.",
+  "packageName": "@alphesdk-remote/io-airpipe-airpipe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.airpipe.io/mcp"
+    }
+  ],
+  "url": "https://airpipe.io/"
+}

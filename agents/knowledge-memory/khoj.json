@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "khoj",
+  "name": "Khoj",
+  "description": "Self-hostable personal AI that answers from your documents and the internet using local or hosted models.",
+  "category": "knowledge-memory",
+  "tags": ["second-brain", "personal-ai", "rag", "web-search", "self-hosted"],
+  "repo": "https://github.com/khoj-ai/khoj",
+  "homepage": "https://khoj.dev",
+  "docs": "https://docs.khoj.dev",
+  "publisher": "Khoj AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Works as a second brain: it chats over your notes and files (PDF, markdown, org-mode, Word, Notion, images) and the web. It is reachable from a browser, Obsidian, Emacs, a desktop app, phone or WhatsApp.",
+  "howItWorks": "A Python server indexes personal documents for semantic retrieval and combines that with online search when answering. It works with any local or online chat model. Self-hosting steps are in the project documentation rather than the README.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "A local model or a key for a hosted model"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web", "desktop", "chat", "api"],
+  "language": "Python",
+  "models": "Local models (llama3, qwen, gemma, mistral) and hosted GPT, Claude, Gemini, DeepSeek",
+  "mcp": "none",
+  "github": {
+    "stars": 37555,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-08-02",
+    "checkedAt": "2026-10-03"
+  }
+}

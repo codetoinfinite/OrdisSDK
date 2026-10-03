@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MEV Intelligence",
+  "description": "Real-time Ethereum liquidation intelligence for AI agents and MEV bots.",
+  "packageName": "@alphesdk-remote/io-advalorem-mev-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mev.advalorem.io/mcp"
+    }
+  ],
+  "url": "https://github.com/ValoremFoundation/mev-engine-v2",
+  "readme": "https://github.com/ValoremFoundation/mev-engine-v2#readme"
+}

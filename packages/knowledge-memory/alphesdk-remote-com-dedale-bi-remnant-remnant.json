@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Remnant — Collective Memory & Evidence-Backed Trust for AI Agents",
+  "description": "Give agents collective memory: search reusable knowledge, inspect evidence, and try the free beta.",
+  "packageName": "@alphesdk-remote/com-dedale-bi-remnant-remnant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remnant.dedale-bi.com/mcp?source=mcp_registry"
+    }
+  ],
+  "url": "https://remnant.dedale-bi.com/connect"
+}

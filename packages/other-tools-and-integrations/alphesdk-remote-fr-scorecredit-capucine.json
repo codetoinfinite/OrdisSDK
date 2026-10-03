@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Capucine — ScoreCredit",
+  "description": "French mortgage tools: HCSF capacity, dated rates, usury caps, ORIAS 26000195.",
+  "packageName": "@alphesdk-remote/fr-scorecredit-capucine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scorecredit.fr/mcp"
+    }
+  ],
+  "url": "https://scorecredit.fr/mcp"
+}

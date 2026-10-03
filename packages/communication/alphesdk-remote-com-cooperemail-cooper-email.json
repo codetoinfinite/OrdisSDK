@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cooper Email",
+  "description": "Email inboxes for AI agents: create an address, send, receive via webhook, and full-text search.",
+  "packageName": "@alphesdk-remote/com-cooperemail-cooper-email",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cooperemail.com/mcp"
+    }
+  ],
+  "url": "https://github.com/cooper-email/cooper-email",
+  "readme": "https://github.com/cooper-email/cooper-email#readme"
+}

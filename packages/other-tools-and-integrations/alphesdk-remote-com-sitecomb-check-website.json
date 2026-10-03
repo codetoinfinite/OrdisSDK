@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sitecomb",
+  "description": "A digital audit for small-business websites: a score out of 100 and the main problems.",
+  "packageName": "@alphesdk-remote/com-sitecomb-check-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sitecomb.com/mcp"
+    }
+  ],
+  "url": "https://sitecomb.com/claude"
+}

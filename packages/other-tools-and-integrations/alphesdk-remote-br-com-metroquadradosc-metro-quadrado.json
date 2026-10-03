@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Metro Quadrado",
+  "description": "Preço do m² por bairro em 6 cidades de Santa Catarina, Brasil. Dados abertos do Minuto Jaraguá.",
+  "packageName": "@alphesdk-remote/br-com-metroquadradosc-metro-quadrado",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.metroquadrado.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/minutojaragua/metro-quadrado",
+  "readme": "https://github.com/minutojaragua/metro-quadrado#readme"
+}

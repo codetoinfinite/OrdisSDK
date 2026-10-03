@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ausschreibungsagenten Tender Search",
+  "description": "Search public procurement notices from 17 sources across Germany, the EU and the UK. Read-only.",
+  "packageName": "@alphesdk-remote/de-ausschreibungsagenten-tender-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ausschreibungsagenten.de/mcp"
+    }
+  ],
+  "url": "https://github.com/shufflethis/ausschreibungsagenten-mcp",
+  "readme": "https://github.com/shufflethis/ausschreibungsagenten-mcp#readme"
+}

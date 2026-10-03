@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "pdfmathtranslate",
+  "name": "PDFMathTranslate",
+  "description": "Translates scientific PDFs while keeping formulas, charts, table of contents and layout intact.",
+  "category": "translation-services",
+  "tags": ["translation", "pdf", "scientific-papers", "layout-preserving", "mcp"],
+  "repo": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+  "publisher": "PDFMathTranslate",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Converts research papers into another language as translated or bilingual PDFs without breaking the page layout. It is for researchers and students reading foreign-language literature.",
+  "howItWorks": "The tool analyses the page layout, separates text from formulas and figures, sends the text to a chosen translation service or LLM and writes it back into the original positions. It offers a command-line tool, a web UI in Docker and an MCP mode over stdio or SSE.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Or Docker"
+    },
+    {
+      "name": "Translation service",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for the chosen LLM or translation service, if it needs one"
+    }
+  ],
+  "install": ["pip install pdf2zh", "docker pull byaidu/pdf2zh"],
+  "run": ["docker run -d -p 7860:7860 byaidu/pdf2zh"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Multiple translation services and LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 37303,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

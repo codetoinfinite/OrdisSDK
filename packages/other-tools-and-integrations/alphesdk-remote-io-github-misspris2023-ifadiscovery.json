@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ifadiscovery",
+  "description": "Personalised Yoruba cosmology orientation report, rooted in Ifa and Isese tradition.",
+  "packageName": "@alphesdk-remote/io-github-misspris2023-ifadiscovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ifadiscovery.com/mcp"
+    }
+  ],
+  "url": "https://ifadiscovery.com"
+}

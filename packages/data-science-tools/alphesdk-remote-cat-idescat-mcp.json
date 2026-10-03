@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Idescat MCP Server",
+  "description": "Query official statistics of Catalonia (Idescat): tables, metadata and JSON-stat data via MCP.",
+  "packageName": "@alphesdk-remote/cat-idescat-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.idescat.cat/mcp"
+    }
+  ],
+  "url": "https://github.com/idescat/mcp",
+  "readme": "https://github.com/idescat/mcp#readme"
+}

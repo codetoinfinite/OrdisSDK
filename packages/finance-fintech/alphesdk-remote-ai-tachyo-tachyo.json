@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "tachyo",
+  "description": "Crypto market intelligence, token rug-checks, and wallet verification in one MCP server.",
+  "packageName": "@alphesdk-remote/ai-tachyo-tachyo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tachyo.ai/mcp/"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "yieldprobe: DeFi intel for agents",
+  "description": "Paid DeFi data for agents via x402 on Base: yields, APY moves, stablecoin pegs, token risk.",
+  "packageName": "@alphesdk-remote/com-yieldprobe-defi-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yieldprobe.com/mcp"
+    }
+  ],
+  "url": "https://yieldprobe.com"
+}

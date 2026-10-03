@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crawl4Agent",
+  "description": "crawl4ai-compatible web crawler API: POST a URL, get clean LLM-ready Markdown with fit_markdown...",
+  "packageName": "@alphesdk-remote/com-saastemly-crawl4agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crawl4agent.saastemly.com/mcp"
+    }
+  ],
+  "url": "https://crawl4agent.saastemly.com"
+}

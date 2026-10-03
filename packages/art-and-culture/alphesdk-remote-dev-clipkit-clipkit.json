@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "clipkit",
+  "description": "MCP server for Clipkit — gives AI agents a video toolbox via the Clipkit schema.",
+  "packageName": "@alphesdk-remote/dev-clipkit-clipkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.clipkit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/clipkit-video/clipkit",
+  "readme": "https://github.com/clipkit-video/clipkit#readme"
+}

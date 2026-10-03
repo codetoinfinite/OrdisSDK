@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fipeX MCP",
+  "description": "Brazilian FIPE vehicle reference prices: search, current price, history and comparison. Keyless.",
+  "packageName": "@alphesdk-remote/br-com-fipex-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fipex.com.br/mcp"
+    }
+  ],
+  "url": "https://github.com/fipex-labs/dataset",
+  "readme": "https://github.com/fipex-labs/dataset#readme"
+}

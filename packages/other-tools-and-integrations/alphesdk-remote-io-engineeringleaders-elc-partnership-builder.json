@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "elc-partnership-builder",
+  "description": "Build and price an ELC community partnership: match, customize, 12-month plan, 16% AI discount.",
+  "packageName": "@alphesdk-remote/io-engineeringleaders-elc-partnership-builder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.engineeringleaders.io/mcp/partnership"
+    }
+  ],
+  "url": "https://github.com/marian-kamenistak/elc-partnership-builder",
+  "readme": "https://github.com/marian-kamenistak/elc-partnership-builder#readme"
+}

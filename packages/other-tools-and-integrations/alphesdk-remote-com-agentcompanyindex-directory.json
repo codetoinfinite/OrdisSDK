@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Company Index",
+  "description": "Curated index of B2B offerings for AI agents: fit, non-fit, limits, sourced claims.",
+  "packageName": "@alphesdk-remote/com-agentcompanyindex-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentcompanyindex.com/mcp"
+    }
+  ],
+  "url": "https://agentcompanyindex.com"
+}

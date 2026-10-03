@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gameshop Enter — retro Nintendo & Pokémon TCG (EU)",
+  "description": "Live catalog of tested retro Nintendo games and Pokémon TCG, with all-in delivered EU prices.",
+  "packageName": "@alphesdk-remote/com-gameshopenter-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gameshopenter.com/api/mcp"
+    }
+  ],
+  "url": "https://gameshopenter.com"
+}

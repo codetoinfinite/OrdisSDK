@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Abyssfall: Operation Sunken Crown",
+  "description": "Official Abyssfall game info, merch catalog, newsletter double opt-in, and merch reservation tools.",
+  "packageName": "@alphesdk-remote/com-abyssfallgame-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.abyssfallgame.com/mcp"
+    }
+  ],
+  "url": "https://www.abyssfallgame.com"
+}

@@ -1,0 +1,60 @@
+{
+  "type": "external-agent",
+  "key": "ra-aid",
+  "name": "RA.Aid",
+  "description": "Autonomous command-line coding agent that works through research, planning and implementation stages to complete development tasks.",
+  "category": "coding-agents",
+  "tags": ["langgraph", "autonomous", "research-plan-implement", "terminal"],
+  "repo": "https://github.com/ai-christianson/RA.Aid",
+  "docs": "https://docs.ra-aid.ai",
+  "publisher": "AI Christianson",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "RA.Aid takes a task description and carries it through from investigating the codebase to making the changes. It can run shell commands, optionally without asking, and do web research. It is aimed at developers who want multi-step tasks handled with little supervision.",
+  "howItWorks": "The agent is built on LangGraph and splits work into three stages with separate tool sets. A stronger reasoning model can be consulted as an expert for hard problems, and Tavily provides web search. Provider keys are read from environment variables.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for Anthropic models; at least one provider key is needed"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for OpenAI models"
+    },
+    {
+      "name": "OPENROUTER_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for OpenRouter"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for Gemini models"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Enables web research"
+    }
+  ],
+  "install": ["pip install ra-aid"],
+  "run": ["ra-aid -m \"Your task or query here\""],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Anthropic, OpenAI, OpenRouter, Gemini",
+  "mcp": "none",
+  "github": {
+    "stars": 2221,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-01-30",
+    "checkedAt": "2026-10-03"
+  }
+}

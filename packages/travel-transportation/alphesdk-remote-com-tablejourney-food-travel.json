@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TableJourney food travel",
+  "description": "Verified food venues in 206 cities with provenance, festivals with dates, bookable tours and stays.",
+  "packageName": "@alphesdk-remote/com-tablejourney-food-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tablejourney.com/mcp"
+    }
+  ],
+  "url": "https://tablejourney.com"
+}

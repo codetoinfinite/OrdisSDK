@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mash Prime",
+  "description": "Read Mash Prime's essays and build notes on agentic systems, memory, approvals, and workflows.",
+  "packageName": "@alphesdk-remote/dev-mashprime-mashprime",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mashprime.dev/mcp"
+    }
+  ],
+  "url": "https://mashprime.dev/developers/#mcp"
+}

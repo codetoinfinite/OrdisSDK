@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Appendix",
+  "description": "Physician-reviewed medical opinions and prescriptions for AI agents.",
+  "packageName": "@alphesdk-remote/com-appendix-appendix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.appendix.com/mcp"
+    }
+  ],
+  "url": "https://github.com/appendixhealth/mcp-server",
+  "readme": "https://github.com/appendixhealth/mcp-server#readme"
+}

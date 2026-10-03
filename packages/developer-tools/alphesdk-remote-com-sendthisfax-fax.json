@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SendThisFax",
+  "description": "Send real faxes to EU institutions: pay per fax via checkout link or prepaid API key.",
+  "packageName": "@alphesdk-remote/com-sendthisfax-fax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sendthisfax.com/mcp"
+    }
+  ],
+  "url": "https://www.sendthisfax.com/en/mcp"
+}

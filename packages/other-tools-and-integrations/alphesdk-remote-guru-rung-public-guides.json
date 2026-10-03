@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rung public career guides",
+  "description": "Find public career guides, explore grounded occupations, and open Rung for private resume work.",
+  "packageName": "@alphesdk-remote/guru-rung-public-guides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rung.guru/mcp"
+    }
+  ],
+  "url": "https://rung.guru"
+}

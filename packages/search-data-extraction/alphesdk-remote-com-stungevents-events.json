@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "events",
+  "description": "Search live events in 60+ countries, plan a night out, and demand artists to tour your city.",
+  "packageName": "@alphesdk-remote/com-stungevents-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stungevents.com"
+    }
+  ],
+  "url": "https://stungevents.com"
+}

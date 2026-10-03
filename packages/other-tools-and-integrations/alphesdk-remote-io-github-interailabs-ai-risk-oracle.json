@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "InterAI Risk Oracle",
+  "description": "Pre-execution policy gate for consequential agent actions with durable trust receipts.",
+  "packageName": "@alphesdk-remote/io-github-interailabs-ai-risk-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.interailabs.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/InterAILabs/ai-risk-oracle",
+  "readme": "https://github.com/InterAILabs/ai-risk-oracle#readme"
+}

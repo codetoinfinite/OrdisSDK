@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Vaanzari Commerce",
+  "description": "Discover Banarasi sarees and manage authorized Vaanzari shopping workflows with hosted checkout.",
+  "packageName": "@alphesdk-remote/com-vaanzari-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vaanzari.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Good Turn Studio (all tools)",
+  "description": "All 25 Good Turn Studio helpers in one server: money, health, jobs, travel, halal and scripture.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-all",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/all/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

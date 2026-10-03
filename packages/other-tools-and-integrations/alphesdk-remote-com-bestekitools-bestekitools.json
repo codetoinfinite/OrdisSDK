@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Beste KI Tools",
+  "description": "KI-Tools nach Kategorien, mit echten Startdaten und über Stripe geprüften Umsätzen.",
+  "packageName": "@alphesdk-remote/com-bestekitools-bestekitools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bestekitools.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://bestekitools.com"
+}

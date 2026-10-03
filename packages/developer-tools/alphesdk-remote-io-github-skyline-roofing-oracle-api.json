@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Oracle — Skyline Certified Records",
+  "description": "Free, certified Oklahoma records: property insurance, roofing, and permits (Norman, OKC).",
+  "packageName": "@alphesdk-remote/io-github-skyline-roofing-oracle-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oracle-api.skyline-roofing.workers.dev/mcp"
+    }
+  ]
+}

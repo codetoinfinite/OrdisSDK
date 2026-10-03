@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Digitaltableteur",
+  "description": "Design system contracts, docs search, and usage validation for @digitaltableteur components.",
+  "packageName": "@alphesdk-remote/com-digitaltableteur-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.digitaltableteur.com/mcp"
+    }
+  ],
+  "url": "https://github.com/PetriLahdelma/digitaltableteur",
+  "readme": "https://github.com/PetriLahdelma/digitaltableteur#readme"
+}

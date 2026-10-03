@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Compteam",
+  "description": "Find BJJ clubs, branch details, classes, plans, and prices; manage attendance and trial inquiries.",
+  "packageName": "@alphesdk-remote/io-compteam-compteam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.compteam.io/mcp"
+    }
+  ],
+  "url": "https://compteam.io/documentation/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Trail Fortress Fitment",
+  "description": "Free, read-only truck and Jeep parts fitment: what fits your vehicle, fit checks, tire sizes.",
+  "packageName": "@alphesdk-remote/com-trailfortress-fitment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trailfortress.com/mcp/"
+    }
+  ],
+  "url": "https://trailfortress.com/ai/"
+}

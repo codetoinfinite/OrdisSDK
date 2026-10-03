@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RightAIChoice — verified AI tool data",
+  "description": "Verified data on 8,000+ AI tools: live status, pricing, sentiment, alternatives. Free, read-only.",
+  "packageName": "@alphesdk-remote/com-rightaichoice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rightaichoice.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/right-ai-choice/mcp-server",
+  "readme": "https://github.com/right-ai-choice/mcp-server#readme"
+}

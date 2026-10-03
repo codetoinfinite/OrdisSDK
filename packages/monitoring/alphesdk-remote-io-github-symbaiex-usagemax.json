@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "UsageMax public observability",
+  "description": "Read-only MCP for AI usage profiles, leaderboards, stats, and docs; no writes or private data.",
+  "packageName": "@alphesdk-remote/io-github-symbaiex-usagemax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usagemax.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SYMBaiEX/usagemax",
+  "readme": "https://github.com/SYMBaiEX/usagemax#readme"
+}

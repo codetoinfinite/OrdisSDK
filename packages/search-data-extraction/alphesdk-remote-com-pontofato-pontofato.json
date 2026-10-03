@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pontofato",
+  "description": "Brazilian addresses for agents: IBGE-geocoded CEP points, radius search and companies by CEP.",
+  "packageName": "@alphesdk-remote/com-pontofato-pontofato",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pontofato.com/mcp"
+    }
+  ],
+  "url": "https://pontofato.com"
+}

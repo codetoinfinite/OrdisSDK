@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "langflow",
+  "name": "Langflow",
+  "description": "Visual builder for AI agents and workflows whose flows can be served as APIs or MCP servers.",
+  "category": "other-tools-and-integrations",
+  "tags": ["visual-builder", "agents", "workflows", "rag", "starter-templates"],
+  "repo": "https://github.com/langflow-ai/langflow",
+  "homepage": "https://langflow.org",
+  "publisher": "Langflow",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets developers assemble agents and RAG workflows on a canvas, starting from bundled templates, and deploy them as endpoints. It suits teams that want a visual authoring tool with a Python escape hatch.",
+  "howItWorks": "Flows are graphs of components (models, tools, retrievers) that Langflow executes and exposes through a built-in API server. Each flow can also be published as a tool through an MCP server. It installs from PyPI, runs in Docker or from source.",
+  "requirements": [
+    {
+      "name": "Python and uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installs and runs the package"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model credentials added in the UI"
+    }
+  ],
+  "install": ["uv pip install langflow -U"],
+  "run": ["uv run langflow run"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "LangChain",
+  "models": "All major LLM providers and local models",
+  "mcp": "both",
+  "github": {
+    "stars": 155469,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

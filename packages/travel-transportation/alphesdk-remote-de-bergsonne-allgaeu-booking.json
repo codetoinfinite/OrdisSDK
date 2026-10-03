@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hotel Bergsonne Allgäu Booking",
+  "description": "Live availability, prices and bookings for Hotel Bergsonne Allgäu in Sonthofen, Germany.",
+  "packageName": "@alphesdk-remote/de-bergsonne-allgaeu-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bergsonne-allgaeu.de/api/booking-mcp"
+    }
+  ],
+  "url": "https://bergsonne-allgaeu.de/developers"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Raintree Minerals",
+  "description": "Anonymous public tools for Raintree Minerals. See the published agent boundary before use.",
+  "packageName": "@alphesdk-remote/com-raintreeminerals-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://raintreeminerals.com/mcp"
+    }
+  ]
+}

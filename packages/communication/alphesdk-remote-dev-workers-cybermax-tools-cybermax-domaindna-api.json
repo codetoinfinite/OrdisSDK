@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DomainDNA",
+  "description": "Tech stack, email security (SPF, DMARC, MX provider) and domain age API + MCP. 25 free domains/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-domaindna-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domaindna-api.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/store/domaindna-api/"
+}

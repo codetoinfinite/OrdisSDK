@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "headless-oracle",
+  "description": "Ed25519-signed market open/close receipts for NYSE, NASDAQ, LSE, JPX, Euronext, HKEX, and SGX.",
+  "packageName": "@alphesdk-remote/io-github-lembagang-headless-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://headlessoracle.mmsebenzi-oracle.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/LembaGang/headless-oracle-v5",
+  "readme": "https://github.com/LembaGang/headless-oracle-v5#readme"
+}

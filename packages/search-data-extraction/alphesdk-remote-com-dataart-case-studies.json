@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "case-studies",
+  "description": "Search DataArt case studies by technology, industry, service, or keyword.",
+  "packageName": "@alphesdk-remote/com-dataart-case-studies",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dataart.com/mcp"
+    }
+  ]
+}

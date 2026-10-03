@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Checkout",
+  "description": "AI shopping gateway for product search, inventory, carts, and merchant-hosted checkout.",
+  "packageName": "@alphesdk-remote/com-agentcheckoutapi-agent-checkout",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentcheckoutapi.com/mcp"
+    }
+  ],
+  "url": "https://agentcheckoutapi.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Antevo Trademark",
+  "description": "Is that brand name taken? Screen the registers and check the opposition window. No account.",
+  "packageName": "@alphesdk-remote/ch-antevo-trademark",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trademark.antevo.ch/mcp"
+    }
+  ],
+  "url": "https://antevo.ch/trademark"
+}

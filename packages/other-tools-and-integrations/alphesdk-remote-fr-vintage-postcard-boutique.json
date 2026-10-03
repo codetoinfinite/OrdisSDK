@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vintage Postcard",
+  "description": "Affiches vintage : catalogue, devis livraison comprise et paiement Stripe.",
+  "packageName": "@alphesdk-remote/fr-vintage-postcard-boutique",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vintage-postcard.fr/mcp"
+    }
+  ],
+  "url": "https://github.com/BaltoCodes/vintage-postcard",
+  "readme": "https://github.com/BaltoCodes/vintage-postcard#readme"
+}

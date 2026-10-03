@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "astrbot",
+  "name": "AstrBot",
+  "description": "All-in-one agent chatbot platform that plugs LLM agents into QQ, WeCom, Feishu, DingTalk, Telegram, Slack and more.",
+  "category": "communication",
+  "tags": ["chatbot", "im-platforms", "plugins", "knowledge-base", "mcp"],
+  "repo": "https://github.com/AstrBotDevs/AstrBot",
+  "homepage": "https://astrbot.app",
+  "docs": "https://docs.astrbot.app/deploy/astrbot/docker.html",
+  "publisher": "AstrBotDevs",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Individuals and teams deploy an agent in their messaging apps with multimodal chat, personas, a knowledge base, skills and automatic context compression. More than a thousand plugins can be installed with one click.",
+  "howItWorks": "A Python service bridges messaging platform adapters to LLM providers and can also front agent platforms such as Dify, Alibaba Cloud Bailian and Coze. Docker or Docker Compose is the recommended deployment, described in the docs.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Recommended deployment method"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Messaging platform bot credentials",
+      "kind": "account",
+      "required": true,
+      "description": "For each connected chat platform"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["chat", "web"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "client",
+  "github": {
+    "stars": 41328,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

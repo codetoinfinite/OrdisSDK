@@ -1,0 +1,44 @@
+{
+  "type": "external-agent",
+  "key": "aift",
+  "name": "AIFT",
+  "description": "AI forensic triage tool that parses disk images and other evidence, then has a model analyse the artefacts against your question.",
+  "category": "security",
+  "tags": ["forensics", "triage", "dfir", "dissect", "incident-response"],
+  "repo": "https://github.com/FlipForensics/AIFT",
+  "publisher": "Flip Forensics",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets analysts load evidence, state what they suspect and receive a triage report highlighting relevant artefacts. It is meant to speed up the first pass of an investigation.",
+  "howItWorks": "Evidence is parsed with the Dissect framework into artefact tables selected by a profile. Those artefacts and the investigator's prompt go to the configured model for analysis. It can be driven from a local web interface, a CLI for automation, a REST interface or an MCP server.",
+  "requirements": [
+    {
+      "name": "Python 3.10-3.13",
+      "kind": "runtime",
+      "required": true,
+      "description": "Supported interpreter range"
+    },
+    {
+      "name": "AI provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured in the GUI or config/config.yaml; a local OpenAI-compatible endpoint also works"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/FlipForensics/AIFT.git",
+    "cd AIFT",
+    "python -m pip install -r requirements.txt"
+  ],
+  "run": ["python aift.py"],
+  "interfaces": ["web", "cli", "api"],
+  "language": "Python",
+  "models": "Claude, OpenAI, Kimi, local OpenAI-compatible endpoints",
+  "mcp": "server",
+  "github": {
+    "stars": 48,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-06-13",
+    "checkedAt": "2026-10-03"
+  }
+}

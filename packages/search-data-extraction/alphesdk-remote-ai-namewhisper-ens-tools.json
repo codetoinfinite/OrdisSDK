@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Name Whisper — ENS Intelligence Layer",
+  "description": "44 MCP tools to search, value, register, trade, and manage ENS names. AI-powered intelligence layer.",
+  "packageName": "@alphesdk-remote/ai-namewhisper-ens-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namewhisper.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/eggybug42069/namewhisper-mcp",
+  "readme": "https://github.com/eggybug42069/namewhisper-mcp#readme"
+}

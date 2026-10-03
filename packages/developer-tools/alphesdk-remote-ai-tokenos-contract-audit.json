@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TokenOS Smart Contract Audit",
+  "description": "Scan Solidity & Anchor code",
+  "packageName": "@alphesdk-remote/ai-tokenos-contract-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenos.ai/api/mcp/apps/contract-audit"
+    }
+  ],
+  "url": "https://tokenos.ai/mcp/contract-audit"
+}

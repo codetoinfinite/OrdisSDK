@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "COTAL actions (cotal.ai)",
+  "description": "cotal.ai actions: product overview, site search, build log, feedback, Cloud waitlist, updates, calls",
+  "packageName": "@alphesdk-remote/ai-cotal-cotal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cotal.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Cotal-AI/Cotal",
+  "readme": "https://github.com/Cotal-AI/Cotal#readme"
+}

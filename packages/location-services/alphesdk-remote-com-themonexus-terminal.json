@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "terminal",
+  "description": "Live geopolitical and markets intelligence wire: 35k+ wire items, event threads, 55k+ articles.",
+  "packageName": "@alphesdk-remote/com-themonexus-terminal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://terminal.themonexus.com/mcp"
+    }
+  ],
+  "url": "https://terminal.themonexus.com"
+}

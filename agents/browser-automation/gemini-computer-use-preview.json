@@ -1,0 +1,60 @@
+{
+  "type": "external-agent",
+  "key": "gemini-computer-use-preview",
+  "name": "Gemini Computer Use Preview",
+  "description": "Reference browser agent for the Gemini Computer Use model that completes web tasks from a natural-language query.",
+  "category": "browser-automation",
+  "tags": ["computer-use", "browser", "gemini", "playwright", "browserbase"],
+  "repo": "https://github.com/google-gemini/computer-use-preview",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Given an instruction such as a search or form task, the agent operates a browser step by step until the goal is met. It is the official sample for developers evaluating Gemini's computer-use capability.",
+  "howItWorks": "A Python loop sends screenshots to the Gemini computer-use model and executes the returned UI actions in a browser, either a local Playwright-controlled Chrome or a remote Browserbase session. It can use the Gemini Developer API or Vertex AI.",
+  "requirements": [
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Gemini API key from Google AI Studio"
+    },
+    {
+      "name": "Playwright Chrome",
+      "kind": "runtime",
+      "required": true,
+      "description": "Local browser environment"
+    },
+    {
+      "name": "BROWSERBASE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only for the Browserbase environment"
+    },
+    {
+      "name": "BROWSERBASE_PROJECT_ID",
+      "kind": "account",
+      "required": false,
+      "description": "Only for the Browserbase environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google-gemini/computer-use-preview.git",
+    "cd computer-use-preview",
+    "python3 -m venv .venv",
+    "source .venv/bin/activate",
+    "pip install -r requirements.txt",
+    "playwright install-deps chrome",
+    "playwright install chrome"
+  ],
+  "run": ["python main.py --query \"Go to Google and type 'Hello World' into the search bar\""],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Gemini Computer Use model",
+  "mcp": "none",
+  "github": {
+    "stars": 3213,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-28",
+    "checkedAt": "2026-10-03"
+  }
+}

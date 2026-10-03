@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Straight Line Golf Pro",
+  "description": "Read-only discovery and retrieval of current public Straight Line Golf Pro coaching resources.",
+  "packageName": "@alphesdk-remote/io-github-straightlinegolfpro-straight-line-golf-pro-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://straight-line-golf-pro-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/StraightLineGolfPro/straight-line-golf-pro-mcp",
+  "readme": "https://github.com/StraightLineGolfPro/straight-line-golf-pro-mcp#readme"
+}

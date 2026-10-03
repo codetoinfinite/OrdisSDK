@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VibeKit",
+  "description": "Build, deploy, and operate hosted web apps on VibeKit (vibekit.bot) from any MCP client.",
+  "packageName": "@alphesdk-remote/io-github-vibekit-bot-vibekit-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vibekit.bot/mcp"
+    }
+  ],
+  "url": "https://github.com/VibeKit-Bot/vibekit-mcp",
+  "readme": "https://github.com/VibeKit-Bot/vibekit-mcp#readme"
+}

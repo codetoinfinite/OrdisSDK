@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "deliverability-doctor",
+  "description": "Check if a domain can be email-spoofed: SPF, DMARC, DKIM, MX graded from public DNS. Authless.",
+  "packageName": "@alphesdk-remote/io-github-integrity-os-deliverability-doctor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deliverability-doctor.deliverability-doctor.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Integrity-Os/deliverability-doctor",
+  "readme": "https://github.com/Integrity-Os/deliverability-doctor#readme"
+}

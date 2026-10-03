@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Domain RDAP MCP",
+  "description": "Free, keyless domain registration lookup via RDAP: registered, available, registrar, expiration.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-domain-rdap-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/domain/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

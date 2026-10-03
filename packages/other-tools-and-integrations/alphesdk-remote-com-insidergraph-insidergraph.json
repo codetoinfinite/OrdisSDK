@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "insidergraph",
+  "description": "SEC insider intelligence: trades, 8-K events, planned sales, activist stakes - one entity graph.",
+  "packageName": "@alphesdk-remote/com-insidergraph-insidergraph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.insidergraph.com/mcp"
+    }
+  ],
+  "url": "https://insidergraph.com"
+}

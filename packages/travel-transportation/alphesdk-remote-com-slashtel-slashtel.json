@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Slashtel",
+  "description": "Travel data eSIMs in about 200 destinations and mobile top-ups in 100+ countries, live prices.",
+  "packageName": "@alphesdk-remote/com-slashtel-slashtel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://slashtel.com/api/mcp"
+    }
+  ]
+}

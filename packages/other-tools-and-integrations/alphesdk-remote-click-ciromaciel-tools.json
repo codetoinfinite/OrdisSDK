@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ciro Cesar Maciel — Free Tools",
+  "description": "Free, no sign-in: favicons, web to Markdown, CSV to chart, text to speech, time zones, passwords.",
+  "packageName": "@alphesdk-remote/click-ciromaciel-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tools.ciromaciel.click/"
+    }
+  ],
+  "url": "https://ciromaciel.click/tools"
+}

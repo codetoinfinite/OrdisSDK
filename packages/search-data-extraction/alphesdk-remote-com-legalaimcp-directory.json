@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LegalAIMCP Directory",
+  "description": "Search a curated directory of AI tools and MCP servers for law firms. Read-only, free, no auth.",
+  "packageName": "@alphesdk-remote/com-legalaimcp-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://legalaimcp.com/api/mcp"
+    }
+  ],
+  "url": "https://legalaimcp.com/mcp"
+}

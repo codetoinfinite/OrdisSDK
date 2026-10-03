@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Integrates Wolfram Language and Wolfram|Alpha accessing curated data and sophisticated algorithms.",
+  "packageName": "@alphesdk-remote/com-wolfram-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenttools.wolfram.com/mcp"
+    }
+  ]
+}

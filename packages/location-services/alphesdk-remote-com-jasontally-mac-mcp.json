@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MAC Address Lookup",
+  "description": "Find the organization behind a MAC address or OUI prefix in the IEEE registries. No auth, no key.",
+  "packageName": "@alphesdk-remote/com-jasontally-mac-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mac.jasontally.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jasontally/mac-address-lookup",
+  "readme": "https://github.com/jasontally/mac-address-lookup#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "XFish Horgász Webáruház",
+  "description": "XFish.hu Hungarian fishing tackle webshop. Search 90000+ products by category, brand, price.",
+  "packageName": "@alphesdk-remote/hu-xfish-webshop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.xfish.hu/app/mcpapi.php"
+    }
+  ]
+}

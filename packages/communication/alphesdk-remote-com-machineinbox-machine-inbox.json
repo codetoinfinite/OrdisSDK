@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "machine-inbox",
+  "description": "Task-scoped email inboxes for AI agents: read mail, extract verification codes, and reply.",
+  "packageName": "@alphesdk-remote/com-machineinbox-machine-inbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://machineinbox.com/mcp"
+    }
+  ],
+  "url": "https://machineinbox.com"
+}

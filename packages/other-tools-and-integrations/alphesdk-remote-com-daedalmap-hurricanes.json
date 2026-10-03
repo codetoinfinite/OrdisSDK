@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Hurricane and Tropical Cyclone Data",
+  "description": "Global hurricane and tropical cyclone tracks from IBTrACS/NOAA, 1842-present. Wind and pressure.",
+  "packageName": "@alphesdk-remote/com-daedalmap-hurricanes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/hurricanes"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

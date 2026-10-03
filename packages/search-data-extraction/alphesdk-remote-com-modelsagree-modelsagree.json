@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ModelsAgree",
+  "description": "Consensus 'best X for Y' rankings from ChatGPT, Claude, Gemini & Grok. Search, verdicts, history.",
+  "packageName": "@alphesdk-remote/com-modelsagree-modelsagree",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modelsagree.com/mcp"
+    }
+  ],
+  "url": "https://modelsagree.com"
+}

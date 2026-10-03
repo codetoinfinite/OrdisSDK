@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Intercom",
+  "description": "Search and read Intercom conversations and contacts.",
+  "packageName": "@alphesdk-remote/intercom",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.intercom.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.intercom.com/docs/guides/mcp",
+  "url": "https://github.com/intercom",
+  "author": "Intercom",
+  "env": {}
+}

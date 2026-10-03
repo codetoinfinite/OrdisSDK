@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VaultVision Hyperliquid Vault Research",
+  "description": "Read-only Hyperliquid vault search, risk, drawdown, rankings, TVL, alerts, and comparisons.",
+  "packageName": "@alphesdk-remote/io-github-0xkayser-vaultvision",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vaultvision.tech/mcp"
+    }
+  ],
+  "url": "https://github.com/0xkayser/vaultvision-mcp",
+  "readme": "https://github.com/0xkayser/vaultvision-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SKUit Network & Security Catalog",
+  "description": "AI helper for choosing and speccing network & security products from Cisco, Arista, Juniper and more",
+  "packageName": "@alphesdk-remote/ai-skuit-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.skuit.ai/api/mcp/catalog"
+    }
+  ],
+  "url": "https://skuit.ai"
+}

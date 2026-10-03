@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Semgrep (remote)",
+  "description": "Hosted Semgrep endpoint for scanning code for vulnerabilities and writing rules.",
+  "packageName": "@alphesdk-remote/semgrep-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.semgrep.ai/mcp"
+    }
+  ],
+  "readme": "https://github.com/semgrep/mcp",
+  "url": "https://github.com/semgrep/mcp",
+  "author": "Semgrep",
+  "env": {}
+}

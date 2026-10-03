@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Star Ninja",
+  "description": "Star Ninja reports sky darkness, cloud cover and moonless hours for a night-sky spot you name.",
+  "packageName": "@alphesdk-remote/io-github-2pm-ninja-star-ninja",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stars.2pm.ninja/mcp"
+    }
+  ],
+  "url": "https://stars.2pm.ninja/mcp-server/"
+}

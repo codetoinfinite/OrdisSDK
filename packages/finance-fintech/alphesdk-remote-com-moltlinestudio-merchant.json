@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Merchant Maths",
+  "description": "Processor fees, charge-to-net, invoice totals and proration. 3 of 6 tools free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-merchant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/merchant"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

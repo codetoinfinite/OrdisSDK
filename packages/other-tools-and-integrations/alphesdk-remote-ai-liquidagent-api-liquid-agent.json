@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Liquid Agent",
+  "description": "Money tools for AI agents over x402: USDC bridge to 16 chains, Polymarket data, stocks, USDC gas.",
+  "packageName": "@alphesdk-remote/ai-liquidagent-api-liquid-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.liquidagent.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/LiquidAgent/liquidagentx402",
+  "readme": "https://github.com/LiquidAgent/liquidagentx402#readme"
+}

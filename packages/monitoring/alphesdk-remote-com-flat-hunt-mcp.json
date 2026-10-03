@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FlatHunt",
+  "description": "Search furnished Berlin housing, compare listings, and manage favorites and saved-search alerts.",
+  "packageName": "@alphesdk-remote/com-flat-hunt-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flat-hunt.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Mixalloff/flat-hunt-mcp",
+  "readme": "https://github.com/Mixalloff/flat-hunt-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "USDV Capital — Your Real Estate CFO",
+  "description": "Real estate market intelligence, calculators, and capital advisory for US investors.",
+  "packageName": "@alphesdk-remote/io-github-usdvcapital-real-estate-cfo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.usdvcapital.com/mcp"
+    }
+  ],
+  "url": "https://github.com/USDVCapital/api.usdvcapital.com",
+  "readme": "https://github.com/USDVCapital/api.usdvcapital.com#readme"
+}

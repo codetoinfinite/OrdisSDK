@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bring Your AI",
+  "description": "No-data MCP handoff for local Claude Code to Codex harness moves. $49 lifetime.",
+  "packageName": "@alphesdk-remote/ai-bringyour-bringyour",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bringyour.ai/mcp"
+    }
+  ],
+  "url": "https://bringyour.ai"
+}

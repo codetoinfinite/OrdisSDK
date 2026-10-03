@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "puerto-rico",
+  "description": "Puerto Rico's hand-verified data layer: businesses, health deserts, FDA recalls, public record.",
+  "packageName": "@alphesdk-remote/com-mapadecaborojo-puerto-rico",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vprjteqgmanntvisjrvp.supabase.co/functions/v1/mcp-puerto-rico"
+    }
+  ],
+  "url": "https://www.mapadecaborojo.com"
+}

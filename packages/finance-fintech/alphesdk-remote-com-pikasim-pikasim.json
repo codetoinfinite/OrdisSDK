@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PikaSim",
+  "description": "Anonymous eSIMs, phone numbers, and SMS codes in 190+ countries. Crypto-paid; agents self-onboard.",
+  "packageName": "@alphesdk-remote/com-pikasim-pikasim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pikasim.com/mcp"
+    }
+  ],
+  "url": "https://github.com/codebruinc/pikasim-mcp",
+  "readme": "https://github.com/codebruinc/pikasim-mcp#readme"
+}

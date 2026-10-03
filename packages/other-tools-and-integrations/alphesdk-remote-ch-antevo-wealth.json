@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Antevo Wealth",
+  "description": "The family estate in full — what you hold, what you owe, and what it is exposed to.",
+  "packageName": "@alphesdk-remote/ch-antevo-wealth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.antevo.ch/mcp/wealth/mcp"
+    }
+  ],
+  "url": "https://antevo.ch/mcp"
+}

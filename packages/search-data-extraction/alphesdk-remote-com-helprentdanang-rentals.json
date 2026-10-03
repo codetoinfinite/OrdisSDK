@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "HelpRent Da Nang",
+  "description": "Every long-term rental in Da Nang, Vietnam: search, buildings, median rents. No key, no account.",
+  "packageName": "@alphesdk-remote/com-helprentdanang-rentals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://helprentdanang.com/mcp/"
+    }
+  ]
+}

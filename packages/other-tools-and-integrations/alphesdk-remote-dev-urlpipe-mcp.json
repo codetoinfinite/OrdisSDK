@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "URLpipe",
+  "description": "Read any page with its JavaScript run: Markdown, screenshots, metadata, console errors, Lighthouse.",
+  "packageName": "@alphesdk-remote/dev-urlpipe-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://urlpipe.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/URLpipe/mcp",
+  "readme": "https://github.com/URLpipe/mcp#readme"
+}

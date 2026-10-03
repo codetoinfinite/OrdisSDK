@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Perplexity",
+  "description": "Perplexity Sonar search, ask, research and reasoning tools.",
+  "packageName": "@perplexity-ai/mcp-server",
+  "packageVersion": "1.3.0",
+  "runtime": "node",
+  "readme": "https://docs.perplexity.ai/guides/mcp-server",
+  "url": "https://github.com/perplexityai/modelcontextprotocol",
+  "author": "Perplexity",
+  "env": {
+    "PERPLEXITY_API_KEY": {
+      "description": "Perplexity API key",
+      "required": true
+    },
+    "PERPLEXITY_BASE_URL": {
+      "description": "Optional custom API base URL",
+      "required": false
+    }
+  }
+}

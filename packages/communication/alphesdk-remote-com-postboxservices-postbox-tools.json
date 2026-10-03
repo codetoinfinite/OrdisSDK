@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "postbox-tools",
+  "description": "Free email checks: 24 blacklists, spoofing/BEC grade, redirect tracing, email spam test, WHOIS.",
+  "packageName": "@alphesdk-remote/com-postboxservices-postbox-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.postboxservices.com/mcp"
+    }
+  ],
+  "url": "https://postboxservices.com/mcp/"
+}

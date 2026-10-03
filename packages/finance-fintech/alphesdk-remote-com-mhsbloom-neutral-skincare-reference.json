@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "neutral-skincare-reference",
+  "description": "Neutral, payment-blind reference of 1,682 dermacosmetic products: lookup, search, alternatives.",
+  "packageName": "@alphesdk-remote/com-mhsbloom-neutral-skincare-reference",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://europe-west3-mhs-bloom.cloudfunctions.net/bloomMcp"
+    }
+  ],
+  "url": "https://mhsbloom.com/mcp/"
+}

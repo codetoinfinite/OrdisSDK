@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Plumbline - Contractor License Checks",
+  "description": "Free contractor-license checks from official state records; a no-match never proves unlicensed.",
+  "packageName": "@alphesdk-remote/ai-agentlookups-plumbline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contractors.agentlookups.ai/mcp"
+    }
+  ],
+  "url": "https://contractors.agentlookups.ai"
+}

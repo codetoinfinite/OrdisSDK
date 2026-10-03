@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Planner MCP — provable \"done\" for AI agents",
+  "description": "Goal and task planning MCP for Codex and AI agents, with evidence-backed completion.",
+  "packageName": "@alphesdk-remote/com-monopoly-gold-planner-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://planner.monopoly-gold.com/_mcp"
+    }
+  ],
+  "url": "https://github.com/dev-lab-global/planner",
+  "readme": "https://github.com/dev-lab-global/planner#readme"
+}

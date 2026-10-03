@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "Vantaj uptime monitoring via MCP - manage monitors, heartbeats, incidents, and status pages.",
+  "packageName": "@alphesdk-remote/co-vantaj-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vantaj.co/mcp"
+    }
+  ],
+  "url": "https://vantaj.co/docs/mcp-server"
+}

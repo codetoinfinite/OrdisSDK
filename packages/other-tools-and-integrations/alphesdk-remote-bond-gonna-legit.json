@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "legit",
+  "description": "Trust scores and organic demand intelligence for x402 agents",
+  "packageName": "@alphesdk-remote/bond-gonna-legit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://legit.gonna.bond/mcp"
+    }
+  ]
+}

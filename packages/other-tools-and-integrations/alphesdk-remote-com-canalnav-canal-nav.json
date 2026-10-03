@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Canal Nav",
+  "description": "Plan canal routes on Great Britain's waterways: lock-aware timing, live closures, boat-fit checks.",
+  "packageName": "@alphesdk-remote/com-canalnav-canal-nav",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.canalnav.com/mcp"
+    }
+  ],
+  "url": "https://canalnav.com"
+}

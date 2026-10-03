@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Builders in Fintech",
+  "description": "Fintech funding rounds, companies, investors and podcast knowledge. Free, keyless, CC BY 4.0.",
+  "packageName": "@alphesdk-remote/ai-buildersinfintech-fintech-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://buildersinfintech.ai/mcp"
+    }
+  ],
+  "url": "https://buildersinfintech.ai/mcp"
+}

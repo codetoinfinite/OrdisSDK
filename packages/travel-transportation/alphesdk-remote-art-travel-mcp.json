@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "travel.art",
+  "description": "Art-tourism data for AI agents: biennales, art fairs, museums, layover itineraries with 2026 facts.",
+  "packageName": "@alphesdk-remote/art-travel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.travel.art/"
+    }
+  ],
+  "url": "https://github.com/alexzavialov/travel-art-mcp",
+  "readme": "https://github.com/alexzavialov/travel-art-mcp#readme"
+}

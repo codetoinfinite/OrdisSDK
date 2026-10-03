@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FounderBrain",
+  "description": "See how a founder came across in a pitch or investor call, compared with 773 founder interviews.",
+  "packageName": "@alphesdk-remote/com-thinkreasonlearn-founderbrain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thinkreasonlearn.com/mcp"
+    }
+  ],
+  "url": "https://thinkreasonlearn.com/founderbrain"
+}

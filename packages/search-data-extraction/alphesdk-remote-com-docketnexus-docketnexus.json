@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Docket Nexus",
+  "description": "Search public U.S. federal litigation: companies, cases, dockets and document metadata.",
+  "packageName": "@alphesdk-remote/com-docketnexus-docketnexus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.docketnexus.com/mcp"
+    }
+  ],
+  "url": "https://docketnexus.com"
+}

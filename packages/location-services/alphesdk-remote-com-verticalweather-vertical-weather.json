@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vertical Weather",
+  "description": "Wind, temperature, pressure, humidity and air density at chosen heights, from NOAA GFS.",
+  "packageName": "@alphesdk-remote/com-verticalweather-vertical-weather",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.verticalweather.com/mcp"
+    }
+  ],
+  "url": "https://verticalweather.com/guide/mcp/"
+}

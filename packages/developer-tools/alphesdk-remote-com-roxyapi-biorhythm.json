@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Biorhythm MCP Server by RoxyAPI",
+  "description": "Biorhythm cycles, forecasts, critical days and compatibility for AI agents, one API key.",
+  "packageName": "@alphesdk-remote/com-roxyapi-biorhythm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/biorhythm"
+    }
+  ],
+  "url": "https://roxyapi.com/products/biorhythm-api"
+}

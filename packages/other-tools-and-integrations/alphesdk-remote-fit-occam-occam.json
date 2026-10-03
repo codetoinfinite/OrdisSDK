@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Occam",
+  "description": "Finds the simplest equation consistent with your data. SINDy and PySR symbolic regression via MCP.",
+  "packageName": "@alphesdk-remote/fit-occam-occam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://occam.fit/mcp/"
+    }
+  ],
+  "url": "https://occam.fit"
+}

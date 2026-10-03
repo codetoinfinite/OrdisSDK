@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI API Radar",
+  "description": "Live LLM API price + status radar across 11 providers, with public per-model price HISTORY.",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-ai-api-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiapi.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://aiapi.dropwatchhq.com"
+}

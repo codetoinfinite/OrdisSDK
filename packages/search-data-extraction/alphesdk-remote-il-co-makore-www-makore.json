@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Makore — Events in Israel",
+  "description": "Search upcoming public events in Israel by date, city, region or category. Read-only; no API key.",
+  "packageName": "@alphesdk-remote/il-co-makore-www-makore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.makore.co.il/api/mcp"
+    }
+  ],
+  "url": "https://www.makore.co.il/developers"
+}

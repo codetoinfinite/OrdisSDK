@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "eclass-(uoa)",
+  "packageName": "git+https://github.com/sdi2200262/eclass-mcp-server@996dfcd781ddbbac167abdafff2dbd9aa9d74164",
   "description": "Integrates with Open eClass platform to enable course access and management through UoA's SSO authentication system, providing tools for login, course listing, and session handling",
   "url": "https://github.com/sdi2200262/eclass-mcp-server",
   "runtime": "python",
   "license": "other",
   "env": {},
-  "name": "Eclass MCP Server"
+  "name": "Eclass MCP Server",
+  "bin": "eclass-mcp-server",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

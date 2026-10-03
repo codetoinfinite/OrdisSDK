@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "australian-ai-governance-framework",
+  "description": "Australian AI governance framework mapped to the Privacy Act and sector laws your AI use triggers.",
+  "packageName": "@alphesdk-remote/au-com-aiframework-australian-ai-governance-framework",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiframework.com.au/api/mcp.php"
+    }
+  ],
+  "url": "https://github.com/kentron-au/australian-ai-governance-framework",
+  "readme": "https://github.com/kentron-au/australian-ai-governance-framework#readme"
+}

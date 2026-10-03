@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Japan Food DB",
+  "description": "Resolve Japanese food names to nutrition facts. All 2,538 foods from Japan's official tables.",
+  "packageName": "@alphesdk-remote/dev-toriigate-food-db",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toriigate.dev/mcp/food-db"
+    }
+  ],
+  "url": "https://github.com/yuki00yossi/toriigate-platform",
+  "readme": "https://github.com/yuki00yossi/toriigate-platform#readme"
+}

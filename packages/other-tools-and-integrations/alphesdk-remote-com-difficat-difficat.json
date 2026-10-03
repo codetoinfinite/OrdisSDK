@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DiffiCat",
+  "description": "Compare a website before and after a migration: missing pages, content changes, visual diffs.",
+  "packageName": "@alphesdk-remote/com-difficat-difficat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.difficat.com/mcp"
+    }
+  ],
+  "url": "https://difficat.com/agents"
+}

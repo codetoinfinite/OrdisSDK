@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mortgage-tools",
+  "description": "Australian mortgage tools: repayment & borrowing-power calculators, guidance & enquiry capture.",
+  "packageName": "@alphesdk-remote/au-com-manageyourloans-mortgage-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-myl-oov7xgbxua-ts.a.run.app/mcp"
+    }
+  ],
+  "url": "https://github.com/andycarey1969/manage-your-loans-frontend",
+  "readme": "https://github.com/andycarey1969/manage-your-loans-frontend#readme"
+}

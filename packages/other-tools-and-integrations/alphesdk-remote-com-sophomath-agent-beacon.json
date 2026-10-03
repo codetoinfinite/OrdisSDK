@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Beacon",
+  "description": "Report capabilities needed and not found. Requests aren't fulfilled.",
+  "packageName": "@alphesdk-remote/com-sophomath-agent-beacon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://beacon.sophomath.com/mcp"
+    }
+  ],
+  "url": "https://beacon.sophomath.com/"
+}

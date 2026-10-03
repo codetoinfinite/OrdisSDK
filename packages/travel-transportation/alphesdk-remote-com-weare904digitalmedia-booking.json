@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "904 Digital Media: book a call",
+  "description": "Book a call with 904 Digital Media (Jacksonville, FL): services, open times, requests.",
+  "packageName": "@alphesdk-remote/com-weare904digitalmedia-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://book.weare904digitalmedia.com/api/mcp/904-digital-media"
+    }
+  ],
+  "url": "https://weare904digitalmedia.com/book"
+}

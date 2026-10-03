@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "opencode",
+  "name": "opencode",
+  "description": "Provider-agnostic coding agent for the terminal, with a beta desktop app, that ships a full-access build agent and a read-only plan agent.",
+  "category": "coding-agents",
+  "tags": ["terminal", "tui", "provider-agnostic", "subagents", "desktop"],
+  "repo": "https://github.com/anomalyco/opencode",
+  "homepage": "https://opencode.ai",
+  "docs": "https://opencode.ai/docs",
+  "publisher": "Anomaly",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "opencode lets developers explore, plan and change a codebase from a terminal interface. A build agent can edit and run things, while a plan agent only analyses and suggests. It is not tied to a single model vendor.",
+  "howItWorks": "The tool runs an agent loop with file, search and shell tools. Users switch between the built-in agents, and a general-purpose subagent handles multi-step searches and delegated work. It is installed as a single binary or an npm package.",
+  "requirements": [
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to the model that powers the agent"
+    }
+  ],
+  "install": ["curl -fsSL https://opencode.ai/install | bash"],
+  "run": [],
+  "interfaces": ["cli", "desktop"],
+  "language": "TypeScript",
+  "models": "Many providers, including local models",
+  "mcp": "client",
+  "github": {
+    "stars": 211541,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

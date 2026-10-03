@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LeadProof",
+  "description": "Verified local-business lead lists: quote, sample and order. Raw data via our Apify actors.",
+  "packageName": "@alphesdk-remote/co-leadproof-leadproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://leadproof.co/mcp"
+    }
+  ],
+  "url": "https://leadproof.co/mcp/"
+}

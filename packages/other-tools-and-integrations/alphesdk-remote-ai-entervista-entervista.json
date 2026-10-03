@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Entervista",
+  "description": "Find and book local service businesses (plumbers, HVAC, detailers) at real prices, with approval.",
+  "packageName": "@alphesdk-remote/ai-entervista-entervista",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entervista.ai/mcp"
+    }
+  ],
+  "url": "https://entervista.ai/developers"
+}

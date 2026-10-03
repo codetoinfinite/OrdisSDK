@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "vega",
+  "description": "22 developer utilities: base64, hashes, JWT, JSON tools, unit conversion. Free, keyless.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-vega-mcp-vega",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vega-mcp.thetempleofdoom.com/mcp"
+    }
+  ]
+}

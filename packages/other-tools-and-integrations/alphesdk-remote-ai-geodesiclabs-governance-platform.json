@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "governance-platform",
+  "description": "Pre-execution governance for AI agents. Deterministic PASS/FAIL/REVIEW verdicts, replayable proof.",
+  "packageName": "@alphesdk-remote/ai-geodesiclabs-governance-platform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.geodesiclabs.ai/mcp"
+    }
+  ]
+}

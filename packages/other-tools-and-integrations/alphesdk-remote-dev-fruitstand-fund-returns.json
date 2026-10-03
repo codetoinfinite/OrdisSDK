@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fruit Stand Fund Returns",
+  "description": "Trailing & calendar-year returns for 32,000+ US mutual funds & ETFs — fund performance by ticker.",
+  "packageName": "@alphesdk-remote/dev-fruitstand-fund-returns",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fruitstand.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/fruitstanddev/fruitstand-mcp",
+  "readme": "https://github.com/fruitstanddev/fruitstand-mcp#readme"
+}

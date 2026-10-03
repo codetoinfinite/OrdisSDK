@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Create Web Page",
+  "description": "Create, edit, preview, publish, and manage web pages from MCP-capable AI clients.",
+  "packageName": "@alphesdk-remote/com-create-web-page-create-web-page",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://create-web-page.com/mcp"
+    }
+  ],
+  "url": "https://github.com/daniel-lopez-puig/landings",
+  "readme": "https://github.com/daniel-lopez-puig/landings#readme"
+}

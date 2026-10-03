@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AIURION Agentic 3D Printing — San Francisco",
+  "description": "SF 3D printing: PLA/PETG, ASA, PPA-CF, TPU 85A & TPU 95A HF. Quote, approve, and track.",
+  "packageName": "@alphesdk-remote/com-aiurion-agentic-3d-printing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiurion.com/api/agent/v1/mcp"
+    }
+  ],
+  "url": "https://aiurion.com/ai-agents"
+}

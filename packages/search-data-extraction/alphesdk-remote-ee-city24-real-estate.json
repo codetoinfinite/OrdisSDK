@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "City24.ee - Real Estate marketplace",
+  "description": "Live Estonia real estate listings with search, geo filters, and property metadata.",
+  "packageName": "@alphesdk-remote/ee-city24-real-estate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.city24.ee/_mcp"
+    }
+  ],
+  "url": "https://www.city24.ee"
+}

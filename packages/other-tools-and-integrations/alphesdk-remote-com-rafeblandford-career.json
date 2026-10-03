@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rafe Blandford — career and writing",
+  "description": "Rafe Blandford's published career, case studies and writing. Read-only; no route to contact him.",
+  "packageName": "@alphesdk-remote/com-rafeblandford-career",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://machines.rafeblandford.com/mcp?via=registry"
+    }
+  ],
+  "url": "https://machines.rafeblandford.com/"
+}

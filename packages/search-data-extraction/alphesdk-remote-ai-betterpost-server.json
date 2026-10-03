@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BetterPost",
+  "description": "Finds timely sources across news, social, and the web and writes posts worth publishing.",
+  "packageName": "@alphesdk-remote/ai-betterpost-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://betterpost.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/betterpost/betterpost-plugin",
+  "readme": "https://github.com/betterpost/betterpost-plugin#readme"
+}

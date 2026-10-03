@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eurocollis",
+  "description": "Read-only logistics data for Morocco-Europe shipping: quotes, couriers, tracking and customs.",
+  "packageName": "@alphesdk-remote/com-eurocollis-eurocollis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.eurocollis.com/mcp"
+    }
+  ],
+  "url": "https://www.eurocollis.com/developers/mcp-docs"
+}

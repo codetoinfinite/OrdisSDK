@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nikola Dikic - Full-Stack Developer, WordPress, WooCommerce, ERP Integrations",
+  "description": "Services, shipped projects, limits and booking slots for a freelance WooCommerce developer.",
+  "packageName": "@alphesdk-remote/com-nikoladikic-nikola-dikic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nikoladikic.com/mcp"
+    }
+  ],
+  "url": "https://nikoladikic.com"
+}

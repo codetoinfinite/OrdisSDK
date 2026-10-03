@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Imperio — Italian Tax & Compliance Tools",
+  "description": "Italian tax + anti-fraud: CF, P.IVA, IBAN, ATECO, IMU, F24, FatturaPA, NIS2. 23 free + 5 with key.",
+  "packageName": "@alphesdk-remote/com-imperioutils-fisco-it",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://imperioutils.com/api/mcp"
+    }
+  ],
+  "url": "https://imperioutils.com/"
+}

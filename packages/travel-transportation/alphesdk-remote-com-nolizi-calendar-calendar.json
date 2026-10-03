@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nolizi Calendar",
+  "description": "Free scheduling your agent can book through: live availability, booking, verification, cancel.",
+  "packageName": "@alphesdk-remote/com-nolizi-calendar-calendar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calendar.nolizi.com/mcp"
+    }
+  ],
+  "url": "https://calendar.nolizi.com/agents"
+}

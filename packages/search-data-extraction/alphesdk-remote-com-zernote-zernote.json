@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zernote",
+  "description": "User research workspace to transcribe interviews and turn conversations into insights.",
+  "packageName": "@alphesdk-remote/com-zernote-zernote",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zernote.com/mcp"
+    }
+  ],
+  "url": "https://zernote.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WhenIsBins",
+  "description": "UK household bin collection dates by address, council-sourced. Free anonymous use, with limits",
+  "packageName": "@alphesdk-remote/com-whenisbins-bin-collections",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whenisbins.com/mcp"
+    }
+  ],
+  "url": "https://whenisbins.com/v1/guide"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Advisors AI — Route a Store Need to a Service",
+  "description": "Describe a store's problem: get the matching service, its fixed price, and a request link.",
+  "packageName": "@alphesdk-remote/ai-advisorsai-service-navigator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://advisorsai.ai/mcp"
+    }
+  ],
+  "url": "https://advisorsai.ai"
+}

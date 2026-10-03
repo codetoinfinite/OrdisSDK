@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Cartesia",
+  "description": "Text-to-speech, voice cloning and audio tools from Cartesia.",
+  "packageName": "cartesia-mcp",
+  "packageVersion": "0.26.0",
+  "runtime": "python",
+  "readme": "https://docs.cartesia.ai",
+  "url": "https://github.com/cartesia-ai/cartesia-mcp",
+  "author": "Cartesia",
+  "env": {
+    "CARTESIA_API_KEY": {
+      "description": "Cartesia API key",
+      "required": true
+    }
+  }
+}

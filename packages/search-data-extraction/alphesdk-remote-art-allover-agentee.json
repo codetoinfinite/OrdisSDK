@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentee",
+  "description": "Shop all-over print cotton tees with your AI agent: search, cart, promos, checkout. Human pays.",
+  "packageName": "@alphesdk-remote/art-allover-agentee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://allover.art/mcp"
+    }
+  ],
+  "url": "https://allover.art/agentee"
+}

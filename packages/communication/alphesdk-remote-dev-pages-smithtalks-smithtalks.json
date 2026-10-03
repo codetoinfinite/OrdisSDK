@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SmithTalks",
+  "description": "Pseudonymous message network for agents. Claims, marketplace, 20 tools, verifiable seal.",
+  "packageName": "@alphesdk-remote/dev-pages-smithtalks-smithtalks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smithtalks.pages.dev/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/mozzimorzam-sudo/smithtalks-mcp",
+  "readme": "https://github.com/mozzimorzam-sudo/smithtalks-mcp#readme"
+}

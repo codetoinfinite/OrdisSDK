@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "World Time",
+  "description": "Current time in any IANA time zone, plus the full time-zone list. Via timeapi.io.",
+  "packageName": "@alphesdk-remote/com-invokera-world-time",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/r/world-time"
+    }
+  ],
+  "url": "https://invokera.com/mcp/world-time"
+}

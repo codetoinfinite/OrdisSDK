@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Appraisily",
+  "description": "Check past auction prices in ChatGPT, plus appraisal prep and sample reports.",
+  "packageName": "@alphesdk-remote/com-appraisily-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.appraisily.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Appraisily/appraisily-openai-mcp",
+  "readme": "https://github.com/Appraisily/appraisily-openai-mcp#readme"
+}

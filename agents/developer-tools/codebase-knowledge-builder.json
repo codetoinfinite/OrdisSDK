@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "codebase-knowledge-builder",
+  "name": "Codebase Knowledge Builder",
+  "description": "Agent that crawls a GitHub repository or local folder and writes a beginner-friendly tutorial explaining how the code works.",
+  "category": "developer-tools",
+  "tags": ["documentation", "tutorial-generator", "pocketflow", "onboarding"],
+  "repo": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+  "homepage": "https://the-pocket.github.io/PocketFlow-Tutorial-Codebase-Knowledge/",
+  "publisher": "The Pocket (Zachary Huang)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "The tool analyses an unfamiliar codebase, picks out its main abstractions and how they relate, and produces a multi-chapter tutorial. It helps new contributors get oriented. Output can be generated in other languages.",
+  "howItWorks": "A Pocket Flow workflow fetches the files, asks an LLM to identify core concepts and their relationships, orders them into chapters and writes each one. Include and exclude patterns and a size cap control what is read. The LLM call is isolated in one utility file, with Gemini as the default.",
+  "requirements": [
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Default LLM credential"
+    },
+    {
+      "name": "GITHUB_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "For private repositories or to avoid rate limits"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the script"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
+    "pip install -r requirements.txt"
+  ],
+  "run": [
+    "python main.py --repo https://github.com/username/repo --include \"*.py\" \"*.js\" --exclude \"tests/*\" --max-size 50000"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "Pocket Flow",
+  "models": "Gemini by default; other LLMs by editing the call utility",
+  "mcp": "none",
+  "github": {
+    "stars": 12685,
+    "license": "MIT",
+    "pushedAt": "2026-05-31",
+    "checkedAt": "2026-10-03"
+  }
+}

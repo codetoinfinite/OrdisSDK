@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "sounds",
+  "description": "Free CC0 sound effects for agents: ask by role (button-click, coin), sets, or search 4,600+.",
+  "packageName": "@alphesdk-remote/com-sfxmint-sounds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sfxmint.com/mcp"
+    }
+  ],
+  "url": "https://sfxmint.com/api/docs"
+}

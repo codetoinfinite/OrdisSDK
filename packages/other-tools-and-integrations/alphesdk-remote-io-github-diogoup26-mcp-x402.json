@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP x402 - Evidence-Backed Web Verification",
+  "description": "Evidence-backed x402 web verification for AI agents, with auditable decisions for every condition.",
+  "packageName": "@alphesdk-remote/io-github-diogoup26-mcp-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-x402-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Diogoup26/mcp-x402",
+  "readme": "https://github.com/Diogoup26/mcp-x402#readme"
+}

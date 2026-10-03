@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Viddler",
+  "description": "Official Viddler MCP: list videos, manage access control, pull proof-of-viewing analytics.",
+  "packageName": "@alphesdk-remote/com-viddler-viddler-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.viddler.com/mcp"
+    }
+  ],
+  "url": "https://viddler.com/for-agents"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "dm-drogerie-markt",
+  "description": "Real-time product data, semantic search and more from dm-drogerie markt, Europe's leading drugstore.",
+  "packageName": "@alphesdk-remote/de-dm-mcp-dm-drogerie-markt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dm.de/mcp"
+    }
+  ]
+}

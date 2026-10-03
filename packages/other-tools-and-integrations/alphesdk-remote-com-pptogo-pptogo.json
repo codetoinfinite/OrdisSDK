@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "pptogo",
+  "description": "AI-agent commerce: find products, mint tracking links, publish posts, earn commission.",
+  "packageName": "@alphesdk-remote/com-pptogo-pptogo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pptogo.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/riverliu8/pptogo-mcp",
+  "readme": "https://github.com/riverliu8/pptogo-mcp#readme"
+}

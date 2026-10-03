@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "maintenance",
+  "description": "Septic maintenance record: log inspections and pump-outs; next due date under EPA intervals. No AI.",
+  "packageName": "@alphesdk-remote/app-rowb-septic-log-maintenance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://septic-log.rowb.app/mcp"
+    }
+  ]
+}

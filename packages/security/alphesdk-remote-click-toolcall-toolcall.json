@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Toolcall",
+  "description": "30 pay-per-call APIs for AI agents: compliance, trade, safety, web, data. USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/click-toolcall-toolcall",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolcall.click/mcp"
+    }
+  ],
+  "url": "https://github.com/BeneIstvan/toolcall-mcp",
+  "readme": "https://github.com/BeneIstvan/toolcall-mcp#readme"
+}

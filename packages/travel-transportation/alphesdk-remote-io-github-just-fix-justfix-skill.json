@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JustFix Estimator",
+  "description": "Quote UK trades jobs from any AI agent. Price breakdown + tappable booking link.",
+  "packageName": "@alphesdk-remote/io-github-just-fix-justfix-skill",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://estimator-mcp.justfix.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Just-Fix/justfix-skill",
+  "readme": "https://github.com/Just-Fix/justfix-skill#readme"
+}

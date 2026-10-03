@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Option Desk",
+  "description": "Option analytics over the SYNTH sample or a permitted chain: Greeks, positioning, payoffs, plots.",
+  "packageName": "@alphesdk-remote/com-avidquant-optiondesk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://optiondesk.avidquant.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Iman/agent-driven-options-desk-and-skills",
+  "readme": "https://github.com/Iman/agent-driven-options-desk-and-skills#readme"
+}

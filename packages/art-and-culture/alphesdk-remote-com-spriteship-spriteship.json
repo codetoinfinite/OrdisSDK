@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "spriteship",
+  "description": "Build a game's 2D art layer with your agent: characters, animations, tilesets, levels, 5 engines.",
+  "packageName": "@alphesdk-remote/com-spriteship-spriteship",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spriteship.com/mcp"
+    }
+  ],
+  "url": "https://spriteship.com"
+}

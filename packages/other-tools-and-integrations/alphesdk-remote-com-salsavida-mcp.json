@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Salsa Vida",
+  "description": "Find Salsa and Bachata events and destination guides worldwide.",
+  "packageName": "@alphesdk-remote/com-salsavida-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.salsavida.com/mcp"
+    }
+  ],
+  "url": "https://www.salsavida.com/developers/mcp/"
+}

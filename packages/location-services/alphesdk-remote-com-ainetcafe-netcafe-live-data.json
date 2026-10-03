@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-live-data",
+  "description": "Live data: weather, air quality, FX, CN/HK/US stocks, IP geo, domain, SSL, China reachability.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-live-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/data?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

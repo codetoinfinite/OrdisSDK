@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AllRatesToday exchange rates (hosted)",
+  "description": "Live FX + official central-bank rates, 110+ sources. Hosted, keyless, nothing to install.",
+  "packageName": "@alphesdk-remote/com-allratestoday-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://allratestoday.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/AllRates-Today/mcp-server",
+  "readme": "https://github.com/AllRates-Today/mcp-server#readme"
+}

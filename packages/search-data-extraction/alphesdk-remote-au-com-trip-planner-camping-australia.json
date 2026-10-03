@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Camping Australia",
+  "description": "Search Australian campsites, caravan parks and free camps; weather, gear, road trips and booking.",
+  "packageName": "@alphesdk-remote/au-com-trip-planner-camping-australia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.trip-planner.com.au/api/mcp"
+    }
+  ],
+  "url": "https://campingaustralia.com.au"
+}

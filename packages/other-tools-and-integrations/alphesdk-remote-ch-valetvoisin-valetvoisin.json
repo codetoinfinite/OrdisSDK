@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "valetvoisin",
+  "description": "Swiss services marketplace. AI agents prepare mission drafts; a human always confirms and pays.",
+  "packageName": "@alphesdk-remote/ch-valetvoisin-valetvoisin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://valetvoisin.ch/mcp"
+    }
+  ],
+  "url": "https://valetvoisin.ch/agents-ia"
+}

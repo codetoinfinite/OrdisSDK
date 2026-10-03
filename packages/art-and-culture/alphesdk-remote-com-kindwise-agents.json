@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kindwise Identification",
+  "description": "Identify plants, crop diseases, insects, and mushrooms from photos. Free IP-limited trial.",
+  "packageName": "@alphesdk-remote/com-kindwise-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.kindwise.com/mcp"
+    }
+  ],
+  "url": "https://agents.kindwise.com"
+}

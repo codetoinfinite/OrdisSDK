@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Angel Numbers MCP Server by RoxyAPI",
+  "description": "Angel number meanings and repeating sequences like 111, 222, 333 for AI agents.",
+  "packageName": "@alphesdk-remote/com-roxyapi-angel-numbers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/angel-numbers"
+    }
+  ],
+  "url": "https://roxyapi.com/products/angel-numbers-api"
+}

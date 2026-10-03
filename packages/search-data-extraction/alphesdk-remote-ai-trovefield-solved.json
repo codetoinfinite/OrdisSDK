@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SOLVED — buy work already done",
+  "description": "Search and buy verified solved artifacts instead of recomputing them.",
+  "packageName": "@alphesdk-remote/ai-trovefield-solved",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.trovefield.ai/mcp"
+    }
+  ],
+  "url": "https://api.trovefield.ai"
+}

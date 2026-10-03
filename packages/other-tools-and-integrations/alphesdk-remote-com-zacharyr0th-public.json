@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ZacharyR0th",
+  "description": "Anonymous public tools for ZacharyR0th. See the published agent boundary before use.",
+  "packageName": "@alphesdk-remote/com-zacharyr0th-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zacharyr0th.com/mcp"
+    }
+  ]
+}

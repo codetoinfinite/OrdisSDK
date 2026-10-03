@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Coordinalo — Service Business Operations",
+  "description": "Scheduling, availability, clients, billing and CRM for appointment-based services.",
+  "packageName": "@alphesdk-remote/com-coordinalo-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coordinalo.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/danioni/coordinalo-mcp",
+  "readme": "https://github.com/danioni/coordinalo-mcp#readme"
+}

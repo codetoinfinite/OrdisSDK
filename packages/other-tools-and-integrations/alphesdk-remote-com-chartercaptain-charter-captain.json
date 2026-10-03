@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Charter Captain",
+  "description": "Discover Lake Michigan charter captains & boats, check availability, get quotes, and book.",
+  "packageName": "@alphesdk-remote/com-chartercaptain-charter-captain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.chartercaptain.com/mcp/mcp"
+    }
+  ],
+  "url": "https://www.chartercaptain.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mailvett: Email Validation API for AI Agents",
+  "description": "Mailvett: validate emails. MX, provider, disposable/role/free flags, typo fix, verdict.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-email-validate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mailvett.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

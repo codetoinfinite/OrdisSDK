@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "STEADYWRK Field Service Dispatch",
+  "description": "Field service dispatch: instant quotes, tracked work orders, public evals. steadywrk.app",
+  "packageName": "@alphesdk-remote/app-steadywrk-mcp-dispatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://steadywrk.app/api/mcp"
+    }
+  ],
+  "url": "https://steadywrk.app/developers/mcp"
+}

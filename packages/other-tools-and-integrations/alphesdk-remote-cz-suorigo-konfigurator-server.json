@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Suorigo Konfigurátor",
+  "description": "Potisk triček a textilu na míru (ČR) — katalog, ceny, příprava designu a objednávky.",
+  "packageName": "@alphesdk-remote/cz-suorigo-konfigurator-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://konfigurator.suorigo.cz/api/mcp"
+    }
+  ],
+  "url": "https://konfigurator.suorigo.cz"
+}

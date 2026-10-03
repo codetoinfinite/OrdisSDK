@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AOPX",
+  "description": "Selects between supported SEARCH providers for ECONOMY or CRITICAL mode.",
+  "packageName": "@alphesdk-remote/fr-aopx-aopx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aopx.fr/mcp/"
+    }
+  ],
+  "url": "https://aopx.fr"
+}

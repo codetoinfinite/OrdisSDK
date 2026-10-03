@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Boletín Claro",
+  "description": "Subvenciones, licitaciones y boletines oficiales de España y Europa para tu IA. Gratis, sin login.",
+  "packageName": "@alphesdk-remote/es-boletinclaro-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://boletinclaro.es/mcp"
+    }
+  ],
+  "url": "https://github.com/boletinclaro/mcp",
+  "readme": "https://github.com/boletinclaro/mcp#readme"
+}

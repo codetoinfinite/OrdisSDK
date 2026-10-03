@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ZenVault",
+  "description": "Wake-ups, webhook inboxes, TTL memory, watches and human approval for agents. Paid per call.",
+  "packageName": "@alphesdk-remote/eu-zenvault-zenvault",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.zenvault.eu/mcp"
+    }
+  ],
+  "url": "https://zenvault.eu"
+}

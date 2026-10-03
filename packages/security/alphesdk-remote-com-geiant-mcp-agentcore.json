@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-agentcore",
+  "description": "AI governance MCP server for EU AI Act compliance and jurisdiction verification",
+  "packageName": "@alphesdk-remote/com-geiant-mcp-agentcore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geiant-agentcore-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/GNS-Foundation/geiant",
+  "readme": "https://github.com/GNS-Foundation/geiant#readme"
+}

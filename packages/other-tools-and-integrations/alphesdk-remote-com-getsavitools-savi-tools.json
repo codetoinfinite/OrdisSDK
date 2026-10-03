@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "savi-tools",
+  "description": "Ask your AI assistant about your Savi Tools business: invoices, expenses, mileage, and more.",
+  "packageName": "@alphesdk-remote/com-getsavitools-savi-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getsavitools.com/api/mcp"
+    }
+  ],
+  "url": "https://getsavitools.com"
+}

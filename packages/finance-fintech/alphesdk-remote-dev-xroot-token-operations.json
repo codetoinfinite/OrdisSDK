@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "token-operations",
+  "description": "Read-only Solana and Robinhood Chain tools: wallet recovery, token safety, unlocks, upgrades, fees.",
+  "packageName": "@alphesdk-remote/dev-xroot-token-operations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.xroot.dev/mcp"
+    }
+  ],
+  "url": "https://app.xroot.dev"
+}

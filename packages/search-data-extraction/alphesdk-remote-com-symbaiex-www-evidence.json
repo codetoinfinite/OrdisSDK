@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SYMBaiEX Evidence MCP",
+  "description": "Authenticated public evidence search, verification, research jobs, exports, and webhooks.",
+  "packageName": "@alphesdk-remote/com-symbaiex-www-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.symbaiex.com/api/agent/mcp"
+    }
+  ],
+  "url": "https://www.symbaiex.com/developers"
+}

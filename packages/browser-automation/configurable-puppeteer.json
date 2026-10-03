@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "configurable-puppeteer",
+  "packageName": "github:afshawnlotfi/mcp-configurable-puppeteer#5fc983b18d70ca31e26619fddc626e2d7af46991",
   "description": "Enables browser automation through Puppeteer with configurable launch options for Chrome and Firefox, supporting web testing, data extraction, form filling, and interactive demonstrations",
   "url": "https://github.com/afshawnlotfi/mcp-configurable-puppeteer",
   "runtime": "node",

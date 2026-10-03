@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Market Intel MCP",
+  "description": "Live & historical FX rates and currency conversion for AI agents. No API keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-fx-currency-exchange-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://market.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/market-intel-mcp",
+  "readme": "https://github.com/datakoot/market-intel-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Retro Diffusion Pixel Art",
+  "description": "Generate authentic pixel art - sprites, animations, and tilesets - from any MCP client",
+  "packageName": "@alphesdk-remote/ai-retrodiffusion-pixel-art",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.retrodiffusion.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Retro-Diffusion/retro-diffusion-mcp",
+  "readme": "https://github.com/Retro-Diffusion/retro-diffusion-mcp#readme"
+}

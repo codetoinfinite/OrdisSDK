@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Just Publish",
+  "description": "Publish the website you built with AI to a live public URL, straight from chat, with no setup.",
+  "packageName": "@alphesdk-remote/ai-justpublish-just-publish",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.justpublish.ai/"
+    }
+  ],
+  "url": "https://github.com/just-done/just-publish-mcp",
+  "readme": "https://github.com/just-done/just-publish-mcp#readme"
+}

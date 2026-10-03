@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tech.eu Funding Explorer",
+  "description": "Search European tech funding rounds, companies, investors and exits — sourced, EUR-normalized.",
+  "packageName": "@alphesdk-remote/eu-tech-funding-funding-explorer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://funding.tech.eu/api/mcp"
+    }
+  ],
+  "url": "https://funding.tech.eu/for-ai"
+}

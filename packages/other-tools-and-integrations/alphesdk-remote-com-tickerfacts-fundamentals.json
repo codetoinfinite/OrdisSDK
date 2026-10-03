@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TickerFacts",
+  "description": "SEC EDGAR fundamentals as agent tools: look up or screen US public companies. Free, no key, CC0.",
+  "packageName": "@alphesdk-remote/com-tickerfacts-fundamentals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tickerfacts.com/mcp"
+    }
+  ],
+  "url": "https://tickerfacts.com/developers"
+}

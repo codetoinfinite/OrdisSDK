@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Answering Service Care",
+  "description": "Read-only facts about Answering Service Care: company info, services, pricing, site search.",
+  "packageName": "@alphesdk-remote/com-answeringservicecare-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://answeringservicecare.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Answering-Service-Care/agent-skills",
+  "readme": "https://github.com/Answering-Service-Care/agent-skills#readme"
+}

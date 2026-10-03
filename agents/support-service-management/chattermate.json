@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "chattermate",
+  "name": "ChatterMate",
+  "description": "AI customer-support agent with a website chat widget, knowledge-base answers and handoff to human agents.",
+  "category": "support-service-management",
+  "tags": ["customer-support", "chatbot", "handoff", "knowledge-base", "shopify"],
+  "repo": "https://github.com/chattermate/chattermate.chat",
+  "homepage": "https://chattermate.chat",
+  "docs": "https://docs.chattermate.chat",
+  "publisher": "ChatterMate",
+  "publisherType": "company",
+  "official": false,
+  "whatItDoes": "Answers customer questions around the clock from a company's own content and passes conversations to staff when it cannot help. It integrates with tools such as Shopify, Slack and Jira for support teams.",
+  "howItWorks": "A Python backend runs the agent against an indexed knowledge base and tracks conversations, while a web dashboard manages agents and human takeover. Self-hosting is handled by a deploy tool that generates and starts a Docker project. A separate CLI is also published.",
+  "requirements": [
+    {
+      "name": "Docker and Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "The deploy tool is an npm package that starts containers"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the selected model provider"
+    }
+  ],
+  "install": [
+    "npm install -g chattermate-deploy",
+    "chattermate-deploy init my-chattermate-project",
+    "cd my-chattermate-project"
+  ],
+  "run": ["chattermate-deploy start"],
+  "interfaces": ["web", "api", "cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, Mistral, xAI, DeepSeek, Groq",
+  "mcp": "none",
+  "github": {
+    "stars": 125,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "tabby",
+  "name": "Tabby",
+  "description": "Self-hosted AI coding assistant server offering code completion, chat and a codebase answer engine on your own hardware.",
+  "category": "coding-agents",
+  "tags": ["self-hosted", "code-completion", "chat", "gpu", "rust"],
+  "repo": "https://github.com/TabbyML/tabby",
+  "homepage": "https://www.tabbyml.com",
+  "docs": "https://tabby.tabbyml.com/docs/welcome/",
+  "publisher": "TabbyML",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Tabby gives teams an on-premises alternative to hosted coding assistants. It serves completions and chat to editor plugins and can answer questions grounded in connected repositories. Everything outside the enterprise directory is Apache-2.0.",
+  "howItWorks": "A single Rust server loads a completion model and a chat model and exposes them over an OpenAPI interface. Editor extensions call that server, and it can run on consumer-grade GPUs. No external database or cloud service is required.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The documented quick start runs the server as a container"
+    },
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": false,
+      "description": "The example command uses CUDA for model inference"
+    }
+  ],
+  "install": [],
+  "run": [
+    "docker run -it --gpus all -p 8080:8080 -v $HOME/.tabby:/data tabbyml/tabby serve --model StarCoder-1B --device cuda --chat-model Qwen2-1.5B-Instruct"
+  ],
+  "interfaces": ["api", "ide", "web"],
+  "language": "Rust",
+  "models": "Self-hosted open models such as StarCoder and Qwen",
+  "mcp": "none",
+  "github": {
+    "stars": 33888,
+    "pushedAt": "2026-06-30",
+    "checkedAt": "2026-10-03"
+  }
+}

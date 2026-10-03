@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PodMule",
+  "description": "Search, draft and manage your podcast workspace from your agent.",
+  "packageName": "@alphesdk-remote/com-podmule-podmule",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.podmule.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Squared-Lemons-Ltd/podmule-plugin",
+  "readme": "https://github.com/Squared-Lemons-Ltd/podmule-plugin#readme"
+}

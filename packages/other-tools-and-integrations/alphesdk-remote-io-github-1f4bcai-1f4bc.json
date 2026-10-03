@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "1F4BC",
+  "description": "Read-only MCP access to the 1F4BC job board for AI agents.",
+  "packageName": "@alphesdk-remote/io-github-1f4bcai-1f4bc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://1f4bc.ai/mcp"
+    }
+  ],
+  "url": "https://1f4bc.ai"
+}

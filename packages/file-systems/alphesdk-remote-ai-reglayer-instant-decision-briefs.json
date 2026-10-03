@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RegLayer Instant Decision Briefs",
+  "description": "Company-specific regulatory assessments for concrete business questions, as structured data or PDF.",
+  "packageName": "@alphesdk-remote/ai-reglayer-instant-decision-briefs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reglayer.ai/mcp"
+    }
+  ],
+  "url": "https://reglayer.ai/agents"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cancel My Sub",
+  "description": "How to cancel US and UK subscriptions, the last safe day to cancel, and what a card charge is.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-cancelmysub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/cancelmysub/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Anyone",
+  "description": "Talk to thousands of real people, or put two of them in a room and watch them argue.",
+  "packageName": "@alphesdk-remote/com-aianyone-ai-anyone",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aianyone.com/mcp"
+    }
+  ],
+  "url": "https://aianyone.com/mcp"
+}

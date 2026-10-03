@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "gyibb-mcp",
+  "description": "Cited product-review verdicts from real user voices — free remote MCP, no API key.",
+  "packageName": "@alphesdk-remote/io-github-patheras-gyibb-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gyibb.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Patheras/gyibb-mcp",
+  "readme": "https://github.com/Patheras/gyibb-mcp#readme"
+}

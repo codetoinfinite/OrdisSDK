@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eYKON Intelligence",
+  "description": "Live geopolitical intelligence feeds, plus eYKON's own scored and published forecast record.",
+  "packageName": "@alphesdk-remote/ai-eykon-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eykon.ai/api/mcp"
+    }
+  ],
+  "url": "https://eykon.ai/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Healthy Aging Atlas",
+  "description": "Evidence-ranked supplement data: search, compare, price history, goal recs. No API key.",
+  "packageName": "@alphesdk-remote/io-github-rustamismail-healthy-aging-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://healthyagingatlas.com/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/RustamIsmail/healthyagingatlas-mcp",
+  "readme": "https://github.com/RustamIsmail/healthyagingatlas-mcp#readme"
+}

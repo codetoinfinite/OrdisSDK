@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "openai-cs-agents-demo",
+  "name": "OpenAI Customer Service Agents Demo",
+  "description": "Airline customer-service demo with a multi-agent Python backend on the OpenAI Agents SDK and a Next.js chat UI.",
+  "category": "support-service-management",
+  "tags": ["customer-service", "multi-agent", "handoffs", "airline", "chat"],
+  "repo": "https://github.com/openai/openai-cs-agents-demo",
+  "publisher": "OpenAI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It simulates an airline support desk where specialised agents handle requests such as seat changes, flight status and cancellations, while the UI visualises routing between them. A reference for teams prototyping support agents.",
+  "howItWorks": "A FastAPI backend implements triage and specialist agents with handoffs, tools and guardrails using the Agents SDK. A Next.js frontend built on ChatKit shows the conversation alongside agent and guardrail events.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI API access"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "UI"
+    }
+  ],
+  "install": [
+    "cd python-backend",
+    "python -m venv .venv",
+    "source .venv/bin/activate",
+    "pip install -r requirements.txt",
+    "cd ui",
+    "npm install"
+  ],
+  "run": ["python -m uvicorn main:app --reload --port 8000", "npm run dev"],
+  "interfaces": ["web", "chat"],
+  "language": "Python",
+  "framework": "OpenAI Agents SDK",
+  "models": "OpenAI models",
+  "mcp": "none",
+  "github": {
+    "stars": 6580,
+    "license": "MIT",
+    "pushedAt": "2025-12-18",
+    "checkedAt": "2026-10-03"
+  }
+}

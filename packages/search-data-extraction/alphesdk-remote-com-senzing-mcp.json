@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Senzing",
+  "description": "Entity resolution — data mapping, SDK code generation, docs search, and error troubleshooting",
+  "packageName": "@alphesdk-remote/com-senzing-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.senzing.com/mcp"
+    }
+  ],
+  "url": "https://senzing.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Markdown Lane Check - llms.txt, .md twins, Accept: text/markdown",
+  "description": "Six checks: llms.txt, llms-full.txt, .md twins, Accept: text/markdown, sitemap.md, alt link. Free.",
+  "packageName": "@alphesdk-remote/dev-workers-pathwren-www-markdown-lane-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pathwren.workers.dev/c/mcp-registry-official/mcp/markdown"
+    }
+  ],
+  "url": "https://www.pathwren.workers.dev/c/mcp-registry-official/mcp-markdown.html"
+}

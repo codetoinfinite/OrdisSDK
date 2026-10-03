@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Avokata: Lithuanian law for your agent",
+  "description": "Lithuanian law MCP: statutes, court practice, citations. Keyless connect, no signup.",
+  "packageName": "@alphesdk-remote/com-avokata-avokata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.avokata.com/mcp"
+    }
+  ],
+  "url": "https://avokata.com"
+}

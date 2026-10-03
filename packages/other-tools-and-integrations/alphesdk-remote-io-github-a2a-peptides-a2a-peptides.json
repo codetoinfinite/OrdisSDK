@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "A2A Peptides",
+  "description": "Agent-to-Agent (A2A) + Model Context Protocol (MCP) hub for peptides.",
+  "packageName": "@alphesdk-remote/io-github-a2a-peptides-a2a-peptides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.a2a-peptides.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/A2A-Peptides/A2A-Peptides",
+  "readme": "https://github.com/A2A-Peptides/A2A-Peptides#readme"
+}

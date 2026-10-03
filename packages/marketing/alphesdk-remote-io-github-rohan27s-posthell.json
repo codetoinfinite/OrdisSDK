@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Posthell",
+  "description": "Social media scheduler for AI agents: draft posts into a human-approved queue for 15 networks.",
+  "packageName": "@alphesdk-remote/io-github-rohan27s-posthell",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.posthell.com/api/mcp"
+    }
+  ],
+  "url": "https://www.posthell.com/mcp"
+}

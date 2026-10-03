@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cloakcheck",
+  "description": "Scan a page for hidden prompt-injection payloads targeting AI agents.",
+  "packageName": "@alphesdk-remote/app-vercel-cloakcheck-wheat-cloakcheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cloakcheck-wheat.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://cloakcheck-wheat.vercel.app"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HelloBooks AI Agents MCP Server",
+  "description": "AI agents for bookkeeping, reconciliation, and financial close for SMBs.",
+  "packageName": "@alphesdk-remote/io-github-hellobooksaiagents-hellobooks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.hellobooks.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Meru-Fin-Tech/HelloBooks-MCP-Public",
+  "readme": "https://github.com/Meru-Fin-Tech/HelloBooks-MCP-Public#readme"
+}

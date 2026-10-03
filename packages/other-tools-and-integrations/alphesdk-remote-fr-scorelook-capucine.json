@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Capucine",
+  "description": "Capucine, styliste IA ScoreLook : looks sourcés, météo, hubs pièces, critères shopping.",
+  "packageName": "@alphesdk-remote/fr-scorelook-capucine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scorelook.fr/mcp"
+    }
+  ],
+  "url": "https://scorelook.fr/scorelook-mcp"
+}

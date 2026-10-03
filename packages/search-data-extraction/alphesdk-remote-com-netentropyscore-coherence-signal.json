@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "coherence-signal",
+  "description": "A brand's claim (website coherence) vs its reality (recent news), and the divergence.",
+  "packageName": "@alphesdk-remote/com-netentropyscore-coherence-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.netentropyscore.com/mcp"
+    }
+  ],
+  "url": "https://scanner.netentropyscore.com/mcp"
+}

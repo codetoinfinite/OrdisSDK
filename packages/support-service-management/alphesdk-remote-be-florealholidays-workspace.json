@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "workspace",
+  "description": "Floreal Holidays Belgium: live prices and availability; staff run M&E dossiers, day sheets, tasks.",
+  "packageName": "@alphesdk-remote/be-florealholidays-workspace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.florealholidays.be/mcp"
+    }
+  ],
+  "url": "https://github.com/devliegerwout/FlorealSystem",
+  "readme": "https://github.com/devliegerwout/FlorealSystem#readme"
+}

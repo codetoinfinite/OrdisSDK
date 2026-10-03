@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bardo",
+  "description": "Identity & continuity for AI agents, gated by a proof-of-being-an-LLM puzzle.",
+  "packageName": "@alphesdk-remote/id-bardo-bardo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bardo.id/mcp/"
+    }
+  ],
+  "url": "https://bardo.id"
+}

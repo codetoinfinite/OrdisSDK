@@ -1,0 +1,63 @@
+{
+  "type": "external-agent",
+  "key": "rd-agent",
+  "name": "RD-Agent",
+  "description": "Microsoft Research agent that automates data-driven R&D loops such as quant factor mining, model tuning and Kaggle-style tasks.",
+  "category": "data-science-tools",
+  "tags": ["research-automation", "quant", "kaggle", "mlops", "data-science"],
+  "repo": "https://github.com/microsoft/RD-Agent",
+  "docs": "https://rdagent.readthedocs.io/",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "RD-Agent proposes hypotheses, writes and runs experiment code, and learns from results across scenarios including quantitative finance, data science competitions and LLM fine-tuning. It is for researchers and ML engineers who want to automate iteration.",
+  "howItWorks": "A research component generates ideas and a development component implements and executes them, feeding outcomes back into the next round. Scenarios are launched from the rdagent CLI, code typically runs in Docker, and models are reached through LiteLLM.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Or another LiteLLM provider key such as AZURE_API_KEY or DEEPSEEK_API_KEY"
+    },
+    {
+      "name": "CHAT_MODEL",
+      "kind": "service",
+      "required": true,
+      "description": "Chat model name in .env"
+    },
+    {
+      "name": "EMBEDDING_MODEL",
+      "kind": "service",
+      "required": true,
+      "description": "Embedding model name in .env"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to run generated experiments"
+    },
+    {
+      "name": "Linux",
+      "kind": "runtime",
+      "required": true,
+      "description": "Officially supported platform"
+    }
+  ],
+  "install": [
+    "conda create -n rdagent python=3.10",
+    "conda activate rdagent",
+    "pip install rdagent"
+  ],
+  "run": ["rdagent health_check --no-check-env"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Any LiteLLM-supported provider (OpenAI, Azure, DeepSeek, ...)",
+  "mcp": "none",
+  "github": {
+    "stars": 14827,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Omelette Index",
+  "description": "Purchasing power via plain-omelette prices: country, region and city readings in EUR, worldwide.",
+  "packageName": "@alphesdk-remote/com-omeletteindex-omelette-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.omeletteindex.com/mcp"
+    }
+  ],
+  "url": "https://omeletteindex.com"
+}

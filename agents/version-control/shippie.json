@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "shippie",
+  "name": "Shippie",
+  "description": "Code review agent that reads a diff, explores the surrounding codebase with tools and posts comments on the pull request.",
+  "category": "version-control",
+  "tags": ["code-review", "ci", "agent-loop", "pull-requests", "mcp"],
+  "repo": "https://github.com/mattzcarey/shippie",
+  "homepage": "https://shippie.dev",
+  "publisher": "Matt Carey",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Shippie reviews changes like a human reviewer would, looking beyond the diff to see how the change fits the project. It is typically run in CI and writes its findings to the pull request. Developers can also run it locally.",
+  "howItWorks": "The reviewer is an agent loop built on the flue and Pi libraries. It has tools for reading files and searching the repository, and extra tools can be attached through MCP. Model credentials and the GitHub token are supplied as environment variables.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Model key; OPENAI_API_KEY or OPENROUTER_API_KEY can be used instead"
+    },
+    {
+      "name": "GITHUB_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed to post review comments in CI"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "The tool is run with npx"
+    }
+  ],
+  "install": ["npx shippie init"],
+  "run": ["npx shippie review"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "framework": "Pi",
+  "models": "Anthropic, OpenAI, OpenRouter, Cloudflare Workers AI",
+  "mcp": "client",
+  "github": {
+    "stars": 2502,
+    "license": "MIT",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Spatial India",
+  "description": "District-level open data for India — Census, NFHS-5, NCRB, RBI and more, joined onto one geography.",
+  "packageName": "@alphesdk-remote/com-spatialindia-spatial-india",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.spatialindia.com/mcp"
+    }
+  ],
+  "url": "https://spatialindia.com/api-platform"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wild Orange Charters Website MCP",
+  "description": "Search and read public Wild Orange Charters pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-wildorangecharters-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wildorangecharters.com/mcp"
+    }
+  ],
+  "url": "https://wildorangecharters.com/connect"
+}

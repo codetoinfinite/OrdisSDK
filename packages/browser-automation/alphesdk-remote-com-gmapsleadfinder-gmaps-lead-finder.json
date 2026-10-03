@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GMaps Lead Finder",
+  "description": "Scrape Google Maps business leads, reviews, and photos via hosted Remote MCP.",
+  "packageName": "@alphesdk-remote/com-gmapsleadfinder-gmaps-lead-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gmapsleadfinder.com/mcp"
+    }
+  ],
+  "url": "https://github.com/google-maps-lead-scraper/google-maps-scraper",
+  "readme": "https://github.com/google-maps-lead-scraper/google-maps-scraper#readme"
+}

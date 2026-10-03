@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Delvorn",
+  "description": "GET https://delvorn.site/api/x402/test-asset $0.05 Base. First independent=Certified+$0.05 back.",
+  "packageName": "@alphesdk-remote/io-github-mranderson323-delvorn",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://delvorn.site/api/mcp"
+    }
+  ],
+  "url": "https://telegra.ph/Delvorn-public-x402-GET-test-asset-08-28"
+}

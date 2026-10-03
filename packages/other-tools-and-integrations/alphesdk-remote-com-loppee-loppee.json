@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Loppee",
+  "description": "Agent-first US business trust registry with neutral Trust Cards and published evidence.",
+  "packageName": "@alphesdk-remote/com-loppee-loppee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://loppee.com/mcp/discovery"
+    }
+  ],
+  "url": "https://github.com/loppee-ai/loppee-mcp",
+  "readme": "https://github.com/loppee-ai/loppee-mcp#readme"
+}

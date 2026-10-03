@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentic-commerce",
+  "description": "MCP server for Boson Protocol — on-chain agentic commerce for physical & digital goods.",
+  "packageName": "@alphesdk-remote/io-bosonprotocol-agentic-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bosonprotocol.io/mcp"
+    }
+  ],
+  "url": "https://docs.bosonprotocol.io/mcp"
+}

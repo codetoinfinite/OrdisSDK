@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AlgoMaker — quantitative trading strategy factory",
+  "description": "Mine, validate and paper-trade quantitative trading strategies. The engine runs on your machine.",
+  "packageName": "@alphesdk-remote/com-algomakers-algomaker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://algomakers.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Fercama/algomaker-plugin",
+  "readme": "https://github.com/Fercama/algomaker-plugin#readme"
+}

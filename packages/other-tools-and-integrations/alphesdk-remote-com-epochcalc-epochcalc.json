@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Epoch Calculator",
+  "description": "Unix timestamps, DST-aware time zone conversion, durations, cron schedules, and holiday countdowns",
+  "packageName": "@alphesdk-remote/com-epochcalc-epochcalc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://epochcalc.com/mcp"
+    }
+  ],
+  "url": "https://epochcalc.com/api"
+}

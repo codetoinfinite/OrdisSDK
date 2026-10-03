@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lowtoxgear Scanner",
+  "description": "Australian ingredient scanner MCP — 21k+ AU products, 237 chemical rules, 17 condition tags.",
+  "packageName": "@alphesdk-remote/com-lowtoxgear-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-scan.lowtoxgear.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lowtoxgear/lowtoxgear-mcp",
+  "readme": "https://github.com/lowtoxgear/lowtoxgear-mcp#readme"
+}

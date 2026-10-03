@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Remoote Remote Jobs MCP",
+  "description": "Search remote jobs, compare salaries, create alerts, and request user-confirmed apply links.",
+  "packageName": "@alphesdk-remote/app-remoote-remote-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.remoote.app/remoote/agents/mcp"
+    }
+  ],
+  "url": "https://github.com/asmisha/remoote-mcp",
+  "readme": "https://github.com/asmisha/remoote-mcp#readme"
+}

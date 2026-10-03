@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "한국일보 뉴스 (Hankookilbo)",
+  "description": "Hankookilbo (Korean daily) news metadata: titles, dates, sections, bylines, links, and excerpts.",
+  "packageName": "@alphesdk-remote/com-hankookilbo-mcp-hankookilbo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hankookilbo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/hkilbo/hankookilbo-mcp",
+  "readme": "https://github.com/hkilbo/hankookilbo-mcp#readme"
+}

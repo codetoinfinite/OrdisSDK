@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Web Access Gateway",
+  "description": "Paid web, news, company, product, and geographic search plus clean page reading for agents.",
+  "packageName": "@alphesdk-remote/dev-workers-mattskowronis-web-access-gateway-web-access",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://web-access-gateway.mattskowronis.workers.dev/mcp"
+    }
+  ],
+  "url": "https://skowronworks.com/agent-tools/web-access-gateway/"
+}

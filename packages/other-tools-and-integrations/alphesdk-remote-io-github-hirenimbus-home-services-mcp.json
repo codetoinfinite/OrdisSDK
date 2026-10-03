@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HireNimbus home services MCP",
+  "description": "Find and book verified local home service professionals through AI agents.",
+  "packageName": "@alphesdk-remote/io-github-hirenimbus-home-services-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hirenimbus.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Hire-Nimbus/nimbus-mcp-server",
+  "readme": "https://github.com/Hire-Nimbus/nimbus-mcp-server#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402-payment-safety",
+  "description": "Authorize x402 payments before signing with request-bound, signed safety decisions.",
+  "packageName": "@alphesdk-remote/io-github-agenttanuki-x402-payment-safety",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-guild-5d5r.onrender.com/mcp/payment-safety/"
+    }
+  ],
+  "url": "https://github.com/AgentTanuki/agent-guild",
+  "readme": "https://github.com/AgentTanuki/agent-guild#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "solar-home-incentives",
+  "description": "Solar and home energy discovery: estimates, incentive sources, guides and contractor options.",
+  "packageName": "@alphesdk-remote/com-energyaisolution-solar-home-incentives",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.energyaisolution.com/mcp/solar"
+    }
+  ],
+  "url": "https://github.com/jdhart81/energyai-mcp",
+  "readme": "https://github.com/jdhart81/energyai-mcp#readme"
+}

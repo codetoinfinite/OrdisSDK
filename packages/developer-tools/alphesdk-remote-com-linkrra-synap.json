@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "synap",
+  "description": "Synap (pool.linkrra.com/v1), Linkrra's OpenAI-compatible LLM API, as an MCP server.",
+  "packageName": "@alphesdk-remote/com-linkrra-synap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pool.linkrra.com/mcp"
+    }
+  ],
+  "url": "https://pool.linkrra.com/ai"
+}

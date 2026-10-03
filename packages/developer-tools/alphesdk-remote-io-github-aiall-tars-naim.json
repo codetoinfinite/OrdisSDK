@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nAIm — API Registry for Agents",
+  "description": "316 AI APIs searchable by shared failure domain, freshness and agent-sourced ratings.",
+  "packageName": "@alphesdk-remote/io-github-aiall-tars-naim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.naim.janis7ewski.org/mcp"
+    }
+  ],
+  "url": "https://github.com/AIAll-TARS/nAIm",
+  "readme": "https://github.com/AIAll-TARS/nAIm#readme"
+}

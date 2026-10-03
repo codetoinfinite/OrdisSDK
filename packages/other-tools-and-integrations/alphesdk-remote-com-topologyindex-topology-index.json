@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Topology Index",
+  "description": "Reference for multi-agent LLM topologies: patterns, aliases, sources, starters; one gated report.",
+  "packageName": "@alphesdk-remote/com-topologyindex-topology-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://topologyindex.com/mcp"
+    }
+  ],
+  "url": "https://topologyindex.com/"
+}

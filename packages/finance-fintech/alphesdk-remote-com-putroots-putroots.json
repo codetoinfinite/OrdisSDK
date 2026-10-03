@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PutRoots",
+  "description": "SF move agent: rentals with sources, no-SSN banking routes, and your move plan and drafts.",
+  "packageName": "@alphesdk-remote/com-putroots-putroots",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.putroots.com/mcp"
+    }
+  ],
+  "url": "https://www.putroots.com/connect"
+}

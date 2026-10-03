@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Personalised developer security learning pathways from SecDim's challenges and courses.",
+  "packageName": "@alphesdk-remote/com-secdim-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.secdim.com/mcp"
+    }
+  ],
+  "url": "https://github.com/secdim/mcp",
+  "readme": "https://github.com/secdim/mcp#readme"
+}

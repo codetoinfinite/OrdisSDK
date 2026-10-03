@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RemoShift Remote Jobs",
+  "description": "Search live remote jobs worldwide. Job search, remote salary bands, work-from-anywhere eligibility.",
+  "packageName": "@alphesdk-remote/com-remoshift-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remoshift.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ming997hk/remoshift",
+  "readme": "https://github.com/ming997hk/remoshift#readme"
+}

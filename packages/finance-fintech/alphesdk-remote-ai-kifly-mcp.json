@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kifly — Agentic Commerce & Payments",
+  "description": "Multi-seller shopping for AI agents. Settle via Stripe MPP or x402 USDC on Base. Hosted.",
+  "packageName": "@alphesdk-remote/ai-kifly-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kifly.ai/api/mcp"
+    }
+  ],
+  "url": "https://kifly.ai"
+}

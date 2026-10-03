@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "hamir",
+  "description": "News search, article lookup, story coverage and save links for hamir's RSS catalogue",
+  "packageName": "@alphesdk-remote/app-hamir-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hamir.app/mcp"
+    }
+  ],
+  "url": "https://github.com/hamir-app/mcp",
+  "readme": "https://github.com/hamir-app/mcp#readme"
+}

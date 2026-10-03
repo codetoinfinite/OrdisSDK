@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AttractionTickets Products MCP",
+  "description": "Real-time attraction ticket availability, pricing engine, and theme park catalog.",
+  "packageName": "@alphesdk-remote/com-attractiontickets-mcp-products",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.attractiontickets.com/mcp"
+    }
+  ],
+  "url": "https://mcp.attractiontickets.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Reputation",
+  "description": "Complaint registry for paid agent transactions - check a seller before you pay, or file your own.",
+  "packageName": "@alphesdk-remote/io-github-samytouri-agent-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentreputation.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/SamyTouri/agent-hub",
+  "readme": "https://github.com/SamyTouri/agent-hub#readme"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "reasonix",
+  "name": "Reasonix",
+  "description": "Single-binary Go coding agent with terminal, desktop and browser front ends, plan mode, permissions, sandboxing and checkpoints.",
+  "category": "coding-agents",
+  "tags": ["terminal", "go", "deepseek", "sandbox", "checkpoints"],
+  "repo": "https://github.com/esengine/DeepSeek-Reasonix",
+  "publisher": "Huahui Yu (esengine)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Reasonix edits and runs code under the user's supervision, with the option to roll back to earlier checkpoints. It started around DeepSeek models and can be used from a terminal, a desktop app or a browser. Editors can also embed it as an agent.",
+  "howItWorks": "One Go binary contains the agent loop, a permission system and a sandbox for commands. Settings live in a TOML file created by a setup command, and tool servers are added as plugins. It can run interactively or execute a single task from the command line.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured during setup"
+    }
+  ],
+  "install": ["npm i -g reasonix"],
+  "run": ["reasonix setup", "reasonix", "reasonix run \"implement the TODOs in main.go\""],
+  "interfaces": ["cli", "desktop", "web"],
+  "language": "Go",
+  "models": "DeepSeek and other configured providers",
+  "mcp": "client",
+  "github": {
+    "stars": 35732,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

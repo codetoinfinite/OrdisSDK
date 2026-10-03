@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Strasmore market data",
+  "description": "US stocks and options data via SQL: bars, ticks, greeks, fundamentals, filings. No key.",
+  "packageName": "@alphesdk-remote/com-strasmore-ai-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.strasmore.com/mcp"
+    }
+  ],
+  "url": "https://www.strasmore.com/#connect"
+}

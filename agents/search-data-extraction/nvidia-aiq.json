@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "nvidia-aiq",
+  "name": "NVIDIA AI-Q Blueprint",
+  "description": "NVIDIA's deep-research agent blueprint that searches the web and enterprise knowledge sources to write cited reports.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "blueprint", "rag", "enterprise", "nim"],
+  "repo": "https://github.com/NVIDIA-AI-Blueprints/aiq",
+  "publisher": "NVIDIA",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "AI-Q answers quick questions or runs longer research jobs over web search providers, paper search and private document collections. It is a reference for enterprises building research assistants on NVIDIA models.",
+  "howItWorks": "Built on the NeMo Agent Toolkit, it routes a query to a shallow or deep researcher, with pluggable data-source packages and CLI, API and web frontends. It can be run from a virtual environment or with Docker Compose.",
+  "requirements": [
+    {
+      "name": "NVIDIA_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "NVIDIA-hosted model access"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Web search source"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.13 environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/NVIDIA-AI-Blueprints/aiq.git && cd aiq",
+    "./scripts/setup.sh",
+    "cp deploy/.env.example deploy/.env"
+  ],
+  "run": ["./scripts/start_cli.sh", "./scripts/start_e2e.sh"],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Python",
+  "framework": "NVIDIA NeMo Agent Toolkit",
+  "models": "NVIDIA NIM models; OpenAI optional",
+  "mcp": "both",
+  "github": {
+    "stars": 881,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "chatgpt",
+  "description": "Medigami patient tools: rates, markups, denial codes, deadlines, overturn rates, procedure codes",
+  "packageName": "@alphesdk-remote/com-medigami-chatgpt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.medigami.com/chatgpt/mcp"
+    }
+  ],
+  "url": "https://medigami.com/mcp"
+}

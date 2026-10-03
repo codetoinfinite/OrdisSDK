@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Economy Intel MCP",
+  "description": "Macro data for AI agents: GDP, inflation, unemployment and more (World Bank, US BLS). No keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-economy-gdp-inflation-unemployment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://economy.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/economy-intel-mcp",
+  "readme": "https://github.com/datakoot/economy-intel-mcp#readme"
+}

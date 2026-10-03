@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "YouTube Transcript + YouTube Search MCP",
+  "description": "YouTube transcripts, search, channel browsing, and playlists for AI agents via MCP.",
+  "packageName": "@alphesdk-remote/com-getyoutubetranscript-youtube-transcript-and-youtube-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getyoutubetranscript.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/tubeagentkit/youtube-mcp",
+  "readme": "https://github.com/tubeagentkit/youtube-mcp#readme"
+}

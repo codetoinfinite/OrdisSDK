@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "claude",
+  "description": "Validate ClaudeBot and Claude-SearchBot IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-claude",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://claude.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/claude/"
+}

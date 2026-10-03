@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Emotion Dictionary",
+  "description": "The Emotion Dictionary's 402 emotions: define a word, resolve a feeling, body maps. CC BY 4.0.",
+  "packageName": "@alphesdk-remote/io-github-gaetangermain-emotion-dictionary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.emotioninside.org/mcp"
+    }
+  ],
+  "url": "https://emotioninside.org/mcp/"
+}

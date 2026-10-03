@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Smolabot",
+  "description": "Deterministic decision guardrail for AI agents and bots. Verifies pre-trade economics (long-only).",
+  "packageName": "@alphesdk-remote/com-arison8-smolabot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smolabot.arison8.com/mcp"
+    }
+  ],
+  "url": "https://smolabot.arison8.com"
+}

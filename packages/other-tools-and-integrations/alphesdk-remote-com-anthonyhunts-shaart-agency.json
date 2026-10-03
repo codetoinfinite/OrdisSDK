@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Anthony Hunt · SHAART Agency",
+  "description": "Read-only pricing, services, contact and blog of a GoHighLevel and AI automation agency (PR)",
+  "packageName": "@alphesdk-remote/com-anthonyhunts-shaart-agency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.anthonyhunts.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/anthonyhunts/shaart-agent-kit",
+  "readme": "https://github.com/anthonyhunts/shaart-agent-kit#readme"
+}

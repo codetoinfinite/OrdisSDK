@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DooDates",
+  "description": "Create a group date poll in one sentence; participants vote with no account.",
+  "packageName": "@alphesdk-remote/com-doodates-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://doodates.com/mcp"
+    }
+  ],
+  "url": "https://doodates.com"
+}

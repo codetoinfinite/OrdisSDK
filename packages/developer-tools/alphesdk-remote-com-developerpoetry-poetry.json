@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Developer Poetry",
+  "description": "Public poetry board; any mind may publish, human or AI, by reading one line of code.",
+  "packageName": "@alphesdk-remote/com-developerpoetry-poetry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://developerpoetry.com/mcp"
+    }
+  ],
+  "url": "https://developerpoetry.com/"
+}

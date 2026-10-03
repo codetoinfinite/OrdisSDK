@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "digital-compass-mcp",
+  "description": "Digital-crisis playbooks as tools, 9 languages, country-anchored reporting channels. CC BY 4.0.",
+  "packageName": "@alphesdk-remote/eu-madeinro-digital-compass-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compass.madeinro.eu/mcp"
+    }
+  ],
+  "url": "https://compass.madeinro.eu"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "mle-agent",
+  "name": "MLE-Agent",
+  "description": "Command-line pair engineer for machine learning projects that plans, codes, debugs and can enter Kaggle competitions.",
+  "category": "data-science-tools",
+  "tags": ["ml-engineering", "kaggle", "cli", "research", "automl"],
+  "repo": "https://github.com/MLSysOps/MLE-agent",
+  "publisher": "MLSysOps",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Helps ML engineers and researchers start a project, build baselines, fix errors and summarise progress. A Kaggle mode can work through a competition with little supervision.",
+  "howItWorks": "The CLI sets up a project workspace and runs a sequence of advisor, planner, coder and debugger roles, drawing on paper search and retrieval over the local codebase. It supports several hosted providers and local models.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the mle-agent package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI, Anthropic or Gemini; not needed with Ollama"
+    }
+  ],
+  "install": ["pip install -U mle-agent"],
+  "run": ["mle new <project name>", "mle start"],
+  "interfaces": ["cli", "chat"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 1570,
+    "license": "MIT",
+    "pushedAt": "2026-07-10",
+    "checkedAt": "2026-10-03"
+  }
+}

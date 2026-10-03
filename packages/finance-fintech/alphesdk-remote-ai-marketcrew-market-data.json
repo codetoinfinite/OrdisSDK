@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "market-data",
+  "description": "Live market data & technical analysis for US stocks, ETFs and crypto. Read-only, no signup.",
+  "packageName": "@alphesdk-remote/ai-marketcrew-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketcrew.ai/mcp"
+    }
+  ],
+  "url": "https://marketcrew.ai"
+}

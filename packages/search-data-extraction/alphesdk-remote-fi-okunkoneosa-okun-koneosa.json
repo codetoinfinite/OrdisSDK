@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "okun-koneosa",
+  "description": "Finnish industrial supplies store. Read-only MCP: catalog search, product details, cart, policies.",
+  "packageName": "@alphesdk-remote/fi-okunkoneosa-okun-koneosa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://okunkoneosa.fi/mcp"
+    }
+  ],
+  "url": "https://okunkoneosa.fi/sivu/ai-agentit"
+}

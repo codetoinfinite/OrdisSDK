@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Credit GPS — Canadian credit",
+  "description": "Canadian credit: statement-cycle and utilization math, plus bureau and reporting reference data.",
+  "packageName": "@alphesdk-remote/ca-creditgps-canadian-credit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.creditgps.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/creditgps/CreditGPS",
+  "readme": "https://github.com/creditgps/CreditGPS#readme"
+}

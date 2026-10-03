@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "2ds · Visibilidad en IA",
+  "description": "Comprueba si una web está preparada para asistentes de IA y qué arreglar; servicios de 2ds.",
+  "packageName": "@alphesdk-remote/dev-2ds-2ds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.2ds.dev/mcp/2ds"
+    }
+  ],
+  "url": "https://www.2ds.dev/conector"
+}

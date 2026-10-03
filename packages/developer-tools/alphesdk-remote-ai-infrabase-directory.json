@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Infrabase",
+  "description": "Hand-verified AI infrastructure directory: tools, alternatives, EU providers, LLM API prices.",
+  "packageName": "@alphesdk-remote/ai-infrabase-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://infrabase.ai/mcp"
+    }
+  ],
+  "url": "https://infrabase.ai/mcp"
+}

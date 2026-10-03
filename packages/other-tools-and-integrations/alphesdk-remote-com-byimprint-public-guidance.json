@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "byImprint Public Guidance",
+  "description": "Read-only byImprint service guidance and canonical public site routes.",
+  "packageName": "@alphesdk-remote/com-byimprint-public-guidance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://byimprint.com/.well-known/mcp"
+    }
+  ],
+  "url": "https://byimprint.com/developers"
+}

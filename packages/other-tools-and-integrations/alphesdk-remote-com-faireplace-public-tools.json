@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "public-tools",
+  "description": "French rental tools: create & e-sign a lease, rent control, IRL, deposit, receipts (France).",
+  "packageName": "@alphesdk-remote/com-faireplace-public-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.faireplace.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ykarmouta/faireplace-public-mcp",
+  "readme": "https://github.com/ykarmouta/faireplace-public-mcp#readme"
+}

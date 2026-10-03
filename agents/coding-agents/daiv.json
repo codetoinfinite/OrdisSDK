@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "daiv",
+  "name": "DAIV",
+  "description": "Self-hosted software engineering agents for GitLab and GitHub that turn issues into merge requests, assist on reviews and fix CI.",
+  "category": "coding-agents",
+  "tags": ["gitlab", "github", "self-hosted", "webhooks", "ci-fix"],
+  "repo": "https://github.com/srtab/daiv",
+  "homepage": "https://daivagent.com",
+  "docs": "https://srtab.github.io/daiv/",
+  "publisher": "Sandro Rodrigues (srtab)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "DAIV plugs into a team's git platform and reacts to issues, review comments and failing pipelines. It plans and implements changes as merge requests and responds to slash commands. It is meant for teams that want this automation on their own infrastructure.",
+  "howItWorks": "Webhooks from the git platform enqueue jobs that workers process with LLM agents. The stack runs with Docker Compose and includes a database, Redis, workers, a scheduler and a dashboard. It exposes an MCP endpoint and a jobs API, and can itself use custom MCP servers.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The stack is started with Docker Compose"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "At least one provider key placed in the secrets env file"
+    },
+    {
+      "name": "GitLab or GitHub",
+      "kind": "account",
+      "required": true,
+      "description": "Platform the agent connects to"
+    }
+  ],
+  "install": ["git clone https://github.com/srtab/daiv.git && cd daiv", "make setup"],
+  "run": ["docker compose up --build"],
+  "interfaces": ["web", "api", "chat"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Configurable LLM providers",
+  "mcp": "both",
+  "github": {
+    "stars": 24,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

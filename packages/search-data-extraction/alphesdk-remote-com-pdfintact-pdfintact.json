@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pdfintact",
+  "description": "Extract tables, text and formulas from PDFs, including scanned pages and broken text layers.",
+  "packageName": "@alphesdk-remote/com-pdfintact-pdfintact",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pdfintact.com/mcp"
+    }
+  ],
+  "url": "https://en.pdfintact.com/mcp-server/"
+}

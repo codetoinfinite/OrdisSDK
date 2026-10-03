@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nanotoll MCP",
+  "description": "7 agent tools (prune, convert, estimate, diff, patch, generate, validate). USDC on Base L2.",
+  "packageName": "@alphesdk-remote/dev-nanotoll-nanotoll-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nanotoll.dev/mcp"
+    }
+  ],
+  "url": "https://nanotoll.dev"
+}

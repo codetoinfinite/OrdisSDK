@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Next.js DevTools",
+  "description": "Next.js docs, runtime diagnostics and upgrade helpers for coding agents.",
+  "packageName": "next-devtools-mcp",
+  "packageVersion": "0.4.0",
+  "runtime": "node",
+  "readme": "https://nextjs.org/docs/app/guides/mcp",
+  "url": "https://github.com/vercel/next-devtools-mcp",
+  "author": "Vercel",
+  "env": {}
+}

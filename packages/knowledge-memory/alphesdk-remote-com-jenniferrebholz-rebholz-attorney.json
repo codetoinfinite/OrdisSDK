@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jennifer Rebholz, Attorney - Knowledge Base",
+  "description": "Authoritative information about Jennifer Rebholz, Arizona personal injury attorney and trial lawyer.",
+  "packageName": "@alphesdk-remote/com-jenniferrebholz-rebholz-attorney",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jenniferrebholz.com/mcp"
+    }
+  ],
+  "url": "https://jenniferrebholz.com/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub CableCert",
+  "description": "Independent owner-side QA for structured-cabling certification closeout evidence.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-cablecert-qa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cablecert.regevidencehub.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/cablecert-qa",
+  "readme": "https://github.com/ChanghuLiu/cablecert-qa#readme"
+}

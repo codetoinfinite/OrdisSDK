@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cortex",
+  "description": "Patent-pending semantic memory for AI agents: quality-gated writes, conflict tracking. Free trial.",
+  "packageName": "@alphesdk-remote/io-github-filippopilo-cortex",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skynetlab-cortex-saas-mcp.cortex-320.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/FilippoPilo/cortex-connector",
+  "readme": "https://github.com/FilippoPilo/cortex-connector#readme"
+}

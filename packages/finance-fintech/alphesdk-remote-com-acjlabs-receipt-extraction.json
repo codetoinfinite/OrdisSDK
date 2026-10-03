@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Receipt Extraction",
+  "description": "AU GST/ABN receipt extraction — assigns entertainment/ITC tax codes per line, not just OCR.",
+  "packageName": "@alphesdk-remote/com-acjlabs-receipt-extraction",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://receipt-extraction.acjlabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/acjlabs/receipt-extraction",
+  "readme": "https://github.com/acjlabs/receipt-extraction#readme"
+}

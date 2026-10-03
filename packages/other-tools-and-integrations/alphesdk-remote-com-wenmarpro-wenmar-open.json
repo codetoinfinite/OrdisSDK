@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wenmar Open",
+  "description": "Free VIN decoder and vehicle catalog from NHTSA vPIC data. Read-only, no key.",
+  "packageName": "@alphesdk-remote/com-wenmarpro-wenmar-open",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://open.wenmarpro.com/mcp"
+    }
+  ],
+  "url": "https://open.wenmarpro.com"
+}

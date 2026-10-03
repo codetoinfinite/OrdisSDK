@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Library",
+  "description": "Search and discover 25,000+ MCP servers across all major registries. Connect and pay autonomously.",
+  "packageName": "@alphesdk-remote/io-github-spacemandomains-library-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://librarymcp.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Spacemandomains/Library",
+  "readme": "https://github.com/Spacemandomains/Library#readme"
+}

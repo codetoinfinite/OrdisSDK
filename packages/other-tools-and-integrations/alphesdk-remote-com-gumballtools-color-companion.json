@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Color Companion",
+  "description": "Convert colours between hex, RGB, HSL, OKLCH and CMYK, and compute harmonies.",
+  "packageName": "@alphesdk-remote/com-gumballtools-color-companion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://color-companion.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

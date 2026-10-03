@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "acuris-mcp",
+  "description": "Address validation & geocoding for AI agents: 240+ countries, UK PAF, free US/CA enrichment",
+  "packageName": "@alphesdk-remote/com-acuris-geo-acuris-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.acuris-geo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Acuris-GmbH/acuris-mcp",
+  "readme": "https://github.com/Acuris-GmbH/acuris-mcp#readme"
+}

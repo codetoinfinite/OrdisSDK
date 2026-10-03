@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agency Growth AI Agents",
+  "description": "AI agents that run a marketing agency. Needs a per-agency key; open concierge at /api/a2a.",
+  "packageName": "@alphesdk-remote/com-agencygrowth-agencygrowth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agencygrowth.com/api/mcp"
+    }
+  ],
+  "url": "https://agencygrowth.com"
+}

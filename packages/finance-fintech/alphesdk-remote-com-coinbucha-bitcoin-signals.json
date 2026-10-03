@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "bitcoin-signals",
+  "description": "Leading non-price Bitcoin signals over MCP: sovereign, hiring, hashrate. Not financial advice.",
+  "packageName": "@alphesdk-remote/com-coinbucha-bitcoin-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coinbucha.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/jukkablomberg/coinbucha-mcp",
+  "readme": "https://github.com/jukkablomberg/coinbucha-mcp#readme"
+}

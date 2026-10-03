@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ElkassabgiData",
+  "description": "A growing family of free academic data libraries: finance, economics, and beyond (ElkassabgiData).",
+  "packageName": "@alphesdk-remote/com-elkassabgidata-elkassabgidata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elkassabgidata-mcp.elkassabgi.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/elkassabgi/hfdatalibrary",
+  "readme": "https://github.com/elkassabgi/hfdatalibrary#readme"
+}

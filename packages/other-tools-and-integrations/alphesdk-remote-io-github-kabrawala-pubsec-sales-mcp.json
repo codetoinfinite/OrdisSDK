@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PubSec Radar",
+  "description": "Federal sales intelligence: expiring-contract triggers, agency spend intel, deal qualification.",
+  "packageName": "@alphesdk-remote/io-github-kabrawala-pubsec-sales-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pubsec-sales-mcp.kabrawala.workers.dev/mcp"
+    }
+  ],
+  "url": "https://pubsec-sales-mcp.kabrawala.workers.dev/"
+}

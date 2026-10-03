@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "KIKARET",
+  "description": "Structured Japanese childcare facility data with source-backed facts for AI.",
+  "packageName": "@alphesdk-remote/ai-kikaret-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kikaret.ai/mcp"
+    }
+  ]
+}

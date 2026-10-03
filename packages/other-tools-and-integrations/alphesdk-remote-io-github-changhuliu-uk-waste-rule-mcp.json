@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub Waste",
+  "description": "RegEvidenceHub Waste: England waste registration, DWT readiness and permit-change preflight.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-uk-waste-rule-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://waste.regevidencehub.com/ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/uk-waste-rule-mcp",
+  "readme": "https://github.com/ChanghuLiu/uk-waste-rule-mcp#readme"
+}

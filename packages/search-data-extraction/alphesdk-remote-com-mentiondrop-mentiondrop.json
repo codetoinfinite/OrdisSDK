@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mentiondrop",
+  "description": "AI-triaged brand, competitor and demand mentions from Reddit, Google News and search.",
+  "packageName": "@alphesdk-remote/com-mentiondrop-mentiondrop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mentiondrop.com/api/mcp"
+    }
+  ],
+  "url": "https://www.mentiondrop.com"
+}

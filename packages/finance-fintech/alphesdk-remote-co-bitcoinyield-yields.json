@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BitcoinYield",
+  "description": "Live crypto yields for BTC, stablecoins and ETH across DeFi and CeFi, with A-D risk grades.",
+  "packageName": "@alphesdk-remote/co-bitcoinyield-yields",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bitcoinyield.co/api/mcp"
+    }
+  ],
+  "url": "https://bitcoinyield.co"
+}

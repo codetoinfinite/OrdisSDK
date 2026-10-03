@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Boundary Guard x402",
+  "description": "MCP tools for x402 readiness, paid-path probes, launch packs, and trust receipts.",
+  "packageName": "@alphesdk-remote/io-github-larrylemonbot-boundary-guard-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-resource-scanner.vercel.app/mcp"
+    }
+  ],
+  "url": "https://x402-resource-scanner.vercel.app"
+}

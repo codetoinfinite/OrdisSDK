@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fly Travel Albania",
+  "description": "Cached charter package, hotel facts and tour prices from Fly Travel Albania (Tirana); party-aware.",
+  "packageName": "@alphesdk-remote/al-flytravel-travel-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flytravel.al/mcp"
+    }
+  ],
+  "url": "https://flytravel.al/per-ai"
+}

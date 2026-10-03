@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "public",
+  "description": "Business ideas from real public demand, scored with dated evidence. No account needed.",
+  "packageName": "@alphesdk-remote/ai-colaunched-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.colaunched.ai/public"
+    }
+  ],
+  "url": "https://colaunched.ai/faq#assistant-public"
+}

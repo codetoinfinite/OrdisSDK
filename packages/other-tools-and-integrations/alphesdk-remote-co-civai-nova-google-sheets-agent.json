@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Google Sheets Agent by Nova (CIVAI)",
+  "description": "I do everything related to Google Sheets",
+  "packageName": "@alphesdk-remote/co-civai-nova-google-sheets-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/google-sheets-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/google-sheets-agent"
+}

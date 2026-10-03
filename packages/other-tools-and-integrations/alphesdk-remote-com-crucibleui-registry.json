@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "registry",
+  "description": "Browse and install Crucible's animated React components into shadcn-style projects.",
+  "packageName": "@alphesdk-remote/com-crucibleui-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crucibleui.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/schreyerpeter/crucible",
+  "readme": "https://github.com/schreyerpeter/crucible#readme"
+}

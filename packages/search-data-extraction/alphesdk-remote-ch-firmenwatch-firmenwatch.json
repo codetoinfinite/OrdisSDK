@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Firmenwatch — Swiss Company Register",
+  "description": "Search and verify Swiss companies, UID status and register changes with dated official sources.",
+  "packageName": "@alphesdk-remote/ch-firmenwatch-firmenwatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://firmenwatch.ch/api/mcp"
+    }
+  ],
+  "url": "https://firmenwatch.ch/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Veto — SQL Safety & Cost Oracle",
+  "description": "Deterministic safety, correctness & cost gate that vets Postgres SQL before your AI agent runs it.",
+  "packageName": "@alphesdk-remote/com-vetosql-veto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vetosql.com/mcp"
+    }
+  ],
+  "url": "https://github.com/metaweardigital/veto-mcp",
+  "readme": "https://github.com/metaweardigital/veto-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Wheel Atlas",
+  "description": "Open bicycle wheelset database: specs, weights, rim depths, UCI approval, prices in USD/EUR/GBP/AUD.",
+  "packageName": "@alphesdk-remote/com-thewheelatlas-wheel-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thewheelatlas.com/mcp"
+    }
+  ],
+  "url": "https://thewheelatlas.com"
+}

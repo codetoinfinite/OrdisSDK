@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vigil — an outside witness for AI agents",
+  "description": "Agent leases, signed receipts, watchdogs, and optional paid source-verification evidence.",
+  "packageName": "@alphesdk-remote/com-vigilnotary-vigil",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vigilnotary.com/mcp"
+    }
+  ],
+  "url": "https://vigilnotary.com"
+}

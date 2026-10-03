@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gondola Award Travel Search",
+  "description": "Compare cash vs points on hotels, flights, and cars. Checkout supported hotels and rental cars.",
+  "packageName": "@alphesdk-remote/ai-gondola-gondola",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gondola.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/gondola-ai/gondola-mcp",
+  "readme": "https://github.com/gondola-ai/gondola-mcp#readme"
+}

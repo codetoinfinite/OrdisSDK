@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TrendFlow",
+  "description": "Google Trends data: interest over time, by region, related queries, and trending now.",
+  "packageName": "@alphesdk-remote/dev-mory-trendflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trendflow.mory.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/dariomory/trendflow-js",
+  "readme": "https://github.com/dariomory/trendflow-js#readme"
+}

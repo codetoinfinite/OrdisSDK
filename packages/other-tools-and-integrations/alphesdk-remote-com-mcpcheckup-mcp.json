@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Checkup",
+  "description": "Observed facts on public MCP servers: protocol checks, tool changes, signed evidence. No verdicts.",
+  "packageName": "@alphesdk-remote/com-mcpcheckup-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpcheckup.com/mcp"
+    }
+  ],
+  "url": "https://mcpcheckup.com"
+}

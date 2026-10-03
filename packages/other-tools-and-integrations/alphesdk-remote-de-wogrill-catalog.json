@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wogrill.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Grills – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wogrill-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wogrill.de/api/mcp"
+    }
+  ],
+  "url": "https://wogrill.de"
+}

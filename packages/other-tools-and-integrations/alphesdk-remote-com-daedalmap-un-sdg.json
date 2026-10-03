@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap UN Sustainable Development Goals",
+  "description": "UN Sustainable Development Goal indicators for all 17 goals, curated by country and year. Free.",
+  "packageName": "@alphesdk-remote/com-daedalmap-un-sdg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/un_sdg"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

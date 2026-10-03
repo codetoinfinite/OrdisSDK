@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SceneF — California, Florida and Hawaii Movie Showtimes",
+  "description": "56 California, Florida and Hawaii movie boards: chains, indies, repertory. Verified daily. Free.",
+  "packageName": "@alphesdk-remote/com-scenef-showtimes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scenef.com/mcp"
+    }
+  ],
+  "url": "https://scenef.com/agents"
+}

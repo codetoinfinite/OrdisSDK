@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NestingCalc Calculators",
+  "description": "37 cutting and woodworking calculators: cut lists, sheet nesting, timber volume, kiln drying",
+  "packageName": "@alphesdk-remote/com-nestingcalc-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nestingcalc.com/mcp"
+    }
+  ],
+  "url": "https://nestingcalc.com/"
+}

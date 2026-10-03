@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NL Ledger",
+  "description": "NL provincial and federal spending records, each with its source. Addresses do not locate work.",
+  "packageName": "@alphesdk-remote/ca-nlledger-nl-ledger",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nlledger.ca/mcp"
+    }
+  ],
+  "url": "https://nlledger.ca/data/"
+}

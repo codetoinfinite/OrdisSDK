@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GitDiagram",
+  "description": "Architecture diagrams, explanations and Mermaid source for public GitHub repositories.",
+  "packageName": "@alphesdk-remote/com-gitdiagram-gitdiagram",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gitdiagram.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+  "readme": "https://github.com/ahmedkhaleel2004/gitdiagram#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vendooly",
+  "description": "Amazon Seller Central, Ads and Vendor Central in ChatGPT & Claude. 100+ tools; writes need approval.",
+  "packageName": "@alphesdk-remote/com-vendooly-vendooly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vendooly.com/mcp"
+    }
+  ],
+  "url": "https://vendooly.com"
+}

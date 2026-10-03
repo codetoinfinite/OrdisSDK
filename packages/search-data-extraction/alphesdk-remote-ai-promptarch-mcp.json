@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Research-backed linting + generation for agent context files (CLAUDE.md, AGENTS.md, Cursor rules).",
+  "packageName": "@alphesdk-remote/ai-promptarch-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.promptarch.ai/mcp"
+    }
+  ],
+  "url": "https://promptarch.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hotelumo Hotel Operations",
+  "description": "See your hotel's room availability, rates, housekeeping and upcoming arrivals and departures.",
+  "packageName": "@alphesdk-remote/com-hotelumo-hotelumo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hotelumo.com/mcp"
+    }
+  ],
+  "url": "https://www.hotelumo.com/developers/#mcp"
+}

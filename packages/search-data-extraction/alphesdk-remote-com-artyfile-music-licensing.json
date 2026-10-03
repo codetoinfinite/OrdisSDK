@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Artyfile Music Licensing",
+  "description": "Search & license real-orchestra music from your agent: EUR 29.90 one-time, WAV + certificate.",
+  "packageName": "@alphesdk-remote/com-artyfile-music-licensing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://artyfile.com/api/mcp"
+    }
+  ],
+  "url": "https://artyfile.com/blog/can-ai-agents-license-music"
+}

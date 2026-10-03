@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentbuilt",
+  "description": "Free AI-readiness audit of any URL: AI crawler rules, JS-free text, JSON-LD, llms.txt. Tool catalog.",
+  "packageName": "@alphesdk-remote/dev-agentbuilt-agentbuilt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentbuilt.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/agentbuilt/agentbuilt-mcp",
+  "readme": "https://github.com/agentbuilt/agentbuilt-mcp#readme"
+}

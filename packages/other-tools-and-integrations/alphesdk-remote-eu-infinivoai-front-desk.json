@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Infinivo AI Front Desk",
+  "description": "Run a live AI intake desk for personal-injury law firms, or query pricing, proof and positioning.",
+  "packageName": "@alphesdk-remote/eu-infinivoai-front-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://infinivoai.eu/mcp"
+    }
+  ],
+  "url": "https://infinivoai.eu/mcp"
+}

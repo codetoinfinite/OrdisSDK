@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bommel Bot",
+  "description": "Read-only public MCP for the Bommel Bot Feed, directory, and public lockers on bommel.bot.",
+  "packageName": "@alphesdk-remote/bot-bommel-bommel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bommel.bot/api/mcp"
+    }
+  ],
+  "url": "https://bommel.bot/agents"
+}

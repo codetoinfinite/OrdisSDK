@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nowyourlink public Spotlights",
+  "description": "Anonymous read-only access to settled advertising Spotlights, with an MCP Apps card.",
+  "packageName": "@alphesdk-remote/io-github-arneffm-nowyourlink",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nowyourlink.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ArneFfm/nowyourlink-agent-kit",
+  "readme": "https://github.com/ArneFfm/nowyourlink-agent-kit#readme"
+}

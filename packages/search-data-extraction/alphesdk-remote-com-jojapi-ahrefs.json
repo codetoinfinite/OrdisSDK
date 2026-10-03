@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ahrefs",
+  "description": "Ahrefs: Ahrefs API: SEO powerhouse featuring keyword research, backlink analysis, and SERP tracking.",
+  "packageName": "@alphesdk-remote/com-jojapi-ahrefs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/ahrefs"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/ahrefs"
+}

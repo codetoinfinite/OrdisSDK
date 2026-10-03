@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Remix Games",
+  "description": "Find and play free games made by creators on Remix: puzzle, arcade, racing, sports and more.",
+  "packageName": "@alphesdk-remote/gg-remix-remix-games",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remix.gg/mcp"
+    }
+  ],
+  "url": "https://remix.gg"
+}

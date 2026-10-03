@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Multilingual moving company info and services for Schlingloff Euromovers via AI agents.",
+  "packageName": "@alphesdk-remote/de-schlingloff-euromovers-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.schlingloff-euromovers.de/mcp"
+    }
+  ],
+  "url": "https://schlingloff-euromovers.de"
+}

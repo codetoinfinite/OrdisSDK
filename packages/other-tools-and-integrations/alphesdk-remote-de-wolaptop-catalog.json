@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wolaptop.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Laptops – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wolaptop-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wolaptop.de/api/mcp"
+    }
+  ],
+  "url": "https://wolaptop.de"
+}

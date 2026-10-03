@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dynomatix",
+  "description": "Enquiries for Dynomatix, a software practice.",
+  "packageName": "@alphesdk-remote/com-dynomatix-company",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dynomatix.com/mcp"
+    }
+  ],
+  "url": "https://dynomatix.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Citead GEO Score",
+  "description": "Free GEO score of a web page or text: how easily AI assistants can quote it, with fixes. No key.",
+  "packageName": "@alphesdk-remote/com-citead-score",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.citead.com/public/mcp/"
+    }
+  ],
+  "url": "https://citead.com/mcp"
+}

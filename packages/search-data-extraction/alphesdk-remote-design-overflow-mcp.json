@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Overflow Design",
+  "description": "Search and fetch hand-drawn icons, illustrations and isometric drawings. The free set needs no key.",
+  "packageName": "@alphesdk-remote/design-overflow-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.overflow.design/api/mcp/"
+    }
+  ],
+  "url": "https://www.overflow.design/mcp/"
+}

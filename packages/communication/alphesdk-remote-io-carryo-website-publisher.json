@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Carryo Website Publisher",
+  "description": "Publish and update HTML websites, landing pages, reports and proposals from AI chat. OAuth sign-in.",
+  "packageName": "@alphesdk-remote/io-carryo-website-publisher",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.carryo.io/mcp"
+    }
+  ],
+  "url": "https://carryo.io/docs"
+}

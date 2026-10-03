@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Business Contact Finder",
+  "description": "Check how to contact a business website, and whether that contact path actually works.",
+  "packageName": "@alphesdk-remote/agency-ottobot-business-contact-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://business-contact-finder-mcp.ottobot2025.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/modelcontextprotocol/registry",
+  "readme": "https://github.com/modelcontextprotocol/registry#readme"
+}

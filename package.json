@@ -376,6 +376,7 @@
     "@upstash/context7-mcp": "v1.0.14",
     "@usegrant/mcp": "1.3.0",
     "@variflight-ai/variflight-mcp": "0.0.3",
+    "@vercel/sandbox": "3.5.1",
     "@vj-presidio/specif-ai-mcp-server": "0.6.2",
     "@wangshunnn/bilibili-mcp-server": "0.0.7",
     "@wavestreamer/mcp": "0.4.9",

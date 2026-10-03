@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "QuizBase",
+  "description": "MCP server for trivia: 1.4M+ questions (EN+PL), 24 categories, 12 tools + 4 prompts, OAuth 2.1.",
+  "packageName": "@alphesdk-remote/com-runriva-quizbase-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quizbase.runriva.com/mcp"
+    }
+  ],
+  "url": "https://quizbase.runriva.com/docs/sdks/mcp-server"
+}

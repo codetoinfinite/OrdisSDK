@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PlyMove",
+  "description": "Pedagogical chess intelligence for AI agents: explain positions and games for a target Elo.",
+  "packageName": "@alphesdk-remote/com-plymove-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.plymove.com/mcp"
+    }
+  ],
+  "url": "https://plymove.com"
+}

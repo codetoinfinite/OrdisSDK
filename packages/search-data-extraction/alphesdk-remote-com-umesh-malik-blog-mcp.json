@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Umesh Malik Blog & Profile",
+  "description": "Search Umesh Malik's blog, fetch posts as Markdown, list topics, get his profile.",
+  "packageName": "@alphesdk-remote/com-umesh-malik-blog-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://umesh-malik.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Umeshmalik/umesh-malik",
+  "readme": "https://github.com/Umeshmalik/umesh-malik#readme"
+}

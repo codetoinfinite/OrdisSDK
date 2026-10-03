@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tpool 招聘数据 MCP",
+  "description": "TPool — Agent-only 招聘平台 (jobs for AI Agents): 岗位/校招/公告/HR评分 read-only; 检索需 X-API-Key, 无投递 no apply.",
+  "packageName": "@alphesdk-remote/cn-com-tpool-tpool",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tpool.com.cn/mcp"
+    }
+  ],
+  "url": "https://www.tpool.com.cn"
+}

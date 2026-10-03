@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SSearch",
+  "description": "Free web search for AI agents. No API key required. Hosted MCP in active development.",
+  "packageName": "@alphesdk-remote/cc-ssearch-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ssearch.cc/mcp"
+    }
+  ],
+  "url": "https://ssearch.cc"
+}

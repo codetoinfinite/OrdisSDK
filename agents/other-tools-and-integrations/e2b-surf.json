@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "e2b-surf",
+  "name": "Surf",
+  "description": "Web app where an OpenAI computer-use model operates a cloud Linux desktop in an E2B sandbox while you watch and chat.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "sandbox", "nextjs", "desktop"],
+  "repo": "https://github.com/e2b-dev/surf",
+  "homepage": "https://surf.e2b.dev",
+  "publisher": "E2B",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets a user type instructions and see an AI operate a virtual desktop live in the browser. It is a reference application for developers building computer-use products on sandboxed machines.",
+  "howItWorks": "A Next.js front end starts an E2B desktop sandbox and streams its screen. The server forwards screenshots to the computer-use model, applies the returned mouse and keyboard actions inside the sandbox, and streams progress back to the page as server-sent events.",
+  "requirements": [
+    {
+      "name": "E2B_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Creates the desktop sandbox"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to the computer-use model"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the Next.js app"
+    }
+  ],
+  "install": ["git clone https://github.com/e2b-dev/surf", "cd surf", "npm install"],
+  "run": ["npm run dev"],
+  "interfaces": ["web", "chat"],
+  "language": "TypeScript",
+  "framework": "Next.js",
+  "models": "OpenAI computer-use model",
+  "mcp": "none",
+  "github": {
+    "stars": 869,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-09",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Shepherd Bible API",
+  "description": "Bible translations, books, chapters, verses, and search",
+  "packageName": "@alphesdk-remote/com-simplecohortllc-bible-shepherd-bible-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bible.simplecohortllc.com/mcp"
+    }
+  ]
+}

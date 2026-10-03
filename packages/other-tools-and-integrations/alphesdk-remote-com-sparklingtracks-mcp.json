@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Sparkling Tracks Tours",
+  "description": "Read-only MCP for Sparkling Tracks European tours: packages, itineraries, pricing, contacts.",
+  "packageName": "@alphesdk-remote/com-sparklingtracks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sparklingtracks.com/mcp"
+    }
+  ]
+}

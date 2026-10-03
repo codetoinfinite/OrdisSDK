@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CodeStringers MCP Server",
+  "description": "Search CodeStringers' Zoho & custom-software content and business details, live.",
+  "packageName": "@alphesdk-remote/com-codestringers-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.codestringers.com/_api/mcp"
+    }
+  ]
+}

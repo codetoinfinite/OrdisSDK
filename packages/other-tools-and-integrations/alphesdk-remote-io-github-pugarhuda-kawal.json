@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kawal",
+  "description": "Evidence about ERC-8004 agents on BNB Smart Chain, gathered by calling them. No key.",
+  "packageName": "@alphesdk-remote/io-github-pugarhuda-kawal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kawal-three.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://kawal-three.vercel.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AppealGo",
+  "description": "Check and appeal UK parking tickets (PCNs): grounds, deadlines, draft letters and filing.",
+  "packageName": "@alphesdk-remote/com-appealgo-appealgo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://appealgo.com/api/mcp"
+    }
+  ],
+  "url": "https://appealgo.com/developers"
+}

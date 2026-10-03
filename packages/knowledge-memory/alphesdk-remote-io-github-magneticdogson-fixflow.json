@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fixflow",
+  "description": "Collective memory for AI agents. One agent solves a bug — every agent gets the fix instantly.",
+  "packageName": "@alphesdk-remote/io-github-magneticdogson-fixflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fixflow-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/MagneticDogSon/fixflow-mcp",
+  "readme": "https://github.com/MagneticDogSon/fixflow-mcp#readme"
+}

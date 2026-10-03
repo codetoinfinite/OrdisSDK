@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Galley Render",
+  "description": "JSON in, PDF out. Render invoices, certificates, reports and cards from a template and a payload.",
+  "packageName": "@alphesdk-remote/com-galleyrender-galley-render",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.galleyrender.com/mcp"
+    }
+  ],
+  "url": "https://galleyrender.com"
+}

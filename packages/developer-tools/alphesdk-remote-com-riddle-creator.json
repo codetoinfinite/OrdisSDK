@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Riddle",
+  "description": "Build, publish and analyze quizzes, polls, forms and personality tests. Riddle account required.",
+  "packageName": "@alphesdk-remote/com-riddle-creator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.riddle.com/creator/api/v3/mcp"
+    }
+  ],
+  "url": "https://www.riddle.com/help/api/mcp"
+}

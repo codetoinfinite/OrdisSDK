@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sketchlib",
+  "description": "Search a large 3D model library and download converted GLB/FBX/USDZ assets via signed URLs.",
+  "packageName": "@alphesdk-remote/com-sketchlib-sketchlib",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sketchlib.com/mcp"
+    }
+  ],
+  "url": "https://sketchlib.com"
+}

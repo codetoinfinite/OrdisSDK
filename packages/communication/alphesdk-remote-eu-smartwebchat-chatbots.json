@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Smartwebchat",
+  "description": "Create and manage website chatbots for European SMBs: bots, chat, and captured leads.",
+  "packageName": "@alphesdk-remote/eu-smartwebchat-chatbots",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smartwebchat.eu/api/mcp"
+    }
+  ],
+  "url": "https://smartwebchat.eu"
+}

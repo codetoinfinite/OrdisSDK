@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nullary",
+  "description": "Negative results intelligence for drug discovery — query measured failures via MCP.",
+  "packageName": "@alphesdk-remote/ai-nullary-nullary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nullary.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/nullary-ai/nullary",
+  "readme": "https://github.com/nullary-ai/nullary#readme"
+}

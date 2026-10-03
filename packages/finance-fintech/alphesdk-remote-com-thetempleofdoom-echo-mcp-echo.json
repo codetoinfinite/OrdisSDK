@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "echo",
+  "description": "Text-to-speech API: neural voices, pay-per-credit in Bitcoin sats via BTCPay.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-echo-mcp-echo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://echo-mcp.thetempleofdoom.com/mcp"
+    }
+  ]
+}

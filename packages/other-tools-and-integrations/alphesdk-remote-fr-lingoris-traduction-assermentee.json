@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lingoris — traduction assermentée",
+  "description": "Sworn (certified) translation in France: instant firm price, 100+ languages, order tracking.",
+  "packageName": "@alphesdk-remote/fr-lingoris-traduction-assermentee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.lingoris.fr/api/mcp"
+    }
+  ],
+  "url": "https://www.lingoris.fr/mcp"
+}

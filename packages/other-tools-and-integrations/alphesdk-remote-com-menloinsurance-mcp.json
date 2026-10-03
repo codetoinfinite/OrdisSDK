@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Menlo",
+  "description": "Complete a Menlo application, authorize carrier quote requests and answer quote follow-ups.",
+  "packageName": "@alphesdk-remote/com-menloinsurance-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.menloinsurance.com/mcp"
+    }
+  ],
+  "url": "https://www.menloinsurance.com"
+}

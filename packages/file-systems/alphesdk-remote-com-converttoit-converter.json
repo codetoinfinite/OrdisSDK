@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Convert To It",
+  "description": "Check which file formats convert to which, and get links that open the converter.",
+  "packageName": "@alphesdk-remote/com-converttoit-converter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://converttoit.com/mcp"
+    }
+  ],
+  "url": "https://converttoit.com/"
+}

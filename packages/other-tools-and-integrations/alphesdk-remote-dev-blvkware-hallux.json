@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HALLUX",
+  "description": "Check that a package, module or DOI exists before an agent installs, imports or cites it.",
+  "packageName": "@alphesdk-remote/dev-blvkware-hallux",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.blvkware.dev/hallux/mcp"
+    }
+  ],
+  "url": "https://blvkware.dev/hallux/"
+}

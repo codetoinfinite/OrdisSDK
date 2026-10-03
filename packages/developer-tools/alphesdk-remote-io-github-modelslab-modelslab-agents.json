@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ModelsLab Agent Control Plane",
+  "description": "Account, billing, team, API key and model discovery tools for agents that use ModelsLab.",
+  "packageName": "@alphesdk-remote/io-github-modelslab-modelslab-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modelslab.com/mcp/agents"
+    }
+  ],
+  "url": "https://github.com/ModelsLab/modelslab-mcp",
+  "readme": "https://github.com/ModelsLab/modelslab-mcp#readme"
+}

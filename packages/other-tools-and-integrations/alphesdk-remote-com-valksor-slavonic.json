@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "slavonic",
+  "description": "Grounds LLMs in real Church Slavonic: Wiktionary lemmas, dual-number paradigms, transliteration.",
+  "packageName": "@alphesdk-remote/com-valksor-slavonic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://slavonic.valksor.com/mcp"
+    }
+  ],
+  "url": "https://slavonic.valksor.com"
+}

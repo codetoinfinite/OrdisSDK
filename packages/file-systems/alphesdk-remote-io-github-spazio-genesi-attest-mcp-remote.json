@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "attest-mcp-remote",
+  "description": "Zero-install remote MCP server for proof-of-existence file attestation.",
+  "packageName": "@alphesdk-remote/io-github-spazio-genesi-attest-mcp-remote",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://attest-mcp-remote.it-e3f.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/SPAZIO-GENESI/attest-mcp-remote",
+  "readme": "https://github.com/SPAZIO-GENESI/attest-mcp-remote#readme"
+}

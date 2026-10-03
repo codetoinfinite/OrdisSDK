@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AirShelf Catalog",
+  "description": "Cross-vendor B2B catalog for AI agents: search, compare, find equivalents, request a quote.",
+  "packageName": "@alphesdk-remote/ai-airshelf-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.airshelf.ai/mcp"
+    }
+  ]
+}

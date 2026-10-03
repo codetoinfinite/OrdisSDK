@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JENRIKS Photo Archive",
+  "description": "Read-only MCP server over the JENRIKS daily photoblog: one photo per day since 2006. No auth.",
+  "packageName": "@alphesdk-remote/com-jenriks-photo-archive",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jenriks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ehehrmann/jenriks-agent-skills",
+  "readme": "https://github.com/ehehrmann/jenriks-agent-skills#readme"
+}

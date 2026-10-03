@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Import Check: Validate & Clean CSV",
+  "description": "Validate and prepare CSV; reconcile two tables with exact keys and full findings. Fixed free demos.",
+  "packageName": "@alphesdk-remote/io-github-leborgneantoine-import-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://check.orvel.dev/mcp"
+    }
+  ],
+  "url": "https://check.orvel.dev/docs/"
+}

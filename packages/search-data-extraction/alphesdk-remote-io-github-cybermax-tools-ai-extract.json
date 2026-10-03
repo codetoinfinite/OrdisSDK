@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fieldwright",
+  "description": "Fieldwright: web page to clean Markdown, metadata, JSON-LD, emails, phones.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-ai-extract",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fieldwright.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

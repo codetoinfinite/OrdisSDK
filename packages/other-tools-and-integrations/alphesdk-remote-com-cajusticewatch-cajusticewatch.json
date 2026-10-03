@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "California Justice Watch",
+  "description": "California criminal-justice accountability: DAs, defenders, judges, officers, CJP, POST.",
+  "packageName": "@alphesdk-remote/com-cajusticewatch-cajusticewatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cajusticewatch.com/api/mcp"
+    }
+  ],
+  "url": "https://cajusticewatch.com"
+}

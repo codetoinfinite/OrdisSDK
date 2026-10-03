@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Texas Water Damage Cost: the site's own MCP server — enquiry (enquiry = a human handoff, not a...",
+  "packageName": "@alphesdk-remote/com-texaswaterdamagecost-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://texaswaterdamagecost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

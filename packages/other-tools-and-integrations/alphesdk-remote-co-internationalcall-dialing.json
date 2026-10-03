@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "InternationalCall.co dialing",
+  "description": "Exact international dialing instructions for any country or number, plus per-minute call prices.",
+  "packageName": "@alphesdk-remote/co-internationalcall-dialing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://internationalcall.co/api/mcp"
+    }
+  ],
+  "url": "https://internationalcall.co/call/international-dialing-codes"
+}

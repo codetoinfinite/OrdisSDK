@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tollkit",
+  "description": "Web pages, screenshots, on-chain data, SEC filings, IP, weather, FX, product prices. Paid in USDC.",
+  "packageName": "@alphesdk-remote/io-github-ultrastarz-x402-extract",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://extract.tollkit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/UltraStarz/x402-extract-mcp",
+  "readme": "https://github.com/UltraStarz/x402-extract-mcp#readme"
+}

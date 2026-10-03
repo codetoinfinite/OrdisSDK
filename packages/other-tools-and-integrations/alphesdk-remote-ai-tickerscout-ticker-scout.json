@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ticker-scout",
+  "description": "Agent-native SEC data: statements assembled, filings synthesized, figures linked to source. No key.",
+  "packageName": "@alphesdk-remote/ai-tickerscout-ticker-scout",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tickerscout.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/tickerscout/tickerscout-mcp",
+  "readme": "https://github.com/tickerscout/tickerscout-mcp#readme"
+}

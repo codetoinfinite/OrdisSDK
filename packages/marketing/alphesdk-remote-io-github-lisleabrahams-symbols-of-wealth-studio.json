@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "symbols-of-wealth-studio",
+  "description": "World-class creative social media content studio, powered by AI.",
+  "packageName": "@alphesdk-remote/io-github-lisleabrahams-symbols-of-wealth-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://symbols-of-wealth-studio-mcp.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Lisleabrahams/symbols-of-wealth-studio-mcp",
+  "readme": "https://github.com/Lisleabrahams/symbols-of-wealth-studio-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search, label, and manage your X (Twitter) bookmarks from any MCP client via Tweetsmash",
+  "packageName": "@alphesdk-remote/com-tweetsmash-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tweetsmash.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/RamyaChinnadurai/tweetsmash-mcp",
+  "readme": "https://github.com/RamyaChinnadurai/tweetsmash-mcp#readme"
+}

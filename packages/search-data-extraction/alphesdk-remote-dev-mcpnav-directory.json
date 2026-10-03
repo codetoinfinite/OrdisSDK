@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcpnav directory",
+  "description": "Search a directory of MCP servers and get connect configs. Data is CC0/MIT-licensed.",
+  "packageName": "@alphesdk-remote/dev-mcpnav-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mcpnav.dev/mcp"
+    }
+  ],
+  "url": "https://mcpnav.dev"
+}

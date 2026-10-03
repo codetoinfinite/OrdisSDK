@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Registry Search",
+  "description": "Search and browse every MCP server in the Model Context Protocol registry.",
+  "packageName": "@alphesdk-remote/io-github-spacemandomains-mcp-registry-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpregistrysearchwilfredleejr.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Spacemandomains/mcp-registry-search",
+  "readme": "https://github.com/Spacemandomains/mcp-registry-search#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Entscheidsuche — Schweizer Gerichtsentscheide",
+  "description": "Suche in Schweizer Gerichtsentscheiden aller Instanzen (Bund, Kantone) in DE/FR/IT.",
+  "packageName": "@alphesdk-remote/ch-entscheidsuche-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.entscheidsuche.ch/mcp"
+    }
+  ],
+  "url": "https://github.com/entscheidsuche/entscheidsuche-mcp",
+  "readme": "https://github.com/entscheidsuche/entscheidsuche-mcp#readme"
+}

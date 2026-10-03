@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Linkora Source",
+  "description": "China sourcing, inspection and supplier verification: published rates, scope and fee estimates.",
+  "packageName": "@alphesdk-remote/com-linkorasource-sourcing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://linkorasource.com/mcp"
+    }
+  ],
+  "url": "https://linkorasource.com"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "sqlchat",
+  "name": "SQL Chat",
+  "description": "Chat-based SQL client where you converse with an LLM to query and modify MySQL, PostgreSQL, MSSQL, TiDB Cloud and OceanBase.",
+  "category": "databases",
+  "tags": ["sql", "chat", "mysql", "postgresql", "nextjs"],
+  "repo": "https://github.com/sqlchat/sqlchat",
+  "homepage": "https://sqlchat.ai",
+  "publisher": "SQL Chat",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Replaces a conventional SQL editor with a conversation: you describe what you want, it proposes SQL and can run it against the connected database. Suited to developers who want a lightweight self-hosted assistant.",
+  "howItWorks": "A Next.js web app stores connection settings, passes schema details to an OpenAI model and executes the resulting statements. It is distributed as a Docker image configured through environment variables.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "NEXTAUTH_SECRET",
+      "kind": "runtime",
+      "required": true,
+      "description": "Arbitrary secret string required by the auth layer"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the image"
+    }
+  ],
+  "install": [],
+  "run": [
+    "docker run --name sqlchat --platform linux/amd64 --env NEXTAUTH_SECRET=\"$(openssl rand -hex 5)\" --env OPENAI_API_KEY=<<YOUR OPENAI KEY>> -p 3000:3000 --hostname localhost sqlchat/sqlchat"
+  ],
+  "interfaces": ["web", "chat"],
+  "language": "TypeScript",
+  "models": "OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 5844,
+    "license": "MIT",
+    "pushedAt": "2026-04-21",
+    "checkedAt": "2026-10-03"
+  }
+}

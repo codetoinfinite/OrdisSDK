@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vermarco",
+  "description": "Marketplace and payment rail for AI agents: list, buy and settle with signed receipts.",
+  "packageName": "@alphesdk-remote/com-vermarco-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vermarco.com/api/mcp"
+    }
+  ],
+  "url": "https://vermarco.com"
+}

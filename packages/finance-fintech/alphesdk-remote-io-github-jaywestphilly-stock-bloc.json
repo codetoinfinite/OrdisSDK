@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Stock Bloc",
+  "description": "Market data, SEC 13F/filings, quant scores, forecasts for agents. x402 USDC pay-per-call on Base.",
+  "packageName": "@alphesdk-remote/io-github-jaywestphilly-stock-bloc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stockbloc.ai.studio/api/mcp/rpc"
+    }
+  ],
+  "url": "https://github.com/Jaywestphilly/SB-front-end-3-",
+  "readme": "https://github.com/Jaywestphilly/SB-front-end-3-#readme"
+}

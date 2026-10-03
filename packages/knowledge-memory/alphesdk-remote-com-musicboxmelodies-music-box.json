@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Musicboxmelodies",
+  "description": "Compose, save and print music box tunes for 15, 20 and 30-note music boxes.",
+  "packageName": "@alphesdk-remote/com-musicboxmelodies-music-box",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.musicboxmelodies.com/mcp"
+    }
+  ],
+  "url": "https://musicboxmelodies.com/ai"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PersuadioAI",
+  "description": "Analyze leads, draft follow-up campaigns, and launch SMS outreach only with explicit human approval.",
+  "packageName": "@alphesdk-remote/com-persuadioai-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.persuadioai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mannyfernandezvc/persuadioai-platform",
+  "readme": "https://github.com/mannyfernandezvc/persuadioai-platform#readme"
+}

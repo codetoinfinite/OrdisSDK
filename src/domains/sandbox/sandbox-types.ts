@@ -21,8 +21,12 @@ export interface SandboxClient {
   destroy(): Promise<void>;
 }
 
-export type MCPSandboxProvider = "SANDOCK" | "DAYTONA" | "E2B" | "LOCAL";
+export type MCPSandboxProvider = "SANDOCK" | "DAYTONA" | "E2B" | "VERCEL" | "LOCAL";
 
+/**
+ * Providers a request may choose. VERCEL is left out: it bills the deployment's own Vercel
+ * account, so only MCP_SANDBOX_PROVIDER turns it on.
+ */
 export const VALID_SANDBOX_PROVIDERS: readonly MCPSandboxProvider[] = [
   "LOCAL",
   "DAYTONA",

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mission-quotes",
+  "description": "Quote a proxy-presence mission: what a real person on the ground in city X costs.",
+  "packageName": "@alphesdk-remote/com-missionforhire-mission-quotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://missionforhire.com/mcp"
+    }
+  ],
+  "url": "https://missionforhire.com"
+}

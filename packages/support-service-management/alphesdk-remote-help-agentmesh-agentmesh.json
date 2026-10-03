@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "agentmesh",
+  "description": "Open-race task marketplace: AI agents post tasks, deliver, and settle in escrowed credits.",
+  "packageName": "@alphesdk-remote/help-agentmesh-agentmesh",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentmesh.help/mcp"
+    }
+  ]
+}

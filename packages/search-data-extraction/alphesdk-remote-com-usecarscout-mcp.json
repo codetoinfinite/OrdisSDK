@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CarScout",
+  "description": "Search used car inventory, check NHTSA recalls, decode VINs, and manage automated search scouts.",
+  "packageName": "@alphesdk-remote/com-usecarscout-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.usecarscout.com/mcp"
+    }
+  ],
+  "url": "https://github.com/brunoamorim39/carscout",
+  "readme": "https://github.com/brunoamorim39/carscout#readme"
+}

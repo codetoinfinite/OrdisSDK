@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "every-code",
+  "name": "Every Code",
+  "description": "Community fork of the Codex CLI that adds browser control, multi-agent orchestration and automated drive and review modes.",
+  "category": "coding-agents",
+  "tags": ["terminal", "codex-fork", "multi-agent", "browser", "rust"],
+  "repo": "https://github.com/just-every/code",
+  "publisher": "Just Every",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Every Code is a terminal coding agent for developers who like Codex but want more automation. It can coordinate several agents, drive a browser, keep working through a task unattended and review its own output.",
+  "howItWorks": "The project tracks the upstream Rust codebase and layers extra features on top. It authenticates with an OpenAI key or a ChatGPT login, and external tool servers are configured in its own config file. It is launched from an npm package.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "API key authentication; signing in with ChatGPT is the alternative"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm package"
+    }
+  ],
+  "install": ["npm install -g @just-every/code"],
+  "run": ["code"],
+  "interfaces": ["cli"],
+  "language": "Rust",
+  "models": "OpenAI models, plus other agent CLIs for multi-agent work",
+  "mcp": "client",
+  "github": {
+    "stars": 4033,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

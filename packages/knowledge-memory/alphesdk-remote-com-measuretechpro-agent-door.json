@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-door",
+  "description": "The full CRM for contractors, asked directly: crew pricing, knowledge base, forum, roadmap.",
+  "packageName": "@alphesdk-remote/com-measuretechpro-agent-door",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://measuretechpro.com/mcp"
+    }
+  ],
+  "url": "https://measuretechpro.com"
+}

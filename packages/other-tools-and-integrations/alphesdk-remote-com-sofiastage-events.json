@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SofiaStage Events",
+  "description": "Read-only tools for current SofiaStage events, venues, cities, performers, and editorial.",
+  "packageName": "@alphesdk-remote/com-sofiastage-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sofiastage.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lordcris/api.sofiastage.com",
+  "readme": "https://github.com/lordcris/api.sofiastage.com#readme"
+}

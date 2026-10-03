@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Projectory",
+  "description": "Find UAE off-plan developments and registered residential sales.",
+  "packageName": "@alphesdk-remote/ae-projectory-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.projectory.ae/mcp"
+    }
+  ],
+  "url": "https://projectory.ae/mcp/"
+}

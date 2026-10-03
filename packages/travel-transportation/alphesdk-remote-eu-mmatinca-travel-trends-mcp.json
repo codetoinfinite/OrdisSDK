@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "travel-trends-mcp",
+  "description": "European tourism & travel-disruption MCP: trip risk, live events, Eurostat panels, RO county data.",
+  "packageName": "@alphesdk-remote/eu-mmatinca-travel-trends-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://travel-trends.mmatinca.eu/mcp/v1"
+    }
+  ],
+  "url": "https://travel-trends.mmatinca.eu"
+}

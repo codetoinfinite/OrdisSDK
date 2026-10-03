@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RAVN",
+  "description": "Cross-chain swap API for native Bitcoin, Solana and EVM chains. No API key, no custody.",
+  "packageName": "@alphesdk-remote/exchange-ravn-ravn",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.ravn.exchange/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ravndex/ravn-examples",
+  "readme": "https://github.com/ravndex/ravn-examples#readme"
+}

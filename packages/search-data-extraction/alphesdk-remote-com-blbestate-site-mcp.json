@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Black Label Real Estate Website MCP",
+  "description": "Search and read public Black Label Real Estate pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blbestate-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blbestate.com/mcp"
+    }
+  ],
+  "url": "https://blbestate.com/connect"
+}

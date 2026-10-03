@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "indexnow-toolkit",
+  "description": "Build and validate IndexNow payloads, check key files, and diff sitemaps into a submission list.",
+  "packageName": "@alphesdk-remote/com-aiwebsitepipeline-indexnow-toolkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://indexnow-toolkit-mcp.lipmichal.workers.dev/mcp"
+    }
+  ],
+  "url": "https://aiwebsitepipeline.com/method.html"
+}

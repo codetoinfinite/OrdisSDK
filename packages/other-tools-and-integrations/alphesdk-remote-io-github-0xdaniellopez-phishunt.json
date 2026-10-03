@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Phishunt",
+  "description": "Public phishing feed: suspicious/confirmed phishing URLs detected hourly. No auth, CC0.",
+  "packageName": "@alphesdk-remote/io-github-0xdaniellopez-phishunt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.phishunt.io/"
+    }
+  ],
+  "url": "https://github.com/0xDanielLopez/phishunt-mcp",
+  "readme": "https://github.com/0xDanielLopez/phishunt-mcp#readme"
+}

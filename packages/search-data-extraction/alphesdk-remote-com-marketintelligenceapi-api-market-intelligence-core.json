@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Market Intelligence API (core)",
+  "description": "15 core x402 market tools: trade decisions, token risk, new tokens, swap quotes, news, macro",
+  "packageName": "@alphesdk-remote/com-marketintelligenceapi-api-market-intelligence-core",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.marketintelligenceapi.com/mcp/core"
+    }
+  ],
+  "url": "https://api.marketintelligenceapi.com"
+}

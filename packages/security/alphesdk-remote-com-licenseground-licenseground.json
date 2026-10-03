@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LicenseGround",
+  "description": "Deterministic trade contractor license verification & compliance gating for autonomous AI agents.",
+  "packageName": "@alphesdk-remote/com-licenseground-licenseground",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://licenseground.com/mcp"
+    }
+  ],
+  "url": "https://licenseground.com"
+}

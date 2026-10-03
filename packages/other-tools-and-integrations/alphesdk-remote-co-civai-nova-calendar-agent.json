@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Calendar Agent by Nova (CIVAI)",
+  "description": "I do everything related to calendar scheduling",
+  "packageName": "@alphesdk-remote/co-civai-nova-calendar-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/calendar-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/calendar-agent"
+}

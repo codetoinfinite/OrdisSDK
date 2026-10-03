@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "launch-record-lookup",
+  "description": "Look up a domain's public Website Launches launch record, owner verification & trust context.",
+  "packageName": "@alphesdk-remote/com-websitelaunches-launch-record-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://websitelaunches.com/mcp"
+    }
+  ]
+}

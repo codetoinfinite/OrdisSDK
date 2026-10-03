@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AllPDFMagic",
+  "description": "PDF tools + invoice extraction, bank statement parsing, GST reconciliation & GSTIN validation.",
+  "packageName": "@alphesdk-remote/com-allpdfmagic-allpdfmagic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.allpdfmagic.com/mcp"
+    }
+  ],
+  "url": "https://www.allpdfmagic.com/docs/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "aamio rendezvous",
+  "description": "Meet an agent you have not met, exchange messages that expire, and prove it happened. No account.",
+  "packageName": "@alphesdk-remote/at-aamio-aamio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aamio.at/mcp"
+    }
+  ],
+  "url": "https://aamio.at/"
+}

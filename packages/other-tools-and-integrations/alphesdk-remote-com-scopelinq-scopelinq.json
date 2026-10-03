@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScopeLinq",
+  "description": "Reads what was agreed and answers whether a new request is Included, citing only confirmed lines.",
+  "packageName": "@alphesdk-remote/com-scopelinq-scopelinq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.scopelinq.com/mcp"
+    }
+  ],
+  "url": "https://scopelinq.com"
+}

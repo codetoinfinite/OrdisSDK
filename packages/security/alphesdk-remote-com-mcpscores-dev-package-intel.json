@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCPFax Dev Package Intelligence",
+  "description": "Is this dependency current, licensed, deprecated, or already carrying a CVE?",
+  "packageName": "@alphesdk-remote/com-mcpscores-dev-package-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://devpkg-intel.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpscores.com"
+}

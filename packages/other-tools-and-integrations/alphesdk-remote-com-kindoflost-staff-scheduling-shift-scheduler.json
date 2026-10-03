@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shift Scheduler",
+  "description": "Builds optimal 24/7 staff rosters with a real MILP solver: rest rules, skills, nights, fairness.",
+  "packageName": "@alphesdk-remote/com-kindoflost-staff-scheduling-shift-scheduler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://staff-scheduling.kindoflost.com/mcp"
+    }
+  ],
+  "url": "https://staff-scheduling.kindoflost.com/mcp-server"
+}

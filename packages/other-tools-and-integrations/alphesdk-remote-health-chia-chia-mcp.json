@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Chia Health MCP Server",
+  "description": "Licensed US telehealth — GLP-1 medications, intake, consents, Stripe ACP. HIPAA-compliant, 30 tools.",
+  "packageName": "@alphesdk-remote/health-chia-chia-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chia.health/"
+    }
+  ],
+  "url": "https://github.com/chia-health/chia-mcp",
+  "readme": "https://github.com/chia-health/chia-mcp#readme"
+}

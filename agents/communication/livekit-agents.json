@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "livekit-agents",
+  "name": "LiveKit Agents",
+  "description": "Framework for realtime voice agents that join LiveKit rooms or phone calls, with example agents runnable from the terminal.",
+  "category": "communication",
+  "tags": ["voice", "realtime", "webrtc", "telephony", "framework"],
+  "repo": "https://github.com/livekit/agents",
+  "docs": "https://docs.livekit.io/agents/",
+  "publisher": "LiveKit",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets developers write agents that hold spoken conversations with users over WebRTC or SIP telephony. It covers turn detection, interruptions, tool use and hand-off between agents for production voice applications.",
+  "howItWorks": "An agent program is written as a worker that connects to a LiveKit server and is dispatched into rooms. Plugins supply speech-to-text, language models and text-to-speech, or a realtime speech model. The same script runs in a local console mode, a development mode or a production mode, and tools can come from MCP servers.",
+  "requirements": [
+    {
+      "name": "LIVEKIT_URL",
+      "kind": "service",
+      "required": true,
+      "description": "Address of a LiveKit server, cloud or self-hosted"
+    },
+    {
+      "name": "LIVEKIT_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Server API key, paired with LIVEKIT_API_SECRET"
+    },
+    {
+      "name": "Model provider keys",
+      "kind": "api-key",
+      "required": true,
+      "description": "Keys for the STT, LLM and TTS plugins installed"
+    }
+  ],
+  "install": ["pip install \"livekit-agents[openai,deepgram,cartesia]\""],
+  "run": ["python myagent.py console", "python myagent.py dev", "python myagent.py start"],
+  "interfaces": ["library", "cli"],
+  "language": "Python",
+  "framework": "LiveKit Agents",
+  "models": "Pluggable providers such as OpenAI, Deepgram and Cartesia",
+  "mcp": "client",
+  "github": {
+    "stars": 14454,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

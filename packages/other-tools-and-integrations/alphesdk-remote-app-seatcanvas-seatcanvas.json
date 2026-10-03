@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "seatcanvas",
+  "description": "SeatCanvas MCP server: pricing, venue capacity estimates, and prefilled seating plans.",
+  "packageName": "@alphesdk-remote/app-seatcanvas-seatcanvas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.seatcanvas.app/api/mcp"
+    }
+  ],
+  "url": "https://www.seatcanvas.app/mcp"
+}

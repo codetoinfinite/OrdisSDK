@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Harbor Crew Cross-Chain Report",
+  "description": "Paid read-only reports for 1–5 EVM addresses across four networks; 0.02 supported stablecoin direct.",
+  "packageName": "@alphesdk-remote/io-github-rocket-harbor-420-harbor-cross-chain-report",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://resguardo-wallets-260926.tiweedmaster.chatgpt.site/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Rocket-Harbor-420/harbor-cross-chain-report-mcp",
+  "readme": "https://github.com/Rocket-Harbor-420/harbor-cross-chain-report-mcp#readme"
+}

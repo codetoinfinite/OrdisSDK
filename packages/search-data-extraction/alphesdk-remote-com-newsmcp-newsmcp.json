@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NewsMCP",
+  "description": "Live world news deduplicated into story events, with corroboration counts and source links.",
+  "packageName": "@alphesdk-remote/com-newsmcp-newsmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.newsmcp.com/mcp"
+    }
+  ],
+  "url": "https://newsmcp.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Invoice Preflight",
+  "description": "Evidence-backed UBL, PDF, and image invoice checks before approval or payment.",
+  "packageName": "@alphesdk-remote/io-github-ahmet11159-invoice-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dropenginehq.com/api/invoice-mcp"
+    }
+  ],
+  "url": "https://mcp.dropenginehq.com/docs/invoice-preflight"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "valet-parking-directory",
+  "description": "MCP server for valet parking: 789 US operators across 31,186 cities. 7 tools. No auth.",
+  "packageName": "@alphesdk-remote/com-getvaletparking-valet-parking-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.getvaletparking.com/mcp"
+    }
+  ],
+  "url": "https://github.com/getvaletparking/valet-parking-mcp",
+  "readme": "https://github.com/getvaletparking/valet-parking-mcp#readme"
+}

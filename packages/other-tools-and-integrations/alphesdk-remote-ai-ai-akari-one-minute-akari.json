@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AIﾉアカリ☆ One-Minute Akari",
+  "description": "A free one-minute reset for people, delivered by AI, with no account or personal data.",
+  "packageName": "@alphesdk-remote/ai-ai-akari-one-minute-akari",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-akari.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/AInoAKARI/arigatou-kawaii-lp",
+  "readme": "https://github.com/AInoAKARI/arigatou-kawaii-lp#readme"
+}

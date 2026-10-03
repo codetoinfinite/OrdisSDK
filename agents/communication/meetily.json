@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "meetily",
+  "name": "Meetily",
+  "description": "Privacy-first desktop meeting assistant that records, transcribes locally and generates summaries without sending audio to the cloud.",
+  "category": "communication",
+  "tags": ["meetings", "transcription", "summaries", "local-first", "privacy"],
+  "repo": "https://github.com/Zackriya-Solutions/meetily",
+  "homepage": "https://meetily.ai",
+  "publisher": "Zackriya Solutions",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Captures meeting audio on the user's computer, produces a live transcript and writes summaries and action items. It is meant for people who cannot share recordings with third-party services.",
+  "howItWorks": "A Rust desktop application captures microphone and system audio and transcribes it with local Parakeet or Whisper models. Summaries come from a local model or a provider the user selects. Prebuilt installers are published, and the README also documents building from source with GPU support.",
+  "requirements": [
+    {
+      "name": "pnpm and Rust toolchain",
+      "kind": "runtime",
+      "required": false,
+      "description": "Only for building from source"
+    },
+    {
+      "name": "Summary model",
+      "kind": "service",
+      "required": false,
+      "description": "Local model server or an external provider key for summaries"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/Zackriya-Solutions/meeting-minutes",
+    "cd meeting-minutes/frontend",
+    "pnpm install --frozen-lockfile"
+  ],
+  "run": ["./build-gpu.sh"],
+  "interfaces": ["desktop"],
+  "language": "Rust",
+  "models": "Parakeet or Whisper for speech; local or hosted LLMs for summaries",
+  "mcp": "none",
+  "github": {
+    "stars": 31394,
+    "license": "MIT",
+    "pushedAt": "2026-09-15",
+    "checkedAt": "2026-10-03"
+  }
+}

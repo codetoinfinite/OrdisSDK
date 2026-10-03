@@ -1,0 +1,56 @@
+{
+  "type": "external-agent",
+  "key": "vercel-coding-agent-template",
+  "name": "Vercel Coding Agent Template",
+  "description": "Vercel template web app that runs coding agents such as Claude Code, Codex CLI and Gemini CLI in a sandbox against your repos.",
+  "category": "coding-agents",
+  "tags": ["coding", "sandbox", "background-agent", "nextjs", "template"],
+  "repo": "https://github.com/vercel-labs/coding-agent-template",
+  "publisher": "Vercel",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users sign in, choose a repository and an agent, describe a task, and the app executes it in an isolated sandbox and pushes the changes to a branch. It is a base for self-hosted background coding agents.",
+  "howItWorks": "A Next.js app with Postgres creates a Vercel Sandbox per task, clones the repository, runs the selected agent CLI inside it and streams logs. Authentication is via GitHub or Vercel OAuth, and MCP servers can be attached.",
+  "requirements": [
+    {
+      "name": "POSTGRES_URL",
+      "kind": "service",
+      "required": true,
+      "description": "Database"
+    },
+    {
+      "name": "Vercel account",
+      "kind": "account",
+      "required": true,
+      "description": "Sandbox credentials"
+    },
+    {
+      "name": "NEXT_PUBLIC_AUTH_PROVIDERS",
+      "kind": "service",
+      "required": true,
+      "description": "Selects GitHub and/or Vercel sign-in"
+    },
+    {
+      "name": "AI_GATEWAY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Or per-agent keys such as ANTHROPIC_API_KEY, OPENAI_API_KEY, GEMINI_API_KEY, CURSOR_API_KEY"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/vercel-labs/coding-agent-template.git",
+    "cd coding-agent-template",
+    "pnpm install",
+    "pnpm db:push"
+  ],
+  "run": ["pnpm dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Depends on chosen agent: Claude Code, Codex CLI, Copilot CLI, Cursor CLI, Gemini CLI, opencode",
+  "mcp": "client",
+  "github": {
+    "stars": 1791,
+    "pushedAt": "2026-08-25",
+    "checkedAt": "2026-10-03"
+  }
+}

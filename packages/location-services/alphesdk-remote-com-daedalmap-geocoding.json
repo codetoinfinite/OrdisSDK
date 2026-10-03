@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Geography Tools (loc_id)",
+  "description": "Resolve coordinates and geographic identifiers to loc_id, crosswalks, and bounded shapes.",
+  "packageName": "@alphesdk-remote/com-daedalmap-geocoding",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/geography"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "mcp-server",
+  "name": "Redis",
+  "description": "Official Redis server for strings, hashes, JSON, streams, vector search and more.",
+  "packageName": "redis-mcp-server",
+  "packageVersion": "0.5.1",
+  "runtime": "python",
+  "readme": "https://github.com/redis/mcp-redis",
+  "url": "https://github.com/redis/mcp-redis",
+  "author": "Redis",
+  "env": {
+    "REDIS_HOST": {
+      "description": "Redis hostname",
+      "required": false
+    },
+    "REDIS_PORT": {
+      "description": "Redis port",
+      "required": false
+    },
+    "REDIS_USERNAME": {
+      "description": "Redis username",
+      "required": false
+    },
+    "REDIS_PWD": {
+      "description": "Redis password",
+      "required": false
+    }
+  }
+}

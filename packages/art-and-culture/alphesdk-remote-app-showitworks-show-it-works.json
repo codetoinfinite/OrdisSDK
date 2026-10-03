@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Show It Works",
+  "description": "Verification videos for AI coding agents: record the run, upload over MCP, share a viewer link.",
+  "packageName": "@alphesdk-remote/app-showitworks-show-it-works",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://showitworks.app/api/mcp"
+    }
+  ]
+}

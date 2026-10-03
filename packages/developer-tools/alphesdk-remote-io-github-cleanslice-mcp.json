@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CleanSlice",
+  "description": "Architecture docs and patterns for NestJS + Nuxt full-stack apps",
+  "packageName": "@alphesdk-remote/io-github-cleanslice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cleanslice.org/mcp"
+    }
+  ],
+  "url": "https://github.com/CleanSlice/mcp",
+  "readme": "https://github.com/CleanSlice/mcp#readme"
+}

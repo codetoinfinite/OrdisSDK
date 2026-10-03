@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sharebench",
+  "description": "Sharebench — search & pull AI skills, agents, prompts & playbooks (SKILL.md) into any MCP client",
+  "packageName": "@alphesdk-remote/ai-sharebench-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-public.sharebench.ai"
+    }
+  ],
+  "url": "https://sharebench.ai"
+}

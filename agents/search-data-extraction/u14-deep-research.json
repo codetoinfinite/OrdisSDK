@@ -1,0 +1,52 @@
+{
+  "type": "external-agent",
+  "key": "u14-deep-research",
+  "name": "Deep Research (u14app)",
+  "description": "Browser-based deep-research app that generates in-depth reports quickly, also usable as an SSE API or MCP server.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "nextjs", "gemini", "reports", "pwa"],
+  "repo": "https://github.com/u14app/deep-research",
+  "homepage": "https://research.u14.app/",
+  "publisher": "u14app",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Produces a structured research report from a topic within a few minutes. It can be used as a web app, deployed for a team, or called by other AI services.",
+  "howItWorks": "A Next.js app uses a thinking model to plan and a task model to carry out searches and write up findings. It can run with keys entered in the browser or with server-side keys protected by an access password. The same pipeline is exposed over an SSE API and an MCP server.",
+  "requirements": [
+    {
+      "name": "GOOGLE_GENERATIVE_AI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Gemini access on the server side"
+    },
+    {
+      "name": "ACCESS_PASSWORD",
+      "kind": "runtime",
+      "required": false,
+      "description": "Protects server-side API usage"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Or Docker"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/u14app/deep-research.git",
+    "cd deep-research",
+    "pnpm install",
+    "cp env.tpl .env.local"
+  ],
+  "run": ["pnpm dev"],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Gemini by default; other providers configurable",
+  "mcp": "server",
+  "github": {
+    "stars": 4693,
+    "license": "MIT",
+    "pushedAt": "2026-06-18",
+    "checkedAt": "2026-10-03"
+  }
+}

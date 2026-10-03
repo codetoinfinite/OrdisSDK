@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GetMyHotels",
+  "description": "Search hotels, get live prices, and check out in chat. Guest search needs no sign-in.",
+  "packageName": "@alphesdk-remote/com-getmyhotels-getmyhotels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getmyhotels.com"
+    }
+  ],
+  "url": "https://github.com/fenilsonani/gmh",
+  "readme": "https://github.com/fenilsonani/gmh#readme"
+}

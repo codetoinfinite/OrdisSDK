@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Cannon Studio",
+  "description": "Public Cannon Studio MCP for product, pricing, workflow, model, and API answers.",
+  "packageName": "@alphesdk-remote/app-cannonstudio-cannon-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cannonstudio.app/mcp"
+    }
+  ]
+}

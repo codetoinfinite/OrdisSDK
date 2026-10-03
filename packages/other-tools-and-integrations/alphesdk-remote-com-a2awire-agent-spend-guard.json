@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Spend Guard — owner-set purchasing guardrails",
+  "description": "Free spend guardrails for AI agents: approve/deny/ask_user, caps, dupes.",
+  "packageName": "@alphesdk-remote/com-a2awire-agent-spend-guard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2awire.com/mcp/connectors/spend-guard/http"
+    }
+  ],
+  "url": "https://github.com/ee324/a2awire",
+  "readme": "https://github.com/ee324/a2awire#readme"
+}

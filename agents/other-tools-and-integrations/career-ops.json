@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "career-ops",
+  "name": "Career-Ops",
+  "description": "Job-search system that runs inside a coding-agent CLI to scan job portals, score roles, tailor CVs and track applications.",
+  "category": "other-tools-and-integrations",
+  "tags": ["job-search", "resume", "coding-agent", "playwright", "hr"],
+  "repo": "https://github.com/career-ops-hq/career-ops",
+  "homepage": "https://career-ops.org",
+  "publisher": "Career-Ops",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Automates the research side of job hunting: finding postings, evaluating fit, generating tailored CV PDFs and cover letters and keeping a tracker. The user reviews and submits applications personally.",
+  "howItWorks": "The project is a set of modes, skills and Node scripts that a coding agent such as Claude Code, Codex, Gemini CLI or OpenCode executes, using Playwright to read portals. A profile file and portal list configure it, and a local dashboard shows the pipeline.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the scripts and installer"
+    },
+    {
+      "name": "Coding agent CLI",
+      "kind": "account",
+      "required": true,
+      "description": "Claude Code, Codex, Gemini CLI, OpenCode or similar"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "For the standalone Gemini evaluation script"
+    }
+  ],
+  "install": ["npx @santifer/career-ops init"],
+  "run": [],
+  "interfaces": ["cli", "web"],
+  "language": "JavaScript",
+  "models": "Whatever the host coding agent uses; optional Gemini",
+  "mcp": "none",
+  "github": {
+    "stars": 73337,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

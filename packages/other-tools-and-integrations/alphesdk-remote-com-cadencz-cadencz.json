@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cadencz",
+  "description": "Plan, draft, schedule and publish social posts grounded in your Website Brain.",
+  "packageName": "@alphesdk-remote/com-cadencz-cadencz",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.cadencz.com/mcp"
+    }
+  ],
+  "url": "https://cadencz.com/mcp"
+}

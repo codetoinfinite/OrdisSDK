@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Printwren: HTML to PDF and URL to PDF (real Chrome)",
+  "description": "Printwren: web page or HTML to PDF with real Chrome; pages, base64 or download link. Free, no key.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-html-to-pdf",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://printwren.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

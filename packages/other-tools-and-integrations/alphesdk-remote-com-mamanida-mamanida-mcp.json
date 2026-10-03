@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mamanida Maternity Catalogue",
+  "description": "Public read-only MCP server to discover and compare maternity and nursing fashion.",
+  "packageName": "@alphesdk-remote/com-mamanida-mamanida-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mamanida.com/mcp"
+    }
+  ],
+  "url": "https://mamanida.com/ai"
+}

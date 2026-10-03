@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "sinoconnection-esim-mcp",
+  "description": "China & Asia travel eSIM specialist. 200+ countries. No-VPN internet in China.",
+  "packageName": "@alphesdk-remote/io-github-skyunlimit-sinoconnection-esim-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sinoconnection.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SkyUnlimit/sinoconnection-esim-mcp",
+  "readme": "https://github.com/SkyUnlimit/sinoconnection-esim-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Scry",
+  "description": "Free IPv4 lookups against a distributed attacker-observation corpus.",
+  "packageName": "@alphesdk-remote/ai-tunnelmind-scry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tunnelmind.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/TunnelMind/scry-mcp",
+  "readme": "https://github.com/TunnelMind/scry-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Aval",
+  "description": "Payment-backed trust scores for AI agents on Base (ERC-8004). $0.01 per check via x402.",
+  "packageName": "@alphesdk-remote/cloud-hstgr-srv1024618-aval-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aval.srv1024618.hstgr.cloud/mcp"
+    }
+  ],
+  "url": "https://aval.srv1024618.hstgr.cloud"
+}

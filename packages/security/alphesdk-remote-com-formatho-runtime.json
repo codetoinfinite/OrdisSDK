@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "runtime",
+  "description": "Self-hosted MCP server: 26 deterministic dev, security, and EVM tools.",
+  "packageName": "@alphesdk-remote/com-formatho-runtime",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.formatho.com/mcp"
+    }
+  ]
+}

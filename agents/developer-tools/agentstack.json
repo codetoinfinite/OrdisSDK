@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "agentstack",
+  "name": "Agent Stack",
+  "description": "Open infrastructure from the BeeAI project for running AI agents as services, with a CLI, web UI and reference agents.",
+  "category": "developer-tools",
+  "tags": ["a2a", "agent-platform", "deployment", "beeai", "self-hosted"],
+  "repo": "https://github.com/i-am-bee/agentstack",
+  "publisher": "IBM / BeeAI (Linux Foundation)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Agent Stack lets developers run bundled reference agents such as a chat agent, or package their own from any framework, then call them over HTTP from an application. Formerly known as BeeAI Platform.",
+  "howItWorks": "A local platform hosts agents as Agent2Agent (A2A) protocol services and provides model routing, a web interface and a CLI to list, inspect and run agents. A starter repo scaffolds new agents.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "service",
+      "required": true,
+      "description": "Configured during platform setup"
+    }
+  ],
+  "install": ["sh -c \"$(curl -LsSf https://agentstack.beeai.dev/install.sh)\""],
+  "run": ["agentstack ui", "agentstack run chat \"Hi, who are you\""],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Python",
+  "models": "Multiple providers configured in the platform",
+  "mcp": "client",
+  "github": {
+    "stars": 1164,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "parkinzi",
+  "description": "Live Saudi smart-parking data: spots, EV chargers, stats, and blog. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-parkinzi-parkinzi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://parkinzi.com/mcp"
+    }
+  ],
+  "url": "https://parkinzi.com/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "emem, the verifiable memory protocol for the physical world",
+  "description": "Shared memory for AI agents. One address per fact, one signature you check. No key to read.",
+  "packageName": "@alphesdk-remote/io-github-vortx-ai-emem",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emem.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Vortx-AI/emem",
+  "readme": "https://github.com/Vortx-AI/emem#readme"
+}

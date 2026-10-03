@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GraceRoad",
+  "description": "Road freight, fuel supply and sourcing in West Africa. Only the transport study is paid.",
+  "packageName": "@alphesdk-remote/com-graceroad-group-graceroad",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://graceroad-group.com/api/mcp"
+    }
+  ],
+  "url": "https://graceroad-group.com"
+}

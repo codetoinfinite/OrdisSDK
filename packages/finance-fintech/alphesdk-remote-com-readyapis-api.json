@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ready APIs",
+  "description": "135 MCP tools: geo, email, phone, company, DNS, FX, equities, weather, tax, econ, intel — one key.",
+  "packageName": "@alphesdk-remote/com-readyapis-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://readyapis.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ReadyAPIs-com/readyapis",
+  "readme": "https://github.com/ReadyAPIs-com/readyapis#readme"
+}

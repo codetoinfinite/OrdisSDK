@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "msza.ai — Polish Catholic Sermons ✝",
+  "description": "Search public Polish Catholic sermons, transcripts, Scripture, prayers, churches and daily content.",
+  "packageName": "@alphesdk-remote/ai-msza-polish-catholic-sermons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://msza.ai/mcp"
+    }
+  ],
+  "url": "https://msza.ai"
+}

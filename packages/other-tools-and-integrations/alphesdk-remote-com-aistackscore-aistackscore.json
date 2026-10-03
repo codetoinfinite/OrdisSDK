@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Stack Score",
+  "description": "Scores a website's AI technology adoption using BuiltWith data.",
+  "packageName": "@alphesdk-remote/com-aistackscore-aistackscore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aistackscore.com/mcp"
+    }
+  ],
+  "url": "https://aistackscore.com"
+}

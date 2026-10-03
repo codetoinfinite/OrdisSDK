@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "California HVAC Replacement Cost: the site's own MCP server — enquiry (enquiry = a human...",
+  "packageName": "@alphesdk-remote/com-californiahvacreplacementcost-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://californiahvacreplacementcost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

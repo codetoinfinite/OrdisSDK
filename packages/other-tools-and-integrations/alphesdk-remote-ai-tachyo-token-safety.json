@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "token-safety",
+  "description": "Instant rug-check for any EVM or Solana token, distilled to one clear 0-10 risk verdict.",
+  "packageName": "@alphesdk-remote/ai-tachyo-token-safety",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auth.xbarry.ai/api/mcp/token-safety"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "mirofish",
+  "name": "MiroFish",
+  "description": "Swarm-intelligence prediction engine that simulates many agents reacting to seed material to forecast how events unfold.",
+  "category": "data-science-tools",
+  "tags": ["simulation", "swarm", "prediction", "multi-agent", "forecasting"],
+  "repo": "https://github.com/666ghj/MiroFish",
+  "homepage": "https://mirofish.ai",
+  "publisher": "666ghj",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Takes documents such as news or reports plus a question, builds a simulated society of agents and reports the predicted outcome. Users can also interview individual simulated agents afterwards.",
+  "howItWorks": "The backend extracts entities into a knowledge graph, creates agent personas with long-term memory in Zep, runs a parallel social simulation and has a report agent summarise it. A web front end drives the stages, and everything is configured through an env file.",
+  "requirements": [
+    {
+      "name": "LLM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI-compatible model key, with LLM_BASE_URL"
+    },
+    {
+      "name": "ZEP_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Zep memory service"
+    },
+    {
+      "name": "Node.js and Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Front end and backend runtimes"
+    }
+  ],
+  "install": ["cp .env.example .env", "npm run setup:all"],
+  "run": ["npm run dev"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI-compatible endpoints",
+  "mcp": "none",
+  "github": {
+    "stars": 75613,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

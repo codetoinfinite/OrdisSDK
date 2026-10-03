@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fantasy Football Draft Assistant",
+  "description": "The full 2026 fantasy draft board, free to any AI agent. No key, no email, no signup.",
+  "packageName": "@alphesdk-remote/com-predictionmarketspicks-fantasy-draft",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predictionmarketspicks.com/api/mcp-draft/mcp"
+    }
+  ],
+  "url": "https://github.com/predictionmarketspicks/fantasy-draft-mcp",
+  "readme": "https://github.com/predictionmarketspicks/fantasy-draft-mcp#readme"
+}

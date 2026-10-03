@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "talent",
+  "description": "Talent discovery for AI. Search and read agent-readable candidate profiles; cite by URL.",
+  "packageName": "@alphesdk-remote/cv-d-talent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://d.cv/mcp"
+    }
+  ],
+  "url": "https://d.cv/connect"
+}

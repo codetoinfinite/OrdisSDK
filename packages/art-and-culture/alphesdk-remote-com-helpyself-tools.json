@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HelpySelf",
+  "description": "Convert and compress PDFs and images, redact personal data, and run text and data utilities.",
+  "packageName": "@alphesdk-remote/com-helpyself-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://helpyself.com/mcp"
+    }
+  ],
+  "url": "https://helpyself.com/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Avahit",
+  "description": "Creator product picks with daily-verified store prices and Avahit's own price history.",
+  "packageName": "@alphesdk-remote/com-avahit-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://avahit.com/api/mcp"
+    }
+  ],
+  "url": "https://avahit.com"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Kill-Chain Research — Stage 1 (Identity ≠ Behavior)",
+  "description": "Security research: MCP registries verify identity, not tool behavior. See gtfo.dev.",
+  "packageName": "@alphesdk-remote/dev-gtfo-mcp-killchain-stage1-weather",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ailm.gtfo.dev/mcp"
+    }
+  ]
+}

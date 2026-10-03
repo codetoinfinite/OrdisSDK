@@ -1,0 +1,52 @@
+{
+  "type": "external-agent",
+  "key": "bettafish",
+  "name": "BettaFish",
+  "description": "Multi-agent public-opinion analysis system that researches social media and news and writes an analysis report.",
+  "category": "search-data-extraction",
+  "tags": ["public-opinion", "multi-agent", "social-media", "sentiment", "reports"],
+  "repo": "https://github.com/666ghj/BettaFish",
+  "publisher": "666ghj",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Takes a chat-style request and analyses public sentiment on a topic across more than 30 domestic and international social platforms and news sources, then produces a report. Documentation is primarily in Chinese.",
+  "howItWorks": "Separate agents handle broad news search, media analysis and mining of a private opinion database, and a report agent merges their output. Crawlers use Playwright and results are stored in a database. It runs with Docker Compose or from source via app.py, and each engine also has its own Streamlit app.",
+  "requirements": [
+    {
+      "name": "INSIGHT_ENGINE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM key for the insight agent (each engine has its own key, base URL and model settings)"
+    },
+    {
+      "name": "DB_HOST",
+      "kind": "service",
+      "required": true,
+      "description": "Database host"
+    },
+    {
+      "name": "DB_PASSWORD",
+      "kind": "runtime",
+      "required": true,
+      "description": "Database password"
+    },
+    {
+      "name": "Python 3.11",
+      "kind": "runtime",
+      "required": true,
+      "description": "Or Docker"
+    }
+  ],
+  "install": ["pip install -r requirements.txt", "playwright install chromium"],
+  "run": ["python app.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI-compatible LLM endpoints, configured per agent",
+  "mcp": "none",
+  "github": {
+    "stars": 42327,
+    "license": "GPL-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

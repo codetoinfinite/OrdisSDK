@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mumo",
+  "description": "Multi-model deliberation over MCP: full responses plus typed cross-model reactions from other labs.",
+  "packageName": "@alphesdk-remote/chat-mumo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mumo.chat/api/mcp"
+    }
+  ],
+  "url": "https://github.com/mumo-chat/mumo-mcp",
+  "readme": "https://github.com/mumo-chat/mumo-mcp#readme"
+}

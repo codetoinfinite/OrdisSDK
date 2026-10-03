@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Flaim Fantasy",
+  "description": "Fantasy analysis for your ESPN, Yahoo, and Sleeper leagues. Reads your leagues, never changes them.",
+  "packageName": "@alphesdk-remote/app-flaim-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.flaim.app/mcp"
+    }
+  ],
+  "url": "https://github.com/jdguggs10/flaim",
+  "readme": "https://github.com/jdguggs10/flaim#readme"
+}

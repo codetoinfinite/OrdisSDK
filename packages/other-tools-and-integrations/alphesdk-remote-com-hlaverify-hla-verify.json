@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HLA-Verify",
+  "description": "HLA nomenclature and match checks against a pinned IPD-IMGT/HLA release. No patient identifiers.",
+  "packageName": "@alphesdk-remote/com-hlaverify-hla-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hlaverify.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jasonbrelsford/verifiable-science-envs",
+  "readme": "https://github.com/jasonbrelsford/verifiable-science-envs#readme"
+}

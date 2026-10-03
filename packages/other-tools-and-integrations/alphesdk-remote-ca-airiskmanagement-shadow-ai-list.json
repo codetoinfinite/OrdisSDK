@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shadow AI List",
+  "description": "Risk-ranked registry of AI tools: look up an AI tool's risk or check if a domain is shadow AI.",
+  "packageName": "@alphesdk-remote/ca-airiskmanagement-shadow-ai-list",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ailist.airiskmanagement.ca/mcp"
+    }
+  ],
+  "url": "https://ailist.airiskmanagement.ca"
+}

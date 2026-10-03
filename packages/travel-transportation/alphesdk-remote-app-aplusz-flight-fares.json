@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "flight-fares",
+  "description": "Cheapest observed fare, 6-month low and best departure date for a city pair.",
+  "packageName": "@alphesdk-remote/app-aplusz-flight-fares",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aplusz.app/mcp"
+    }
+  ],
+  "url": "https://github.com/dagrang-repository/aplusz",
+  "readme": "https://github.com/dagrang-repository/aplusz#readme"
+}

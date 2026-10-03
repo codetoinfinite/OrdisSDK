@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "clausely",
+  "description": "UK compliance documentation for the EU AI Act, Worker Protection Act 2024, and UK GDPR.",
+  "packageName": "@alphesdk-remote/io-github-misspris2023-clausely",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clausely.co.uk/mcp"
+    }
+  ],
+  "url": "https://clausely.co.uk"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RunBoth",
+  "description": "Ask runboth.dev in plain language: what RunBoth does, how to install it, and its limits.",
+  "packageName": "@alphesdk-remote/dev-runboth-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runboth-agent-mgbxvs4loq-uc.a.run.app/mcp"
+    }
+  ],
+  "url": "https://runboth.dev"
+}

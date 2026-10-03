@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "petra402",
+  "description": "Public web page to markdown, paid per call with x402. First 10 calls free, no signup.",
+  "packageName": "@alphesdk-remote/io-github-pedroquatro-petra402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://petra402.com/mcp?src=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/PedroQuatro/petra402-mcp",
+  "readme": "https://github.com/PedroQuatro/petra402-mcp#readme"
+}

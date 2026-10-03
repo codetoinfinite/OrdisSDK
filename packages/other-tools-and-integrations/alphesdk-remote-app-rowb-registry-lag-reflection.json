@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Registry Lag — how fast MCP directories reflect a new server",
+  "description": "Checks whether an MCP server is listed in MCP directories right now, and how long the listing took.",
+  "packageName": "@alphesdk-remote/app-rowb-registry-lag-reflection",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://registry-lag.rowb.app/mcp"
+    }
+  ],
+  "url": "https://registry-lag.rowb.app"
+}

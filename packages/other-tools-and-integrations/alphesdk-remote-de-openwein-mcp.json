@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "openwein.de — deutsche Weingüter und Weinfeste",
+  "description": "German wineries, wine towns and wine festivals: 5.900 entries in 13 regions. Read-only, no key.",
+  "packageName": "@alphesdk-remote/de-openwein-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.openwein.de/mcp"
+    }
+  ],
+  "url": "https://www.openwein.de/llms.txt"
+}

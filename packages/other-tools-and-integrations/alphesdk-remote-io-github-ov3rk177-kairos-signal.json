@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "kairos-signal",
+  "description": "Provenance-first DePIN telemetry: 331 live networks + 129 Bittensor subnets, 10,508 series.",
+  "packageName": "@alphesdk-remote/io-github-ov3rk177-kairos-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kairossignal.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/OV3RK177/kairos-mcp-server",
+  "readme": "https://github.com/OV3RK177/kairos-mcp-server#readme"
+}

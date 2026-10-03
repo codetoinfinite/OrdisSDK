@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nestegg-calculators",
+  "description": "90+ pure finance calculators: loans, investing, bonds, options, tax. Stateless, stores nothing.",
+  "packageName": "@alphesdk-remote/io-github-vladimirwrites-nestegg-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nestegg.money/mcp"
+    }
+  ],
+  "url": "https://github.com/VladimirWrites/nestegg.money",
+  "readme": "https://github.com/VladimirWrites/nestegg.money#readme"
+}

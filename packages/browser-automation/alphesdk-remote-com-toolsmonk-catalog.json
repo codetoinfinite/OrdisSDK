@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ToolsMonk tool catalog",
+  "description": "Find the right ToolsMonk tool for a task: 255 free browser-based tools, read-only lookups.",
+  "packageName": "@alphesdk-remote/com-toolsmonk-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolsmonk.com/api/mcp"
+    }
+  ],
+  "url": "https://toolsmonk.com"
+}

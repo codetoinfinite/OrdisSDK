@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "vibe-trading",
+  "name": "Vibe-Trading",
+  "description": "Trading research agent that turns plain-language requests into strategies, backtests and reports across stock and crypto markets.",
+  "category": "finance-fintech",
+  "tags": ["trading", "backtesting", "quant", "research", "mcp"],
+  "repo": "https://github.com/HKUDS/Vibe-Trading",
+  "homepage": "https://vibetrading.wiki/",
+  "publisher": "HKU Data Intelligence Lab (HKUDS)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Writes and backtests strategies, benchmarks factor libraries, analyses a user's own trade history and exports reports. It targets quants and retail traders, with read-only broker connectors for portfolio views.",
+  "howItWorks": "A Python CLI and web UI run an agent with market data sources, a backtest engine and grounding checks that verify reported numbers. Setup is interactive and writes an env file selecting the provider and model; it also runs as a stdio MCP server.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.11+"
+    },
+    {
+      "name": "LLM provider credentials",
+      "kind": "api-key",
+      "required": true,
+      "description": "Chosen during init via LANGCHAIN_PROVIDER and LANGCHAIN_MODEL_NAME"
+    }
+  ],
+  "install": ["pip install vibe-trading-ai", "vibe-trading init"],
+  "run": ["vibe-trading", "vibe-trading serve --port 8899", "vibe-trading-mcp"],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Python",
+  "framework": "LangChain",
+  "models": "Multiple providers selected at init, including OpenAI Codex sign-in and Copilot",
+  "mcp": "both",
+  "github": {
+    "stars": 34463,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

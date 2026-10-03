@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Masterminds HQ",
+  "description": "Public offers, events, approved proof, FAQs, and safe checkout links.",
+  "packageName": "@alphesdk-remote/business-mastermindshq-masterminds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mastermindshq.business/mcp"
+    }
+  ]
+}

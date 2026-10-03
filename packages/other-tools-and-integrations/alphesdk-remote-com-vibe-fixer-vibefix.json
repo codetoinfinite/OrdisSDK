@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VibeFix",
+  "description": "Free triage for broken apps built with Lovable, Base44, v0, Bolt or Replit, then a live AI repair.",
+  "packageName": "@alphesdk-remote/com-vibe-fixer-vibefix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vibe-fixer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/yos88da/vibefix-mcp",
+  "readme": "https://github.com/yos88da/vibefix-mcp#readme"
+}

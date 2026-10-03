@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Quantum Expectations",
+  "description": "Quantum error-correction feasibility: success probability, qubit overhead, records, trends.",
+  "packageName": "@alphesdk-remote/com-quantum-expectations-quantum-expectations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.quantum-expectations.com/api/mcp"
+    }
+  ],
+  "url": "https://www.quantum-expectations.com"
+}

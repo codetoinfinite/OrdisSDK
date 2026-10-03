@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OG Stamp",
+  "description": "Pay-as-you-go Open Graph image API. Renders 1200x630 PNGs for agents. Credits never expire.",
+  "packageName": "@alphesdk-remote/com-ogstamp-og",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ogstamp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/BenceBakos/ogstamp",
+  "readme": "https://github.com/BenceBakos/ogstamp#readme"
+}

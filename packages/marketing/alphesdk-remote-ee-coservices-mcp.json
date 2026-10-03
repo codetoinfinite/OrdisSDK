@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Coservices marketing and IT agency services directory for AI agents.",
+  "packageName": "@alphesdk-remote/ee-coservices-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.coservices.ee/mcp"
+    }
+  ],
+  "url": "https://coservices.ee"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AstroTune — Vedic astrology (Jyotish)",
+  "description": "Jyotish charts, vargas, dashas, panchang, transits, matching. Place by name, no API key.",
+  "packageName": "@alphesdk-remote/io-astrotune-jyotish-vedic-astrology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://astrotune.io/mcp"
+    }
+  ],
+  "url": "https://astrotune.io/en/mcp"
+}

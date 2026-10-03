@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bloomy eSIM",
+  "description": "Recommend the right travel eSIM for any trip (200+ countries) and hand the traveler a checkout link.",
+  "packageName": "@alphesdk-remote/com-bloomyesim-esim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bloomyesim.com/wp-json/bloomy/v1/mcp"
+    }
+  ],
+  "url": "https://bloomyesim.com/en/ai-agents/"
+}

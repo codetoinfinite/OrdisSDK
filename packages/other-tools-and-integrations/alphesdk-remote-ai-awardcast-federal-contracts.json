@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AwardCast Federal Contracts",
+  "description": "US federal contracting data: open solicitations, buying agencies, contractors, price history.",
+  "packageName": "@alphesdk-remote/ai-awardcast-federal-contracts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://awardcast.ai/mcp"
+    }
+  ],
+  "url": "https://awardcast.ai"
+}

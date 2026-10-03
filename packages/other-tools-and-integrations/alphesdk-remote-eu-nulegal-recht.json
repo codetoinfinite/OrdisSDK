@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nu:legal Deutsches Recht",
+  "description": "German federal and Land statutes plus court decisions for agents. Keyless, read-only, CC BY 4.0.",
+  "packageName": "@alphesdk-remote/eu-nulegal-recht",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recht.nulegal.eu/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/nulegal-startup/recht-mcp",
+  "readme": "https://github.com/nulegal-startup/recht-mcp#readme"
+}

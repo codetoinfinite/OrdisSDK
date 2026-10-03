@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Chaparral Software MCP",
+  "description": "Independent AI consulting — services, dispatches, cairns, and 40-year client history.",
+  "packageName": "@alphesdk-remote/com-chapsoft-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chapsoft.com/mcp"
+    }
+  ]
+}

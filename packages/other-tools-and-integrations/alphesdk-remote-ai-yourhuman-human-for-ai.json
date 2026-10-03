@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Human for AI",
+  "description": "Ask a human for legal review, confirmation, a signature, or a physical-world act",
+  "packageName": "@alphesdk-remote/ai-yourhuman-human-for-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yourhuman.ai/mcp"
+    }
+  ],
+  "url": "https://yourhuman.ai/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ZenSched",
+  "description": "Field workforce scheduling for AI agents. GPS punches, forms, timesheets. No dashboard.",
+  "packageName": "@alphesdk-remote/com-zensched-zensched",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zensched.com/mcp"
+    }
+  ],
+  "url": "https://www.zensched.com/docs/quickstart/"
+}

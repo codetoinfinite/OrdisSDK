@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI2Fin (2Fin) Tax MCP",
+  "description": "Free public tax MCP: GST/VAT, income, company & capital-gains tax for 50+ countries, source-cited.",
+  "packageName": "@alphesdk-remote/com-ai2fin-ai2fin-tax-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taxmcp.ai2fin.com"
+    }
+  ],
+  "url": "https://github.com/embracingearth-space/ai2fin-tax-mcp",
+  "readme": "https://github.com/embracingearth-space/ai2fin-tax-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Brainiall Pronunciation",
+  "description": "Pronunciation assessment, phoneme scoring, speaker voice ID, audio transcription, speech synthesis.",
+  "packageName": "@alphesdk-remote/com-brainiall-pronunciation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.brainiall.com/mcp/pronunciation/mcp"
+    }
+  ],
+  "url": "https://brainiall.com"
+}

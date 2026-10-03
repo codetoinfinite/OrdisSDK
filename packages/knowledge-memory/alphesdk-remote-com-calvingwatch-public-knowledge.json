@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CalvingWatch Public Knowledge",
+  "description": "Read-only CalvingWatch product, tester, camera, privacy and safety facts; no customer data.",
+  "packageName": "@alphesdk-remote/com-calvingwatch-public-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calvingwatch.com/mcp"
+    }
+  ],
+  "url": "https://calvingwatch.com/ai/"
+}

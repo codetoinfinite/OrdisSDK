@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Decision & Evidence Tools (MCP + x402)",
+  "description": "40 MCP tools: multi-chain RPC, market and transaction decisions, AI, EU compliance and US imports",
+  "packageName": "@alphesdk-remote/io-github-patrickpi1312-eu-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eucompliance.tools/mcp"
+    }
+  ],
+  "url": "https://github.com/PatrickPi1312/eucompliance-tools",
+  "readme": "https://github.com/PatrickPi1312/eucompliance-tools#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FlexYield — blockchain RPC gateway",
+  "description": "RPC gateway for agents: six mainnets, measured failover, a key without signup, pay per call in USDC.",
+  "packageName": "@alphesdk-remote/io-flexyield-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flexyield.io/mcp"
+    }
+  ],
+  "url": "https://flexyield.io/mcp"
+}

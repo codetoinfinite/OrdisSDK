@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CodeCraft",
+  "description": "Checks whether generated Minecraft Bedrock content will actually load. Nine read-only tools.",
+  "packageName": "@alphesdk-remote/io-github-tanertalas-codecraft",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://codecraft-ashy-seven.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/TanerTalas/codecraft",
+  "readme": "https://github.com/TanerTalas/codecraft#readme"
+}

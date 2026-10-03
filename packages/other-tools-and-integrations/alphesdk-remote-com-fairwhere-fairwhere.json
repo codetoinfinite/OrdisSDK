@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FairWhere",
+  "description": "Free London beta meetup planner. Ranks curated Placelists by journey fairness for the whole group.",
+  "packageName": "@alphesdk-remote/com-fairwhere-fairwhere",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fairwhere.com/mcp"
+    }
+  ],
+  "url": "https://www.fairwhere.com/agents"
+}

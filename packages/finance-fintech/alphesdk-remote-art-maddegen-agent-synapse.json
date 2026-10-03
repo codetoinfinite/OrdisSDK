@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse",
+  "description": "Solana + pump.fun intel for agents: launch verdicts, token risk, dev/wallet records, smart money.",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

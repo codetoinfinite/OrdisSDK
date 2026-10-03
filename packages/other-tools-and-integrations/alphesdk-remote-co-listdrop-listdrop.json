@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ListDrop",
+  "description": "Save list-shaped answers as lists your user can keep, share, and check off. Keyless or OAuth.",
+  "packageName": "@alphesdk-remote/co-listdrop-listdrop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.listdrop.co/mcp"
+    }
+  ],
+  "url": "https://www.listdrop.co/ai"
+}

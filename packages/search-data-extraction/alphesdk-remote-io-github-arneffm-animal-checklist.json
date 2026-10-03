@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Animal Checklist",
+  "description": "Search animals in eight languages with habitats, countries, photos and source credits.",
+  "packageName": "@alphesdk-remote/io-github-arneffm-animal-checklist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://animalchecklist.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ArneFfm/animal-checklist-agents",
+  "readme": "https://github.com/ArneFfm/animal-checklist-agents#readme"
+}

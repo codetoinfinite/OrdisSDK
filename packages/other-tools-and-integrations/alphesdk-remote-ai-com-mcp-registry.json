@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Registry Server",
+  "description": "Publish and discover MCP servers via the official MCP Registry. Powered by HAPI MCP server.",
+  "packageName": "@alphesdk-remote/ai-com-mcp-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://registry.run.mcp.com.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/modelcontextprotocol/registry",
+  "readme": "https://github.com/modelcontextprotocol/registry#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SuntekStore catalog",
+  "description": "Specialty parts and tools, free US shipping. Search, filters, cart checkout links, order status.",
+  "packageName": "@alphesdk-remote/com-suntekstore-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://suntekstore.com/mcp"
+    }
+  ],
+  "url": "https://suntekstore.com/llms.txt"
+}

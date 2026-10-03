@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "kagent",
+  "name": "kagent",
+  "description": "Kubernetes-native platform for running AI agents as cluster resources, shipped with ready-made agents and tools for cloud-native operations.",
+  "category": "cloud-platforms",
+  "tags": ["kubernetes", "devops", "agent-platform", "crd", "a2a"],
+  "repo": "https://github.com/kagent-dev/kagent",
+  "homepage": "https://kagent.dev",
+  "docs": "https://kagent.dev/docs/kagent/1.x/setup/installation/",
+  "publisher": "kagent",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets platform teams define, deploy and talk to agents that operate cloud-native infrastructure, such as troubleshooting workloads or inspecting service mesh and GitOps state. Agents are managed like any other Kubernetes object and reachable from a dashboard or CLI.",
+  "howItWorks": "Agents are declared as custom resources that a controller reconciles into running workloads, with state held in PostgreSQL. A bundled MCP tool server exposes operations for Kubernetes, Istio, Helm, Argo, Prometheus, Grafana and Cilium. Agents can be written with the Go or Python development kits and are exposed over A2A and MCP.",
+  "requirements": [
+    {
+      "name": "Kubernetes cluster",
+      "kind": "service",
+      "required": true,
+      "description": "Cluster where the controller, UI and agents are deployed"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the configured model provider"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Go",
+  "models": "OpenAI, Azure OpenAI, Anthropic, Google Vertex AI and others",
+  "mcp": "both",
+  "github": {
+    "stars": 3917,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

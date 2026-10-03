@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CoinGraph",
+  "description": "Pre-trade crypto intelligence: survival rating, order-book depth, unlocks and contract flags.",
+  "packageName": "@alphesdk-remote/ai-coingraph-coingraph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coingraph.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/eventgraphai/coingraph",
+  "readme": "https://github.com/eventgraphai/coingraph#readme"
+}

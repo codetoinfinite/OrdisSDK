@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pinoyshki Bakery",
+  "description": "Browse Pinoyshki Bakery's menu, check an order against its rules, and get the checkout link.",
+  "packageName": "@alphesdk-remote/com-pinoyshki-bakery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bot.pinoyshki.com/mcp"
+    }
+  ],
+  "url": "https://pinoyshki.com"
+}

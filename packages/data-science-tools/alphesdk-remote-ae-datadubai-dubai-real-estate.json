@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dubai Data — Dubai real estate statistics",
+  "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
+  "packageName": "@alphesdk-remote/ae-datadubai-dubai-real-estate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.datadubai.ae/mcp"
+    }
+  ],
+  "url": "https://github.com/datadubai/dubai-real-estate-dld",
+  "readme": "https://github.com/datadubai/dubai-real-estate-dld#readme"
+}

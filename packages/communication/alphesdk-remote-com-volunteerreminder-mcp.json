@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VolunteerReminder",
+  "description": "Import a volunteer roster and preview shifts. Test-mode until a human enables live SMS.",
+  "packageName": "@alphesdk-remote/com-volunteerreminder-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.volunteerreminder.com/mcp"
+    }
+  ],
+  "url": "https://github.com/talltimbersgroup/VolunteerReminder",
+  "readme": "https://github.com/talltimbersgroup/VolunteerReminder#readme"
+}

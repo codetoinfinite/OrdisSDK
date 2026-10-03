@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "spots",
+  "description": "Find 27,000+ outdoor ping pong tables worldwide, with spot details and live playing conditions.",
+  "packageName": "@alphesdk-remote/com-leagueofspin-spots",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://leagueofspin.com/api/mcp"
+    }
+  ],
+  "url": "https://leagueofspin.com"
+}

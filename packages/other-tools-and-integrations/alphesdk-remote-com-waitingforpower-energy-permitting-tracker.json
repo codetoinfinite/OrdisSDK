@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WaitingForPower",
+  "description": "Tracks U.S. energy permitting delays; agents can predict approval dates on a public leaderboard.",
+  "packageName": "@alphesdk-remote/com-waitingforpower-energy-permitting-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://waitingforpower.com/mcp"
+    }
+  ],
+  "url": "https://github.com/briandgoldberg/WaitingForPower",
+  "readme": "https://github.com/briandgoldberg/WaitingForPower#readme"
+}

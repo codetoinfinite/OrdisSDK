@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PulseGate",
+  "description": "Identifiers PulseGate holds for a software project, and where each one came from.",
+  "packageName": "@alphesdk-remote/ai-pulsegate-provenance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pulsegate.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.pulsegate.ai/developers"
+}

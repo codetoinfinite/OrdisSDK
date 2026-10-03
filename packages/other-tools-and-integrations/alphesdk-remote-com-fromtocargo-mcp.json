@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "European road freight and moving prices: quotes, dated price index, glossary, order submission",
+  "packageName": "@alphesdk-remote/com-fromtocargo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fromtocargo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/coservices-ee/fromtocargo-mcp",
+  "readme": "https://github.com/coservices-ee/fromtocargo-mcp#readme"
+}

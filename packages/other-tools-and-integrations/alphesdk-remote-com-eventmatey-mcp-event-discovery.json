@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EventMatey Event Discovery",
+  "description": "Find public EventMatey events that organisers have approved for AI discovery.",
+  "packageName": "@alphesdk-remote/com-eventmatey-mcp-event-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eventmatey.com/mcp"
+    }
+  ],
+  "url": "https://mcp.eventmatey.com/"
+}

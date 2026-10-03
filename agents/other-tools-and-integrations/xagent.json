@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "xagent",
+  "name": "XAgent",
+  "description": "Experimental autonomous agent that plans and solves general tasks, running all its actions inside a Docker tool server.",
+  "category": "other-tools-and-integrations",
+  "tags": ["autonomous", "general-agent", "docker", "tool-server", "experimental"],
+  "repo": "https://github.com/OpenBMB/XAgent",
+  "publisher": "OpenBMB",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Takes a task and works on it without supervision, optionally asking the human for help or following guidance mid-run. Records every step so a run can be replayed. Offers both a command line and a web GUI.",
+  "howItWorks": "A dispatcher hands work to planner and actor agents, and actions execute in a containerised ToolServer. It is started with a task and a YAML config holding OpenAI keys, or through a web UI served on port 5173.",
+  "requirements": [
+    {
+      "name": "Docker and docker-compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the ToolServer containers"
+    },
+    {
+      "name": "Python >= 3.10",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the agent itself"
+    },
+    {
+      "name": "OpenAI API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in assets/config.yml; GPT-4 class models recommended"
+    }
+  ],
+  "install": ["docker compose up", "pip install -r requirements.txt"],
+  "run": ["python run.py --task \"put your task here\" --config-file \"assets/config.yml\""],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "OpenAI GPT-4 family",
+  "mcp": "none",
+  "github": {
+    "stars": 8552,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-31",
+    "checkedAt": "2026-10-03"
+  }
+}

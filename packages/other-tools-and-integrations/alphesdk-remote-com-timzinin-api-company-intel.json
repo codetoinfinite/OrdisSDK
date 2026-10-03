@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Company Intel",
+  "description": "9 pay-per-call company intel tools over MCP. Free discovery, calls settle in USDC on Base (x402).",
+  "packageName": "@alphesdk-remote/com-timzinin-api-company-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/company-intel"
+    }
+  ]
+}

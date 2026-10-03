@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Daily Smark",
+  "description": "Pro-wrestling news, TV schedules, live events, videos and podcasts. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-thedailysmark-wrestling",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thedailysmark.com/mcp"
+    }
+  ],
+  "url": "https://www.thedailysmark.com/ai"
+}

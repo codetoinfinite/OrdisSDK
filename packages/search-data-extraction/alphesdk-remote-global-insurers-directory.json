@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Insurers Global",
+  "description": "Search the world's licensed insurers by country, class, group and regulator. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/global-insurers-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://insurers.global/mcp"
+    }
+  ],
+  "url": "https://insurers.global"
+}

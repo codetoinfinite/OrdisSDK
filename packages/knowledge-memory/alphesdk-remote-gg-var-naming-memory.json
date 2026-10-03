@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "var.gg Naming Memory",
+  "description": "Curated multilingual dictionary that names code identifiers from domain concepts (KO/JA/ZH/VI/EN).",
+  "packageName": "@alphesdk-remote/gg-var-naming-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://var.gg/mcp"
+    }
+  ],
+  "url": "https://var.gg/ko/mcp"
+}

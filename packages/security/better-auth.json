@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "better-auth",
+  "packageName": "github:nahmanmate/better-auth-mcp-server#7b3335bfeaebd2956a0de9fde588bcaf22aa2a17",
   "description": "Integrates with Better-Auth to simplify authentication processes.",
   "url": "https://github.com/nahmanmate/better-auth-mcp-server",
   "runtime": "node",

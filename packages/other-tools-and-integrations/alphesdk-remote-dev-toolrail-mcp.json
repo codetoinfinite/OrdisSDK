@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Toolrail",
+  "description": "Chile and LATAM data utilities: UF, RUT, business days, FX and VAT. Free daily MCP quota.",
+  "packageName": "@alphesdk-remote/dev-toolrail-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolrail.dev/mcp"
+    }
+  ],
+  "url": "https://toolrail.dev"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "verify",
+  "description": "Runs your code against a contract; HELD or BROKE at the exact input. Deterministic. 0.10 USDC/call.",
+  "packageName": "@alphesdk-remote/com-kenoodl-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kenoodl.com/mcp"
+    }
+  ]
+}

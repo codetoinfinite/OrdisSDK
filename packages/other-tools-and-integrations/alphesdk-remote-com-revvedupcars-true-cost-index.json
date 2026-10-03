@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RevvedUpCars True Cost Index",
+  "description": "What a new car costs a month to own in the US: loan, insurance, maintenance, fuel. No key.",
+  "packageName": "@alphesdk-remote/com-revvedupcars-true-cost-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://revvedupcars.com/api/mcp"
+    }
+  ],
+  "url": "https://revvedupcars.com/developers"
+}

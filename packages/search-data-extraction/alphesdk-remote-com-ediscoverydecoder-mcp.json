@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eDiscovery Decoder News/Calc",
+  "description": "Free educational MCP for read-only eDiscovery news and TAR/review calculators.",
+  "packageName": "@alphesdk-remote/com-ediscoverydecoder-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ediscoverydecoder.com/mcp"
+    }
+  ],
+  "url": "https://ediscoverydecoder.com/"
+}

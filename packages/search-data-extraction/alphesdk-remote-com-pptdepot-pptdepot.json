@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pptdepot",
+  "description": "PPT Depot: professional PowerPoint templates and slides for business presentations, free to search",
+  "packageName": "@alphesdk-remote/com-pptdepot-pptdepot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pptdepot.com/mcp"
+    }
+  ],
+  "url": "https://pptdepot.com"
+}

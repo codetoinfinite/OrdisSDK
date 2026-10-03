@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "slotrobin",
+  "description": "Find, get quotes from and book local service businesses on their own Square or Google calendar.",
+  "packageName": "@alphesdk-remote/io-github-kyleclouthier-slotrobin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://open-booking-csl.web.app/mcp"
+    }
+  ],
+  "url": "https://open-booking-csl.web.app"
+}

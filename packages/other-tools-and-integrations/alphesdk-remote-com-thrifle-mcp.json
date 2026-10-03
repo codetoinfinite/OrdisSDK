@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Thrifle",
+  "description": "US return policies, price-match rules, discounts, deals and Amazon price verdicts. Read-only.",
+  "packageName": "@alphesdk-remote/com-thrifle-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.thrifle.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ejazmu/thrifle-mcp",
+  "readme": "https://github.com/ejazmu/thrifle-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PCBLT — Live Checks",
+  "description": "Live DNS, email-auth and redirect checks, HTTP security headers, uptime history, PC hardware prices.",
+  "packageName": "@alphesdk-remote/com-pcblt-pcblt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pcblt.com/mcp"
+    }
+  ],
+  "url": "https://pcblt.com"
+}

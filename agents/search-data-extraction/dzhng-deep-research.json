@@ -1,0 +1,64 @@
+{
+  "type": "external-agent",
+  "key": "dzhng-deep-research",
+  "name": "Open Deep Research (dzhng)",
+  "description": "Minimal deep-research agent that iterates search, scraping and LLM reasoning to build a markdown report.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "minimal", "firecrawl", "cli", "reports"],
+  "repo": "https://github.com/dzhng/deep-research",
+  "publisher": "David Zhang",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Researches any topic by repeatedly refining its direction and compiling the findings into a markdown report. It is intentionally small so developers can read and adapt it.",
+  "howItWorks": "The agent generates search queries, scrapes results with Firecrawl, extracts learnings and new directions, and recurses according to breadth and depth settings before writing the report. It is an interactive command-line program that can also run inside Docker.",
+  "requirements": [
+    {
+      "name": "FIRECRAWL_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Search and scraping through Firecrawl"
+    },
+    {
+      "name": "FIRECRAWL_BASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Self-hosted Firecrawl endpoint"
+    },
+    {
+      "name": "OPENAI_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM access"
+    },
+    {
+      "name": "OPENAI_ENDPOINT",
+      "kind": "service",
+      "required": false,
+      "description": "Custom or local OpenAI-compatible endpoint"
+    },
+    {
+      "name": "FIREWORKS_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alternative model provider"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the agent"
+    }
+  ],
+  "install": ["npm install"],
+  "run": ["npm start"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "OpenAI, Fireworks, or a custom OpenAI-compatible model",
+  "mcp": "none",
+  "github": {
+    "stars": 19745,
+    "license": "MIT",
+    "pushedAt": "2026-04-11",
+    "checkedAt": "2026-10-03"
+  }
+}

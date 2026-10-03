@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "connorgallic",
+  "description": "Query Connor Gallic's profile, products (KaiCalls, Kai CMO, Build with Kai), and writing.",
+  "packageName": "@alphesdk-remote/com-connorgallic-connorgallic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://connorgallic.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/cgallic/connorgallic.com",
+  "readme": "https://github.com/cgallic/connorgallic.com#readme"
+}

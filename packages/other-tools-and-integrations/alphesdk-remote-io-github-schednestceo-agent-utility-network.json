@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Utility Network",
+  "description": "External x402 agent utilities with free routing and an AveDaris machine Discovery Beacon.",
+  "packageName": "@alphesdk-remote/io-github-schednestceo-agent-utility-network",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.avedaris.com/mcp?source=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/SchedNestCEO/agent-utility-network",
+  "readme": "https://github.com/SchedNestCEO/agent-utility-network#readme"
+}

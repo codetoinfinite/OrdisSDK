@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Chaiz MCP",
+  "description": "Live vehicle warranty (service contract) quotes by VIN, plate, or make/model/year.",
+  "packageName": "@alphesdk-remote/com-chaiz-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chaiz.com/mcp"
+    }
+  ]
+}

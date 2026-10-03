@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MagicScreenshots",
+  "description": "Search real App Store screenshots and preview videos; generate and localize your own.",
+  "packageName": "@alphesdk-remote/io-github-humanleap-magicscreenshots-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.magicscreenshots.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Humanleap/magicscreenshots-mcp",
+  "readme": "https://github.com/Humanleap/magicscreenshots-mcp#readme"
+}

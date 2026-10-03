@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "satoshidata — Bitcoin entity intelligence",
+  "description": "Bitcoin entity and risk-exposure evidence for AI agents; keyless MCP, no risk_check score/verdict.",
+  "packageName": "@alphesdk-remote/ai-satoshidata-wallet-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://satoshidata.ai/mcp/v1/"
+    }
+  ],
+  "url": "https://satoshidata.ai"
+}

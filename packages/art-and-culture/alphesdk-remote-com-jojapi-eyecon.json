@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eyecon",
+  "description": "Eyecon: Use the no.1 API for a true caller ID to identify name and see photos. 100% success rate.",
+  "packageName": "@alphesdk-remote/com-jojapi-eyecon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/eyecon"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/eyecon"
+}

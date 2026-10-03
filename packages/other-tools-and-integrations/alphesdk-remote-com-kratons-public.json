@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "public",
+  "description": "Kratons, boutique DMC: bespoke trips in Spain, Portugal, Morocco. Facts, catalog, reviews, requests.",
+  "packageName": "@alphesdk-remote/com-kratons-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kratons.com/api/mcp"
+    }
+  ],
+  "url": "https://www.kratons.com/en/"
+}

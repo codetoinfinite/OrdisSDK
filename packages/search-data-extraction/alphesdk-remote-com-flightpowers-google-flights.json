@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Google Flights Search (Real-Time Fares)",
+  "description": "Real-time Google Flights: one-way and round-trip fares over date ranges, with price verdicts.",
+  "packageName": "@alphesdk-remote/com-flightpowers-google-flights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flights.flightpowers.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mtnrabi/google-flights-mcp",
+  "readme": "https://github.com/mtnrabi/google-flights-mcp#readme"
+}

@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "simple-tool-(website-fetcher)",
+  "packageName": "git+https://github.com/myblockcities/mcp-server-heroku@a686b44f84471007c17136f50dee715891219897",
   "description": "Integrates with web servers to fetch and retrieve webpage content for analysis and processing tasks.",
   "url": "https://github.com/myblockcities/mcp-server-heroku",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCP Server Heroku"
+  "name": "MCP Server Heroku",
+  "bin": "mcp-simple-tool",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

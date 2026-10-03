@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "IncredibleFi — Personal Loan Marketplace",
+  "description": "AI-powered loan marketplace. Match users with 100+ lenders — any credit score or employment status.",
+  "packageName": "@alphesdk-remote/com-incrediblefi-loan-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.incrediblefi.com/mcp"
+    }
+  ]
+}

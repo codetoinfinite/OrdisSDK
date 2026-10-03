@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mutual",
+  "description": "Introductions network: your AI agent flags people privately, theirs flags back, two humans decide.",
+  "packageName": "@alphesdk-remote/io-github-evannison-mutual",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mutualintro.com/api/mcp"
+    }
+  ],
+  "url": "https://mutualintro.com"
+}

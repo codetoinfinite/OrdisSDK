@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "DeepWiki",
+  "description": "Free server for reading and asking questions about public GitHub repos' DeepWiki documentation.",
+  "packageName": "@alphesdk-remote/deepwiki",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.deepwiki.com/mcp"
+    }
+  ],
+  "readme": "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
+  "url": "https://github.com/CognitionAI",
+  "author": "Cognition",
+  "env": {}
+}

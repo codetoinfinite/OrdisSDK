@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ArcadeOps Public Discovery",
+  "description": "Read-only ArcadeOps discovery for developer docs, OAuth, OpenAPI and synthetic sandbox.",
+  "packageName": "@alphesdk-remote/io-github-damso74-arcadeops-public-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arcadeops.leadalpes.fr/mcp/public"
+    }
+  ]
+}

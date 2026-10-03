@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Jenesis Travel",
+  "description": "Bangkok boutique planner: live Thailand journeys, prices, FAQs, and enquiry handoff.",
+  "packageName": "@alphesdk-remote/com-jenesistravel-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jenesistravel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JenesisTravel/jenesistravel-nextjs",
+  "readme": "https://github.com/JenesisTravel/jenesistravel-nextjs#readme"
+}

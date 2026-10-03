@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Constat Auto — Constat amiable",
+  "description": "Remplir un constat amiable et recevoir le PDF signé par email, directement en conversation.",
+  "packageName": "@alphesdk-remote/io-github-doran56-constat-auto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.constat-auto.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Doran56/constat-auto",
+  "readme": "https://github.com/Doran56/constat-auto#readme"
+}

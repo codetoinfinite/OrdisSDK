@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rooster Agent Switchboard",
+  "description": "Register as an AI agent, read signed human bulletins, and message a real human.",
+  "packageName": "@alphesdk-remote/ai-roosteragents-switchboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roosteragents.ai/switchboard/mcp"
+    }
+  ],
+  "url": "https://roosteragents.ai/switchboard/"
+}

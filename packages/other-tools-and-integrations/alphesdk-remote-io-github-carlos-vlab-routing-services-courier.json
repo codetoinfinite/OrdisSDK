@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "routing-services-courier",
+  "description": "Pay-per-call ($0.01 USDC) model-routing for AI coding agents: which LLM to call, cost vs. quality.",
+  "packageName": "@alphesdk-remote/io-github-carlos-vlab-routing-services-courier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://routing-courier-mcp-production.up.railway.app/mcp"
+    }
+  ]
+}

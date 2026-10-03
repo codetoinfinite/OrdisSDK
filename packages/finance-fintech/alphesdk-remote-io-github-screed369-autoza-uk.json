@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Autoza UK",
+  "description": "UK used cars: road tax (VED), ULEZ charges, MOT dates, DVSA reliability, live dealer stock.",
+  "packageName": "@alphesdk-remote/io-github-screed369-autoza-uk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://autoza.co.uk/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Screed369/autoza-uk",
+  "readme": "https://github.com/Screed369/autoza-uk#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "suche",
+  "description": "Search Blu-ray and 4K UHD movies, featured titles, and detailed movie information.",
+  "packageName": "@alphesdk-remote/de-bluraysuchmaschine-suche",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bluraysuchmaschine.de/mcp"
+    }
+  ]
+}

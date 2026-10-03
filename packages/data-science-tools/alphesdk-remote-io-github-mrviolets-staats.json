@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Staats",
+  "description": "Cookieless web analytics your coding agent reads: traffic answers, deploy impact, what broke.",
+  "packageName": "@alphesdk-remote/io-github-mrviolets-staats",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.staats.ai/functions/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/MrViolets/staats-mcp",
+  "readme": "https://github.com/MrViolets/staats-mcp#readme"
+}

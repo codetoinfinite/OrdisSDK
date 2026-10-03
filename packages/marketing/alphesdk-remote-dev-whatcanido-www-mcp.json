@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Whatcanido — MCP Server for Service Businesses",
+  "description": "Cross-product MCP server for CRM, LeadKit, ProjectKit, Bookio. 10 action types, MIT open spec.",
+  "packageName": "@alphesdk-remote/dev-whatcanido-www-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whatcanido.dev/api/mcp"
+    }
+  ],
+  "url": "https://whatcanido.dev/agents"
+}

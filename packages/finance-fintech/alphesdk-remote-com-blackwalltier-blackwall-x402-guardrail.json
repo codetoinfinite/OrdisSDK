@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "blackwall-x402-guardrail",
+  "description": "Keyless hosted MCP: pre-signature x402 payment verdict (GO/HOLD/STOP) with a signed receipt.",
+  "packageName": "@alphesdk-remote/com-blackwalltier-blackwall-x402-guardrail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blackwalltier.com"
+    }
+  ],
+  "url": "https://github.com/bluetieroperations-create/blackwall-x402-mcp",
+  "readme": "https://github.com/bluetieroperations-create/blackwall-x402-mcp#readme"
+}

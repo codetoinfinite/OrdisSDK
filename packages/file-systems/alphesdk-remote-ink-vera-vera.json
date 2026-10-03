@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vera.ink",
+  "description": "Check documents against rules taken from the law itself. Every finding cites the exact clause.",
+  "packageName": "@alphesdk-remote/ink-vera-vera",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vera-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://vera.ink/developers"
+}

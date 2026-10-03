@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "bazel",
+  "packageName": "github:nacgarg/bazel-mcp-server#5084a5b490ad01cc2a8c7a2ae168986470678fc2",
   "description": "Bridges AI with Bazel build system, enabling target building, dependency querying, test running, and workspace management even in environments with misconfigured shells.",
   "url": "https://github.com/nacgarg/bazel-mcp-server",
   "runtime": "node",

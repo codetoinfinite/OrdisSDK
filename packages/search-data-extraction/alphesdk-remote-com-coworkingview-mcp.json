@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CoworkingView",
+  "description": "Search real coworking spaces in Europe and the Middle East: prices, amenities, locations.",
+  "packageName": "@alphesdk-remote/com-coworkingview-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.coworkingview.com/mcp"
+    }
+  ],
+  "url": "https://coworkingview.com/en/mcp"
+}

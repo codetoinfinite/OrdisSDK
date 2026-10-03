@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ChangeThisFile",
+  "description": "1,000+ conversion routes plus translate, extract tables, compress. 25 free/month, then a free key.",
+  "packageName": "@alphesdk-remote/com-changethisfile-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://changethisfile.com/mcp"
+    }
+  ],
+  "url": "https://github.com/aadilr/changethisfile-mcp",
+  "readme": "https://github.com/aadilr/changethisfile-mcp#readme"
+}

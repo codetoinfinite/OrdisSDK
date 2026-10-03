@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Scrykeeper Royal Road Intelligence",
+  "description": "Royal Road story, author, audience, and market intelligence for AI agents.",
+  "packageName": "@alphesdk-remote/com-scrykeeper-royal-road-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrykeeper.com/mcp"
+    }
+  ]
+}

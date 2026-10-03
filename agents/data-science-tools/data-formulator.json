@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "data-formulator",
+  "name": "Data Formulator",
+  "description": "Microsoft Research app where AI agents load, transform and chart data in a visual workspace for exploratory analysis.",
+  "category": "data-science-tools",
+  "tags": ["data-visualization", "analytics", "charts", "data-agents"],
+  "repo": "https://github.com/microsoft/data-formulator",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Analysts connect files or databases, describe the chart or question they have in mind, and agents derive the needed data transformations and visualisations. Explorations are kept as branching threads rather than one long chat.",
+  "howItWorks": "A local Python server with a web UI sends the user's intent to LLM agents that write data-transformation code and chart specifications, which are then executed and rendered. Models are reached through LiteLLM and configured in the UI.",
+  "requirements": [
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for a LiteLLM-supported provider, entered in the app"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "pip/uvx install; Docker Compose also offered"
+    }
+  ],
+  "install": ["pip install data_formulator"],
+  "run": ["python -m data_formulator"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI, Azure, Anthropic, Ollama via LiteLLM",
+  "mcp": "none",
+  "github": {
+    "stars": 17517,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booboooking Appointment Booking",
+  "description": "Book appointments with service providers on booboooking.com — no token required.",
+  "packageName": "@alphesdk-remote/com-spocont-booboooking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://booboooking.com/api/slot/mcp"
+    }
+  ],
+  "url": "https://booboooking.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "opportunity-exchange",
+  "description": "Keyless Saskatchewan labour-market data: measured wages and rents, roles, jobs, outcomes, pathways.",
+  "packageName": "@alphesdk-remote/ca-veilpoint-opportunity-exchange",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://veilpoint.ca/mcp"
+    }
+  ],
+  "url": "https://veilpoint.ca/agents"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rasczak Knowledge Commons",
+  "description": "Free decision methods, work-kit previews and optional feedback. Hosted research is not available.",
+  "packageName": "@alphesdk-remote/dev-workers-rasczak-commons-rasczak-agent-service-agent-service",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rasczak-agent-service.rasczak-commons.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/rasczak-commons/agent-service",
+  "readme": "https://github.com/rasczak-commons/agent-service#readme"
+}

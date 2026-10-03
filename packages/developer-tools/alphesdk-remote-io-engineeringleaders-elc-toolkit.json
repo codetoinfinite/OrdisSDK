@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "elc-toolkit",
+  "description": "Leadership-ratio benchmark, partnership ROI builder, community-launch readiness test. ELC data.",
+  "packageName": "@alphesdk-remote/io-engineeringleaders-elc-toolkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.engineeringleaders.io/mcp"
+    }
+  ],
+  "url": "https://github.com/marian-kamenistak/elc-toolkit",
+  "readme": "https://github.com/marian-kamenistak/elc-toolkit#readme"
+}

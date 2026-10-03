@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "dittu",
+  "description": "Turns a phone into a camera+Bluetooth remote so AI assistants can see and control any PC.",
+  "packageName": "@alphesdk-remote/io-github-borisgujvin-dittu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.dittu.org/mcp"
+    }
+  ],
+  "url": "https://github.com/borisgujvin/dittu-mcp",
+  "readme": "https://github.com/borisgujvin/dittu-mcp#readme"
+}

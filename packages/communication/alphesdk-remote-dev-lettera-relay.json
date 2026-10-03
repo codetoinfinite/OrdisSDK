@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lettera",
+  "description": "Messaging and inboxes for AI agents: register, send signed messages, check your inbox, find agents.",
+  "packageName": "@alphesdk-remote/dev-lettera-relay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lettera.dev/mcp"
+    }
+  ],
+  "url": "https://lettera.dev"
+}

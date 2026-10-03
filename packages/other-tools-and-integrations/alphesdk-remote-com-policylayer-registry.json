@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "registry",
+  "description": "The MCP server that vets MCP servers: identity, risk grade and per-tool risk before you install.",
+  "packageName": "@alphesdk-remote/com-policylayer-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.policylayer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/PolicyLayer/mcp",
+  "readme": "https://github.com/PolicyLayer/mcp#readme"
+}

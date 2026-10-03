@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "anything-llm",
+  "name": "AnythingLLM",
+  "description": "All-in-one desktop and Docker app for chatting with documents and running AI agents, local by default.",
+  "category": "knowledge-memory",
+  "tags": ["rag", "agents", "desktop", "self-hosted", "multi-user"],
+  "repo": "https://github.com/Mintplex-Labs/anything-llm",
+  "homepage": "https://anythingllm.com",
+  "docs": "https://docs.anythingllm.com",
+  "publisher": "Mintplex Labs",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets individuals and teams chat with their documents in workspaces and automate tasks with built-in agents. The Docker version adds multi-user permissions and an embeddable chat widget.",
+  "howItWorks": "A server, a front end and a document collector work together: the collector processes files, the server handles embedding, vector storage and LLM calls, and agents can call tools including MCP-compatible ones. It is distributed as a desktop app for Mac, Windows and Linux and as a Docker image; from source the three parts are started with yarn scripts.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional; runs with a local model by default"
+    },
+    {
+      "name": "Node.js and yarn",
+      "kind": "runtime",
+      "required": false,
+      "description": "For running from source"
+    }
+  ],
+  "install": ["yarn setup"],
+  "run": ["yarn dev:server", "yarn dev:frontend", "yarn dev:collector"],
+  "interfaces": ["desktop", "web", "api"],
+  "language": "JavaScript",
+  "models": "Local models and most hosted LLM providers",
+  "mcp": "client",
+  "github": {
+    "stars": 66679,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

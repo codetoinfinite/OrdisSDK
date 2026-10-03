@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clearvoyance",
+  "description": "Anonymous feedback from real people by voice or text, with an AI report. Flat price per campaign.",
+  "packageName": "@alphesdk-remote/ai-clearvoyance-clearvoyance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clearvoyance.ai/mcp"
+    }
+  ],
+  "url": "https://clearvoyance.ai/aeo#mcp-integration"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "StackFast FractWin Expert Brain",
+  "description": "Expert knowledge base for sales, negotiation, strategy, operations, and risk.",
+  "packageName": "@alphesdk-remote/io-github-trupe-rs-expert-brain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stackfast.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/stackfast-technologies/mcp-brain-server",
+  "readme": "https://github.com/stackfast-technologies/mcp-brain-server#readme"
+}

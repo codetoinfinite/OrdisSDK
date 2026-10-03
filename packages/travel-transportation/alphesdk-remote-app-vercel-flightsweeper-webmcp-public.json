@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FlightSweeper",
+  "description": "Anonymous public tools for FlightSweeper. See the published agent boundary before use.",
+  "packageName": "@alphesdk-remote/app-vercel-flightsweeper-webmcp-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flightsweeper-webmcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/raintree-technology/flightsweeper-webmcp",
+  "readme": "https://github.com/raintree-technology/flightsweeper-webmcp#readme"
+}

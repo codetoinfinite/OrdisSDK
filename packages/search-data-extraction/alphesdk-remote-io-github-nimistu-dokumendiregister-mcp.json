@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "dokumendiregister.ee — Estonian public-authority documents",
+  "description": "Estonian public-authority document registers: one search across all, docs linked to companies.",
+  "packageName": "@alphesdk-remote/io-github-nimistu-dokumendiregister-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dokumendiregister.ee/api/dokreg-mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/Nimistu/dokumendiregister-mcp",
+  "readme": "https://github.com/Nimistu/dokumendiregister-mcp#readme"
+}

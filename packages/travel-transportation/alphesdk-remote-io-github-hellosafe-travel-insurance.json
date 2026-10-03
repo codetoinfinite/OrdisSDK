@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "travel-insurance",
+  "description": "Compare travel insurance quotes from 15+ insurers — Schengen, WHV, students, long stays, seniors.",
+  "packageName": "@alphesdk-remote/io-github-hellosafe-travel-insurance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hellosafe.com/api/mcp-travel"
+    }
+  ],
+  "url": "https://github.com/HelloSafe/travel",
+  "readme": "https://github.com/HelloSafe/travel#readme"
+}

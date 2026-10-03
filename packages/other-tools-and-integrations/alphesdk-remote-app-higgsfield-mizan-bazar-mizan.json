@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mizan",
+  "description": "Check an x402 endpoint before your agent pays it: avoid / caution / ok, proven on-chain.",
+  "packageName": "@alphesdk-remote/app-higgsfield-mizan-bazar-mizan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mizan-bazar.higgsfield.app/mcp"
+    }
+  ],
+  "url": "https://mizan-bazar.higgsfield.app"
+}

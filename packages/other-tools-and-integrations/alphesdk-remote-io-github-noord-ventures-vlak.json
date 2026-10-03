@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vlak",
+  "description": "Accessible React components, tokens, usage guidance, and install commands for product interfaces.",
+  "packageName": "@alphesdk-remote/io-github-noord-ventures-vlak",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vlak.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Noord-Ventures/vlak",
+  "readme": "https://github.com/Noord-Ventures/vlak#readme"
+}

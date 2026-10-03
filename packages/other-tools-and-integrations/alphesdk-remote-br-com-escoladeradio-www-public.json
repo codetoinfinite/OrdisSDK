@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Escola de Rádio TV & Web (ER+)",
+  "description": "Cursos, turmas, vagas, professores, podcasts e blog da Escola de Rádio (ER+) — read-only.",
+  "packageName": "@alphesdk-remote/br-com-escoladeradio-www-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.escoladeradio.com.br/api/mcp"
+    }
+  ],
+  "url": "https://www.escoladeradio.com.br/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NUM",
+  "description": "Real places for your agent. Search 2.5M+ travel places; submit a business for human review.",
+  "packageName": "@alphesdk-remote/com-itsnum-num",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://itsnum.com/mcp"
+    }
+  ],
+  "url": "https://github.com/LumiRx/num-mcp",
+  "readme": "https://github.com/LumiRx/num-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Microburbs Australian Property Data",
+  "description": "Australian property and suburb data: valuations, sales, rents, schools, risk and zoning.",
+  "packageName": "@alphesdk-remote/au-com-microburbs-property-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.microburbs.com.au/mcp"
+    }
+  ],
+  "url": "https://www.microburbs.com.au/developers/api-docs"
+}

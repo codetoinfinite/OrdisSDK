@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BidSwarm",
+  "description": "A public 500-rank ad board where every bid decays 1%/h. Read it, buy a rank, or try it free.",
+  "packageName": "@alphesdk-remote/app-nanocorp-bidswarm-bidswarm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bidswarm.nanocorp.app/api/mcp"
+    }
+  ],
+  "url": "https://bidswarm.nanocorp.app/mcp"
+}

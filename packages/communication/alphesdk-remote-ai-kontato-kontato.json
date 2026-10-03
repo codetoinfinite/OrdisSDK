@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kontato",
+  "description": "Give your AI agents a real WhatsApp number to send and receive messages.",
+  "packageName": "@alphesdk-remote/ai-kontato-kontato",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kontato.ai/mcp"
+    }
+  ],
+  "url": "https://kontato.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DomainCanary",
+  "description": "Check a domain's DMARC, SPF and DKIM, build SPF records, explain bounces, read DMARC reports.",
+  "packageName": "@alphesdk-remote/com-domaincanary-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domaincanary.com/mcp"
+    }
+  ],
+  "url": "https://domaincanary.com/guides/check-your-domain-from-chatgpt-or-claude"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AurelianFlo",
+  "description": "Remote MCP server for OFAC screening, EDD memos, exposure forecasts, queues, and reports.",
+  "packageName": "@alphesdk-remote/com-aurelianflo-core",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aurelianflo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kelm2021/aurelianflo",
+  "readme": "https://github.com/kelm2021/aurelianflo#readme"
+}

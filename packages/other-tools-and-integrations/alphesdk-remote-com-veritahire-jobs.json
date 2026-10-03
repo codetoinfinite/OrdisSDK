@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VeritaHire live jobs",
+  "description": "Live US jobs from employers' own career sites, still-open checks, healthcare pay benchmarks.",
+  "packageName": "@alphesdk-remote/com-veritahire-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://veritahire.com/mcp"
+    }
+  ],
+  "url": "https://veritahire.com/for-ai/"
+}

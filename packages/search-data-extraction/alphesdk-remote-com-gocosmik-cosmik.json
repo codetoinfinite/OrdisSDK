@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cosmik",
+  "description": "Live space data for AI agents - rocket launches, ISS passes, launch news. Free, no auth.",
+  "packageName": "@alphesdk-remote/com-gocosmik-cosmik",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gocosmik.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/crashedfox/cosmik-mcp",
+  "readme": "https://github.com/crashedfox/cosmik-mcp#readme"
+}

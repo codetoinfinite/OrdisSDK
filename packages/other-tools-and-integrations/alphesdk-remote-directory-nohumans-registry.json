@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nohumans.directory",
+  "description": "We buy from x402 endpoints with real USDC and publish delivery outcomes. Check before you spend.",
+  "packageName": "@alphesdk-remote/directory-nohumans-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nohumans.directory/mcp"
+    }
+  ],
+  "url": "https://github.com/jalcodev/nohumans-mcp",
+  "readme": "https://github.com/jalcodev/nohumans-mcp#readme"
+}

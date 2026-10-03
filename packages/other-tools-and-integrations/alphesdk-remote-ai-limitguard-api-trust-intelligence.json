@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Limitguard Trust Intelligence",
+  "description": "Entity verification, sanctions screening, and trust scoring for AI agents via x402 micropayments.",
+  "packageName": "@alphesdk-remote/ai-limitguard-api-trust-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.limitguard.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/jwconsultancyteam/limitguard-mcp",
+  "readme": "https://github.com/jwconsultancyteam/limitguard-mcp#readme"
+}

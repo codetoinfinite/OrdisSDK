@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "resort",
+  "description": "Live availability and commission-free booking links for resort La Truite d'Argent, Belgian Ardennes",
+  "packageName": "@alphesdk-remote/com-la-truite-resort",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.la-truite.com/mcp/"
+    }
+  ],
+  "url": "https://www.la-truite.com/"
+}

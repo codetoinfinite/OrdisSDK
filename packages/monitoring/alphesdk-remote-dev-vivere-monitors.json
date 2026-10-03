@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vivere",
+  "description": "Know when cron jobs and AI agents stop running: create monitors and check in from your agent.",
+  "packageName": "@alphesdk-remote/dev-vivere-monitors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vivere.dev/mcp"
+    }
+  ],
+  "url": "https://vivere.dev/docs/mcp"
+}

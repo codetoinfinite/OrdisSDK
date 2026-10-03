@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Autosophia Solana Lens",
+  "description": "Screen tokens, inspect wallets, simulate transactions, price priority fees. $0.02 in USDC.",
+  "packageName": "@alphesdk-remote/io-autosophia-solana-lens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chain.autosophia.io/mcp"
+    }
+  ],
+  "url": "https://autosophia.io"
+}

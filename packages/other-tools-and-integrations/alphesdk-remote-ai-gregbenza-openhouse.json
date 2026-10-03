@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "openhouse",
+  "description": "The Open House: a locker, a verifier, a fair coin, a job board, and rooms that give nothing back.",
+  "packageName": "@alphesdk-remote/ai-gregbenza-openhouse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gregbenza.ai/mcp/openhouse"
+    }
+  ],
+  "url": "https://github.com/TheNonduality/gregbenza-ai",
+  "readme": "https://github.com/TheNonduality/gregbenza-ai#readme"
+}

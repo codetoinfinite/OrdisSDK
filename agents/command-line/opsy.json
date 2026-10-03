@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "opsy",
+  "name": "Opsy",
+  "description": "Terminal SRE assistant that takes a task in plain language and carries it out by driving the ops CLIs already on your machine.",
+  "category": "command-line",
+  "tags": ["sre", "devops", "cli", "claude", "automation"],
+  "repo": "https://github.com/datolabs-io/opsy",
+  "publisher": "Dato Labs",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Accepts a described operational task and works through it for platform engineers, calling tools such as kubectl, aws, helm, gcloud, gh, git or jira as needed. The project states it is still in early development.",
+  "howItWorks": "Each command-line tool is wrapped as its own small agent that knows how to use that tool, and a top-level Claude-driven loop delegates steps to them. Output from each step feeds the next decision until the task is complete.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic key; Claude is the only supported model family"
+    },
+    {
+      "name": "Ops CLIs",
+      "kind": "runtime",
+      "required": false,
+      "description": "Whichever of git, gh, kubectl, aws, helm, gcloud, jira the task needs"
+    }
+  ],
+  "install": ["go install github.com/datolabs-io/opsy/cmd/opsy@latest"],
+  "run": ["opsy 'Your task description here'"],
+  "interfaces": ["cli"],
+  "language": "Go",
+  "models": "Anthropic Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 206,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-04-20",
+    "checkedAt": "2026-10-03"
+  }
+}

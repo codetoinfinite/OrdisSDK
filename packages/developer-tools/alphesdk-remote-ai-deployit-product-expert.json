@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DeployIt Product Expert",
+  "description": "AI product expert answering from live source code, with sources and a verification status.",
+  "packageName": "@alphesdk-remote/ai-deployit-product-expert",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.deployit.ai/demo"
+    }
+  ],
+  "url": "https://deployit.ai/product/mcp"
+}

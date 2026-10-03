@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FindMeTool",
+  "description": "Look up a FindMeTool page URL. Tool input stays in the browser.",
+  "packageName": "@alphesdk-remote/com-findmetool-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://findmetool.com/mcp"
+    }
+  ],
+  "url": "https://github.com/findmetool/findmetool",
+  "readme": "https://github.com/findmetool/findmetool#readme"
+}

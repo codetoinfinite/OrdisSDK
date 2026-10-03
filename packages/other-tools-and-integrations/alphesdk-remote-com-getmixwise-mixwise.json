@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MixWise",
+  "description": "Cocktails you can make from bottles you already have, full recipes, and the best next bottle to add.",
+  "packageName": "@alphesdk-remote/com-getmixwise-mixwise",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.getmixwise.com/mcp/apps"
+    }
+  ],
+  "url": "https://www.getmixwise.com"
+}

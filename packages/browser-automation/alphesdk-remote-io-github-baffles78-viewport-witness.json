@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ViewportWitness by Apex Labs",
+  "description": "Agent website testing: browser QA, visual regression, Markdown extraction, and security checks.",
+  "packageName": "@alphesdk-remote/io-github-baffles78-viewport-witness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qa.honeygate.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Baffles78/viewport-witness",
+  "readme": "https://github.com/Baffles78/viewport-witness#readme"
+}

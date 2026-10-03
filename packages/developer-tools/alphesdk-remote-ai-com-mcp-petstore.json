@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Petstore MCP Server",
+  "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
+  "packageName": "@alphesdk-remote/ai-com-mcp-petstore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://petstore.run.mcp.com.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/la-rebelion/hapimcp",
+  "readme": "https://github.com/la-rebelion/hapimcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "electricskateboard",
+  "description": "Live prices for e-skateboards, onewheels, scooters and e-bikes: buy now or wait, with the evidence.",
+  "packageName": "@alphesdk-remote/com-electricskateboard-electricskateboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://electricskateboard.com/mcp"
+    }
+  ],
+  "url": "https://electricskateboard.com"
+}

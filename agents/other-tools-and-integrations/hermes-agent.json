@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "hermes-agent",
+  "name": "Hermes Agent",
+  "description": "Self-improving personal agent that builds skills from experience and is reached from a terminal UI or messaging apps.",
+  "category": "other-tools-and-integrations",
+  "tags": ["self-improving", "skills", "messaging-gateway", "terminal", "personal-agent"],
+  "repo": "https://github.com/NousResearch/hermes-agent",
+  "homepage": "https://hermes-agent.nousresearch.com",
+  "docs": "https://hermes-agent.nousresearch.com/docs/",
+  "publisher": "Nous Research",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Works as a persistent assistant that learns reusable skills while it is used. Users talk to it in the terminal or through Telegram, Discord, Slack, WhatsApp, Signal or email.",
+  "howItWorks": "An installer provides the `hermes` command, with subcommands to pick a model, enable tools, run a setup wizard and start the messaging gateway. A built-in learning loop creates and refines skills during use.",
+  "requirements": [
+    {
+      "name": "LLM provider access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Nous Portal, OpenRouter, OpenAI or your own endpoint"
+    }
+  ],
+  "install": ["curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash"],
+  "run": ["hermes setup", "hermes", "hermes gateway"],
+  "interfaces": ["cli", "chat"],
+  "language": "Python",
+  "models": "Nous Portal, OpenRouter, OpenAI, custom endpoints and more",
+  "mcp": "none",
+  "github": {
+    "stars": 250827,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

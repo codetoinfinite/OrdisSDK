@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LLM Latency Tracker",
+  "description": "Measured latency, time to first token and uptime for ~45 AI inference APIs, by region.",
+  "packageName": "@alphesdk-remote/dev-llmlatency-llm-latency-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llmlatency.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/mazamaka/llm-latency-tracker",
+  "readme": "https://github.com/mazamaka/llm-latency-tracker#readme"
+}

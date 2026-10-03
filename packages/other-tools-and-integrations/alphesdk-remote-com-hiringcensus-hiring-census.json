@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HiringCensus",
+  "description": "Is this company actually hiring, or is the board just still up? Real dates on 187,923 roles.",
+  "packageName": "@alphesdk-remote/com-hiringcensus-hiring-census",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hiringcensus.com/api/mcp"
+    }
+  ],
+  "url": "https://hiringcensus.com/mcp/"
+}

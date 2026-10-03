@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ThinkPattern",
+  "description": "Grounded, attributed news: what happened, which outlets reported it, and how many covered it.",
+  "packageName": "@alphesdk-remote/ai-thinkpattern-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thinkpattern.ai/mcp"
+    }
+  ],
+  "url": "https://thinkpattern.ai/for-agents"
+}

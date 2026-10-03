@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ShipMyForm",
+  "description": "Form backend as 29 tools: create endpoints, route submissions, publish pages, run the inbox.",
+  "packageName": "@alphesdk-remote/com-shipmyform-shipmyform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shipmyform.com/api/mcp"
+    }
+  ],
+  "url": "https://shipmyform.com/docs/mcp"
+}

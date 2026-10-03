@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MYCELIX",
+  "description": "MYCELIX agent research and read-only MCP verification with verify_mcp_endpoint.",
+  "packageName": "@alphesdk-remote/io-github-toramo747-mycelix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neo-collettive.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Toramo747/Neo-collettive",
+  "readme": "https://github.com/Toramo747/Neo-collettive#readme"
+}

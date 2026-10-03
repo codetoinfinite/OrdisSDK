@@ -1,0 +1,44 @@
+{
+  "type": "external-agent",
+  "key": "gpt-academic",
+  "name": "GPT Academic",
+  "description": "Web workbench for academic reading and writing: paper polishing, translation, summarisation and code explanation.",
+  "category": "other-tools-and-integrations",
+  "tags": ["academic-writing", "paper-translation", "pdf", "latex", "gradio"],
+  "repo": "https://github.com/binary-husky/gpt_academic",
+  "publisher": "binary-husky",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Helps researchers polish and translate papers, translate PDF and LaTeX documents, summarise literature and analyse code projects through a plugin system. The interface and documentation are primarily in Chinese.",
+  "howItWorks": "A Gradio web app exposes function plugins that split long documents, call the selected LLM in parallel and reassemble the results. Configuration is read from environment variables, config_private.py or config.py. It runs directly with Python or through Docker Compose.",
+  "requirements": [
+    {
+      "name": "API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM provider key set in the configuration"
+    },
+    {
+      "name": "Python 3.9-3.11",
+      "kind": "runtime",
+      "required": true,
+      "description": "Recommended versions"
+    }
+  ],
+  "install": [
+    "git clone --depth=1 https://github.com/binary-husky/gpt_academic.git",
+    "cd gpt_academic",
+    "python -m pip install -r requirements.txt"
+  ],
+  "run": ["python main.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI, Qwen, GLM, DeepSeek and other Chinese and local models",
+  "mcp": "none",
+  "github": {
+    "stars": 71398,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-01-25",
+    "checkedAt": "2026-10-03"
+  }
+}

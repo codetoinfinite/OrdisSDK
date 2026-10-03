@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Oku-Akasaka Sushi Tanji",
+  "description": "Omakase courses at a sushi counter in Akasaka, Tokyo, with a pre-filled link to the booking page.",
+  "packageName": "@alphesdk-remote/com-sushi-tanji-reservations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sushi-tanji.com/wp-json/bmp/v1/mcp"
+    }
+  ],
+  "url": "https://sushi-tanji.com/en/ai-agents/"
+}

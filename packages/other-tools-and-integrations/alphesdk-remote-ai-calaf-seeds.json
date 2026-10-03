@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Calaf Seed Tools",
+  "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
+  "packageName": "@alphesdk-remote/ai-calaf-seeds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calaf.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/gallaghern51-art/calaf-mcp",
+  "readme": "https://github.com/gallaghern51-art/calaf-mcp#readme"
+}

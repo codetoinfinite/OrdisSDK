@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OpenPublica",
+  "description": "Search US local-government meetings: AI summaries, transcripts, and adopted plan documents.",
+  "packageName": "@alphesdk-remote/com-openpublica-civic-meetings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.openpublica.com/mcp"
+    }
+  ],
+  "url": "https://www.openpublica.com/api-docs"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LLM Hosting Pricing",
+  "description": "LLM and GPU rental prices: model price lookup, GPU listings, cheapest-GPU search, price history",
+  "packageName": "@alphesdk-remote/ai-llmhosting-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llmhosting.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/zayedAlmansoori/llmhosting-ai",
+  "readme": "https://github.com/zayedAlmansoori/llmhosting-ai#readme"
+}

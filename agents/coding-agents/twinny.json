@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "twinny",
+  "name": "twinny",
+  "description": "VS Code AI coding assistant that keeps code on your network, offering completion, inline edits, chat and code review.",
+  "category": "coding-agents",
+  "tags": ["vscode", "local-models", "code-completion", "chat", "private"],
+  "repo": "https://github.com/twinnydotdev/twinny",
+  "docs": "https://docs.twinny.dev/",
+  "publisher": "twinny (rjmacarthy)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "twinny provides ghost-text completions, a chat sidebar, inline edits and review inside VS Code. It talks to a model server you choose, on your machine, another device or a hosted API. It suits developers and teams with privacy requirements.",
+  "howItWorks": "The extension detects local servers such as Ollama, LM Studio and llama.cpp on their usual ports and asks which models to use. Requests go straight from the editor to that server. An optional gateway package serves a whole team from one place.",
+  "requirements": [
+    {
+      "name": "VS Code 1.93+",
+      "kind": "runtime",
+      "required": true,
+      "description": "The extension is installed from the Marketplace"
+    },
+    {
+      "name": "Model server",
+      "kind": "service",
+      "required": true,
+      "description": "Ollama, LM Studio, llama.cpp or a hosted API"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["ide"],
+  "language": "TypeScript",
+  "models": "Local models via Ollama, LM Studio, llama.cpp; hosted APIs",
+  "mcp": "none",
+  "github": {
+    "stars": 3662,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

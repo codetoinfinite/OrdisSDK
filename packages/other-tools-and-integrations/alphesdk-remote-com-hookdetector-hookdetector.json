@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hook Detector",
+  "description": "Real TikTok and Instagram hooks that already work, in any language, with why each travelled.",
+  "packageName": "@alphesdk-remote/com-hookdetector-hookdetector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hookdetector.com/mcp"
+    }
+  ],
+  "url": "https://hookdetector.com"
+}

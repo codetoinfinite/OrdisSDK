@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "draco",
+  "description": "Coding & security oracle grounded in 1855 real books. Cited answers via MCP.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-draco-draco",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://draco.thetempleofdoom.com/mcp"
+    }
+  ],
+  "url": "https://github.com/drjonesxxx1/draco",
+  "readme": "https://github.com/drjonesxxx1/draco#readme"
+}

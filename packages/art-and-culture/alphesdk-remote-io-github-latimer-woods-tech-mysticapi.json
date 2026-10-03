@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MysticAPI",
+  "description": "Human Design & astrology engine: bodygraph, personal-sky SVG, today's sky. JPL ephemeris.",
+  "packageName": "@alphesdk-remote/io-github-latimer-woods-tech-mysticapi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mysticapi.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Latimer-Woods-Tech/mysticapi",
+  "readme": "https://github.com/Latimer-Woods-Tech/mysticapi#readme"
+}

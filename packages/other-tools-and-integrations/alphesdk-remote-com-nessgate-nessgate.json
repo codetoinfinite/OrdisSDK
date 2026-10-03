@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NessGate",
+  "description": "Universal resolver for the agentic web: give a domain, get one normalized discovery answer.",
+  "packageName": "@alphesdk-remote/com-nessgate-nessgate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nessgate.com/mcp"
+    }
+  ],
+  "url": "https://github.com/NessGate/nessgate",
+  "readme": "https://github.com/NessGate/nessgate#readme"
+}

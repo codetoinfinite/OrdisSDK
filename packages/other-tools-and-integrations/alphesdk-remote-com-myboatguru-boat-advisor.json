@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MyBoatGuru Boat Advisor",
+  "description": "Interactive quiz and recommendations for choosing the right boat type, gear, and comparisons.",
+  "packageName": "@alphesdk-remote/com-myboatguru-boat-advisor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://myboatguru.com/mcp"
+    }
+  ],
+  "url": "https://myboatguru.com"
+}

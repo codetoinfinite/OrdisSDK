@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FiledProof",
+  "description": "Primary-source SEC filing intelligence and financial/disclosure reconciliation for AI agents.",
+  "packageName": "@alphesdk-remote/com-davisvillelabs-filedproof-filedproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filedproof.davisvillelabs.com/mcp"
+    }
+  ],
+  "url": "https://filedproof.davisvillelabs.com"
+}

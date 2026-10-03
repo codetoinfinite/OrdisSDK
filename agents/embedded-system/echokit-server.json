@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "echokit-server",
+  "name": "EchoKit Server",
+  "description": "Server that powers the EchoKit ESP32 voice device, turning speech into LLM responses and spoken replies, with MCP tool support.",
+  "category": "embedded-system",
+  "tags": ["voice", "esp32", "hardware", "rust", "assistant"],
+  "repo": "https://github.com/second-state/echokit_server",
+  "homepage": "https://echokit.dev",
+  "publisher": "Second State",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Acts as the brain for a small open hardware voice assistant, handling the conversation while the device captures and plays audio. Makers can point it at their preferred speech and language model services.",
+  "howItWorks": "The Rust server receives audio from the device and runs a pipeline of speech recognition, language model and speech synthesis against OpenAI-compatible endpoints, or uses an end-to-end live model such as Gemini Live. A TOML file selects the services and prompts, and MCP servers can be attached for tool use.",
+  "requirements": [
+    {
+      "name": "EchoKit / ESP32 device",
+      "kind": "hardware",
+      "required": true,
+      "description": "Voice hardware that connects to the server"
+    },
+    {
+      "name": "Rust toolchain",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed to build the server"
+    },
+    {
+      "name": "ASR, LLM and TTS endpoints",
+      "kind": "service",
+      "required": true,
+      "description": "Service endpoints and keys set in config.toml"
+    }
+  ],
+  "install": ["git clone https://github.com/second-state/echokit_server", "cargo build --release"],
+  "run": ["export RUST_LOG=debug", "nohup target/release/echokit_server &"],
+  "interfaces": ["api"],
+  "language": "Rust",
+  "models": "OpenAI-compatible ASR, LLM and TTS services; Gemini Live",
+  "mcp": "client",
+  "github": {
+    "stars": 592,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-02-15",
+    "checkedAt": "2026-10-03"
+  }
+}

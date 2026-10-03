@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "a2a2p — Agent-to-Agent-to-Physical",
+  "description": "Turn agent intent into physical parts: engineering review, measured geometry, calibrated pricing.",
+  "packageName": "@alphesdk-remote/com-a2a2p-a2a2p",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2a2p.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Deadlypillow/a2a2p",
+  "readme": "https://github.com/Deadlypillow/a2a2p#readme"
+}

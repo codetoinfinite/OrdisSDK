@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "forage",
+  "description": "Web search and URL-to-markdown for agents. Pay per call in USDC on Base, no signup.",
+  "packageName": "@alphesdk-remote/cash-forage-forage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://forage.cash/mcp"
+    }
+  ],
+  "url": "https://forage.cash"
+}

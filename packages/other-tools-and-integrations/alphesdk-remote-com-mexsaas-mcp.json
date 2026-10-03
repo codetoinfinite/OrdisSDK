@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mexsaas",
+  "description": "Software que usan los negocios en México: busca, compara y ve alternativas, con precio en pesos.",
+  "packageName": "@alphesdk-remote/com-mexsaas-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mexsaas.com/mcp"
+    }
+  ],
+  "url": "https://www.mexsaas.com/ia"
+}

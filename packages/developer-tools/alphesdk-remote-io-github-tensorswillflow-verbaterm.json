@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Verbaterm Policy Intelligence",
+  "description": "Judged, citation-checked policy corpus over MCP. Keyless public reads; API key for AI tools.",
+  "packageName": "@alphesdk-remote/io-github-tensorswillflow-verbaterm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verbaterm.com/mcp"
+    }
+  ],
+  "url": "https://github.com/TensorsWillFlow/verbaterm",
+  "readme": "https://github.com/TensorsWillFlow/verbaterm#readme"
+}

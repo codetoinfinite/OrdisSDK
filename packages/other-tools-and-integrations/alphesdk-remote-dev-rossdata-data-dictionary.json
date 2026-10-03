@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ross ERP Data Dictionary",
+  "description": "Structure-only reference for the vanilla Ross ERP 8.0 schema, UI menu tree, and program catalog.",
+  "packageName": "@alphesdk-remote/dev-rossdata-data-dictionary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rossdata.dev/mcp"
+    }
+  ],
+  "url": "https://rossdata.dev"
+}

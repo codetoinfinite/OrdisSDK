@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "BuySignal Deals Search",
+  "description": "Live search across 250,000+ verified UK and Canada retail deals. Read-only, no auth required.",
+  "packageName": "@alphesdk-remote/deals-buysignal-search-deals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://buysignal.deals/mcp"
+    }
+  ]
+}

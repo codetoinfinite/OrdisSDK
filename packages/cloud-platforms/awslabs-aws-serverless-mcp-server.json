@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "AWS Serverless",
+  "description": "SAM-based build, deploy and debug for Lambda serverless apps.",
+  "packageName": "awslabs.aws-serverless-mcp-server",
+  "packageVersion": "0.2.0",
+  "runtime": "python",
+  "readme": "https://awslabs.github.io/mcp/servers/aws-serverless-mcp-server/",
+  "url": "https://github.com/awslabs/mcp",
+  "author": "AWS (awslabs)",
+  "env": {
+    "AWS_PROFILE": {
+      "description": "AWS credentials profile",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS region",
+      "required": false
+    }
+  }
+}

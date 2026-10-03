@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "openhands",
+  "name": "OpenHands",
+  "description": "Self-hosted control center for running the OpenHands software engineering agent, or other ACP coding agents, on local, Docker, VM or cloud backends.",
+  "category": "coding-agents",
+  "tags": ["coding-agent", "self-hosted", "acp", "automation", "sandbox"],
+  "repo": "https://github.com/OpenHands/OpenHands",
+  "homepage": "https://openhands.dev",
+  "docs": "https://docs.openhands.dev",
+  "publisher": "OpenHands (All Hands AI)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "OpenHands gives developers and teams an autonomous engineer that can read a codebase, edit files, run commands and deliver changes. Its Agent Canvas app lets you start, watch and automate agent sessions, and can also host other ACP-compatible agents. Automations can be triggered from tools such as Slack, GitHub and Linear.",
+  "howItWorks": "A web front end talks to a backend that launches agent sessions in a chosen execution environment (local machine, Docker, virtual machine or cloud). The agent runs a tool loop against any configured LLM, executing shell and file operations inside that environment. Front end and backend can be started together or separately.",
+  "requirements": [
+    {
+      "name": "Node.js 24+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the Agent Canvas package"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python tooling used by the backend"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for whichever model provider the agent should use"
+    }
+  ],
+  "install": ["npm install -g @openhands/agent-canvas"],
+  "run": ["agent-canvas"],
+  "interfaces": ["web", "cli"],
+  "language": "TypeScript",
+  "models": "Any LLM provider; also hosts ACP agents such as Claude Code, Codex and Gemini CLI",
+  "mcp": "client",
+  "github": {
+    "stars": 89836,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FrameThrower",
+  "description": "Film stills from 5,489 films, searchable by lighting, lens character, shot size, colour and mood.",
+  "packageName": "@alphesdk-remote/ai-framethrower-framethrower",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://framethrower.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/framethrower-ai/framethrower-mcp",
+  "readme": "https://github.com/framethrower-ai/framethrower-mcp#readme"
+}

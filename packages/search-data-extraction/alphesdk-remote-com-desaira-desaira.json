@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "desaira",
+  "description": "Search adult porn video (NSFW, 18+): nude clips, creators, hashtags. Read-only, no API key.",
+  "packageName": "@alphesdk-remote/com-desaira-desaira",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://desaira.com/mcp"
+    }
+  ],
+  "url": "https://desaira.com/mcp-server"
+}

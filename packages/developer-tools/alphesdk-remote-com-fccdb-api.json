@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fccdb",
+  "description": "Explore FCC ULS licenses, ASR antenna structures, and microwave path elevation profiles.",
+  "packageName": "@alphesdk-remote/com-fccdb-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fccdb.com/mcp"
+    }
+  ],
+  "url": "https://github.com/benlemasurier/fccdb",
+  "readme": "https://github.com/benlemasurier/fccdb#readme"
+}

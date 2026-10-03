@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Apostle — AI Men's Skincare Commerce",
+  "description": "Search, compare, and buy Apostle men's skincare: tinted moisturizer, face wash, and sets.",
+  "packageName": "@alphesdk-remote/ai-searchshop-apostleman",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://searchshopai-mcp.fly.dev/mcp/apostleman"
+    }
+  ],
+  "url": "https://apostleman.co"
+}

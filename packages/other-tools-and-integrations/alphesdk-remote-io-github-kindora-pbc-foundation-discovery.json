@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "foundation-discovery",
+  "description": "Foundation discovery and grant intelligence for nonprofits. 174K+ US funders, IRS 990 data.",
+  "packageName": "@alphesdk-remote/io-github-kindora-pbc-foundation-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kindora.co/mcp"
+    }
+  ],
+  "url": "https://github.com/Kindora-PBC/kindora",
+  "readme": "https://github.com/Kindora-PBC/kindora#readme"
+}

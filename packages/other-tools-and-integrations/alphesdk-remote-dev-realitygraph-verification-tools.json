@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Reality Graph Verification Tools",
+  "description": "Read-only AI coding tools for change verification, release readiness, capacity, and guidance.",
+  "packageName": "@alphesdk-remote/dev-realitygraph-verification-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://realitygraph.dev/api/mcp"
+    }
+  ],
+  "url": "https://realitygraph.dev/mcp"
+}

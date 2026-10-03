@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Junction",
+  "description": "Search a nightly-refreshed directory of MCP servers by keyword, category or topic.",
+  "packageName": "@alphesdk-remote/ai-mcpjunction-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpjunction.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/rickstek/mcpjunction",
+  "readme": "https://github.com/rickstek/mcpjunction#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GamersPilot — Steam library tools",
+  "description": "Steam backlog, account value, buy-or-skip verdicts and Steam Machine checks. Hosted, keyless.",
+  "packageName": "@alphesdk-remote/com-gamerspilot-steam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.gamerspilot.com/mcp"
+    }
+  ],
+  "url": "https://gamerspilot.com/steam-mcp-server"
+}

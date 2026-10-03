@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Zügle",
+  "description": "Swiss income tax by municipality, cheaper-town ranking, apartment listings and commute times.",
+  "packageName": "@alphesdk-remote/com-zuegle-zugle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zuegle.com/mcp"
+    }
+  ],
+  "url": "https://github.com/DaniloNunesMelo/zugle",
+  "readme": "https://github.com/DaniloNunesMelo/zugle#readme"
+}

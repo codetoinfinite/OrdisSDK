@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Keyframer",
+  "description": "150+ React Native animation recipes, scene authoring, phone preview via QR, Reanimated v4 codegen",
+  "packageName": "@alphesdk-remote/dev-keyframer-keyframer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.keyframer.dev/mcp"
+    }
+  ],
+  "url": "https://keyframer.dev/mcp"
+}

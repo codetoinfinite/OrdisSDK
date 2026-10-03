@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Port Scanner API",
+  "description": "Scan the open TCP ports of your own public IP. Fast (32) or deep (65535). No key, no signup.",
+  "packageName": "@alphesdk-remote/com-portscan-port-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.portscan.com/mcp"
+    }
+  ],
+  "url": "https://portscan.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "filming-locations",
+  "description": "Where films and TV were shot, and where games, anime and manga are set. Wikidata, read only, CC0.",
+  "packageName": "@alphesdk-remote/com-thefilmmap-filming-locations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thefilmmap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Flightmussy/filmmap-mcp",
+  "readme": "https://github.com/Flightmussy/filmmap-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pixdress — KI-Mode zum Selbermachen",
+  "description": "Search AI-designed print-on-demand clothing, or have a new motif invented from one sentence.",
+  "packageName": "@alphesdk-remote/de-pixdress-design",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pixdress.de/mcp"
+    }
+  ],
+  "url": "https://pixdress.de/llms.txt"
+}

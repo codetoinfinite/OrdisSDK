@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "RoboSelect360 - Humanoid Robot Intelligence",
+  "description": "Market & supply-chain intelligence on 34 humanoid robots: scores, specs, pricing. No key.",
+  "packageName": "@alphesdk-remote/com-roboselect360-humanoid-robots",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-free.roboselect360.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "policy-gate",
+  "description": "Deterministic allow/require_approval/deny verdicts for agent actions, before they happen.",
+  "packageName": "@alphesdk-remote/dev-workers-3labsio-policy-gate-policy-gate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://policy-gate.3labsio.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/fieldproofhq/policy-gate",
+  "readme": "https://github.com/fieldproofhq/policy-gate#readme"
+}

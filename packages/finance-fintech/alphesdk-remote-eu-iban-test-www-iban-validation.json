@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IBAN Validation MCP",
+  "description": "Validate IBANs in 111 countries; bank directory checks for DE, AT, BE, FR, LU, NL, PT and ES.",
+  "packageName": "@alphesdk-remote/eu-iban-test-www-iban-validation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.iban-test.eu/mcp"
+    }
+  ],
+  "url": "https://www.iban-test.eu"
+}

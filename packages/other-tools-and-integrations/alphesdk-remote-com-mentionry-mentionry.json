@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mentionry",
+  "description": "Find who links to your competitors but not you, judge each opening, and draft the pitch.",
+  "packageName": "@alphesdk-remote/com-mentionry-mentionry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mentionry.com/api/mcp"
+    }
+  ],
+  "url": "https://mentionry.com/mcp"
+}

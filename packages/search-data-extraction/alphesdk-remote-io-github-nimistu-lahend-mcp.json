@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "lahend.ee — Estonian court decisions",
+  "description": "Estonian court decisions: full-text case-law search, each ruling linked to its companies. Free.",
+  "packageName": "@alphesdk-remote/io-github-nimistu-lahend-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lahend.ee/api/lahend-mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/Nimistu/lahend-mcp",
+  "readme": "https://github.com/Nimistu/lahend-mcp#readme"
+}

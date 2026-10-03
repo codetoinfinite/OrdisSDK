@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Beachmap — Europe Beach Data",
+  "description": "Europe's 478 best beaches: sea temperature, sand, best months, swimming, surf. Free, CC BY 4.0.",
+  "packageName": "@alphesdk-remote/com-europebeachmap-beachmap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://europebeachmap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Flightmussy/beachmap-mcp",
+  "readme": "https://github.com/Flightmussy/beachmap-mcp#readme"
+}

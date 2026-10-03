@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Neuron Sports Ad Exchange",
+  "description": "Autonomous AI sports ad exchange with quote-bound Stripe settlement and live delivery telemetry.",
+  "packageName": "@alphesdk-remote/io-github-shalinianandaphd-neuron-sports-ad-exchange",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neuronsystems.org/mcp"
+    }
+  ],
+  "url": "https://github.com/ShaliniAnandaPhD/ffn",
+  "readme": "https://github.com/ShaliniAnandaPhD/ffn#readme"
+}

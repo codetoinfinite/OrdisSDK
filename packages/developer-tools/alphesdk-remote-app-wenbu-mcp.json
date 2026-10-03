@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wenbu · 问卜",
+  "description": "Free BaZi, I Ching, tarot, Zi Wei and bilingual learning tools with transparent methods. No API key.",
+  "packageName": "@alphesdk-remote/app-wenbu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wenbu.app/mcp"
+    }
+  ],
+  "url": "https://github.com/wenbu-app/wenbu",
+  "readme": "https://github.com/wenbu-app/wenbu#readme"
+}

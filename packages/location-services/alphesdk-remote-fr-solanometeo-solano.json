@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Solano — marine & outdoor weather",
+  "description": "Marine and outdoor weather: multi-model forecasts, official bulletins, tides, anchorages.",
+  "packageName": "@alphesdk-remote/fr-solanometeo-solano",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://solanometeo.fr/mcp"
+    }
+  ],
+  "url": "https://solanometeo.fr/blog/mcp/"
+}

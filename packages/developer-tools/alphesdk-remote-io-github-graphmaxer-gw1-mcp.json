@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Guild Wars 1 Build Compiler",
+  "description": "GW1 build compiler: skill data, template code encode/decode, validation, hero roster. Read-only.",
+  "packageName": "@alphesdk-remote/io-github-graphmaxer-gw1-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gw1-mcp.graphmaxer.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Graphmaxer/gw1-mcp",
+  "readme": "https://github.com/Graphmaxer/gw1-mcp#readme"
+}

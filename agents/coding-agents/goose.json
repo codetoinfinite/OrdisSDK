@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "goose",
+  "name": "goose",
+  "description": "General-purpose on-machine AI agent with a desktop app, CLI and API for coding, research, automation and other work.",
+  "category": "coding-agents",
+  "tags": ["general-agent", "desktop", "cli", "extensions", "local"],
+  "repo": "https://github.com/aaif-goose/goose",
+  "publisher": "Agentic AI Foundation (created at Block)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "goose carries out multi-step tasks on your computer, from writing and running code to research and data analysis. It started at Block and the repository now lives under the Agentic AI Foundation organisation.",
+  "howItWorks": "A Rust core runs the agent loop and connects to tools through MCP extensions. It works with more than fifteen model providers and can also drive existing Claude, ChatGPT or Gemini subscriptions through ACP.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "API key or subscription for one of the supported providers, or local Ollama"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://github.com/aaif-goose/goose/releases/download/stable/download_cli.sh | bash"
+  ],
+  "run": [],
+  "interfaces": ["cli", "desktop", "api"],
+  "language": "Rust",
+  "models": "Anthropic, OpenAI, Google, Ollama, OpenRouter, Azure, Bedrock and more",
+  "mcp": "client",
+  "github": {
+    "stars": 54886,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cards",
+  "description": "Sports card database: card search, full set checklists, parallel lookup, card identification.",
+  "packageName": "@alphesdk-remote/com-mycardfolio-cards",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mycardfolio.com/api/mcp"
+    }
+  ],
+  "url": "https://mycardfolio.com/mcp"
+}

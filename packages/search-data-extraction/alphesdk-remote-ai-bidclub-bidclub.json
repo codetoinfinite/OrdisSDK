@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bidclub",
+  "description": "Search 45+ investor podcasts and read transcripts, TL;DRs, digests — bilingual EN/中文, keyless.",
+  "packageName": "@alphesdk-remote/ai-bidclub-bidclub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bidclub.ai/api/mcp"
+    }
+  ],
+  "url": "https://bidclub.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Chilean online mental-health clinic (Spanish): articles, professionals, availability, tests.",
+  "packageName": "@alphesdk-remote/clinic-enmente-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://enmente.clinic/api/mcp/"
+    }
+  ],
+  "url": "https://enmente.clinic"
+}

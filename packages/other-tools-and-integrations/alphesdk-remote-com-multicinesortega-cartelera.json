@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Multicines Ortega",
+  "description": "Cartelera, horarios y venta de entradas de Multicines Ortega, en Puertollano.",
+  "packageName": "@alphesdk-remote/com-multicinesortega-cartelera",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://multicinesortega.com/mcp"
+    }
+  ],
+  "url": "https://multicinesortega.com"
+}

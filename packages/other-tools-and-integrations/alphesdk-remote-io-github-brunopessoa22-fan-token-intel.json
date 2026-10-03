@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fan Token Intel",
+  "description": "Fan-token intelligence for Chiliz Chain: prices, whale flows, match event impact. 22 read tools.",
+  "packageName": "@alphesdk-remote/io-github-brunopessoa22-fan-token-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-production-f681.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/BrunoPessoa22/fantokenintel",
+  "readme": "https://github.com/BrunoPessoa22/fantokenintel#readme"
+}

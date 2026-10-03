@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Source Claim Proof",
+  "description": "Verify whether a supplied public source currently supports one atomic factual claim.",
+  "packageName": "@alphesdk-remote/dev-workers-mattskowronis-source-claim-proof-verify-source-claim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://source-claim-proof.mattskowronis.workers.dev/mcp"
+    }
+  ],
+  "url": "https://source-claim-proof.mattskowronis.workers.dev"
+}

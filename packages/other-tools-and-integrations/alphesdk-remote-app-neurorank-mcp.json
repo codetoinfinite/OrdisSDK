@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NeuroRank",
+  "description": "Esports cognitive-combine data over MCP: free cohort stats, paid player & team scouting reports.",
+  "packageName": "@alphesdk-remote/app-neurorank-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.neurorank.app/mcp"
+    }
+  ],
+  "url": "https://www.neurorank.app"
+}

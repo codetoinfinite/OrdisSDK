@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Invokera Discover",
+  "description": "Search, inspect and invoke every public tool on Invokera through one MCP connection.",
+  "packageName": "@alphesdk-remote/com-invokera-discover",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/discover"
+    }
+  ],
+  "url": "https://invokera.com"
+}

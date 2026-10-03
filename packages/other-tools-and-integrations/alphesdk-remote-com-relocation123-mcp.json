@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Country guides, customs rules, mover directory and quote requests for 155+ countries",
+  "packageName": "@alphesdk-remote/com-relocation123-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.relocation123.com/mcp"
+    }
+  ],
+  "url": "https://relocation123.com"
+}

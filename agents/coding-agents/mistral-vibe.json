@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "mistral-vibe",
+  "name": "Mistral Vibe",
+  "description": "Mistral's open-source command-line coding assistant for exploring and modifying a codebase in natural language.",
+  "category": "coding-agents",
+  "tags": ["coding", "terminal", "mistral", "cli"],
+  "repo": "https://github.com/mistralai/mistral-vibe",
+  "publisher": "Mistral AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Vibe offers a conversational terminal interface for reading, searching and editing project files and running commands, plus a programmatic mode for scripted runs with turn and cost limits.",
+  "howItWorks": "A Python CLI runs an agent loop on Mistral models with file, search, shell and question-asking tools and configurable agent profiles such as a plan mode. MCP servers can be added and tool calls are subject to approval.",
+  "requirements": [
+    {
+      "name": "MISTRAL_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Mistral API key"
+    },
+    {
+      "name": "Python / uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installation"
+    }
+  ],
+  "install": ["uv tool install mistral-vibe"],
+  "run": ["vibe"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Mistral models; other providers configurable",
+  "mcp": "client",
+  "github": {
+    "stars": 5031,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

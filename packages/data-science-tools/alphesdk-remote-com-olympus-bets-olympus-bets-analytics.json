@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "olympus-bets-analytics",
+  "description": "Quant sports analytics: 19 read-only tools across 12 leagues, projections, methods, track record.",
+  "packageName": "@alphesdk-remote/com-olympus-bets-olympus-bets-analytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.olympus-bets.com/mcp"
+    }
+  ],
+  "url": "https://github.com/drduda9/olympus-bets-mcp",
+  "readme": "https://github.com/drduda9/olympus-bets-mcp#readme"
+}

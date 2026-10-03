@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Digche Icons",
+  "description": "Find semantic Digche replacements for functional UI icons and retrieve the selected SVG style.",
+  "packageName": "@alphesdk-remote/io-github-elinaseri-digche-icons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://digche.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Elinaseri/Digche",
+  "readme": "https://github.com/Elinaseri/Digche#readme"
+}

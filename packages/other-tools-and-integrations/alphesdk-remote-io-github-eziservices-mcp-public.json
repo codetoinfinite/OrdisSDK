@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ezi Home Services",
+  "description": "Book, reschedule, and cancel home services (cleaning, lawn, snow) via phone OTP authentication.",
+  "packageName": "@alphesdk-remote/io-github-eziservices-mcp-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prod-api.ezi-app.com/mcp"
+    }
+  ],
+  "url": "https://ezi-app.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AISkills402",
+  "description": "Tested AI agent skill files (SKILL.md), bought once over x402 for cents on Base. Humanize first.",
+  "packageName": "@alphesdk-remote/com-aiskills402-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aiskills402.com/mcp"
+    }
+  ],
+  "url": "https://aiskills402.com"
+}

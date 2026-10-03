@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Be Sew Bizzy",
+  "description": "Search Be Sew Bizzy's quilt fabrics and sewing supplies: prices, sales, stock, classes and hours.",
+  "packageName": "@alphesdk-remote/com-besewbizzy-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://besewbizzy.com/api/mcp"
+    }
+  ],
+  "url": "https://besewbizzy.com"
+}

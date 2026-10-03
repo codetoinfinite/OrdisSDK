@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UkraineBorder — travel guidance and war-risk insurance",
+  "description": "Ukraine entry rules, border crossings, customs, safety and war-risk travel insurance. 10 languages.",
+  "packageName": "@alphesdk-remote/com-ukraineborder-ukraine-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ukraineborder.com/api/mcp"
+    }
+  ],
+  "url": "https://www.ukraineborder.com/en/essentials/insurance-partner"
+}

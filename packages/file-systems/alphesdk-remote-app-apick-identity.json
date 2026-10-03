@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Identity",
+  "description": "Korean ID document verification and PII masking APIs",
+  "packageName": "@alphesdk-remote/app-apick-identity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/identity"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

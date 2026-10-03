@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Weather & Geo Intel MCP",
+  "description": "US weather & geo for AI agents: forecasts, alerts, earthquakes, elevation, geocoding. No keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-us-weather-forecast-alerts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://weather.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/weather-intel-mcp",
+  "readme": "https://github.com/datakoot/weather-intel-mcp#readme"
+}

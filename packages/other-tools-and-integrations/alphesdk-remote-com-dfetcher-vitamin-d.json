@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "D Fetcher",
+  "description": "Vitamin D synthesis calculator: sun position, UV, IU/min, time to dose, sunburn risk, daily window.",
+  "packageName": "@alphesdk-remote/com-dfetcher-vitamin-d",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dfetcher.com/mcp"
+    }
+  ],
+  "url": "https://github.com/rgrieselhuber/dfetcher",
+  "readme": "https://github.com/rgrieselhuber/dfetcher#readme"
+}

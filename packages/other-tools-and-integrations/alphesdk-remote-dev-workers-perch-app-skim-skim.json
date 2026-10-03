@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "skim",
+  "description": "URL to Markdown or structured JSON (schema.org/OG); renders SPA; batch reads. No signup/key.",
+  "packageName": "@alphesdk-remote/dev-workers-perch-app-skim-skim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skim.perch-app.workers.dev/mcp"
+    }
+  ],
+  "url": "https://skim.perch-app.workers.dev"
+}

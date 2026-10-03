@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "hive",
+  "name": "OpenHive",
+  "description": "Runtime for colonies of agents in which a persistent Queen agent spawns worker clones to run a business process in parallel.",
+  "category": "other-tools-and-integrations",
+  "tags": ["multi-agent", "colony", "business-process", "long-running", "runtime"],
+  "repo": "https://github.com/aden-hive/hive",
+  "docs": "https://docs.adenhq.com/",
+  "publisher": "Aden",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Automates long-running business processes with a group of specialised agents coordinated by one client-facing Queen. Aimed at teams that want parallel agent work without wiring a graph.",
+  "howItWorks": "There is one execution primitive: the Queen is an agent loop and each worker is a clone with the same tools and model. Coordination uses a shared tracker ledger and a persistent task plan. Setup uses a uv workspace and a quickstart script, not pip.",
+  "requirements": [
+    {
+      "name": "Python 3.11+",
+      "kind": "runtime",
+      "required": true,
+      "description": "For agent development"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Powers the agents"
+    },
+    {
+      "name": "ripgrep",
+      "kind": "runtime",
+      "required": false,
+      "description": "Needed for full search; the quickstart installs it"
+    }
+  ],
+  "install": ["git clone https://github.com/aden-hive/hive.git"],
+  "run": [],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Model-agnostic",
+  "mcp": "none",
+  "github": {
+    "stars": 11088,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-14",
+    "checkedAt": "2026-10-03"
+  }
+}

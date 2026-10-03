@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Neon (npm)",
+  "description": "Current scoped npm package of Neon's server (registry only has the older neondatabase-labs entry).",
+  "packageName": "@neondatabase/mcp-server-neon",
+  "packageVersion": "0.6.5",
+  "runtime": "node",
+  "readme": "https://neon.com/docs/ai/neon-mcp-server",
+  "url": "https://github.com/neondatabase/mcp-server-neon",
+  "author": "Neon",
+  "env": {
+    "NEON_API_KEY": {
+      "description": "Neon API key",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LONG Events",
+  "description": "Search events, conference weeks, cities, venues and artist schedules via remote MCP.",
+  "packageName": "@alphesdk-remote/events-long-long-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://long.events/functions/v1/mcp-server/mcp"
+    }
+  ],
+  "url": "https://long.events"
+}

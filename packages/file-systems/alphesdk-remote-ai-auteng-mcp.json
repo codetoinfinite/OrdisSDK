@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AutEng MCP - Markdown Publishing & Document Share Links",
+  "description": "Publish markdown documents as public share links with mermaid diagrams. Built by AutEng.ai",
+  "packageName": "@alphesdk-remote/ai-auteng-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auteng.ai/mcp"
+    }
+  ],
+  "url": "https://auteng.ai"
+}

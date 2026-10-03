@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台股題材與高股息",
+  "description": "台股 AI 題材概念股與高股息 ETF 資料查詢。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-stock-themes-stock-themes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-stock-themes.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-stock-themes.panda198271.workers.dev"
+}

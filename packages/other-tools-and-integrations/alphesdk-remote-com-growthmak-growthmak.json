@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "growthmak",
+  "description": "Growthmak B2B growth agency: services, packages, Growth Engine layers, case studies and markets.",
+  "packageName": "@alphesdk-remote/com-growthmak-growthmak",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://growthmak.com/mcp"
+    }
+  ],
+  "url": "https://growthmak.com"
+}

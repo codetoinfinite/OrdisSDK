@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AnchorRegistry",
+  "description": "On-chain provenance lookup for AnchorRegistry. Resolve AR-IDs, hashes, and full trees. Authless.",
+  "packageName": "@alphesdk-remote/io-github-anchorregistry-ar-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.anchorregistry.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/anchorregistry/ar-mcp",
+  "readme": "https://github.com/anchorregistry/ar-mcp#readme"
+}

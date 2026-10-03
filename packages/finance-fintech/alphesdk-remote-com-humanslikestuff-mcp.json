@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumansLikeStuff MCP",
+  "description": "Arrange US physical gifts and branded merchandise with human quote and payment approval.",
+  "packageName": "@alphesdk-remote/com-humanslikestuff-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.humanslikestuff.com/mcp"
+    }
+  ],
+  "url": "https://humanslikestuff.com/connect"
+}

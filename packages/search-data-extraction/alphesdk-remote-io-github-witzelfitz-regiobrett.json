@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Regiobrett – Angebote in der Ostschweiz",
+  "description": "Find events, courses and local offers on Regiobrett in Eastern Switzerland. Free, read-only search.",
+  "packageName": "@alphesdk-remote/io-github-witzelfitz-regiobrett",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regiobrett.ch/api/mcp"
+    }
+  ],
+  "url": "https://regiobrett.ch/mcp"
+}

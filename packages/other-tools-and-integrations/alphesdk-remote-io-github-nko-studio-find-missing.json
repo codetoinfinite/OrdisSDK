@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "find-missing",
+  "description": "Checks if an LEI-holding entity has a match in the national registry its jurisdiction expects.",
+  "packageName": "@alphesdk-remote/io-github-nko-studio-find-missing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nkodatalabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/NKO-LLC-TECH/nko",
+  "readme": "https://github.com/NKO-LLC-TECH/nko#readme"
+}

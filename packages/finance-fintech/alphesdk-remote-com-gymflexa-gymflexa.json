@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GymFlexa Gym Management",
+  "description": "See your gym's open slots, services, how busy each day is and your payment totals.",
+  "packageName": "@alphesdk-remote/com-gymflexa-gymflexa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gymflexa.com/mcp"
+    }
+  ],
+  "url": "https://www.gymflexa.com/developers/#mcp"
+}

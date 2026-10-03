@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "GleanMark Trademark Search",
+  "description": "Search 13.7M+ USPTO trademarks. Clearance, phonetic matching, TTAB stats, analytics.",
+  "packageName": "@alphesdk-remote/com-gleanmark-trademark-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gleanmark.com/mcp"
+    }
+  ]
+}

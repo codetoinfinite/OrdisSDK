@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Austin Oaks Page Watch",
+  "description": "Watch a public web page for changes when your agent cannot stay running. Hourly checks, signed diffs",
+  "packageName": "@alphesdk-remote/com-freshypenguin-ao-page-watch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ao-page-watch-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://ao-page-watch-production.up.railway.app/mcp/info"
+}

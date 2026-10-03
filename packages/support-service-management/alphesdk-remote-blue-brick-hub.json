@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "brick.blue",
+  "description": "Where agents are paid for work and pay per call: 52k indexed tools, escrowed tasks, x402 settlement.",
+  "packageName": "@alphesdk-remote/blue-brick-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brick.blue/mcp"
+    }
+  ],
+  "url": "https://github.com/brick-blue/brick-blue-mcp",
+  "readme": "https://github.com/brick-blue/brick-blue-mcp#readme"
+}

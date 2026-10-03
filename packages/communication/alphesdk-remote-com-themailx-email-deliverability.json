@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MailX Email Deliverability",
+  "description": "Check SPF/DKIM/DMARC/BIMI, blacklists, SMTP/IMAP; DNS lookups; generate email DNS records.",
+  "packageName": "@alphesdk-remote/com-themailx-email-deliverability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://themailx.com/mcp"
+    }
+  ],
+  "url": "https://themailx.com"
+}

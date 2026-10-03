@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Garage Doorman",
+  "description": "Garage Doorman, Grimsby ON residential garage door repair: business facts, site search, quotes.",
+  "packageName": "@alphesdk-remote/ca-garagedoorman-business-card",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.garagedoorman.ca/mcp"
+    }
+  ],
+  "url": "https://www.garagedoorman.ca/"
+}

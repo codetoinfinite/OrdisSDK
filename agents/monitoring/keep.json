@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "keep",
+  "name": "Keep",
+  "description": "AIOps and alert management platform that deduplicates, correlates and enriches alerts and automates responses with workflows.",
+  "category": "monitoring",
+  "tags": ["aiops", "alerting", "incident-management", "workflows", "correlation"],
+  "repo": "https://github.com/keephq/keep",
+  "homepage": "https://www.keephq.dev",
+  "docs": "https://docs.keephq.dev",
+  "publisher": "Keep",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Collects alerts from many monitoring tools into one place, reduces noise, groups related alerts into incidents and adds context. Operations teams use it to automate triage and remediation steps.",
+  "howItWorks": "Provider integrations pull or receive alerts from monitoring systems and normalise them. Rule and AI based correlation groups them, while declarative workflows trigger actions across connected tools. LLM backends can be plugged in for summarisation and correlation.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Docker Compose is the recommended way to self-host"
+    },
+    {
+      "name": "AI backend",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional model provider used for AI features"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Anthropic, OpenAI, DeepSeek, Ollama, LlamaCPP, Grok, Gemini",
+  "mcp": "none",
+  "github": {
+    "stars": 12373,
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

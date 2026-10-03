@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "saymetry",
+  "description": "Measure what ChatGPT, Claude, Gemini and 4 more AI engines say about any business. No auth.",
+  "packageName": "@alphesdk-remote/com-saymetry-saymetry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saymetry.com/api/mcp"
+    }
+  ],
+  "url": "https://saymetry.com/agents"
+}

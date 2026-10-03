@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "gamingagent",
+  "name": "GamingAgent (lmgame-Bench)",
+  "description": "LLM and vision-language gaming agents plus a benchmark harness that plays classic video games and scores model performance.",
+  "category": "gaming",
+  "tags": ["game-agent", "benchmark", "vlm", "evaluation", "retro-games"],
+  "repo": "https://github.com/lmgame-org/GamingAgent",
+  "publisher": "lmgame.org",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Runs models as players in games such as platformers and puzzles, with or without an agent harness, and records results and replay videos. It is aimed at researchers evaluating models.",
+  "howItWorks": "A Python runner launches game environments, feeds observations to a chosen model with optional perception, memory and reasoning modules, and applies the returned actions. Some games need ROM files imported by the user.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One provider key is needed; ANTHROPIC_API_KEY, GEMINI_API_KEY, XAI_API_KEY and DEEPSEEK_API_KEY are also read"
+    },
+    {
+      "name": "Conda",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.10 environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/lmgame-org/GamingAgent.git",
+    "conda create -n lmgame python==3.10 -y",
+    "conda activate lmgame",
+    "pip install -e ."
+  ],
+  "run": [
+    "python3 lmgame-bench/run.py --model_name {model_name} --game_names {list_of_games} --harness_mode true"
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, xAI, DeepSeek",
+  "mcp": "none",
+  "github": {
+    "stars": 984,
+    "license": "MIT",
+    "pushedAt": "2025-11-16",
+    "checkedAt": "2026-10-03"
+  }
+}

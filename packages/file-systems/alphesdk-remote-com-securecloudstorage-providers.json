@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "providers",
+  "description": "Verified cloud storage provider facts: prices, storage, encryption. Dated and source-cited.",
+  "packageName": "@alphesdk-remote/com-securecloudstorage-providers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://securecloudstorage.com/mcp"
+    }
+  ],
+  "url": "https://securecloudstorage.com"
+}

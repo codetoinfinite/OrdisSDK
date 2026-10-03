@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vorortai",
+  "description": "Real-world tasks in Hamburg: quote, check service area, submit an enquiry for human review.",
+  "packageName": "@alphesdk-remote/de-vorortai-vorortai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vorortai.de/api/mcp"
+    }
+  ],
+  "url": "https://vorortai.de"
+}

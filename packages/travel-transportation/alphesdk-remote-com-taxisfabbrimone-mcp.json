@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Taxis Fabbrimone",
+  "description": "Taxi in Waterloo, Belgium: business info, ride price quotes and ride booking requests.",
+  "packageName": "@alphesdk-remote/com-taxisfabbrimone-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taxisfabbrimone.com/mcp"
+    }
+  ],
+  "url": "https://taxisfabbrimone.com"
+}

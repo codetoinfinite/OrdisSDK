@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kloudle Cloud Security Scanner",
+  "description": "AWS cloud security scanners for AI agents — S3, IAM, EC2, EKS, RDS, CloudTrail, CloudWatch Logs",
+  "packageName": "@alphesdk-remote/io-github-kloudle-cloud-security-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kloudle.dev/mcp"
+    }
+  ],
+  "url": "https://kloudle.com/agents"
+}

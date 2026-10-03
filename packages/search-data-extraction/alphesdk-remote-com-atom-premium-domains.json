@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Atom.com — Premium Domains",
+  "description": "Search, appraise, trademark-check, and buy premium brandable domain names from Atom.com.",
+  "packageName": "@alphesdk-remote/com-atom-premium-domains",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.atom.com/mcp"
+    }
+  ],
+  "url": "https://github.com/atomdomains/atom-mcp-server",
+  "readme": "https://github.com/atomdomains/atom-mcp-server#readme"
+}

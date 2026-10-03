@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "turnale",
+  "description": "Run racket-sport tournaments from your AI assistant: fair draws, scores, live standings.",
+  "packageName": "@alphesdk-remote/app-turnale-turnale",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.turnale.app"
+    }
+  ],
+  "url": "https://github.com/turnale-app/turnale",
+  "readme": "https://github.com/turnale-app/turnale#readme"
+}

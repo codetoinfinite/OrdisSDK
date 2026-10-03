@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Xavio Storefront",
+  "description": "Search the public Xavio catalog and create firm checkout quotes.",
+  "packageName": "@alphesdk-remote/in-xavio-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xavio.in/api/mcp/storefront"
+    }
+  ],
+  "url": "https://xavio.in"
+}

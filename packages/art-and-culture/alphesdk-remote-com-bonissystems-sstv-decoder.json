@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SSTV Decoder",
+  "description": "Decode an SSTV audio recording and anchor its fingerprint and image hash to the Knox event chain.",
+  "packageName": "@alphesdk-remote/com-bonissystems-sstv-decoder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonissystems.com/api/knox/agents/sstv-decoder/mcp"
+    }
+  ],
+  "url": "https://bonissystems.com/agents/sstv-decoder"
+}

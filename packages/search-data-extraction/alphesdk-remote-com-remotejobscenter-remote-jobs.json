@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "remote-jobs",
+  "description": "Search current remote / work-from-home jobs by category, region, perk, or company.",
+  "packageName": "@alphesdk-remote/com-remotejobscenter-remote-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remotejobscenter.com/mcp"
+    }
+  ],
+  "url": "https://remotejobscenter.com"
+}

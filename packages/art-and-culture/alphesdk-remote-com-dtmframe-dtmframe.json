@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DTMFRAME",
+  "description": "Read-only data from DTMFRAME (Japan): music-production products, current offers and sale deadlines.",
+  "packageName": "@alphesdk-remote/com-dtmframe-dtmframe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dtmframe.com/mcp/"
+    }
+  ],
+  "url": "https://dtmframe.com/developers/"
+}

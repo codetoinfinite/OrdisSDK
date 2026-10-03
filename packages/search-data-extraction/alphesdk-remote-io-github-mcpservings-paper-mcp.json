@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "paper-mcp",
+  "description": "Search arXiv/Semantic Scholar/OpenAlex + medical evidence (PubMed/Europe PMC) + LaTeX/PDF tools.",
+  "packageName": "@alphesdk-remote/io-github-mcpservings-paper-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://latex-tools.online/mcp"
+    }
+  ],
+  "url": "https://github.com/MCPServings/paper-mcp",
+  "readme": "https://github.com/MCPServings/paper-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Found17",
+  "description": "Public web tools for agents: product extraction, claim checks, webpage QA and ranked audits.",
+  "packageName": "@alphesdk-remote/com-found17-found17",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://found17.com/mcp"
+    }
+  ],
+  "url": "https://found17.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TokenBel Financial Data",
+  "description": "Read-only MCP server for Belarusian securities: tokens, shares, bonds, companies.",
+  "packageName": "@alphesdk-remote/io-github-andreidrang-tokenbel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tokenbel.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AndreiDrang/tokenbel-mcp",
+  "readme": "https://github.com/AndreiDrang/tokenbel-mcp#readme"
+}

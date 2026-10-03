@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KDAN PDF",
+  "description": "Upload, edit, compress, protect, redact, and compare PDFs with KDAN PDF in Claude and ChatGPT.",
+  "packageName": "@alphesdk-remote/com-kdandoc-mcp-kdan-pdf-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kdandoc.com/mcp"
+    }
+  ],
+  "url": "https://github.com/KDAN-PDF/KDAN-PDF-MCP",
+  "readme": "https://github.com/KDAN-PDF/KDAN-PDF-MCP#readme"
+}

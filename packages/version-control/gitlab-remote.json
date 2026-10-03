@@ -1,0 +1,19 @@
+{
+  "type": "mcp-server",
+  "name": "GitLab",
+  "description": "GitLab's built-in server for working with issues, merge requests, pipelines and project search.",
+  "packageName": "@alphesdk-remote/gitlab",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gitlab.com/api/v4/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/",
+  "author": "GitLab",
+  "env": {}
+}

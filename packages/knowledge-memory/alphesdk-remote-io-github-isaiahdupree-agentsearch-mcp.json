@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentsearch-mcp",
+  "description": "LLM-ready web search + instant answers + URL-to-clean-text fetch for agents and RAG.",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-agentsearch-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsearch-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/agentsearch-mcp",
+  "readme": "https://github.com/IsaiahDupree/agentsearch-mcp#readme"
+}

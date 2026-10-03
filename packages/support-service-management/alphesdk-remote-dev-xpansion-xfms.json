@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "XFMS — Model Source",
+  "description": "Pick the right LLM for any task. Ranked shortlist with rationale across 8 evaluators.",
+  "packageName": "@alphesdk-remote/dev-xpansion-xfms",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xfms.vercel.app/mcp/"
+    }
+  ],
+  "url": "https://github.com/VisionAIrySE/XFMS",
+  "readme": "https://github.com/VisionAIrySE/XFMS#readme"
+}

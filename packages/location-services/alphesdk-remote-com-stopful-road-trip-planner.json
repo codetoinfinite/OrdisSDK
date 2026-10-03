@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "road-trip-planner",
+  "description": "Plot an AI-planned road trip onto an editable Stopful map — drive times, hotels & EV chargers.",
+  "packageName": "@alphesdk-remote/com-stopful-road-trip-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stopful.com/api/mcp"
+    }
+  ],
+  "url": "https://stopful.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "renacer-psicologico",
+  "description": "Solo lectura: tarifa vigente, colegiación del equipo y hubs del blog clínico de psicología.",
+  "packageName": "@alphesdk-remote/com-renacerpsicologico-renacer-psicologico",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.renacerpsicologico.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Renacerpsicologico/renacer-web",
+  "readme": "https://github.com/Renacerpsicologico/renacer-web#readme"
+}

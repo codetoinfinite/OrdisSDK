@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "zed",
+  "name": "Zed",
+  "description": "High-performance open-source code editor with a built-in AI agent that can read, edit and run code in your project.",
+  "category": "coding-agents",
+  "tags": ["editor", "agent-panel", "rust", "collaboration", "acp"],
+  "repo": "https://github.com/zed-industries/zed",
+  "homepage": "https://zed.dev",
+  "docs": "https://zed.dev/docs",
+  "publisher": "Zed Industries",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Zed is a fast multiplayer editor whose agent features let developers hand off edits and investigations to a model without leaving the editor. It also hosts external coding agents. It targets developers who want AI help inside a native editor.",
+  "howItWorks": "The editor is written in Rust and renders with its own GPU-accelerated UI framework. Its agent uses tools for file access and terminal commands within the open project, and external agents connect through the Agent Client Protocol. Additional context sources can be attached through protocol servers.",
+  "requirements": [
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed to use the AI agent features"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "ide"],
+  "language": "Rust",
+  "models": "Multiple hosted providers and local models",
+  "mcp": "client",
+  "github": {
+    "stars": 91225,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

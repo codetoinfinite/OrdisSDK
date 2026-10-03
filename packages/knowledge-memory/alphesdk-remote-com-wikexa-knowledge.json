@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wikexa Knowledge",
+  "description": "Wikipedia, Wikidata and Wiktionary as clean JSON, not HTML. 1.9M searchable. Free, no auth.",
+  "packageName": "@alphesdk-remote/com-wikexa-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wikexa.com/mcp"
+    }
+  ],
+  "url": "https://wikexa.com"
+}

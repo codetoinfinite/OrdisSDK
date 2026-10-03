@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Reqbeat Hiring Signals",
+  "description": "Find companies hiring for a role and geo, qualify them, and watch them for changes.",
+  "packageName": "@alphesdk-remote/com-reqbeat-hiring-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.reqbeat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/reqbeat/mcp-server",
+  "readme": "https://github.com/reqbeat/mcp-server#readme"
+}

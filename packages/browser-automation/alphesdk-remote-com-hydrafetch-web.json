@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hydrafetch",
+  "description": "Turn any URL into clean Markdown and structured data. Scrape, crawl, search and extract.",
+  "packageName": "@alphesdk-remote/com-hydrafetch-web",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hydrafetch.com/mcp"
+    }
+  ],
+  "url": "https://hydrafetch.com"
+}

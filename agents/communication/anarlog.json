@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "anarlog",
+  "name": "Anarlog (formerly Hyprnote)",
+  "description": "Local-first meeting notepad that listens to calls without a bot, transcribes them and merges the transcript with your own notes.",
+  "category": "communication",
+  "tags": ["meetings", "notes", "transcription", "local-first", "desktop"],
+  "repo": "https://github.com/fastrepl/anarlog",
+  "publisher": "Fastrepl",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets people take rough notes during a meeting while it records and transcribes in the background, then produces a cleaned-up summary. Nothing joins the call as a visible participant.",
+  "howItWorks": "A desktop application built in Rust captures audio on the device and stores notes and transcripts in a local SQLite database. Transcription and summarisation can run on local models or a provider chosen by the user. The README documents the developer workflow for running the desktop app from source.",
+  "requirements": [
+    {
+      "name": "pnpm and Rust toolchain",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed to run the desktop app from source"
+    }
+  ],
+  "install": ["pnpm install --frozen-lockfile"],
+  "run": ["pnpm dev:desktop"],
+  "interfaces": ["desktop"],
+  "language": "Rust",
+  "models": "Local models or user-supplied providers",
+  "mcp": "none",
+  "github": {
+    "stars": 9429,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

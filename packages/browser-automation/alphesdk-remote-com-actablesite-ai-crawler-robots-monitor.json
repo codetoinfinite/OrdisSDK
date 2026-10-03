@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ActableSite AI Crawler Monitor",
+  "description": "Check AI crawler robots.txt policy and monitor public-site policy, sitemap, and llms.txt changes.",
+  "packageName": "@alphesdk-remote/com-actablesite-ai-crawler-robots-monitor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://actablesite.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/unitedideas/actablesite-mcp",
+  "readme": "https://github.com/unitedideas/actablesite-mcp#readme"
+}

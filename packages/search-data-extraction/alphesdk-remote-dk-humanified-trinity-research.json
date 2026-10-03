@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "trinity-research",
+  "description": "Fact-check claims against live web sources: verdict, consensus, cited sources, PII redaction.",
+  "packageName": "@alphesdk-remote/dk-humanified-trinity-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trinity-v2-mcp.fly.dev/mcp"
+    }
+  ]
+}

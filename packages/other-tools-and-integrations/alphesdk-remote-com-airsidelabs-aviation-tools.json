@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Airside Labs Aviation Tools",
+  "description": "Aviation identity resolution and an AI use-case atlas, with provenance and temporal validity",
+  "packageName": "@alphesdk-remote/com-airsidelabs-aviation-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.airsidelabs.com/mcp"
+    }
+  ],
+  "url": "https://airsidelabs.com/tools/docs"
+}

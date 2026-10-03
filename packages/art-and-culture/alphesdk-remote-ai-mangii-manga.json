@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Manga & Anime Generator - Mangii MCP",
+  "description": "Create manga and anime art from text. 24 styles, multi-panel stories, BYOK.",
+  "packageName": "@alphesdk-remote/ai-mangii-manga",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mangii.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/AAAIStudio/mangii-mcp",
+  "readme": "https://github.com/AAAIStudio/mangii-mcp#readme"
+}

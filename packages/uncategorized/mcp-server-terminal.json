@@ -15,5 +15,7 @@
       "required": false
     }
   },
-  "binArgs": ["--headless"]
+  "binArgs": [
+    "--headless"
+  ]
 }

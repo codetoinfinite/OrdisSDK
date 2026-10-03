@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OpenCaseLaw — Swiss Caselaw, Statutes & Doctrine",
+  "description": "1M+ Swiss court decisions, statutes & doctrine with citation graph (DE/FR/IT). CC0, free, 42 tools.",
+  "packageName": "@alphesdk-remote/ch-opencaselaw-swiss-caselaw",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.opencaselaw.ch/mcp"
+    }
+  ],
+  "url": "https://github.com/jonashertner/caselaw-repo-1",
+  "readme": "https://github.com/jonashertner/caselaw-repo-1#readme"
+}

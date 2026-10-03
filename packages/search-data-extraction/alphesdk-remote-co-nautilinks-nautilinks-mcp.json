@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nautilinks Backlinks",
+  "description": "Search, compare, order and track French backlink placements through the Nautilinks catalog.",
+  "packageName": "@alphesdk-remote/co-nautilinks-nautilinks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nautilinks.co/mcp"
+    }
+  ],
+  "url": "https://nautilinks.co/fr/api/"
+}

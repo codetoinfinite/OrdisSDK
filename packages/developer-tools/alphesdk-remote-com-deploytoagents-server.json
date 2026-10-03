@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Deploy to Agents",
+  "description": "Audit agent-distribution surfaces and create an evidence-based distribution plan.",
+  "packageName": "@alphesdk-remote/com-deploytoagents-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deploytoagents.com/mcp"
+    }
+  ],
+  "url": "https://github.com/saezbaldo/deploytoagents",
+  "readme": "https://github.com/saezbaldo/deploytoagents#readme"
+}

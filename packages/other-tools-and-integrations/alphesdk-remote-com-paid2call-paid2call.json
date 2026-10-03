@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Paid2Call",
+  "description": "Launch pump.fun tokens whose fees pay callers in USDC. Find paying pools, register calls, claim.",
+  "packageName": "@alphesdk-remote/com-paid2call-paid2call",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.paid2call.com/mcp"
+    }
+  ],
+  "url": "https://paid2call.com/agents"
+}

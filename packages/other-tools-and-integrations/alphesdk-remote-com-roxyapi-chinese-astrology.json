@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Chinese Astrology MCP Server by RoxyAPI",
+  "description": "BaZi four pillars, Chinese zodiac, lunisolar calendar and almanac days for AI agents.",
+  "packageName": "@alphesdk-remote/com-roxyapi-chinese-astrology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/chinese-astrology"
+    }
+  ],
+  "url": "https://roxyapi.com/products/chinese-astrology-api"
+}

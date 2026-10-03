@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CarteleraCines.es",
+  "description": "Cartelera de España: películas, cines, sesiones, recomendaciones y enlaces de compra.",
+  "packageName": "@alphesdk-remote/es-carteleracines-cartelera",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.carteleracines.es/mcp_server.php"
+    }
+  ],
+  "url": "https://github.com/surferkoala/cartelera-cines",
+  "readme": "https://github.com/surferkoala/cartelera-cines#readme"
+}

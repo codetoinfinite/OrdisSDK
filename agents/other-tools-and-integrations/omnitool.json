@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "omnitool",
+  "name": "OmniTool (OmniParser)",
+  "description": "Computer-use agent that controls a Windows 11 VM using OmniParser screen parsing plus a vision model of your choice.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "windows", "screen-parsing", "vision", "desktop-automation"],
+  "repo": "https://github.com/microsoft/OmniParser",
+  "subpath": "omnitool",
+  "publisher": "Microsoft",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users type a task in a Gradio UI and watch the agent reason and act inside a sandboxed Windows 11 virtual machine. It is intended for testing and researching GUI agents.",
+  "howItWorks": "Three parts cooperate: a FastAPI server running OmniParser V2 to turn screenshots into structured UI elements, OmniBox (a Windows 11 VM inside Docker), and a Gradio app that runs the agent loop with the selected LLM. Setup steps are in omnitool/readme.md.",
+  "requirements": [
+    {
+      "name": "Docker Desktop",
+      "kind": "runtime",
+      "required": true,
+      "description": "Hosts the OmniBox Windows VM"
+    },
+    {
+      "name": "KVM",
+      "kind": "hardware",
+      "required": true,
+      "description": "Needed for the VM to run at usable speed (Windows or Linux host)"
+    },
+    {
+      "name": "Windows 11 Enterprise Evaluation ISO",
+      "kind": "service",
+      "required": true,
+      "description": "Installed into the VM"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "For OpenAI, Anthropic, DeepSeek or Qwen models"
+    },
+    {
+      "name": "conda",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.12 environment"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "OpenAI (4o/o1/o3-mini), DeepSeek R1, Qwen 2.5VL, Anthropic Computer Use",
+  "mcp": "none",
+  "github": {
+    "stars": 25484,
+    "license": "CC-BY-4.0",
+    "pushedAt": "2026-07-20",
+    "checkedAt": "2026-10-03"
+  }
+}

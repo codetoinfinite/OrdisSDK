@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "gateway",
+  "description": "Durable self for AI agents: one-call resume, memory, real browser, free chat + hire real humans.",
+  "packageName": "@alphesdk-remote/com-wingmanprotocol-agent-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.wingmanprotocol.com/mcp"
+    }
+  ],
+  "url": "https://github.com/RIPRODUCTIONS/wingman-agent-gateway",
+  "readme": "https://github.com/RIPRODUCTIONS/wingman-agent-gateway#readme"
+}

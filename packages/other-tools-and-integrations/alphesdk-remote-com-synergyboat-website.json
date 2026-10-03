@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SynergyBoat",
+  "description": "SynergyBoat's public company data — services, case studies, AI use cases, team — and lead capture.",
+  "packageName": "@alphesdk-remote/com-synergyboat-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.synergyboat.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/synergyboat/landing-webapp",
+  "readme": "https://github.com/synergyboat/landing-webapp#readme"
+}

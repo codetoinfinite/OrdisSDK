@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Samplecut",
+  "description": "Cut audio from YouTube, TikTok or Instagram links to MP3/WAV, and fetch video transcripts.",
+  "packageName": "@alphesdk-remote/app-samplecut-samplecut",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.samplecut.app/mcp"
+    }
+  ],
+  "url": "https://samplecut.app/mcp"
+}

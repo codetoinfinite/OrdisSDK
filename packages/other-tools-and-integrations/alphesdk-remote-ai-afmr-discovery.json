@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AFMR Discovery",
+  "description": "Read AFMR failure modes and discover scoped attestation and lift-evidence contracts.",
+  "packageName": "@alphesdk-remote/ai-afmr-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afmr.ai/mcp"
+    }
+  ],
+  "url": "https://afmr.ai/"
+}

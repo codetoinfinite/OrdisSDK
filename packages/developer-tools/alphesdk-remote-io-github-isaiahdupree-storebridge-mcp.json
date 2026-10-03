@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "storebridge-mcp",
+  "description": "Remote MCP connector for App Store + Google Play data via StoreBridge API. No auth required.",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-storebridge-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://storebridge-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/storebridge-mcp",
+  "readme": "https://github.com/IsaiahDupree/storebridge-mcp#readme"
+}

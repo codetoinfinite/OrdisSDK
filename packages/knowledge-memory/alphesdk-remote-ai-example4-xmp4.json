@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "xmp4 — Semantic code knowledge for your stack",
+  "description": "OSS libs in your stack, really used: source, tests, callers. C#, Java, TS, Python, Rust, PHP+.",
+  "packageName": "@alphesdk-remote/ai-example4-xmp4",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.example4.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/0ics-srls/lsai-xmp4.public",
+  "readme": "https://github.com/0ics-srls/lsai-xmp4.public#readme"
+}

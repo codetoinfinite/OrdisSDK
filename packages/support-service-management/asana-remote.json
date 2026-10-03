@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Asana",
+  "description": "Asana-hosted server for tasks, projects, goals and portfolios (legacy SSE at /sse).",
+  "packageName": "@alphesdk-remote/asana",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.asana.com/v2/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.asana.com/docs/integrating-with-asanas-mcp-server",
+  "url": "https://github.com/Asana",
+  "author": "Asana",
+  "env": {}
+}

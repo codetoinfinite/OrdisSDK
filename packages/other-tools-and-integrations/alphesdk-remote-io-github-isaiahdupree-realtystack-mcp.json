@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "realtystack-mcp",
+  "description": "U.S. real-estate data: property records, AVM value + rent estimates, sale/rental listings.",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-realtystack-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://realtystack-mcp.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/realtystack-mcp",
+  "readme": "https://github.com/IsaiahDupree/realtystack-mcp#readme"
+}

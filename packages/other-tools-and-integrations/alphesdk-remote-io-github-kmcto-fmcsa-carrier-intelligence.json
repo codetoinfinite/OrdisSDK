@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FMCSA Carrier Intelligence",
+  "description": "US motor carrier safety, authority and identity-linkage checks from FMCSA data. Pay per call (x402).",
+  "packageName": "@alphesdk-remote/io-github-kmcto-fmcsa-carrier-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fmcsa-mcp-843680657471.us-central1.run.app/mcp"
+    }
+  ],
+  "url": "https://kmcto.github.io/fmcsa-carrier-intelligence/"
+}

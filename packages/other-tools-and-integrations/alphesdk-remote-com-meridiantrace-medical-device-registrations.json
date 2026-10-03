@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Meridian Trace — Medical Device Registrations",
+  "description": "Medical device registrations across 25 markets: coverage gaps, 510(k) predicates, classification",
+  "packageName": "@alphesdk-remote/com-meridiantrace-medical-device-registrations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://meridiantrace.com/v1/mcp"
+    }
+  ],
+  "url": "https://meridiantrace.com/agents.html"
+}

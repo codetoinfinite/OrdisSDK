@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Provides capabilities that let LLM agents perform a range of infrastructure management tasks.",
+  "packageName": "@alphesdk-remote/com-googleapis-compute-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compute.googleapis.com/mcp"
+    }
+  ]
+}

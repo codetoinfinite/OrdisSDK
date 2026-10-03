@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Zapier",
+  "description": "Exposes actions from thousands of Zapier-connected apps as MCP tools.",
+  "packageName": "@alphesdk-remote/zapier",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zapier.com/api/v1/connect",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.zapier.com/mcp/home",
+  "url": "https://github.com/zapier",
+  "author": "Zapier",
+  "env": {}
+}

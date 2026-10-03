@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Last Price",
+  "description": "Compute and verify prices from an agent, metered per call. Works keyless on a demo tenant.",
+  "packageName": "@alphesdk-remote/ai-last-price-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.last-price.ai/api/mcp/rpc"
+    }
+  ],
+  "url": "https://last-price.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pınar Eldem Hukuk & Danışmanlık",
+  "description": "Turkish law (KVKK) pre-launch legal check for AI-built apps; Istanbul law office info.",
+  "packageName": "@alphesdk-remote/com-pinareldem-hukuk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinareldem.com/api/mcp"
+    }
+  ],
+  "url": "https://pinareldem.com/yapay-zeka-projeleri/api-ve-mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Campiamo Campsites",
+  "description": "Find, price and book independent campsites with live availability; guests pay the campsite directly.",
+  "packageName": "@alphesdk-remote/com-campiamo-campsites",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://campiamo.com/mcp"
+    }
+  ],
+  "url": "https://campiamo.com/docs/website/ai-assistant-bookings"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Refugio San Bernardo",
+  "description": "Refugio de montaña en Vallecitos, Cordón del Plata: disponibilidad, precios, clima y reservas.",
+  "packageName": "@alphesdk-remote/com-sanbernardorefugio-refugio-san-bernardo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hawudqgbvwmgwhhcbthb.supabase.co/functions/v1/mcp-public"
+    }
+  ],
+  "url": "https://sanbernardorefugio.com"
+}

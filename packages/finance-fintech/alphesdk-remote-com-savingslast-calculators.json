@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SavingsLast retirement calculators",
+  "description": "Retirement drawdown, 72(t) SEPP, RMD, Roth conversion, Social Security and state-tax calculators.",
+  "packageName": "@alphesdk-remote/com-savingslast-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://savingslast.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ejazmu/savingslast",
+  "readme": "https://github.com/ejazmu/savingslast#readme"
+}

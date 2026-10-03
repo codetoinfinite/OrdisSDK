@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Junely — Colorado Kids’ Camps & After-School",
+  "description": "Daily-verified Colorado kids' camps & after-school programs: real availability, ages, prices.",
+  "packageName": "@alphesdk-remote/co-junely-junely",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://junely.co/mcp"
+    }
+  ],
+  "url": "https://junely.co/connect"
+}

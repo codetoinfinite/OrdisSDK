@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ChargerDojo",
+  "description": "OCPI versions, what changed between them, and which modules and journeys ChargerDojo tests.",
+  "packageName": "@alphesdk-remote/com-chargerdojo-ocpi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chargerdojo.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/chargerdojo/dojo",
+  "readme": "https://github.com/chargerdojo/dojo#readme"
+}

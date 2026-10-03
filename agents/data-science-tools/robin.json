@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "robin",
+  "name": "Robin",
+  "description": "Multi-agent system that automates scientific discovery steps such as literature review and candidate proposal.",
+  "category": "data-science-tools",
+  "tags": [
+    "scientific-discovery",
+    "multi-agent",
+    "literature-review",
+    "biology",
+    "hypothesis-generation"
+  ],
+  "repo": "https://github.com/Future-House/robin",
+  "publisher": "FutureHouse",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Proposes experimental assays and therapeutic candidates for a disease by combining literature-search agents with LLM reasoning. It is for scientists exploring hypotheses in biomedicine.",
+  "howItWorks": "A notebook-driven workflow calls hosted literature agents on the Edison platform, then uses an LLM to rank and justify hypotheses. It is run through the robin_demo.ipynb notebook in Jupyter, locally or in a Docker container, and the Python module can also be imported.",
+  "requirements": [
+    {
+      "name": "EDISON_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Edison platform literature agents (requires purchased credits)"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM provider key"
+    },
+    {
+      "name": "Python 3.12+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/Future-House/robin.git",
+    "cd robin",
+    "uv venv .venv",
+    "source .venv/bin/activate",
+    "uv pip install -e '.[dev]'",
+    "cp .env.example .env"
+  ],
+  "run": ["jupyter notebook"],
+  "interfaces": ["library", "web"],
+  "language": "Python",
+  "models": "OpenAI and other LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 723,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-04-21",
+    "checkedAt": "2026-10-03"
+  }
+}

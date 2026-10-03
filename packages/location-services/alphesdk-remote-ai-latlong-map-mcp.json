@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LatLong Maps",
+  "description": "Turn CSV or Excel data into styled choropleth and categorical maps of India from plain language.",
+  "packageName": "@alphesdk-remote/ai-latlong-map-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geocp.latlong.ai/mcp/"
+    }
+  ],
+  "url": "https://latlong.ai"
+}

@@ -1,0 +1,58 @@
+{
+  "type": "external-agent",
+  "key": "youtu-agent",
+  "name": "Youtu-Agent",
+  "description": "Tencent Youtu Lab's agent framework with ready examples for research, data analysis and file tasks, tuned for open-source models.",
+  "category": "other-tools-and-integrations",
+  "tags": ["framework", "deep-research", "data-analysis", "auto-generation", "open-models"],
+  "repo": "https://github.com/TencentCloudADP/youtu-agent",
+  "publisher": "Tencent",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It runs configurable agents from the command line or a web UI and can generate a new agent's tools and config from a short interview. Aimed at developers and researchers who want strong results without closed models.",
+  "howItWorks": "Built on the OpenAI Agents SDK conventions, agents are declared in YAML with toolkits such as search and file handling. A meta-agent script produces configs, which a chat script then runs against any OpenAI-compatible endpoint.",
+  "requirements": [
+    {
+      "name": "UTU_LLM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the chat model, with UTU_LLM_BASE_URL, UTU_LLM_MODEL and UTU_LLM_TYPE"
+    },
+    {
+      "name": "SERPER_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Web search tool"
+    },
+    {
+      "name": "JINA_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Page reading tool"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python environment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/TencentCloudADP/youtu-agent.git",
+    "cd youtu-agent",
+    "uv sync",
+    "source ./.venv/bin/activate",
+    "cp .env.example .env"
+  ],
+  "run": ["python scripts/cli_chat.py --config simple/base_search"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "framework": "openai-agents",
+  "models": "DeepSeek and other OpenAI-compatible models",
+  "mcp": "none",
+  "github": {
+    "stars": 4622,
+    "pushedAt": "2026-03-21",
+    "checkedAt": "2026-10-03"
+  }
+}

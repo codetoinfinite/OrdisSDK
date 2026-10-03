@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TLS Radar",
+  "description": "SSL/TLS scanning, free Let's Encrypt issuance, and certificate-expiry monitoring.",
+  "packageName": "@alphesdk-remote/com-tlsradar-tlsradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tlsradar.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/TLS-Radar/tlsradar-claude-plugin",
+  "readme": "https://github.com/TLS-Radar/tlsradar-claude-plugin#readme"
+}

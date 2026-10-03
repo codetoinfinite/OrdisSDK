@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "company-technographics",
+  "description": "Search 760K+ companies by technographics with direction of change: adopting, replacing, evaluating",
+  "packageName": "@alphesdk-remote/ai-echoloc-company-technographics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.echoloc.ai/mcp"
+    }
+  ],
+  "url": "https://echoloc.ai/for-agents/"
+}

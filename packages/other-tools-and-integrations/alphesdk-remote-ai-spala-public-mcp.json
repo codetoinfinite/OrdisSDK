@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Spala Public MCP",
+  "description": "Discovery, OAuth, project operations, and exact project MCP handoff for Spala backend projects.",
+  "packageName": "@alphesdk-remote/ai-spala-public-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.spala.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/spala-ai/spala-public-mcp",
+  "readme": "https://github.com/spala-ai/spala-public-mcp#readme"
+}

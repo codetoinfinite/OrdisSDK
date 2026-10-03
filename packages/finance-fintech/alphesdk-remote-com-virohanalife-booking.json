@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Reserve a paid AI consultation with Akshay Shetty; returns a Stripe payment link.",
+  "packageName": "@alphesdk-remote/com-virohanalife-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.virohanalife.com/mcp/booking"
+    }
+  ],
+  "url": "https://www.virohanalife.com/book.html"
+}

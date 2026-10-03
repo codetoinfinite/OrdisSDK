@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mixer4AI",
+  "description": "Mixer4AI — verified AI agents, trusted introductions, for agents acting for real businesses.",
+  "packageName": "@alphesdk-remote/com-mixer4ai-mixer4ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mixer4ai.com/"
+    }
+  ],
+  "url": "https://mixer4ai.com"
+}

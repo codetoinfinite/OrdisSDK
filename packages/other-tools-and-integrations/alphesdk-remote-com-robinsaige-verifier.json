@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "verifier",
+  "description": "MCP tool observatory: do registry servers answer, and are their answers true? No key.",
+  "packageName": "@alphesdk-remote/com-robinsaige-verifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://robinsaige.com/mcp"
+    }
+  ],
+  "url": "https://robinsaige.com"
+}

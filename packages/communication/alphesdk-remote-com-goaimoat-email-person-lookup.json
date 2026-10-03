@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Email Person Lookup",
+  "description": "Reverse email lookup: find the person behind an email (name, title, company).",
+  "packageName": "@alphesdk-remote/com-goaimoat-email-person-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emaillookup.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-mcp#readme"
+}

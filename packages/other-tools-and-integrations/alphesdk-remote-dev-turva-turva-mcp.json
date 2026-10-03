@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "turva-mcp",
+  "description": "Read-only MCP server for turva.dev, an agent-readiness audit and advisory service.",
+  "packageName": "@alphesdk-remote/dev-turva-turva-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.turva.dev/mcp"
+    }
+  ]
+}

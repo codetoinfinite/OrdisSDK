@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mentoring-inquiry-builder",
+  "description": "Build your mentoring inquiry with Marian Kamenistak: formal offer in 16 minutes, 16% AI discount.",
+  "packageName": "@alphesdk-remote/coach-marian-mentoring-inquiry-builder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.marian.coach/mcp/mentoring"
+    }
+  ],
+  "url": "https://github.com/marian-kamenistak/mentoring-inquiry-builder",
+  "readme": "https://github.com/marian-kamenistak/mentoring-inquiry-builder#readme"
+}

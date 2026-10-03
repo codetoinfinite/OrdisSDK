@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Screenshotline",
+  "description": "Screenshot any web page, or read it as clean Markdown, with consent banners, ads and popups removed.",
+  "packageName": "@alphesdk-remote/io-github-mamubeenkhan-screenshotline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.screenshotline.com/mcp"
+    }
+  ],
+  "url": "https://github.com/MAMubeenKhan/screenshotline",
+  "readme": "https://github.com/MAMubeenKhan/screenshotline#readme"
+}

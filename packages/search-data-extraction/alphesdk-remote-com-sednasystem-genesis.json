@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sedna Genesis",
+  "description": "Customer-facing yacht search and charter request MCP server by Sedna System.",
+  "packageName": "@alphesdk-remote/com-sednasystem-genesis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sednasystem.com/mcp"
+    }
+  ],
+  "url": "https://github.com/eitsedna/genesis",
+  "readme": "https://github.com/eitsedna/genesis#readme"
+}

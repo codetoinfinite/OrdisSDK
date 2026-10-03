@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SMKlog Parcel Shipping Rates",
+  "description": "Live USPS, UPS, FedEx and DHL rates from the US: domestic, Canada, UK, Germany, Australia. No scale.",
+  "packageName": "@alphesdk-remote/com-smklog-parcel-shipping-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quote-api.smklog.com/mcp"
+    }
+  ],
+  "url": "https://github.com/smklog/parcel-shipping-rates-mcp",
+  "readme": "https://github.com/smklog/parcel-shipping-rates-mcp#readme"
+}

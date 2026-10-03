@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Autoridad Digital — GEO",
+  "description": "Escáner GEO: analiza si una web es legible y citable por ChatGPT, Perplexity, Gemini y Claude.",
+  "packageName": "@alphesdk-remote/com-autoridaddigital-www-geo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.autoridaddigital.com/api/mcp"
+    }
+  ],
+  "url": "https://www.autoridaddigital.com/mcp"
+}

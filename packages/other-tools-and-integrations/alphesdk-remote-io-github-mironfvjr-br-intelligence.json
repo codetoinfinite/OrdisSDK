@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "BR Intelligence",
+  "description": "Brazilian company data, CNPJ/CPF validation and KYB risk score. Pay per call via x402 (USDC).",
+  "packageName": "@alphesdk-remote/io-github-mironfvjr-br-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://br-intelligence.brverify-api.workers.dev/mcp"
+    }
+  ]
+}

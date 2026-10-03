@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sessionplan",
+  "description": "Create and edit visual agendas for workshops, trainings, meetings, and events.",
+  "packageName": "@alphesdk-remote/de-sessionplan-sessionplan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sessionplan.de/mcp/"
+    }
+  ],
+  "url": "https://github.com/tim-peters/sessionplan",
+  "readme": "https://github.com/tim-peters/sessionplan#readme"
+}

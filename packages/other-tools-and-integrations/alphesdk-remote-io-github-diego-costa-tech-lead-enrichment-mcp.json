@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "B2B Lead Enrichment",
+  "description": "Remote MCP server to enrich company profiles with structured B2B data and confidence scores.",
+  "packageName": "@alphesdk-remote/io-github-diego-costa-tech-lead-enrichment-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lead-enrichment-mcp.agent-infra.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Diego-Costa-Tech/lead-enrichment-mcp",
+  "readme": "https://github.com/Diego-Costa-Tech/lead-enrichment-mcp#readme"
+}

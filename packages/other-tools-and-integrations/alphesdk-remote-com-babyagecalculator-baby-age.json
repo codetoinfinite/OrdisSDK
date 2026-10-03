@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "baby-age",
+  "description": "Free hosted MCP server by Baby Age Calculator: exact baby age, zodiac, and milestone dates. No key.",
+  "packageName": "@alphesdk-remote/com-babyagecalculator-baby-age",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://babyagecalculator.com/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/babyagecalculator/ai",
+  "readme": "https://github.com/babyagecalculator/ai#readme"
+}

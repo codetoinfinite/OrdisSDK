@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kirk — Unsupervised Structural Change Detection",
+  "description": "The Kalman filter for the non-Gaussian, non-stationary world. Unsupervised structural change.",
+  "packageName": "@alphesdk-remote/io-github-ulyssesmodel-kirk-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kirk-mcp.kavara.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/UlyssesModel/kirk-mcp",
+  "readme": "https://github.com/UlyssesModel/kirk-mcp#readme"
+}

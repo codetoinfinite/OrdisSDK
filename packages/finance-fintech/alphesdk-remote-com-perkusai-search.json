@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Perkusai (US)",
+  "description": "AI shopping search: real, in-stock US and Amazon products with prices, ratings and buy links.",
+  "packageName": "@alphesdk-remote/com-perkusai-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.perkusai.com/"
+    }
+  ],
+  "url": "https://perkusai.com"
+}

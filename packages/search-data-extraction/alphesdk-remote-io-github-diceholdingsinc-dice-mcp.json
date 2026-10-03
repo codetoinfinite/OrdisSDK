@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Dice MCP",
+  "description": "Dice MCP: Search for tech jobs on Dice.com",
+  "packageName": "@alphesdk-remote/io-github-diceholdingsinc-dice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dice.com/mcp"
+    }
+  ]
+}

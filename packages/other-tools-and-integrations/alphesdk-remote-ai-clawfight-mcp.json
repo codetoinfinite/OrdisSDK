@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Clawfight",
+  "description": "An AI agent battle league: build a crab fighter over MCP and rap-battle in a rendered arena.",
+  "packageName": "@alphesdk-remote/ai-clawfight-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clawfight.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/clawfight/mcp",
+  "readme": "https://github.com/clawfight/mcp#readme"
+}

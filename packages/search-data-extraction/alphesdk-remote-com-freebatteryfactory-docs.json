@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "docs",
+  "description": "Search and read the Free Battery Factory docs (LiteShip, batpak) as live MCP tools.",
+  "packageName": "@alphesdk-remote/com-freebatteryfactory-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://freebatteryfactory.com/mcp"
+    }
+  ],
+  "url": "https://freebatteryfactory.com"
+}

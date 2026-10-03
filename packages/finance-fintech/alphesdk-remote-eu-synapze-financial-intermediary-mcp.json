@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Synapze — Financial Intermediary MCP",
+  "description": "Connect AI agents to licensed financial intermediaries in France: insurance, credit, wealth.",
+  "packageName": "@alphesdk-remote/eu-synapze-financial-intermediary-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.synapze.eu/v1/{tenant_id}"
+    }
+  ],
+  "url": "https://github.com/ycdvll/synapze-mcp",
+  "readme": "https://github.com/ycdvll/synapze-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat AI Visibility Audit",
+  "description": "Diagnose brand visibility in AI answers (ChatGPT, Perplexity, AI Overviews). Free + paid audits.",
+  "packageName": "@alphesdk-remote/com-goaimoat-ai-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "rubrkit",
+  "description": "MCP-native AI evaluation: rubric audits, eval suites, and proof reports for AI/LLM output.",
+  "packageName": "@alphesdk-remote/com-rubrkit-rubrkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.rubrkit.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/liberat0r/react-rubrkit",
+  "readme": "https://github.com/liberat0r/react-rubrkit#readme"
+}

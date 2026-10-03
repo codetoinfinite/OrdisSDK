@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "latgalian",
+  "description": "Grounds LLMs in real Latgalian: Wiktionary lemmas, inflections, romanization.",
+  "packageName": "@alphesdk-remote/com-valksor-latgalian",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://latgalian.valksor.com/mcp"
+    }
+  ],
+  "url": "https://latgalian.valksor.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SYMBaiEX Documentation MCP",
+  "description": "Public read-only SYMBaiEX developer and agent documentation.",
+  "packageName": "@alphesdk-remote/com-symbaiex-www-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.symbaiex.com/api/docs/mcp"
+    }
+  ],
+  "url": "https://www.symbaiex.com/developers"
+}

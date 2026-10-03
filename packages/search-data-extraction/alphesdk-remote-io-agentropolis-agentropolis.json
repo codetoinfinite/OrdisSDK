@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agentropolis",
+  "description": "Search engine for agent tools: MCP servers, x402/MPP paid APIs, A2A agents and kits.",
+  "packageName": "@alphesdk-remote/io-agentropolis-agentropolis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentropolis.io/api/mcp"
+    }
+  ],
+  "url": "https://agentropolis.io"
+}

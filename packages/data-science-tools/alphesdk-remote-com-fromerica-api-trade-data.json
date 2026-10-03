@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fromerica U.S. Trade Data",
+  "description": "U.S. import tariffs (HTS), U.S. export statistics, restricted-party screening and U.S. exporters.",
+  "packageName": "@alphesdk-remote/com-fromerica-api-trade-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fromerica.com/mcp"
+    }
+  ],
+  "url": "https://www.fromerica.com/developers#mcp"
+}

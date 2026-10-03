@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Self-routing market intel for agents: A-F trade checks, one-call briefs, real liq maps, proof board.",
+  "packageName": "@alphesdk-remote/com-n0brains-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.n0brains.com/mcp/"
+    }
+  ],
+  "url": "https://n0brains.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Compute Radar",
+  "description": "Which open models fit your GPU or Mac, measured. Model momentum, GPU rental prices, weekly pick.",
+  "packageName": "@alphesdk-remote/dev-aicomputeradar-ai-compute-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aicomputeradar.dev/api/mcp"
+    }
+  ],
+  "url": "https://aicomputeradar.dev/developers"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Filtrous MCP Catalog Server",
+  "description": "Search Filtrous lab-filtration products by spec, get prices, and request quotes from your AI agent.",
+  "packageName": "@alphesdk-remote/com-filtrous-mcp-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filtrous-mcp-catalog.filtrous.workers.dev/mcp"
+    }
+  ],
+  "url": "https://filtrous.com"
+}

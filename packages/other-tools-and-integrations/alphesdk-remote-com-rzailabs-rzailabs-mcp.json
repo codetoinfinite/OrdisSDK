@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "RZ AI Labs",
+  "description": "Read-only MCP server for RZ AI Labs — query its services, workshops, and contact info.",
+  "packageName": "@alphesdk-remote/com-rzailabs-rzailabs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rzailabs.com/mcp"
+    }
+  ]
+}

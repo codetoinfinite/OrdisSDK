@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dive Kit",
+  "description": "Experimental. Plan scuba decompression dives, gas blends and gas use with Dive Kit. Reference only.",
+  "packageName": "@alphesdk-remote/app-divekit-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.divekit.app/mcp"
+    }
+  ],
+  "url": "https://divekit.app/ai"
+}

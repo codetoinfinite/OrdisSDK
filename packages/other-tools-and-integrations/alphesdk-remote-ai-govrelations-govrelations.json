@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gov Relations",
+  "description": "U.S. lobbying records: who lobbies for whom, fees, bills, agencies and states, from lda.gov.",
+  "packageName": "@alphesdk-remote/ai-govrelations-govrelations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://govrelations.ai/mcp"
+    }
+  ],
+  "url": "https://govrelations.ai/ai"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Twelve Permissions",
+  "description": "Browse, verify and buy Twelve Permissions NFTs on XRP Ledger. Every claim is checkable.",
+  "packageName": "@alphesdk-remote/com-twelvepermissions-twelve-permissions",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://twelvepermissions.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tsharpe2282-web/twelve-permissions",
+  "readme": "https://github.com/tsharpe2282-web/twelve-permissions#readme"
+}

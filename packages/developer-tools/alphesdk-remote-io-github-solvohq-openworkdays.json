@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "openworkdays",
+  "description": "Zero-signup business-day date-math API: add days, count days between dates, is-business-day.",
+  "packageName": "@alphesdk-remote/io-github-solvohq-openworkdays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openworkdays.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/SolvoHQ/openworkdays",
+  "readme": "https://github.com/SolvoHQ/openworkdays#readme"
+}

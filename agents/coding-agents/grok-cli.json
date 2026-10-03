@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "grok-cli",
+  "name": "Grok CLI",
+  "description": "Community terminal coding agent for xAI's Grok models with web and X search, sub-agents and remote control over Telegram.",
+  "category": "coding-agents",
+  "tags": ["terminal", "grok", "xai", "sub-agents", "telegram"],
+  "repo": "https://github.com/superagent-ai/grok-cli",
+  "publisher": "Superagent",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Grok CLI lets developers use Grok models to edit code and run commands in a project. It can search the web and X for up-to-date information and split work across sub-agents. It is not published by xAI.",
+  "howItWorks": "The CLI runs an agent loop against the Grok API with file, shell and search tools. It works interactively or headless with a prompt flag, and a Telegram bridge lets a session be steered remotely.",
+  "requirements": [
+    {
+      "name": "Grok API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Authenticates with the xAI API"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/superagent-ai/grok-cli/main/install.sh | bash"
+  ],
+  "run": ["grok", "grok --prompt \"run the test suite and summarize failures\""],
+  "interfaces": ["cli", "chat"],
+  "language": "TypeScript",
+  "models": "xAI Grok models",
+  "mcp": "none",
+  "github": {
+    "stars": 3486,
+    "license": "MIT",
+    "pushedAt": "2026-07-06",
+    "checkedAt": "2026-10-03"
+  }
+}

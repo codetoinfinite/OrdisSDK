@@ -1,0 +1,67 @@
+{
+  "type": "external-agent",
+  "key": "gpt-researcher",
+  "name": "GPT Researcher",
+  "description": "Autonomous deep-research agent that investigates a question on the web or in local files and writes a cited report.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "reports", "citations", "web-search", "local-documents"],
+  "repo": "https://github.com/assafelovic/gpt-researcher",
+  "homepage": "https://gptr.dev",
+  "docs": "https://docs.gptr.dev",
+  "publisher": "Assaf Elovic",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Takes a research question and produces a long, sourced report. It can research the open web, a folder of local documents, or both, and is aimed at analysts, students and developers who want a self-hosted alternative to commercial deep-research products.",
+  "howItWorks": "A planner breaks the task into sub-questions, crawler agents gather and filter sources for each one, and a publisher step merges the findings into a report with citations. Search is pluggable through a RETRIEVER setting (Tavily by default) and can be combined with MCP servers as extra data sources. It runs as a FastAPI server with a web front end, as a pip package, or in Docker.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM access (default provider)"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search through Tavily, the default retriever"
+    },
+    {
+      "name": "OPENAI_BASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Custom OpenAI-compatible endpoint"
+    },
+    {
+      "name": "DOC_PATH",
+      "kind": "runtime",
+      "required": false,
+      "description": "Folder of local documents to research"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the backend"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/assafelovic/gpt-researcher.git",
+    "cd gpt-researcher",
+    "export OPENAI_API_KEY={Your OpenAI API Key here}",
+    "export TAVILY_API_KEY={Your Tavily API Key here}",
+    "pip install -r requirements.txt"
+  ],
+  "run": ["python -m uvicorn main:app --reload"],
+  "interfaces": ["web", "api", "library"],
+  "language": "Python",
+  "framework": "LangChain / LangGraph",
+  "models": "OpenAI by default; other providers and OpenAI-compatible endpoints configurable",
+  "mcp": "client",
+  "github": {
+    "stars": 29883,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

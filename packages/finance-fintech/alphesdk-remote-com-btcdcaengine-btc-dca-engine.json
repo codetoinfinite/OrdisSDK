@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BTC DCA Engine",
+  "description": "Historical dollar-cost-averaging simulator for Bitcoin and other assets.",
+  "packageName": "@alphesdk-remote/com-btcdcaengine-btc-dca-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://btcdcaengine.com/mcp"
+    }
+  ],
+  "url": "https://btcdcaengine.com/docs?article=agent_access"
+}

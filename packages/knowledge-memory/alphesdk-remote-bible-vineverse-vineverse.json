@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VineVerse — Bible Knowledge Graph",
+  "description": "Bible knowledge graph: 31,102 verses, 341,289 cross references, people, places, themes.",
+  "packageName": "@alphesdk-remote/bible-vineverse-vineverse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vineverse.bible/api/mcp"
+    }
+  ],
+  "url": "https://vineverse.bible/mcp"
+}

@@ -1,0 +1,55 @@
+{
+  "type": "external-agent",
+  "key": "agent-s",
+  "name": "Agent S",
+  "description": "Computer-use agent framework that operates macOS, Windows and Linux desktops through screenshots, planning and grounded mouse and keyboard actions.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "gui-agent", "desktop", "grounding"],
+  "repo": "https://github.com/simular-ai/Agent-S",
+  "homepage": "https://www.simular.ai",
+  "publisher": "Simular AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Carries out desktop tasks described in plain language by controlling the real graphical interface of the machine it runs on. It is used by researchers and developers building or benchmarking general computer-use agents.",
+  "howItWorks": "A main reasoning model reads a screenshot and decides the next step, while a separate grounding model converts the described target into screen coordinates. The resulting click and type actions are executed on the host, and the loop repeats. An optional flag lets it run local code as well.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key when OpenAI is the reasoning provider"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key when Anthropic is the reasoning provider"
+    },
+    {
+      "name": "HF_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Hugging Face token for the grounding endpoint"
+    },
+    {
+      "name": "Grounding model endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "Served grounding model such as UI-TARS-1.5-7B reachable by URL"
+    }
+  ],
+  "install": ["pip install gui-agents"],
+  "run": [
+    "agent_s --provider openai --model gpt-5-2025-08-07 --ground_provider huggingface --ground_url http://localhost:8080 --ground_model ui-tars-1.5-7b --grounding_width 1920 --grounding_height 1080"
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic and others for reasoning; UI-TARS for grounding",
+  "mcp": "none",
+  "github": {
+    "stars": 12507,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-05",
+    "checkedAt": "2026-10-03"
+  }
+}

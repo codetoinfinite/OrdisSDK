@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Soren",
+  "description": "Game prices across Steam, Epic, GOG and Microsoft, with real price history and giveaways.",
+  "packageName": "@alphesdk-remote/com-soren-games",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://soren.com/mcp"
+    }
+  ],
+  "url": "https://soren.com"
+}

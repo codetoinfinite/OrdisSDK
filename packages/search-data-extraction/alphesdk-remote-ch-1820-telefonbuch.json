@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "1820.ch – Telefonbuch Schweiz",
+  "description": "Swiss phone directory: search people and businesses, reverse number lookup, business categories.",
+  "packageName": "@alphesdk-remote/ch-1820-telefonbuch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.1820.ch/mcp"
+    }
+  ],
+  "url": "https://1820.ch/ch/de/ki-assistenten"
+}

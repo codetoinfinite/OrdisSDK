@@ -117,7 +117,7 @@ export interface CatalogStats {
     byRuntime: Record<string, number>;
   };
   tools: { total: number; curated: number };
-  agents: { total: number; runnable: number };
+  agents: { total: number; runnable: number; external: number; official: number };
   categories: number;
   version: string;
   search: { engine: SearchEngine; documents: number };
@@ -147,6 +147,36 @@ export interface AgentServerRef {
   tools?: string[];
 }
 
+export type AgentKind = "chat" | "external";
+
+export interface ExternalRequirement {
+  name: string;
+  kind: "api-key" | "runtime" | "service" | "hardware" | "account";
+  required: boolean;
+  description?: string;
+}
+
+/** An agent that lives in its own repository: documented here, run from its source. */
+export interface ExternalAgentInfo {
+  repo: string;
+  subpath?: string;
+  homepage?: string;
+  docs?: string;
+  publisher: string;
+  publisherType: "company" | "community" | "individual";
+  whatItDoes: string;
+  howItWorks: string;
+  requirements: ExternalRequirement[];
+  install: string[];
+  run: string[];
+  interfaces: string[];
+  language?: string;
+  framework?: string;
+  models?: string;
+  mcp: "client" | "server" | "both" | "none";
+  github?: { stars: number; license?: string; pushedAt: string; checkedAt: string };
+}
+
 export interface AgentSummary {
   key: string;
   name: string;
@@ -156,7 +186,12 @@ export interface AgentSummary {
   tags: string[];
   author?: string;
   servers: string[];
+  /** Chat agents: every server is available. External agents: always false. */
   runnable: boolean;
+  kind: AgentKind;
+  /** External agents: published by the organisation that owns the product. */
+  official?: boolean;
+  stars?: number;
 }
 
 export interface AgentResolvedServer extends AgentServerRef {
@@ -172,6 +207,7 @@ export interface AgentDetail extends AgentSummary {
   maxSteps: number;
   resolvedServers: AgentResolvedServer[];
   issues: string[];
+  external?: ExternalAgentInfo;
 }
 
 export interface FeaturedCatalog {
@@ -220,6 +256,9 @@ export interface AgentDoc extends SearchDocBase {
   key: string;
   servers: string[];
   runnable: boolean;
+  kind: AgentKind;
+  official?: boolean;
+  stars?: number;
 }
 
 export type SearchDoc = McpDoc | ToolDoc | AgentDoc;

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BullionRadar",
+  "description": "Prix live de 11 dealers et specs complètes de 80+ pièces d'or et d'argent, pour agents IA.",
+  "packageName": "@alphesdk-remote/fr-bullionradar-bullionradar-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bullionradar.fr/api/mcp"
+    }
+  ],
+  "url": "https://github.com/laurentknauss/bullionradar",
+  "readme": "https://github.com/laurentknauss/bullionradar#readme"
+}

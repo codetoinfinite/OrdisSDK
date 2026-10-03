@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CiteMe",
+  "description": "Search papers, format citations in 60 styles, and verify bibliographies against scholarly sources.",
+  "packageName": "@alphesdk-remote/app-citeme-citeme",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citeme.app/api/mcp"
+    }
+  ],
+  "url": "https://citeme.app/mcp"
+}

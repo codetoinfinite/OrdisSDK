@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Intelligence Platform",
+  "description": "Rank tenders and projects; compare markets and official evidence for 0.01 USDC x402.",
+  "packageName": "@alphesdk-remote/io-github-sunbrunch-agent-intelligence-platform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-intelligence-platform.fhochard.workers.dev/mcp"
+    }
+  ],
+  "url": "https://agent-intelligence-platform.fhochard.workers.dev/v1/intelligence"
+}

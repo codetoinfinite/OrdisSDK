@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "rattlesnakesbymail",
+  "description": "Dated, sourced claims about AI crawlers and agents, offered as MCP tools.",
+  "packageName": "@alphesdk-remote/com-rattlesnakesbymail-rattlesnakesbymail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rattlesnakesbymail.com/mcp"
+    }
+  ],
+  "url": "https://rattlesnakesbymail.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "toolfound",
+  "description": "Agent-native launch platform and tool directory: search, alternatives, trending, launch via MCP.",
+  "packageName": "@alphesdk-remote/com-toolfound-toolfound",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolfound.com/api/mcp"
+    }
+  ],
+  "url": "https://toolfound.com"
+}

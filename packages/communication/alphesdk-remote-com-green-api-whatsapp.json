@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Green API WhatsApp",
+  "description": "MCP gateway for WhatsApp via Green API: messaging, contacts, groups and instance management.",
+  "packageName": "@alphesdk-remote/com-green-api-whatsapp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.green-api.com/mcp"
+    }
+  ],
+  "url": "https://github.com/green-api/green-api-mcp-gateway",
+  "readme": "https://github.com/green-api/green-api-mcp-gateway#readme"
+}

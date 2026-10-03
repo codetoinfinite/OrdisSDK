@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kurdish-tts-stt",
+  "description": "Sorani & Kurmanji TTS+STT: Kurdish speech most APIs lack. 885 voices, free tier, no key to browse.",
+  "packageName": "@alphesdk-remote/com-kurdishtts-kurdish-tts-stt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.kurdishtts.com/api/mcp"
+    }
+  ],
+  "url": "https://www.kurdishtts.com/docs/guides/claude-kurdish-voice"
+}

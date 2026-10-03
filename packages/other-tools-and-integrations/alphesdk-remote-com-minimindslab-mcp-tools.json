@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MiniMindsLab MCP Tools",
+  "description": "Deterministic MiniMindsLab utilities for AI agents over MCP.",
+  "packageName": "@alphesdk-remote/com-minimindslab-mcp-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.minimindslab.com/mcp"
+    }
+  ],
+  "url": "https://mcp.minimindslab.com/"
+}

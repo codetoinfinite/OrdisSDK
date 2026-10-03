@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nombrio Clearance Check",
+  "description": "Free brand-name Clearance Checks from live registries; connect a plan (API key) for full checks.",
+  "packageName": "@alphesdk-remote/com-nombrio-name-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nombrio.com/api/mcp"
+    }
+  ],
+  "url": "https://nombrio.com/mcp"
+}

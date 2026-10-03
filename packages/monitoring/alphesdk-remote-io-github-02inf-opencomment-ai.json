@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OpenComment AI",
+  "description": "Research saved LinkedIn contacts, review monitored activity, and prepare engagement campaigns.",
+  "packageName": "@alphesdk-remote/io-github-02inf-opencomment-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.opencomment.ai/mcp"
+    }
+  ],
+  "url": "https://opencomment.ai/mcp"
+}

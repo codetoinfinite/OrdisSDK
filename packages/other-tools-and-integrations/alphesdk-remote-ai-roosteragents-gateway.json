@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rooster Agent Gateway",
+  "description": "Discover, read and book verified real-world businesses through one endpoint.",
+  "packageName": "@alphesdk-remote/ai-roosteragents-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roosteragents.ai/mcp"
+    }
+  ],
+  "url": "https://roosteragents.ai/arsenal/rooster-agent-gateway/"
+}

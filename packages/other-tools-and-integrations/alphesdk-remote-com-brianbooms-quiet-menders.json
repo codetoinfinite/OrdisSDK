@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Quiet Menders",
+  "description": "Privacy clinic + pay-per-call data APIs for AI agents via x402. Never pays or touches keys.",
+  "packageName": "@alphesdk-remote/com-brianbooms-quiet-menders",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.brianbooms.com/mcp"
+    }
+  ],
+  "url": "https://github.com/brianbooms/quiet-menders",
+  "readme": "https://github.com/brianbooms/quiet-menders#readme"
+}

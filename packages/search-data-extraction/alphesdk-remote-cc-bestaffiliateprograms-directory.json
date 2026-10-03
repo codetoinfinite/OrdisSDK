@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "directory",
+  "description": "Search 4,825 affiliate programs by commission, cookie window and network, with source confidence.",
+  "packageName": "@alphesdk-remote/cc-bestaffiliateprograms-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bestaffiliateprograms.cc/v1/mcp"
+    }
+  ],
+  "url": "https://bestaffiliateprograms.cc/developers?utm_source=mcp_registry&utm_medium=listing&utm_campaign=launch"
+}

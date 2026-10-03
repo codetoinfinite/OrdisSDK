@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Constat MCP — FDA Device Evidence Lifecycle",
+  "description": "FDA and CMS evidence for AI medical devices: 510(k), postmarket, reimbursement, and compliance.",
+  "packageName": "@alphesdk-remote/com-healthai-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://constat.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/healthai-hq/fda-risk-radar",
+  "readme": "https://github.com/healthai-hq/fda-risk-radar#readme"
+}

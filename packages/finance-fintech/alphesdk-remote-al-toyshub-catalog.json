@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Toys Hub",
+  "description": "Browse Toys Hub: products, prices in ALL, stock, delivery and checkout links. Read-only, no sign-in.",
+  "packageName": "@alphesdk-remote/al-toyshub-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toyshub.al/mcp"
+    }
+  ],
+  "url": "https://toyshub.al/"
+}

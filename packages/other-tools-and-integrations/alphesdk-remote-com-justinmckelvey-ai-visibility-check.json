@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ai-visibility-check",
+  "description": "Free AI visibility check: is your business cited when customers ask AI? Score plus competitors.",
+  "packageName": "@alphesdk-remote/com-justinmckelvey-ai-visibility-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://justinmckelvey.com/mcp"
+    }
+  ],
+  "url": "https://justinmckelvey.com/mcp"
+}

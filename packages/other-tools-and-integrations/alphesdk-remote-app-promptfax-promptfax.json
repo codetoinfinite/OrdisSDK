@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "PromptFax",
+  "description": "Send a one-off fax from inside ChatGPT or Claude. Pay-per-use, $2-$4.50 per delivered fax.",
+  "packageName": "@alphesdk-remote/app-promptfax-promptfax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://promptfax.app/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ambolt",
+  "description": "Data lookups, on-chain facts and a non-custodial Solana swap for agents. Sourced and dated.",
+  "packageName": "@alphesdk-remote/dev-ambolt-ambolt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ambolt.dev/mcp"
+    }
+  ],
+  "url": "https://ambolt.dev"
+}

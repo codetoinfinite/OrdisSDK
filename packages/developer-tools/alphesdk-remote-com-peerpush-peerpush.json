@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PeerPush",
+  "description": "Find and compare software, SaaS, developer, and AI tools: alternatives, pricing, platforms, trends.",
+  "packageName": "@alphesdk-remote/com-peerpush-peerpush",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://peerpush.com/api/mcp"
+    }
+  ],
+  "url": "https://peerpush.com"
+}

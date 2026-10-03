@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WorkPick Press",
+  "description": "Verified Japanese company press releases with provenance (corporate number, source URL) and jobs.",
+  "packageName": "@alphesdk-remote/com-work-pick-press",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://work-pick.com/api/mcp"
+    }
+  ],
+  "url": "https://work-pick.com/press"
+}

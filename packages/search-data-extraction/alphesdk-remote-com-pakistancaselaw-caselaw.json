@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pakistan Case Law",
+  "description": "Search 230,000+ Pakistani court judgments by keyword, citation, or the legal question they settle.",
+  "packageName": "@alphesdk-remote/com-pakistancaselaw-caselaw",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pakistancaselaw.com/mcp"
+    }
+  ],
+  "url": "https://pakistancaselaw.com/for-ai"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gita Scroller",
+  "description": "The Bhagavad Gita a few verses a day in Sanskrit with English, any verse, and the whole Gita.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-gita",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/gita/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

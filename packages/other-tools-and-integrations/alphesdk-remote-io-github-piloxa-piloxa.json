@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Piloxa",
+  "description": "Prepare USPS Certified Mail letters from any AI assistant; a person reviews, pays and authorizes.",
+  "packageName": "@alphesdk-remote/io-github-piloxa-piloxa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://piloxa.com/mcp"
+    }
+  ],
+  "url": "https://piloxa.com"
+}

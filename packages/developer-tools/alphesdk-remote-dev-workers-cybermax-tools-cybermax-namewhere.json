@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Namewhere",
+  "description": "Company name to domain API + MCP: official website, confidence, evidence. $5 pack; 25 free/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-namewhere",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namewhere.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/apis/company-name-to-domain-api/"
+}

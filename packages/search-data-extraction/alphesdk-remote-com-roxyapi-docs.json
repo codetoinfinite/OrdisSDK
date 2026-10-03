@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RoxyAPI Docs MCP Server (keyless, for coding agents)",
+  "description": "Keyless docs search so coding agents wire up RoxyAPI: every endpoint, param and SDK call.",
+  "packageName": "@alphesdk-remote/com-roxyapi-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/docs"
+    }
+  ],
+  "url": "https://roxyapi.com/docs/mcp"
+}

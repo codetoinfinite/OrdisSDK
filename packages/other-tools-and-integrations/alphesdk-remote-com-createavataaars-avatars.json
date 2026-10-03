@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "createavataaars",
+  "description": "Make avatars in seven illustrated styles, like Avataaars and Notionists, as PNG, SVG or share link.",
+  "packageName": "@alphesdk-remote/com-createavataaars-avatars",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://createavataaars.com/mcp"
+    }
+  ],
+  "url": "https://createavataaars.com/mcp"
+}

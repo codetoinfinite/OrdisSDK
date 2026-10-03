@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentsKit Registry",
+  "description": "Discover open-source AI agents and get source-owned installation instructions through MCP.",
+  "packageName": "@alphesdk-remote/io-github-agentskit-io-agentskit-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://registry.agentskit.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/AgentsKit-io/agentskit-registry",
+  "readme": "https://github.com/AgentsKit-io/agentskit-registry#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Framejet Screenshot",
+  "description": "Clean PNG/JPEG screenshots via REST or MCP, with goal-driven multi-step navigation.",
+  "packageName": "@alphesdk-remote/dev-framejet-screenshot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://framejet.dev/mcp"
+    }
+  ],
+  "url": "https://framejet.dev/docs#mcp"
+}

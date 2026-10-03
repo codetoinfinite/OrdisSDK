@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "runvouch",
+  "description": "Watchdog for unattended AI agents: alerts, evidence checks and a verifiable proof per run.",
+  "packageName": "@alphesdk-remote/com-runvouch-runvouch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.runvouch.com/mcp"
+    }
+  ],
+  "url": "https://github.com/runvouch/runvouch",
+  "readme": "https://github.com/runvouch/runvouch#readme"
+}

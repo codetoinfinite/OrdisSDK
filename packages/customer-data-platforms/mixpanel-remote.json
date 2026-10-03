@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Mixpanel",
+  "description": "Query Mixpanel events, funnels, retention and reports in natural language.",
+  "packageName": "@alphesdk-remote/mixpanel",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mixpanel.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.mixpanel.com/docs/mcp",
+  "url": "https://github.com/mixpanel",
+  "author": "Mixpanel",
+  "env": {}
+}

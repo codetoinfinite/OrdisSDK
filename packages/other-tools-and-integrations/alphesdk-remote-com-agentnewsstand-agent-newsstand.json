@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Newsstand",
+  "description": "Market data and web intelligence for AI agents, paid per call in USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/com-agentnewsstand-agent-newsstand",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentnewsstand.com/mcp"
+    }
+  ]
+}

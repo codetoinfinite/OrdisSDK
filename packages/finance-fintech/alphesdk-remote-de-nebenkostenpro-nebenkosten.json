@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NebenkostenPro",
+  "description": "German housing costs: utility costs of 400 cities, property tax rates, housing benefit, deadlines.",
+  "packageName": "@alphesdk-remote/de-nebenkostenpro-nebenkosten",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nebenkostenpro.de/mcp"
+    }
+  ],
+  "url": "https://nebenkostenpro.de/mcp"
+}

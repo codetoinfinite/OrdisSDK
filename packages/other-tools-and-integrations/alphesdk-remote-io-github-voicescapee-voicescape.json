@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Voicescape — on-chain identity and tipping for AI agents",
+  "description": "Voicescape: on-chain agent blockpages and 98/2 tipping on Hedera. Read-only, no keys.",
+  "packageName": "@alphesdk-remote/io-github-voicescapee-voicescape",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voicescape.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/VoiceScapee/voicescape",
+  "readme": "https://github.com/VoiceScapee/voicescape#readme"
+}

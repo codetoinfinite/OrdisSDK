@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Surfing Dog Inbox",
+  "description": "Message, ask for a quote or book a call with Surfing Dog, through its open-source inbox.",
+  "packageName": "@alphesdk-remote/ai-surfingdog-inbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inbox.surfingdog.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/surfingdogai/inbox",
+  "readme": "https://github.com/surfingdogai/inbox#readme"
+}

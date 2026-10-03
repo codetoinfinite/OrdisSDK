@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Coinslot — the vending machine for machines",
+  "description": "13 micro-tools for agents: read pages, verify email, convert, validate, diff, extract. AI-operated.",
+  "packageName": "@alphesdk-remote/dev-coinslot-coinslot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coinslot.dev/mcp"
+    }
+  ],
+  "url": "https://coinslot.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Read-only booking info for Opus Lumiere photography, London: services, prices, availability.",
+  "packageName": "@alphesdk-remote/com-opuslumiere-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://opuslumiere.com/wp-json/opus-booking/v1/mcp"
+    }
+  ],
+  "url": "https://opuslumiere.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "review-mcp",
+  "description": "Multi-model code review: a panel of models + detectors return a pass/fail verdict. Paid via x402.",
+  "packageName": "@alphesdk-remote/io-github-hectorguerilla-review-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://review-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://review-mcp-x402.web.app"
+}

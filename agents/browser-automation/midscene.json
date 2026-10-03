@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "midscene",
+  "name": "Midscene.js",
+  "description": "Vision-driven UI automation and testing toolkit that controls web, Android, iOS, HarmonyOS and desktop apps from natural language.",
+  "category": "browser-automation",
+  "tags": ["gui-agent", "vision", "e2e-testing", "android", "ios"],
+  "repo": "https://github.com/web-infra-dev/midscene",
+  "homepage": "https://midscenejs.com",
+  "docs": "https://midscenejs.com",
+  "publisher": "ByteDance Web Infra",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets testers and developers describe UI actions, data queries and assertions in plain language and have them executed on real interfaces. It covers browsers and mobile devices and is used for end-to-end tests as well as general UI automation.",
+  "howItWorks": "An agent wrapper around Playwright, Puppeteer or a device bridge sends screenshots to a visual language model that locates elements and plans actions. Scripts can be written with the JavaScript SDK or YAML, tried interactively in a browser-extension playground, and reviewed afterwards in visual reports.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the SDK"
+    },
+    {
+      "name": "Vision model endpoint",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for a supported visual language model"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["library", "cli", "web"],
+  "language": "TypeScript",
+  "models": "Qwen, Doubao, GLM, Gemini, UI-TARS and other vision models",
+  "mcp": "server",
+  "github": {
+    "stars": 15063,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

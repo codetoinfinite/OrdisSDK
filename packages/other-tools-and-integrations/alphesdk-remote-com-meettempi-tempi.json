@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tempi",
+  "description": "Find open times and book, reschedule or cancel meetings on anyone's Tempi link. No account needed.",
+  "packageName": "@alphesdk-remote/com-meettempi-tempi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://meettempi.com/mcp"
+    }
+  ],
+  "url": "https://meettempi.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "serpmantics",
+  "description": "French-first SEO: semantic content guides, scoring, E-E-A-T audits for Google, ChatGPT & Claude.",
+  "packageName": "@alphesdk-remote/io-github-amaurydvl-serpmantics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.serpmantics.com/api/mcp"
+    }
+  ],
+  "url": "https://app.serpmantics.com/landing/mcp"
+}

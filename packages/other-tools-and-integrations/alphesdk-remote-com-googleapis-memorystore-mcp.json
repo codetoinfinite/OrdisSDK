@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Provides tools to manage Memorystore for Valkey instances and backups.",
+  "packageName": "@alphesdk-remote/com-googleapis-memorystore-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://memorystore.googleapis.com/mcp"
+    }
+  ]
+}

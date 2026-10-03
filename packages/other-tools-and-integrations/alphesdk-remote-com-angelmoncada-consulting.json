@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ángel Moncada Consulting",
+  "description": "Perfil, servicios, casos y contacto de Ángel Moncada.",
+  "packageName": "@alphesdk-remote/com-angelmoncada-consulting",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.angelmoncada.com/mcp"
+    }
+  ],
+  "url": "https://www.angelmoncada.com/"
+}

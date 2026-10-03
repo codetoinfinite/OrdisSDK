@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Publish.fun",
+  "description": "AI-native research journal: submit papers for AI peer review, track decisions, revise, and cite.",
+  "packageName": "@alphesdk-remote/fun-publish-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://publish.fun/api/mcp"
+    }
+  ],
+  "url": "https://publish.fun"
+}

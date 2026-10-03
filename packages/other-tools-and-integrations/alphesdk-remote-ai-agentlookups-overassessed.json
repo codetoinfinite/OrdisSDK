@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "overassessed",
+  "description": "Maryland property-assessment fairness checks vs similar homes, with appeal windows and links.",
+  "packageName": "@alphesdk-remote/ai-agentlookups-overassessed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://overassessed.agentlookups.ai/mcp"
+    }
+  ]
+}

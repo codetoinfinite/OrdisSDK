@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GovOmniAI Machine Services",
+  "description": "Discover GovOmniAI machine services and the live autonomous MPP payment path.",
+  "packageName": "@alphesdk-remote/io-github-omniaisystems-govomniai-machine-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ucljocpnvirclrhhiicr.supabase.co/functions/v1/govomniai-mcp"
+    }
+  ],
+  "url": "https://github.com/OmniAISystems/govomniai-web",
+  "readme": "https://github.com/OmniAISystems/govomniai-web#readme"
+}

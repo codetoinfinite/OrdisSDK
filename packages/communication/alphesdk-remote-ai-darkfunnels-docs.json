@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DarkFunnels documentation",
+  "description": "Search and read the DarkFunnels docs: WhatsApp AI sales agents connected by QR, no Meta Cloud API.",
+  "packageName": "@alphesdk-remote/ai-darkfunnels-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.darkfunnels.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/darkfunnels-ai/darkfunnels-mcp",
+  "readme": "https://github.com/darkfunnels-ai/darkfunnels-mcp#readme"
+}

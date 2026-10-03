@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Legends of Learning",
+  "description": "Search the Legends of Learning K-8 games catalog and standards alignment",
+  "packageName": "@alphesdk-remote/com-legendsoflearning-app-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.legendsoflearning.com/mcp"
+    }
+  ],
+  "url": "https://www.legendsoflearning.com"
+}

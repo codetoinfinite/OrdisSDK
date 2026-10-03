@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Beach Valencia holiday apartments (Valencia, Spain): availability, pricing, cancellation policy.",
+  "packageName": "@alphesdk-remote/com-beachvalencia-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.beachvalencia.com/api/mcp"
+    }
+  ],
+  "url": "https://www.beachvalencia.com"
+}

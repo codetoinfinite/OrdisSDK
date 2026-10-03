@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "company-research-agent",
+  "name": "Company Research Agent",
+  "description": "Turns a company name into a structured, source-backed briefing covering business, industry, finances and news.",
+  "category": "finance-fintech",
+  "tags": ["company-research", "due-diligence", "tavily", "reports", "pdf-export"],
+  "repo": "https://github.com/guy-hartstein/company-research-agent",
+  "publisher": "Guy Hartstein",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Researches a company and writes a briefing that can be exported as a PDF. It is useful for sales, investment and competitive research.",
+  "howItWorks": "A FastAPI backend coordinates specialised research steps that search with Tavily, score sources for relevance and then synthesise category briefings into a final report. A React interface tracks the job, and a REST endpoint accepts research requests directly.",
+  "requirements": [
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM used in the pipeline"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM used in the pipeline"
+    },
+    {
+      "name": "VITE_GOOGLE_MAPS_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Location autocomplete in the UI"
+    }
+  ],
+  "install": [
+    "uv venv .venv",
+    "uv pip install -r requirements.txt",
+    "cp .env.example .env",
+    "cp ui/.env.development.example ui/.env.development.local",
+    "cd ui && npm install && cd .."
+  ],
+  "run": ["docker compose up --build"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Google Gemini and OpenAI",
+  "mcp": "none",
+  "github": {
+    "stars": 2290,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-21",
+    "checkedAt": "2026-10-03"
+  }
+}

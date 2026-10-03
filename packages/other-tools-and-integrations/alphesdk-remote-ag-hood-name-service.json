@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hood. — .hood name service",
+  "description": "Resolve .hood names on Robinhood Chain — forward/reverse, text records, availability & pricing.",
+  "packageName": "@alphesdk-remote/ag-hood-name-service",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hood.ag/api/mcp"
+    }
+  ],
+  "url": "https://www.hood.ag/docs"
+}

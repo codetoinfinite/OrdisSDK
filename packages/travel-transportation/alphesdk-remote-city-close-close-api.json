@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Close API",
+  "description": "Walk, bike, and transit travel times from every US census block to nearby amenities.",
+  "packageName": "@alphesdk-remote/city-close-close-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.close.city/mcp"
+    }
+  ],
+  "url": "https://github.com/henryspatialanalysis/wtm.api",
+  "readme": "https://github.com/henryspatialanalysis/wtm.api#readme"
+}

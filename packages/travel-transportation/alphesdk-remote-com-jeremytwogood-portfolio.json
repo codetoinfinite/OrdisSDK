@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jeremy Twogood — Portfolio",
+  "description": "MCP server for Jeremy Twogood, Toronto video producer & editor. Projects, reel, resume, booking.",
+  "packageName": "@alphesdk-remote/com-jeremytwogood-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jeremytwogood.com/api/mcp"
+    }
+  ],
+  "url": "https://jeremytwogood.com"
+}

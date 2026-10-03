@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Alpaca",
+  "description": "Trade stocks, options and crypto and fetch market data via Alpaca.",
+  "packageName": "alpaca-mcp-server",
+  "packageVersion": "2.3.2",
+  "runtime": "python",
+  "readme": "https://github.com/alpacahq/alpaca-mcp-server",
+  "url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "author": "Alpaca",
+  "env": {
+    "ALPACA_API_KEY": {
+      "description": "Alpaca API key",
+      "required": true
+    },
+    "ALPACA_SECRET_KEY": {
+      "description": "Alpaca secret key",
+      "required": true
+    }
+  }
+}

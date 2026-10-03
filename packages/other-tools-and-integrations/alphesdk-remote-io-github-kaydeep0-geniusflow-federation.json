@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GeniusFlow Evidence",
+  "description": "Re-check pinned sources, package and cite. Live Federation MCP. No account.",
+  "packageName": "@alphesdk-remote/io-github-kaydeep0-geniusflow-federation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geniusflow-federation.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Kaydeep0/eigenstate-research",
+  "readme": "https://github.com/Kaydeep0/eigenstate-research#readme"
+}

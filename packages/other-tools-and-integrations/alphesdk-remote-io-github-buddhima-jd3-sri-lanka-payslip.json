@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sri Lanka Payslip",
+  "description": "Source-backed Sri Lanka payslip tools for APIT/PAYE, EPF, ETF, stamp duty, and net pay.",
+  "packageName": "@alphesdk-remote/io-github-buddhima-jd3-sri-lanka-payslip",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mypayslip.lk/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Buddhima-JD3/sri-lanka-salary-calculator",
+  "readme": "https://github.com/Buddhima-JD3/sri-lanka-salary-calculator#readme"
+}

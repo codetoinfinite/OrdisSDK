@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DatoQA — Official Public Holidays",
+  "description": "Government and OpenHolidays calendars: regional scope, multilingual names, dated sources and gaps.",
+  "packageName": "@alphesdk-remote/dev-workers-bhazarstudio-datoqa-official-public-holidays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datoqa.bhazarstudio.workers.dev/mcp/holidays"
+    }
+  ],
+  "url": "https://datoqa.bhazarstudio.workers.dev/docs/holidays/"
+}

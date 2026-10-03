@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "outfit-assistant",
+  "description": "Ask your AI what to wear: weather-aware outfit suggestions for any city and occasion.",
+  "packageName": "@alphesdk-remote/ai-outfitmaker-outfit-assistant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://outfitmaker.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/elasistentepepe/outfitmaker-mcp",
+  "readme": "https://github.com/elasistentepepe/outfitmaker-mcp#readme"
+}

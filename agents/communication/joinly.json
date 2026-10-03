@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "joinly",
+  "name": "joinly",
+  "description": "Connector that lets an AI agent join video meetings, listen, speak and chat, exposed as an MCP server with a bundled client agent.",
+  "category": "communication",
+  "tags": ["meetings", "voice", "mcp", "video-calls", "realtime"],
+  "repo": "https://github.com/joinly-ai/joinly",
+  "homepage": "https://joinly.ai",
+  "publisher": "joinly",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives an agent presence in a live call so it can follow the discussion, answer aloud and carry out tasks while people talk. Developers can use the included conversational agent or attach their own.",
+  "howItWorks": "A container runs a browser that joins the meeting and handles speech recognition and synthesis, publishing meeting actions as MCP tools. In client mode the same image also runs an agent that uses those tools with the configured language model. In server mode an external client connects to the MCP endpoint.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The connector is distributed as a container image"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the provider named in JOINLY_LLM_PROVIDER and JOINLY_LLM_MODEL"
+    },
+    {
+      "name": "ELEVENLABS_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional hosted speech synthesis; DEEPGRAM_API_KEY is the optional hosted transcription key"
+    }
+  ],
+  "install": ["docker pull ghcr.io/joinly-ai/joinly:latest"],
+  "run": ["docker run --env-file .env ghcr.io/joinly-ai/joinly:latest --client <MeetingURL>"],
+  "interfaces": ["cli", "api"],
+  "language": "Python",
+  "models": "OpenAI in the quickstart; other providers configurable",
+  "mcp": "both",
+  "github": {
+    "stars": 566,
+    "license": "MIT",
+    "pushedAt": "2026-09-01",
+    "checkedAt": "2026-10-03"
+  }
+}

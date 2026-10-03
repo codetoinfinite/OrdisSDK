@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Radicado Uno",
+  "description": "Colombian company and procurement data by NIT, each field with its official source. Free checks.",
+  "packageName": "@alphesdk-remote/co-radicadouno-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.radicadouno.co/mcp"
+    }
+  ],
+  "url": "https://github.com/odela-pixel/radicadouno-mcp",
+  "readme": "https://github.com/odela-pixel/radicadouno-mcp#readme"
+}

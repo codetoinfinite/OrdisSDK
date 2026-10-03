@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "fxpeek",
+  "description": "Historical reference exchange rates with a source link per row. Tools: get_latest_rate, get_history.",
+  "packageName": "@alphesdk-remote/io-github-jenpo-fxpeek",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fxpeek.com/api/mcp"
+    }
+  ]
+}

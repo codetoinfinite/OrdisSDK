@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "promptsharp",
+  "description": "Professional prompt library over remote MCP: 13 verticals, free discovery scope.",
+  "packageName": "@alphesdk-remote/ai-promptsharp-promptsharp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://promptsharp.ai/mcp"
+    }
+  ],
+  "url": "https://promptsharp.ai/mcp-setup"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Toofi Dental Planning MCP",
+  "description": "Agent-native dental planning MCP for plan drafts, presentations, and price estimates.",
+  "packageName": "@alphesdk-remote/app-toofi-dental-planning",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toofi.app/mcp"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "fuji-web",
+  "name": "Fuji-Web",
+  "description": "Chrome extension agent that understands a web page and carries out a user's instruction by clicking and typing on it.",
+  "category": "browser-automation",
+  "tags": ["chrome-extension", "browser-agent", "vision"],
+  "repo": "https://github.com/normal-computing/fuji-web",
+  "publisher": "Normal Computing",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets a user type a goal in the extension panel and have it executed on the current site. It demonstrates a multimodal approach to web navigation for developers and researchers.",
+  "howItWorks": "The extension annotates the page, sends a screenshot plus element labels to a multimodal model and performs the chosen action through browser debugging APIs, looping until done. It is installed by loading the packaged extension from the releases page.",
+  "requirements": [
+    {
+      "name": "Chrome",
+      "kind": "runtime",
+      "required": true,
+      "description": "Hosts the extension"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered in the extension"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["chat"],
+  "language": "TypeScript",
+  "models": "OpenAI and Anthropic multimodal models",
+  "mcp": "none",
+  "github": {
+    "stars": 599,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-12",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "crewai",
+  "name": "CrewAI",
+  "description": "Multi-agent framework whose CLI scaffolds and runs a crew of role-based agents that collaborate on a task.",
+  "category": "developer-tools",
+  "tags": ["multi-agent", "crews", "flows", "framework", "cli"],
+  "repo": "https://github.com/crewAIInc/crewAI",
+  "homepage": "https://crewai.com",
+  "docs": "https://docs.crewai.com/en/installation",
+  "publisher": "CrewAI Inc.",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Developers define agents with roles and tasks, then run them as a crew that researches, writes and reports. The generated starter project runs end to end and writes a report file. Flows add event-driven control around crews.",
+  "howItWorks": "The `crewai` CLI creates a project, installs dependencies with uv and runs the crew. Agents execute tasks sequentially or under a manager agent in the hierarchical process, calling tools such as web search.",
+  "requirements": [
+    {
+      "name": "Python >=3.10 and <3.14",
+      "kind": "runtime",
+      "required": true,
+      "description": "Supported Python range"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used for dependency management and the CLI install"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model provider key set in the project .env file"
+    },
+    {
+      "name": "SERPER_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Serper.dev key, needed only when web search is used"
+    }
+  ],
+  "install": ["uv tool install crewai"],
+  "run": ["crewai create crew <project_name>", "crewai install", "crewai run"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 59298,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

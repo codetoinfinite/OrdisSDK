@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wapiworld WhatsApp API",
+  "description": "Check your WhatsApp numbers, connection status and webhooks, and send a text when you confirm.",
+  "packageName": "@alphesdk-remote/com-wapiworld-wapiworld",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wapiworld.com/mcp"
+    }
+  ],
+  "url": "https://app.wapiworld.com/developers#mcp"
+}

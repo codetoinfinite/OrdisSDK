@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Zachary Roth Music",
+  "description": "Anonymous public tools for Zachary Roth Music. See the published agent boundary before use.",
+  "packageName": "@alphesdk-remote/com-zacharyr0th-music-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://music.zacharyr0th.com/mcp"
+    }
+  ]
+}

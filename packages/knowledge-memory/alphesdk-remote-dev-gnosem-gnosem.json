@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gnosem",
+  "description": "Cross-vendor AI memory over MCP. One semantic store, readable and writeable from every MCP client.",
+  "packageName": "@alphesdk-remote/dev-gnosem-gnosem",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gnosem.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/gnosem/gnosem",
+  "readme": "https://github.com/gnosem/gnosem#readme"
+}

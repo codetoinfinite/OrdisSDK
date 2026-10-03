@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCPFax Reliability",
+  "description": "Before you pay an endpoint you cannot vouch for: credit grade, drift and preflight.",
+  "packageName": "@alphesdk-remote/com-mcpscores-agent-reliability-scores",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpfax-reliability.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpscores.com"
+}

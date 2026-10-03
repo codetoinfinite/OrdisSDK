@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "dca-tools",
+  "description": "Dollar-cost-averaging backtests on real historical data for crypto, stocks and commodities.",
+  "packageName": "@alphesdk-remote/com-dcamethod-dca-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dcamethod.com/api/mcp"
+    }
+  ],
+  "url": "https://dcamethod.com"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "agent-tars",
+  "name": "Agent TARS / UI-TARS Desktop",
+  "description": "ByteDance's multimodal agent stack: the Agent TARS CLI and web UI, and a desktop app that controls your computer with UI-TARS models.",
+  "category": "browser-automation",
+  "tags": ["gui-agent", "computer-use", "multimodal", "desktop", "browser"],
+  "repo": "https://github.com/bytedance/UI-TARS-desktop",
+  "publisher": "ByteDance",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Agent TARS performs browser and tool-based tasks such as booking or research from a terminal or web UI; UI-TARS Desktop lets a vision-language model operate the local or a remote computer and browser from natural-language instructions.",
+  "howItWorks": "Agent TARS runs a multimodal agent loop combining visual GUI grounding, DOM-based browser control and MCP tools. The desktop app is an Electron application that sends screenshots to a UI-TARS or other vision model and executes the returned actions.",
+  "requirements": [
+    {
+      "name": "Model API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Passed with --apiKey for Volcengine, Anthropic or another provider"
+    },
+    {
+      "name": "Node.js >= 22",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the Agent TARS CLI"
+    }
+  ],
+  "install": ["npm install @agent-tars/cli@latest -g"],
+  "run": ["agent-tars --provider anthropic --model claude-3-7-sonnet-latest --apiKey your-api-key"],
+  "interfaces": ["cli", "web", "desktop"],
+  "language": "TypeScript",
+  "models": "UI-TARS, Doubao (Volcengine), Anthropic and other vision models",
+  "mcp": "client",
+  "github": {
+    "stars": 39188,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-24",
+    "checkedAt": "2026-10-03"
+  }
+}

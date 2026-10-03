@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HairDora Salon Scheduling",
+  "description": "See your salon's free slots, appointments, stylists, services, clients, quotes and payments.",
+  "packageName": "@alphesdk-remote/com-hairdora-hairdora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hairdora.com/mcp"
+    }
+  ],
+  "url": "https://www.hairdora.com/developers/#mcp"
+}

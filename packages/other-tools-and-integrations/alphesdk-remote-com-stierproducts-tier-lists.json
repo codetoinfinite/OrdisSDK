@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "stierproducts tier lists",
+  "description": "S-to-F tier lists for 208 product categories. Every placement cited, with barcodes.",
+  "packageName": "@alphesdk-remote/com-stierproducts-tier-lists",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stierproducts.com/mcp"
+    }
+  ],
+  "url": "https://github.com/stierproducts/mcp",
+  "readme": "https://github.com/stierproducts/mcp#readme"
+}

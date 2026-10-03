@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Santismm Knowledge — Harness Engineering, Agentic AI & Governance",
+  "description": "Query core AI knowledge, essays, executable Labs, Homeric data and epistemic claims.",
+  "packageName": "@alphesdk-remote/com-santismm-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://santismm.com/mcp"
+    }
+  ],
+  "url": "https://github.com/santismm/santismm-knowledge-mcp",
+  "readme": "https://github.com/santismm/santismm-knowledge-mcp#readme"
+}

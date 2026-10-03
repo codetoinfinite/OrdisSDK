@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bildata",
+  "description": "Danish vehicle registration tax (registreringsafgift) calculator and DMR registration statistics",
+  "packageName": "@alphesdk-remote/io-bildata-bildata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bildata.io/mcp"
+    }
+  ],
+  "url": "https://bildata.io"
+}

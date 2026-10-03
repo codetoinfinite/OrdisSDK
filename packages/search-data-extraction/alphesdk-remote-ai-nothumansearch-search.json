@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Not Human Search",
+  "description": "Search the agentic web. 4,100+ sites, 11 tools incl. check_url + verify_mcp for probe-before-use.",
+  "packageName": "@alphesdk-remote/ai-nothumansearch-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nothumansearch.ai/mcp"
+    }
+  ],
+  "url": "https://nothumansearch.ai"
+}

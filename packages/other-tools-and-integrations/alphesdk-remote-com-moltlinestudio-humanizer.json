@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Humanizer",
+  "description": "Find AI-isms with evidence and fingerprint a writing voice from samples. 3 of 5 free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-humanizer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/humanizer"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

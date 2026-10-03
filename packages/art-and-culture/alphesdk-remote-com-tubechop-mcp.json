@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "TubeChop",
+  "description": "Create shareable clips from public YouTube videos using exact start and end times.",
+  "packageName": "@alphesdk-remote/com-tubechop-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tubechop.com/mcp"
+    }
+  ]
+}

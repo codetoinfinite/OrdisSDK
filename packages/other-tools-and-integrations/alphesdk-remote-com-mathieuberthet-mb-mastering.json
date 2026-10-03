@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mb-mastering",
+  "description": "Studio de mastering MB Mastering (Paris) : services, tarifs, infos studio, FAQ et demande de devis.",
+  "packageName": "@alphesdk-remote/com-mathieuberthet-mb-mastering",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mathieuberthet.com/"
+    }
+  ],
+  "url": "https://mathieuberthet.com"
+}

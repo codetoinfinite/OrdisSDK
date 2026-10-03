@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "購物比價紀錄",
+  "description": "台灣購物網站 3C、美妝、家電商品目前售價（新台幣）與歷史價格查詢。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-shop-compare-shop-compare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shop-compare.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://shop-compare.panda198271.workers.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Seneschal Data",
+  "description": "Monero/Zcash payment webhooks + DeFi liquidation & Ethereum builder data over MCP. Free tier; x402.",
+  "packageName": "@alphesdk-remote/io-github-rotwang9000-seneschal-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.seneschal.space/"
+    }
+  ],
+  "url": "https://github.com/Rotwang9000/seneschal-data-api",
+  "readme": "https://github.com/Rotwang9000/seneschal-data-api#readme"
+}

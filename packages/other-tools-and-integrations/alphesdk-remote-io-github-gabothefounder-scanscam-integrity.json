@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ScanScam Integrity",
+  "description": "Independent agent preflight: verify change, mandates, evidence, and exact execution.",
+  "packageName": "@alphesdk-remote/io-github-gabothefounder-scanscam-integrity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.scanscam.ca/api/integrity/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Gabothefounder/scanscam",
+  "readme": "https://github.com/Gabothefounder/scanscam#readme"
+}

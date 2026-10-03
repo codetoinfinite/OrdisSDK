@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Powerline Email Tools",
+  "description": "Email deliverability checks: SPF, DKIM, DMARC, BIMI, MTA-STS, blacklists, headers, spam words",
+  "packageName": "@alphesdk-remote/ai-powerline-email-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powerline.ai/mcp"
+    }
+  ],
+  "url": "https://powerline.ai/tools/"
+}

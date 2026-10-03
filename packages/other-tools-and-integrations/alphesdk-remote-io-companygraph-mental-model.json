@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CompanyGraph",
+  "description": "CompanyGraph: Written once, read by both",
+  "packageName": "@alphesdk-remote/io-companygraph-mental-model",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.companygraph.io/mcp"
+    }
+  ]
+}

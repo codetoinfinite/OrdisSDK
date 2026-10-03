@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Aerset · normativa de drones en España",
+  "description": "Normativa española de drones con fuente y fecha por regla: pasajes citables, zonas UAS, requisitos.",
+  "packageName": "@alphesdk-remote/com-aerset-normativa-drones-espana",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aerset.com/mcp"
+    }
+  ]
+}

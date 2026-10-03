@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "triageshield",
+  "description": "Verify a vuln report's file/line/function claims against a real GitHub repo.",
+  "packageName": "@alphesdk-remote/app-vercel-triageshield-triageshield",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://triageshield.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://triageshield.vercel.app"
+}

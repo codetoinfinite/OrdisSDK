@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Parser Club",
+  "description": "Telegram/VK audience scraping, marketplaces, Russian government registers. Free open dataset.",
+  "packageName": "@alphesdk-remote/club-parser-parser-club",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://parser.club/api/mcp"
+    }
+  ],
+  "url": "https://parser.club"
+}

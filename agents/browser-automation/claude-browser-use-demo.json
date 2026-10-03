@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "claude-browser-use-demo",
+  "name": "Claude Browser Use Demo",
+  "description": "Containerised reference showing Claude automating a Chromium browser through a Playwright-backed browser tool.",
+  "category": "browser-automation",
+  "tags": ["browser", "playwright", "docker", "claude", "reference"],
+  "repo": "https://github.com/anthropics/claude-quickstarts",
+  "subpath": "browser-use-demo",
+  "publisher": "Anthropic",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Through a Streamlit interface users ask Claude to navigate sites, interact with page elements, extract content and fill forms. It is a minimal reference for DOM-level browser automation.",
+  "howItWorks": "A Docker container runs Streamlit, a virtual display and Chromium under Playwright. Claude is given a custom browser tool and the loop executes each requested action and returns the result.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in .env"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "docker-compose"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/anthropics/claude-quickstarts.git",
+    "cd claude-quickstarts/browser-use-demo",
+    "cp .env.example .env"
+  ],
+  "run": ["docker-compose up --build"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 17785,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

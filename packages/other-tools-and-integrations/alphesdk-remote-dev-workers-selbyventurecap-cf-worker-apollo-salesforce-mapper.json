@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "apollo-salesforce-mapper",
+  "description": "Apollo->Salesforce Lead mapper. No LLM. Strict-fail required fields. PASS/REPAIR/FAIL verdict.",
+  "packageName": "@alphesdk-remote/dev-workers-selbyventurecap-cf-worker-apollo-salesforce-mapper",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cf-worker.selbyventurecap.workers.dev/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KanbanThing",
+  "description": "Create and drive KanbanThing kanban boards. No account, no API key, board link required.",
+  "packageName": "@alphesdk-remote/com-kanbanthing-kanban",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.kanbanthing.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tronschell/kanban-thing",
+  "readme": "https://github.com/tronschell/kanban-thing#readme"
+}

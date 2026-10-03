@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentBookable",
+  "description": "Find local services, check live availability, and book real appointments with consent.",
+  "packageName": "@alphesdk-remote/com-agentbookable-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentbookable.com/mcp"
+    }
+  ],
+  "url": "https://agentbookable.com"
+}

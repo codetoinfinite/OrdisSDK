@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "jupyter-ai-agents",
+  "name": "Jupyter AI Agents",
+  "description": "JupyterLab agents that edit and execute notebook cells in real time through the Jupyter MCP server.",
+  "category": "data-science-tools",
+  "tags": ["jupyterlab", "notebooks", "pydantic-ai", "mcp", "collaboration"],
+  "repo": "https://github.com/datalayer/jupyter-ai-agents",
+  "homepage": "https://jupyter-ai-agents.datalayer.tech",
+  "publisher": "Datalayer",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Adds an assistant to JupyterLab that can create, modify and run cells in the open notebook while you watch. It is aimed at data scientists who want the agent to work in the live document.",
+  "howItWorks": "Agents are written with Pydantic AI and use a Jupyter MCP server launched as a server extension to manipulate notebooks through the collaborative editing layer. The README states that only an Anthropic Claude Sonnet model is supported for now.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Claude model access"
+    },
+    {
+      "name": "JupyterLab",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host application"
+    }
+  ],
+  "install": ["pip install jupyter_ai_agents", "pip install datalayer_pycrdt==0.12.17"],
+  "run": ["export ANTHROPIC_API_KEY='your-api-key-here'", "jupyter lab"],
+  "interfaces": ["web", "ide", "chat"],
+  "language": "Python",
+  "framework": "Pydantic AI",
+  "models": "Anthropic Claude Sonnet",
+  "mcp": "both",
+  "github": {
+    "stars": 163,
+    "license": "BSD-3-Clause",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

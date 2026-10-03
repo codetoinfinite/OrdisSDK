@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Expatriator Immigration Knowledge",
+  "description": "Field-tested Spanish immigration gotchas, procedure guides, and live Madrid padrón availability.",
+  "packageName": "@alphesdk-remote/com-expatriator-immigration",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.expatriator.com/mcp"
+    }
+  ],
+  "url": "https://expatriator.com/mcp"
+}

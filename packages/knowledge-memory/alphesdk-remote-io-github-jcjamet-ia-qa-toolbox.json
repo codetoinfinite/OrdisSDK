@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "IA-QA — 130+ QA & Dev Tools for AI Agents",
+  "description": "130+ QA & dev tools for AI agents: prompt injection, RAG testing, VLM eval, guardrails. Free.",
+  "packageName": "@alphesdk-remote/io-github-jcjamet-ia-qa-toolbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ia-qa.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jcjamet/ia-qa",
+  "readme": "https://github.com/jcjamet/ia-qa#readme"
+}

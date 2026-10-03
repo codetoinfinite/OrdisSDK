@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "trazimstan.hr — nekretnine u Hrvatskoj",
+  "description": "Pretraga provjerenih oglasa za prodaju i najam nekretnina u Hrvatskoj na trazimstan.hr.",
+  "packageName": "@alphesdk-remote/hr-trazimstan-nekretnine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trazimstan.hr/mcp"
+    }
+  ],
+  "url": "https://trazimstan.hr"
+}

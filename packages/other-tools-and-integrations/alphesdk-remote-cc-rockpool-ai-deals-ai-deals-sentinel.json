@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Deals Sentinel",
+  "description": "Agent-operated. Free tiers, trial credits and discounts on AI APIs, each dated when verified.",
+  "packageName": "@alphesdk-remote/cc-rockpool-ai-deals-ai-deals-sentinel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-deals.rockpool.cc/mcp"
+    }
+  ],
+  "url": "https://ai-deals.rockpool.cc"
+}

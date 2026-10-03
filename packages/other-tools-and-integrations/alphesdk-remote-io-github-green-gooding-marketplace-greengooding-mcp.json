@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Green Gooding",
+  "description": "Read-only catalog for Green Gooding — NYC peer-to-peer rental marketplace.",
+  "packageName": "@alphesdk-remote/io-github-green-gooding-marketplace-greengooding-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.greengooding.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Green-Gooding-Marketplace/Green-Gooding-Platform-",
+  "readme": "https://github.com/Green-Gooding-Marketplace/Green-Gooding-Platform-#readme"
+}

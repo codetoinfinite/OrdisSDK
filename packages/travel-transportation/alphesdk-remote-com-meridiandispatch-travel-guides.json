@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Meridian Dispatch",
+  "description": "Reported travel guides: countries, towns, sights, trails, events, ski resorts. Cited.",
+  "packageName": "@alphesdk-remote/com-meridiandispatch-travel-guides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.meridiandispatch.com/api/mcp"
+    }
+  ],
+  "url": "https://www.meridiandispatch.com/mcp"
+}

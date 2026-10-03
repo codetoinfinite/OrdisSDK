@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DrapeCut",
+  "description": "Simulate composite fabric draping on CAD surfaces; compare fibre angles and export DXF/PDF patterns.",
+  "packageName": "@alphesdk-remote/com-drapecut-drapecut",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://drapecut.com/mcp"
+    }
+  ],
+  "url": "https://drapecut.com/docs/mcp"
+}

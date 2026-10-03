@@ -1,0 +1,68 @@
+{
+  "type": "external-agent",
+  "key": "open-lovable",
+  "name": "Open Lovable",
+  "description": "Example app from the Firecrawl team that builds React applications from a chat conversation inside a cloud sandbox.",
+  "category": "coding-agents",
+  "tags": ["app-builder", "react", "firecrawl", "sandbox", "nextjs"],
+  "repo": "https://github.com/firecrawl/open-lovable",
+  "publisher": "Firecrawl",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Open Lovable lets a user describe or point at a site and get a working React app generated and previewed. It is a self-hostable sample that shows how a prompt-to-app builder can be assembled. Developers run it locally with their own keys.",
+  "howItWorks": "A web app sends the conversation to a chosen LLM, uses Firecrawl to pull in web content, and executes the generated project in a Vercel or E2B sandbox. An optional fast-apply service speeds up edits. All keys go into a local env file.",
+  "requirements": [
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web scraping used by the builder"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One LLM provider key is needed; Gemini is one option"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alternative LLM provider"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alternative LLM provider"
+    },
+    {
+      "name": "GROQ_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alternative LLM provider"
+    },
+    {
+      "name": "Vercel or E2B sandbox",
+      "kind": "service",
+      "required": true,
+      "description": "Runs the generated app"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/firecrawl/open-lovable.git",
+    "cd open-lovable",
+    "pnpm install"
+  ],
+  "run": ["pnpm dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Gemini, Anthropic, OpenAI, Groq",
+  "mcp": "none",
+  "github": {
+    "stars": 28625,
+    "license": "MIT",
+    "pushedAt": "2025-11-19",
+    "checkedAt": "2026-10-03"
+  }
+}

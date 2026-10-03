@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mkdshare.DEV",
+  "description": "Publish and share access-controlled Markdown documents from any MCP-enabled AI tool.",
+  "packageName": "@alphesdk-remote/io-github-philipand-mkdshare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mkdshare.dev/mcp"
+    }
+  ]
+}

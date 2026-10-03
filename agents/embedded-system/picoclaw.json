@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "picoclaw",
+  "name": "PicoClaw",
+  "description": "Ultra-lightweight personal AI assistant written in Go that runs on very cheap hardware with under 10MB of RAM.",
+  "category": "embedded-system",
+  "tags": ["personal-assistant", "go", "lightweight", "edge", "low-memory"],
+  "repo": "https://github.com/sipeed/picoclaw",
+  "homepage": "https://picoclaw.io",
+  "publisher": "Sipeed",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Provides a personal assistant on small boards and low-cost devices as well as ordinary computers. It was inspired by nanobot and written from scratch rather than forked.",
+  "howItWorks": "A Go program with a very small memory footprint calls a remote LLM. Install and quick-start steps are in sections of the README that were not captured here, so no commands are listed.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["cli", "chat"],
+  "language": "Go",
+  "models": "Remote LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 30018,
+    "license": "MIT",
+    "pushedAt": "2026-09-24",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RegusciLabs Documentation",
+  "description": "Read and search public RegusciLabs information about AI, hardware, POCs, discovery and project work.",
+  "packageName": "@alphesdk-remote/com-reguscilabs-www-documentation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.reguscilabs.com/api/mcp/docs"
+    }
+  ],
+  "url": "https://www.reguscilabs.com/developers"
+}

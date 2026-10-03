@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "entsoe-mcp",
+  "description": "European power-market data: day-ahead & balancing prices, load, generation, flows, outages. 47 zones",
+  "packageName": "@alphesdk-remote/com-entsoemcp-entsoe-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entsoemcp.com/mcp"
+    }
+  ],
+  "url": "https://entsoemcp.com"
+}

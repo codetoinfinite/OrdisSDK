@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rekvira: EU regulation pinpoints for compliance AI",
+  "description": "Official EU regulation text with article and recital pinpoints over MCP. Keyless trial.",
+  "packageName": "@alphesdk-remote/com-rekvira-rekvira",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rekvira.com/mcp"
+    }
+  ],
+  "url": "https://rekvira.com"
+}

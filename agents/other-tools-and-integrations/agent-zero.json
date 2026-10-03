@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "agent-zero",
+  "name": "Agent Zero",
+  "description": "General agent that works inside its own Dockerized Linux computer with a desktop, browser, documents, plugins and subagents.",
+  "category": "other-tools-and-integrations",
+  "tags": ["general-agent", "docker", "linux-desktop", "plugins", "multi-agent"],
+  "repo": "https://github.com/agent0ai/agent-zero",
+  "homepage": "https://agent-zero.ai",
+  "publisher": "Agent Zero",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Carries out tasks that need more than chat: using GUI software and terminals, browsing, co-editing documents and working in projects with isolated files, secrets and memory. A CLI bridge lets the same agent work in repositories on the host machine.",
+  "howItWorks": "The agent runs in a Docker container and is controlled from a web UI where the LLM provider is configured. It can delegate work to subagents, and its prompts, tools, skills and plugins are editable.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Agent Zero instances run as containers"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured in the web UI after start"
+    }
+  ],
+  "install": [],
+  "run": ["docker run -p 80:80 -v a0_usr:/a0/usr agent0ai/agent-zero"],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 19362,
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

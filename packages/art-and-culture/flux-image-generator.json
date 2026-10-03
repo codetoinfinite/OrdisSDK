@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "flux-image-generator",
+  "packageName": "github:hzzy2o/flux-cloudfare-mcp#bcfabd725977506ef4198cb797aa317b4e35eaee",
   "description": "Enables text-to-image generation through the Flux API on Cloudflare Workers with customizable parameters for dimensions, aspect ratio, and inference steps.",
   "url": "https://github.com/hzzy2o/flux-cloudfare-mcp",
   "runtime": "node",

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "atlas",
+  "description": "The world railway atlas as MCP tools: notable train routes, night trains, journey times.",
+  "packageName": "@alphesdk-remote/com-trainrouter-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trainrouter.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Flightmussy/trainrouter-atlas",
+  "readme": "https://github.com/Flightmussy/trainrouter-atlas#readme"
+}

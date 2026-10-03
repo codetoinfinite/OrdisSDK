@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Weio site check",
+  "description": "Website facts for agents: HTTPS/certificate checks, public site info, small local-business search.",
+  "packageName": "@alphesdk-remote/ai-weio-site-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://weio.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/weioai/site-check-mcp",
+  "readme": "https://github.com/weioai/site-check-mcp#readme"
+}

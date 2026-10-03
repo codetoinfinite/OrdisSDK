@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "ai-data-science-team",
+  "name": "AI Data Science Team",
+  "description": "Set of data science agents and a Streamlit pipeline studio covering cleaning, wrangling, EDA, visualisation and modelling.",
+  "category": "data-science-tools",
+  "tags": ["data-cleaning", "eda", "feature-engineering", "mlflow", "streamlit"],
+  "repo": "https://github.com/business-science/ai-data-science-team",
+  "publisher": "Business Science",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Automates routine data science steps for analysts, with separate agents for cleaning, wrangling, feature engineering, charting and model building. A studio app chains them into a pipeline you can inspect.",
+  "howItWorks": "Each agent is a Python class that prompts an LLM to write code for its step, runs it and returns both the result and the generated function. The Streamlit app orchestrates the agents, and experiment tracking goes through MLflow.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.10 or newer"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI models; Ollama can be used locally instead"
+    }
+  ],
+  "install": ["pip install -e ."],
+  "run": ["streamlit run apps/ai-pipeline-studio-app/app.py"],
+  "interfaces": ["web", "library"],
+  "language": "Python",
+  "framework": "LangChain",
+  "models": "OpenAI or local models through Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 5432,
+    "license": "MIT",
+    "pushedAt": "2026-01-28",
+    "checkedAt": "2026-10-03"
+  }
+}

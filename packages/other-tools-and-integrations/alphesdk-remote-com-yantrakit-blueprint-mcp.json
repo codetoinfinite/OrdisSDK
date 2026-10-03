@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YK Blueprint",
+  "description": "Reports the launch status of YK Blueprint.",
+  "packageName": "@alphesdk-remote/com-yantrakit-blueprint-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yk-blueprint.yantrakit.com/api/mcp"
+    }
+  ],
+  "url": "https://yk-blueprint.yantrakit.com"
+}

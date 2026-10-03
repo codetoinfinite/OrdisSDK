@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fractional Teams Portal",
+  "description": "Fractional Teams client reports, outreach leads, lead marking, paid media and agent-readiness scans.",
+  "packageName": "@alphesdk-remote/com-fractionalteams-portal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://portal.fractionalteams.com/mcp"
+    }
+  ],
+  "url": "https://portal.fractionalteams.com/docs"
+}

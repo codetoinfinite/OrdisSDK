@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SENTn Opportunity Intelligence",
+  "description": "Search and retrieve SENTn public software opportunity snapshots for founders and AI agents.",
+  "packageName": "@alphesdk-remote/app-sentn-opportunity-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sentn-opportunity-mcp-773063283118.us-central1.run.app/mcp"
+    }
+  ],
+  "url": "https://sentn.app"
+}

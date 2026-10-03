@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clutch.co",
+  "description": "Trusted B2B service providers with verified client reviews",
+  "packageName": "@alphesdk-remote/co-clutch-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bot.clutch.co/mcp"
+    }
+  ],
+  "url": "https://clutch.co/about-mcp"
+}

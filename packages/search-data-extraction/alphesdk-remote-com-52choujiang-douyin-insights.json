@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX 抖音 Douyin MCP",
+  "description": "hot search、suggestions、video/user/product search、comments/replies、users/works/series、transcript",
+  "packageName": "@alphesdk-remote/com-52choujiang-douyin-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/douyin/mcp"
+    }
+  ]
+}

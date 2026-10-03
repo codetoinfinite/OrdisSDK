@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cheapest Grocery Basket",
+  "description": "Where to buy a whole grocery list today: local prices, per-unit and cross-store comparison.",
+  "packageName": "@alphesdk-remote/com-mcpscores-cheapest-grocery-basket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://grocery-basket.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpscores.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Arthr — Australian home loans",
+  "description": "Real Australian lender serviceability, plus repayments, borrowing power and stamp duty.",
+  "packageName": "@alphesdk-remote/au-com-arthr-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.arthr.com.au/api/mcp"
+    }
+  ],
+  "url": "https://www.arthr.com.au/mcp"
+}

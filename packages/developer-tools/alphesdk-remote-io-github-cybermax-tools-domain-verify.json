@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bonafido: Business Domain Verification API",
+  "description": "Bonafido: is a domain a real business site? Verdict, trust score, risk flags.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-domain-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonafido.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

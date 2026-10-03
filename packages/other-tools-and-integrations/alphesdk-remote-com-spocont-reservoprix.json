@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "reservoprix",
+  "description": "Sell to the best offer: a sealed-offer link and button for any listing, with a hidden reserve price.",
+  "packageName": "@alphesdk-remote/com-spocont-reservoprix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.reservoprix.com"
+    }
+  ]
+}

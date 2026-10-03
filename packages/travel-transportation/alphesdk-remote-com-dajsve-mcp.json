@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dajsve",
+  "description": "Discover current products, services, travel deals and offers from Croatian merchants.",
+  "packageName": "@alphesdk-remote/com-dajsve-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.dajsve.com/mcp"
+    }
+  ],
+  "url": "https://www.dajsve.com/mcp-info"
+}

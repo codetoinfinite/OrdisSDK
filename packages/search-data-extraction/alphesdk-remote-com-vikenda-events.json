@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vikenda — what's on in Niagara-on-the-Lake",
+  "description": "Accuracy-first what's-on guide for Niagara-on-the-Lake: verified events, venues, search, planning.",
+  "packageName": "@alphesdk-remote/com-vikenda-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vikenda.com/mcp"
+    }
+  ],
+  "url": "https://vikenda.com/mcp"
+}

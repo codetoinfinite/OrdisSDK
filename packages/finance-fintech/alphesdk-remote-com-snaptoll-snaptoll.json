@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "snaptoll",
+  "description": "UK tolls & charges: DVLA vehicle checks (ULEZ/CAZ/MOT/tax), prices, penalties, pay-by deadlines.",
+  "packageName": "@alphesdk-remote/com-snaptoll-snaptoll",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://snaptoll.com/api/mcp"
+    }
+  ],
+  "url": "https://snaptoll.com/mcp"
+}

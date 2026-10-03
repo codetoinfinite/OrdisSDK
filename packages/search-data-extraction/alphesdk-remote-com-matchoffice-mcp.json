@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MatchOffice",
+  "description": "Search commercial real estate locations and create inquiries on MatchOffice.",
+  "packageName": "@alphesdk-remote/com-matchoffice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.matchoffice.com/api/mcp"
+    }
+  ],
+  "url": "https://www.matchoffice.com/mcp.html"
+}

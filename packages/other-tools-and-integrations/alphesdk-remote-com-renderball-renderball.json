@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Renderball",
+  "description": "Designed, animated, editable presentations your AI writes on Renderball. No account needed to try.",
+  "packageName": "@alphesdk-remote/com-renderball-renderball",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://renderball.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/agarces1999/renderball-skills",
+  "readme": "https://github.com/agarces1999/renderball-skills#readme"
+}

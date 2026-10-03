@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eCFR.io Federal Regulations",
+  "description": "Search and read US federal regulations with legal and inline citations linking to ecfr.io.",
+  "packageName": "@alphesdk-remote/io-ecfr-ecfr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ecfr.io/mcp"
+    }
+  ],
+  "url": "https://github.com/lrehmann/ecfr-mcp",
+  "readme": "https://github.com/lrehmann/ecfr-mcp#readme"
+}

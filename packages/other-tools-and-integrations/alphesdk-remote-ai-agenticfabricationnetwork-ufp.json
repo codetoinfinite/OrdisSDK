@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agentic Fabrication Network (AFN)",
+  "description": "Turn designs into shipped parts: quote 3D printing, CNC, and decals, then check out.",
+  "packageName": "@alphesdk-remote/ai-agenticfabricationnetwork-ufp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenticfabricationnetwork.ai/mcp"
+    }
+  ]
+}

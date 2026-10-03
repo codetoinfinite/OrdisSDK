@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Familia",
+  "description": "Private family planner for schedules, tasks, checklists, attachments, and availability.",
+  "packageName": "@alphesdk-remote/com-familiaplanner-familia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.family.asynq.org/mcp"
+    }
+  ],
+  "url": "https://github.com/asynq-org/asynq-family",
+  "readme": "https://github.com/asynq-org/asynq-family#readme"
+}

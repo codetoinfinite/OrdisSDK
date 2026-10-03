@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "mini-swe-agent",
+  "name": "mini-SWE-agent",
+  "description": "Tiny coding agent whose core is about a hundred lines of Python and that solves tasks using nothing but shell commands.",
+  "category": "coding-agents",
+  "tags": ["minimal", "bash", "swe-bench", "litellm", "terminal"],
+  "repo": "https://github.com/SWE-agent/mini-swe-agent",
+  "docs": "https://mini-swe-agent.com/latest/",
+  "publisher": "SWE-agent team (Princeton and Stanford researchers)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "mini-SWE-agent fixes issues and carries out coding tasks from the command line while staying small enough to read in one sitting. It suits people who want a hackable baseline, a benchmark harness, or a simple everyday helper. Despite its size it posts strong SWE-bench Verified results.",
+  "howItWorks": "The model is given only a bash tool and no special tool-calling interface. Each action is run as an independent subprocess and the output is appended to a strictly linear message history. Execution can happen locally or in Docker, Podman, Singularity or bubblewrap, and models are reached through LiteLLM, OpenRouter or Portkey.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for any model reachable through LiteLLM, OpenRouter or Portkey"
+    }
+  ],
+  "install": ["pip install mini-swe-agent"],
+  "run": ["mini"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "framework": "LiteLLM",
+  "models": "Any model available via LiteLLM, OpenRouter or Portkey",
+  "mcp": "none",
+  "github": {
+    "stars": 8171,
+    "license": "MIT",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

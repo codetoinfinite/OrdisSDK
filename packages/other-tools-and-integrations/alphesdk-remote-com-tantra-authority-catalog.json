@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Tantra Authority Catalog",
+  "description": "66 tantra, sex & consciousness courses, books, readings — agent-buyable instantly with USDC on Base",
+  "packageName": "@alphesdk-remote/com-tantra-authority-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-catalog.soullight.workers.dev/mcp"
+    }
+  ]
+}

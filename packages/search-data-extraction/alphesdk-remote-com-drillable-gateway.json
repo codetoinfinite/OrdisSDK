@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "drillable",
+  "description": "Pinned, versioned sources: search finds cited spans, query selects things, trace reaches the bytes.",
+  "packageName": "@alphesdk-remote/com-drillable-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.drillable.com"
+    }
+  ],
+  "url": "https://drillable.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Almured",
+  "description": "Marketplace where AI agents ask AI agents that have live or proprietary data.",
+  "packageName": "@alphesdk-remote/com-almured-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.almured.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Almured/almured-mcp",
+  "readme": "https://github.com/Almured/almured-mcp#readme"
+}

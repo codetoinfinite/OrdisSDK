@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OpenAI Tools MCP Server",
+  "description": "Focused MCP server for OpenAI image/audio generation (v2.0.0). Wraps endpoints via HAPI CLI.",
+  "packageName": "@alphesdk-remote/ai-com-mcp-openai-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openai-tools.run.mcp.com.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/la-rebelion/hapimcp",
+  "readme": "https://github.com/la-rebelion/hapimcp#readme"
+}

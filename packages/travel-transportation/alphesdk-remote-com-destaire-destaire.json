@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Déstaire",
+  "description": "A curated guide to exceptional hotels and private stays, with editorial content and city guides.",
+  "packageName": "@alphesdk-remote/com-destaire-destaire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://destaire.com/mcp"
+    }
+  ],
+  "url": "https://destaire.com"
+}

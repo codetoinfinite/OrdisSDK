@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "402cron",
+  "description": "Paid cron for AI agents: we call your https URL on schedule, signed. No account, paid with x402.",
+  "packageName": "@alphesdk-remote/com-402cron-402cron",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://402cron.com/mcp"
+    }
+  ],
+  "url": "https://github.com/402cron/402cron",
+  "readme": "https://github.com/402cron/402cron#readme"
+}

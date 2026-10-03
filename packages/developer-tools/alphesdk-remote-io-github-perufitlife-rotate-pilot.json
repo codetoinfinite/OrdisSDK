@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rotate Pilot — FAA exam prep",
+  "description": "FAA written-test prep: practice questions, readiness diagnostic, METAR/TAF, drone airspace",
+  "packageName": "@alphesdk-remote/io-github-perufitlife-rotate-pilot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rotatepilot.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Perufitlife/rotate-pilot-mcp",
+  "readme": "https://github.com/Perufitlife/rotate-pilot-mcp#readme"
+}

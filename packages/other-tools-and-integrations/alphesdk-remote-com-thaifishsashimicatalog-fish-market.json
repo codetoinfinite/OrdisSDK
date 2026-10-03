@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GYOTAK Fish Market",
+  "description": "Sashimi-grade flash-frozen fish from Thailand. Catalog, ordering, and on-chain traceability.",
+  "packageName": "@alphesdk-remote/com-thaifishsashimicatalog-fish-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://line-harness.gyotak.workers.dev/mcp"
+    }
+  ],
+  "url": "https://gyotak-thailand.pages.dev"
+}

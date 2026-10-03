@@ -1,0 +1,55 @@
+{
+  "type": "external-agent",
+  "key": "enterprise-deep-research",
+  "name": "Enterprise Deep Research",
+  "description": "Salesforce's multi-agent deep-research system with a planning agent, specialised search agents and live user steering.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "multi-agent", "enterprise", "steerable", "langgraph"],
+  "repo": "https://github.com/SalesforceAIResearch/enterprise-deep-research",
+  "publisher": "Salesforce AI Research",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "EDR decomposes a research question, gathers evidence from general web, academic, GitHub and LinkedIn searches, and writes a report, while the user can redirect it mid-run. It targets enterprise analytics and research use.",
+  "howItWorks": "A master planning agent assigns work to search agents and tool integrations (including MCP), with a reflection step that tracks knowledge gaps. A FastAPI backend serves a React frontend; a benchmark script runs it from the command line.",
+  "requirements": [
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web search"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Or ANTHROPIC_API_KEY, GROQ_API_KEY, SAMBNOVA_API_KEY or Google Cloud, per LLM_PROVIDER"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Frontend build"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/SalesforceAIResearch/enterprise-deep-research.git",
+    "cd enterprise-deep-research",
+    "python -m venv venv",
+    "source venv/bin/activate",
+    "pip install -r requirements.txt",
+    "cp .env.sample .env",
+    "cd ai-research-assistant && npm install && npm run build && cd .."
+  ],
+  "run": ["python -m uvicorn app:app --host 0.0.0.0 --port 8000"],
+  "interfaces": ["web", "cli", "api"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "OpenAI, Anthropic, Google, Groq, SambaNova",
+  "mcp": "client",
+  "github": {
+    "stars": 1212,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-06-02",
+    "checkedAt": "2026-10-03"
+  }
+}

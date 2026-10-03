@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Doorman",
+  "description": "Spam, pitch and fraud screening for website forms. Sign up, wire forms, test and review.",
+  "packageName": "@alphesdk-remote/com-withdoorman-doorman",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://withdoorman.com/mcp"
+    }
+  ],
+  "url": "https://withdoorman.com"
+}

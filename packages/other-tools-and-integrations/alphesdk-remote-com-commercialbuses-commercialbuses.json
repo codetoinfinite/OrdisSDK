@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CommercialBuses",
+  "description": "The commercial bus vocabulary: what each kind is, seats, use, and licence needed.",
+  "packageName": "@alphesdk-remote/com-commercialbuses-commercialbuses",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://commercialbuses.com/api/mcp"
+    }
+  ],
+  "url": "https://commercialbuses.com"
+}

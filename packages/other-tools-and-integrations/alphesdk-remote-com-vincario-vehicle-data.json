@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vehicle-data",
+  "description": "Vehicle data for AI: VIN decoder, automotive specs, stolen checks, valuation and way more.",
+  "packageName": "@alphesdk-remote/com-vincario-vehicle-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vincario.com/mcp"
+    }
+  ],
+  "url": "https://github.com/vincario/mcp-vincario",
+  "readme": "https://github.com/vincario/mcp-vincario#readme"
+}

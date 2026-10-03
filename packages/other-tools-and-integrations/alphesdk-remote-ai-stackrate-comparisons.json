@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stackrate: Office of the CFO software comparisons",
+  "description": "How Office of the CFO software really works: cited findings on AP, ERP, procurement and more.",
+  "packageName": "@alphesdk-remote/ai-stackrate-comparisons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stackrate.ai/mcp"
+    }
+  ],
+  "url": "https://stackrate.ai"
+}

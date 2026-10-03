@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bva-corpus",
+  "description": "900,000+ Board of Veterans' Appeals decisions: VA outcomes, grant rates, PACT Act, ratings.",
+  "packageName": "@alphesdk-remote/com-veterans-rights-bva-corpus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.veterans-rights.com/api/mcp"
+    }
+  ],
+  "url": "https://www.veterans-rights.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ElectionsMCP",
+  "description": "Model and map any 2028 U.S. race down to the precinct: scenarios, swing, turnout, and roll-ups.",
+  "packageName": "@alphesdk-remote/com-electionsmcp-electionsmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.electionsmcp.com/mcp"
+    }
+  ],
+  "url": "https://www.electionsmcp.com"
+}

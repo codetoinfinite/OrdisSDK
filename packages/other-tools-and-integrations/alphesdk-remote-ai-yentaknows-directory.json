@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Yenta Directory",
+  "description": "Anonymous, read-only cross-venue discovery of partner-approved venues, cities, destinations.",
+  "packageName": "@alphesdk-remote/ai-yentaknows-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yentaknows.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/yenta-ai/yenta-mcp",
+  "readme": "https://github.com/yenta-ai/yenta-mcp#readme"
+}

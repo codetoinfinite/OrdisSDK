@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FolioFact",
+  "description": "Read-only value-investing fund, holdings, financial, options, and insider research.",
+  "packageName": "@alphesdk-remote/com-foliofact-foliofact",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://foliofact.com/mcp"
+    }
+  ],
+  "url": "https://foliofact.com/agents"
+}

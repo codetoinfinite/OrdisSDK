@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pipe2.ai",
+  "description": "Run multi-step AI pipelines for video, image, audio and text: upload media, run, poll results.",
+  "packageName": "@alphesdk-remote/ai-pipe2-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pipe2.ai/mcp"
+    }
+  ],
+  "url": "https://pipe2.ai"
+}

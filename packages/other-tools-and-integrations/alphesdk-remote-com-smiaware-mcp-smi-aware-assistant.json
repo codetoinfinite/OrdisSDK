@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SMI Aware Assistant",
+  "description": "Remote MCP server exposing SMI Aware tools, resources, and skills over Streamable HTTP.",
+  "packageName": "@alphesdk-remote/com-smiaware-mcp-smi-aware-assistant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.smiaware.com/mcp"
+    }
+  ],
+  "url": "https://github.com/smiAware/mcp-server",
+  "readme": "https://github.com/smiAware/mcp-server#readme"
+}

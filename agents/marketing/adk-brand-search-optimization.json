@@ -1,0 +1,62 @@
+{
+  "type": "external-agent",
+  "key": "adk-brand-search-optimization",
+  "name": "ADK Brand Search Optimization",
+  "description": "ADK multi-agent workflow that improves e-commerce product titles by mining keywords from BigQuery and browsing retail search results.",
+  "category": "marketing",
+  "tags": ["e-commerce", "seo", "computer-use", "bigquery", "adk"],
+  "repo": "https://github.com/google/adk-recipes",
+  "subpath": "contrib/python/brand-search-optimization",
+  "docs": "https://adk.dev",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "For retail brands, it pulls catalogue data, finds the search terms shoppers use, looks at how top competing listings are titled and then scores and rewrites product titles to close keyword gaps.",
+  "howItWorks": "Specialised agents handle keyword finding (BigQuery tools), visual browsing of retail search pages with Gemini Computer Use driven through Playwright, and title comparison/scoring. It runs via the ADK CLI or web UI.",
+  "requirements": [
+    {
+      "name": "GOOGLE_CLOUD_PROJECT",
+      "kind": "account",
+      "required": true,
+      "description": "Google Cloud project with BigQuery"
+    },
+    {
+      "name": "gcloud CLI",
+      "kind": "runtime",
+      "required": true,
+      "description": "Application-default login"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python package manager"
+    },
+    {
+      "name": "Chromium (Playwright)",
+      "kind": "runtime",
+      "required": true,
+      "description": "Browser used by the computer-use agent"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google/adk-recipes.git",
+    "cd adk-recipes/contrib/python/brand-search-optimization",
+    "cp .env.example .env",
+    "uv sync --dev",
+    "uv run playwright install chromium",
+    "uv run python -m deployment.bq_populate_data"
+  ],
+  "run": ["uv run adk run app", "uv run adk web"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "framework": "Google ADK",
+  "models": "Gemini incl. Gemini Computer Use",
+  "mcp": "none",
+  "github": {
+    "stars": 10411,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

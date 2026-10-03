@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "LicenseGate",
+  "description": "Open-source licence risk checks for AI coding agents and dependency trees.",
+  "packageName": "@alphesdk-remote/io-github-computersmarts1-licensegate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://licensegate.onrender.com/mcp"
+    }
+  ]
+}

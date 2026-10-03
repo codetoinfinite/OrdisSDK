@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "waysway",
+  "description": "Waysway AI travel MCP for hotels, live prices, restaurants, flights, and activities.",
+  "packageName": "@alphesdk-remote/io-github-waysway-app-waysway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.waysway.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Waysway-app/waysway-mcp",
+  "readme": "https://github.com/Waysway-app/waysway-mcp#readme"
+}

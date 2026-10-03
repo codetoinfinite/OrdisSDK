@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hong Kong CourtDB",
+  "description": "Search Hong Kong court cases and read judgment documents.",
+  "packageName": "@alphesdk-remote/io-github-indotender-hkcourt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hk.courtdb.org/mcp"
+    }
+  ],
+  "url": "https://github.com/IndoTender/hkcourt-mcp",
+  "readme": "https://github.com/IndoTender/hkcourt-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PreApe",
+  "description": "Check Arc/RadarDEX tokens before buying. Creator, LP lock, holders. GO/CAUTION/AVOID.",
+  "packageName": "@alphesdk-remote/ai-preape-preape",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.preape.ai"
+    }
+  ],
+  "url": "https://preape.ai"
+}

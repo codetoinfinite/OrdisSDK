@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "bundler",
+  "description": "Bundle multiple URLs into one short link. QR codes, access counters, redirect lookup. Free.",
+  "packageName": "@alphesdk-remote/at-uurl-bundler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://uurl.at/mcp"
+    }
+  ]
+}

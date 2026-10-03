@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Stablecoin Yield Index (SYX) and live USDC vault APYs across Ethereum, Base, Arbitrum.",
+  "packageName": "@alphesdk-remote/cc-accrue-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://accrue.cc/mcp"
+    }
+  ],
+  "url": "https://accrue.cc"
+}

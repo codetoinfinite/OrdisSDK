@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Qomvia — agent-readiness score and agentic checkout",
+  "description": "Search Qomvia Market shops and buy on the merchant's checkout; score any site's agent readiness.",
+  "packageName": "@alphesdk-remote/com-qomvia-qomvia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qomvia.com/api/mcp"
+    }
+  ],
+  "url": "https://qomvia.com/mcp"
+}

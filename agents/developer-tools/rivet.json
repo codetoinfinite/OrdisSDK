@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "rivet",
+  "name": "Rivet",
+  "description": "Desktop application for designing AI agents and prompt chains as graphs that can then be embedded in your own application.",
+  "category": "developer-tools",
+  "tags": ["desktop", "visual-builder", "prompt-chaining", "graph", "embedding"],
+  "repo": "https://github.com/Ironclad/rivet",
+  "homepage": "https://rivet.ironcladapp.com",
+  "publisher": "Ironclad",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Teams build and debug complex agent logic visually, then run the same graphs from their product. It supports OpenAI and Anthropic models, AssemblyAI for voice data and vector database integrations.",
+  "howItWorks": "Graphs of nodes are edited and executed in the desktop app. Build-from-source steps live in the contributing guide rather than the README, so no commands are listed here.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI or Anthropic credentials"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "library"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic",
+  "mcp": "none",
+  "github": {
+    "stars": 4698,
+    "license": "MIT",
+    "pushedAt": "2026-08-26",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RoRo Quantum",
+  "description": "Read RoRo Academy quantum computing lessons and list RoRo Quantum's simulators and hardware.",
+  "packageName": "@alphesdk-remote/com-roroquantum-roro-quantum",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.roroquantum.com/mcp"
+    }
+  ],
+  "url": "https://roroquantum.com/docs/#ai-assistants"
+}

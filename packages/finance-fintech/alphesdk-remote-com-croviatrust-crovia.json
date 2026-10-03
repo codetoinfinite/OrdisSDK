@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Crovia — verifiable silence (TACET) and Crovia Seal",
+  "description": "Signed, Bitcoin-anchored observations of AI training-data disclosure; verifies silence proofs, seals",
+  "packageName": "@alphesdk-remote/com-croviatrust-crovia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://croviatrust.com/mcp"
+    }
+  ],
+  "url": "https://github.com/croviatrust/countersign",
+  "readme": "https://github.com/croviatrust/countersign#readme"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "open-interface",
+  "name": "Open Interface",
+  "description": "Desktop app that completes tasks on macOS, Linux or Windows by sending screenshots to an LLM and simulating keyboard and mouse input.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "desktop", "gui-agent"],
+  "repo": "https://github.com/AmberSahdev/Open-Interface",
+  "publisher": "Amber Sahdev",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets a user type a request and have the computer carry it out across ordinary applications. It is a self-contained way to try full-computer control with a multimodal model.",
+  "howItWorks": "The app sends the request with a current screenshot to the model, receives a list of input steps, performs them and then checks a fresh screenshot to correct course. It is distributed as a prebuilt binary and needs accessibility and screen-recording permissions on macOS.",
+  "requirements": [
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered in the app settings"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "Python",
+  "models": "GPT-4o, Gemini and other multimodal models",
+  "mcp": "none",
+  "github": {
+    "stars": 2723,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-07-17",
+    "checkedAt": "2026-10-03"
+  }
+}

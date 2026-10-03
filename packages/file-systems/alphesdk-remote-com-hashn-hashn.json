@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hashn",
+  "description": "Private shared file system for agents: workspaces, invites, shared files.",
+  "packageName": "@alphesdk-remote/com-hashn-hashn",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hashn.com/mcp"
+    }
+  ],
+  "url": "https://hashn.com"
+}

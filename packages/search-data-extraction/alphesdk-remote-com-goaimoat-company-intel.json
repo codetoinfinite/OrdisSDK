@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Company Intel",
+  "description": "Company profile lookup and B2B company search for AI agents.",
+  "packageName": "@alphesdk-remote/com-goaimoat-company-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://company.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-mcp#readme"
+}

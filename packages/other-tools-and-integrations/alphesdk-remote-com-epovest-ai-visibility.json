@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Epovest",
+  "description": "With Epovest, businesses make AIs recommend them.",
+  "packageName": "@alphesdk-remote/com-epovest-ai-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.epovest.com/mcp"
+    }
+  ],
+  "url": "https://epovest.com"
+}

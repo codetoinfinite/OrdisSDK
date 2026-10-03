@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ETFIQ",
+  "description": "Independent US ETF data: holdings, fees, overlap, returns, each with its source and date.",
+  "packageName": "@alphesdk-remote/com-etfiq-etfiq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.etfiq.com"
+    }
+  ],
+  "url": "https://etfiq.com"
+}

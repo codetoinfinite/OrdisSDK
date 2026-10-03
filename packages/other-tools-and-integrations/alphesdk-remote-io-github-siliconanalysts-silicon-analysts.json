@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Silicon Analysts",
+  "description": "Dated, sourced semiconductor data: chip costs, HBM/wafer pricing, fab capacity, policy, forecasts.",
+  "packageName": "@alphesdk-remote/io-github-siliconanalysts-silicon-analysts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://siliconanalysts.com/api/mcp"
+    }
+  ],
+  "url": "https://siliconanalysts.com"
+}

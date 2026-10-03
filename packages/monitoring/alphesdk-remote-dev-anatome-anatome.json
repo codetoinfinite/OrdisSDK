@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "anatome",
+  "description": "Log workouts and meals by telling your AI. 873 exercises, muscle diagrams, food lookup.",
+  "packageName": "@alphesdk-remote/dev-anatome-anatome",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://anatome.dev/mcp"
+    }
+  ],
+  "url": "https://anatome.dev"
+}

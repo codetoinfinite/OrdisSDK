@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ServGhost",
+  "description": "Rent offshore VPS, dedicated, RDP and GPU servers in 7 jurisdictions; crypto-only, no KYC",
+  "packageName": "@alphesdk-remote/com-servghost-servghost",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://servghost.com/mcp"
+    }
+  ],
+  "url": "https://servghost.com/agents"
+}

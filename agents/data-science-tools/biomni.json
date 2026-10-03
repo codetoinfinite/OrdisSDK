@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "biomni",
+  "name": "Biomni",
+  "description": "General-purpose biomedical research agent that plans and executes analyses using a large set of bioinformatics tools and databases.",
+  "category": "data-science-tools",
+  "tags": ["biomedical", "research-agent", "bioinformatics", "science", "stanford"],
+  "repo": "https://github.com/snap-stanford/Biomni",
+  "homepage": "https://biomni.stanford.edu",
+  "publisher": "Stanford SNAP",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Takes biomedical research tasks such as designing a screen, annotating single-cell data or predicting compound properties and carries them out end to end. It targets life-science researchers.",
+  "howItWorks": "An LLM planner retrieves relevant tools, software and data from a prepared environment and writes code that it executes to complete the task. It is used as a Python library inside a dedicated conda environment, with a data lake downloaded on first use.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Default model provider"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alternative provider; Gemini, Groq, Bedrock and custom endpoints are also supported"
+    },
+    {
+      "name": "Conda environment",
+      "kind": "runtime",
+      "required": true,
+      "description": "biomni_e1 environment built by the setup script in biomni_env"
+    }
+  ],
+  "install": ["conda activate biomni_e1", "pip install biomni --upgrade"],
+  "run": [],
+  "interfaces": ["library", "web"],
+  "language": "Python",
+  "models": "Anthropic by default; OpenAI, Gemini, Groq, Bedrock, custom endpoints",
+  "mcp": "client",
+  "github": {
+    "stars": 3934,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

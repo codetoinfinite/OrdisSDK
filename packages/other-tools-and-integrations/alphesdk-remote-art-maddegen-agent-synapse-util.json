@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse · Utils",
+  "description": "Exact local utils: QR, hashing/encoding, JSON Schema, cron, markdown, diff, units, JWT, random.",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse-util",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp/util"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

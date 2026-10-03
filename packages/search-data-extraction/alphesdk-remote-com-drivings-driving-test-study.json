@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Drivings",
+  "description": "Published driving guides, source-backed UK and US test-centre search, and study-plan previews.",
+  "packageName": "@alphesdk-remote/com-drivings-driving-test-study",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.drivings.com/mcp"
+    }
+  ],
+  "url": "https://mcp.drivings.com"
+}

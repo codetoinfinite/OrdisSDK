@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Veterical Vet Clinic",
+  "description": "See your vet clinic's free slots, vets, service prices, payments and how busy each day is.",
+  "packageName": "@alphesdk-remote/com-veterical-veterical",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.veterical.com/mcp"
+    }
+  ],
+  "url": "https://www.veterical.com/developers/#mcp"
+}

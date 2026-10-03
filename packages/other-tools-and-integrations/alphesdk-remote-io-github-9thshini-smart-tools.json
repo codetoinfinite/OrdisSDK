@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SmartTools",
+  "description": "70+ free calculators & converters as MCP tools; each result links to its source page.",
+  "packageName": "@alphesdk-remote/io-github-9thshini-smart-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smart-tools.xyz/mcp"
+    }
+  ],
+  "url": "https://smart-tools.xyz/en/mcp"
+}

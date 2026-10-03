@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "The Front Desk Review",
+  "description": "4,764 products, 626 categories: sourced prices, dated price history, independent-test coverage.",
+  "packageName": "@alphesdk-remote/com-frontdeskreview-front-desk-review-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.frontdeskreview.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AlexandDunk/frontdesk-data",
+  "readme": "https://github.com/AlexandDunk/frontdesk-data#readme"
+}

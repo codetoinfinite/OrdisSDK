@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CamFeed Journalism Archive",
+  "description": "Public read-only archive of journalist Cameron Wilson's work, appearances, and biography.",
+  "packageName": "@alphesdk-remote/au-com-cameronwilson-camfeed-camfeed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://camfeed.cameronwilson.com.au/mcp"
+    }
+  ],
+  "url": "https://camfeed.cameronwilson.com.au/mcp-info"
+}

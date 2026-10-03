@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Grok Bot Wiki",
+  "description": "Read-only search of community Grok Bot templates and guides. Unofficial; not affiliated with xAI.",
+  "packageName": "@alphesdk-remote/com-grokbotwiki-www-grok-bot-wiki",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.grokbotwiki.com/api/mcp"
+    }
+  ],
+  "url": "https://www.grokbotwiki.com/mcp"
+}

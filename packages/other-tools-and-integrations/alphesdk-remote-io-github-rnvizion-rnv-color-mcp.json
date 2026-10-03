@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "rnv-color-mcp",
+  "description": "A complete color workflow over MCP: mix, convert, harmonize, measure, place, and remember palettes.",
+  "packageName": "@alphesdk-remote/io-github-rnvizion-rnv-color-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rnvizion-rnv-color-mcp.hf.space/mcp"
+    }
+  ],
+  "url": "https://github.com/RNVizion/rnv-color-mcp",
+  "readme": "https://github.com/RNVizion/rnv-color-mcp#readme"
+}

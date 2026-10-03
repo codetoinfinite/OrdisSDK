@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BetSlip Doctor",
+  "description": "Read, grade, and track a subscriber's betslips with preserved truth and no wager placement.",
+  "packageName": "@alphesdk-remote/ai-betslipdoctor-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.betslipdoctor.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/opspot-ai/betslipdoctor",
+  "readme": "https://github.com/opspot-ai/betslipdoctor#readme"
+}

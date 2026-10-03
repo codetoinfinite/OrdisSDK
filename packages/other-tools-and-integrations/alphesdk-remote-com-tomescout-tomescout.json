@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TomeScout",
+  "description": "KDP keyword boxes, listing checks, royalties and sales-from-rank for self-published authors",
+  "packageName": "@alphesdk-remote/com-tomescout-tomescout",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tomescout.com/mcp"
+    }
+  ],
+  "url": "https://tomescout.com"
+}

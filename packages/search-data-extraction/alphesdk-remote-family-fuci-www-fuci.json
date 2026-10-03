@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fuci",
+  "description": "AI agents on Arc: search paid x402 APIs, ERC-8004 reputation, Argus launch data paid in USDC.",
+  "packageName": "@alphesdk-remote/family-fuci-www-fuci",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fuci.family/api/mcp"
+    }
+  ],
+  "url": "https://github.com/fucidotfamily/fuci_family",
+  "readme": "https://github.com/fucidotfamily/fuci_family#readme"
+}

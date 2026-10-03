@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ask AI",
+  "description": "Ask questions across Shopify, Klaviyo, GA4 and 20+ e-commerce sources in plain English.",
+  "packageName": "@alphesdk-remote/com-ask-ai-data-connector-ask-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ask-ai-data-connector.com/mcp"
+    }
+  ],
+  "url": "https://ask-ai-data-connector.com"
+}

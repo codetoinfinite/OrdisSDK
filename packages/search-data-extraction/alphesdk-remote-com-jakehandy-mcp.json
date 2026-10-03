@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jakehandy.com",
+  "description": "Search, read, cite and react to Jake Handy's writing on AI, music tech and agentic engineering.",
+  "packageName": "@alphesdk-remote/com-jakehandy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jakehandy.com/mcp"
+    }
+  ],
+  "url": "https://jakehandy.com/for-agents"
+}

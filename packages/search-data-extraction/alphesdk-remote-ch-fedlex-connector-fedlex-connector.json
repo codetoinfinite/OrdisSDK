@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fedlex Connector",
+  "description": "Search Swiss federal legislation: laws, articles, amendments via the Fedlex SPARQL endpoint.",
+  "packageName": "@alphesdk-remote/ch-fedlex-connector-fedlex-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fedlex-connector.ch/"
+    }
+  ],
+  "url": "https://github.com/JayTheSkier/fedlex-connector",
+  "readme": "https://github.com/JayTheSkier/fedlex-connector#readme"
+}

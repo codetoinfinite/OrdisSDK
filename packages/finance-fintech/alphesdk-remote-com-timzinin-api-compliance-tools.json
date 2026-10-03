@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Compliance Tools",
+  "description": "Pay-per-call compliance lead scanners with free MCP discovery and x402 payments.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-compliance-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/compliance-tools"
+    }
+  ]
+}

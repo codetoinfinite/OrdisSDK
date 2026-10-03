@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DABLOCK AI Visibility Index",
+  "description": "Measured share of answer for 24 crypto and Web3 brands. An open dataset, not an audit of your site.",
+  "packageName": "@alphesdk-remote/ai-dablock-visibility-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dablock.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/creanlab/ai-visibility-index",
+  "readme": "https://github.com/creanlab/ai-visibility-index#readme"
+}

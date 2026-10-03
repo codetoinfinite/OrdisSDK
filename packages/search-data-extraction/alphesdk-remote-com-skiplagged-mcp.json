@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Skiplagged MCP",
+  "description": "Skiplagged MCP Server for flight search, hotel booking, and travel planning",
+  "packageName": "@alphesdk-remote/com-skiplagged-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.skiplagged.com/mcp"
+    }
+  ],
+  "url": "https://skiplagged.com"
+}

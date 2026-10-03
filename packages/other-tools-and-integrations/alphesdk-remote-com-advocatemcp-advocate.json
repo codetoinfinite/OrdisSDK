@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AdvocateMCP",
+  "description": "MCP layer for local businesses: discover, query, book, and transact with verified SMB AI agents.",
+  "packageName": "@alphesdk-remote/com-advocatemcp-advocate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.advocatemcp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/cameronjmcewan-dev/advocatemcp",
+  "readme": "https://github.com/cameronjmcewan-dev/advocatemcp#readme"
+}

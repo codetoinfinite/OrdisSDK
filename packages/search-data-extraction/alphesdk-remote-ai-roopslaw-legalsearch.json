@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LegalSearch",
+  "description": "Public Indian legal search MCP for Roop judgments, statutes, and corpus grounding.",
+  "packageName": "@alphesdk-remote/ai-roopslaw-legalsearch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.roopslaw.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Roop-World/LegalSearch",
+  "readme": "https://github.com/Roop-World/LegalSearch#readme"
+}

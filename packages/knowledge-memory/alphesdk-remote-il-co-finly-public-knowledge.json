@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FINLY Mortgage Knowledge",
+  "description": "Public Israeli mortgage knowledge with sources and defined hypothetical calculations.",
+  "packageName": "@alphesdk-remote/il-co-finly-public-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finly.co.il/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dataset Diff & Change Detector",
+  "description": "Compare two versions of a JSON row list: what was added, removed or changed, field by field.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-dataset-diff-detector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataset-diff-detector.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Nero-Engine/dataset-diff-detector-mcp",
+  "readme": "https://github.com/Nero-Engine/dataset-diff-detector-mcp#readme"
+}

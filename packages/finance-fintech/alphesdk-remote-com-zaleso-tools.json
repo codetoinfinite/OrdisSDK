@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zaleso",
+  "description": "Nigeria PAYE, VAT and CBN rates, sourced and dated. Plus invoice totals, QR codes, JSON, Base64.",
+  "packageName": "@alphesdk-remote/com-zaleso-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zaleso.com/"
+    }
+  ],
+  "url": "https://zaleso.com"
+}

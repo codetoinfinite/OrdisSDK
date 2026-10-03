@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CleanPage",
+  "description": "Turn any URL into clean, structured, agent-ready content. $0.02/call via x402 on Base.",
+  "packageName": "@alphesdk-remote/io-github-io31-web-cleanpage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cleanpage-mcp.cleanpage-mcp.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/IO31-WEB/cleanpage-mcp",
+  "readme": "https://github.com/IO31-WEB/cleanpage-mcp#readme"
+}

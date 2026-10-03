@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search live roles across hundreds of a16z portfolio startups and join the speedrun talent network.",
+  "packageName": "@alphesdk-remote/com-speedrun-talent-network-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.speedrun-talent-network.com/mcp"
+    }
+  ],
+  "url": "https://speedrun-talent-network.com/developers"
+}

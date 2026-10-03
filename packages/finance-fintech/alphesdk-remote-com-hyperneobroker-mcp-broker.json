@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HYPERneobroker.com",
+  "description": "Live prices, perps, prediction markets and a paper trading desk over one MCP.",
+  "packageName": "@alphesdk-remote/com-hyperneobroker-mcp-broker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hyperneobroker.com/mcp"
+    }
+  ],
+  "url": "https://mcp.hyperneobroker.com/"
+}

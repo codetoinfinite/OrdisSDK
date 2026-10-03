@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ReminderIt",
+  "description": "Schedule real phone-call reminders with WhatsApp follow-up — medication, wake-ups, family check-ins.",
+  "packageName": "@alphesdk-remote/com-reminderit-reminderit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.reminderit.com/mcp"
+    }
+  ],
+  "url": "https://reminderit.com"
+}

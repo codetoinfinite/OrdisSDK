@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GateCheck by LarryBuildsAI",
+  "description": "One-cent x402 and MCP readiness checks plus fixed-price marketplace launch packs.",
+  "packageName": "@alphesdk-remote/io-github-larrylemonbot-gatecheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proofbeforepay.vercel.app/gatecheck/mcp"
+    }
+  ],
+  "url": "https://github.com/LarryLemonBot/gatecheck",
+  "readme": "https://github.com/LarryLemonBot/gatecheck#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BuyerAware",
+  "description": "Mechanic-grade used-car listing verdicts: risk score, failure points, repair costs, fair price.",
+  "packageName": "@alphesdk-remote/com-buyerawareapp-buyeraware",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.buyerawareapp.com/mcp"
+    }
+  ],
+  "url": "https://api.buyerawareapp.com"
+}

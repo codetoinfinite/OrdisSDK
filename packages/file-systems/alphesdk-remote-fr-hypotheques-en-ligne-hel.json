@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hel",
+  "description": "Instant pricing for French land-registry documents (etat hypothecaire, deeds). Read-only, no auth.",
+  "packageName": "@alphesdk-remote/fr-hypotheques-en-ligne-hel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hypotheques-en-ligne.fr/wp-json/hel/mcp"
+    }
+  ],
+  "url": "https://www.hypotheques-en-ligne.fr/connecteur-claude/"
+}

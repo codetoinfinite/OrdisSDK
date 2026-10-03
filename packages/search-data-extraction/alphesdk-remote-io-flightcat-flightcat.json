@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Flightcat",
+  "description": "Search flights by flexible dates and broad destinations, with live prices and booking links.",
+  "packageName": "@alphesdk-remote/io-flightcat-flightcat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flightcat.io/mcp"
+    }
+  ],
+  "url": "https://flightcat.io"
+}

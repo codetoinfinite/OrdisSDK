@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Race Calendar F1",
+  "description": "Anonymous read-only Formula 1 tools, resources, prompts, completion, and interactive dashboard.",
+  "packageName": "@alphesdk-remote/app-racecalendar-f1",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://racecalendar.app/mcp"
+    }
+  ],
+  "url": "https://racecalendar.app/f1"
+}

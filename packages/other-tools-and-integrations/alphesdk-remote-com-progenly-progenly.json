@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Progenly",
+  "description": "Verifiable-lineage agent reproduction: browse births, stage/join/confirm agent merges.",
+  "packageName": "@alphesdk-remote/com-progenly-progenly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://progenly.com/mcp"
+    }
+  ],
+  "url": "https://github.com/progenly/progenly",
+  "readme": "https://github.com/progenly/progenly#readme"
+}

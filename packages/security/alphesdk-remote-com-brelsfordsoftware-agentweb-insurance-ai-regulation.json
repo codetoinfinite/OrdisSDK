@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "agentweb",
+  "description": "NAIC AI model bulletin adoption by state, with citations. Insurance AI compliance data.",
+  "packageName": "@alphesdk-remote/com-brelsfordsoftware-agentweb-insurance-ai-regulation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentweb.brelsfordsoftware.com/mcp"
+    }
+  ]
+}

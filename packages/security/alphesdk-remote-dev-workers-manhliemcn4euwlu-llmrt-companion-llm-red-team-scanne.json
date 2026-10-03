@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LLM Red-Team Scanner",
+  "description": "35-probe LLM/agent security red-team scan (injection, jailbreak, MCP abuse) with report.",
+  "packageName": "@alphesdk-remote/dev-workers-manhliemcn4euwlu-llmrt-companion-llm-red-team-scanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/mcp"
+    }
+  ],
+  "url": "https://llmrt-companion.manhliemcn4euwlu.workers.dev/agent"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Content Calendar Agent by Nova (CIVAI)",
+  "description": "I create markdown content calendars and export them as PDFs via PDF Generator MCP",
+  "packageName": "@alphesdk-remote/co-civai-nova-content-calendar-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/content-calendar-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/content-calendar-agent"
+}

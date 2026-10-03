@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sonar Connections",
+  "description": "Source-attributed events, open data and availability",
+  "packageName": "@alphesdk-remote/com-sonarconnections-sonar-connections",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpconnector-gtlizqtvza-uw.a.run.app/public"
+    }
+  ],
+  "url": "https://sonarconnections.com/docs/connector/"
+}

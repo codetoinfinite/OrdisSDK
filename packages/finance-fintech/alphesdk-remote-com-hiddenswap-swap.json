@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HiddenSwap",
+  "description": "No-KYC crypto swaps, no account or email. Read-only quotes, coins, swap links, order status.",
+  "packageName": "@alphesdk-remote/com-hiddenswap-swap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hiddenswap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/hiddenswap/hiddenswap-mcp",
+  "readme": "https://github.com/hiddenswap/hiddenswap-mcp#readme"
+}

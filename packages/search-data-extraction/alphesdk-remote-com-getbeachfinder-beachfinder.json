@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BeachFinder - beaches and live conditions",
+  "description": "Search 184,900 swim spots, conditions, water activities, providers and guides worldwide.",
+  "packageName": "@alphesdk-remote/com-getbeachfinder-beachfinder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getbeachfinder.com/mcp"
+    }
+  ],
+  "url": "https://github.com/troulin-a11y/BeachFinder-mcp",
+  "readme": "https://github.com/troulin-a11y/BeachFinder-mcp#readme"
+}

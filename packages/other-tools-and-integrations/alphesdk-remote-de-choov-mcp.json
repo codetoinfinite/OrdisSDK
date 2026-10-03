@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Choov MCP",
+  "description": "Strom- und Gastarife sowie Produktinformationen für Energievergleiche, live per MCP-Tool.",
+  "packageName": "@alphesdk-remote/de-choov-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.choov.de/mcp.php"
+    }
+  ],
+  "url": "https://www.choov.de/"
+}

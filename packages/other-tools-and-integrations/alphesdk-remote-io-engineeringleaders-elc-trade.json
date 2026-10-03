@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "elc-trade",
+  "description": "Score a meetup topic, place a speaker on the right stage, price community reach. ELC data.",
+  "packageName": "@alphesdk-remote/io-engineeringleaders-elc-trade",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.engineeringleaders.io/mcp/trade"
+    }
+  ],
+  "url": "https://github.com/marian-kamenistak/elc-trade",
+  "readme": "https://github.com/marian-kamenistak/elc-trade#readme"
+}

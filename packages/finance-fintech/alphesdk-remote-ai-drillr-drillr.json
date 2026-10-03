@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Drillr — The financial MCP for AI agents",
+  "description": "Financial data and research MCP for US/CN/JP equities: filings, statements, ownership, signals.",
+  "packageName": "@alphesdk-remote/ai-drillr-drillr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.drillr.ai/mcp/data"
+    }
+  ],
+  "url": "https://github.com/Little-Grebe-Inc/drillr-mcp-server",
+  "readme": "https://github.com/Little-Grebe-Inc/drillr-mcp-server#readme"
+}

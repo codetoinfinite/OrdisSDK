@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moxie Docs",
+  "description": "Living docs and MCP context for GitHub repos — conventions, gaps, and source-cited pages on merge.",
+  "packageName": "@alphesdk-remote/io-github-jackalope-dev-moxie-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://moxiedocs.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Jackalope-Dev/Moxie-Docs-MCP",
+  "readme": "https://github.com/Jackalope-Dev/Moxie-Docs-MCP#readme"
+}

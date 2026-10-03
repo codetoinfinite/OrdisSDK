@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FINLY Balance Report Analysis",
+  "description": "Israeli mortgage reports with Hebrew results, 15-minute recovery and authorized external OCR.",
+  "packageName": "@alphesdk-remote/il-co-finly-report-analysis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finly.co.il/mcp/reports"
+    }
+  ]
+}

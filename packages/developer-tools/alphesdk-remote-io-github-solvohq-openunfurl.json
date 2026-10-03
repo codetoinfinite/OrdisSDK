@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "openunfurl",
+  "description": "Zero-signup anonymous link-unfurl API. One GET returns clean JSON metadata for any public URL.",
+  "packageName": "@alphesdk-remote/io-github-solvohq-openunfurl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openunfurl.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/SolvoHQ/openunfurl",
+  "readme": "https://github.com/SolvoHQ/openunfurl#readme"
+}

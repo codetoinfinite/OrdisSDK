@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TLDMath",
+  "description": "Live domain availability and prices across registrars, ranked by true two-year cost.",
+  "packageName": "@alphesdk-remote/com-tldmath-tldmath",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tldmath.com/mcp"
+    }
+  ],
+  "url": "https://www.tldmath.com/connector"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rayana AI",
+  "description": "Read-only impersonal market research: portfolio rankings, ticker scores, signals, daily briefs.",
+  "packageName": "@alphesdk-remote/ai-rayana-rayana-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rayana.ai/mcp"
+    }
+  ],
+  "url": "https://rayana.ai/docs"
+}

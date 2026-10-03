@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "market-data",
+  "description": "Verified market data for AI trading agents: quality-flagged candles, funding, OI, order flow. x402.",
+  "packageName": "@alphesdk-remote/ai-iturri-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iturri.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/iturri-ai/iturri-mcp",
+  "readme": "https://github.com/iturri-ai/iturri-mcp#readme"
+}

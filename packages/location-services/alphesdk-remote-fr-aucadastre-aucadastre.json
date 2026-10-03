@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Aucadastre",
+  "description": "A French address, all public facts: parcel, zoning, risks, permits, sales, energy labels. No key.",
+  "packageName": "@alphesdk-remote/fr-aucadastre-aucadastre",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aucadastre.fr/mcp"
+    }
+  ],
+  "url": "https://aucadastre.fr/api"
+}

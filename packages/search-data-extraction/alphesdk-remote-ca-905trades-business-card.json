@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "905 Trades",
+  "description": "905 Trades, Hamilton ON residential trades referral network: facts, site search, quote requests.",
+  "packageName": "@alphesdk-remote/ca-905trades-business-card",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://905trades.ca/mcp"
+    }
+  ],
+  "url": "https://905trades.ca/"
+}

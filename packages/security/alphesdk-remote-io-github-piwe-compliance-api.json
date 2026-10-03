@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentEconomy Compliance API",
+  "description": "Paid KYC, AML, and regulatory risk assessment over MCP via x402 USDC micropayments on Base.",
+  "packageName": "@alphesdk-remote/io-github-piwe-compliance-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.netbrainis.co.za/mcp"
+    }
+  ],
+  "url": "https://github.com/Piwe/compliance-api",
+  "readme": "https://github.com/Piwe/compliance-api#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Emisoras de Colombia",
+  "description": "264 emisoras de radio colombianas en vivo: busca por ciudad, genero o dial y escuchalas.",
+  "packageName": "@alphesdk-remote/com-emisorasdecolombia-radio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emisorasdecolombia.com/api/mcp"
+    }
+  ],
+  "url": "https://emisorasdecolombia.com"
+}

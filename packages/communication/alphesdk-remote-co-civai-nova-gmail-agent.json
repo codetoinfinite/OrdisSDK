@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gmail Agent by Nova (CIVAI)",
+  "description": "I do everything related to Gmail and productivity",
+  "packageName": "@alphesdk-remote/co-civai-nova-gmail-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/gmail-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/gmail-agent"
+}

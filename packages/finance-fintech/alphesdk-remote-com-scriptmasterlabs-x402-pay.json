@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402 Pay — USDC API Payment Helper",
+  "description": "Pay for APIs with USDC. Read-only x402 payment discovery, verification, evidence, and status.",
+  "packageName": "@alphesdk-remote/com-scriptmasterlabs-x402-pay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squeezeos-api.onrender.com/mcp/x402-pay"
+    }
+  ],
+  "url": "https://gitlab.com/timothy.walton45/sml-portfolio",
+  "readme": "https://gitlab.com/timothy.walton45/sml-portfolio#readme"
+}

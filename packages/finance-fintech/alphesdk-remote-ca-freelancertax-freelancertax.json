@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FreelancerTax — Canadian self-employed tax math",
+  "description": "Verified Canadian self-employed tax math: SE tax, CPP, GST/HST, instalments, CRA deadlines. Free.",
+  "packageName": "@alphesdk-remote/ca-freelancertax-freelancertax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://freelancertax.ca/mcp"
+    }
+  ],
+  "url": "https://freelancertax.ca"
+}

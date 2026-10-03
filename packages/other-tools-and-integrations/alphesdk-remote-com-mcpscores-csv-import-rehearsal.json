@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CSV Import Rehearsal",
+  "description": "Simulate a CSV import against a supplied typed column contract and return exact accepted rows, re...",
+  "packageName": "@alphesdk-remote/com-mcpscores-csv-import-rehearsal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-factory.bowling-anthony.workers.dev/csv-import-rehearsal/mcp"
+    }
+  ],
+  "url": "https://mcp-factory.bowling-anthony.workers.dev/csv-import-rehearsal"
+}

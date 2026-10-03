@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bydleno",
+  "description": "Search Czech rental listings from 24 portals, merged into one offer per flat.",
+  "packageName": "@alphesdk-remote/cz-bydleno-pronajmy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bydleno.cz/api/mcp/"
+    }
+  ],
+  "url": "https://bydleno.cz/"
+}

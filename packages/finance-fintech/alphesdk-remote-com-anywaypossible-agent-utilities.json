@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Anyway Possible Agent Utilities",
+  "description": "A free tool recommender plus eight x402 tools for payments, merchants, wallets, and web evidence.",
+  "packageName": "@alphesdk-remote/com-anywaypossible-agent-utilities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://anywaypossible.com/api/registry-mcp"
+    }
+  ],
+  "url": "https://github.com/anyway-possible/public-api",
+  "readme": "https://github.com/anyway-possible/public-api#readme"
+}

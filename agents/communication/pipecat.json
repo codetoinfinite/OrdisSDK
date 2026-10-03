@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "pipecat",
+  "name": "Pipecat",
+  "description": "Framework for real-time voice and multimodal conversational agents, with a CLI that scaffolds a runnable voice bot.",
+  "category": "communication",
+  "tags": ["voice", "realtime", "multimodal", "telephony", "framework"],
+  "repo": "https://github.com/pipecat-ai/pipecat",
+  "docs": "https://docs.pipecat.ai",
+  "publisher": "Pipecat (Daily)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets developers build assistants that listen, think and speak with low latency, for uses such as phone bots, meeting participants and customer service lines. A quickstart template and a separate examples repository provide working agents.",
+  "howItWorks": "Audio and video frames flow through a pipeline of processors for speech recognition, language model reasoning and speech synthesis. Transports carry media over WebRTC, WebSocket or telephony, and many vendor services are swappable. A companion flows library adds structured conversation state.",
+  "requirements": [
+    {
+      "name": "Python and uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "The CLI is installed as a uv tool"
+    },
+    {
+      "name": "Speech and LLM service keys",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the STT, LLM and TTS services chosen in the pipeline"
+    }
+  ],
+  "install": ["uv tool install \"pipecat-ai[cli]\""],
+  "run": ["pipecat init quickstart"],
+  "interfaces": ["library", "cli"],
+  "language": "Python",
+  "framework": "Pipecat",
+  "models": "Many STT, LLM and TTS providers, including speech-to-speech models",
+  "mcp": "client",
+  "github": {
+    "stars": 16152,
+    "license": "BSD-2-Clause",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

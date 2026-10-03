@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Trellistate",
+  "description": "Free public real estate listing exchange. Search, retrieve, and submit inquiries on listings.",
+  "packageName": "@alphesdk-remote/com-trellistate-listings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trellistate.com/api/mcp"
+    }
+  ],
+  "url": "https://trellistate.com"
+}

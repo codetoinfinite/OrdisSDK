@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "facesign-mcp",
+  "description": "Build and test FaceSign step-up verification flows from your AI coding tool",
+  "packageName": "@alphesdk-remote/ai-facesign-facesign-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.facesign.ai/mcp"
+    }
+  ],
+  "url": "https://docs.facesign.ai/docs/mcp"
+}

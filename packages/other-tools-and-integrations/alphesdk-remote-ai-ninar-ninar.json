@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ninar AI",
+  "description": "Audit your brand's visibility across ChatGPT, Gemini, Claude, Perplexity + 6 more engines.",
+  "packageName": "@alphesdk-remote/ai-ninar-ninar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ninar.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Ninar-ctrl/Ninar.AI",
+  "readme": "https://github.com/Ninar-ctrl/Ninar.AI#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sophon Consulting",
+  "description": "Read-only, deterministic AI triage and readiness tools implementing Sophon's published rubrics.",
+  "packageName": "@alphesdk-remote/consulting-sophon-sophon-consulting",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sophon.consulting/api/mcp"
+    }
+  ],
+  "url": "https://www.sophon.consulting/for-agents"
+}

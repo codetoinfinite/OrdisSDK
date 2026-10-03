@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "fixou",
+  "description": "Create and track quote requests to local French tradespeople (80 trades) on fixou.fr.",
+  "packageName": "@alphesdk-remote/fr-fixou-fixou",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fixou.fr/mcp"
+    }
+  ],
+  "url": "https://fixou.fr/developpeurs"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "minisearch",
+  "name": "MiniSearch",
+  "description": "Self-hosted search engine with an AI assistant that can run entirely inside the browser tab.",
+  "category": "search-data-extraction",
+  "tags": ["ai-search", "in-browser-llm", "searxng", "privacy", "self-hosted"],
+  "repo": "https://github.com/felladrin/MiniSearch",
+  "homepage": "https://felladrin-minisearch.hf.space",
+  "publisher": "Victor Nogueira (felladrin)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gives private web search with AI-written answers, without accounts, tracking or required API keys. It suits individuals who want a lightweight personal answer engine.",
+  "howItWorks": "A single Docker container bundles a SearXNG metasearch instance and the web app. Results are re-ranked locally and the language model can run in the browser on GPU or CPU, so no inference server is needed.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the container"
+    }
+  ],
+  "install": [],
+  "run": ["docker run -p 7860:7860 ghcr.io/felladrin/minisearch"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "In-browser models by default; external inference optional",
+  "mcp": "none",
+  "github": {
+    "stars": 600,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

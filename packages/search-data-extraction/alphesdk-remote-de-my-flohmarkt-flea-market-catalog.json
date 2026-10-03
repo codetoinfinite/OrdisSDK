@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "myFlohmarkt Flea Market Catalog",
+  "description": "Search German flea markets (Flohmarkt, Trödelmarkt) by city, PLZ, date range or radius.",
+  "packageName": "@alphesdk-remote/de-my-flohmarkt-flea-market-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.my-flohmarkt.de/mcp"
+    }
+  ],
+  "url": "https://my-flohmarkt.de"
+}

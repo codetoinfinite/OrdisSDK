@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Prime Cuts Nursery",
+  "description": "Live cannabis clone inventory, seasonal pricing, CA delivery quotes, cultivar genetics. Read-only.",
+  "packageName": "@alphesdk-remote/com-primecutsnursery-public-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.primecutsnursery.com/api/mcp"
+    }
+  ],
+  "url": "https://www.primecutsnursery.com/connect"
+}

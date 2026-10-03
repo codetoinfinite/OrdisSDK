@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Employee Operations — Access Request Review — Larkspur Partners (81479355)",
+  "description": "12 synthetic access request exception cases: duplicate payments, policy hold list entries, missing p",
+  "packageName": "@alphesdk-remote/com-a2awire-benchmark-access-request-review-2026-09-10-81479355",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2awire.com/mcp/benchmarks/access-request-review-2026-09-10-81479355/http"
+    }
+  ],
+  "url": "https://github.com/ee324/a2awire",
+  "readme": "https://github.com/ee324/a2awire#readme"
+}

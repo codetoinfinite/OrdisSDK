@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PaKi Curator",
+  "description": "Catalogue agent for César Yagüe's silent moving-image works, each measured frame by frame.",
+  "packageName": "@alphesdk-remote/es-cesaryague-paki-curator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://paki-api.elfresonero.workers.dev/mcp"
+    }
+  ],
+  "url": "https://cesaryague.es"
+}

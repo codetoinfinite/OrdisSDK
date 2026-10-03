@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OpenChainBench",
+  "description": "Live, neutral benchmarks for public RPC latency, oracles, bridges, perp DEX, and prediction markets.",
+  "packageName": "@alphesdk-remote/io-github-flotapponnier-openchainbench",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openchainbench.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://github.com/ChainBench/OpenChainBench",
+  "readme": "https://github.com/ChainBench/OpenChainBench#readme"
+}

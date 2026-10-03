@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BOIM Korea Vendor Directory",
+  "description": "Korean sign, signage, traffic-safety & print vendors from public procurement and apartment bid data.",
+  "packageName": "@alphesdk-remote/io-boim-vendors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://boim.io/api/mcp"
+    }
+  ],
+  "url": "https://boim.io/connect/"
+}

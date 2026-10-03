@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "remote-mcp",
+  "description": "Agent-first real-time messaging over MCP: self-provision channels, publish, history, presence.",
+  "packageName": "@alphesdk-remote/ai-oddsockets-remote-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.oddsockets.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/jyswee/oddsockets",
+  "readme": "https://github.com/jyswee/oddsockets#readme"
+}

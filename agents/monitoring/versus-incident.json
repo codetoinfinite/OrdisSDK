@@ -1,0 +1,56 @@
+{
+  "type": "external-agent",
+  "key": "versus-incident",
+  "name": "Versus Incident",
+  "description": "Incident gateway with an AI SRE agent that learns normal log patterns, flags anomalies, and routes alerts to chat and on-call tools.",
+  "category": "monitoring",
+  "tags": ["incident-management", "alerting", "on-call", "log-analysis", "sre"],
+  "repo": "https://github.com/VersusControl/versus-incident",
+  "homepage": "https://versusincident.com",
+  "docs": "https://docs.versusincident.com",
+  "publisher": "VersusControl",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Accepts alerts over webhooks and forwards formatted notifications to Slack, Teams, Telegram, Viber, email or Lark, with escalation to on-call systems. Its agent watches logs to learn what is normal and raise incidents when behaviour deviates.",
+  "howItWorks": "A Go service exposes a gateway endpoint and templated notification channels, backed by Redis. The agent runs in training, shadow or detect mode so teams can build a baseline before letting it alert. On-call hand-off goes to PagerDuty, Opsgenie, incident.io or ServiceNow.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs from a published container image"
+    },
+    {
+      "name": "Redis",
+      "kind": "service",
+      "required": true,
+      "description": "Backing store for the agent"
+    },
+    {
+      "name": "GATEWAY_SECRET",
+      "kind": "api-key",
+      "required": true,
+      "description": "Shared secret protecting the gateway"
+    },
+    {
+      "name": "SLACK_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Bot token when Slack notifications are enabled, together with SLACK_CHANNEL_ID"
+    }
+  ],
+  "install": ["docker run -d --name versus-redis -p 6379:6379 redis:7"],
+  "run": [
+    "docker run -p 3000:3000 -e GATEWAY_SECRET=change-me -e AGENT_ENABLE=true -e AGENT_MODE=training -e REDIS_HOST=host.docker.internal -e REDIS_PORT=6379 -v $(pwd)/config:/app/config -v $(pwd)/data:/app/data ghcr.io/versuscontrol/versus-incident"
+  ],
+  "interfaces": ["api", "chat"],
+  "language": "Go",
+  "models": "Not stated in the README; see project docs",
+  "mcp": "none",
+  "github": {
+    "stars": 782,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

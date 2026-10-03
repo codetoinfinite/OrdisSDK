@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HitPrace",
+  "description": "Read-only Czech job search and market snapshots.",
+  "packageName": "@alphesdk-remote/cz-hitprace-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hitprace.cz/api/v1/mcp"
+    }
+  ],
+  "url": "https://www.hitprace.cz/llms.txt"
+}

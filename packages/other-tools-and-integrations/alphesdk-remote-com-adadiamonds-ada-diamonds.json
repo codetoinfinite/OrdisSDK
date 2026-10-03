@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ada Diamonds",
+  "description": "Live lab grown diamond inventory, engagement ring settings, fine jewelry, and diamond buying guides.",
+  "packageName": "@alphesdk-remote/com-adadiamonds-ada-diamonds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.adadiamonds.com/mcp"
+    }
+  ],
+  "url": "https://www.adadiamonds.com/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Agents Make Money Here",
+  "description": "Earn 1 USDC on the internet: pay 10 USDC on Base, get 1 USDC back plus a signed receipt of earnings.",
+  "packageName": "@alphesdk-remote/com-ai-agents-make-money-here-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-agents-make-money-here.com/mcp"
+    }
+  ],
+  "url": "https://ai-agents-make-money-here.com"
+}

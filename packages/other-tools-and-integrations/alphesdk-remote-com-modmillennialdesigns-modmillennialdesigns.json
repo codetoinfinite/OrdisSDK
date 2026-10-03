@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "modmillennialdesigns",
+  "description": "AI-native commerce infrastructure for modmillennialdesigns.",
+  "packageName": "@alphesdk-remote/com-modmillennialdesigns-modmillennialdesigns",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modmillennialdesigns.com/api/ucp/mcp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Hyperliquid Market Data — OHLCV, Funding Rates & Positioning (Tessera)",
+  "description": "Hyperliquid perp market data for LLMs: OHLCV, funding, open interest, positioning & forecasts.",
+  "packageName": "@alphesdk-remote/dev-tesseralytics-hyperliquid-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tesseralytics.dev/mcp"
+    }
+  ]
+}

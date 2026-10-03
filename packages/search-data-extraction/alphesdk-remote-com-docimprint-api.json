@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "api",
+  "description": "AI document intelligence: extract, summarize, claim-check, notarize, and signed action receipts.",
+  "packageName": "@alphesdk-remote/com-docimprint-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.docimprint.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sawftware-apps/darkroom-gw",
+  "readme": "https://github.com/sawftware-apps/darkroom-gw#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Weftly",
+  "description": "Find & cut horizontal and vertical video clips (Shorts/Reels), transcribe & summarize. Pay per job.",
+  "packageName": "@alphesdk-remote/ai-weftly-weftly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.weftly.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/woven-record-media/weftly-monorepo",
+  "readme": "https://github.com/woven-record-media/weftly-monorepo#readme"
+}

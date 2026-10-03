@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "doc-convert-mcp",
+  "description": "Document conversion MCP server: PDF to Markdown, image OCR, spreadsheet parsing.",
+  "packageName": "@alphesdk-remote/io-github-anon2052-doc-convert-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://doc-convert-mcp.onrender.com/mcp/"
+    }
+  ]
+}

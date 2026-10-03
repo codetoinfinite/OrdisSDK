@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sunshine Atlas",
+  "description": "Where is it sunny? Monthly sunshine scores, temps, rain, UV and sea temp for 3,833 destinations.",
+  "packageName": "@alphesdk-remote/com-sunshineatlas-sunshine-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sunshineatlas.com/api/mcp"
+    }
+  ],
+  "url": "https://sunshineatlas.com/mcp/"
+}

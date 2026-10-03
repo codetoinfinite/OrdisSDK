@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Revenue Network",
+  "description": "Paid deterministic data-quality and execution-verification tools for AI agents.",
+  "packageName": "@alphesdk-remote/dev-workers-nadirventurelabs-agent-revenue-network-agent-revenue-network",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-revenue-network.nadirventurelabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://agent-revenue-network.nadirventurelabs.workers.dev"
+}

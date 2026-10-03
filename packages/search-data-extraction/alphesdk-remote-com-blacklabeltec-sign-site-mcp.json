@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BL Sign Website MCP",
+  "description": "Search and read public BL Sign pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blacklabeltec-sign-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sign.blacklabeltec.com/mcp"
+    }
+  ],
+  "url": "https://sign.blacklabeltec.com/connect"
+}

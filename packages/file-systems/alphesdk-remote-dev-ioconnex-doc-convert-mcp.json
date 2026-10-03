@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "doc-convert-mcp",
+  "description": "Document conversion and OCR for AI agents: PDF, Office docs, images to text.",
+  "packageName": "@alphesdk-remote/dev-ioconnex-doc-convert-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://convert.ioconnex.dev/mcp"
+    }
+  ],
+  "url": "https://ioconnex.dev"
+}

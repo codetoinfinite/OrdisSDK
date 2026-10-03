@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pīpīwai Trail status",
+  "description": "Live Pīpīwai Trail park and road status, compiled from NPS and Hawaii DOT.",
+  "packageName": "@alphesdk-remote/com-pipiwaitrailmaui-trail-status",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pipiwaitrailmaui.com/api/mcp"
+    }
+  ],
+  "url": "https://pipiwaitrailmaui.com/mcp"
+}

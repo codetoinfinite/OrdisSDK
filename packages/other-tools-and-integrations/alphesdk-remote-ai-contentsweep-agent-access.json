@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Content Sweep",
+  "description": "Prepaid copyright investigation and authorized enforcement, with a free agent sandbox.",
+  "packageName": "@alphesdk-remote/ai-contentsweep-agent-access",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contentsweep.ai/api/mcp"
+    }
+  ],
+  "url": "https://contentsweep.ai/developers/agents"
+}

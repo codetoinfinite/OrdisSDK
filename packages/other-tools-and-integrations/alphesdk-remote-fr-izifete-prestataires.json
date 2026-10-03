@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Izifete — prestataires événementiels en France",
+  "description": "Prestataires événementiels vérifiés en France, par métier et ville — Izifete.",
+  "packageName": "@alphesdk-remote/fr-izifete-prestataires",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://izifete.fr/mcp/mcp"
+    }
+  ],
+  "url": "https://izifete.fr"
+}

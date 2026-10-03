@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Thread Otter",
+  "description": "Free buyer-thread finder, Reddit demand board + full GTM agent tools; try with no key.",
+  "packageName": "@alphesdk-remote/com-threadotter-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.threadotter.com/api/mcp"
+    }
+  ],
+  "url": "https://www.threadotter.com/connect"
+}

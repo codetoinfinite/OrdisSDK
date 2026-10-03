@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TailThemes",
+  "description": "Search Tailwind CSS and React themes, read their tokens and source files, and get download URLs.",
+  "packageName": "@alphesdk-remote/com-tailthemes-tailthemes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tailthemes.com/api/mcp"
+    }
+  ],
+  "url": "https://tailthemes.com/for-agents?utm_source=mcp-registry&utm_medium=registry&utm_campaign=wave1-2026-09"
+}

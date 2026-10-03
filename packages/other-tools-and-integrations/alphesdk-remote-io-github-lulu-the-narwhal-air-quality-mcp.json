@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Air Quality MCP",
+  "description": "Free, keyless real-time air quality (US AQI plus PM2.5, PM10, ozone, NO2, SO2, CO) for any city.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-air-quality-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/air-quality/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

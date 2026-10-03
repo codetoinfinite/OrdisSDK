@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WhichTrim vehicle records",
+  "description": "US vehicle recalls, complaints, EPA figures, VIN decode and trouble codes, with sources.",
+  "packageName": "@alphesdk-remote/com-whichtrim-vehicle-records",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whichtrim.com/portal/mcp"
+    }
+  ],
+  "url": "https://whichtrim.com/developers/"
+}

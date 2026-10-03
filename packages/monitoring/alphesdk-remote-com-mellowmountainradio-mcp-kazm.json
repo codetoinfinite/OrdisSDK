@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KAZM Mellow Mountain Radio",
+  "description": "KAZM 106.5 FM/780 AM: now playing, weather, fire alerts, road conditions & concerts (Sedona, AZ).",
+  "packageName": "@alphesdk-remote/com-mellowmountainradio-mcp-kazm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mellowmountainradio.com/mcp"
+    }
+  ],
+  "url": "https://github.com/chelstein/mellowmountainradio",
+  "readme": "https://github.com/chelstein/mellowmountainradio#readme"
+}

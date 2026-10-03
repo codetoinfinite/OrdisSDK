@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "memra",
+  "description": "Persistent memory for AI agents. EU-hosted, privacy-first, hybrid recall, contradiction detection.",
+  "packageName": "@alphesdk-remote/com-usememra-memra",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usememra.com/mcp"
+    }
+  ],
+  "url": "https://github.com/usememra/mcp",
+  "readme": "https://github.com/usememra/mcp#readme"
+}

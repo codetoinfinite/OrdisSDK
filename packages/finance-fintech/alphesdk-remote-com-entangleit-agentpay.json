@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "agentpay — card-funded wallets for AI agents",
+  "description": "Prepaid USD wallets for AI agents: card top-ups, scoped keys, BSV x402 payments over MCP.",
+  "packageName": "@alphesdk-remote/com-entangleit-agentpay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entangleit.com/api/agentpay/mcp"
+    }
+  ]
+}

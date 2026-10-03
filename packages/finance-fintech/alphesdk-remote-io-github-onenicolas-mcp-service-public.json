@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Service Public France",
+  "description": "French public services: tax, property, admin, education, healthcare, security, risks, legal texts",
+  "packageName": "@alphesdk-remote/io-github-onenicolas-mcp-service-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-service-public.nhaultcoeur.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/OneNicolas/mcp-service-public",
+  "readme": "https://github.com/OneNicolas/mcp-service-public#readme"
+}

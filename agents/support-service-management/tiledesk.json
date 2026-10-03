@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "tiledesk",
+  "name": "Tiledesk",
+  "description": "Open live-chat and customer-support platform with LLM-powered chatbots, a visual flow designer and handoff to human agents.",
+  "category": "support-service-management",
+  "tags": ["live-chat", "chatbot", "customer-support", "helpdesk", "omnichannel"],
+  "repo": "https://github.com/Tiledesk/tiledesk",
+  "homepage": "https://tiledesk.com",
+  "publisher": "Tiledesk",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets support teams put a chat widget and messaging channels in front of customers, answer with AI bots grounded in their knowledge base and escalate to people. Conversations are managed in a shared agent dashboard.",
+  "howItWorks": "The community edition is a set of services for the API, dashboard, widget, bot engine and messaging, deployed together with Docker Compose or Helm. Bots are designed as flows that can call language models and a knowledge base. This repository holds the deployment files and links to the component repos.",
+  "requirements": [
+    {
+      "name": "Docker and Docker Compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to start the community stack"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed for AI bot features"
+    }
+  ],
+  "install": [
+    "curl https://raw.githubusercontent.com/Tiledesk/tiledesk-deployment/master/docker-compose/docker-compose.yml --output docker-compose.yml"
+  ],
+  "run": ["docker-compose up"],
+  "interfaces": ["web", "api", "chat"],
+  "language": "JavaScript",
+  "models": "OpenAI and other configurable providers",
+  "mcp": "none",
+  "github": {
+    "stars": 322,
+    "license": "MIT",
+    "pushedAt": "2026-09-14",
+    "checkedAt": "2026-10-03"
+  }
+}

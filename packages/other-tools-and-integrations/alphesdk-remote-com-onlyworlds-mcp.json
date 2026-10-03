@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OnlyWorlds",
+  "description": "Read and write typed fictional worlds (22 linked element types) via the OnlyWorlds open standard.",
+  "packageName": "@alphesdk-remote/com-onlyworlds-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.onlyworlds.com/mcp"
+    }
+  ],
+  "url": "https://www.onlyworlds.com"
+}

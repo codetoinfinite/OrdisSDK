@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BEA Economic Accounts",
+  "description": "County GDP, personal income, and employment from the Bureau of Economic Analysis",
+  "packageName": "@alphesdk-remote/com-olyport-bea",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/bea/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

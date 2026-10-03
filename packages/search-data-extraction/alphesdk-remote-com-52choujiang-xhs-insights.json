@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX 小红书 Xiaohongshu XHS RedNote MCP",
+  "description": "XHS search/details, PGY, comments/replies, users/ID resolution/posts, transcript",
+  "packageName": "@alphesdk-remote/com-52choujiang-xhs-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/xhs/mcp"
+    }
+  ]
+}

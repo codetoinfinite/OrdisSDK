@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SparkAds",
+  "description": "Manage your SparkAds slot: your stats, the free-hour grid, network totals, and your own creative.",
+  "packageName": "@alphesdk-remote/dev-sparkads-sparkads",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sparkads.dev/api/mcp/mcp"
+    }
+  ],
+  "url": "https://sparkads.dev"
+}

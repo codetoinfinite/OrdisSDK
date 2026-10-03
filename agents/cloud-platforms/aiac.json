@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "aiac",
+  "name": "aiac",
+  "description": "CLI and Go library that generates infrastructure-as-code, configuration files and ops scripts from a plain-language request.",
+  "category": "cloud-platforms",
+  "tags": ["iac", "terraform", "code-generation", "cli", "devops"],
+  "repo": "https://github.com/gofireflyio/aiac",
+  "publisher": "Firefly",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Produces Terraform, Kubernetes manifests, Dockerfiles, CI pipelines, policy code and shell snippets on request. DevOps engineers use it to draft templates and then refine them in a follow-up chat.",
+  "howItWorks": "The request is sent to a backend defined in a TOML configuration file, which can name several backends and models. The reply is shown in the terminal, where the user can keep chatting, save the code to a file or copy it. The same logic is importable as a Go package.",
+  "requirements": [
+    {
+      "name": "Backend configuration",
+      "kind": "api-key",
+      "required": true,
+      "description": "Backends and their credentials are declared in ~/.config/aiac/aiac.toml"
+    }
+  ],
+  "install": ["brew tap gofireflyio/aiac https://github.com/gofireflyio/aiac", "brew install aiac"],
+  "run": ["aiac terraform for a highly available eks"],
+  "interfaces": ["cli", "library"],
+  "language": "Go",
+  "models": "OpenAI, Amazon Bedrock, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 3788,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-24",
+    "checkedAt": "2026-10-03"
+  }
+}

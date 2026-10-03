@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Beaubi 行動美研",
+  "description": "台灣到府美容服務（美甲、美睫、紋繡、採耳、肌膚管理、推拿；台北、新北、宜蘭、台中）：查服務項目與起跳價、單一服務細節、會員制度、怎麼預約（預約在 Beaubi App 完成）。",
+  "packageName": "@alphesdk-remote/com-beaubitw-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://beaubitw.com/api/mcp"
+    }
+  ],
+  "url": "https://beaubitw.com"
+}

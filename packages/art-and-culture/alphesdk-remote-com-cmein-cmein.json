@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CMeIn",
+  "description": "Turns ordinary phone photos of you into photos of you having a life. Advice, credits, 4,500 scenes.",
+  "packageName": "@alphesdk-remote/com-cmein-cmein",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cmein.com/mcp"
+    }
+  ]
+}

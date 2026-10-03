@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SatelliteQuotes",
+  "description": "Measure property from satellite imagery, price 24 trades, and install contractor quote widgets.",
+  "packageName": "@alphesdk-remote/com-satellitequotes-satellitequotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.satellitequotes.com/api/mcp"
+    }
+  ],
+  "url": "https://www.satellitequotes.com/mcp"
+}

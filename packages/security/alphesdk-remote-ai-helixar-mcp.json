@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Helixar Security",
+  "description": "Security tools for AI agents: scan MCP servers, validate HDP delegation chains, audit releases.",
+  "packageName": "@alphesdk-remote/ai-helixar-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.helixar.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Helixar-AI/helixar-mcp",
+  "readme": "https://github.com/Helixar-AI/helixar-mcp#readme"
+}

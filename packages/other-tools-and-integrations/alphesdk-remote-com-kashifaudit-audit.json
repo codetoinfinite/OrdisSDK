@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kashif",
+  "description": "Scores a website's online presence 0-100 and lists the top issues to fix. English/Arabic.",
+  "packageName": "@alphesdk-remote/com-kashifaudit-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kashifaudit.com/mcp"
+    }
+  ],
+  "url": "https://kashifaudit.com"
+}

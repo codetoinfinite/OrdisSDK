@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Open Transport Hub - transport and logistics marketplace directory for AI agents.",
+  "packageName": "@alphesdk-remote/com-opentransporthub-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.opentransporthub.com/mcp"
+    }
+  ],
+  "url": "https://opentransporthub.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "guest",
+  "description": "Guest API for meni.ge restaurants: browse menus, place orders, reserve tables. No auth needed.",
+  "packageName": "@alphesdk-remote/ge-meni-guest",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meni.ge/llm/mcp"
+    }
+  ],
+  "url": "https://meni.ge/docs/llm-api"
+}

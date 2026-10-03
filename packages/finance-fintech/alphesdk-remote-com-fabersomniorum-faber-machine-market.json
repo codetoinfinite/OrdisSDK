@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Faber Machine Market",
+  "description": "Paid machine-to-machine information tools with x402 USDC payment on Base Mainnet.",
+  "packageName": "@alphesdk-remote/com-fabersomniorum-faber-machine-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fabersomniorum.com/mcp"
+    }
+  ],
+  "url": "https://fabersomniorum.com"
+}

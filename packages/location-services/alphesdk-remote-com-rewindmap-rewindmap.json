@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RewindMap",
+  "description": "Historical borders and dated map events with source attribution and coverage limits.",
+  "packageName": "@alphesdk-remote/com-rewindmap-rewindmap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rewindmap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lisn0/rewindmap",
+  "readme": "https://github.com/lisn0/rewindmap#readme"
+}

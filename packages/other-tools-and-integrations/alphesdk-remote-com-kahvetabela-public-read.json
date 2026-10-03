@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kahve Tabela — Türkiye heritage, food & coast",
+  "description": "Read-only MCP tools for Turkey's heritage places, regional-food atlas, and Mavi Koy coastal atlas.",
+  "packageName": "@alphesdk-remote/com-kahvetabela-public-read",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kahvetabela.com/api/mcp"
+    }
+  ],
+  "url": "https://kahvetabela.com/llms.txt"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "openadapt",
+  "name": "OpenAdapt",
+  "description": "Turns a recorded demonstration of a GUI task into a replayable automation that verifies its own effects.",
+  "category": "browser-automation",
+  "tags": ["rpa", "demonstration", "gui-automation", "replay"],
+  "repo": "https://github.com/OpenAdaptAI/OpenAdapt",
+  "homepage": "https://openadapt.ai",
+  "docs": "https://docs.openadapt.ai",
+  "publisher": "OpenAdapt.AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets a person show a workflow once and then have it repeated automatically, targeting repetitive back-office work. The compiled automation checks that each step had the intended outcome instead of blindly replaying clicks.",
+  "howItWorks": "A recorder captures the demonstration, a compiler converts it into a program, and a runtime replays that program without needing a model in the loop for each step. A doctor command checks the chosen backend, a tutorial flow walks through the pipeline, and an agent server can expose runs to other tools.",
+  "requirements": [
+    {
+      "name": "Python 3.10-3.12",
+      "kind": "runtime",
+      "required": true,
+      "description": "Supported interpreter versions"
+    }
+  ],
+  "install": ["python -m pip install --upgrade openadapt"],
+  "run": ["openadapt doctor --backend web", "openadapt flow tutorial"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "Not needed for the tutorial; model use is optional",
+  "mcp": "none",
+  "github": {
+    "stars": 1758,
+    "license": "MIT",
+    "pushedAt": "2026-09-26",
+    "checkedAt": "2026-10-03"
+  }
+}

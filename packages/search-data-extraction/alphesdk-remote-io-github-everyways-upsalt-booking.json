@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Upsalt Booking",
+  "description": "Search Upsalt venues, check availability, and book, view, or cancel a reservation.",
+  "packageName": "@alphesdk-remote/io-github-everyways-upsalt-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.upsalt.io/mcp/booking"
+    }
+  ]
+}

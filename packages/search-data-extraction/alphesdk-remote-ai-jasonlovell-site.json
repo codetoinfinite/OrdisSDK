@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jason Lovell",
+  "description": "Read-only tools for Jason Lovell's AI research: studies, builds, releases, search and contact.",
+  "packageName": "@alphesdk-remote/ai-jasonlovell-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jasonlovell.ai/mcp"
+    }
+  ],
+  "url": "https://jasonlovell.ai/agents"
+}

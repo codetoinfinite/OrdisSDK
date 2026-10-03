@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Fail-closed backtest/signal validation: overfitting, leakage, deflated Sharpe. NOT financial advice.",
+  "packageName": "@alphesdk-remote/com-alphaassay-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.alphaassay.com/mcp"
+    }
+  ],
+  "url": "https://alphaassay.com"
+}

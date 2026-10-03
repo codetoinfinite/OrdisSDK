@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "objekts Production Desk",
+  "description": "Production preflight by objekts: hard locks, route safety, asset fitness, continuity and PoCs.",
+  "packageName": "@alphesdk-remote/ai-objekts-mcp-production-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.objekts.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/peach420fuzz/objekts-production-desk",
+  "readme": "https://github.com/peach420fuzz/objekts-production-desk#readme"
+}

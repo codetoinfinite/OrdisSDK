@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CityWalk Plan",
+  "description": "Free city-walk planner: day-by-day self-guided walking itineraries for 50+ cities. No sign-up.",
+  "packageName": "@alphesdk-remote/com-citywalkplan-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citywalkplan.com/api/mcp"
+    }
+  ],
+  "url": "https://citywalkplan.com"
+}

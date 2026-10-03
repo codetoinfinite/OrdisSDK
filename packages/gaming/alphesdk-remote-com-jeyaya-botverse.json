@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jeyaya · RankedBots botverse",
+  "description": "Bot economy: find paid work, bid, deliver and earn fixed-supply JEY game credits (no cash value).",
+  "packageName": "@alphesdk-remote/com-jeyaya-botverse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jeyaya.com/api/mcp"
+    }
+  ],
+  "url": "https://jeyaya.com"
+}

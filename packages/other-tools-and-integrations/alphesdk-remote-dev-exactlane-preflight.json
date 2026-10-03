@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Exactlane Preflight",
+  "description": "Caller-specific static MCP capability fit evidence. No live probing; caller owns the decision.",
+  "packageName": "@alphesdk-remote/dev-exactlane-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://exactlane.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/cid2230/exactlane-preflight-public",
+  "readme": "https://github.com/cid2230/exactlane-preflight-public#readme"
+}

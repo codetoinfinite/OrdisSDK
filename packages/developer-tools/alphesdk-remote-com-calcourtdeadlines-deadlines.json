@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "California Court Deadlines",
+  "description": "Computes California state court deadlines and cites the code section behind every date. No API key.",
+  "packageName": "@alphesdk-remote/com-calcourtdeadlines-deadlines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calcourtdeadlines.com/api/mcp"
+    }
+  ],
+  "url": "https://calcourtdeadlines.com"
+}

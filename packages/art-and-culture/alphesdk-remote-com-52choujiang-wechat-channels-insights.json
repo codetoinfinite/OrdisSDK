@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX 微信 WeChat MCP",
+  "description": "WeChat video and image posts, comments, users, transcripts, Official Account articles and stats.",
+  "packageName": "@alphesdk-remote/com-52choujiang-wechat-channels-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/wechat/mcp"
+    }
+  ]
+}

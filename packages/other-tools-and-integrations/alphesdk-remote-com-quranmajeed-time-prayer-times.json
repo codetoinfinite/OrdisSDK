@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "prayer-times",
+  "description": "Islamic prayer times for any city, today or the whole month, from official timetables or calculated.",
+  "packageName": "@alphesdk-remote/com-quranmajeed-time-prayer-times",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://time.quranmajeed.com/mcp"
+    }
+  ],
+  "url": "https://time.quranmajeed.com/mcp"
+}

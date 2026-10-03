@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Offers MCP",
+  "description": "Deep purchase intelligence for agents and apps: live prices, landed cost, trust scores. Free.",
+  "packageName": "@alphesdk-remote/com-dexter-works-offers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://offers-engine.dexter-works.com/mcp"
+    }
+  ],
+  "url": "https://github.com/dexterworks/offers-mcp",
+  "readme": "https://github.com/dexterworks/offers-mcp#readme"
+}

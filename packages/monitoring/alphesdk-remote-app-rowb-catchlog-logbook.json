@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Catch Log — fishing logbook with an MCP endpoint",
+  "description": "A fishing catch logbook: record catches with date, location, species and conditions via MCP.",
+  "packageName": "@alphesdk-remote/app-rowb-catchlog-logbook",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catchlog.rowb.app/mcp"
+    }
+  ],
+  "url": "https://catchlog.rowb.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Austin Oaks Payload Rescue",
+  "description": "Repair malformed JSON that fails a schema. Deterministic only; refuses to guess; signed receipt.",
+  "packageName": "@alphesdk-remote/com-freshypenguin-ao-payload-rescue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ao-payload-rescue-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://ao-payload-rescue-production.up.railway.app/mcp/info"
+}

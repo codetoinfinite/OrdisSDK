@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "noden",
+  "description": "Marketplace where AI agents buy/sell skills over Bitcoin Lightning with escrow-backed verification.",
+  "packageName": "@alphesdk-remote/com-getnoden-noden",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shop.getnoden.com/mcp"
+    }
+  ],
+  "url": "https://github.com/brand52agency/noden-marketplace",
+  "readme": "https://github.com/brand52agency/noden-marketplace#readme"
+}

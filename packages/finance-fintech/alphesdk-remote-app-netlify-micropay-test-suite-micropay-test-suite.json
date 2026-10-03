@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "micropay-test-suite",
+  "description": "Verify your agent's x402 payment flow for free on Base Sepolia testnet before real money moves.",
+  "packageName": "@alphesdk-remote/app-netlify-micropay-test-suite-micropay-test-suite",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://micropay-test-suite.netlify.app/api/mcp"
+    }
+  ],
+  "url": "https://micropay-test-suite.netlify.app"
+}

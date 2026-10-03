@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "chess-eval",
+  "description": "Stockfish chess eval: best move, score, principal variation, multipv. $0.005/call via x402.",
+  "packageName": "@alphesdk-remote/com-x402supply-chess-eval",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chess-eval.x402supply.com/mcp"
+    }
+  ],
+  "url": "https://x402supply.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "a2bflight fares",
+  "description": "Cached flight fares on thousands of routes, each with the day it was seen. Not live prices. No key.",
+  "packageName": "@alphesdk-remote/com-a2bflight-fares",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.a2bflight.com/mcp"
+    }
+  ],
+  "url": "https://a2bflight.com/ai"
+}

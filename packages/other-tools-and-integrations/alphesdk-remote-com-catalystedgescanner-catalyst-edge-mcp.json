@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "catalyst-edge-mcp",
+  "description": "Audited SEC catalyst signals for agents — ranked filing intel with a public track record.",
+  "packageName": "@alphesdk-remote/com-catalystedgescanner-catalyst-edge-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catalystedgescanner.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/catalystedgepro-wq/catalyst-edge-mcp",
+  "readme": "https://github.com/catalystedgepro-wq/catalyst-edge-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "client-compass",
+  "description": "Behavioral intelligence for client-facing professionals. Know who you're walking into.",
+  "packageName": "@alphesdk-remote/com-numbru-client-compass",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://numbru-mcp-server.numbru.workers.dev"
+    }
+  ],
+  "url": "https://github.com/marcus160365/numbru-mcp-server",
+  "readme": "https://github.com/marcus160365/numbru-mcp-server#readme"
+}

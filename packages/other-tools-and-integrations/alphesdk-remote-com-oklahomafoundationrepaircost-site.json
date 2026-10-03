@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Oklahoma Foundation Repair Cost: the site's own MCP server — enquiry (enquiry = a human handoff,...",
+  "packageName": "@alphesdk-remote/com-oklahomafoundationrepaircost-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oklahomafoundationrepaircost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Word Is Bond",
+  "description": "Test the voice agents you run: scored transcripts, pass/fail verdicts, latency and WER metrics.",
+  "packageName": "@alphesdk-remote/io-github-latimer-woods-tech-wordis-bond",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.wordis-bond.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Latimer-Woods-Tech/wordis-bond",
+  "readme": "https://github.com/Latimer-Woods-Tech/wordis-bond#readme"
+}

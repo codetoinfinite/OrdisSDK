@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "massprint",
+  "description": "Print-on-demand for agents: upload a PDF, get a printed book delivered in India.",
+  "packageName": "@alphesdk-remote/com-themassprint-massprint",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://themassprint.com/mcp"
+    }
+  ],
+  "url": "https://github.com/msomu/massprint",
+  "readme": "https://github.com/msomu/massprint#readme"
+}

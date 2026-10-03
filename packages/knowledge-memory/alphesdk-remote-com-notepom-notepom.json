@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NotePom",
+  "description": "Persistent workspace and visual memory for humans and autonomous agents.",
+  "packageName": "@alphesdk-remote/com-notepom-notepom",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.notepom.com/mcp"
+    }
+  ],
+  "url": "https://notepom.com/mcp"
+}

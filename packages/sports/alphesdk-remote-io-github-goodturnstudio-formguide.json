@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Form Guide",
+  "description": "Football form, fixtures, results and tables for six top European leagues.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-formguide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/formguide/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

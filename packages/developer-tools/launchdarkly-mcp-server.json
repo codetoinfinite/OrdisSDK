@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "LaunchDarkly",
+  "description": "Manage LaunchDarkly feature flags, targeting and environments.",
+  "packageName": "@launchdarkly/mcp-server",
+  "packageVersion": "0.6.2",
+  "runtime": "node",
+  "readme": "https://launchdarkly.com/docs/home/getting-started/mcp",
+  "url": "https://github.com/launchdarkly/mcp-server",
+  "author": "LaunchDarkly",
+  "env": {
+    "LD_ACCESS_TOKEN": {
+      "description": "LaunchDarkly API access token (passed via --api-key)",
+      "required": true
+    }
+  }
+}

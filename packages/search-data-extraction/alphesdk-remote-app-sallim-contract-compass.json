@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "contract-compass",
+  "description": "Korean public procurement law: rule-engine rulings, statutes search, live court precedents",
+  "packageName": "@alphesdk-remote/app-sallim-contract-compass",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contract.sallim.app/mcp?via=official"
+    }
+  ],
+  "url": "https://github.com/sallim-app/contract-compass",
+  "readme": "https://github.com/sallim-app/contract-compass#readme"
+}

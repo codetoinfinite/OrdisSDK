@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Source Library",
+  "description": "Search 15K rare pre-modern texts translated to English: philosophy, religion, science, literature.",
+  "packageName": "@alphesdk-remote/io-github-embassy-of-the-free-mind-sourcelibrary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sourcelibrary.org/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+  "readme": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2#readme"
+}

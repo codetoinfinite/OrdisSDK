@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fidenta Verify",
+  "description": "Independent fact-checking for AI answers: a verdict and sources for every claim.",
+  "packageName": "@alphesdk-remote/ai-noevant-fidenta-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verify.noevant.ai/mcp"
+    }
+  ],
+  "url": "https://verify.noevant.ai"
+}

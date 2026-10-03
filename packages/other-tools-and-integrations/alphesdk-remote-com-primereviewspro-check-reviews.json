@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "PrimeReviewsPro Fake Review Checker",
+  "description": "Detect fake or manipulated product reviews from Amazon, Trustpilot, Google and Etsy.",
+  "packageName": "@alphesdk-remote/com-primereviewspro-check-reviews",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://primereviewspro.com/mcp"
+    }
+  ]
+}

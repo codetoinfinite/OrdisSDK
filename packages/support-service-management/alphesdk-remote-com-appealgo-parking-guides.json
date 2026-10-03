@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AppealGo UK parking guides",
+  "description": "Free, no key: UK parking ticket appeal guides, PCN contravention codes and deadline calculator.",
+  "packageName": "@alphesdk-remote/com-appealgo-parking-guides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://appealgo.com/api/public/mcp"
+    }
+  ],
+  "url": "https://appealgo.com/guides"
+}

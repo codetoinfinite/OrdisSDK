@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ontario Protocol",
+  "description": "Check x402 endpoints before spending: free readiness and policy checks, paid trust evidence.",
+  "packageName": "@alphesdk-remote/com-ontarioprotocol-ontario-protocol",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ontarioprotocol.com/mcp"
+    }
+  ],
+  "url": "https://github.com/TheTechDevPro/ontario-protocol",
+  "readme": "https://github.com/TheTechDevPro/ontario-protocol#readme"
+}

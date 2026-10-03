@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "EchoRelay",
+  "description": "A managed runtime for custom API integrations. Manage lines, endpoints, keys, logs and DLQ via MCP.",
+  "packageName": "@alphesdk-remote/dev-echorelay-management",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.echorelay.dev"
+    }
+  ]
+}

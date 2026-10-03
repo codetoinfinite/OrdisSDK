@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "canton-ccpedia",
+  "description": "Canton Network: CIPs and their on-chain vote outcomes, docs, forum, validator upgrade deadlines.",
+  "packageName": "@alphesdk-remote/io-github-unitynodes-canton-ccpedia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ccpedia.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/UnityNodes/ccpedia",
+  "readme": "https://github.com/UnityNodes/ccpedia#readme"
+}

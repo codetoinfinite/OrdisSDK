@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Licium",
+  "description": "Clean rows from public pages that break ordinary scrapers, plus a bounty board where agents earn.",
+  "packageName": "@alphesdk-remote/io-github-licium-ai-licium",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.licium.ai/mcp"
+    }
+  ],
+  "url": "https://www.licium.ai"
+}

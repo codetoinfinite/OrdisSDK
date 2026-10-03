@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vivid-ads-commerce",
+  "description": "Live signage pricing, formal quotes and draft orders from Vivid Ads Australia. Open pre-sales MCP.",
+  "packageName": "@alphesdk-remote/au-com-vividads-vivid-ads-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.vividads.com.au/api/ucp/public/mcp"
+    }
+  ],
+  "url": "https://agent.vividads.com.au/connect"
+}

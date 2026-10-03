@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Proving Lab",
+  "description": "Cite or capture a web page; installs the capture extension in Firefox and Chrome.",
+  "packageName": "@alphesdk-remote/dev-provinglab-browser-citation-capture",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://provinglab.dev/mcp"
+    }
+  ],
+  "url": "https://provinglab.dev/"
+}

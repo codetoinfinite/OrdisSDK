@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Tenmomo",
+  "description": "Cashback catalogue of 2,700+ US retailers: store search, rates, deals, tracked activation.",
+  "packageName": "@alphesdk-remote/com-tenmomo-tenmomo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tenmomo.com/mcp"
+    }
+  ]
+}

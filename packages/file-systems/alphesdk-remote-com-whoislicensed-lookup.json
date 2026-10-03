@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "whoislicensed — state license lookup",
+  "description": "Verify a contractor, real estate or cosmetology license in 12 US states from the boards' own files.",
+  "packageName": "@alphesdk-remote/com-whoislicensed-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whoislicensed.com/mcp"
+    }
+  ],
+  "url": "https://whoislicensed.com/llms.txt"
+}

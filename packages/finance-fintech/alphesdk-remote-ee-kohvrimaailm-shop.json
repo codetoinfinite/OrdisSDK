@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kohvrimaailm luggage shop",
+  "description": "Baltic luggage shop: in-stock suitcases (Voyo, Samsonite, Travelite), EUR prices, airline cabin fit.",
+  "packageName": "@alphesdk-remote/ee-kohvrimaailm-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kohvrimaailm.ee/mcp"
+    }
+  ],
+  "url": "https://kohvrimaailm.ee"
+}

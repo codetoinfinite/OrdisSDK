@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Stienhardt",
+  "description": "Stienhardt (NYC): shop live Lab Grown Diamonds, engagement rings, jewelry. Search, cart, checkout.",
+  "packageName": "@alphesdk-remote/io-github-jacobiusmakes-stienhardt-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stienhard-stones.myshopify.com/api/ucp/mcp"
+    }
+  ],
+  "url": "https://github.com/JacobiusMakes/stienhardt-store",
+  "readme": "https://github.com/JacobiusMakes/stienhardt-store#readme"
+}

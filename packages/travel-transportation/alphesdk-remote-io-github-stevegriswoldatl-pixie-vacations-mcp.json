@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pixie Vacations Travel Booking",
+  "description": "Book Sandals, Beaches, and cruises through Pixie Vacations with co-branded booking URLs.",
+  "packageName": "@alphesdk-remote/io-github-stevegriswoldatl-pixie-vacations-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pixie-vacations-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Stevegriswoldatl/pixie-vacations-mcp",
+  "readme": "https://github.com/Stevegriswoldatl/pixie-vacations-mcp#readme"
+}

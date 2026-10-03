@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alternomy — Swedish personal-finance calculators",
+  "description": "Swedish personal-finance calculators with 2026 tax rules: rent vs buy, leasing, savings, mortgages",
+  "packageName": "@alphesdk-remote/com-alternomy-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alternomy.com/api/mcp"
+    }
+  ],
+  "url": "https://alternomy.com"
+}

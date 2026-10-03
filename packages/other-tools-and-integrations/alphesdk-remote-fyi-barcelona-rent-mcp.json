@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Barcelona Rent",
+  "description": "Official Barcelona rent and sale prices by neighbourhood, from registered contracts.",
+  "packageName": "@alphesdk-remote/fyi-barcelona-rent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.barcelona-rent.fyi/api/mcp"
+    }
+  ],
+  "url": "https://www.barcelona-rent.fyi/data/mcp"
+}

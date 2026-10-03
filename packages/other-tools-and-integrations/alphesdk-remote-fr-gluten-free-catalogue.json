@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalogue",
+  "description": "French gluten-free product catalog and comparisons — verified prices and buyer ratings.",
+  "packageName": "@alphesdk-remote/fr-gluten-free-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gluten-free.fr/api/mcp"
+    }
+  ],
+  "url": "https://www.gluten-free.fr"
+}

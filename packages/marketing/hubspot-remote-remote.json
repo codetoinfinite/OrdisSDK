@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "HubSpot (remote)",
+  "description": "HubSpot-hosted server for CRM objects such as contacts, companies, deals and tickets.",
+  "packageName": "@alphesdk-remote/hubspot-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hubspot.com",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+  "url": "https://github.com/HubSpot",
+  "author": "HubSpot",
+  "env": {}
+}

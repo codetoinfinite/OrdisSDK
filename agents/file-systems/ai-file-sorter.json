@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "ai-file-sorter",
+  "name": "AI File Sorter",
+  "description": "Cross-platform desktop app that uses local or remote LLMs to sort files into categories and propose cleaner file names.",
+  "category": "file-systems",
+  "tags": ["file-organizer", "desktop", "local-llm", "renaming", "productivity"],
+  "repo": "https://github.com/hyperfield/ai-file-sorter",
+  "homepage": "https://filesorter.app",
+  "publisher": "hyperfield",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Tidies cluttered folders such as downloads, external drives or network storage by grouping files and suggesting consistent names. Users review the proposed moves and renames before anything is applied.",
+  "howItWorks": "A C++ desktop application gathers file names, types, folder context and, for images and documents, content descriptions, then asks a model for a category and name. Inference can run on a bundled local model or through a remote provider. Results are shown for review, and operations can be undone.",
+  "requirements": [
+    {
+      "name": "Desktop OS",
+      "kind": "runtime",
+      "required": true,
+      "description": "Windows, macOS or Linux build of the application"
+    },
+    {
+      "name": "Remote LLM key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only when a hosted model is used instead of a local one"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "C++",
+  "models": "Local models or remote providers",
+  "mcp": "none",
+  "github": {
+    "stars": 1785,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

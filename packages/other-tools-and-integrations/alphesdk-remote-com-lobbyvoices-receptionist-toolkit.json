@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "receptionist-toolkit",
+  "description": "Free receptionist tools: phone scripts, IVR menus (EN+ES), ElevenLabs prompts, missed-call math",
+  "packageName": "@alphesdk-remote/com-lobbyvoices-receptionist-toolkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lobbyvoices.com/api/mcp"
+    }
+  ],
+  "url": "https://lobbyvoices.com/developers"
+}

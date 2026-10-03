@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cycle Intelligence",
+  "description": "EU Digital Product Passport (DPP/ESPR) requirements, product readiness scoring and GS1 validation.",
+  "packageName": "@alphesdk-remote/com-cycle-platform-cycle-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://edge.cycle-platform.com/v1/mcp"
+    }
+  ],
+  "url": "https://www.cycle-platform.com/open"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "fetchgate",
+  "description": "Fetch any URL as clean Markdown or metadata, and buy digital goods via x402 — for AI agents.",
+  "packageName": "@alphesdk-remote/dev-fetchgate-fetchgate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fetchgate.dev/mcp"
+    }
+  ],
+  "url": "https://fetchgate.dev"
+}

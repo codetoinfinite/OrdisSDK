@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "modal-(serverless-python)",
+  "packageName": "git+https://github.com/flux159/mcp-server-modal@94b5deedf7c93aa20d294848c553b0a6755739e4",
   "description": "Integrates with Modal's serverless platform to deploy and execute Python scripts in the cloud, enabling efficient distributed computing and data processing.",
   "url": "https://github.com/flux159/mcp-server-modal",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Modal MCP Server"
+  "name": "Modal MCP Server",
+  "bin": "modal-server",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

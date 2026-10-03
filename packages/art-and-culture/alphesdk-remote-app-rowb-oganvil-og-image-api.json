@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "oganvil — OG (Open Graph) Image Generation API",
+  "description": "Generates 1200x630 OG social preview images (PNG/SVG). Tools: generate_og_image, get_quota.",
+  "packageName": "@alphesdk-remote/app-rowb-oganvil-og-image-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oganvil.rowb.app/mcp"
+    }
+  ],
+  "url": "https://oganvil.rowb.app"
+}

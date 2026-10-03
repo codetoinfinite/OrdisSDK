@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "baiduspider",
+  "description": "Validate Baiduspider IP addresses. Remote MCP validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-baiduspider",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://baiduspider.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/baiduspider/"
+}

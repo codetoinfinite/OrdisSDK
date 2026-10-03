@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ATA Travel",
+  "description": "ATA Travel: agent-first direct booking for accommodations, hotels, and vacation rentals.",
+  "packageName": "@alphesdk-remote/cloud-atatravel-travel-agency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://atatravel.cloud/mcp"
+    }
+  ],
+  "url": "https://atatravel.cloud/for-agents"
+}

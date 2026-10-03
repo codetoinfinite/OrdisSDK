@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Angels for Agents Funding",
+  "description": "Discover AFA funding and venture resources, validate pitches, and report grant milestones.",
+  "packageName": "@alphesdk-remote/com-angelsforagents-funding",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://angelsforagents.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/AngelsForAgents/afa-agent-kit",
+  "readme": "https://github.com/AngelsForAgents/afa-agent-kit#readme"
+}

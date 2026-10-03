@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "123elec-mcp",
+  "description": "Interface MCP officielle du site marchand 123elec, catalogue, stock, panier, commandes.",
+  "packageName": "@alphesdk-remote/io-github-servicedsi-123elec-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.123elec.com/mcp"
+    }
+  ]
+}

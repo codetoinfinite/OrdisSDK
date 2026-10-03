@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "arbigent",
+  "name": "Arbigent",
+  "description": "AI agent testing framework for Android, iOS and web apps with a desktop UI for building scenarios and a CLI for running them.",
+  "category": "developer-tools",
+  "tags": ["testing-agent", "android", "ios", "web", "scenarios"],
+  "repo": "https://github.com/takahirom/arbigent",
+  "publisher": "takahirom",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets app teams describe test goals as scenarios that an agent executes on a connected device. Large flows are split into dependent scenarios so they stay manageable, and saved projects can run in CI.",
+  "howItWorks": "A desktop application connects to a device, takes an AI provider key and lets the user compose scenarios, which are stored in a YAML project file. The agent inspects the UI tree and screenshots to pick actions until the goal is met. The CLI, installed through Homebrew, replays the same project file with optional variable overrides.",
+  "requirements": [
+    {
+      "name": "AI provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered in the UI or supplied to the CLI"
+    },
+    {
+      "name": "Connected device or emulator",
+      "kind": "hardware",
+      "required": true,
+      "description": "Android, iOS or web target"
+    }
+  ],
+  "install": ["brew tap takahirom/homebrew-repo", "brew install takahirom/repo/arbigent"],
+  "run": ["arbigent run --project-file=project.yaml"],
+  "interfaces": ["desktop", "cli"],
+  "language": "Kotlin",
+  "models": "OpenAI, Gemini and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 650,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

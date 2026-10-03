@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "scythian",
+  "description": "Grounds LLMs in real Scythian: Proto-Scythian lemmas, etymologies, Ossetian/Khotanese descendants.",
+  "packageName": "@alphesdk-remote/com-valksor-scythian",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scythian.valksor.com/mcp"
+    }
+  ],
+  "url": "https://scythian.valksor.com"
+}

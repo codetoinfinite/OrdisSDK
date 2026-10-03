@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Purchase Verification",
+  "description": "Check if an ecommerce purchase meets buyer rules before payment. Returns PASS, FAIL, or REVIEW.",
+  "packageName": "@alphesdk-remote/io-github-rfrost19-agent-purchase-verification",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://web-production-855eb4.up.railway.app/mcp/"
+    }
+  ]
+}

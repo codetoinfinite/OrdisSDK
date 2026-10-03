@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "decibel-shield",
+  "description": "Noise data tools: city noise rankings, decibel levels of common sounds, NIOSH safe-exposure math.",
+  "packageName": "@alphesdk-remote/app-decibelshield-decibel-shield",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://decibelshield.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/appstackllc/decibelshieldwebsite",
+  "readme": "https://github.com/appstackllc/decibelshieldwebsite#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cron-explainer",
+  "description": "Cron expression parser: explains any cron + returns next N fire times. Timezone-aware.",
+  "packageName": "@alphesdk-remote/io-github-idoazacalls-cron-explainer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cron-explainer.cron-explainer-prod.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/IdoAzaCalls/cron-explainer",
+  "readme": "https://github.com/IdoAzaCalls/cron-explainer#readme"
+}

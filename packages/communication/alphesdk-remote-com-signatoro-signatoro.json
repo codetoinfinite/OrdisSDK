@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Signatoro",
+  "description": "Make email signatures, get install steps for your mail app, and manage your company's signatures.",
+  "packageName": "@alphesdk-remote/com-signatoro-signatoro",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signatoro.com/mcp"
+    }
+  ],
+  "url": "https://signatoro.com/docs/install-signature/agent/mcp"
+}

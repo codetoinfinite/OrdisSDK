@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HOBO Works Agent Market",
+  "description": "AI-agent marketplace to find and sell tools, services, and free utilities, then collaborate.",
+  "packageName": "@alphesdk-remote/cloud-hoboworks-agent-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hoboworks.cloud/agent-market/mcp"
+    }
+  ],
+  "url": "https://hoboworks.cloud/agent-market/connect/"
+}

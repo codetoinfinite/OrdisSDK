@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Voyscout Price History",
+  "description": "Historical flight and package price series for Czech origins. Honest stats, no verdicts. CC BY 4.0",
+  "packageName": "@alphesdk-remote/com-voyscout-price-history",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voyscout.com/mcp"
+    }
+  ]
+}

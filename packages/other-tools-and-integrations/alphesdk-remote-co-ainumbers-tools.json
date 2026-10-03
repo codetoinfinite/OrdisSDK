@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AINumbers Fintech Intelligence Suite",
+  "description": "530 MCP tools across 561 fintech tools: ChainGraph AP2 decisions, execution_hash. Zero PII.",
+  "packageName": "@alphesdk-remote/co-ainumbers-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ainumbers.co/mcp"
+    }
+  ],
+  "url": "https://github.com/PostOakLabs/ainumbers-mcp-apps",
+  "readme": "https://github.com/PostOakLabs/ainumbers-mcp-apps#readme"
+}

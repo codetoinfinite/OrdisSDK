@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RegSentry Website Tracking Inspector",
+  "description": "Inspect a public site's tracking signals, grade consent evidence, and get remediation playbooks.",
+  "packageName": "@alphesdk-remote/com-regsentry-tracking-inspector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regsentry.com/mcp"
+    }
+  ],
+  "url": "https://regsentry.com/mcp-guide"
+}

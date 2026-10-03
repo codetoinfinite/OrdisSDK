@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Niche — Editorial Intelligence",
+  "description": "Find the stories worth writing about: discover emerging stories, rank the angle, draft from sources.",
+  "packageName": "@alphesdk-remote/com-nicheangle-niche",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nicheangle.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sailquery/niche-mcp",
+  "readme": "https://github.com/sailquery/niche-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jetopolis",
+  "description": "Airline strategy game 1950-2030: live worlds, leaders, historical airlines, aircraft prices",
+  "packageName": "@alphesdk-remote/app-jetopolis-game",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jetopolis.app/mcp"
+    }
+  ],
+  "url": "https://jetopolis.app"
+}

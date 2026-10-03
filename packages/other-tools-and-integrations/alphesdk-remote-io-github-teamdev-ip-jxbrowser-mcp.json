@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JxBrowser MCP Server",
+  "description": "MCP server to assist with JxBrowser development.",
+  "packageName": "@alphesdk-remote/io-github-teamdev-ip-jxbrowser-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jxbrowser.mcp.teamdev.com/"
+    }
+  ],
+  "url": "https://teamdev.com/jxbrowser/docs/guides/introduction/mcp/"
+}

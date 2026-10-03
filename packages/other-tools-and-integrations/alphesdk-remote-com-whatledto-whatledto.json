@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "What Led To",
+  "description": "Living, source-backed timelines of long-running events, with a quote and source per entry.",
+  "packageName": "@alphesdk-remote/com-whatledto-whatledto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whatledto.com/mcp"
+    }
+  ],
+  "url": "https://whatledto.com/data#mcp"
+}

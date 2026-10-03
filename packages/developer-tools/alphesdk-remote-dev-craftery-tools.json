@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Craftery Developer Tools",
+  "description": "Developer utilities: color conversion, WCAG contrast, timestamps, UUIDs, and hashing.",
+  "packageName": "@alphesdk-remote/dev-craftery-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://craftery.dev/mcp"
+    }
+  ],
+  "url": "https://craftery.dev/mcp"
+}

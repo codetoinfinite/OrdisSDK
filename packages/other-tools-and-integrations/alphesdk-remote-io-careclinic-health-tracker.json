@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CareClinic Health Tracker",
+  "description": "Review schedules, symptoms, mood, and explicitly confirmed CareClinic check-ins.",
+  "packageName": "@alphesdk-remote/io-careclinic-health-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.careclinic.io/mcp"
+    }
+  ],
+  "url": "https://cdn.careclinic.io/mcp/help/index.html"
+}

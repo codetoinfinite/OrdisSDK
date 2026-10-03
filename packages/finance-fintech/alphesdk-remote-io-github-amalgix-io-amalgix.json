@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Amalgix",
+  "description": "Cross-model evidence pipeline for financial filings & contracts. x402 pay-per-call.",
+  "packageName": "@alphesdk-remote/io-github-amalgix-io-amalgix",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amalgix.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Amalgix-io/Amalgix",
+  "readme": "https://github.com/Amalgix-io/Amalgix#readme"
+}

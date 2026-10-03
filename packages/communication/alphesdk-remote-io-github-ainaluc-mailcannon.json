@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mailcannon",
+  "description": "AI-powered email outreach platform — send campaigns with deliverability tracking.",
+  "packageName": "@alphesdk-remote/io-github-ainaluc-mailcannon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thinkandautomate.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/AinaLuc/mailcannon",
+  "readme": "https://github.com/AinaLuc/mailcannon#readme"
+}

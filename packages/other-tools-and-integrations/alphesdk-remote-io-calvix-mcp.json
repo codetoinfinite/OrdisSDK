@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Calvix Technology Solutions",
+  "description": "MCP server for Calvix Technology Solutions — query IT services, contact info, and company details.",
+  "packageName": "@alphesdk-remote/io-calvix-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calvix.io/mcp"
+    }
+  ]
+}

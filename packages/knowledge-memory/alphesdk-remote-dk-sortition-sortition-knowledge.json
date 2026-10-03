@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sortition Knowledge",
+  "description": "Research and sources on sortition, citizens' assemblies and democratic reform.",
+  "packageName": "@alphesdk-remote/dk-sortition-sortition-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sortition.dk"
+    }
+  ],
+  "url": "https://sortition.dk"
+}

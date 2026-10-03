@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pro Flight Search Airport Delays",
+  "description": "Read-only airport delay, weather, and 24h forecast tools for AI assistants. Airport-level only.",
+  "packageName": "@alphesdk-remote/com-proflightsearch-airport-delays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proflightsearch.com/mcp"
+    }
+  ],
+  "url": "https://github.com/aistripes/promptair",
+  "readme": "https://github.com/aistripes/promptair#readme"
+}

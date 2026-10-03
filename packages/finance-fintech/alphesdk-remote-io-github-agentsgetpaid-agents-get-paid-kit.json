@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agents Get Paid Kit — x402 MCP + Unlock ($49)",
+  "description": "x402 MCP get-paid path: USDC, spend caps, AUP, $49 kit. CAPTCHA/web-unlock for payment-ready agents.",
+  "packageName": "@alphesdk-remote/io-github-agentsgetpaid-agents-get-paid-kit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wren-unlock-mcp.randall-75d.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/AgentsGetPaidMore/agents-get-paid-kit",
+  "readme": "https://github.com/AgentsGetPaidMore/agents-get-paid-kit#readme"
+}

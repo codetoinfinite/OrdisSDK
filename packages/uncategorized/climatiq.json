@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "climatiq",
+  "packageName": "git+https://github.com/jagan-shanmugam/climatiq-mcp-server@d68c1ef2e295566fd46adabe6b7b2890dd3b23bd",
   "description": "Provides a bridge to the Climatiq API for calculating precise carbon emissions across electricity usage, travel, cloud computing, and procurement domains using detailed environmental impact measurement tools.",
   "url": "https://github.com/jagan-shanmugam/climatiq-mcp-server",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Climatiq MCP Server"
+  "name": "Climatiq MCP Server",
+  "bin": "climatiq-mcp-server",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

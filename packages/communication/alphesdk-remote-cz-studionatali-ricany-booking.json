@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Studio Natali – hair salon booking (Říčany, CZ)",
+  "description": "Book a haircut with Vilma Strakatá, Studio Natali Říčany (CZ): prices, free times, SMS-verified.",
+  "packageName": "@alphesdk-remote/cz-studionatali-ricany-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://studionatali-ricany.cz/mcp"
+    }
+  ],
+  "url": "https://studionatali-ricany.cz"
+}

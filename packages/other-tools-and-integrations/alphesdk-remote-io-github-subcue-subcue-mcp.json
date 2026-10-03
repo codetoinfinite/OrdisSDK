@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SubcueAI",
+  "description": "Public read-only MCP for SubcueAI: live pricing, latest desktop version, overview and FAQ.",
+  "packageName": "@alphesdk-remote/io-github-subcue-subcue-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://subcue.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Subcue/subcue-mcp",
+  "readme": "https://github.com/Subcue/subcue-mcp#readme"
+}

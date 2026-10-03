@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sanovia — medici e professionisti sanitari in Italia",
+  "description": "Find Italian doctors and health practitioners: profile, services, prices, free booking slots.",
+  "packageName": "@alphesdk-remote/app-sanovia-sanovia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sanovia.app/api/v1/mcp"
+    }
+  ],
+  "url": "https://sanovia.app"
+}

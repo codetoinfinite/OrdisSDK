@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "stakpak",
+  "name": "Stakpak Agent",
+  "description": "DevOps agent for the terminal that can also run unattended, with secret redaction and guardrails around the commands it executes.",
+  "category": "cloud-platforms",
+  "tags": ["devops", "infrastructure", "autopilot", "terminal", "rust"],
+  "repo": "https://github.com/stakpak/agent",
+  "homepage": "https://stakpak.dev",
+  "publisher": "Stakpak",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Helps engineers deploy and operate infrastructure from an interactive terminal session or from a long-running autopilot that keeps systems healthy. It can report and take instructions through Slack, Telegram or Discord.",
+  "howItWorks": "A Rust binary runs the agent loop and substitutes secrets so real values never reach the model. A guardrail layer restricts what the agent may do, and rulebooks capture operating procedures. Tools are served over MCP secured with mutual TLS, and autopilot mode uses Docker.",
+  "requirements": [
+    {
+      "name": "STAKPAK_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Stakpak account key; alternatively log in with your own provider key such as ANTHROPIC_API_KEY"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Required for autopilot mode"
+    }
+  ],
+  "install": ["curl -sSL https://stakpak.dev/install.sh | sh"],
+  "run": [
+    "stakpak auth login --provider anthropic --api-key $ANTHROPIC_API_KEY",
+    "stakpak init",
+    "stakpak",
+    "stakpak autopilot up"
+  ],
+  "interfaces": ["cli", "chat"],
+  "language": "Rust",
+  "models": "Stakpak hosted models or bring-your-own provider such as Anthropic",
+  "mcp": "both",
+  "github": {
+    "stars": 1808,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-06",
+    "checkedAt": "2026-10-03"
+  }
+}

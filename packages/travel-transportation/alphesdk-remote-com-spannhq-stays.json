@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Spann Stays",
+  "description": "Read-only sample stays, booking constraints, and staged reservation actions for review.",
+  "packageName": "@alphesdk-remote/com-spannhq-stays",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.spannhq.com/mcp"
+    }
+  ],
+  "url": "https://github.com/machiasturner/simmon-core",
+  "readme": "https://github.com/machiasturner/simmon-core#readme"
+}

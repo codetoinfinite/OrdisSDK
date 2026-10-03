@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Canva",
+  "description": "Canva-hosted server for searching, creating, editing and exporting designs.",
+  "packageName": "@alphesdk-remote/canva",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.canva.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://www.canva.dev/docs/connect/canva-mcp-server-setup/",
+  "url": "https://github.com/canva-sdks",
+  "author": "Canva",
+  "env": {}
+}

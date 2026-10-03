@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "Datos verificados de Alicante: transporte, parkings, playas, tiempo, comida y ocio.",
+  "packageName": "@alphesdk-remote/com-vamosalicante-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vamosalicante.com/mcp"
+    }
+  ],
+  "url": "https://vamosalicante.com"
+}

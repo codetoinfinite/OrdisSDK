@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "linkedin-buying-signals",
+  "description": "Find B2B prospects showing buying signals on LinkedIn and draft the outreach.",
+  "packageName": "@alphesdk-remote/com-getcleed-linkedin-buying-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.getcleed.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/nossa-y/hp-auto-deploy",
+  "readme": "https://github.com/nossa-y/hp-auto-deploy#readme"
+}

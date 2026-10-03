@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "broker-safety",
+  "description": "MCP server offering regulator-sourced legitimacy checks on investment entities by name or URL.",
+  "packageName": "@alphesdk-remote/com-brokerchooser-broker-safety",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.brokerchooser.com/servers/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TrustyData",
+  "description": "French address quality, geocoding, routing, company lookup & catchment stats (BAN, INSEE, OSM).",
+  "packageName": "@alphesdk-remote/app-trustydata-trustydata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trustydata.app/mcp"
+    }
+  ],
+  "url": "https://github.com/htristram/trustydata-mcp-server",
+  "readme": "https://github.com/htristram/trustydata-mcp-server#readme"
+}

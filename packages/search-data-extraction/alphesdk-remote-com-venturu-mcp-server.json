@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "The Venturu MCP server. Search and contact business listings and brokers on Venturu.",
+  "packageName": "@alphesdk-remote/com-venturu-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.venturu.com/mcp"
+    }
+  ]
+}

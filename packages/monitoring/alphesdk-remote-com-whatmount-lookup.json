@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "whatmount — TV and monitor mount facts",
+  "description": "VESA pattern, dimensions and weight per TV or monitor model, from the makers' manuals. Read-only.",
+  "packageName": "@alphesdk-remote/com-whatmount-lookup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whatmount.com/mcp"
+    }
+  ],
+  "url": "https://whatmount.com/llms.txt"
+}

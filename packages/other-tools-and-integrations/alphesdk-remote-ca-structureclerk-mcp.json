@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StructureClerk",
+  "description": "AI agent policy decisions: ALLOW, DENY, APPROVE, ESCALATE. 192 jurisdictions, signed evidence.",
+  "packageName": "@alphesdk-remote/ca-structureclerk-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://structureclerk.ca/api/mcp-http"
+    }
+  ],
+  "url": "https://structureclerk.ca/authority"
+}

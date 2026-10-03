@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-docflow",
+  "description": "Markdown in, any format out. PDFs merged, split, watermarked. Runs on our own doc engines.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-docflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/paper?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Feng Shui MCP Server by RoxyAPI",
+  "description": "Kua numbers, Eight Mansions, Flying Star charts and annual afflictions for AI agents.",
+  "packageName": "@alphesdk-remote/com-roxyapi-feng-shui",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/feng-shui"
+    }
+  ],
+  "url": "https://roxyapi.com/products/feng-shui-api"
+}

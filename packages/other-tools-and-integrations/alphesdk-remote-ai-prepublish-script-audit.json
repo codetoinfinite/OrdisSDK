@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PrePublish - YouTube script QA",
+  "description": "Audit a YouTube script before recording: hook, pacing, drop-off risk, copy-paste rewrites.",
+  "packageName": "@alphesdk-remote/ai-prepublish-script-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.prepublish.ai"
+    }
+  ],
+  "url": "https://prepublish.ai/mcp-server"
+}

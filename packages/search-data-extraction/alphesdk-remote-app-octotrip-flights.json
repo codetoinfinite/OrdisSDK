@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OctoTrip Flights",
+  "description": "Free, no-login flight search with real-time pricing from multiple airlines.",
+  "packageName": "@alphesdk-remote/app-octotrip-flights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.octotrip.app/flights/mcp"
+    }
+  ],
+  "url": "https://github.com/octotrip/flights",
+  "readme": "https://github.com/octotrip/flights#readme"
+}

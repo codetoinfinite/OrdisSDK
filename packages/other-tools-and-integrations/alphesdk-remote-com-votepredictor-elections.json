@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VotePredictor Elections",
+  "description": "2026 US election forecasts with a public accuracy record, plus congressional voting records.",
+  "packageName": "@alphesdk-remote/com-votepredictor-elections",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://votepredictor.com/api/mcp"
+    }
+  ],
+  "url": "https://votepredictor.com/developers"
+}

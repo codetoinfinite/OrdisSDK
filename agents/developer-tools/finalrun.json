@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "finalrun",
+  "name": "FinalRun",
+  "description": "Mobile app testing agent that runs YAML-described tests on Android and iOS with your own model key, with skills for coding agents.",
+  "category": "developer-tools",
+  "tags": ["mobile-testing", "qa-agent", "android", "ios"],
+  "repo": "https://github.com/droid-ash/finalrun-agent",
+  "homepage": "https://www.finalrun.app",
+  "publisher": "FinalRun",
+  "publisherType": "company",
+  "official": false,
+  "whatItDoes": "Generates, runs and repairs end-to-end tests for mobile apps. Developers either call the CLI themselves or let a coding assistant use the bundled skills to write tests for a feature and fix failures.",
+  "howItWorks": "Tests and suites are YAML files of plain-language steps. The CLI launches the app on a device and a vision-capable model works through each step, with the model chosen by a flag. The user's own provider key is read from an env file. The documented install script is served from a different GitHub owner path than the repo's current name.",
+  "requirements": [
+    {
+      "name": "GOOGLE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Provider key shown in the README; bring your own key"
+    },
+    {
+      "name": "Android or iOS device or emulator",
+      "kind": "hardware",
+      "required": true,
+      "description": "Where the tests run"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/final-run/finalrun-agent/main/scripts/install.sh | bash"
+  ],
+  "run": ["finalrun test smoke.yaml --platform android --model google/gemini-3-flash-preview"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "models": "Google Gemini and other providers via own key",
+  "mcp": "none",
+  "github": {
+    "stars": 311,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-19",
+    "checkedAt": "2026-10-03"
+  }
+}

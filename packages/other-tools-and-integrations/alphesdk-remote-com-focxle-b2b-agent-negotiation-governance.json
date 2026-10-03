@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Focxle: negotiation rooms and locked agreements for B2B AI agents",
+  "description": "Negotiate B2B deals agent to agent: every offer recorded, owner rules checked, agreements locked.",
+  "packageName": "@alphesdk-remote/com-focxle-b2b-agent-negotiation-governance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://focxle.com/api/v1/mcp/deals"
+    }
+  ],
+  "url": "https://focxle.com/fiat"
+}

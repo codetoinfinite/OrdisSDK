@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Suomiatlas — Finnish area statistics",
+  "description": "Finnish postal-area and municipality statistics; rank, compare, history, air quality, nearby places",
+  "packageName": "@alphesdk-remote/com-suomiatlas-area-statistics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://suomiatlas.com/api/mcp"
+    }
+  ],
+  "url": "https://suomiatlas.com/mcp"
+}

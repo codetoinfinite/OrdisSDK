@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MetaMask Embedded Wallets (Web3Auth) MCP",
+  "description": "Helps AI coding agents integrate MetaMask Embedded Wallets (Web3Auth) SDKs.",
+  "packageName": "@alphesdk-remote/io-github-web3auth-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.web3auth.io"
+    }
+  ],
+  "url": "https://github.com/Web3Auth/web3auth-mcp",
+  "readme": "https://github.com/Web3Auth/web3auth-mcp#readme"
+}

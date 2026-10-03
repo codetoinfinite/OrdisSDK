@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Anteproof",
+  "description": "Dependency risk + calibrated, publicly scored forecasts on OSS packages. Docs: anteproof.com/docs",
+  "packageName": "@alphesdk-remote/com-anteproof-anteproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.anteproof.com/mcp"
+    }
+  ],
+  "url": "https://anteproof.com"
+}

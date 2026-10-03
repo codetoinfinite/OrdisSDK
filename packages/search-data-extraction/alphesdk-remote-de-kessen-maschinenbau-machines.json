@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kessen Maschinenbau",
+  "description": "Food industry machines from Kessen Maschinenbau: search catalogue, read pages, send inquiries.",
+  "packageName": "@alphesdk-remote/de-kessen-maschinenbau-machines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.kessen-maschinenbau.de/mcp"
+    }
+  ],
+  "url": "https://www.kessen-maschinenbau.de/en/start.html"
+}

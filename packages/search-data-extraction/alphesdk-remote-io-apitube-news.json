@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APITube News",
+  "description": "Real-time news search across 500,000+ sources in 60+ languages with sentiment and entities.",
+  "packageName": "@alphesdk-remote/io-apitube-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apitube.io/"
+    }
+  ],
+  "url": "https://github.com/apitube/news-api-mcp",
+  "readme": "https://github.com/apitube/news-api-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "چیستارا — Iranian Legal Corpus",
+  "description": "Search Iranian statutes, court rulings, advisory opinions and circulars, with legal calculators.",
+  "packageName": "@alphesdk-remote/ai-hoghogh-chistara",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hoghogh.ai/mcp"
+    }
+  ],
+  "url": "https://hoghogh.ai"
+}

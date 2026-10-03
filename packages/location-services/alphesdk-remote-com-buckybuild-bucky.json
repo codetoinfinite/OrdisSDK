@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bucky",
+  "description": "Zoning, parcel, and development feasibility for a street address in Canada and the US.",
+  "packageName": "@alphesdk-remote/com-buckybuild-bucky",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://buckybuild.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/markbucky/bucky-plugin",
+  "readme": "https://github.com/markbucky/bucky-plugin#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "concierge",
+  "description": "Search Africa safari destinations, generate day-by-day itineraries, and price expert travel work.",
+  "packageName": "@alphesdk-remote/com-iconic-expeditions-concierge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://concierge.iconic-expeditions.com/mcp"
+    }
+  ],
+  "url": "https://github.com/nyuchi/zti-app",
+  "readme": "https://github.com/nyuchi/zti-app#readme"
+}

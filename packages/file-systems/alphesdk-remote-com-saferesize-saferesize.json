@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SafeResize",
+  "description": "Passport and visa photo rules for 83 documents in 49 countries, and upload limits as exact numbers.",
+  "packageName": "@alphesdk-remote/com-saferesize-saferesize",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saferesize.com/mcp"
+    }
+  ],
+  "url": "https://saferesize.com/ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FreeRateUpdate Mortgage & Home Equity Shopping",
+  "description": "Today's mortgage and home equity rates, lender lookup, and a start link to get matched with lenders.",
+  "packageName": "@alphesdk-remote/com-freerateupdate-www-mortgage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fru-api.freerateupdate.com/mcp"
+    }
+  ],
+  "url": "https://www.freerateupdate.com/mortgage-mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lazynext Accessibility Checker",
+  "description": "Scan URLs or HTML for WCAG 2.2 violations. 75-rule manifest, weighted score, shareable reports.",
+  "packageName": "@alphesdk-remote/com-lazynext-accessibility-checker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazynext.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Lazynext-AI/accessibility-checker",
+  "readme": "https://github.com/Lazynext-AI/accessibility-checker#readme"
+}

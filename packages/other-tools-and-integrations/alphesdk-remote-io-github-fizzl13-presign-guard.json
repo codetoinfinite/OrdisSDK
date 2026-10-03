@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "presign-guard",
+  "description": "Pre-sign, token and approval checks for agents: green/orange/red for signatures, tokens, wallets.",
+  "packageName": "@alphesdk-remote/io-github-fizzl13-presign-guard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://presign-guard.fizzl.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Fizzl13/presign-guard",
+  "readme": "https://github.com/Fizzl13/presign-guard#readme"
+}

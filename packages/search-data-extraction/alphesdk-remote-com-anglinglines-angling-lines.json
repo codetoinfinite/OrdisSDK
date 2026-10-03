@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Angling Lines",
+  "description": "Carp fishing lakes in France: search venues, check availability, get week prices, book.",
+  "packageName": "@alphesdk-remote/com-anglinglines-angling-lines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.anglinglines.com/mcp"
+    }
+  ],
+  "url": "https://www.anglinglines.com"
+}

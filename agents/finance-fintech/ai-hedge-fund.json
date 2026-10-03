@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "ai-hedge-fund",
+  "name": "AI Hedge Fund",
+  "description": "Educational multi-agent hedge fund simulator in which investor-persona agents analyse stocks and a portfolio manager decides trades.",
+  "category": "finance-fintech",
+  "tags": ["trading", "multi-agent", "backtesting", "paper-trading", "education"],
+  "repo": "https://github.com/virattt/ai-hedge-fund",
+  "publisher": "Virat Singh",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Demonstrates how a team of agents could research and trade stocks, with paper trading and backtesting modes. It places no real orders and is meant for learning.",
+  "howItWorks": "Agents with different investing styles plus valuation, sentiment, fundamentals and risk roles produce signals that a portfolio manager combines. The CLI prompts for a financial data key and one model key on first run and stores them in a local env file.",
+  "requirements": [
+    {
+      "name": "Financial Datasets API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Market and fundamentals data"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "One of Anthropic, OpenAI, DeepSeek, Google, xAI or Kimi"
+    }
+  ],
+  "install": ["pipx install aihf"],
+  "run": ["aihf"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Anthropic, OpenAI, DeepSeek, Google, xAI, Kimi",
+  "mcp": "none",
+  "github": {
+    "stars": 63836,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

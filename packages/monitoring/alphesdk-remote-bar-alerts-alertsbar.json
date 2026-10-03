@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AlertsBar",
+  "description": "Domain exposures: breaches, infostealers, ULP heap, cookies. Counts and samples, free.",
+  "packageName": "@alphesdk-remote/bar-alerts-alertsbar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.alerts.bar/mcp"
+    }
+  ],
+  "url": "https://www.alerts.bar"
+}

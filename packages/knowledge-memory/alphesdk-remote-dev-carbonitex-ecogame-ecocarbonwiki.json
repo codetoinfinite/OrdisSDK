@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EcoCarbonWiki",
+  "description": "Read-only MCP for the Eco game wiki: search, Markdown pages, and wiki_* lookups. No keys, no writes.",
+  "packageName": "@alphesdk-remote/dev-carbonitex-ecogame-ecocarbonwiki",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ecogame.carbonitex.dev/mcp"
+    }
+  ],
+  "url": "https://ecogame.carbonitex.dev/wiki/agents"
+}

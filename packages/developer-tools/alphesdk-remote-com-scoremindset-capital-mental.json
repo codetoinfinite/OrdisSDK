@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScoreMindset — capital mental",
+  "description": "Tests, livre « Se poser les bonnes questions » et recherche plein texte, en lecture seule.",
+  "packageName": "@alphesdk-remote/com-scoremindset-capital-mental",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scoremindset.com/mcp"
+    }
+  ],
+  "url": "https://scoremindset.com"
+}

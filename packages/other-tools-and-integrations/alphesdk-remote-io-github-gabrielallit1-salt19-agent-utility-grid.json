@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SALT19 Agent Utility Grid",
+  "description": "MCP/x402 tools with bounded decisions, adaptive pricing, and Proof402 machine-commerce receipts.",
+  "packageName": "@alphesdk-remote/io-github-gabrielallit1-salt19-agent-utility-grid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.salt19.com/mcp"
+    }
+  ],
+  "url": "https://salt19.com/agent-utility-grid/"
+}

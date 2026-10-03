@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ophis MCP",
+  "description": "Gasless, MEV-protected onchain token swaps for AI agents on 14 EVM chains, built on CoW Protocol.",
+  "packageName": "@alphesdk-remote/fi-ophis-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ophis.fi/mcp"
+    }
+  ],
+  "url": "https://github.com/ophis-fi/ophis",
+  "readme": "https://github.com/ophis-fi/ophis#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Finance",
+  "description": "Korean bank account verification: holder name lookup, 1 KRW deposit, bank codes",
+  "packageName": "@alphesdk-remote/app-apick-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/finance"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

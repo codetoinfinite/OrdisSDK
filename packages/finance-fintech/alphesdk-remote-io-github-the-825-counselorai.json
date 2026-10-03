@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CounselorAI",
+  "description": "College-access writing and financial-aid analysis tools for counselors, students, and families.",
+  "packageName": "@alphesdk-remote/io-github-the-825-counselorai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.counselorai.app/mcp"
+    }
+  ],
+  "url": "https://counselorai.app"
+}

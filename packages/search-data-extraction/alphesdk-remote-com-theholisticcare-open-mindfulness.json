@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "THC Open Mindfulness MCP",
+  "description": "Read-only mindfulness games, guided practices, research, glossary and PanchaVikas resources.",
+  "packageName": "@alphesdk-remote/com-theholisticcare-open-mindfulness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.theholisticcare.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mohanagc/thc-mindfulness-mcp",
+  "readme": "https://github.com/mohanagc/thc-mindfulness-mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Battery Proposal Agent",
+  "description": "Validate US battery proposals and purchase policy-aware quote and payback results through x402.",
+  "packageName": "@alphesdk-remote/io-github-quli-ops-battery-proposal-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://battery-proposal-agent-mainnet.quli1016908036.workers.dev/mcp"
+    }
+  ]
+}

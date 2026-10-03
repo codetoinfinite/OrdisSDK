@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Conduit Agentic Commerce",
+  "description": "Search multi-merchant supply, checkout, and track orders via MCP.",
+  "packageName": "@alphesdk-remote/app-aiconduit-conduit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aiconduit.app/mcp"
+    }
+  ],
+  "url": "https://github.com/asmodeoux/conduit",
+  "readme": "https://github.com/asmodeoux/conduit#readme"
+}

@@ -6,5 +6,8 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "NFTGo MCP API"
+  "name": "NFTGo MCP API",
+  "binArgs": [
+    "stdio"
+  ]
 }

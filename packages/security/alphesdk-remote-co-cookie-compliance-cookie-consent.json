@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cookie Compliance",
+  "description": "Add a cookie consent banner that blocks trackers before consent and records proof of consent.",
+  "packageName": "@alphesdk-remote/co-cookie-compliance-cookie-consent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cookie-compliance.co/mcp"
+    }
+  ],
+  "url": "https://cookie-compliance.co/mcp/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "provenance",
+  "description": "Stamp or notarize data into a public witnessed transparency log. Proves timing, not truth.",
+  "packageName": "@alphesdk-remote/io-github-markovianprotocol-provenance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.markovianprotocol.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/MarkovianProtocol/markovian-protocol",
+  "readme": "https://github.com/MarkovianProtocol/markovian-protocol#readme"
+}

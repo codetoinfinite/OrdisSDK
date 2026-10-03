@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ProfitCollector",
+  "description": "22 pay-per-call developer, security, network and data utilities using x402 on Base.",
+  "packageName": "@alphesdk-remote/ca-bakhour-profitcollector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bakhour.ca/mcp"
+    }
+  ],
+  "url": "https://mcp.bakhour.ca/"
+}

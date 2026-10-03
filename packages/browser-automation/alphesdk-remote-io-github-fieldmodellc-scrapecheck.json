@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "scrapecheck",
+  "description": "Verify before your agent acts on data it paid for. Signed verdicts, checkable offline, via x402.",
+  "packageName": "@alphesdk-remote/io-github-fieldmodellc-scrapecheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrapecheck-mcp.fly.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/FieldmodeLLC/scrapecheck-mcp",
+  "readme": "https://github.com/FieldmodeLLC/scrapecheck-mcp#readme"
+}

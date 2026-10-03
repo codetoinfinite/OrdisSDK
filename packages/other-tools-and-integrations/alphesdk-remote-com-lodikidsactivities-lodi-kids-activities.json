@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Lodi Kids Activities",
+  "description": "Free directory of youth programs and licensed daycares in Lodi, CA. 72 tools.",
+  "packageName": "@alphesdk-remote/com-lodikidsactivities-lodi-kids-activities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lodikidsactivities.com/api/mcp"
+    }
+  ]
+}

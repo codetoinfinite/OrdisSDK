@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "XRPLHub — XRPLScore & XRPL actions",
+  "description": "Free XRPL scores + tx previews; pay per unsigned txjson via x402 (USDC/RLUSD). You sign; no keys.",
+  "packageName": "@alphesdk-remote/io-github-dcroyalty-xrplhub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.xrplhub.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Dcroyalty/XRPLHub.io",
+  "readme": "https://github.com/Dcroyalty/XRPLHub.io#readme"
+}

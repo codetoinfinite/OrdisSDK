@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MapLedger",
+  "description": "Zoning, homes per lot, short-term rentals, tax and flood for any property in Austin and Nashville.",
+  "packageName": "@alphesdk-remote/app-mapledger-land-and-zoning",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mapledger.app/mcp"
+    }
+  ],
+  "url": "https://mapledger.app/docs#agents"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Morpha",
+  "description": "AI editor to build, animate & export layered short-form video projects via one tool catalog.",
+  "packageName": "@alphesdk-remote/ai-morphareels-morpha",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://morphareels.ai/mcp"
+    }
+  ]
+}

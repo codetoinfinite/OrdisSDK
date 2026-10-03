@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "iGods GEO Visibility Tool (GVT)",
+  "description": "GEO visibility tests, score trends, sitemap discovery, and domain monitoring for AI agents.",
+  "packageName": "@alphesdk-remote/com-igods-gvt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.geo.igods.com/mcp"
+    }
+  ],
+  "url": "https://github.com/CameronKnowlton/gvt-mcp",
+  "readme": "https://github.com/CameronKnowlton/gvt-mcp#readme"
+}

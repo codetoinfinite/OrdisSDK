@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "editalmd",
+  "description": "Brazilian public procurement (PNCP): search, deadlines, tender markdown, alerts and watches.",
+  "packageName": "@alphesdk-remote/com-editalmd-editalmd",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://editalmd.com/mcp"
+    }
+  ],
+  "url": "https://editalmd.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SOURCE/80 Discovery",
+  "description": "Read SOURCE/80 continuity status and invite-gated encrypted handoff contracts.",
+  "packageName": "@alphesdk-remote/dev-workers-source-80-source-80-source-80",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://source-80.source-80.workers.dev/mcp?entry=mcp_registry_v1"
+    }
+  ],
+  "url": "https://source-80.source-80.workers.dev/.well-known/source80.json"
+}

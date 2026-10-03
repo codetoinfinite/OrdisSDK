@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "portfolio-mcp",
+  "description": "Marian Matinca's portfolio as MCP tools: projects, blog, profile, results. Read-only, RO+EN.",
+  "packageName": "@alphesdk-remote/eu-mmatinca-portfolio-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mmatinca.eu/mcp"
+    }
+  ],
+  "url": "https://mmatinca.eu"
+}

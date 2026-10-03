@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "claude-autonomous-coding",
+  "name": "Claude Autonomous Coding Agent Demo",
+  "description": "Minimal harness for long-running autonomous coding with the Claude Agent SDK that builds an app across many sessions.",
+  "category": "coding-agents",
+  "tags": ["coding", "long-running", "claude-agent-sdk", "autonomous"],
+  "repo": "https://github.com/anthropics/claude-quickstarts",
+  "subpath": "autonomous-coding",
+  "publisher": "Anthropic",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Starting from an application spec, it generates a large feature list and implements features one at a time over hours of unattended sessions. It demonstrates patterns for multi-session agent work.",
+  "howItWorks": "An initializer agent creates feature_list.json and the project scaffold in the first session; later coding-agent sessions start with fresh context, read progress from that file and git history, implement features and mark them passing. Shell commands are limited by an allowlist.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic API key"
+    },
+    {
+      "name": "Claude Code CLI",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installed from npm"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Harness"
+    }
+  ],
+  "install": ["npm install -g @anthropic-ai/claude-code", "pip install -r requirements.txt"],
+  "run": ["python autonomous_agent_demo.py --project-dir ./my_project"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "Claude Agent SDK",
+  "models": "Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 17785,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

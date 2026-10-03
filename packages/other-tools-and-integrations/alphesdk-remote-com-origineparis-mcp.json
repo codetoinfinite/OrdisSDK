@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Origine Paris",
+  "description": "Origine Paris MCP server: house, founders, catalogue. Recycled 18-carat gold, lab-grown diamonds.",
+  "packageName": "@alphesdk-remote/com-origineparis-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.origineparis.com/mcp"
+    }
+  ],
+  "url": "https://origineparis.com"
+}

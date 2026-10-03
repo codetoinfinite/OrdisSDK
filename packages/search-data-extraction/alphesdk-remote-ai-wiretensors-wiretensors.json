@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WireTensors",
+  "description": "Neutral, verified AI tool reviews — search, compare and get recommendations across 260+ tools.",
+  "packageName": "@alphesdk-remote/ai-wiretensors-wiretensors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wiretensors.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/binarytechstaysol/wiretensors",
+  "readme": "https://github.com/binarytechstaysol/wiretensors#readme"
+}

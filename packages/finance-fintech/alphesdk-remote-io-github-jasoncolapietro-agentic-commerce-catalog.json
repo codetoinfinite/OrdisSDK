@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentic-commerce-catalog",
+  "description": "AI music, video, image, and voice tools callable by agents with USDC payments via x402 on Base.",
+  "packageName": "@alphesdk-remote/io-github-jasoncolapietro-agentic-commerce-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.suedeai.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Suede-AI/Suede-AI-App",
+  "readme": "https://github.com/Suede-AI/Suede-AI-App#readme"
+}

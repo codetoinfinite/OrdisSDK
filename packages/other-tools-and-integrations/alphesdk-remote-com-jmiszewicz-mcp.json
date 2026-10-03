@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jmiszewicz - wycena i zapytania o strone internetowa",
+  "description": "Wycena strony internetowej, brief projektu i wyslanie zapytania do pracowni jmiszewicz.",
+  "packageName": "@alphesdk-remote/com-jmiszewicz-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jmiszewicz.com/mcp"
+    }
+  ],
+  "url": "https://jmiszewicz.com/"
+}

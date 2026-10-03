@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "1stay",
+  "description": "Hotel booking MCP server. Search, book, and manage reservations across 250K+ properties worldwide.",
+  "packageName": "@alphesdk-remote/com-stayker-1stay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stayker.com/mcp"
+    }
+  ],
+  "url": "https://github.com/STAYKER-COM/1Stay-mcp",
+  "readme": "https://github.com/STAYKER-COM/1Stay-mcp#readme"
+}

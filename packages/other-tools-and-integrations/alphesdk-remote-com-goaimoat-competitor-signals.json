@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Competitor AI Signals",
+  "description": "Detect a company quiet AI adoption via 7 public signals and a TSI score.",
+  "packageName": "@alphesdk-remote/com-goaimoat-competitor-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://comp.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp#readme"
+}

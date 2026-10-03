@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "decisions",
+  "description": "Verified US tax and money decision tools: verdict plus a pre-filled deep link to the full page.",
+  "packageName": "@alphesdk-remote/com-everydaybudd-decisions",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.everydaybudd.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/waqarkaleemkhan/EverydayBuddy",
+  "readme": "https://github.com/waqarkaleemkhan/EverydayBuddy#readme"
+}

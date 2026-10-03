@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "upgrade-agent",
+  "description": "Quote, bid and confirm travel upgrades: eligibility, bid range, place/modify/cancel, instant buy.",
+  "packageName": "@alphesdk-remote/ai-upgradeagent-upgrade-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.upgradeagent.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/mikeslone-plusgrade/upgradeagent",
+  "readme": "https://github.com/mikeslone-plusgrade/upgradeagent#readme"
+}

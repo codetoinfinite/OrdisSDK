@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Buildability™ — Property Zoning & Buildability™ Intelligence",
+  "description": "Zoning, ADU eligibility, flood zone, setbacks, and buildability intelligence for U.S. parcels.",
+  "packageName": "@alphesdk-remote/ai-readypermit-geo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rnfonkwthefktfvfwypr.supabase.co/functions/v1/mcp-server"
+    }
+  ],
+  "url": "https://github.com/Galax-ai/ReadyPermit.AI-v2",
+  "readme": "https://github.com/Galax-ai/ReadyPermit.AI-v2#readme"
+}

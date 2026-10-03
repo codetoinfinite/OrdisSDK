@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MusicAtlas",
+  "description": "Search, analyze, and discover commercially released music using sonic intelligence.",
+  "packageName": "@alphesdk-remote/com-musicatlas-musicatlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.musicatlas.ai/mcp"
+    }
+  ],
+  "url": "https://musicatlas.ai/developer/mcp/"
+}

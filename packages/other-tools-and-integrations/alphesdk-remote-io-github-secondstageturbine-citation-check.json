@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Citation Check",
+  "description": "Does a cited URL exist, and does the source name what your claim names? Two answers.",
+  "packageName": "@alphesdk-remote/io-github-secondstageturbine-citation-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://exmachina-ai.fly.dev/verify"
+    }
+  ],
+  "url": "https://exmachina-ai.fly.dev/verify"
+}

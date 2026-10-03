@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Persimmon",
+  "description": "Brand-intelligence MCP: momentum scoring, signal evidence, and competitive context for agents.",
+  "packageName": "@alphesdk-remote/com-persimmonhq-persimmon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.persimmonhq.com/mcp"
+    }
+  ],
+  "url": "https://github.com/machiasturner/simmon-core",
+  "readme": "https://github.com/machiasturner/simmon-core#readme"
+}

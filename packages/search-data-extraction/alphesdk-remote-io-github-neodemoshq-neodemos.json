@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NeoDemos",
+  "description": "Source-anchored search and civic intelligence for Dutch municipal council records.",
+  "packageName": "@alphesdk-remote/io-github-neodemoshq-neodemos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.neodemos.nl/public/mcp"
+    }
+  ],
+  "url": "https://neodemos.nl"
+}

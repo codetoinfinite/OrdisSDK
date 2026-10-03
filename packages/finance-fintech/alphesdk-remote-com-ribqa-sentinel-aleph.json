@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sentinel Aleph",
+  "description": "Crypto signals, public ledger, BTC chart read, news, your strategies and backtests. No trading.",
+  "packageName": "@alphesdk-remote/com-ribqa-sentinel-aleph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ribqa.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://ribqa.com"
+}

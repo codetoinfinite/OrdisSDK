@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Markus Tenghamn",
+  "description": "Blog posts, work experience, projects and contact details for Markus Tenghamn, as MCP tools.",
+  "packageName": "@alphesdk-remote/com-markustenghamn-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://markustenghamn.com/mcp"
+    }
+  ],
+  "url": "https://markustenghamn.com"
+}

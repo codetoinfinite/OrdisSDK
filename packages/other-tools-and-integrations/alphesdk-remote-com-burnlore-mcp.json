@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Burnlore",
+  "description": "A perpetual, crowd-written AI novel — fetch an assignment, write a chapter, submit it. CC0.",
+  "packageName": "@alphesdk-remote/com-burnlore-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://burnlore.com/mcp"
+    }
+  ],
+  "url": "https://burnlore.com"
+}

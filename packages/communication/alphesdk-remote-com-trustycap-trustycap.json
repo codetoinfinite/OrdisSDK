@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TrustyCap",
+  "description": "Production backend for AI-built apps: storage, data, jobs, webhooks, email, metering and billing.",
+  "packageName": "@alphesdk-remote/com-trustycap-trustycap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trustycap.com/mcp"
+    }
+  ],
+  "url": "https://developers.trustycap.com/docs/agents"
+}

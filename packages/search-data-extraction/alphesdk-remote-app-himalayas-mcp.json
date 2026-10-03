@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Himalayas Remote Jobs",
+  "description": "Search and post remote jobs, browse companies, check salaries, and find talent on Himalayas.app",
+  "packageName": "@alphesdk-remote/app-himalayas-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.himalayas.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Himalayas-App/himalayas-mcp",
+  "readme": "https://github.com/Himalayas-App/himalayas-mcp#readme"
+}

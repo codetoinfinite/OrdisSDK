@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Thousand API",
+  "description": "Certainty for AI Agents. Deterministic MCP tools for dates, crypto, finance. 84 tools.",
+  "packageName": "@alphesdk-remote/com-thousand-api-thousand-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thousand-api.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Redwing-Software/thousand-api",
+  "readme": "https://github.com/Redwing-Software/thousand-api#readme"
+}

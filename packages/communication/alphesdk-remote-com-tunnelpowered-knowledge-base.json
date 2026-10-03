@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "knowledge-base",
+  "description": "Search verified local businesses, check what their verification proves, and message them.",
+  "packageName": "@alphesdk-remote/com-tunnelpowered-knowledge-base",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tunnelpowered.com/api/mcp"
+    }
+  ]
+}

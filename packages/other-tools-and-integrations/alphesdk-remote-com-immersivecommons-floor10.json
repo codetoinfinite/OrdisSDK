@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Immersive Commons",
+  "description": "RSVP to San Francisco AI events, book a room, borrow a VR headset, submit a 3D print, find members.",
+  "packageName": "@alphesdk-remote/com-immersivecommons-floor10",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.immersivecommons.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/immersive-commons/ic-skills",
+  "readme": "https://github.com/immersive-commons/ic-skills#readme"
+}

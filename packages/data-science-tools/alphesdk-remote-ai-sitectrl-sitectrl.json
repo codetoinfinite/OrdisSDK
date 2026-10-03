@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "sitectrl",
+  "description": "Your AI builds real hosted websites: describe it, get a live site with SSL, forms, analytics. Free.",
+  "packageName": "@alphesdk-remote/ai-sitectrl-sitectrl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sitectrl.ai/mcp"
+    }
+  ],
+  "url": "https://sitectrl.ai/mcp"
+}

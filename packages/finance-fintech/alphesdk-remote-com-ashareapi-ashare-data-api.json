@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "A股数据 API (A-Share Data API)",
+  "description": "A-share data over MCP: quotes, profile, order book, K-line, financials, money flow, boards. 24 tools",
+  "packageName": "@alphesdk-remote/com-ashareapi-ashare-data-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ashareapi.com/mcp"
+    }
+  ],
+  "url": "https://ashareapi.com"
+}

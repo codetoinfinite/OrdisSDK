@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rates by 402rates",
+  "description": "Source-backed treasury data, settlement costs. Free instrument records and history.",
+  "packageName": "@alphesdk-remote/com-402rates-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.402rates.com/mcp/rates"
+    }
+  ],
+  "url": "https://402rates.com/"
+}

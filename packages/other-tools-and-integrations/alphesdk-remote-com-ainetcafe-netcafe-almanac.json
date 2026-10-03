@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-almanac",
+  "description": "Chinese almanac: lunar calendar, BaZi 八字, daily 宜忌, lucky-day picker, public holidays.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-almanac",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/almanac?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

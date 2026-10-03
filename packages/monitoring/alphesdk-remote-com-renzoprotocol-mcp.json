@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Renzo MCP Server",
+  "description": "MCP server for Renzo protocol data, including chains, vaults, operators, and ezETH metrics.",
+  "packageName": "@alphesdk-remote/com-renzoprotocol-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.renzoprotocol.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Duskly",
+  "description": "MLS compliance for edited listing photos: classify edits, write disclosures, verify provenance.",
+  "packageName": "@alphesdk-remote/ai-duskly-duskly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://duskly.ai/mcp"
+    }
+  ],
+  "url": "https://duskly.ai/mcp-server"
+}

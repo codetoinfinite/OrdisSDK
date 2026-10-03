@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Yappy documentation",
+  "description": "Yappy macOS docs (yappy.biz): setup, permissions, LLM backends, troubleshooting.",
+  "packageName": "@alphesdk-remote/biz-yappy-yappy-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yappy.biz/docs/mcp"
+    }
+  ],
+  "url": "https://yappy.biz/docs/"
+}

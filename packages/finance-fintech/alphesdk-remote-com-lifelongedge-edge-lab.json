@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Edge Lab",
+  "description": "Query published LifeLongEdge Edge Lab trading-system research studies as structured data.",
+  "packageName": "@alphesdk-remote/com-lifelongedge-edge-lab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lifelongedge.com/mcp"
+    }
+  ]
+}

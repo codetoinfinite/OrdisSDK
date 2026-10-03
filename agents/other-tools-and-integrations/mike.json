@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "mike",
+  "name": "Mike",
+  "description": "Self-hosted legal AI workspace for document review, drafting and case-law research, with a Word add-in.",
+  "category": "other-tools-and-integrations",
+  "tags": ["legal", "document-review", "drafting", "case-law", "self-hosted"],
+  "repo": "https://github.com/open-legal-products/mike",
+  "homepage": "https://mikeoss.com",
+  "publisher": "Open Legal Products",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets lawyers review sets of documents in tables, draft and edit with an assistant, and look up US case law. Firms can run it on their own infrastructure.",
+  "howItWorks": "A Next.js front end and Express backend use Supabase for auth and data and S3-compatible storage for files. The assistant calls Anthropic, Gemini or OpenAI models, or local ones through Ollama, and queries a public case-law API.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Compose stack"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Anthropic, Gemini or OpenAI key in backend/.env unless only Ollama is used"
+    },
+    {
+      "name": "DOWNLOAD_SIGNING_SECRET",
+      "kind": "runtime",
+      "required": true,
+      "description": "Secret to set alongside USER_API_KEYS_ENCRYPTION_SECRET"
+    }
+  ],
+  "install": ["cp .env.example .env", "cp backend/.env.example backend/.env"],
+  "run": ["docker compose up --build"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Anthropic, Gemini, OpenAI, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 4294,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

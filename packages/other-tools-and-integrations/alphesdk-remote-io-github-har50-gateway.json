@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentExec WebMCP & Base L2 Gateway",
+  "description": "Monetization and execution gateway for autonomous AI agents on Base Mainnet",
+  "packageName": "@alphesdk-remote/io-github-har50-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentexec.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Har50/agent1",
+  "readme": "https://github.com/Har50/agent1#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Quantamentry",
+  "description": "Daily sovereign-credibility and macro scores for 169 emerging markets, built on free public data.",
+  "packageName": "@alphesdk-remote/com-quantamentry-quantamentry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.quantamentry.com/api/mcp"
+    }
+  ],
+  "url": "https://www.quantamentry.com"
+}

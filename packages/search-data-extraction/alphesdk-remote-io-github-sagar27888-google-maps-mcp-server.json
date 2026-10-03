@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "google-maps-mcp-server",
+  "description": "Search Google Maps businesses via MCP - name, address, phone, rating, hours, GPS.",
+  "packageName": "@alphesdk-remote/io-github-sagar27888-google-maps-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://google-maps-mcp-server.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Sagar27888/google-maps-mcp-server",
+  "readme": "https://github.com/Sagar27888/google-maps-mcp-server#readme"
+}

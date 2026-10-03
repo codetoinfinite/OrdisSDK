@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "dcf-calculator",
+  "description": "Discounted-cash-flow intrinsic value per share from growth/discount/terminal assumptions.",
+  "packageName": "@alphesdk-remote/com-edgethirteen-www-dcf-calculator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.edgethirteen.com/api/mcp/dcf-calculator"
+    }
+  ],
+  "url": "https://www.edgethirteen.com/tools/dcf-calculator"
+}

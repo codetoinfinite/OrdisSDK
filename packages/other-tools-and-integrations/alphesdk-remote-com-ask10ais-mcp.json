@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ask10ais",
+  "description": "Independent measurements of how 12 AI models answer brand questions in Chinese and English.",
+  "packageName": "@alphesdk-remote/com-ask10ais-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ask10ais.com/api/mcp"
+    }
+  ],
+  "url": "https://ask10ais.com/en/agents"
+}

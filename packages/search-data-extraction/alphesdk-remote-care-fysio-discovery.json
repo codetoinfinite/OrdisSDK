@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fysio.care clinic discovery",
+  "description": "Discover Swedish MSK clinics on fysio.care: search clinics, services, and open appointment times.",
+  "packageName": "@alphesdk-remote/care-fysio-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fysio.care/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Fysio-care/fysio-care",
+  "readme": "https://github.com/Fysio-care/fysio-care#readme"
+}

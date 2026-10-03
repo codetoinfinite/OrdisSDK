@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Interviewer Agent by Nova (CIVAI)",
+  "description": "I do everything related to interviews and structured Q&A",
+  "packageName": "@alphesdk-remote/co-civai-nova-interviewer-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/interviewer-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/interviewer-agent"
+}

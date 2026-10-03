@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "hyperagent",
+  "name": "HyperAgent",
+  "description": "Playwright extended with AI commands and a CLI agent that completes web tasks from a single prompt.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "playwright", "typescript", "cli"],
+  "repo": "https://github.com/hyperbrowserai/HyperAgent",
+  "publisher": "Hyperbrowser",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Runs natural-language browser tasks from the terminal or from code, and lets developers mix AI steps with regular Playwright calls. It can work with a local browser or the vendor's cloud browsers.",
+  "howItWorks": "The agent inspects the page, asks an LLM for actions and executes them through Playwright, caching resolved actions so repeat runs need fewer model calls. It can connect to MCP servers to gain extra tools, and a flag switches the browser backend to the hosted service. The licence file is AGPL-3.0.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access for the agent"
+    },
+    {
+      "name": "Hyperbrowser account",
+      "kind": "account",
+      "required": false,
+      "description": "Only when using the cloud browser option"
+    }
+  ],
+  "install": ["npm install @hyperbrowser/agent"],
+  "run": [
+    "npx @hyperbrowser/agent -c \"Find a route from Miami to New Orleans, and provide the detailed route information.\""
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic, Gemini and others",
+  "mcp": "client",
+  "github": {
+    "stars": 1585,
+    "pushedAt": "2026-05-11",
+    "checkedAt": "2026-10-03"
+  }
+}

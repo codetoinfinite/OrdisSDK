@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Akkilahdot travel search",
+  "description": "Realtime package holiday and charter flight prices from Finland. Inventory not on Google Flights.",
+  "packageName": "@alphesdk-remote/fi-akkilahdot-travel-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.akkilahdot.fi/mcp"
+    }
+  ],
+  "url": "https://www.akkilahdot.fi/api"
+}

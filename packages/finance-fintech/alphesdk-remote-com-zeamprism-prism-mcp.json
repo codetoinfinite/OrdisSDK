@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Prism MCP",
+  "description": "Agent-facing tools marketplace: Ethereum/Base RPC, wallet tracing, attestations, notes. x402, USDC.",
+  "packageName": "@alphesdk-remote/com-zeamprism-prism-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zeamprism.com/mcp"
+    }
+  ],
+  "url": "https://www.zeamprism.com"
+}

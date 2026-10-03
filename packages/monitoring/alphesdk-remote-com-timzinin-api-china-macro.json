@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "China Macro & Supply Signals",
+  "description": "Pay-per-call China macro and supply monitors: revisions, FDI, LEI changes, 1688 suppliers.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-china-macro",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/china-macro"
+    }
+  ]
+}

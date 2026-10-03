@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Temsor API — Turkey & EU business data",
+  "description": "Turkey & EU business data: validation, sanctions screening, parsing, FX and fuel price history",
+  "packageName": "@alphesdk-remote/com-temsor-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.temsor.com/mcp"
+    }
+  ],
+  "url": "https://api.temsor.com/docs"
+}

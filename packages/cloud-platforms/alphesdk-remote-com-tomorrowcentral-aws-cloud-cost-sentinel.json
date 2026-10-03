@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tomorrow Central: Cloud Cost Sentinel",
+  "description": "AWS pricing and cost estimates with no signup, plus read-only idle-resource scans of your account.",
+  "packageName": "@alphesdk-remote/com-tomorrowcentral-aws-cloud-cost-sentinel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tomorrowcentral.com/mcp"
+    }
+  ],
+  "url": "https://tomorrowcentral.com/agents"
+}

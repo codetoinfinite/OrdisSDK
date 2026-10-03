@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ContrastAPI",
+  "description": "55 tools, 7 Resources, Sigma rules, email SPF/DMARC, MITRE, CVE/KEV, risk_score. No key.",
+  "packageName": "@alphesdk-remote/com-contrastcyber-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.contrastcyber.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/UPinar/contrastapi",
+  "readme": "https://github.com/UPinar/contrastapi#readme"
+}

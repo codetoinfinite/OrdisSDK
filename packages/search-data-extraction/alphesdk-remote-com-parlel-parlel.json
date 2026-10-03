@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Parlel",
+  "description": "Search people, companies and open roles on Parlel, an open professional network.",
+  "packageName": "@alphesdk-remote/com-parlel-parlel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.parlel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Parlel/parlel-mono",
+  "readme": "https://github.com/Parlel/parlel-mono#readme"
+}

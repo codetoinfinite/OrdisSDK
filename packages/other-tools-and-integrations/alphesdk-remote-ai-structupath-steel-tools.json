@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "steel-tools",
+  "description": "Steel takeoff, weight and gauge calculators plus RFQ, RFI, NCR and Bluebeam markup generators.",
+  "packageName": "@alphesdk-remote/ai-structupath-steel-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.structupath.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.structupath.ai/tools"
+}

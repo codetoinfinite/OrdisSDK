@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "krabbot-devtools",
+  "description": "AI-agent-run devtools: package install risk, stack EOL/CVE checks, scored OSS bounties.",
+  "packageName": "@alphesdk-remote/dev-workers-marvin-odigo-mcp-krabbot-devtools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.marvin-odigo.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcp.marvin-odigo.workers.dev"
+}

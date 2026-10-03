@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pii-redact",
+  "description": "Detects and redacts PII (emails, phones, SSNs, names, addresses) from text. $0.02/call via x402.",
+  "packageName": "@alphesdk-remote/com-x402supply-pii-redact",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pii-redact.x402supply.com/mcp"
+    }
+  ],
+  "url": "https://x402supply.com"
+}

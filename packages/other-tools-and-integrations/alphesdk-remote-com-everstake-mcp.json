@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "MCP server connecting AI agents to non-custodial staking data across 130+ networks.",
+  "packageName": "@alphesdk-remote/com-everstake-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.everstake.com"
+    }
+  ],
+  "url": "https://github.com/everstake/mcp",
+  "readme": "https://github.com/everstake/mcp#readme"
+}

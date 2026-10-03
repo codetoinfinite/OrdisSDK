@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "torah-mcp",
+  "description": "Source discipline for Torah study in Claude: read the real texts, quote exactly, never fabricate",
+  "packageName": "@alphesdk-remote/io-github-jonathanb555-torah-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://torah-mcp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JonathanB555/torah-mcp",
+  "readme": "https://github.com/JonathanB555/torah-mcp#readme"
+}

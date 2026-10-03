@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Vouch",
+  "description": "Vouch — independently measured reliability scores for MCP tools, not self-reported claims.",
+  "packageName": "@alphesdk-remote/io-github-aivastack-vouchtools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vouch.tools/api/mcp"
+    }
+  ],
+  "url": "https://github.com/AivaStack/vouchtools",
+  "readme": "https://github.com/AivaStack/vouchtools#readme"
+}

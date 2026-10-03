@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Energetica — Argentine Oil & Gas Data",
+  "description": "Argentine oil & gas data — 40+ curated tables: production, wells, prices, investments, trade.",
+  "packageName": "@alphesdk-remote/ar-energetica-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://energetica.ar/api/mcp"
+    }
+  ],
+  "url": "https://energetica.ar/mcp"
+}

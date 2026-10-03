@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Epinu",
+  "description": "Agent-first marketplace for real-world assets — agro and energy first; humans approve every write.",
+  "packageName": "@alphesdk-remote/ai-epinu-epinu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.epinu.ai/api/agent/mcp"
+    }
+  ],
+  "url": "https://github.com/CMS87/epinu-mcp",
+  "readme": "https://github.com/CMS87/epinu-mcp#readme"
+}

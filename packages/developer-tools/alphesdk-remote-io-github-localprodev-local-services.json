@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LocalPro — Verified US Local Service Provider Data",
+  "description": "Verified US local service providers across 10 home-services trades. Owned data, no API key.",
+  "packageName": "@alphesdk-remote/io-github-localprodev-local-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.localpro.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/LocalProDev/mcp-server",
+  "readme": "https://github.com/LocalProDev/mcp-server#readme"
+}

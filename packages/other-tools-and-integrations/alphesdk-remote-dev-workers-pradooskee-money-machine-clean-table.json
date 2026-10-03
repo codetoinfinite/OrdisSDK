@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clean Table",
+  "description": "Normalize messy CSV into your schema; ambiguous values return as exceptions. $0.02 USDC via x402.",
+  "packageName": "@alphesdk-remote/dev-workers-pradooskee-money-machine-clean-table",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://money-machine.pradooskee.workers.dev/mcp"
+    }
+  ],
+  "url": "https://money-machine.pradooskee.workers.dev/"
+}

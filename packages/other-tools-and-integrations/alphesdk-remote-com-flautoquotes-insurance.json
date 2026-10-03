@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Florida Insurance",
+  "description": "Florida's published auto insurance averages. Not a quote; we are not licensed here yet.",
+  "packageName": "@alphesdk-remote/com-flautoquotes-insurance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://flautoquotes.com/mcp"
+    }
+  ]
+}

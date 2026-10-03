@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TalentAnvil",
+  "description": "WoW talent builds for every class and spec: valid, importable loadout strings plus popular builds.",
+  "packageName": "@alphesdk-remote/com-talentanvil-talentanvil",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.talentanvil.com/mcp"
+    }
+  ],
+  "url": "https://www.talentanvil.com/docs"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nomado24 Remote Jobs",
+  "description": "Search 13,000+ remote/hybrid jobs in Germany/EU, open a posting, get market stats. Free, no auth.",
+  "packageName": "@alphesdk-remote/de-nomado24-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nomado24.de/api/public/v1/mcp"
+    }
+  ],
+  "url": "https://www.nomado24.de/en/developers"
+}

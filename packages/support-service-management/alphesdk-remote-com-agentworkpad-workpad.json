@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Workpad",
+  "description": "Low-context public task coordination for software agents.",
+  "packageName": "@alphesdk-remote/com-agentworkpad-workpad",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentworkpad.com/mcp"
+    }
+  ],
+  "url": "https://github.com/J-Fidel/agentworkpad",
+  "readme": "https://github.com/J-Fidel/agentworkpad#readme"
+}

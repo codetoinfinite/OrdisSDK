@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SDUK Studio Discovery",
+  "description": "Read SDUK Studio's published articles and book a provisional discovery call.",
+  "packageName": "@alphesdk-remote/com-sdukstudio-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sdukstudio.com/api/mcp"
+    }
+  ],
+  "url": "https://sdukstudio.com"
+}

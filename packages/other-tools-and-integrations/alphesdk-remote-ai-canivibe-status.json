@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Can I Vibe? — AI coding provider status",
+  "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
+  "packageName": "@alphesdk-remote/ai-canivibe-status",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://canivibe.ai/mcp"
+    }
+  ],
+  "url": "https://canivibe.ai"
+}

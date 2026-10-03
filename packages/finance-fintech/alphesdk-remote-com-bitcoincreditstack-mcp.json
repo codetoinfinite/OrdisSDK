@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "The Bitcoin credit markets, measured. Cross-venue rates, venue criteria, chain indicators.",
+  "packageName": "@alphesdk-remote/com-bitcoincreditstack-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bitcoincreditstack.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JamieFrame/gavel-mcp",
+  "readme": "https://github.com/JamieFrame/gavel-mcp#readme"
+}

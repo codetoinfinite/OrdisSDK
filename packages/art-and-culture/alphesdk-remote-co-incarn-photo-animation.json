@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Incarn",
+  "description": "Animate old family photos into short lifelike videos with AI.",
+  "packageName": "@alphesdk-remote/co-incarn-photo-animation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.incarn.co/mcp"
+    }
+  ],
+  "url": "https://incarn.co"
+}

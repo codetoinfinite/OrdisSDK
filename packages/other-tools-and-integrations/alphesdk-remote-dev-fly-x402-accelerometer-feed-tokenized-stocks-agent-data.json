@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tokenized Stocks & Agent Data (x402)",
+  "description": "x402-paid data for agents: tokenized stocks on Base, Solana token verdicts, AI-progress readings",
+  "packageName": "@alphesdk-remote/dev-fly-x402-accelerometer-feed-tokenized-stocks-agent-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-accelerometer-feed.fly.dev/mcp"
+    }
+  ],
+  "url": "https://x402-accelerometer-feed.fly.dev/"
+}

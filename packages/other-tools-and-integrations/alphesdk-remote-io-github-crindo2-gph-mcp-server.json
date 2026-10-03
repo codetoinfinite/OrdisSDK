@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GPH Intelligence - Healthcare Vendor Finder",
+  "description": "Find 76,000+ curated healthcare service vendors across 25 categories and all 50 US states.",
+  "packageName": "@alphesdk-remote/io-github-crindo2-gph-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gph-mcp-server.pages.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Crindo2/gph-mcp-server",
+  "readme": "https://github.com/Crindo2/gph-mcp-server#readme"
+}

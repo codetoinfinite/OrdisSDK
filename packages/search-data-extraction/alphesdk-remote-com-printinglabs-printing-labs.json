@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "printing-labs",
+  "description": "Corporate gifting: catalog search, bulk GST pricing, quotes, meetings, HR welcome-kit automation.",
+  "packageName": "@alphesdk-remote/com-printinglabs-printing-labs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://printinglabs.com/mcp"
+    }
+  ],
+  "url": "https://printinglabs.com/developers"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Entrida — UK Market Entry",
+  "description": "UK market entry tools for SMEs: live tariff lookup, regulatory watch, corridor data",
+  "packageName": "@alphesdk-remote/com-entrida-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qafetzoqccqafbbspjcp.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://www.entrida.com/connect"
+}

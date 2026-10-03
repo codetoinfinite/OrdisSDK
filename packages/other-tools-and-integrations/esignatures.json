@@ -7,5 +7,8 @@
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "eSignatures MCP"
+  "name": "eSignatures MCP",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Confirme, by Synapse",
+  "description": "Did it really happen? Independent signed receipts for AI agents: page, domain, email, heartbeat.",
+  "packageName": "@alphesdk-remote/com-synapseconnexion-www-confirme",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.synapseconnexion.com/ia/mcp"
+    }
+  ],
+  "url": "https://github.com/francistremblay30-netizen/confirme",
+  "readme": "https://github.com/francistremblay30-netizen/confirme#readme"
+}

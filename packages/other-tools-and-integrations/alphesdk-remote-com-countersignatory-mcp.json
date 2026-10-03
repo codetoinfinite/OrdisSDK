@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Countersignatory",
+  "description": "Live spot prices for verified human judgment, sign-off and notarisation.",
+  "packageName": "@alphesdk-remote/com-countersignatory-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://countersignatory.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Countersignatory/mcp",
+  "readme": "https://github.com/Countersignatory/mcp#readme"
+}

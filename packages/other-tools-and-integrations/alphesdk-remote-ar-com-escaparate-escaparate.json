@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "escaparate",
+  "description": "Conectá tu cuenta de Escaparate y manejá catálogo, ventas, novedades e imágenes conversando.",
+  "packageName": "@alphesdk-remote/ar-com-escaparate-escaparate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://escaparate.com.ar/mcp"
+    }
+  ]
+}

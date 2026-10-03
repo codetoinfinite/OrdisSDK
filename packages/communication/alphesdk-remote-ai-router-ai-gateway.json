@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "370.ai — AI Gateway: Video (Seedance 2.0, Wan, HappyHorse), Image, Speech + 100+ Chat Models",
+  "description": "One key, 100+ models — chat with any LLM and generate video, images, speech. Free trial at 370.ai.",
+  "packageName": "@alphesdk-remote/ai-router-ai-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.router.ai/mcp"
+    }
+  ],
+  "url": "https://370.ai"
+}

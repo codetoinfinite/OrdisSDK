@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "amazon-product-research-mcp",
+  "description": "Amazon brand, seller, niche & buy-box intelligence inside your own Claude or ChatGPT.",
+  "packageName": "@alphesdk-remote/com-webotee-amazon-product-research-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.webotee.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ncosic/webotee-mcp",
+  "readme": "https://github.com/ncosic/webotee-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UGC Pocket",
+  "description": "Promote your app or software with UGC creator videos on TikTok and Instagram. No API key.",
+  "packageName": "@alphesdk-remote/com-ugcpocket-ugc-pocket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ugcpocket.com/mcp"
+    }
+  ],
+  "url": "https://ugcpocket.com/for-agents"
+}

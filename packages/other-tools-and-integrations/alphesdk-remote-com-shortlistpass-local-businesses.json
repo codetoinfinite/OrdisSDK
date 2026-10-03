@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shortlist Pass Local Businesses",
+  "description": "Myrtle Beach food trucks, restaurants, shops and HOAs: live menus, stops, pickup times, order links.",
+  "packageName": "@alphesdk-remote/com-shortlistpass-local-businesses",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.shortlistpass.com/mcp"
+    }
+  ],
+  "url": "https://app.shortlistpass.com/developers/agents"
+}

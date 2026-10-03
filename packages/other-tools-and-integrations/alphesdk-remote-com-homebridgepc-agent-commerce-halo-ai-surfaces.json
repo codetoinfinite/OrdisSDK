@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HALO Homebridge AI Surfaces",
+  "description": "Live Shopify catalog, media, and configuration for Homebridge's major architectural products.",
+  "packageName": "@alphesdk-remote/com-homebridgepc-agent-commerce-halo-ai-surfaces",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-commerce.homebridgepc.com/mcp-v2"
+    }
+  ],
+  "url": "https://homebridgepc.com/pages/ai"
+}

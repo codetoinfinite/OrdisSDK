@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "docsgpt",
+  "name": "DocsGPT",
+  "description": "Self-hosted AI agents grounded in your documents, sites and connected apps, answering with sources on any model.",
+  "category": "knowledge-memory",
+  "tags": ["document-qa", "agents", "rag", "self-hosted", "deep-research"],
+  "repo": "https://github.com/arc53/DocsGPT",
+  "homepage": "https://app.docsgpt.cloud/",
+  "docs": "https://docs.docsgpt.cloud/quickstart",
+  "publisher": "Arc53",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Turns documentation, websites and connected applications into agents that answer questions with citations. Teams use it for internal knowledge assistants and support bots.",
+  "howItWorks": "Sources are ingested and indexed, then agents and visual workflows retrieve from them and call tools while answering. It runs entirely in your environment with a cloud or local model, and is set up through a one-line install script.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The installer deploys containers"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Cloud model key or a local model"
+    }
+  ],
+  "install": ["curl -fsSL https://docs.ac/install | bash"],
+  "run": [],
+  "interfaces": ["web", "api", "chat"],
+  "language": "Python",
+  "models": "Any cloud or local model",
+  "mcp": "both",
+  "github": {
+    "stars": 18302,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

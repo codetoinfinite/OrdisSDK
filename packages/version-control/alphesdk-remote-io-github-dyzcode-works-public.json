@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WORKS Public Verifier",
+  "description": "Independent static verification for exact immutable public GitHub commits.",
+  "packageName": "@alphesdk-remote/io-github-dyzcode-works-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://works-runner.vercel.app/mcp-registry"
+    }
+  ],
+  "url": "https://github.com/DYZCODE/works-plugins",
+  "readme": "https://github.com/DYZCODE/works-plugins#readme"
+}

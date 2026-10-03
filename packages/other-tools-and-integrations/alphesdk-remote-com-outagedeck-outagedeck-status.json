@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OutageDeck",
+  "description": "Live status for 172 cloud and SaaS vendors from their official feeds. Is it you, or is it them?",
+  "packageName": "@alphesdk-remote/com-outagedeck-outagedeck-status",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://outagedeck.com/api/mcp"
+    }
+  ],
+  "url": "https://outagedeck.com/developers/mcp"
+}

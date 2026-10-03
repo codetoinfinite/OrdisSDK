@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CMS Medicare Data",
+  "description": "Medicare spending, chronic conditions, hospital quality, readmissions, and enrollment",
+  "packageName": "@alphesdk-remote/com-olyport-cms-medicare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/cms-medicare/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "tutoring",
+  "description": "Find and book verified 1-on-1 online tutors: search by subject, price and rating, then book.",
+  "packageName": "@alphesdk-remote/io-github-louisvanh-tutoring",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://itutoronline.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/LouisVanh/TutorPlatform",
+  "readme": "https://github.com/LouisVanh/TutorPlatform#readme"
+}

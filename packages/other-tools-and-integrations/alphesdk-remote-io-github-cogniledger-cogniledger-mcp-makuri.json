@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Makuri Showcase (CogniLedger)",
+  "description": "Makuri (EU AI tutoring for immigrant children): 11 tools, 2 interactive panels, no user data.",
+  "packageName": "@alphesdk-remote/io-github-cogniledger-cogniledger-mcp-makuri",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cogniledger.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Cogniledger/cogniledger-mcp-makuri",
+  "readme": "https://github.com/Cogniledger/cogniledger-mcp-makuri#readme"
+}

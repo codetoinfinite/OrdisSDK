@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Meistron",
+  "description": "Auftraege, Rechnungen, Material und Zeiten eines Handwerksbetriebs abfragen und pflegen.",
+  "packageName": "@alphesdk-remote/app-meistron-meistron",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://meistron.app/api/mcp"
+    }
+  ],
+  "url": "https://meistron.app/ki-zugang"
+}

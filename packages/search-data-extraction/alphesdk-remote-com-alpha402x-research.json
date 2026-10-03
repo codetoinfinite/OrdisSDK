@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "alpha402x Equity Research",
+  "description": "Cited, filing-grounded equity research via x402, per call: graded quarterly cards, WACC, 10-Q.",
+  "packageName": "@alphesdk-remote/com-alpha402x-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alpha402x.com/mcp"
+    }
+  ],
+  "url": "https://alpha402x.com"
+}

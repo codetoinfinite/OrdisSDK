@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "patient-services",
+  "description": "MCP server exposing structured data and tools for Taki Dent Patient Services (takident.com).",
+  "packageName": "@alphesdk-remote/com-takident-patient-services",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.takident.com/mcp"
+    }
+  ],
+  "url": "https://www.takident.com"
+}

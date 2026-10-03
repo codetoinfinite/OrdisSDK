@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "studio",
+  "description": "Design & price modular raised garden beds and walls: exact bill of materials, EUR price + checkout.",
+  "packageName": "@alphesdk-remote/eu-gridgarden-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://studio.gridgarden.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Ondrej86/shopify-grid-garden",
+  "readme": "https://github.com/Ondrej86/shopify-grid-garden#readme"
+}

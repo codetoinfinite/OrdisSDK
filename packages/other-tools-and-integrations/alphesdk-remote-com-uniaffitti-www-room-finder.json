@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "UniAffitti Room Finder",
+  "description": "Find, rank, and compare student rooms from UniAffitti public listings.",
+  "packageName": "@alphesdk-remote/com-uniaffitti-www-room-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.uniaffitti.com/mcp/"
+    }
+  ]
+}

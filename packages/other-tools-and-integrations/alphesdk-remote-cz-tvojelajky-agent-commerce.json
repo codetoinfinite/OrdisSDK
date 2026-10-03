@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TvojeLajky",
+  "description": "Instagram and TikTok services: live CZK quotes, orders and customer-authorized prepaid purchases.",
+  "packageName": "@alphesdk-remote/cz-tvojelajky-agent-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tvojelajky.cz/mcp"
+    }
+  ],
+  "url": "https://tvojelajky.cz/developers"
+}

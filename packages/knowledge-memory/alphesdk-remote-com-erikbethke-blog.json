@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Erik Bethke's Blog & Knowledge Graph",
+  "description": "Search, read, and traverse 3,800+ posts on AI, energy, policy, games, and investing as a graph.",
+  "packageName": "@alphesdk-remote/com-erikbethke-blog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://erikbethke.com/api/mcp"
+    }
+  ],
+  "url": "https://erikbethke.com/for-agents"
+}

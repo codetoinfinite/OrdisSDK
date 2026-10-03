@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-cloud-tools",
+  "description": "Free no-signup cloud tools for AI agents: file transfer, static site hosting, memory, handoff.",
+  "packageName": "@alphesdk-remote/com-83blue-upload-agent-cloud-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://upload.83blue.com/mcp"
+    }
+  ],
+  "url": "https://upload.83blue.com/"
+}

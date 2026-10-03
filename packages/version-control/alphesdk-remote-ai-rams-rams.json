@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rams",
+  "description": "Design review for UI code: 291 rules, scored 0-100 with fixes and git-applyable patches.",
+  "packageName": "@alphesdk-remote/ai-rams-rams",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://worker.rams.ai/mcp"
+    }
+  ],
+  "url": "https://www.rams.ai/mcp"
+}

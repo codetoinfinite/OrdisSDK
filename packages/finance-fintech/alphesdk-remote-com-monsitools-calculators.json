@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MonsiTools Calculators",
+  "description": "Find and run exact business, finance and SaaS calculators instead of guessing the math.",
+  "packageName": "@alphesdk-remote/com-monsitools-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://monsitools.com/mcp"
+    }
+  ],
+  "url": "https://monsitools.com/developers"
+}

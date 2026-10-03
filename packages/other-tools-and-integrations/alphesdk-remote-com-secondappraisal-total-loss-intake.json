@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SecondAppraisal Total-Loss Intake",
+  "description": "Submit a vehicle owner's total loss to SecondAppraisal; preliminary market read; state rules.",
+  "packageName": "@alphesdk-remote/com-secondappraisal-total-loss-intake",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://secondappraisal.com/mcp"
+    }
+  ],
+  "url": "https://secondappraisal.com/for-agents"
+}

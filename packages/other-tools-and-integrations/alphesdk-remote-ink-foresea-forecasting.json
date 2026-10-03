@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Foresea Forecasting",
+  "description": "Forecast future events and scan prediction-market edges.",
+  "packageName": "@alphesdk-remote/ink-foresea-forecasting",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://foresea.ink/mcp/"
+    }
+  ],
+  "url": "https://github.com/pareelamre/analyzing-llm-rationale",
+  "readme": "https://github.com/pareelamre/analyzing-llm-rationale#readme"
+}

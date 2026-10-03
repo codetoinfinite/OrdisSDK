@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "site",
+  "description": "Accounting Firm Value: the site's own MCP server — compare, enquiry (enquiry = a human handoff,...",
+  "packageName": "@alphesdk-remote/com-accountingfirmvalue-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://accountingfirmvalue.com/mcp"
+    }
+  ],
+  "url": "https://github.com/joeetdev/venture-estate",
+  "readme": "https://github.com/joeetdev/venture-estate#readme"
+}

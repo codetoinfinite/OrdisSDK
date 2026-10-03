@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DealScanner",
+  "description": "Search real-estate deals, rank top areas, run rental/BRRRR/flip analysis, pull sold comps.",
+  "packageName": "@alphesdk-remote/io-dealscanner-dealscanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dealscanner.io/mcp"
+    }
+  ],
+  "url": "https://github.com/mtre-ai/DealGeneraitor-app",
+  "readme": "https://github.com/mtre-ai/DealGeneraitor-app#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LucyESL — English teaching jobs in Korea",
+  "description": "English-teaching jobs in South Korea: salary, disclosure and by-region stats. Read-only, no key.",
+  "packageName": "@alphesdk-remote/com-lucyesl-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lucyesl.com/mcp"
+    }
+  ],
+  "url": "https://lucyesl.com/developers"
+}

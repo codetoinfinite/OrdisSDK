@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "arcgate",
+  "description": "Token search, swap quotes and ready-to-sign swap transactions on Arc, paid per call via x402",
+  "packageName": "@alphesdk-remote/dev-arcgate-arcgate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.arcgate.dev/trade/v1/mcp"
+    }
+  ],
+  "url": "https://docs.arcgate.dev"
+}

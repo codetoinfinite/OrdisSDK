@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cryptopolitan MCP",
+  "description": "Real-time crypto news, analysis, and price predictions for AI agents via MCP.",
+  "packageName": "@alphesdk-remote/io-github-4dmrkey-cryptopolitan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.cryptopolitan.com/mcp"
+    }
+  ],
+  "url": "https://github.com/4dmrkey/cryptopolitan-mcp",
+  "readme": "https://github.com/4dmrkey/cryptopolitan-mcp#readme"
+}

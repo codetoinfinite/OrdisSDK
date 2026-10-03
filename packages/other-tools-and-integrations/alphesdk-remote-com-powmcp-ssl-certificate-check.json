@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SSL Certificate Check",
+  "description": "Inspect one endpoint's served certificate, expiry, hostname coverage, and accepted TLS versions.",
+  "packageName": "@alphesdk-remote/com-powmcp-ssl-certificate-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powmcp.com/ssl-certificate-check/mcp"
+    }
+  ],
+  "url": "https://github.com/powmcp/mcp-server-guide",
+  "readme": "https://github.com/powmcp/mcp-server-guide#readme"
+}

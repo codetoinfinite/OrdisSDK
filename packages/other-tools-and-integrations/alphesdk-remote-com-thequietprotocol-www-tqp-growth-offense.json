@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "The Quiet Protocol Growth Offense MCP",
+  "description": "Read-only MCP server for The Quiet Protocol's engines, benchmarks, proof, and business data.",
+  "packageName": "@alphesdk-remote/com-thequietprotocol-www-tqp-growth-offense",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thequietprotocol.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/agentqm/the-quiet-protocol",
+  "readme": "https://github.com/agentqm/the-quiet-protocol#readme"
+}

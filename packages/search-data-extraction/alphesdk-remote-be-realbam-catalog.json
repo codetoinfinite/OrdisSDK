@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BAM Kaarsen catalog",
+  "description": "Search and browse the BAM Kaarsen candle catalog and white-label offering. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/be-realbam-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://realbam.be/mcp"
+    }
+  ],
+  "url": "https://realbam.be"
+}

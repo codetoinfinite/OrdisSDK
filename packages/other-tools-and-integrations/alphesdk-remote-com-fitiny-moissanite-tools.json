@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "moissanite-tools",
+  "description": "FITINY jewellery tools: density-corrected carat/mm, GIA grades, ISO 8653 ring sizes",
+  "packageName": "@alphesdk-remote/com-fitiny-moissanite-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fitiny.com/mcp"
+    }
+  ],
+  "url": "https://github.com/FITINY/moissanite-tools",
+  "readme": "https://github.com/FITINY/moissanite-tools#readme"
+}

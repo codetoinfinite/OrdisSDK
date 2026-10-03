@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VistaLink Hotels",
+  "description": "Search 650,000 hotels by place, vibe, photos and reviews. Search needs no key.",
+  "packageName": "@alphesdk-remote/com-vistalink-hotels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vistalink.com/mcp"
+    }
+  ],
+  "url": "https://vistalink.com/developers"
+}

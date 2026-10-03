@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Echo Sentiment — XLM Market Sentiment",
+  "description": "XLM (Stellar) market sentiment for agents — keyless, pay-per-call via x402 (USDC on Base).",
+  "packageName": "@alphesdk-remote/io-github-mikedorian375-echo-sentiment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.6766587364.lol/mcp"
+    }
+  ]
+}

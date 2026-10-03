@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MapMap",
+  "description": "Maps built for agents: routing incl. truck/ADR, geocoding, matrices, isochrones — 34 tools.",
+  "packageName": "@alphesdk-remote/ai-mapmap-mapmap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mapmap.ai/mcp"
+    }
+  ],
+  "url": "https://mapmap.ai/docs/agents"
+}

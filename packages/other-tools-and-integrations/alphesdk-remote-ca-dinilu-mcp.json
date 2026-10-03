@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dinilu Canada — custom promotional products",
+  "description": "Live prices in CAD, options and shipping quotes for custom-printed promotional products.",
+  "packageName": "@alphesdk-remote/ca-dinilu-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dinilu.ca/mcp"
+    }
+  ],
+  "url": "https://dinilu.ca/about-us/developers"
+}

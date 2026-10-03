@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "二行程經典車資料庫",
+  "description": "經典二行程機車規格、零件對照與保養資料，附維基百科出處。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-twostroke-db-twostroke-db",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://twostroke-db.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://twostroke-db.panda198271.workers.dev"
+}

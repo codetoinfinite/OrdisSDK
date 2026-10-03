@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BLS Employment & Wages",
+  "description": "Unemployment rates, labor force, and Consumer Price Index from the Bureau of Labor Statistics",
+  "packageName": "@alphesdk-remote/com-olyport-bls",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.olyport.com/bls/mcp"
+    }
+  ],
+  "url": "https://olyport.com"
+}

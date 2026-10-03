@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentdata-nl",
+  "description": "x402-paid tools: EU company & sanctions data, web search, LLM chat, crypto intel, x402 monitoring.",
+  "packageName": "@alphesdk-remote/io-github-darthsander-agentdata-nl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentdata-api.sander-van-aard.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/DarthSander/data_agent",
+  "readme": "https://github.com/DarthSander/data_agent#readme"
+}

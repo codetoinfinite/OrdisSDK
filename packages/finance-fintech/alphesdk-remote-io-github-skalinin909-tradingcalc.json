@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TradingCalc MCP: Options, Forex, Risk Stats, Prediction Markets, On-Chain & Crypto Futures",
+  "description": "Deterministic options, forex, risk, on-chain & futures math. 75 tools. Not AI estimates.",
+  "packageName": "@alphesdk-remote/io-github-skalinin909-tradingcalc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradingcalc.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/SKalinin909/tradingcalc-mcp",
+  "readme": "https://github.com/SKalinin909/tradingcalc-mcp#readme"
+}

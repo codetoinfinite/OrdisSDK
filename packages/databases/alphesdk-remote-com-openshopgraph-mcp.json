@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OpenShopGraph",
+  "description": "Open, verified shop database for AI agents: products, offers, price comparison, trust and coupons.",
+  "packageName": "@alphesdk-remote/com-openshopgraph-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.openshopgraph.com/mcp"
+    }
+  ],
+  "url": "https://openshopgraph.com"
+}

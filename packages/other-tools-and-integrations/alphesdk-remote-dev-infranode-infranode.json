@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "InfraNode",
+  "description": "Keyless open data for 84 German cities: 12 lean read-only MCP tools covering 67 data types.",
+  "packageName": "@alphesdk-remote/dev-infranode-infranode",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.infranode.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/street1983nk/infranode",
+  "readme": "https://github.com/street1983nk/infranode#readme"
+}

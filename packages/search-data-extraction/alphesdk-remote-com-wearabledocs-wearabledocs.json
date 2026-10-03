@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WearableDocs",
+  "description": "Refusal of anatomical gift in 50 states and DC, plus the WearableDocs FAQ, products, prices, search.",
+  "packageName": "@alphesdk-remote/com-wearabledocs-wearabledocs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wearabledocs.com/mcp"
+    }
+  ],
+  "url": "https://wearabledocs.com"
+}

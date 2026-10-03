@@ -1,0 +1,52 @@
+{
+  "type": "external-agent",
+  "key": "mobilerun",
+  "name": "Mobilerun",
+  "description": "Framework and CLI for LLM agents that operate Android and iOS devices from natural-language commands.",
+  "category": "other-tools-and-integrations",
+  "tags": ["mobile-agent", "android", "ios", "gui-agent"],
+  "repo": "https://github.com/droidrun/mobilerun",
+  "homepage": "https://mobilerun.ai/framework",
+  "publisher": "Droidrun",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Controls a phone to complete tasks such as changing settings or working inside apps, for developers automating mobile workflows and testing. Formerly published as DroidRun.",
+  "howItWorks": "A companion portal app on the device exposes the UI tree and accepts input. The agent reads that state, optionally with screenshots when vision is enabled, asks the model for the next action and repeats. It is driven by a CLI with setup, ping, configure and run commands, or from a Python API.",
+  "requirements": [
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install the tool"
+    },
+    {
+      "name": "Android or iOS device",
+      "kind": "hardware",
+      "required": true,
+      "description": "Device or emulator with the portal app"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered through the configure command"
+    }
+  ],
+  "install": ["uv tool install mobilerun"],
+  "run": [
+    "mobilerun setup",
+    "mobilerun ping",
+    "mobilerun configure",
+    "mobilerun run \"Open settings and turn on dark mode\""
+  ],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, Ollama and others",
+  "mcp": "none",
+  "github": {
+    "stars": 9561,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

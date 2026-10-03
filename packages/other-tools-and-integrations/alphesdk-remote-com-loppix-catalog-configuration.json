@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Loppix catalog and configuration",
+  "description": "Loppix motifs, materials, guides, quotes and configuration review links. No automatic purchase.",
+  "packageName": "@alphesdk-remote/com-loppix-catalog-configuration",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://loppix.com/mcp"
+    }
+  ],
+  "url": "https://loppix.com/"
+}

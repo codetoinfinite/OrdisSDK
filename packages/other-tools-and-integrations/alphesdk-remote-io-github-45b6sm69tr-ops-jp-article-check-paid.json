@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Japanese Article Deep Audit",
+  "description": "Paid Japanese article audit for claims, sources, PR disclosure, duplication, and quality.",
+  "packageName": "@alphesdk-remote/io-github-45b6sm69tr-ops-jp-article-check-paid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jp-article-check-paid.9gbnk9sztm.workers.dev/mcp"
+    }
+  ]
+}

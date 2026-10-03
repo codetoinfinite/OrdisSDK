@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LION - Trend Intent MCP + Marketplace Visibility Audit",
+  "description": "x402-paid MCP data: trend feed + visibility audit. USDC/Base. No API key. No PII.",
+  "packageName": "@alphesdk-remote/app-netlify-gleaming-cassata-d41682-lion-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gleaming-cassata-d41682.netlify.app/api/mcp?src=mcpregistry_domain_v1_1"
+    }
+  ],
+  "url": "https://gleaming-cassata-d41682.netlify.app/lion-mcp/"
+}

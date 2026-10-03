@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Signal Desk by LarryBuildsAI",
+  "description": "One-to-three-cent spend routing, lead research, token-risk, and agent-tool comparison preflights.",
+  "packageName": "@alphesdk-remote/io-github-larrylemonbot-signal-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proofbeforepay.vercel.app/revenue/mcp"
+    }
+  ],
+  "url": "https://github.com/LarryLemonBot/signal-desk-mcp-server",
+  "readme": "https://github.com/LarryLemonBot/signal-desk-mcp-server#readme"
+}

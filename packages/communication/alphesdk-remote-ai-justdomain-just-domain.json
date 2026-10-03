@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Just Domain",
+  "description": "Search domain availability and pricing, and check if a domain can transfer in, from chat.",
+  "packageName": "@alphesdk-remote/ai-justdomain-just-domain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.justdomain.ai/"
+    }
+  ],
+  "url": "https://github.com/just-done/just-domain-mcp",
+  "readme": "https://github.com/just-done/just-domain-mcp#readme"
+}

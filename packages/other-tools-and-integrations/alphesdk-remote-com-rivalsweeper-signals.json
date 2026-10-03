@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "signals",
+  "description": "Beta. Pay-per-call eCommerce competitive intel for AI agents: pricing, promos, readiness & more.",
+  "packageName": "@alphesdk-remote/com-rivalsweeper-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rivalsweeper.com/mcp"
+    }
+  ],
+  "url": "https://www.rivalsweeper.com/solutions/signals-api"
+}

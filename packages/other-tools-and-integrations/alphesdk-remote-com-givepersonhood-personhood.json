@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "personhood",
+  "description": "Rewrite AI-generated text so it reads as human, in a persona's voice.",
+  "packageName": "@alphesdk-remote/com-givepersonhood-personhood",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.givepersonhood.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Astral-Agent/personhood-mcp",
+  "readme": "https://github.com/Astral-Agent/personhood-mcp#readme"
+}

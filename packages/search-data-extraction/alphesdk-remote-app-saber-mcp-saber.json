@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Saber",
+  "description": "Sales intelligence — research companies, qualify prospects, and find contacts.",
+  "packageName": "@alphesdk-remote/app-saber-mcp-saber",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.saber.app/mcp"
+    }
+  ],
+  "url": "https://github.com/saberapp/platform",
+  "readme": "https://github.com/saberapp/platform#readme"
+}

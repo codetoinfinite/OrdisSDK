@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "InfySVG — Free SVG Clipart",
+  "description": "Search thousands of free SVG cut files & clipart. Free for commercial use, no attribution.",
+  "packageName": "@alphesdk-remote/com-infysvg-svg-clipart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://infysvg.com/mcp"
+    }
+  ]
+}

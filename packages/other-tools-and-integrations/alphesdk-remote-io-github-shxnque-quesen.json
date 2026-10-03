@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Quesen Deterministic Agent Decision Layer",
+  "description": "Deterministic decision layer for autonomous agents: reproducible PROCEED/REVIEW/SKIP verdicts.",
+  "packageName": "@alphesdk-remote/io-github-shxnque-quesen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://web-production-3df26.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Shxnque/quesen",
+  "readme": "https://github.com/Shxnque/quesen#readme"
+}

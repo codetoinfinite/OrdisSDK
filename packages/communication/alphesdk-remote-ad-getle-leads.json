@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Getlead",
+  "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
+  "packageName": "@alphesdk-remote/ad-getle-leads",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getle.ad/mcp"
+    }
+  ],
+  "url": "https://github.com/Adgrowofficial/getlead-mcp",
+  "readme": "https://github.com/Adgrowofficial/getlead-mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Peer Lookup Tools",
+  "description": "Bounded agent tools: time, hash, UUID, codec, JSON, request identity, and service discovery.",
+  "packageName": "@alphesdk-remote/com-peerlookup-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tools.peerlookup.com/mcp"
+    }
+  ]
+}

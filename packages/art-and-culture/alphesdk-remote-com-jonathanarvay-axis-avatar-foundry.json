@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AXIS Avatar Foundry",
+  "description": "3D avatar/asset foundry: text/image -> rigged, validated, engine-ready GLB via x402.",
+  "packageName": "@alphesdk-remote/com-jonathanarvay-axis-avatar-foundry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.avatar.jonathanarvay.com/mcp"
+    }
+  ],
+  "url": "https://avatar.jonathanarvay.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PropertyList: Spanish Property MLS",
+  "description": "First-party Spanish and Portuguese property listings with notary-verified prices.",
+  "packageName": "@alphesdk-remote/es-propertylist-propertylist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.propertylist.es/mcp"
+    }
+  ],
+  "url": "https://propertylist.es/mcp"
+}

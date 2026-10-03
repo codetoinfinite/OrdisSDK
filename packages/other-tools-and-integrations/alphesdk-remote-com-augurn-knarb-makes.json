@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Knarb Makes 3D Printable Kits",
+  "description": "Find printable miniature and terrain kits, compare contents and licenses, and get purchase links.",
+  "packageName": "@alphesdk-remote/com-augurn-knarb-makes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://augurn.com/api/mcp"
+    }
+  ],
+  "url": "https://augurn.com/agents"
+}

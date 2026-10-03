@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "plumbing-booking",
+  "description": "Johnson Bros. Plumbing: check coverage, services, pricing, availability, and book by SMS.",
+  "packageName": "@alphesdk-remote/com-thejohnsonbros-plumbing-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thejohnsonbros.com/mcp"
+    }
+  ],
+  "url": "https://thejohnsonbros.com"
+}

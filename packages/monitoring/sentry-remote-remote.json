@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Sentry (remote)",
+  "description": "Hosted Sentry server for inspecting errors, issues, traces and running Seer root-cause analysis.",
+  "packageName": "@alphesdk-remote/sentry-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sentry.dev/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.sentry.io/product/sentry-mcp/",
+  "url": "https://github.com/getsentry/sentry-mcp",
+  "author": "Sentry",
+  "env": {}
+}

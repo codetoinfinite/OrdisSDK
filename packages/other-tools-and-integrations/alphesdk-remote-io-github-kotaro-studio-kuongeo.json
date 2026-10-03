@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "kuongeo",
+  "description": "Japan: next bus/tram/boat from 26 places, RTK bases, JMA warnings, municipality facts. No key.",
+  "packageName": "@alphesdk-remote/io-github-kotaro-studio-kuongeo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kuongeo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kotaro-Studio/kuongeo-py",
+  "readme": "https://github.com/Kotaro-Studio/kuongeo-py#readme"
+}

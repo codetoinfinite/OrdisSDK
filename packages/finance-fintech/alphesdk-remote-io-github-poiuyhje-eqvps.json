@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eqvps",
+  "description": "No-KYC crypto VPS AI agents rent & run over MCP — 57 tools, pay USDC/USDT on Base/Eth/Polygon/Solana",
+  "packageName": "@alphesdk-remote/io-github-poiuyhje-eqvps",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eqvps.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Poiuyhje/eqvps-mcp",
+  "readme": "https://github.com/Poiuyhje/eqvps-mcp#readme"
+}

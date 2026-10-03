@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CarGene",
+  "description": "Japanese car genealogy with sources: generations, developers, and sales figures. Read-only.",
+  "packageName": "@alphesdk-remote/com-car-gene-genealogy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.car-gene.com/mcp"
+    }
+  ],
+  "url": "https://car-gene.com/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FirmFax prop firm data",
+  "description": "Independent rule and fee data on 71 prop trading firms, every figure with its evidence state.",
+  "packageName": "@alphesdk-remote/com-firmfax-prop-firm-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://firmfax.com/api/mcp"
+    }
+  ],
+  "url": "https://firmfax.com/mcp/"
+}

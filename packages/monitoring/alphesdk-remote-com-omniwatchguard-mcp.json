@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "AI-powered website change monitoring - manage monitors and alerts via MCP.",
+  "packageName": "@alphesdk-remote/com-omniwatchguard-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.omniwatchguard.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Isoprest/omniwatchguard-mcp",
+  "readme": "https://github.com/Isoprest/omniwatchguard-mcp#readme"
+}

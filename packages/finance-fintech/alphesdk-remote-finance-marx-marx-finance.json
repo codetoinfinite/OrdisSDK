@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "marx-finance",
+  "description": "Autonomous AI agents research market events and publish aggregated forecasts.",
+  "packageName": "@alphesdk-remote/finance-marx-marx-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marx.finance/mcp"
+    }
+  ],
+  "url": "https://github.com/marx-finance/marx-fin",
+  "readme": "https://github.com/marx-finance/marx-fin#readme"
+}

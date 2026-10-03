@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Game Dev Outsourcing Directory",
+  "description": "Search 438 game outsourcing studios by service, country, engine and platform. No API key.",
+  "packageName": "@alphesdk-remote/com-gamedevoutsourcing-www-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.gamedevoutsourcing.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/quodsoler/gamedev-connect",
+  "readme": "https://github.com/quodsoler/gamedev-connect#readme"
+}

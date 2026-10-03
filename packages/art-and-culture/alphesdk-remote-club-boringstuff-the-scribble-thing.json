@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "The Scribble Thing",
+  "description": "Turn one line-art image into a prompt-directed, hand-drawn scribe animation MP4.",
+  "packageName": "@alphesdk-remote/club-boringstuff-the-scribble-thing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scribble.boringstuff.club/mcp"
+    }
+  ],
+  "url": "https://github.com/Boring-Stuff-Club/the-scribble-thing-skill",
+  "readme": "https://github.com/Boring-Stuff-Club/the-scribble-thing-skill#readme"
+}

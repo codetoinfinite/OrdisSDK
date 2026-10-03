@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fine Structure",
+  "description": "Build and host full-stack apps from a prompt, with agents that reach you on WhatsApp and email.",
+  "packageName": "@alphesdk-remote/ai-finestructure-fine-structure",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finestructure.ai/api/mcp"
+    }
+  ],
+  "url": "https://finestructure.ai"
+}

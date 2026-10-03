@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "zRev AI",
+  "description": "Grade any llms.txt, cold-read a homepage, run a B2B GTM ROI model, get a GTM diligence checklist.",
+  "packageName": "@alphesdk-remote/ai-zrev-zrev",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://go.zrev.ai/mcp"
+    }
+  ],
+  "url": "https://www.zrev.ai/mcp"
+}

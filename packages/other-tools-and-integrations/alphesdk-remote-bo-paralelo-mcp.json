@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "paralelo.bo — Bolivia parallel-dollar exchange rate",
+  "description": "Real-time + historical Bolivia parallel-market USD/BOB rate. P2P-aggregated. Free, CC-BY 4.0.",
+  "packageName": "@alphesdk-remote/bo-paralelo-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://paralelo.bo/mcp"
+    }
+  ],
+  "url": "https://paralelo.bo"
+}

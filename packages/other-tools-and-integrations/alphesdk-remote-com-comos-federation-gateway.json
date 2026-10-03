@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ComOS Federation Gateway",
+  "description": "Multi-tenant MCP gateway for AI commerce. One connection, every store.",
+  "packageName": "@alphesdk-remote/com-comos-federation-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.comos-federation.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ronrey/comos-mcp",
+  "readme": "https://github.com/ronrey/comos-mcp#readme"
+}

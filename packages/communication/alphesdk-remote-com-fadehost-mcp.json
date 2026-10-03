@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Manage FadeHost game servers, Discord bots and VPS: console, stats, backups, logs, lifecycle.",
+  "packageName": "@alphesdk-remote/com-fadehost-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fadehost.com/mcp"
+    }
+  ],
+  "url": "https://fadehost.com"
+}

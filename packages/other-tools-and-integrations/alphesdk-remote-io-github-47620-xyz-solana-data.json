@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "47620 Solana Data",
+  "description": "Pay-per-call Solana data for AI agents over x402: token, account, tx, trending. No signup, no key.",
+  "packageName": "@alphesdk-remote/io-github-47620-xyz-solana-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://47620.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/47620-xyz/solana-data-mcp",
+  "readme": "https://github.com/47620-xyz/solana-data-mcp#readme"
+}

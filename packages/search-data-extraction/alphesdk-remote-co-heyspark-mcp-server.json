@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "server",
+  "description": "Search and discover local businesses. 30+ categories with verified contact info, hours, and reviews.",
+  "packageName": "@alphesdk-remote/co-heyspark-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.heyspark.co/mcp"
+    }
+  ],
+  "url": "https://github.com/jhibird/HeySpark-MCP",
+  "readme": "https://github.com/jhibird/HeySpark-MCP#readme"
+}

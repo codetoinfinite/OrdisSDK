@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Loqal",
+  "description": "Profissionais de serviços locais no Brasil: encanador, eletricista, diarista e +270 tipos",
+  "packageName": "@alphesdk-remote/br-com-loqal-loqal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.loqal.com.br/mcp"
+    }
+  ],
+  "url": "https://loqal.com.br/para-agentes"
+}

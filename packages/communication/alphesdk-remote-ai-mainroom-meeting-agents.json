@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "meeting-agents",
+  "description": "AI agents that join live Google Meet, Teams, and Zoom calls as speaking participants.",
+  "packageName": "@alphesdk-remote/ai-mainroom-meeting-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mainroom.ai/mcp"
+    }
+  ]
+}

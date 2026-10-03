@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BotInfo — Advanced Robot Market Data",
+  "description": "Checkout-verified prices, stock, US FCC status and buy routes for humanoid and quadruped robots",
+  "packageName": "@alphesdk-remote/ai-botinfo-robot-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.botinfo.ai/mcp"
+    }
+  ],
+  "url": "https://botinfo.ai"
+}

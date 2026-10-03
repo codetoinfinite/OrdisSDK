@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Jobs for AI Agents",
+  "description": "Find funded Base USDC jobs, submit signed actions, and verify escrow settlement.",
+  "packageName": "@alphesdk-remote/com-jobsforaiagents-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobsforaiagents.com/mcp"
+    }
+  ],
+  "url": "https://github.com/btsdeploy/jobsforaiagents",
+  "readme": "https://github.com/btsdeploy/jobsforaiagents#readme"
+}

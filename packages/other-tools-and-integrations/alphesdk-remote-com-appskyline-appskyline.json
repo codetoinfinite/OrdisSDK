@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AppSkyline App Rankings",
+  "description": "Track your apps' keyword rankings, reviews and store listings on App Store, Google Play and more.",
+  "packageName": "@alphesdk-remote/com-appskyline-appskyline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.appskyline.com/mcp"
+    }
+  ],
+  "url": "https://www.appskyline.com/developers/?utm_source=official-mcp-registry&utm_medium=mcp_directory&utm_campaign=mcp-registries-2026#claude-mcp"
+}

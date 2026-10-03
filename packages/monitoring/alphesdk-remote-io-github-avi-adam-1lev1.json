@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "1lev1",
+  "description": "Track partnership work, log mission hours, and see what needs your approval on 1lev1.com.",
+  "packageName": "@alphesdk-remote/io-github-avi-adam-1lev1",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.1lev1.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Avi-ADAM/1lev1-mcp",
+  "readme": "https://github.com/Avi-ADAM/1lev1-mcp#readme"
+}

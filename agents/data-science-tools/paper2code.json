@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "paper2code",
+  "name": "Paper2Code",
+  "description": "Multi-agent pipeline that reads a machine learning paper and generates a code repository implementing it.",
+  "category": "data-science-tools",
+  "tags": ["paper-to-code", "multi-agent", "reproducibility", "machine-learning", "research"],
+  "repo": "https://github.com/going-doer/Paper2Code",
+  "publisher": "going-doer",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Converts a research paper into a runnable repository to speed up reproduction work. It is aimed at ML researchers and engineers.",
+  "howItWorks": "Three stages run in order: planning the architecture, analysing each file's requirements, and writing the code, each handled by specialised LLM agents. Scripts run it against the OpenAI API or an open model served with vLLM.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed for the OpenAI route; a vLLM-served open model is the alternative"
+    }
+  ],
+  "install": ["pip install openai", "export OPENAI_API_KEY=\"<OPENAI_API_KEY>\""],
+  "run": ["cd scripts", "bash run.sh"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI (o3-mini) or open models via vLLM",
+  "mcp": "none",
+  "github": {
+    "stars": 4973,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-25",
+    "checkedAt": "2026-10-03"
+  }
+}

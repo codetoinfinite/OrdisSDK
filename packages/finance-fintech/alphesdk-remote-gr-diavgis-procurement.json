@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Diavgis — Greek Public Procurement",
+  "description": "Greek public procurement: tenders, awards, contracts, payments, suppliers, expiring contracts.",
+  "packageName": "@alphesdk-remote/gr-diavgis-procurement",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.diavgis.gr/mcp"
+    }
+  ],
+  "url": "https://github.com/diavgis/diavgis-mcp",
+  "readme": "https://github.com/diavgis/diavgis-mcp#readme"
+}

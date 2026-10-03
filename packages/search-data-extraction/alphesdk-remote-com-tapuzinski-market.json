@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "market",
+  "description": "Israel hyperlocal marketplace for second-hand home goods: read-only listing search.",
+  "packageName": "@alphesdk-remote/com-tapuzinski-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tapuzinski.com/api/mcp"
+    }
+  ],
+  "url": "https://www.tapuzinski.com"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "url2image",
+  "description": "Capture batches of public web pages in a real browser and download the screenshots as a zip.",
+  "packageName": "@alphesdk-remote/com-url2image-url2image",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://url2image.com/mcp"
+    }
+  ]
+}

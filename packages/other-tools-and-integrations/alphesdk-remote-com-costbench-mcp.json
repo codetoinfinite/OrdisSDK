@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CostBench",
+  "description": "Verified pricing, hidden costs, negotiation data, price changes & TCO for 3,390+ software products.",
+  "packageName": "@alphesdk-remote/com-costbench-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://costbench.com/mcp"
+    }
+  ],
+  "url": "https://github.com/aadilr/costbench-mcp",
+  "readme": "https://github.com/aadilr/costbench-mcp#readme"
+}

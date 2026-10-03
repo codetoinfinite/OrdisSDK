@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Suxession — French Inheritance Tax Engine",
+  "description": "French inheritance tax engine: simulate, compare scenarios, savings estimate, premium optimizer.",
+  "packageName": "@alphesdk-remote/fr-suxession-suxession",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://suxession.fr/mcp"
+    }
+  ],
+  "url": "https://suxession.fr"
+}

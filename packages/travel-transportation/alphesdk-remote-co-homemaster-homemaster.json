@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HomeMaster",
+  "description": "Home cleaning and aircon servicing in Singapore: coverage, open times, exact prices and booking.",
+  "packageName": "@alphesdk-remote/co-homemaster-homemaster",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://homemaster.co/mcp"
+    }
+  ],
+  "url": "https://homemaster.co/agents"
+}

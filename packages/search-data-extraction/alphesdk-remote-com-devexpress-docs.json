@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DevExpress Documentation",
+  "description": "Streamable HTTP MCP server for DevExpress documentation search and retrieval.",
+  "packageName": "@alphesdk-remote/com-devexpress-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.devexpress.com/mcp/docs"
+    }
+  ],
+  "url": "https://docs.devexpress.com/GeneralInformation/405551/help-resources/dev-express-documentation-mcp-server-configure-an-ai-powered-assistant"
+}

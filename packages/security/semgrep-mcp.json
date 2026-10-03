@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Semgrep",
+  "description": "Scan code for vulnerabilities with Semgrep rules and inspect ASTs.",
+  "packageName": "semgrep-mcp",
+  "packageVersion": "0.9.0",
+  "runtime": "python",
+  "readme": "https://github.com/semgrep/mcp",
+  "url": "https://github.com/semgrep/mcp",
+  "author": "Semgrep",
+  "env": {
+    "SEMGREP_APP_TOKEN": {
+      "description": "Semgrep AppSec Platform token",
+      "required": false
+    }
+  }
+}

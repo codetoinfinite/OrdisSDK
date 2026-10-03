@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "EQIQs",
+  "description": "EQIQs: 21-framework personality and compatibility for coaching, communication, and team development.",
+  "packageName": "@alphesdk-remote/io-github-eqiqs-rapport-axis-core",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adgmsnwjynqkhawhioil.supabase.co/functions/v1/mcp-server"
+    }
+  ]
+}

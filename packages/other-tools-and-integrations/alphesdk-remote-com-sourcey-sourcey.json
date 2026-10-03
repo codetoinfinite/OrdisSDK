@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sourcey",
+  "description": "Find and compare startup credits and deals with eligibility checks and exact evidence.",
+  "packageName": "@alphesdk-remote/com-sourcey-sourcey",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sourcey.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sourcey/mcp-server",
+  "readme": "https://github.com/sourcey/mcp-server#readme"
+}

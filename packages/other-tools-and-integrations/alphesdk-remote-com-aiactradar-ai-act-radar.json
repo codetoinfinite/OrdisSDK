@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Act Radar",
+  "description": "EU AI Act obligations and updates from ten official sources, incl. the national layer.",
+  "packageName": "@alphesdk-remote/com-aiactradar-ai-act-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aiactradar.com/mcp/v1"
+    }
+  ],
+  "url": "https://github.com/ligea-gmbh/aiactradar-examples",
+  "readme": "https://github.com/ligea-gmbh/aiactradar-examples#readme"
+}

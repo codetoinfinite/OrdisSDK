@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "deepanalyze",
+  "name": "DeepAnalyze",
+  "description": "Agentic LLM for autonomous data science that plans, writes and runs analysis code and produces analyst-style reports.",
+  "category": "data-science-tools",
+  "tags": ["data-science", "local-model", "vllm", "reports", "autonomous"],
+  "repo": "https://github.com/ruc-datalab/DeepAnalyze",
+  "homepage": "https://ruc-deepanalyze.github.io",
+  "publisher": "RUC DataLab (Renmin University of China)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Carries out the full data science loop on uploaded files, from preparation and analysis to modelling, visualisation and a written report. It targets researchers and analysts who want a locally hosted model rather than a cloud API.",
+  "howItWorks": "An 8B open-weight model trained for agentic data work is served through vLLM with an OpenAI-style API. Bundled chat, API server and CLI demos send it tasks and execute the code it emits against the workspace files.",
+  "requirements": [
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": true,
+      "description": "Roughly 16 GB of GPU memory or more to serve the model, depending on quantisation"
+    },
+    {
+      "name": "vLLM",
+      "kind": "runtime",
+      "required": true,
+      "description": "Serves the DeepAnalyze-8B weights"
+    }
+  ],
+  "install": [],
+  "run": ["vllm serve DeepAnalyze-8B"],
+  "interfaces": ["web", "api", "cli"],
+  "language": "Python",
+  "models": "DeepAnalyze-8B (open weights)",
+  "mcp": "none",
+  "github": {
+    "stars": 4669,
+    "license": "MIT",
+    "pushedAt": "2026-09-23",
+    "checkedAt": "2026-10-03"
+  }
+}

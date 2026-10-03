@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "n8n-MCP",
+  "description": "Very popular server giving agents n8n node documentation and workflow build/validate/deploy tools.",
+  "packageName": "n8n-mcp",
+  "packageVersion": "2.91.0",
+  "runtime": "node",
+  "readme": "https://github.com/czlonkowski/n8n-mcp",
+  "url": "https://github.com/czlonkowski/n8n-mcp",
+  "author": "czlonkowski (community)",
+  "env": {
+    "N8N_API_URL": {
+      "description": "n8n instance URL (enables workflow management tools)",
+      "required": false
+    },
+    "N8N_API_KEY": {
+      "description": "n8n API key",
+      "required": false
+    }
+  }
+}

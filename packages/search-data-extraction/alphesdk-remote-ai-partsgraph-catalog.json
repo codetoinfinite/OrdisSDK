@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Search real parts with datasheet-provenance specs, check compatibility and compose priced BOMs.",
+  "packageName": "@alphesdk-remote/ai-partsgraph-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://partsgraph.ai/api/mcp"
+    }
+  ],
+  "url": "https://partsgraph.ai/catalog"
+}

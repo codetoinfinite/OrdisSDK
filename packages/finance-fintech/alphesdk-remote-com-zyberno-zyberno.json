@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zyberno stock valuation",
+  "description": "Brina Gap valuation, screener and market score for US-listed stocks. SEC data, free, no key.",
+  "packageName": "@alphesdk-remote/com-zyberno-zyberno",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.zyberno.com/mcp"
+    }
+  ],
+  "url": "https://zyberno.com/api/"
+}

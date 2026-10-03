@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Papaya Pay Any Bill (US)",
+  "description": "Pay any US bill in a snap, right from your chat — utilities, medical, rent, parking tickets & more.",
+  "packageName": "@alphesdk-remote/com-papayapay-consumer-production-mcp-agent-bill-payment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-agent.consumer-production.papayapay.com/payagent/mcp"
+    }
+  ],
+  "url": "https://papayapay.com/payabill"
+}

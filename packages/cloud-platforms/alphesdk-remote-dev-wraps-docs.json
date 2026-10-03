@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wraps",
+  "description": "Search the Wraps docs and estimate AWS SES costs. Public, read-only, no authentication.",
+  "packageName": "@alphesdk-remote/dev-wraps-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wraps.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/wraps-team/wraps",
+  "readme": "https://github.com/wraps-team/wraps#readme"
+}

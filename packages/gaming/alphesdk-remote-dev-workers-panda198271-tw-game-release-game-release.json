@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "遊戲發售日與預告片資料庫",
+  "description": "全球 PC、主機、手機遊戲發售日、延期紀錄與官方預告片（繁體中文）。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-game-release-game-release",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-game-release.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-game-release.panda198271.workers.dev"
+}

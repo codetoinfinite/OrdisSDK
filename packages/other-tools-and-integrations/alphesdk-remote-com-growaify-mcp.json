@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Growaify — Autonomous Commerce for AI Agents",
+  "description": "Autonomous commerce for AI agents: discover, quote, order, pay, verify.",
+  "packageName": "@alphesdk-remote/com-growaify-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://growaify.com/mcp"
+    }
+  ],
+  "url": "https://github.com/h-abar/growaify-mcp",
+  "readme": "https://github.com/h-abar/growaify-mcp#readme"
+}

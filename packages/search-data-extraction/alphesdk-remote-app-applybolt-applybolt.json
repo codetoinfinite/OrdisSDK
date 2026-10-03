@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "applybolt",
+  "description": "Search 200k+ live jobs and internships. Filter remote, salary, H-1B, then auto-apply on ApplyBolt.",
+  "packageName": "@alphesdk-remote/app-applybolt-applybolt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.applybolt.app/mcp"
+    }
+  ],
+  "url": "https://www.applybolt.app"
+}

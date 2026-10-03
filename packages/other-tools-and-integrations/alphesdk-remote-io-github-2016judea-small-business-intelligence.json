@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Small Business Intelligence by Brick & Mortar",
+  "description": "Free joined public records for small business and CRE: Twin Cities parcels, sales, licences",
+  "packageName": "@alphesdk-remote/io-github-2016judea-small-business-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brickandmortar.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/2016judea/small-business-intelligence-mcp",
+  "readme": "https://github.com/2016judea/small-business-intelligence-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "filings",
+  "description": "SEC-signed profiles for 8,000+ US public companies from EDGAR filings. Token-efficient.",
+  "packageName": "@alphesdk-remote/global-rootz-origin-filings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://origin.rootz.global/mcp"
+    }
+  ],
+  "url": "https://github.com/rootz-global/mcp-servers",
+  "readme": "https://github.com/rootz-global/mcp-servers#readme"
+}

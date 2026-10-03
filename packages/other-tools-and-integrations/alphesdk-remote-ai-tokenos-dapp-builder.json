@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TokenOS dApp Builder",
+  "description": "Idea to buildable dApp spec",
+  "packageName": "@alphesdk-remote/ai-tokenos-dapp-builder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenos.ai/api/mcp/apps/dapp-builder"
+    }
+  ],
+  "url": "https://tokenos.ai/mcp/dapp-builder"
+}

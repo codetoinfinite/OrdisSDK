@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tw-finance",
+  "description": "Taiwan finance open data: ETF, funds, TAIEX, sentiment, business climate, FX. Free & read-only.",
+  "packageName": "@alphesdk-remote/com-fininfostation-tw-finance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fininfostation.com/mcp"
+    }
+  ],
+  "url": "https://fininfostation.com/for-ai-agents"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Muffed — verified NFL stats and fantasy context",
+  "description": "Verified NFL stats and Sleeper league context. Every figure carries its own source rank.",
+  "packageName": "@alphesdk-remote/ai-muffed-muffed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://muffed.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/cfagan17/muffed-mcp",
+  "readme": "https://github.com/cfagan17/muffed-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "registry-mcp",
+  "description": "An MCP server that serves informtaion from the official MCP registry",
+  "packageName": "@alphesdk-remote/com-remote-mcp-registry-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://registry-mcp.remote-mcp.com"
+    }
+  ],
+  "url": "https://github.com/jaw9c/mcp-registry-mcp",
+  "readme": "https://github.com/jaw9c/mcp-registry-mcp#readme"
+}

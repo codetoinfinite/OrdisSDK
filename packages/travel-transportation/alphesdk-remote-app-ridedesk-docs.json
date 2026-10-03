@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RideDesk Developer Docs",
+  "description": "Developer docs for building on RideDesk: booking API, widgets, per-account booking MCP. No auth.",
+  "packageName": "@alphesdk-remote/app-ridedesk-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ridedesk.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ridedeskapp/ridedesk",
+  "readme": "https://github.com/ridedeskapp/ridedesk#readme"
+}

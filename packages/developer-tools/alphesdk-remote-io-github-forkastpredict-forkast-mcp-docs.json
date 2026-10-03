@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "forkast-mcp-docs",
+  "description": "MCP server for querying Forkast documentation",
+  "packageName": "@alphesdk-remote/io-github-forkastpredict-forkast-mcp-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.forkast.gg/mcp"
+    }
+  ]
+}

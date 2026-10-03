@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BJJ Square",
+  "description": "BJJ and grappling gyms worldwide, plus upcoming competitions. Free, read-only.",
+  "packageName": "@alphesdk-remote/com-bjjsquare-bjjsquare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bjjsquare.com/mcp"
+    }
+  ],
+  "url": "https://bjjsquare.com/en/ai-assistants"
+}

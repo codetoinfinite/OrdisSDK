@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "StackResolve",
+  "description": "Find, compare, and audit software for AI agents. Scored registry of tools and MCP servers.",
+  "packageName": "@alphesdk-remote/dev-stackresolve-stackresolve",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stackresolve.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/autorevai/stackresolve",
+  "readme": "https://github.com/autorevai/stackresolve#readme"
+}

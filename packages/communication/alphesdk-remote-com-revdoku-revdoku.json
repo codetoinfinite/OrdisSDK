@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Revdoku",
+  "description": "Cloud storage with email-receiving buckets. Store and share files with people and AI agents.",
+  "packageName": "@alphesdk-remote/com-revdoku-revdoku",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.revdoku.com/mcp"
+    }
+  ],
+  "url": "https://github.com/revdoku/revdoku",
+  "readme": "https://github.com/revdoku/revdoku#readme"
+}

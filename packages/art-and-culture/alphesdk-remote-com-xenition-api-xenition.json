@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Xenition",
+  "description": "Docs, decks, forms, apps you build and deploy, automations, and AI images, video and voice.",
+  "packageName": "@alphesdk-remote/com-xenition-api-xenition",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.xenition.com/mcp"
+    }
+  ],
+  "url": "https://xenition.com"
+}

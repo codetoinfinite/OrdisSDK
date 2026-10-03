@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AIﾉアカリ☆ Agent Trust Receipt",
+  "description": "Read-only Remote MCP for externally grounded AI agent trust receipts.",
+  "packageName": "@alphesdk-remote/ai-ai-akari-agent-trust-receipt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-akari.ai/mcp-trust"
+    }
+  ],
+  "url": "https://github.com/AInoAKARI/AInoAKARI",
+  "readme": "https://github.com/AInoAKARI/AInoAKARI#readme"
+}

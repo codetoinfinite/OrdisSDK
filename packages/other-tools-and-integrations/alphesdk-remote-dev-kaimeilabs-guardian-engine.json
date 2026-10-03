@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Guardian Engine",
+  "description": "Deterministic recipe verification engine — validates AI-generated recipes against master SOPs.",
+  "packageName": "@alphesdk-remote/dev-kaimeilabs-guardian-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaimeilabs.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/kaimeilabs/guardian-api-docs",
+  "readme": "https://github.com/kaimeilabs/guardian-api-docs#readme"
+}

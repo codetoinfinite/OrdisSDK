@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "swe-agent",
+  "name": "SWE-agent",
+  "description": "Research agent that lets a language model use tools on its own to resolve GitHub issues, with an extra mode for offensive security challenges.",
+  "category": "coding-agents",
+  "tags": ["swe-bench", "github-issues", "research", "security"],
+  "repo": "https://github.com/SWE-agent/SWE-agent",
+  "homepage": "https://swe-agent.com",
+  "docs": "https://swe-agent.com",
+  "publisher": "SWE-agent team (Princeton and Stanford researchers)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "SWE-agent takes an issue from a real repository and tries to produce a patch without human help. It is aimed at researchers and engineers who want a configurable, well-studied baseline for automated software engineering. A separate mode targets capture-the-flag style security tasks.",
+  "howItWorks": "The agent is described by a single YAML configuration that defines its tools and prompts. The model iterates through tool calls inside an isolated environment until it submits a patch. The maintainers now point new users to the simpler mini-swe-agent, while this project remains available.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the model that drives the agent"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "The project is a Python package"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Model of your choice (GPT, Claude and others)",
+  "mcp": "none",
+  "github": {
+    "stars": 20471,
+    "license": "MIT",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

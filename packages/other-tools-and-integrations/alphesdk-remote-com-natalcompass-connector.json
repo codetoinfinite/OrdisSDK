@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "connector",
+  "description": "Birth charts, transits, moon phases and more from precise astronomical calculations. Natal Compass.",
+  "packageName": "@alphesdk-remote/com-natalcompass-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://natalcompass.com/mcp"
+    }
+  ],
+  "url": "https://natalcompass.com/connect"
+}

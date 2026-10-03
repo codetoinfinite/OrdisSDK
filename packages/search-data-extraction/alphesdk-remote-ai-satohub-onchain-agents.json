@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Sato Hub: Onchain Agents",
+  "description": "Search scored onchain-agent tooling: frameworks, MCP servers, wallets, x402 rails, deploy specs.",
+  "packageName": "@alphesdk-remote/ai-satohub-onchain-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://satohub.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/satohubai/onchain-agents",
+  "readme": "https://github.com/satohubai/onchain-agents#readme"
+}

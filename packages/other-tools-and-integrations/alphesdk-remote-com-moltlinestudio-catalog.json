@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Studio",
+  "description": "Fleet entry point: 22 hosted MCP servers, 160 tools, 110 free. Searches 138 agent skills.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/catalog"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

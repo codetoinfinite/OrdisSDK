@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agents Get Paid Kit — x402 MCP + Unlock ($49)",
+  "description": "Call get_quote, then buy_kit (49 USDC Base x402). Humans keep #pay.",
+  "packageName": "@alphesdk-remote/com-agentsgetpaidmore-agents-get-paid-kit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsgetpaidmore.com/mcp"
+    }
+  ],
+  "url": "https://agentsgetpaidmore.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PG1 Sovereign Threat Intelligence",
+  "description": "Threat intel for AI agents: IOCs, CVEs (EPSS/KEV), wallet sanctions and age, domain and URL checks.",
+  "packageName": "@alphesdk-remote/io-github-project-gifted1-pg1-threat-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pg1-ai-agent.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Project-Gifted1/pg1-ai-agent",
+  "readme": "https://github.com/Project-Gifted1/pg1-ai-agent#readme"
+}

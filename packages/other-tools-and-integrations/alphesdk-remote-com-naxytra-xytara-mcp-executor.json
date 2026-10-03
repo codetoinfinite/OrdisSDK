@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "xytara MCP Executor",
+  "description": "Public MCP server for summaries, DNS lookup, catalog, replies, and JSON checks.",
+  "packageName": "@alphesdk-remote/com-naxytra-xytara-mcp-executor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xytara-mcp-executor.onrender.com/mcp"
+    }
+  ],
+  "url": "https://www.naxytra.com/agents"
+}

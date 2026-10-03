@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TipRanks",
+  "description": "Live TipRanks market data: analyst ratings, Smart Score, technicals, options, portfolios.",
+  "packageName": "@alphesdk-remote/com-tipranks-tipranks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tipranks.com/mcp/"
+    }
+  ],
+  "url": "https://mcp.tipranks.com"
+}

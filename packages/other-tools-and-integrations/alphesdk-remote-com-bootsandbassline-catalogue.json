@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Boots & Bassline",
+  "description": "Songs, lyrics, previews and listening links for Boots & Bassline, plus a song finder.",
+  "packageName": "@alphesdk-remote/com-bootsandbassline-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bootsandbassline.com/mcp"
+    }
+  ],
+  "url": "https://bootsandbassline.com"
+}

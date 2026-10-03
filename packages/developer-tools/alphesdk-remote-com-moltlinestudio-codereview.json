@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Code Review",
+  "description": "Risk-scan a diff, flag AI-generated-code tells, find secrets. 5 of 7 tools need no account.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-codereview",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/codereview"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

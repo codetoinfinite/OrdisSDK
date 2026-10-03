@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gold & Silver Company",
+  "description": "Official answers of Gold & Silver Company, precious metals refinery, Belgium (FR/EN/NL)",
+  "packageName": "@alphesdk-remote/com-goldandsilvercompany-porte",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ask.goldandsilvercompany.com/mcp"
+    }
+  ],
+  "url": "https://goldandsilvercompany.com"
+}

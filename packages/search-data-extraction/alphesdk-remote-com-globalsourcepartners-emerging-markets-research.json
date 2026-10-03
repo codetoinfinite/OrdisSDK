@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GlobalSource Partners MCP Server",
+  "description": "Search expert emerging-markets research on economics, politics, policy and sovereign risk.",
+  "packageName": "@alphesdk-remote/com-globalsourcepartners-emerging-markets-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.globalsourcepartners.com/mcp"
+    }
+  ],
+  "url": "https://www.globalsourcepartners.com/"
+}

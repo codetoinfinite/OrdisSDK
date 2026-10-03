@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Promptafire",
+  "description": "Read Promptafire's AI-for-marketers lessons and blog. Optional sign-in unlocks Pro lessons.",
+  "packageName": "@alphesdk-remote/com-promptafire-marketing-promptafire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketing.promptafire.com/api/mcp"
+    }
+  ],
+  "url": "https://marketing.promptafire.com/auth.md"
+}

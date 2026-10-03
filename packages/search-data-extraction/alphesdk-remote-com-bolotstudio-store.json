@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "store",
+  "description": "Custom metal-print storefront: catalog search, product details, shipping, reviews. Read-only.",
+  "packageName": "@alphesdk-remote/com-bolotstudio-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bolotstudio.com/api/mcp"
+    }
+  ],
+  "url": "https://bolotstudio.com"
+}

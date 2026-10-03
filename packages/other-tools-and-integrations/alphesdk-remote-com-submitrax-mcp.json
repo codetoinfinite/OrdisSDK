@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SubmitraX",
+  "description": "Form backend for static sites: create forms, manage submissions, webhooks and exports.",
+  "packageName": "@alphesdk-remote/com-submitrax-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.submitrax.com/mcp"
+    }
+  ],
+  "url": "https://submitrax.com"
+}

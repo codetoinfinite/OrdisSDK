@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RegiAI",
+  "description": "AI image, video and audio tools: generate, edit, face swap, upscale, remove backgrounds, make video.",
+  "packageName": "@alphesdk-remote/com-regiai-regiai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regiai.com/api/mcp"
+    }
+  ],
+  "url": "https://regiai.com/developers"
+}

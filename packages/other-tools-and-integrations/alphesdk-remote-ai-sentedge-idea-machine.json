@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SentEdge Idea Machine",
+  "description": "Buy adversarially-debated AI product ideas over x402: $0.10 pulls, $1 buyouts, USDC on Base.",
+  "packageName": "@alphesdk-remote/ai-sentedge-idea-machine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sentedge.ai/mcp"
+    }
+  ],
+  "url": "https://sentedge.ai/ideas/for-agents.html"
+}

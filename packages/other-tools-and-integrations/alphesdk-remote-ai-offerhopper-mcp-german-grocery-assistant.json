@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "offerhopper.ai — AI Supermarket & Drugstore Shopping Assistant for Germany",
+  "description": "Live prices, deals & optimal multi-stop shopping routes for German grocery & drug stores.",
+  "packageName": "@alphesdk-remote/ai-offerhopper-mcp-german-grocery-assistant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.offerhopper.ai/mcp"
+    }
+  ],
+  "url": "https://offerhopper.ai/blog/en/ai-grocery-shopping-assistant"
+}

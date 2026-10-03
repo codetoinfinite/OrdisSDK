@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agentic Keychain",
+  "description": "Registry that benchmarks reusable agent skills and sells some; its MCP tools evaluate and quote.",
+  "packageName": "@alphesdk-remote/com-agentickeychain-agentic-keychain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentickeychain.com/mcp"
+    }
+  ],
+  "url": "https://agentickeychain.com/"
+}

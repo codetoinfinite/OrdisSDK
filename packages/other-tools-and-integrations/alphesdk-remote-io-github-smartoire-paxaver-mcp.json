@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "paxaver-mcp",
+  "description": "MCP adapter for the Paxaver school community platform. Streamable HTTP, OAuth 2.1, capability auth.",
+  "packageName": "@alphesdk-remote/io-github-smartoire-paxaver-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.paxaver.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Smartoire/paxaver-mcp",
+  "readme": "https://github.com/Smartoire/paxaver-mcp#readme"
+}

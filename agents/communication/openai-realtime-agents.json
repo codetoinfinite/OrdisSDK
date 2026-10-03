@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "openai-realtime-agents",
+  "name": "OpenAI Realtime Agents",
+  "description": "Next.js demo of voice agents on the OpenAI Realtime API showing chat-supervisor and sequential handoff patterns.",
+  "category": "communication",
+  "tags": ["voice", "realtime", "multi-agent", "handoffs", "nextjs"],
+  "repo": "https://github.com/openai/openai-realtime-agents",
+  "publisher": "OpenAI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users talk to voice agents in the browser and switch between scenarios such as a supervised support agent and a multi-agent customer-service flow. It is for developers designing low-latency voice assistants.",
+  "howItWorks": "Realtime agents are defined with the OpenAI Agents SDK. In one pattern a realtime chat agent defers hard requests and tool calls to a stronger text supervisor model; in the other, specialised agents hand the user off to each other.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI API access including Realtime"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Next.js app"
+    }
+  ],
+  "install": ["npm i"],
+  "run": ["npm run dev"],
+  "interfaces": ["web", "chat"],
+  "language": "TypeScript",
+  "framework": "OpenAI Agents SDK",
+  "models": "OpenAI realtime and text models",
+  "mcp": "none",
+  "github": {
+    "stars": 6993,
+    "license": "MIT",
+    "pushedAt": "2026-01-07",
+    "checkedAt": "2026-10-03"
+  }
+}

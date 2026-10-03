@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "toolvend - utility APIs for agents",
+  "description": "30-day x402 history, calendar, DNS, RDAP, LEI, URLs, scraping, text, VAT, QR. Pay-per-call USDC.",
+  "packageName": "@alphesdk-remote/dev-toolvend-dns-whois-domain-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolvend.dev/mcp"
+    }
+  ],
+  "url": "https://toolvend.dev"
+}

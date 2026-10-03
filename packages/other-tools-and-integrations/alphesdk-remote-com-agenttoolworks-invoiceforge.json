@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "InvoiceForge",
+  "description": "Generate, validate and read EN 16931 and Peppol BIS 3.0 e-invoices, in UBL and CII.",
+  "packageName": "@alphesdk-remote/com-agenttoolworks-invoiceforge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invoiceforge.agenttoolworks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/agenttoolworks/mcp-servers",
+  "readme": "https://github.com/agenttoolworks/mcp-servers#readme"
+}

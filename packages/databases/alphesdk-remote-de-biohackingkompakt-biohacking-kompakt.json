@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Biohacking Kompakt",
+  "description": "Evidence-rated German database of supplements, peptides and longevity methods, plus podcast.",
+  "packageName": "@alphesdk-remote/de-biohackingkompakt-biohacking-kompakt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.biohackingkompakt.de/mcp"
+    }
+  ],
+  "url": "https://github.com/phoeser/biohacking-kompakt",
+  "readme": "https://github.com/phoeser/biohacking-kompakt#readme"
+}

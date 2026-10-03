@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "App Store Trends API",
+  "description": "App downloads and chart ranking trends for iOS and Android. Free key at trendsapi.ai",
+  "packageName": "@alphesdk-remote/ai-trendsapi-app-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app-store.api.trendsapi.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/trendsapi-ai/app-store-trends-api",
+  "readme": "https://github.com/trendsapi-ai/app-store-trends-api#readme"
+}

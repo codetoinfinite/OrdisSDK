@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ocr",
+  "description": "Read PDFs and images as markdown or text, with exact costs and hard spend caps. $0.75/1k pages.",
+  "packageName": "@alphesdk-remote/com-pennyocr-ocr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pennyocr.com"
+    }
+  ],
+  "url": "https://github.com/imiraoui/pennyocr-mcp",
+  "readme": "https://github.com/imiraoui/pennyocr-mcp#readme"
+}

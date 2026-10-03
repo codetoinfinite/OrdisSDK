@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "zwitchy-store",
+  "description": "Travel eSIM catalog: search plans, check availability, and get exact quotes with checkout links.",
+  "packageName": "@alphesdk-remote/io-github-mouthfully-zwitchy-store",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zwitchy.io/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Deep Blue Alpha — Ethereum Whale Data",
+  "description": "Live Ethereum whale flows: token activity, top tokens, latest moves, Whale Sentiment Index.",
+  "packageName": "@alphesdk-remote/io-deepbluealpha-whale-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deepbluealpha.io/mcp"
+    }
+  ],
+  "url": "https://deepbluealpha.io/mcp"
+}

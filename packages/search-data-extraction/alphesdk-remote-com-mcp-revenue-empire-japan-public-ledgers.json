@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Japan Public Ledgers MCP",
+  "description": "Tamper-evident daily ledgers of 12 Japanese public-data domains, with cross-ledger entity search.",
+  "packageName": "@alphesdk-remote/com-mcp-revenue-empire-japan-public-ledgers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mcp-revenue-empire.com/mcp"
+    }
+  ]
+}

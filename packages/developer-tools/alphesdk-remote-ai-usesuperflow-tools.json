@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Superflow Free Tools",
+  "description": "19 free website QA and AI-visibility tools. Remote HTTP MCP, no account, no API key.",
+  "packageName": "@alphesdk-remote/ai-usesuperflow-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usesuperflow.ai/api/mcp"
+    }
+  ],
+  "url": "https://usesuperflow.ai/tools/mcp?utm_source=mcp-registry&utm_medium=directory&utm_campaign=free-tools"
+}

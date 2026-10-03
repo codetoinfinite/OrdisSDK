@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Neotic",
+  "description": "AI agents create contextual in-app experiences, announcements, and triggers with Neotic.",
+  "packageName": "@alphesdk-remote/app-neotic-www-neotic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.neotic.app/api/mcp"
+    }
+  ],
+  "url": "https://www.neotic.app"
+}

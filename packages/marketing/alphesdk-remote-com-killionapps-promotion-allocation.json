@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "KillionApps Promotion Allocation — Contribution Profit",
+  "description": "Ecommerce capital allocation: marketing budgets, advertising, merchandising, product portfolios.",
+  "packageName": "@alphesdk-remote/com-killionapps-promotion-allocation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://killionapps-promotion-allocation-sandbox.onrender.com/mcp"
+    }
+  ]
+}

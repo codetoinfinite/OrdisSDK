@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Chargt EV Charging",
+  "description": "Find EV charging stations, live availability and prices across the Netherlands via NDW data.",
+  "packageName": "@alphesdk-remote/com-chargt-chargt-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chargt.eu/mcp"
+    }
+  ]
+}

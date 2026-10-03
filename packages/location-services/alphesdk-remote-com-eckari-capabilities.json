@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "capabilities",
+  "description": "Deterministic company, entity and location lookups for agents - per call, x402 or API key.",
+  "packageName": "@alphesdk-remote/com-eckari-capabilities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.eckari.com/mcp"
+    }
+  ],
+  "url": "https://eckari.com"
+}

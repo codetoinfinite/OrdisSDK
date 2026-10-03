@@ -78,7 +78,7 @@ const TYPES: {
     icon: Bot,
     tone: "purple",
     placeholder: "Search agents…",
-    lead: "Ready-made agents that pair a model with a few servers. Open one to chat with it.",
+    lead: "Agents you can chat with here, plus open-source agents from vendors and the community with what each needs and how to run it.",
   },
 ];
 

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tincan",
+  "description": "Shared rooms for existing AI assistants, with messages, files and private memory vaults.",
+  "packageName": "@alphesdk-remote/com-gotincan-tincan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.gotincan.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tincan-ai/tincan-plugin",
+  "readme": "https://github.com/tincan-ai/tincan-plugin#readme"
+}

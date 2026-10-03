@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "longwatch",
+  "description": "You are ephemeral; this remembers. Persist watch_id+key; poll later for what you missed.",
+  "packageName": "@alphesdk-remote/dev-coinop-longwatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://longwatch.dev/mcp"
+    }
+  ],
+  "url": "https://longwatch.dev"
+}

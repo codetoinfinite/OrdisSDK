@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "supply-chain-intelligence",
+  "description": "Real-time supply chain risk intelligence — 24 tools, proprietary indices, predictive signals",
+  "packageName": "@alphesdk-remote/io-github-supplymaven-scr-supply-chain-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://supplymaven.com/api/mcp"
+    }
+  ]
+}

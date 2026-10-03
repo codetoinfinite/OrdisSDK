@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "1845 Smoked Meat AI Gateway",
+  "description": "MCP gateway for 1845meat.com: products, prices, stock and cart links. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-getbotlens-1845meat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://1845meat.mcp.getbotlens.com/mcp"
+    }
+  ],
+  "url": "https://1845meat.com"
+}

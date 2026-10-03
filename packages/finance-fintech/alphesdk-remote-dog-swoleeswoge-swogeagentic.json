@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SwogeAgentic",
+  "description": "Crypto intel for AI agents: token scans, SWOGE AI colony data, OSINT, web search, images, video",
+  "packageName": "@alphesdk-remote/dog-swoleeswoge-swogeagentic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://web-production-220a3.up.railway.app/mcp"
+    }
+  ]
+}

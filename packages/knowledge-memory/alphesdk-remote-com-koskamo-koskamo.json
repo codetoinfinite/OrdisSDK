@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Koskamo",
+  "description": "Cited, versioned knowledge for agents: retrieve sourced passages and propose owner-approved fixes.",
+  "packageName": "@alphesdk-remote/com-koskamo-koskamo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://koskamo.com/api/mcp"
+    }
+  ],
+  "url": "https://koskamo.com/data/connect"
+}

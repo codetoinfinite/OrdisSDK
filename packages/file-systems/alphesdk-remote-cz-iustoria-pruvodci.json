@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IUSTORIA – průvodci a právní kalkulačky",
+  "description": "Czech legal calculators, document templates, legal glossary and lawyer-reviewed guides.",
+  "packageName": "@alphesdk-remote/cz-iustoria-pruvodci",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.iustoria.cz/mcp"
+    }
+  ],
+  "url": "https://www.iustoria.cz/ai-asistenti/"
+}

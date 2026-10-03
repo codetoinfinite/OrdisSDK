@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GISFinder",
+  "description": "Official US government offices and pages for property, land and GIS questions, link-checked.",
+  "packageName": "@alphesdk-remote/com-gisfinder-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.gisfinder.com/mcp"
+    }
+  ],
+  "url": "https://www.gisfinder.com/developers"
+}

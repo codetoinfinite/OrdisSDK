@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Atlas Data Exchange",
+  "description": "Infrastructure and hazard intelligence with provenance, spatial confidence and quality contracts.",
+  "packageName": "@alphesdk-remote/com-atlasipholdingsllc-app-atlas-data-exchange",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.atlasipholdingsllc.com/mcp?src=mcp_registry"
+    }
+  ],
+  "url": "https://app.atlasipholdingsllc.com/intelligence?src=mcp_registry"
+}

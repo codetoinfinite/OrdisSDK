@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "My Painting Club — Painting Lessons",
+  "description": "Search transcribed painting lessons. Results cite the exact lesson and Vimeo timestamp.",
+  "packageName": "@alphesdk-remote/io-github-1nzpainter-painting-lessons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mypaintingclub.com/kb/mcp"
+    }
+  ],
+  "url": "https://github.com/1nzpainter/MCP",
+  "readme": "https://github.com/1nzpainter/MCP#readme"
+}

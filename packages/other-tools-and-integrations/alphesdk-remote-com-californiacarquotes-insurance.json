@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "California Insurance",
+  "description": "California's published auto insurance averages. Not a quote; we are not licensed here yet.",
+  "packageName": "@alphesdk-remote/com-californiacarquotes-insurance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://californiacarquotes.com/mcp"
+    }
+  ]
+}

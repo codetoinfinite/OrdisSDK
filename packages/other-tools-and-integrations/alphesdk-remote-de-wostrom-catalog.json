@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wostrom.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Strom-Produkte – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wostrom-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wostrom.de/api/mcp"
+    }
+  ],
+  "url": "https://wostrom.de"
+}

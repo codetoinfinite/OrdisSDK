@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sync by CHNLSYNC",
+  "description": "FCC copper retirement lookups and a broker-reviewed IT advisor. No supplier names, no prices.",
+  "packageName": "@alphesdk-remote/com-chnlsync-advisor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chnlsync.com/mcp"
+    }
+  ],
+  "url": "https://chnlsync.com"
+}

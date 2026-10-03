@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "aegis",
+  "description": "Trust layer for the x402 economy - check any service before you pay. Scores, discovery, routing.",
+  "packageName": "@alphesdk-remote/com-borisinc-aegis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aegis-mcp.borisinc.com/mcp"
+    }
+  ]
+}

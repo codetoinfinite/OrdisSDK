@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "topup",
+  "description": "Travel eSIMs and mobile top-ups paid in USDC via x402. A technology demonstration, limited pilot.",
+  "packageName": "@alphesdk-remote/app-iomarkets-topup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iomarkets.app/mcp"
+    }
+  ],
+  "url": "https://iomarkets.app"
+}

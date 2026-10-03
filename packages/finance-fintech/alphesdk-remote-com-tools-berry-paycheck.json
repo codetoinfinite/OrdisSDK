@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tools Berry Paycheck",
+  "description": "Live US paycheck and payroll-tax math for 2026, all 50 states and DC, powered by tools-berry.com.",
+  "packageName": "@alphesdk-remote/com-tools-berry-paycheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tools-berry.com"
+    }
+  ],
+  "url": "https://github.com/edyda99/tools-berry-mcp",
+  "readme": "https://github.com/edyda99/tools-berry-mcp#readme"
+}

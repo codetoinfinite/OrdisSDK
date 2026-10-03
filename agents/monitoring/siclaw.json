@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "siclaw",
+  "name": "Siclaw",
+  "description": "Read-only SRE copilot that runs structured, multi-phase investigations of infrastructure problems and remembers what it learns.",
+  "category": "monitoring",
+  "tags": ["sre", "investigation", "kubernetes", "read-only", "copilot"],
+  "repo": "https://github.com/scitix/siclaw",
+  "homepage": "https://siclaw.ai",
+  "docs": "https://docs.siclaw.ai",
+  "publisher": "SciTix",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Helps operations engineers diagnose incidents without letting the agent change anything in the environment. It keeps investigation memory and reusable skills so later sessions build on earlier findings.",
+  "howItWorks": "A Node service drives a four-phase deep investigation workflow over read-only tools, with kubectl used when available. External tools are attached as MCP servers. It is reachable through a local web UI, chat channels or a terminal interface.",
+  "requirements": [
+    {
+      "name": "Node.js >= 22.19.0",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the npm package"
+    },
+    {
+      "name": "kubectl",
+      "kind": "runtime",
+      "required": false,
+      "description": "Needed for Kubernetes investigations"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model credentials configured in the application"
+    }
+  ],
+  "install": ["npm install -g siclaw"],
+  "run": ["siclaw local"],
+  "interfaces": ["web", "cli", "chat"],
+  "language": "TypeScript",
+  "models": "Configurable LLM providers",
+  "mcp": "client",
+  "github": {
+    "stars": 236,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-25",
+    "checkedAt": "2026-10-03"
+  }
+}

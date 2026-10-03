@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Nalpeiron Docs",
+  "description": "Search and browse Nalpeiron product documentation (Zentitle2, ZenGain, ZenMeter, EUP) via GitBook.",
+  "packageName": "@alphesdk-remote/com-nalpeiron-docs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.nalpeiron.com/~gitbook/mcp"
+    }
+  ]
+}

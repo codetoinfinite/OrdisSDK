@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Forge Treasury",
+  "description": "Non-custodial USDC yield vaults on Base mainnet with 9 MCP tools for AI agent treasury.",
+  "packageName": "@alphesdk-remote/com-forgetreasury-treasury",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.forgetreasury.com/mcp"
+    }
+  ],
+  "url": "https://github.com/forge-treasury/forge-cursor-plugin",
+  "readme": "https://github.com/forge-treasury/forge-cursor-plugin#readme"
+}

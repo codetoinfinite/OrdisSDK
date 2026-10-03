@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "axion-gateway",
+  "description": "Verified answers with named sources: UK parking appeals, NYC dismissal rates, UK MTD tax facts.",
+  "packageName": "@alphesdk-remote/com-getaxionlabs-axion-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getaxionlabs.com/mcp"
+    }
+  ],
+  "url": "https://mcp.getaxionlabs.com"
+}

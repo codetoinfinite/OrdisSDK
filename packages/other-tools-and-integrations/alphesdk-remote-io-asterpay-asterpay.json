@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AsterPay — EUR Settlement for AI Agents",
+  "description": "EUR settlement + trust for AI agent commerce: budgets, KYA, merchant discovery. 22 tools.",
+  "packageName": "@alphesdk-remote/io-asterpay-asterpay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-api.asterpay.io/mcp"
+    }
+  ],
+  "url": "https://github.com/AsterPay/erc8183-kya-hook",
+  "readme": "https://github.com/AsterPay/erc8183-kya-hook#readme"
+}

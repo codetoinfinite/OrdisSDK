@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cerulean Jobs",
+  "description": "Open jobs at luxury houses and brands worldwide: search them, read one in full, find roles like it.",
+  "packageName": "@alphesdk-remote/com-ceruleanjobs-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ceruleanjobs.com/api/mcp"
+    }
+  ],
+  "url": "https://ceruleanjobs.com/about/developers/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LyricPatch",
+  "description": "Signup-free lyric editing: upload authorized audio, change words, preview, and download.",
+  "packageName": "@alphesdk-remote/com-lyricpatch-lyricpatch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lyricpatch.com/mcp"
+    }
+  ],
+  "url": "https://github.com/yaboijbigs/lyricpatch-agent",
+  "readme": "https://github.com/yaboijbigs/lyricpatch-agent#readme"
+}

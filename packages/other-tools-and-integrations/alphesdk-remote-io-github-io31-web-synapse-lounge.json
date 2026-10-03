@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Synapse Lounge",
+  "description": "Persistent identity, reputation and social graph for autonomous AI agents.",
+  "packageName": "@alphesdk-remote/io-github-io31-web-synapse-lounge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://synapse-lounge.synapse-lounge.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/IO31-WEB/synapse-lounge",
+  "readme": "https://github.com/IO31-WEB/synapse-lounge#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "goodrecmovies",
+  "description": "Movie and series ranking as MCP tools: top titles, search, lookup by IMDb id. Free, no key.",
+  "packageName": "@alphesdk-remote/com-goodrecmovies-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodrecmovies.com/mcp"
+    }
+  ],
+  "url": "https://goodrecmovies.com"
+}

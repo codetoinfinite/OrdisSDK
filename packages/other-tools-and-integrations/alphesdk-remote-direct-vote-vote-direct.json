@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vote.direct",
+  "description": "Run a real election or board vote: price it, check state HOA rules, draft the ballot and voter list.",
+  "packageName": "@alphesdk-remote/direct-vote-vote-direct",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vote.direct/api/mcp"
+    }
+  ],
+  "url": "https://vote.direct/agents"
+}

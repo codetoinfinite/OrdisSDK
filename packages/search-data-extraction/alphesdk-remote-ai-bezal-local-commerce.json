@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Bezal — Local Business Intelligence for AI Agents",
+  "description": "Search 7,000+ local service businesses across America by category, location, or keyword.",
+  "packageName": "@alphesdk-remote/ai-bezal-local-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.bezal.ai/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LuckDrop",
+  "description": "Enter LuckDrop's free weekly on-chain prize draw, check the live draw, and claim prizes.",
+  "packageName": "@alphesdk-remote/app-luckdrop-luckdrop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://luckdrop.app/mcp"
+    }
+  ],
+  "url": "https://luckdrop.app"
+}

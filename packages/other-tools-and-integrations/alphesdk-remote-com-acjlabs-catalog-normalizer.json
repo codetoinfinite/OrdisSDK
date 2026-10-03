@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Catalog Attribute Normalizer",
+  "description": "Catalog attribute normalizer, taxonomy-grounded — no fabricated Google/Shopify category IDs.",
+  "packageName": "@alphesdk-remote/com-acjlabs-catalog-normalizer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catalog-normalizer.acjlabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/acjlabs/catalog-normalizer",
+  "readme": "https://github.com/acjlabs/catalog-normalizer#readme"
+}

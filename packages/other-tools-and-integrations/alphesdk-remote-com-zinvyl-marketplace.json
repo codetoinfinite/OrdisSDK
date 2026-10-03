@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zinvyl Marketplace Agent Gateway",
+  "description": "Private work routing for authorized buyers and agents, with Zinvyl as the first enabled supplier.",
+  "packageName": "@alphesdk-remote/com-zinvyl-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zinvyl.com/marketplace/agent-mcp"
+    }
+  ],
+  "url": "https://zinvyl.com/marketplace/"
+}

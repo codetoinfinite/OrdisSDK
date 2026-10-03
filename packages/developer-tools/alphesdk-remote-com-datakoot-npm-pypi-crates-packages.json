@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Package Intel MCP",
+  "description": "Package intelligence for AI agents across npm, PyPI, crates.io and deps.dev. No API keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-npm-pypi-crates-packages",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://package.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/package-intel-mcp",
+  "readme": "https://github.com/datakoot/package-intel-mcp#readme"
+}

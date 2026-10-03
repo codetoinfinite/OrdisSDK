@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UsedBikeCenter ZAMA バイク・原付の買取査定 (Japan motorcycle buyback)",
+  "description": "バイクを売りたい方へ。中古バイク・原付・スクーターの買取相場照会と無料出張査定の申込。対応=神奈川・東京・埼玉・千葉・茨城・群馬・山梨。Japan used motorcycle buyback.",
+  "packageName": "@alphesdk-remote/com-shonanfarm-zama-bike-kaitori",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shonanfarm.com/wp-json/zama/v1/mcp"
+    }
+  ],
+  "url": "https://shonanfarm.com/bike-satei-simulator/"
+}

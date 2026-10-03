@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "First Dollar Desk",
+  "description": "Human $1 Stripe checkout and $0.05 Base USDC agent verify over HTTP 402. Self-pay rejected.",
+  "packageName": "@alphesdk-remote/dev-workers-undone-k-first-dollar-desk-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://first-dollar-desk.undone-k.workers.dev/mcp"
+    }
+  ],
+  "url": "https://first-dollar-desk.undone-k.workers.dev"
+}

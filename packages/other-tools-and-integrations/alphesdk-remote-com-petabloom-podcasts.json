@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "podcasts",
+  "description": "An MCP server that provides tools to discover and retrieve podcast episodes transcripts.",
+  "packageName": "@alphesdk-remote/com-petabloom-podcasts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://podcasts.petabloom.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "adsbiq",
+  "description": "Read-only access to live ADSBiq aircraft and network state, with community contribution metadata.",
+  "packageName": "@alphesdk-remote/com-adsbiq-adsbiq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adsbiq.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Sky-Power-Services/adsbiq-mcp-server",
+  "readme": "https://github.com/Sky-Power-Services/adsbiq-mcp-server#readme"
+}

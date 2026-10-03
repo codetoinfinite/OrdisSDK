@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "eko",
+  "name": "Eko",
+  "description": "JavaScript framework for natural-language agentic workflows that run in browser extensions, web pages and Node.js.",
+  "category": "browser-automation",
+  "tags": ["agent-framework", "workflows", "browser-agent", "javascript"],
+  "repo": "https://github.com/FellouAI/eko",
+  "publisher": "Fellou AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Turns a plain-language request into a multi-step workflow carried out by browser and computer agents. Developers embed it in extensions or server scripts; the repo includes runnable example projects for each environment.",
+  "howItWorks": "A planner converts the prompt into a workflow whose steps are assigned to agents with tool access, and independent steps can run in parallel. Execution can be paused, resumed and interrupted. The Node example drives browsers through Playwright and takes model keys from environment variables.",
+  "requirements": [
+    {
+      "name": "Node.js and pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Build and run the packages and examples"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Used by the Node.js example"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Used by the Node.js example"
+    }
+  ],
+  "install": ["pnpm install @eko-ai/eko"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic and other providers",
+  "mcp": "client",
+  "github": {
+    "stars": 4961,
+    "license": "MIT",
+    "pushedAt": "2026-03-03",
+    "checkedAt": "2026-10-03"
+  }
+}

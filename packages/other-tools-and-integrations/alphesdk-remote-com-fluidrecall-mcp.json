@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fluid Recall",
+  "description": "Agent-native spaced-recall system of record. Deterministic dueAt via remote MCP for Muse/any agent.",
+  "packageName": "@alphesdk-remote/com-fluidrecall-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fluidrecall.com/mcp"
+    }
+  ],
+  "url": "https://fluidrecall.com"
+}

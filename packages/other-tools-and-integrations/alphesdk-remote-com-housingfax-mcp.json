@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HOUSINGFAX",
+  "description": "Immediate home report for a building or flat in Spain: 22 checks from official public sources.",
+  "packageName": "@alphesdk-remote/com-housingfax-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://housingfax.com/mcp"
+    }
+  ],
+  "url": "https://housingfax.com"
+}

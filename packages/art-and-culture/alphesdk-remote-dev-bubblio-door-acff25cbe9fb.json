@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "door_acff25cbe9fb",
+  "description": "Stylica — Generate images with AI (agent door via Bubblio)",
+  "packageName": "@alphesdk-remote/dev-bubblio-door-acff25cbe9fb",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bubblio.dev/agent/door_acff25cbe9fb/mcp"
+    }
+  ],
+  "url": "https://api.bubblio.dev/agent/door_acff25cbe9fb"
+}

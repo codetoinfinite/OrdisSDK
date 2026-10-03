@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SignatureForever",
+  "description": "Audit and build email signatures that survive Gmail, Outlook desktop and Apple Mail.",
+  "packageName": "@alphesdk-remote/com-signatureforever-email-signatures",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signatureforever.com/mcp"
+    }
+  ],
+  "url": "https://signatureforever.com"
+}

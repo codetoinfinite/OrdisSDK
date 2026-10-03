@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tournride — Camino de Santiago bike rental",
+  "description": "Real-time bike rental availability, exact prices and route knowledge for the Camino de Santiago.",
+  "packageName": "@alphesdk-remote/com-tournride-camino-bike-rental",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tournride.com/via/registro-oficial/mcp"
+    }
+  ],
+  "url": "https://www.tournride.com"
+}

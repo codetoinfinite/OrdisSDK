@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Awesome Indie",
+  "description": "Search indie product launches, rankings and makers, and submit your own, on Awesome Indie.",
+  "packageName": "@alphesdk-remote/com-awesomeindie-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://awesomeindie.com/api/mcp"
+    }
+  ],
+  "url": "https://awesomeindie.com"
+}

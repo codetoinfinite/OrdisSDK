@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "watsonx-langgraph-react-agent",
+  "name": "watsonx.ai LangGraph ReAct Agent",
+  "description": "IBM's base agent template: a LangGraph ReAct agent with tool calling that runs locally and deploys to watsonx.ai as an AI service.",
+  "category": "developer-tools",
+  "tags": ["watsonx", "langgraph", "react-agent", "template"],
+  "repo": "https://github.com/IBM/watsonx-developer-hub",
+  "subpath": "agents/base/langgraph-react-agent",
+  "publisher": "IBM",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It gives developers a working function-calling agent they can adapt with their own tools, test locally and deploy on IBM Cloud, including a chat app for talking to the deployment.",
+  "howItWorks": "The agent is a LangGraph ReAct graph using a watsonx.ai chat model and tools defined in the template. The watsonx-ai CLI scaffolds the template, invokes it locally and creates the deployed service.",
+  "requirements": [
+    {
+      "name": "IBM watsonx.ai account",
+      "kind": "account",
+      "required": true,
+      "description": "API key, project/space and URL set in the template config"
+    },
+    {
+      "name": "Python 3.11",
+      "kind": "runtime",
+      "required": true,
+      "description": "Template environment"
+    }
+  ],
+  "install": [
+    "pip install -U ibm-watsonx-ai-cli",
+    "watsonx-ai template new \"base/langgraph-react-agent\""
+  ],
+  "run": ["watsonx-ai template invoke \"<query>\""],
+  "interfaces": ["cli", "api"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Models hosted on watsonx.ai",
+  "mcp": "none",
+  "github": {
+    "stars": 51,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

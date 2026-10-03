@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HortOS (United States)",
+  "description": "Search US wholesale plant growers' live availability lists and price a whole plant list. Read-only.",
+  "packageName": "@alphesdk-remote/com-hortosapp-us",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://us.hortosapp.com/mcp"
+    }
+  ],
+  "url": "https://us.hortosapp.com/ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HouseData — Zillow data",
+  "description": "Zillow data for agents: listings, records, Zestimate history, market stats. 19 tools, pay per call.",
+  "packageName": "@alphesdk-remote/dev-housedata-zillow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.housedata.dev/mcp"
+    }
+  ],
+  "url": "https://housedata.dev/agents/"
+}

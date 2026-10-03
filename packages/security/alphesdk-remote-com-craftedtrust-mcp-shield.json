@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-shield",
+  "description": "Trust verification for MCP servers. Check scores, scan for security issues, search 4,200+ servers.",
+  "packageName": "@alphesdk-remote/com-craftedtrust-mcp-shield",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.craftedtrust.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/cybercraftsolutionsllc/trust-gated-agent-example",
+  "readme": "https://github.com/cybercraftsolutionsllc/trust-gated-agent-example#readme"
+}

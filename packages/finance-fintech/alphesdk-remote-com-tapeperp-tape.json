@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tape — Hyperliquid Analytics",
+  "description": "Live Hyperliquid perps analytics for agents: funding, OI, whale prints, leaderboard, wallet risk.",
+  "packageName": "@alphesdk-remote/com-tapeperp-tape",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tapeperp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Bravo223/tape-deploy",
+  "readme": "https://github.com/Bravo223/tape-deploy#readme"
+}

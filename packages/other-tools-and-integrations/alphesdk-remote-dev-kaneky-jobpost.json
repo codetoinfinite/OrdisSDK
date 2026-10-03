@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jobpost",
+  "description": "Read the job posting from any career page: title, employer, dates, salary. Paid per call, x402.",
+  "packageName": "@alphesdk-remote/dev-kaneky-jobpost",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobpost.kaneky.dev/mcp"
+    }
+  ],
+  "url": "https://jobpost.kaneky.dev/"
+}

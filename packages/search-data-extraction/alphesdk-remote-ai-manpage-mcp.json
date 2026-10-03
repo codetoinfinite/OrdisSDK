@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Manpage MCP",
+  "description": "Search and read Linux manual pages with version-aware lookup and exact package provenance.",
+  "packageName": "@alphesdk-remote/ai-manpage-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://manpage.ai/mcp"
+    }
+  ],
+  "url": "https://manpage.ai"
+}

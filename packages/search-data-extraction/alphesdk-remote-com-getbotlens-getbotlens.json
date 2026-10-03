@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BotLens AI Gateway",
+  "description": "MCP gateway for getbotlens.com: articles, search and full text. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/com-getbotlens-getbotlens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getbotlens.mcp.getbotlens.com/mcp"
+    }
+  ],
+  "url": "https://getbotlens.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TripWays",
+  "description": "Find, price, and book tours, day trips, and activities worldwide, with live dates and prices.",
+  "packageName": "@alphesdk-remote/com-tripways-tours",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tripways.com/mcp"
+    }
+  ],
+  "url": "https://tripways.com/mcp/"
+}

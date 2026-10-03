@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OFACScreen Sanctions Screening",
+  "description": "Screen names against OFAC SDN and 7 more global sanctions lists. Free, no account required.",
+  "packageName": "@alphesdk-remote/com-ofacscreen-screening",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ofacscreen.com/mcp"
+    }
+  ],
+  "url": "https://www.ofacscreen.com"
+}

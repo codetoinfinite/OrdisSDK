@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "invoicehub",
+  "description": "Validate, generate & convert EU e-invoices (UBL, CII, XRechnung, Factur-X) — EN 16931 pre-validated.",
+  "packageName": "@alphesdk-remote/dev-invoicehub-invoicehub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.invoicehub.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/einvoice-dev1/einvoice",
+  "readme": "https://github.com/einvoice-dev1/einvoice#readme"
+}

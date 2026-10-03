@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-mcp",
+  "description": "Korean-Japanese bilingual community. Read public posts/comments, route Korea/Japan queries.",
+  "packageName": "@alphesdk-remote/com-kimchi-sushi-agent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kimchi-sushi.com/mcp"
+    }
+  ],
+  "url": "https://kimchi-sushi.com"
+}

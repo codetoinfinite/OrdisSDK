@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Context Studios MCP",
+  "description": "AI agency API: free tools for glossary, comparisons, blog, guides, estimates and consulting",
+  "packageName": "@alphesdk-remote/ai-contextstudios-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.contextstudios.ai/api/public/mcp"
+    }
+  ],
+  "url": "https://www.contextstudios.ai/en/mcp"
+}

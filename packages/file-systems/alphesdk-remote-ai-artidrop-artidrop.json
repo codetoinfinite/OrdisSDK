@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "artidrop",
+  "description": "Publish HTML, Markdown, and multi-file sites as shareable URLs instantly via MCP.",
+  "packageName": "@alphesdk-remote/ai-artidrop-artidrop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://artidrop.ai/mcp"
+    }
+  ]
+}

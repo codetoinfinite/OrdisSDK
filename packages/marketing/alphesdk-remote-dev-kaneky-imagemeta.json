@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Imagemeta",
+  "description": "Write SEO metadata (title, alt text, keywords, copyright) into JPEG, PNG, WebP. Paid per call, x402.",
+  "packageName": "@alphesdk-remote/dev-kaneky-imagemeta",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://imagemeta.kaneky.dev/mcp"
+    }
+  ],
+  "url": "https://imagemeta.kaneky.dev/"
+}

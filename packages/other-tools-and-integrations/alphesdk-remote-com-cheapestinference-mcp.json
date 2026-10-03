@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Discover unlimited LLM inference pools, get USDC quotes, subscribe on Base, check key status.",
+  "packageName": "@alphesdk-remote/com-cheapestinference-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.cheapestinference.com/mcp"
+    }
+  ],
+  "url": "https://cheapestinference.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vignette-id",
+  "description": "European motorway vignette catalogue: covered countries, each country's toll rules, today's prices.",
+  "packageName": "@alphesdk-remote/eu-e-vignettes-vignette-id",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://e-vignettes.eu/mcp"
+    }
+  ],
+  "url": "https://e-vignettes.eu/developers"
+}

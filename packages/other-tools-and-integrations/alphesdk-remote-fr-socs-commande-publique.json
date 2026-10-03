@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "socs.fr, la commande publique française",
+  "description": "French public procurement: open tenders from BOAMP, public buyers, and contracts won by a company.",
+  "packageName": "@alphesdk-remote/fr-socs-commande-publique",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socs.fr/mcp"
+    }
+  ],
+  "url": "https://socs.fr/agents"
+}

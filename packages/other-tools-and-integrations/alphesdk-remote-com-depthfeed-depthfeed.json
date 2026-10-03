@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DepthFeed",
+  "description": "Order-book depth & history for Polymarket, Kalshi & Limitless. Keyless demo, key for full access.",
+  "packageName": "@alphesdk-remote/com-depthfeed-depthfeed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.depthfeed.com/mcp"
+    }
+  ],
+  "url": "https://depthfeed.com"
+}

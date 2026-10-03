@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Skateboard Personalizado",
+  "description": "Turn your artwork into a real custom skateboard deck, shown assembled in 3D, with a link to order.",
+  "packageName": "@alphesdk-remote/com-skateboardpersonalizado-skateboard-deck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skateboardpersonalizado.com/api/mcp"
+    }
+  ],
+  "url": "https://skateboardpersonalizado.com/en/blog/skateboard-deck-mcp-server"
+}

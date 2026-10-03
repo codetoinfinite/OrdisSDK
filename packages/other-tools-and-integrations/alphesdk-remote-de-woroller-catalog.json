@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "woroller.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für E-Roller – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-woroller-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://woroller.de/api/mcp"
+    }
+  ],
+  "url": "https://woroller.de"
+}

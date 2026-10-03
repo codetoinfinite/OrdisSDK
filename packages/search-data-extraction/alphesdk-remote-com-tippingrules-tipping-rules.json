@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tipping Rules",
+  "description": "Read-only travel tipping for 140 destinations: search, country rules, and tip calculator.",
+  "packageName": "@alphesdk-remote/com-tippingrules-tipping-rules",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tippingrules.com/api/mcp"
+    }
+  ],
+  "url": "https://www.tippingrules.com"
+}

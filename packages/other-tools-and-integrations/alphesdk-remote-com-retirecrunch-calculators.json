@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "calculators",
+  "description": "FIRE & retirement calculators + a multi-currency portfolio rebalancer (exact buy/sell trades).",
+  "packageName": "@alphesdk-remote/com-retirecrunch-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.retirecrunch.com/mcp"
+    }
+  ],
+  "url": "https://github.com/malagodia/fire",
+  "readme": "https://github.com/malagodia/fire#readme"
+}

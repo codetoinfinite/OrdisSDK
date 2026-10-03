@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Rovv - Book Rides in Africa",
+  "description": "Book rides, get fare estimates, and manage trips across African cities with Rovv.",
+  "packageName": "@alphesdk-remote/com-rovvafrica-ride-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rovvafrica.com/api/v1/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RCQ Data Oracle",
+  "description": "Signed BTC and macro market intelligence for autonomous research, risk, and trading agents.",
+  "packageName": "@alphesdk-remote/com-rcqsignals-data-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rcqsignals.com/mcp"
+    }
+  ],
+  "url": "https://mcp.rcqsignals.com/"
+}

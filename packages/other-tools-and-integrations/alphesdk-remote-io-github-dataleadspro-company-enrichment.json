@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "company-enrichment",
+  "description": "Enrich any domain into a full company profile with firmographics and buying signals.",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-company-enrichment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/company-enrichment"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/company-enrichment",
+  "readme": "https://github.com/DataLeadsPRO/company-enrichment#readme"
+}

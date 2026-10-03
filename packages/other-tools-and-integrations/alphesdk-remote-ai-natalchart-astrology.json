@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NatalChart.AI Astrology",
+  "description": "Swiss Ephemeris astrology: natal charts, transits, synastry, solar returns and astrocartography.",
+  "packageName": "@alphesdk-remote/ai-natalchart-astrology",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.natalchart.ai/mcp"
+    }
+  ],
+  "url": "https://www.natalchart.ai/astrology-mcp-server"
+}

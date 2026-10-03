@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ärikratt",
+  "description": "Estonian companies, EMTAK, grants and tenders from public registers.",
+  "packageName": "@alphesdk-remote/ee-arikratt-arikratt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arikratt.ee/mcp"
+    }
+  ],
+  "url": "https://arikratt.ee/en/mcp"
+}

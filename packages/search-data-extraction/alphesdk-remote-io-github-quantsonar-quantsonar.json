@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "QuantSonar",
+  "description": "China A-share market data for research, backtesting and AI agents via MCP.",
+  "packageName": "@alphesdk-remote/io-github-quantsonar-quantsonar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quantsonar.com/mcp"
+    }
+  ],
+  "url": "https://quantsonar.com"
+}

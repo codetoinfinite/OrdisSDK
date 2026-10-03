@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "concordance",
+  "description": "Deterministic claim verification with receipts across ~60 domains. No model in the loop.",
+  "packageName": "@alphesdk-remote/com-narrowhighway-concordance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://narrowhighway.com/mcp"
+    }
+  ],
+  "url": "https://github.com/matharrismma/concordance-2",
+  "readme": "https://github.com/matharrismma/concordance-2#readme"
+}

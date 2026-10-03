@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "korea-stay",
+  "description": "Korean lodging: 84,490 stays from 4 government permit ledgers + KTO TourAPI, honest gaps",
+  "packageName": "@alphesdk-remote/app-sallim-korea-stay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stay.sallim.app/mcp?via=official"
+    }
+  ]
+}

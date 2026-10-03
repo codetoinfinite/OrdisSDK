@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RMCP",
+  "description": "Search remote Model Context Protocol servers and tools discovered by BuiltWith, without an API key.",
+  "packageName": "@alphesdk-remote/dev-rmcp-rmcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rmcp.dev/mcp"
+    }
+  ],
+  "url": "https://rmcp.dev"
+}

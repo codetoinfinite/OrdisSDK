@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "flowers",
+  "description": "Find flower arrangements, check US florist delivery by ZIP and date, get a purchase link + pricing",
+  "packageName": "@alphesdk-remote/com-theflowersdirectory-flowers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.theflowersdirectory.com/mcp"
+    }
+  ],
+  "url": "https://www.theflowersdirectory.com"
+}

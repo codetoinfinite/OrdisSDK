@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "quorum",
+  "description": "Market evidence with receipts: every claim resolves to a real stored record you can fetch back.",
+  "packageName": "@alphesdk-remote/io-github-godzilla-lab-quorum",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quorum-api-j15n.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Godzilla-lab/Quorum-API",
+  "readme": "https://github.com/Godzilla-lab/Quorum-API#readme"
+}

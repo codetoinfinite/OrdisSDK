@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CasaCaddy Maintenance",
+  "description": "Read guide requirements, prepare confirmed maintenance guides and check your device-owned jobs.",
+  "packageName": "@alphesdk-remote/com-soxoa-casacaddy-maintenance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.casacaddy.com/mcp"
+    }
+  ],
+  "url": "https://api.casacaddy.com/developers"
+}

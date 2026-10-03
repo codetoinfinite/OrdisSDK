@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SendIt",
+  "description": "Publish and schedule social posts, upload media, and review analytics through OAuth.",
+  "packageName": "@alphesdk-remote/io-github-shree-git-sendit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sendit.infiniteappsai.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Shree-git/sendit-agent-integrations",
+  "readme": "https://github.com/Shree-git/sendit-agent-integrations#readme"
+}

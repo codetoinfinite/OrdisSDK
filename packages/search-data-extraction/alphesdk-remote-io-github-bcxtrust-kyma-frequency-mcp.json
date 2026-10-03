@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "KYMA Frequency MCP",
+  "description": "Search KYMA369's public frequency library and open sets in the free KYMA app.",
+  "packageName": "@alphesdk-remote/io-github-bcxtrust-kyma-frequency-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eaqistzhmblvuxndwfbn.supabase.co/functions/v1/freq-mcp"
+    }
+  ],
+  "url": "https://github.com/BCXTRUST/kyma-frequency-mcp",
+  "readme": "https://github.com/BCXTRUST/kyma-frequency-mcp#readme"
+}

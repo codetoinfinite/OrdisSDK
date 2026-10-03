@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Total Parks",
+  "description": "Read-only MCP tools for Total Parks-listed Australian holiday parks, caravan parks, and campgrounds.",
+  "packageName": "@alphesdk-remote/au-com-totalparks-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.totalparks.com.au/mcp"
+    }
+  ],
+  "url": "https://totalparks.com.au/docs/api/mcp"
+}

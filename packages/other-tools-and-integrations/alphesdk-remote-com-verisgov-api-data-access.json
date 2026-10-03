@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "data-access",
+  "description": "Verified federal funding intelligence with sealed provenance; verify any figure at no charge.",
+  "packageName": "@alphesdk-remote/com-verisgov-api-data-access",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.verisgov.com/mcp"
+    }
+  ],
+  "url": "https://www.verisgov.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dokyumi Document Extraction",
+  "description": "Extract attached documents with saved schemas and review owned results, confidence and validation.",
+  "packageName": "@alphesdk-remote/com-dokyumi-document-extraction",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dokyumi.com/mcp"
+    }
+  ],
+  "url": "https://dokyumi.com/docs/mcp"
+}

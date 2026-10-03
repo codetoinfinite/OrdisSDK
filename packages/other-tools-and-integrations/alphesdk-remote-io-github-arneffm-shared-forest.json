@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Shared Forest",
+  "description": "Plant or sponsor trees in a shared forest that grows from its traffic. Sponsoring uses OAuth.",
+  "packageName": "@alphesdk-remote/io-github-arneffm-shared-forest",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sharedforest.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ArneFfm/shared-forest-agents",
+  "readme": "https://github.com/ArneFfm/shared-forest-agents#readme"
+}

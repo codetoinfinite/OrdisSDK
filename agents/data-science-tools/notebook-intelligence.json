@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "notebook-intelligence",
+  "name": "Notebook Intelligence",
+  "description": "AI coding assistant and agent framework for JupyterLab with chat, inline completion and agent mode over notebooks.",
+  "category": "data-science-tools",
+  "tags": ["jupyterlab", "coding-assistant", "copilot", "ollama", "mcp"],
+  "repo": "https://github.com/plmbr/notebook-intelligence",
+  "homepage": "https://nbi.plmbr.dev",
+  "publisher": "Plumber (plmbr)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Gives JupyterLab users a chat sidebar, inline completions and an agent that can create and edit notebooks and files. It works with several model providers including fully local ones.",
+  "howItWorks": "A JupyterLab extension routes requests to GitHub Copilot, OpenAI-compatible or LiteLLM providers, Ollama or Anthropic. It can attach external MCP servers as tools and offers a Claude mode that needs Node.js.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.10+ with JupyterLab 4.x"
+    },
+    {
+      "name": "Model provider account",
+      "kind": "account",
+      "required": true,
+      "description": "GitHub Copilot, an API key for a compatible provider, or a local Ollama"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": false,
+      "description": "Needed for Claude mode"
+    }
+  ],
+  "install": ["pip install notebook-intelligence"],
+  "run": ["jupyter lab"],
+  "interfaces": ["web", "ide", "chat"],
+  "language": "TypeScript",
+  "models": "GitHub Copilot, OpenAI-compatible, LiteLLM, Ollama, Anthropic",
+  "mcp": "client",
+  "github": {
+    "stars": 347,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

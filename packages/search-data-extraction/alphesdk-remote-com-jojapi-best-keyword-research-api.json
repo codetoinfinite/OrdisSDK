@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "best-keyword-research-api",
+  "description": "Best Keyword Research API: This Keyword Tool API Find millions of keyword suggestions for your SEO..",
+  "packageName": "@alphesdk-remote/com-jojapi-best-keyword-research-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/best-keyword-research-api"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/best-keyword-research-api"
+}

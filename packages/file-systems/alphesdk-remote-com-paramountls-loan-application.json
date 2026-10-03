@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Paramount Loan Services — Mortgage Loan Application",
+  "description": "File a Fannie Mae Form 1003 mortgage application with a licensed California broker. No API key.",
+  "packageName": "@alphesdk-remote/com-paramountls-loan-application",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://paramountls.com/mcp"
+    }
+  ],
+  "url": "https://paramountls.com/api.html"
+}

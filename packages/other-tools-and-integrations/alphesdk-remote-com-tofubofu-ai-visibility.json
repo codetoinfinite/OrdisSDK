@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "TofuBofu AI Visibility",
+  "description": "Free AI visibility scan for any B2B company: see how often AI engines recommend it, plus the fixes.",
+  "packageName": "@alphesdk-remote/com-tofubofu-ai-visibility",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tofubofu.com/mcp"
+    }
+  ]
+}

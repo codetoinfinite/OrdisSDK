@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "inbox-preview",
+  "description": "Render HTML/.eml emails in real Gmail, Outlook & Yahoo web clients and screenshot them",
+  "packageName": "@alphesdk-remote/ai-powerline-inbox-preview",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.powerline.ai/v1/mcp"
+    }
+  ],
+  "url": "https://powerline.ai/inbox-preview/"
+}

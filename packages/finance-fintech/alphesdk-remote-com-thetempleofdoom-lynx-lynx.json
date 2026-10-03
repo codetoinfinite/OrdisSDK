@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "lynx",
+  "description": "Inspection, steganography and forensics API for files and images. Bitcoin pay-per-use.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-lynx-lynx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lynx.thetempleofdoom.com/mcp"
+    }
+  ]
+}

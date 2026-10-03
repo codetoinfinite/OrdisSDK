@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Google Cloud Run",
+  "description": "Deploy applications to Cloud Run",
+  "packageName": "@alphesdk-remote/com-googleapis-run-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://run.googleapis.com/mcp"
+    }
+  ]
+}

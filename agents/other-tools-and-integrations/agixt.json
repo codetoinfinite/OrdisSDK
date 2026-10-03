@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "agixt",
+  "name": "AGiXT",
+  "description": "AI automation platform with 40+ built-in extensions and multi-provider model support for connecting agents to real systems.",
+  "category": "other-tools-and-integrations",
+  "tags": ["automation", "extensions", "multi-provider", "self-hosted", "multi-tenant"],
+  "repo": "https://github.com/Josh-XT/AGiXT",
+  "homepage": "https://agixt.com",
+  "docs": "https://docs.agixt.com",
+  "publisher": "Josh XT",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Runs agents that act through extensions ranging from smart home and vehicle control to enterprise asset management. Includes OAuth and multi-tenancy for organisational deployments.",
+  "howItWorks": "A pip-installed package provides an `agixt` command that starts the platform. Agents call extensions as tools and can use OpenAI, Anthropic, Google, Azure or local models.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "LLM provider or local model",
+      "kind": "service",
+      "required": true,
+      "description": "Any supported provider"
+    }
+  ],
+  "install": ["pip install agixt"],
+  "run": ["agixt start"],
+  "interfaces": ["web", "api", "cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Google, Azure, local models",
+  "mcp": "none",
+  "github": {
+    "stars": 3217,
+    "license": "MIT",
+    "pushedAt": "2026-07-28",
+    "checkedAt": "2026-10-03"
+  }
+}

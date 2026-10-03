@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Supovia Customer Support",
+  "description": "Reply to and resolve customer chats, search your help docs and see which conversations need you.",
+  "packageName": "@alphesdk-remote/com-supovia-supovia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.supovia.com/mcp"
+    }
+  ],
+  "url": "https://www.supovia.com/developers/#mcp"
+}

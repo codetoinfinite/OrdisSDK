@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "brazil-macro-ai",
+  "description": "Brazil Macroeconomic and Financial Data AI Platform for AI agents.",
+  "packageName": "@alphesdk-remote/com-brazilmacro-brazil-macro-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.brazilmacro.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NC Keys — Northern Cyprus property",
+  "description": "Northern Cyprus property listings for rent and sale: search by region, price, layout. Read-only.",
+  "packageName": "@alphesdk-remote/com-nckeys-listings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nckeys.com/mcp"
+    }
+  ],
+  "url": "https://nckeys.com/developers"
+}

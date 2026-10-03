@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "iwant.fyi - shop, price-check and keep looking",
+  "description": "No key needed. Search real products and live dealer inventory, price-check, keep standing wants.",
+  "packageName": "@alphesdk-remote/fyi-iwant-iwant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iwant.fyi/api/mcp"
+    }
+  ],
+  "url": "https://github.com/staugs/iwantfyi-spec",
+  "readme": "https://github.com/staugs/iwantfyi-spec#readme"
+}

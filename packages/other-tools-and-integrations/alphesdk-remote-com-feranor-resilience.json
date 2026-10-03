@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Feranor Resilience",
+  "description": "Scan/purge hidden text & score web domains: TLS, DNS, headers, speed. Free scans, $0.01 actions.",
+  "packageName": "@alphesdk-remote/com-feranor-resilience",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.feranor.com/mcp"
+    }
+  ],
+  "url": "https://www.feranor.com/tools/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "proofstack",
+  "description": "Audited indie product business cases with source-backed pricing, revenue and pricing benchmarks.",
+  "packageName": "@alphesdk-remote/app-vercel-proof-stack-lake-proofstack",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proof-stack-lake.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/lttxzmj/proofstack-mcp",
+  "readme": "https://github.com/lttxzmj/proofstack-mcp#readme"
+}

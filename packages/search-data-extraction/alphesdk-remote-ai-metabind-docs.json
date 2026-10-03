@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Metabind Docs",
+  "description": "Search and read the Metabind documentation: MCP Apps, BindJS, the SDKs, the CLI, and the APIs.",
+  "packageName": "@alphesdk-remote/ai-metabind-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.metabind.ai/mcp"
+    }
+  ],
+  "url": "https://docs.metabind.ai"
+}

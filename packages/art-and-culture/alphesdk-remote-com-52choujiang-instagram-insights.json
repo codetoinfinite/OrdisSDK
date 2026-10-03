@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX Instagram MCP",
+  "description": "Instagram MCP for public posts, comments, replies, users, and video/Reels speech-to-text.",
+  "packageName": "@alphesdk-remote/com-52choujiang-instagram-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/instagram/mcp"
+    }
+  ]
+}

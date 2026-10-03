@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KeenIELTS",
+  "description": "Free IELTS prep: band-scored student essays and interactive Listening/Reading drills graded in-chat.",
+  "packageName": "@alphesdk-remote/com-keenielts-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://keenielts.com/mcp"
+    }
+  ],
+  "url": "https://keenielts.com"
+}

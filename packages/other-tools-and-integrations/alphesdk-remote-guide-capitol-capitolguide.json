@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "capitolguide",
+  "description": "Navigate the U.S. Capitol complex: decode room codes, route buildings, check access, amenities.",
+  "packageName": "@alphesdk-remote/guide-capitol-capitolguide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://capitol.guide/mcp"
+    }
+  ],
+  "url": "https://capitol.guide"
+}

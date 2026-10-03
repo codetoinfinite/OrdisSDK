@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "giftroam",
+  "description": "Send real gifts to 190+ countries: search, check delivery, get a secure checkout link.",
+  "packageName": "@alphesdk-remote/com-giftroam-giftroam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.giftroam.com/mcp"
+    }
+  ],
+  "url": "https://giftroam.com"
+}

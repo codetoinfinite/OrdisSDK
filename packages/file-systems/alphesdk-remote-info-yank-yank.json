@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Yank",
+  "description": "Five sourced lines from a video, podcast, article or PDF, and a check that a quote is in its source",
+  "packageName": "@alphesdk-remote/info-yank-yank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yank.info/api/mcp"
+    }
+  ],
+  "url": "https://yank.info/developers#mcp"
+}

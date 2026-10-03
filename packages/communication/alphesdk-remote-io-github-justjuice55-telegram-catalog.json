@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "tgden — Telegram catalog & search",
+  "description": "Search 1.2M+ Telegram channels, 245k+ chats, 160k+ bots — no account, no key, no install.",
+  "packageName": "@alphesdk-remote/io-github-justjuice55-telegram-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tgden.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/JustJuice55/tgden-api",
+  "readme": "https://github.com/JustJuice55/tgden-api#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KHOTEM — Cryptographic Witness",
+  "description": "Paid cryptographic witness for agents: seal, attest, receipts. x402 USDC/Base.",
+  "packageName": "@alphesdk-remote/com-khotem-khotem-witness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://khotem.com/mcp"
+    }
+  ],
+  "url": "https://khotem.com"
+}

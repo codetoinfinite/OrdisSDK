@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI SENSE Free Public Tools",
+  "description": "60 public tools: queues, inboxes, webhooks, approvals, DNS, images, PDF, hashing and more.",
+  "packageName": "@alphesdk-remote/com-aisenseapi-free-public-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aisenseapi.com/mcp"
+    }
+  ],
+  "url": "https://github.com/aisenseapi/aisense-free-public-rest-apis",
+  "readme": "https://github.com/aisenseapi/aisense-free-public-rest-apis#readme"
+}

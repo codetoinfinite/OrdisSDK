@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hologram Model Hub",
+  "description": "Find open models and get download links with the SHA-256 each file must have.",
+  "packageName": "@alphesdk-remote/foundation-uor-hub-model-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hub.uor.foundation/mcp"
+    }
+  ],
+  "url": "https://github.com/Hologram-Technologies/hologram-live",
+  "readme": "https://github.com/Hologram-Technologies/hologram-live#readme"
+}

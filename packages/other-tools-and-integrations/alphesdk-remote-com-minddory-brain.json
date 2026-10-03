@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MindDory Brain",
+  "description": "Free: turn your AI chats into spaced-repetition vocabulary. 13 tools, reads and writes.",
+  "packageName": "@alphesdk-remote/com-minddory-brain",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.minddory.com/v1/brain/mcp"
+    }
+  ],
+  "url": "https://github.com/Hyneq00/minddory-mcp",
+  "readme": "https://github.com/Hyneq00/minddory-mcp#readme"
+}

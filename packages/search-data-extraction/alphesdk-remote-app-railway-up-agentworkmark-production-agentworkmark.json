@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentWorkmark",
+  "description": "Search reviewed AI services, inspect completed-work evidence, and check current availability.",
+  "packageName": "@alphesdk-remote/app-railway-up-agentworkmark-production-agentworkmark",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentworkmark-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://agentworkmark-production.up.railway.app/connect"
+}

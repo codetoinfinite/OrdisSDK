@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EventTrader Research (read-only)",
+  "description": "Read-only market research: index funds, event cards, CLOB data, fund analytics. No orders.",
+  "packageName": "@alphesdk-remote/com-cymetica-event-trader-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cymetica.com/mcp/v1/research"
+    }
+  ],
+  "url": "https://cymetica.com/build"
+}

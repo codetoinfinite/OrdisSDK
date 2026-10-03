@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "One AI Guide",
+  "description": "Read-only approved AI tools, public stacks, guides, and evidence-aware comparisons.",
+  "packageName": "@alphesdk-remote/com-oneaiguide-public-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oneaiguide.com/api/mcp/v1"
+    }
+  ],
+  "url": "https://oneaiguide.com/mcp"
+}

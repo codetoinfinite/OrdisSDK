@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "distress-diligence",
+  "description": "Distressed-SMB diligence: bankruptcy, lawsuits, recalls, exclusions, WARN layoffs, liens (sourced).",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-distress-diligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://diligence.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://diligence.dropwatchhq.com"
+}

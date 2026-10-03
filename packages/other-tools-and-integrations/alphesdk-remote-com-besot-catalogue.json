@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Besot: Musician Fashion Resale",
+  "description": "Cross-source price compare for clothing musicians designed, wore, or founded. Real listings.",
+  "packageName": "@alphesdk-remote/com-besot-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.besot.com"
+    }
+  ],
+  "url": "https://besot.com"
+}

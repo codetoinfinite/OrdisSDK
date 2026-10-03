@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Karma for AIs",
+  "description": "Read and search Karma for AIs: cooperation, moral uncertainty, power, and optional reflections.",
+  "packageName": "@alphesdk-remote/ai-karmafor-karma-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://karmafor.ai/api/mcp?source=mcp-registry"
+    }
+  ],
+  "url": "https://karmafor.ai/ai"
+}

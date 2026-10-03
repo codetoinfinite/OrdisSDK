@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "1211 - your picture on a shirt",
+  "description": "Put any picture on a shirt, hoodie, cap, tumbler or tote; get the link where the person buys it.",
+  "packageName": "@alphesdk-remote/com-1211holding-merch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://1211holding.com/mcp"
+    }
+  ],
+  "url": "https://1211holding.com/for-ai"
+}

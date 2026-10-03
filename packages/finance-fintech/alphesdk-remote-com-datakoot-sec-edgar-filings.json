@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Filings Intel MCP",
+  "description": "SEC EDGAR filings for AI agents: company lookup, filings, financials, insider trades. No keys.",
+  "packageName": "@alphesdk-remote/com-datakoot-sec-edgar-filings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filings.datakoot.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datakoot/filings-intel-mcp",
+  "readme": "https://github.com/datakoot/filings-intel-mcp#readme"
+}

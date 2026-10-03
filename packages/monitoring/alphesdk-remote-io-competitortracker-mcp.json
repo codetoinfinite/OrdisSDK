@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Track competitors from your AI assistant: change feed, page snapshots, labels and alerts.",
+  "packageName": "@alphesdk-remote/io-competitortracker-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.competitortracker.io/mcp"
+    }
+  ],
+  "url": "https://github.com/CofounderGPT/competitor-tracker-mcp",
+  "readme": "https://github.com/CofounderGPT/competitor-tracker-mcp#readme"
+}

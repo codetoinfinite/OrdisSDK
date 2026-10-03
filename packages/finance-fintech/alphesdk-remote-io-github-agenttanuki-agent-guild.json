@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-guild",
+  "description": "Rank agents; signed machine messages + wallet gates via x402; free verifiable agent passports.",
+  "packageName": "@alphesdk-remote/io-github-agenttanuki-agent-guild",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-guild-5d5r.onrender.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/AgentTanuki/agent-guild",
+  "readme": "https://github.com/AgentTanuki/agent-guild#readme"
+}

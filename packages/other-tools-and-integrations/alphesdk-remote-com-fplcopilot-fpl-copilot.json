@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FPL Copilot",
+  "description": "Fantasy Premier League expected points, team ratings, captaincy and mini-league win chances.",
+  "packageName": "@alphesdk-remote/com-fplcopilot-fpl-copilot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fplcopilot.com/mcp"
+    }
+  ],
+  "url": "https://fplcopilot.com"
+}

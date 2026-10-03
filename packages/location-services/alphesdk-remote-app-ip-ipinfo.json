@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IP Address API",
+  "description": "What's My IP Address: caller's public IP, ASN, geo, timezone, user-agent, headers, TLS info.",
+  "packageName": "@alphesdk-remote/app-ip-ipinfo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ip.app/mcp"
+    }
+  ],
+  "url": "https://ip.app"
+}

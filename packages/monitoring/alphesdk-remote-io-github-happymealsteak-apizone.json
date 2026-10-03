@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "apizone",
+  "description": "Real-time status & uptime monitoring for 294 popular APIs — is it down, and how reliable?",
+  "packageName": "@alphesdk-remote/io-github-happymealsteak-apizone",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apizone.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/HappyMealSteak/apizone-mcp",
+  "readme": "https://github.com/HappyMealSteak/apizone-mcp#readme"
+}

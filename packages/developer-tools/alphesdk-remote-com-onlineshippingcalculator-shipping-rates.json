@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shipping Rates & Postage Calculator",
+  "description": "Live USPS, UPS & FedEx shipping rates plus USPS postage and stamp prices. Free, no API key.",
+  "packageName": "@alphesdk-remote/com-onlineshippingcalculator-shipping-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onlineshippingcalculator.com/api/mcp"
+    }
+  ],
+  "url": "https://onlineshippingcalculator.com/mcp"
+}

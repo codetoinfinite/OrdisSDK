@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MeshMarket",
+  "description": "The agent-to-agent capability exchange — rent memory, reasoning and safety, settled per call.",
+  "packageName": "@alphesdk-remote/io-github-rightonpar-llc-meshmarket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://market.meshtool.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/RightOnPar-LLC/meshmarket-mcp",
+  "readme": "https://github.com/RightOnPar-LLC/meshmarket-mcp#readme"
+}

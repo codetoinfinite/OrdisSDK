@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ARVI Wine Catalog",
+  "description": "Swiss merchant ARVI SA: 27,000+ fine & rare wine labels, 300,000+ bottles ready to ship. No auth.",
+  "packageName": "@alphesdk-remote/ch-arvi-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arvi.ch/"
+    }
+  ],
+  "url": "https://arvi.ch"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GotFreeFax",
+  "description": "Send free or paid faxes to US/Canada from Claude, ChatGPT, and other AI agents.",
+  "packageName": "@alphesdk-remote/com-gotfreefax-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.gotfreefax.com/mcp"
+    }
+  ],
+  "url": "https://github.com/vannet/gotfreefax-mcp",
+  "readme": "https://github.com/vannet/gotfreefax-mcp#readme"
+}

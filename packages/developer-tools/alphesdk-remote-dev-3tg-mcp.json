@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "3TG Test Generation",
+  "description": "3rd Generation Testing (3TG) — generate deterministic test suites from Markdown spec tables via MCP.",
+  "packageName": "@alphesdk-remote/dev-3tg-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.3tg.dev/mcp"
+    }
+  ],
+  "url": "https://3tg.dev"
+}

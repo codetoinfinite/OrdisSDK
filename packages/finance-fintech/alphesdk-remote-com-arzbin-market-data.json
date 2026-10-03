@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Arzbin MCP Server",
+  "description": "Live Iran exchange rates, gold, crypto, and Toman market data for AI agents.",
+  "packageName": "@alphesdk-remote/com-arzbin-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hub.arzbin.com/mcp"
+    }
+  ],
+  "url": "https://github.com/arzbin-com/arzbin-mcp",
+  "readme": "https://github.com/arzbin-com/arzbin-mcp#readme"
+}

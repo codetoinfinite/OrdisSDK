@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alder Invoices",
+  "description": "Free invoice drafts, templates and direct PDF generation for AI agents. No account needed.",
+  "packageName": "@alphesdk-remote/com-alderinvoices-invoice-generator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alderinvoices.com/mcp"
+    }
+  ],
+  "url": "https://alderinvoices.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CasaNest",
+  "description": "Search public property listings in Portugal, compare homes and read INE housing statistics.",
+  "packageName": "@alphesdk-remote/eu-casanest-catalogue",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://casanest.eu/mcp"
+    }
+  ],
+  "url": "https://casanest.eu/ia"
+}

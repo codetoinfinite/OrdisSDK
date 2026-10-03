@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Silicon Friendly",
+  "description": "Directory rating websites on AI-agent-friendliness. Search, lookup, and submit.",
+  "packageName": "@alphesdk-remote/com-siliconfriendly-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://siliconfriendly.com/mcp"
+    }
+  ],
+  "url": "https://github.com/unlikefraction/silicon-friendly",
+  "readme": "https://github.com/unlikefraction/silicon-friendly#readme"
+}

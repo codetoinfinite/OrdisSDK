@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AnchorPad",
+  "description": "Launch Solana coins from your AI. You approve each launch in your wallet and earn creator fees.",
+  "packageName": "@alphesdk-remote/fun-anchorpad-anchorpad",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://anchorpad.fun/mcp"
+    }
+  ],
+  "url": "https://anchorpad.fun"
+}

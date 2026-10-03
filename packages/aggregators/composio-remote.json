@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Composio",
+  "description": "Single endpoint exposing Composio's catalog of app integrations as tools.",
+  "packageName": "@alphesdk-remote/composio",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://connect.composio.dev/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.composio.dev/",
+  "url": "https://github.com/ComposioHQ",
+  "author": "Composio",
+  "env": {}
+}

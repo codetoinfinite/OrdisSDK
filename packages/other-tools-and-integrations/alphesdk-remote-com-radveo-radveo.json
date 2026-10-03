@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "radveo",
+  "description": "Checks if AI assistants name a local business. Free shareable report, honest fixes, no guarantees.",
+  "packageName": "@alphesdk-remote/com-radveo-radveo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://radveo.com/api/mcp"
+    }
+  ],
+  "url": "https://radveo.com"
+}

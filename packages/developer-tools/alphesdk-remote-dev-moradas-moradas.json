@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Moradas — Portuguese addresses & postal codes",
+  "description": "Autocomplete Portuguese addresses and look up postal codes (CP7). Free remote MCP, no API key.",
+  "packageName": "@alphesdk-remote/dev-moradas-moradas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://moradas.dev/mcp"
+    }
+  ],
+  "url": "https://moradas.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Plexa",
+  "description": "Agentic directory of real businesses in Mexico & LATAM. Search by vertical and city.",
+  "packageName": "@alphesdk-remote/com-joinplexa-plexa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.joinplexa.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/incrematica/plexa-mcp",
+  "readme": "https://github.com/incrematica/plexa-mcp#readme"
+}

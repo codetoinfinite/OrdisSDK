@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "companies",
+  "description": "Verify a US company: officers, agents, motor carriers. Flags when our status disagrees with state.",
+  "packageName": "@alphesdk-remote/global-rootz-companies-companies",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://companies.rootz.global/mcp"
+    }
+  ]
+}

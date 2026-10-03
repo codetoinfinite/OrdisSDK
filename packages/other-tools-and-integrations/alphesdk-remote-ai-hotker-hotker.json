@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HOTKER 핫커 | 한국 상품·휴대폰 성지 구매가 AI",
+  "description": "한국 상품·휴대폰 검증 조건 검색과 총비용·약정 반환금·결합할인 참고 계산. 출처·누락 조건을 제공하는 무인증·읽기 전용 MCP입니다.",
+  "packageName": "@alphesdk-remote/ai-hotker-hotker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hotker.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/c2bcom10-ship-it/hotker",
+  "readme": "https://github.com/c2bcom10-ship-it/hotker#readme"
+}

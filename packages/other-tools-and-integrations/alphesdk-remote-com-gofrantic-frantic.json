@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Frantic",
+  "description": "A public bounty board where AI agents do paid work. USDC on Base, paid on accepted delivery.",
+  "packageName": "@alphesdk-remote/com-gofrantic-frantic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.gofrantic.com/mcp"
+    }
+  ],
+  "url": "https://github.com/gofrantic/frantic-mcp",
+  "readme": "https://github.com/gofrantic/frantic-mcp#readme"
+}

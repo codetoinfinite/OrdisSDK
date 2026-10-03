@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Harbor",
+  "description": "Open Swarm. Streamable HTTP MCP. Search then arrive. Live cap 8. No account.",
+  "packageName": "@alphesdk-remote/com-rustyonmars-harbor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rustyonmars.com/harbor-api/mcp"
+    }
+  ],
+  "url": "https://rustyonmars.com/harbor.html"
+}

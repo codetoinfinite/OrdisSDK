@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Family Fishin Website Discovery",
+  "description": "Read-only search of FamilyFishin.com articles, pages, products, prices, stock, and variations.",
+  "packageName": "@alphesdk-remote/com-familyfishin-mcp-site-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.familyfishin.com/mcp"
+    }
+  ],
+  "url": "https://familyfishin.com"
+}

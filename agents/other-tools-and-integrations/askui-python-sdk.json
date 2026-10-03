@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "askui-python-sdk",
+  "name": "AskUI Python SDK",
+  "description": "SDK for vision-based agents that operate desktop, mobile and embedded device screens from natural-language instructions.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "vision", "desktop", "mobile"],
+  "repo": "https://github.com/askui/python-sdk",
+  "docs": "https://docs.askui.com",
+  "publisher": "AskUI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Automates and tests interfaces on operating-system level, including applications without accessible DOM or APIs. It serves QA and automation engineers who need to drive any screen.",
+  "howItWorks": "A Python agent object connects to a controller on the target machine, captures the screen and uses vision models to locate elements and decide on actions, then sends real input events. An AskUI workspace supplies authentication and model access.",
+  "requirements": [
+    {
+      "name": "ASKUI_WORKSPACE_ID",
+      "kind": "account",
+      "required": true,
+      "description": "Workspace identifier from an AskUI account"
+    },
+    {
+      "name": "ASKUI_TOKEN",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access token for that workspace"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the SDK"
+    }
+  ],
+  "install": ["pip install askui"],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "Python",
+  "models": "AskUI models plus Anthropic and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 554,
+    "license": "MIT",
+    "pushedAt": "2026-09-22",
+    "checkedAt": "2026-10-03"
+  }
+}

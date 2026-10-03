@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-perception",
+  "description": "Geospatial AI MCP server — satellite imagery, embeddings, weather, GNS governance",
+  "packageName": "@alphesdk-remote/com-geiant-mcp-perception",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://packagesmcp-perception-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/GNS-Foundation/geiant",
+  "readme": "https://github.com/GNS-Foundation/geiant#readme"
+}

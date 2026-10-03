@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "exposure-audit",
+  "description": "Free AI-visibility and competitive Exposure Audit for any domain. No account, no API key.",
+  "packageName": "@alphesdk-remote/io-dozier-exposure-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dozier.io/backend/mcp"
+    }
+  ],
+  "url": "https://dozier.io/mcp"
+}

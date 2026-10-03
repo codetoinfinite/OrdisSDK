@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Licensed House Painters",
+  "description": "Find licensed house painters in 11 US states, with dated license status from state boards.",
+  "packageName": "@alphesdk-remote/agency-ottobot-licensed-house-painters",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://house-painters.ottobot.agency/mcp"
+    }
+  ],
+  "url": "https://github.com/modelcontextprotocol/registry",
+  "readme": "https://github.com/modelcontextprotocol/registry#readme"
+}

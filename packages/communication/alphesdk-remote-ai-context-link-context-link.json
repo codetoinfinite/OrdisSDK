@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Context Link",
+  "description": "One semantic search across your sites, Drive, Notion, email, files and Basecamp.",
+  "packageName": "@alphesdk-remote/ai-context-link-context-link",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.context-link.ai/mcp"
+    }
+  ],
+  "url": "https://www.context-link.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mdprint documentation",
+  "description": "Read-only mdprint product information, documentation and Markdown examples. No document uploads.",
+  "packageName": "@alphesdk-remote/io-github-fokuus-mdprint-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mdprint.app/mcp/docs"
+    }
+  ],
+  "url": "https://mdprint.app/developers/"
+}

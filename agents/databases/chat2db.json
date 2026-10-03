@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "chat2db",
+  "name": "Chat2DB",
+  "description": "AI-assisted database client for 40+ databases that generates, explains and optimises SQL with a model you bring.",
+  "category": "databases",
+  "tags": ["sql-client", "text-to-sql", "database", "desktop", "docker"],
+  "repo": "https://github.com/OtterMind/Chat2DB",
+  "homepage": "https://chat2db.ai",
+  "publisher": "Chat2DB",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "A database management tool for developers and DBAs with an assistant that drafts queries from natural language, explains existing SQL and suggests optimisations. It ships as a desktop app and as a self-hosted web service.",
+  "howItWorks": "A Java backend with a web front end manages connections and sends schema context to the configured model. Recent beta builds add an optional local agent runtime with skills and external MCP servers, and a separate command-line client exposes MCP.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Docker 19.03+ and Compose 2.0+ for the self-hosted route"
+    },
+    {
+      "name": "AI model credentials",
+      "kind": "api-key",
+      "required": false,
+      "description": "Your own model endpoint for the assistant features"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/OtterMind/Chat2DB.git && cd Chat2DB",
+    "./script/security/init-community-encryption-key.sh"
+  ],
+  "run": ["docker compose --file docker/docker-compose.yml up --detach"],
+  "interfaces": ["desktop", "web"],
+  "language": "Java",
+  "models": "Bring-your-own model endpoint",
+  "mcp": "client",
+  "github": {
+    "stars": 28299,
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

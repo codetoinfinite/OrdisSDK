@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "taxact-mcp",
+  "description": "Tax filing guidance, cost comparison, document checklists, and refund estimates by TaxAct.",
+  "packageName": "@alphesdk-remote/com-taxact-taxact-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.taxact.com/mcp"
+    }
+  ]
+}

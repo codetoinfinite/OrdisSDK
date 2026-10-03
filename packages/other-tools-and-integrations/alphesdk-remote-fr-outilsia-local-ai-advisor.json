@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OutilsIA — Conseiller IA locale",
+  "description": "Read-only local AI advice, shared reports and website audits. No PC scan or local actions.",
+  "packageName": "@alphesdk-remote/fr-outilsia-local-ai-advisor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://outilsia.fr/mcp"
+    }
+  ],
+  "url": "https://outilsia.fr/chatgpt-ia-locale"
+}

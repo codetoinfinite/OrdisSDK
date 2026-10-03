@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCPFax Food Facts",
+  "description": "Can this person eat this? Allergens, additives and nutrition from a barcode.",
+  "packageName": "@alphesdk-remote/com-mcpscores-food-facts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://food-facts.bowling-anthony.workers.dev/mcp"
+    }
+  ],
+  "url": "https://mcpscores.com"
+}

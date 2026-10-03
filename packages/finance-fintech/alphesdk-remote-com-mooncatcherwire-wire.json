@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mooncatcher Wire",
+  "description": "Free crypto news for agents: top stories by market impact, search, topics, AI digest.",
+  "packageName": "@alphesdk-remote/com-mooncatcherwire-wire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mooncatcherwire.com/mcp"
+    }
+  ],
+  "url": "https://www.mooncatcherwire.com/agents/"
+}

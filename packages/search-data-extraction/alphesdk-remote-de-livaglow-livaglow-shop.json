@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LivaGlow Shop",
+  "description": "Personalised ceramic mugs from Germany: prices, delivery, FAQ search, mug-design tool with preview.",
+  "packageName": "@alphesdk-remote/de-livaglow-livaglow-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://livaglow.de/api/mcp"
+    }
+  ],
+  "url": "https://livaglow.de/chatgpt"
+}

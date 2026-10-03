@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "curanz-sounds",
+  "description": "生年月日から占いを計算して答える。星座・九星気学の本命星と年盤・四柱推命の日干と流年・天中殺・数秘術の個人年。出生時刻は不要。古典の暦法による計算。",
+  "packageName": "@alphesdk-remote/io-github-kotaro-studio-curanz-sounds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://curanzsounds.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kotaro-Studio/curanz-sounds",
+  "readme": "https://github.com/Kotaro-Studio/curanz-sounds#readme"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "MarkItDown",
+  "description": "Converts PDFs, Office files, images, audio and URLs to Markdown.",
+  "packageName": "markitdown-mcp",
+  "packageVersion": "0.0.1a7",
+  "runtime": "python",
+  "readme": "https://github.com/microsoft/markitdown",
+  "url": "https://github.com/microsoft/markitdown",
+  "author": "Microsoft",
+  "env": {}
+}

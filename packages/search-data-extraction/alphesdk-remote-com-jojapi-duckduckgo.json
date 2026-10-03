@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "duckduckgo",
+  "description": "DuckDuckGo: The DuckDuckGo Search API is a tool that allows developers and businesses to integrate.",
+  "packageName": "@alphesdk-remote/com-jojapi-duckduckgo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/duckduckgo"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/duckduckgo"
+}

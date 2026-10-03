@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Clippy Mc Clipface",
+  "description": "Free, read-only coupon code lookup for your AI. Affiliate: Clippy may earn a commission.",
+  "packageName": "@alphesdk-remote/co-getclippy-clippy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getclippy.co/mcp"
+    }
+  ],
+  "url": "https://getclippy.co/mcp/docs"
+}

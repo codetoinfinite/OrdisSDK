@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Space Monkey Mailchimp Dashboard",
+  "description": "Mailchimp engagement intelligence for AI agents: campaign analytics and audience insights.",
+  "packageName": "@alphesdk-remote/com-igods-space-monkey",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spacemonkey.igods.com/_api/public/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/CameronKnowlton/spacemonkey",
+  "readme": "https://github.com/CameronKnowlton/spacemonkey#readme"
+}

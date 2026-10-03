@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PlugRail Corporate Number",
+  "description": "Japanese corporate number lookup using official National Tax Agency public data.",
+  "packageName": "@alphesdk-remote/dev-plugrail-jp-corporate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jp-corporate.plugrail.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/plugrail/servers",
+  "readme": "https://github.com/plugrail/servers#readme"
+}

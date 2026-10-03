@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Reverse Geocoding (coordinates to loc_id)",
+  "description": "Convert WGS84 coordinates to the latest available administrative loc_id chain.",
+  "packageName": "@alphesdk-remote/com-daedalmap-reverse-geocoding",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/reverse-geocoding"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

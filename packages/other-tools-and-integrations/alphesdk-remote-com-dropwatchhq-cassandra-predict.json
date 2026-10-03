@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cassandra-predict",
+  "description": "Cassandra prediction hub: one MCP door over govcon forecasts (recompete, contractor signals).",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-cassandra-predict",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predict.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://predict.dropwatchhq.com"
+}

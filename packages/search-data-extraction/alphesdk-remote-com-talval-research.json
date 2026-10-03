@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Talval",
+  "description": "Value-investing research: fair values, valuation verdicts, quality scores and 13F portfolios",
+  "packageName": "@alphesdk-remote/com-talval-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://talval.com/mcp"
+    }
+  ],
+  "url": "https://talval.com"
+}

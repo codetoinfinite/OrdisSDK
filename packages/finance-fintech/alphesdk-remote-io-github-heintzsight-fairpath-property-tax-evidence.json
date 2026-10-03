@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FairPath Property-Tax Evidence",
+  "description": "Sourced property-tax protest facts; homeowner reviews and files. Not a law firm; no outcome claims.",
+  "packageName": "@alphesdk-remote/io-github-heintzsight-fairpath-property-tax-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fairpath.app/mcp"
+    }
+  ],
+  "url": "https://fairpath.app/ai-agents.txt"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PESEL/NIP/REGON Validator",
+  "description": "Validates Polish PESEL, NIP, and REGON checksums; PESEL also decodes birth date and sex.",
+  "packageName": "@alphesdk-remote/com-apished-pesel-nip-regon-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/idvalidate"
+    }
+  ],
+  "url": "https://apished.com"
+}

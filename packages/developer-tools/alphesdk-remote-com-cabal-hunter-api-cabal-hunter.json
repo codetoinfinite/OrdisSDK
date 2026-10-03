@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cabal-hunter",
+  "description": "Solana pre-trade safety for AI agents: cabal, bundle, dump, deployer & honeypot in one verdict.",
+  "packageName": "@alphesdk-remote/com-cabal-hunter-api-cabal-hunter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.cabal-hunter.com/mcp"
+    }
+  ],
+  "url": "https://github.com/paulf280-ui/solana-safe-sniper-mcp-template",
+  "readme": "https://github.com/paulf280-ui/solana-safe-sniper-mcp-template#readme"
+}

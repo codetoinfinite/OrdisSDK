@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nota",
+  "description": "Read-only crypto research skills that check a price, RSI and ATR against independent sources.",
+  "packageName": "@alphesdk-remote/io-github-pugarhuda-nota",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nota-ryo.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/PugarHuda/nota",
+  "readme": "https://github.com/PugarHuda/nota#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ec-storefront",
+  "description": "JPYC (JPY stablecoin) EC platform MCP: product search, x402 gasless checkout, order status.",
+  "packageName": "@alphesdk-remote/com-jpyc-service-ec-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ec.jpyc-service.com/mcp"
+    }
+  ],
+  "url": "https://ec.jpyc-service.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fuse Network",
+  "description": "MCP server for Fuse Network: balances, tokens, staking, DeFi data, swaps and on-chain transactions.",
+  "packageName": "@alphesdk-remote/io-fuse-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fuse.io/mcp"
+    }
+  ],
+  "url": "https://www.fuse.io"
+}

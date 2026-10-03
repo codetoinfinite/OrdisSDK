@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ZahabPrice — Live Gold & Silver Prices",
+  "description": "Live gold & silver prices for 37 countries. Tamara/Tabby installment calculators for Saudi Arabia.",
+  "packageName": "@alphesdk-remote/com-zahabprice-gold-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.zahabprice.com/mcp"
+    }
+  ],
+  "url": "https://www.zahabprice.com"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "voltagent",
+  "name": "VoltAgent",
+  "description": "TypeScript agent framework with a starter app that registers a working agent and a human-in-the-loop workflow.",
+  "category": "developer-tools",
+  "tags": ["typescript", "framework", "workflows", "memory", "multi-agent"],
+  "repo": "https://github.com/VoltAgent/voltagent",
+  "homepage": "https://voltagent.dev",
+  "publisher": "VoltAgent",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Developers generate a project containing a general-purpose agent with tools and memory plus an expense approval workflow that can suspend and resume. Supervisor and specialist agents can be combined into multi-agent systems.",
+  "howItWorks": "The create CLI scaffolds the code, which wires an agent, optional LibSQL-backed memory and a Hono HTTP server. Models come from AI SDK providers, and the VoltOps console adds observability.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the CLI and generated project"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "For the AI provider used by the agent"
+    }
+  ],
+  "install": ["npm create voltagent-app@latest"],
+  "run": [],
+  "interfaces": ["cli", "api", "library"],
+  "language": "TypeScript",
+  "models": "Any provider supported by the AI SDK",
+  "mcp": "client",
+  "github": {
+    "stars": 10715,
+    "license": "MIT",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

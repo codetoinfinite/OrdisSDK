@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "qwenpaw",
+  "name": "QwenPaw",
+  "description": "Self-hosted personal AI assistant from the AgentScope team that works across chat apps and is extended with skills and plugins.",
+  "category": "communication",
+  "tags": ["personal-assistant", "chat-apps", "skills", "scheduling", "self-hosted"],
+  "repo": "https://github.com/agentscope-ai/QwenPaw",
+  "homepage": "https://qwenpaw.agentscope.io/",
+  "publisher": "Alibaba (AgentScope team)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "QwenPaw handles scheduled jobs such as digests and reports, coding help, file work and everyday questions, reachable from a web console and multiple messaging channels. It runs on your own machine or in the cloud.",
+  "howItWorks": "A locally run service built on AgentScope keeps memory, runs skills and tools, schedules recurring tasks and bridges to chat platforms. Models, including local ones via Ollama or LM Studio, are configured in settings.",
+  "requirements": [
+    {
+      "name": "Model provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "e.g. DASHSCOPE_API_KEY, or a local model server"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "pip install; Docker image also published"
+    }
+  ],
+  "install": ["pip install qwenpaw", "qwenpaw init --defaults"],
+  "run": ["qwenpaw app"],
+  "interfaces": ["web", "chat", "cli"],
+  "language": "Python",
+  "framework": "AgentScope",
+  "models": "Qwen via DashScope, other cloud providers, local models",
+  "mcp": "client",
+  "github": {
+    "stars": 35417,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

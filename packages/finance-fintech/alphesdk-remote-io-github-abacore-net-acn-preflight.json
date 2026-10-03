@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ACN Preflight",
+  "description": "Preflight checks for agent repository contributions, bounty work, and Base payments.",
+  "packageName": "@alphesdk-remote/io-github-abacore-net-acn-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://preflight.abacore.net/mcp"
+    }
+  ],
+  "url": "https://preflight.abacore.net/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "charity-registry",
+  "description": "Search, verify and compare 7.9M+ nonprofits from official charity registries in 100+ countries.",
+  "packageName": "@alphesdk-remote/com-giveradar-charity-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://giveradar.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/matt-timmermans/giveradar-mcp",
+  "readme": "https://github.com/matt-timmermans/giveradar-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nittim",
+  "description": "Production-safety audits for AI-generated code, with a fix for every finding.",
+  "packageName": "@alphesdk-remote/com-nittim-nittim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nittim.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ilanwolberger/nittim-mcp",
+  "readme": "https://github.com/ilanwolberger/nittim-mcp#readme"
+}

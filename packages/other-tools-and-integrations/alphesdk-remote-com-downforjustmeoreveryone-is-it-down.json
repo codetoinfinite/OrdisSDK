@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Is This Site Down?",
+  "description": "Check if any website is down, from two continents, with uptime history and TLS expiry",
+  "packageName": "@alphesdk-remote/com-downforjustmeoreveryone-is-it-down",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://downforjustmeoreveryone.com/mcp"
+    }
+  ],
+  "url": "https://downforjustmeoreveryone.com/api"
+}

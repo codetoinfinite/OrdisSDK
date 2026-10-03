@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Todoist (remote)",
+  "description": "Hosted Todoist server for managing tasks, projects and sections.",
+  "packageName": "@alphesdk-remote/todoist-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.todoist.net/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://www.todoist.com/help/articles/use-todoist-with-ai-assistants",
+  "url": "https://github.com/Doist/todoist-ai",
+  "author": "Doist",
+  "env": {}
+}

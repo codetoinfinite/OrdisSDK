@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crawdar Business Research",
+  "description": "Evidence-backed public business research for agents with compact, pageable output.",
+  "packageName": "@alphesdk-remote/com-crawdar-business-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crawdar.com/api/mcp"
+    }
+  ],
+  "url": "https://crawdar.com/agents"
+}

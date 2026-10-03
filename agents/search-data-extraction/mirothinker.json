@@ -1,0 +1,72 @@
+{
+  "type": "external-agent",
+  "key": "mirothinker",
+  "name": "MiroThinker",
+  "description": "Deep-research agent and open model family tuned for multi-step research and prediction tasks.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "prediction", "open-weights", "benchmarks", "tool-use"],
+  "repo": "https://github.com/MiroMindAI/MiroThinker",
+  "homepage": "https://miromind.ai/",
+  "publisher": "MiroMind AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Carries out long, tool-heavy research tasks such as browsing-based question answering and forecasting. It is for researchers and developers who want to run or benchmark an open research agent.",
+  "howItWorks": "The miroflow-agent app drives a model through tools that are configured as MCP servers: search and scrape, Python execution in an E2B sandbox, and optional vision, transcription and reasoning tools. Tool sets are declared in YAML configs and the model endpoint is passed on the command line.",
+  "requirements": [
+    {
+      "name": "SERPER_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Google search through Serper"
+    },
+    {
+      "name": "JINA_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web page scraping"
+    },
+    {
+      "name": "E2B_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Sandboxed code execution"
+    },
+    {
+      "name": "SUMMARY_LLM_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Model used to summarise scraped pages"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional OpenAI models"
+    },
+    {
+      "name": "Model endpoint",
+      "kind": "service",
+      "required": true,
+      "description": "OpenAI-compatible endpoint serving a MiroThinker or other model"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/MiroMindAI/MiroThinker",
+    "cd MiroThinker",
+    "cd apps/miroflow-agent",
+    "uv sync",
+    "cp .env.example .env"
+  ],
+  "run": [],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "MiroFlow",
+  "models": "MiroThinker open models; also OpenAI, Anthropic and Qwen endpoints",
+  "mcp": "client",
+  "github": {
+    "stars": 8417,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-07-06",
+    "checkedAt": "2026-10-03"
+  }
+}

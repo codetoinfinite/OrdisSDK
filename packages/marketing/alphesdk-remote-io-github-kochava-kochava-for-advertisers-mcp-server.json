@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kochava for Advertisers — Official MCP Server",
+  "description": "No account needed — connect, sign up, and query mobile attribution data from any AI tool",
+  "packageName": "@alphesdk-remote/io-github-kochava-kochava-for-advertisers-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://analytics.mcp.kochava.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Kochava/kochava-k4a-mcp-server",
+  "readme": "https://github.com/Kochava/kochava-k4a-mcp-server#readme"
+}

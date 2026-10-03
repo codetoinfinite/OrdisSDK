@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Entyrax",
+  "description": "PC hardware decision engine for Brazil (pt-BR): compatibility, GPU recommendations, build analysis.",
+  "packageName": "@alphesdk-remote/com-entyrax-entyrax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.entyrax.com/mcp"
+    }
+  ],
+  "url": "https://www.entyrax.com"
+}

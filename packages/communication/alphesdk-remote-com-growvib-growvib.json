@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GrowVib: Social Media Growth",
+  "description": "Discover, compare and buy social media growth for Instagram, TikTok, YouTube, Telegram, X and more",
+  "packageName": "@alphesdk-remote/com-growvib-growvib",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.growvib.com/mcp-public"
+    }
+  ],
+  "url": "https://growvib.com/mcp"
+}

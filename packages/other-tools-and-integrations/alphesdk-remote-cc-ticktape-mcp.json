@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Polymarket preflight verdicts: OK/CAUTION/VETO on orders, COPY/WATCH/VETO on wallets. x402-paid.",
+  "packageName": "@alphesdk-remote/cc-ticktape-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ticktape.cc/mcp"
+    }
+  ],
+  "url": "https://ticktape.cc"
+}

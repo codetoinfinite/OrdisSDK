@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "browser-use-web-ui",
+  "name": "Browser Use Web UI",
+  "description": "Gradio interface for running browser-use agents from a web page, with a choice of LLM provider and your own browser.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "gradio", "web-ui"],
+  "repo": "https://github.com/browser-use/web-ui",
+  "publisher": "Browser Use",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives non-programmers a form-based way to start a browser agent, watch it work and keep the session open between tasks. It can attach to the user's existing browser so logged-in sessions are reused.",
+  "howItWorks": "A local Python server renders a Gradio app that configures and launches the browser-use agent loop. Settings come from an env file and the UI, and the browser is driven through Playwright. A Docker setup is also provided.",
+  "requirements": [
+    {
+      "name": "Python 3.11",
+      "kind": "runtime",
+      "required": true,
+      "description": "Virtual environment created with uv"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in .env for the chosen provider"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/browser-use/web-ui.git",
+    "cd web-ui",
+    "uv venv --python 3.11",
+    "source .venv/bin/activate",
+    "uv pip install -r requirements.txt",
+    "playwright install --with-deps",
+    "cp .env.example .env"
+  ],
+  "run": ["python webui.py --ip 127.0.0.1 --port 7788"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "framework": "browser-use",
+  "models": "Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 16609,
+    "license": "MIT",
+    "pushedAt": "2026-09-25",
+    "checkedAt": "2026-10-03"
+  }
+}

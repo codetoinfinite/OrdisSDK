@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "lekta",
+  "description": "Audits how AI answer engines read a page and grades it A+ to F across four measured layers.",
+  "packageName": "@alphesdk-remote/dev-lekta-lekta",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lekta.dev/mcp"
+    }
+  ]
+}

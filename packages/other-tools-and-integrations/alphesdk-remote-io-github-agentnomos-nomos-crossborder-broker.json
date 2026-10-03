@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NOMOS Cross-Border Broker",
+  "description": "Cross-border preflight, x402 quote and evidence receipts for A2A/MCP agent workflows.",
+  "packageName": "@alphesdk-remote/io-github-agentnomos-nomos-crossborder-broker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tooloracle.io/mcp/nomos"
+    }
+  ],
+  "url": "https://github.com/AgentNOMOS/nomos-crossborder-broker",
+  "readme": "https://github.com/AgentNOMOS/nomos-crossborder-broker#readme"
+}

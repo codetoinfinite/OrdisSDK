@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "index",
+  "description": "Ce qu'une IA lit des sites web français : note, axes, secteur, questions sans réponse.",
+  "packageName": "@alphesdk-remote/com-isoligne-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://isoligne.com/mcp"
+    }
+  ]
+}

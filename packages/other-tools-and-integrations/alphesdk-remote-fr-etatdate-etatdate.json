@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "etatdate.fr",
+  "description": "Pré-état daté et état daté de copropriété : tarifs, cadre légal, pièces, dossiers pros (lecture).",
+  "packageName": "@alphesdk-remote/fr-etatdate-etatdate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.etatdate.fr/api/mcp"
+    }
+  ],
+  "url": "https://www.etatdate.fr/mcp"
+}

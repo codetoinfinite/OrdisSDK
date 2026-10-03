@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GO AI Tools",
+  "description": "31 no-AI tools: image conversion and EXIF stripping, App Store assets, colour maths. No API key.",
+  "packageName": "@alphesdk-remote/app-goaichat-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goaichat.app/mcp-tools/mcp"
+    }
+  ],
+  "url": "https://goaichat.app/mcp-tools"
+}

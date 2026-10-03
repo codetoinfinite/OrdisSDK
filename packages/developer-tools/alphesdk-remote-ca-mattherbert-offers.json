@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Offers",
+  "description": "Merchant offers with validated discounts and no bought rankings; accepting mints a voucher code.",
+  "packageName": "@alphesdk-remote/ca-mattherbert-offers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://offers.mattherbert.ca/mcp"
+    }
+  ],
+  "url": "https://offers.mattherbert.ca"
+}

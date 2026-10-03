@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "diamond-mcp",
+  "description": "Sourced diamond and gemology tools for AI assistants, with 90 encyclopedia entries.",
+  "packageName": "@alphesdk-remote/io-github-jacobiusmakes-diamond-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://diamond-mcp.stienhardt.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/JacobiusMakes/diamond-mcp",
+  "readme": "https://github.com/JacobiusMakes/diamond-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tools",
+  "description": "49 free agent tools: WHOIS, PDF to text, email checks, FX rates, X12 EDI, JSON repair. No API key.",
+  "packageName": "@alphesdk-remote/com-fluentedi-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fluentedi.com/mcp"
+    }
+  ],
+  "url": "https://fluentedi.com"
+}

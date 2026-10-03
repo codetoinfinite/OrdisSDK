@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "optical-intelligence",
+  "description": "Optical education, prescription transposition, horizontal decentration and approximate prism. PT/EN.",
+  "packageName": "@alphesdk-remote/br-com-lensas-optical-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lensas.com.br/optical-api/mcp"
+    }
+  ],
+  "url": "https://lensas.com.br/mcp/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "goldseam",
+  "description": "The U.S. Marketplace of Learning2Earning Opportunity | Sourced checklists, progress, prior learning",
+  "packageName": "@alphesdk-remote/com-ksaworks-goldseam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goldseam.ksaworks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AcademyOne-Inc/GoldSeam",
+  "readme": "https://github.com/AcademyOne-Inc/GoldSeam#readme"
+}

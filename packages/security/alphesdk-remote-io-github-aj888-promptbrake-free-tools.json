@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PromptBrake Free Tools",
+  "description": "Free AI security tools: injection payloads, OWASP LLM mapper, ADLC release planner, test builder.",
+  "packageName": "@alphesdk-remote/io-github-aj888-promptbrake-free-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://promptbrake.com/free-tools/mcp"
+    }
+  ],
+  "url": "https://promptbrake.com/free-tools"
+}

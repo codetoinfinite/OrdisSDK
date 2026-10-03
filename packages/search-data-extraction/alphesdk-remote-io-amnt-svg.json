@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AMNT SVG",
+  "description": "Text or image to clean, editable SVG from $0.01. Free SVG library + agent search, no key.",
+  "packageName": "@alphesdk-remote/io-amnt-svg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.amnt.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/BelgacemElbar/amnt.io",
+  "readme": "https://github.com/BelgacemElbar/amnt.io#readme"
+}

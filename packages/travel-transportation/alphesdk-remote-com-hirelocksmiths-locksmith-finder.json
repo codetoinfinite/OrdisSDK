@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HireLocksmiths — Locksmith Finder",
+  "description": "Find a vetted, licensed U.S. locksmith and request a quote or booking.",
+  "packageName": "@alphesdk-remote/com-hirelocksmiths-locksmith-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hirelocksmiths-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://hirelocksmiths.com"
+}

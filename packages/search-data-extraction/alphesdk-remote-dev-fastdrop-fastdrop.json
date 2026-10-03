@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "fastdrop",
+  "description": "Launch board for MCP products: discover probed listings, search by real tools, submit as a maker.",
+  "packageName": "@alphesdk-remote/dev-fastdrop-fastdrop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fastdrop.dev/mcp"
+    }
+  ]
+}

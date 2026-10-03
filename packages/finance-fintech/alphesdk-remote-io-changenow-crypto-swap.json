@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ChangeNOW",
+  "description": "Quote, create and track cross-chain crypto swaps. Non-custodial exchange, no account, no KYC.",
+  "packageName": "@alphesdk-remote/io-changenow-crypto-swap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.changenow.io/mcp"
+    }
+  ],
+  "url": "https://changenow.io"
+}

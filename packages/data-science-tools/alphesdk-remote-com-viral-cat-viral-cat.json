@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ViralCat",
+  "description": "Schedule and publish social posts across platforms, with drafts, media uploads and analytics.",
+  "packageName": "@alphesdk-remote/com-viral-cat-viral-cat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://viral-cat.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://viral-cat.com"
+}

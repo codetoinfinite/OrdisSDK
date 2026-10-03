@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reference",
+  "description": "Brand-neutral cutting tool reference: grade cross-reference, materials, turning starting values.",
+  "packageName": "@alphesdk-remote/eu-cuttingtoolsai-reference",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cuttingtoolsai.eu/mcp"
+    }
+  ],
+  "url": "https://cuttingtoolsai.eu"
+}

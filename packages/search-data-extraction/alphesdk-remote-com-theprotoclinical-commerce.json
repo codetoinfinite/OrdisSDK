@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ProtoClinical Commerce",
+  "description": "Search ProtoClinical's current K-beauty catalog and manage buyer-approved carts and checkouts.",
+  "packageName": "@alphesdk-remote/com-theprotoclinical-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.theprotoclinical.com/api/ucp/mcp"
+    }
+  ],
+  "url": "https://www.theprotoclinical.com/"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Meet.bot MCP",
+  "description": "AI-native scheduling and booking: check availability, book meetings, share links.",
+  "packageName": "@alphesdk-remote/bot-meet-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.meet.bot"
+    }
+  ]
+}

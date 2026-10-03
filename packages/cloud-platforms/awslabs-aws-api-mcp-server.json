@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "AWS API",
+  "description": "Runs validated AWS CLI commands across all AWS services.",
+  "packageName": "awslabs.aws-api-mcp-server",
+  "packageVersion": "1.5.6",
+  "runtime": "python",
+  "readme": "https://awslabs.github.io/mcp/servers/aws-api-mcp-server/",
+  "url": "https://github.com/awslabs/mcp",
+  "author": "AWS (awslabs)",
+  "env": {
+    "AWS_PROFILE": {
+      "description": "AWS credentials profile",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS region",
+      "required": false
+    }
+  }
+}

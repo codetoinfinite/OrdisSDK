@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Astro Docs",
+  "description": "Searches current Astro framework documentation.",
+  "packageName": "@alphesdk-remote/astro-docs",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.docs.astro.build/mcp"
+    }
+  ],
+  "readme": "https://docs.astro.build/en/guides/build-with-ai/",
+  "url": "https://github.com/withastro",
+  "author": "Astro",
+  "env": {}
+}

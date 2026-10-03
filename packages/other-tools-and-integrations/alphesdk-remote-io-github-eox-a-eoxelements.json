@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "EOxElements",
+  "description": "A server to provide information about EOxElements custom elements for coding agents.",
+  "packageName": "@alphesdk-remote/io-github-eox-a-eoxelements",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elements.mcp.eox.at"
+    }
+  ],
+  "url": "https://github.com/EOX-A/EOxElements",
+  "readme": "https://github.com/EOX-A/EOxElements#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sorsa",
+  "description": "Amazon FBA arbitrage toolkit: product analysis, deal feeds, price alerts and sourcing management.",
+  "packageName": "@alphesdk-remote/app-sorsa-sorsa",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sorsa.app/mcp"
+    }
+  ],
+  "url": "https://sorsa.app"
+}

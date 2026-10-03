@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vonage-documentation-mcp",
+  "description": "MCP server for Vonage API documentation, code snippets, tutorials, and troubleshooting.",
+  "packageName": "@alphesdk-remote/io-github-vonage-vonage-documentation-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://documentation-mcp.vonage.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Vonage/vonage-mcp-server-documentation",
+  "readme": "https://github.com/Vonage/vonage-mcp-server-documentation#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "us-tariff-ledger",
+  "description": "US tariff & trade truth: duty actually paid by origin/HS 2017+, HTS rulebook, CBP rulings. No key.",
+  "packageName": "@alphesdk-remote/com-trimtabist-us-tariff-ledger",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trimtabist.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mrsingh86/trimtab-ais",
+  "readme": "https://github.com/mrsingh86/trimtab-ais#readme"
+}

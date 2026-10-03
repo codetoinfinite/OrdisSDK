@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tracea",
+  "description": "Tracea — legal identity (Know Your Agent) for AI agents, on-chain. ERC-8004 compatible.",
+  "packageName": "@alphesdk-remote/io-github-chriscorp-tracea",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tracea.online/mcp"
+    }
+  ],
+  "url": "https://tracea.online"
+}

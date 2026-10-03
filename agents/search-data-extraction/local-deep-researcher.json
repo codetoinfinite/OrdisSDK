@@ -1,0 +1,79 @@
+{
+  "type": "external-agent",
+  "key": "local-deep-researcher",
+  "name": "Local Deep Researcher",
+  "description": "Fully local web research assistant that loops search, summarise and reflect using a model served by Ollama or LM Studio.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "local-llm", "ollama", "langgraph", "web-search"],
+  "repo": "https://github.com/langchain-ai/local-deep-researcher",
+  "publisher": "LangChain",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Given a topic it writes a markdown summary with the sources it used. It is meant for people who want iterative web research without sending prompts to a hosted LLM.",
+  "howItWorks": "A LangGraph graph generates a search query, fetches results, summarises them, reflects on what is still missing, writes a follow-up query and repeats for a configured number of cycles. The LLM is a local model behind Ollama or LM Studio; search goes through a configurable SEARCH_API such as Tavily or Perplexity. It is driven from LangGraph Studio via the LangGraph dev server.",
+  "requirements": [
+    {
+      "name": "Ollama or LM Studio",
+      "kind": "service",
+      "required": true,
+      "description": "Hosts the local LLM"
+    },
+    {
+      "name": "LLM_PROVIDER",
+      "kind": "runtime",
+      "required": false,
+      "description": "Selects ollama or lmstudio"
+    },
+    {
+      "name": "OLLAMA_BASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Ollama endpoint, defaults to http://localhost:11434"
+    },
+    {
+      "name": "LOCAL_LLM",
+      "kind": "runtime",
+      "required": false,
+      "description": "Model name to use"
+    },
+    {
+      "name": "SEARCH_API",
+      "kind": "runtime",
+      "required": false,
+      "description": "Which search backend to use"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed when Tavily is the search backend"
+    },
+    {
+      "name": "PERPLEXITY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed when Perplexity is the search backend"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/langchain-ai/local-deep-researcher.git",
+    "cd local-deep-researcher",
+    "cp .env.example .env",
+    "ollama pull deepseek-r1:8b",
+    "curl -LsSf https://astral.sh/uv/install.sh | sh"
+  ],
+  "run": [
+    "uvx --refresh --from \"langgraph-cli[inmem]\" --with-editable . --python 3.11 langgraph dev"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Any model served by Ollama or LM Studio",
+  "mcp": "none",
+  "github": {
+    "stars": 9357,
+    "license": "MIT",
+    "pushedAt": "2026-09-20",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StructForge",
+  "description": "Turn messy text into strict JSON schemas agents can trust (invoice, receipt, contact, resume).",
+  "packageName": "@alphesdk-remote/app-askqa-structforge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://structforge.askqa.app/mcp"
+    }
+  ],
+  "url": "https://structforge.askqa.app"
+}

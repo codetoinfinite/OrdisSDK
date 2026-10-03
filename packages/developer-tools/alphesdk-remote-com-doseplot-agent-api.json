@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DosePlot Agent API",
+  "description": "PK serum simulation, reconstitution math and compound data for agents. Paid tools $0.01 via x402.",
+  "packageName": "@alphesdk-remote/com-doseplot-agent-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.doseplot.com/mcp"
+    }
+  ],
+  "url": "https://doseplot.com/api"
+}

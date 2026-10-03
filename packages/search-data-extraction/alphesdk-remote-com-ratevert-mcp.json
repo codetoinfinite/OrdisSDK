@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ratevert MCP",
+  "description": "Read-only Ratevert MCP for asset search, pair rates, and conversions.",
+  "packageName": "@alphesdk-remote/com-ratevert-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ratevert.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ratevert/mcp",
+  "readme": "https://github.com/ratevert/mcp#readme"
+}

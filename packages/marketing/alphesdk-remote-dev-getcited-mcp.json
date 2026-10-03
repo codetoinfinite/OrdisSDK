@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GetCited",
+  "description": "SEO and AI-visibility operator tools: site health, ranked actions, ranks, visitor behavior.",
+  "packageName": "@alphesdk-remote/dev-getcited-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.getcited.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bapierre/getcited-mcp",
+  "readme": "https://github.com/bapierre/getcited-mcp#readme"
+}

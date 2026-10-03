@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gulf Coast Wellness & Recovery Spa Website MCP",
+  "description": "Search and read public Gulf Coast Wellness & Recovery Spa pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-gcwars-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gcwars.com/mcp"
+    }
+  ],
+  "url": "https://gcwars.com/connect"
+}

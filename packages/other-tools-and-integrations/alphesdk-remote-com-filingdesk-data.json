@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FilingDesk Data",
+  "description": "US LLC filing fees, deadlines, and name checks for all 50 states — from official sources.",
+  "packageName": "@alphesdk-remote/com-filingdesk-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filingdesk.com/api/mcp"
+    }
+  ],
+  "url": "https://filingdesk.com/mcp/"
+}

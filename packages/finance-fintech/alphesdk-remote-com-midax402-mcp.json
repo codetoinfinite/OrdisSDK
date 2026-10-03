@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Pay-per-query x402 business intelligence on Base, settled in USDC via the native 402 payment flow.",
+  "packageName": "@alphesdk-remote/com-midax402-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.midax402.com/mcp"
+    }
+  ],
+  "url": "https://github.com/magdielduboy96-debug/MIdax402",
+  "readme": "https://github.com/magdielduboy96-debug/MIdax402#readme"
+}

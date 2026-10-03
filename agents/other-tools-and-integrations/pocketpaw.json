@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "pocketpaw",
+  "name": "PocketPaw",
+  "description": "Self-hosted AI agent with a desktop app and web dashboard that also talks over Discord, Slack, WhatsApp and Telegram.",
+  "category": "other-tools-and-integrations",
+  "tags": ["self-hosted", "personal-agent", "desktop", "dashboard", "messaging"],
+  "repo": "https://github.com/pocketpaw/pocketpaw",
+  "publisher": "PocketPaw",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Gives an individual a personal agent that keeps its data on their own machine and is reachable from chat apps or the browser. The project is in beta and expects breaking changes between versions.",
+  "howItWorks": "A Python backend is installed with pip and started with a single command. The optional native desktop app bundles the backend installer and adds a system tray, global shortcuts and a side panel.",
+  "requirements": [
+    {
+      "name": "Python 3.11+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the backend"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    }
+  ],
+  "install": ["pip install pocketpaw"],
+  "run": ["pocketpaw"],
+  "interfaces": ["desktop", "web", "chat"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 886,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

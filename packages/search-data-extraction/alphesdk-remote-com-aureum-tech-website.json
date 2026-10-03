@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Aureum Technology Website",
+  "description": "German IT service provider: services, prices, contact and website search.",
+  "packageName": "@alphesdk-remote/com-aureum-tech-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aureum-tech.com/mcp"
+    }
+  ],
+  "url": "https://github.com/aureum-technology/aureum-website-mcp",
+  "readme": "https://github.com/aureum-technology/aureum-website-mcp#readme"
+}

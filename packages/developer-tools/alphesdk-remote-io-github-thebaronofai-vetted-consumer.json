@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "vetted-consumer",
+  "description": "Will a local LLM run on your hardware? GGUF quant, buy-vs-rent-vs-API cost, used-GPU prices.",
+  "packageName": "@alphesdk-remote/io-github-thebaronofai-vetted-consumer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vettedconsumer.com/mcp"
+    }
+  ],
+  "url": "https://vettedconsumer.com"
+}

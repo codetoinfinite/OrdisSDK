@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cubi Estate",
+  "description": "Read-only European property search by location, price, size and features. No sign-in required.",
+  "packageName": "@alphesdk-remote/estate-cubi-cubi-properties",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cubi.estate/mcp"
+    }
+  ],
+  "url": "https://www.cubi.estate"
+}

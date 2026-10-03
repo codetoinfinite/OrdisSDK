@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Amazon Trends API",
+  "description": "Amazon product search volume and best-seller trends. Free key at trendsapi.ai",
+  "packageName": "@alphesdk-remote/ai-trendsapi-amazon",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amazon.api.trendsapi.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/trendsapi-ai/amazon-trends-api",
+  "readme": "https://github.com/trendsapi-ai/amazon-trends-api#readme"
+}

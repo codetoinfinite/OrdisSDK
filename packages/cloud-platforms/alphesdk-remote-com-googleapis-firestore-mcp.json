@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Interact with your Google Cloud Firestore resources using natural language commands.",
+  "packageName": "@alphesdk-remote/com-googleapis-firestore-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://firestore.googleapis.com/mcp"
+    }
+  ]
+}

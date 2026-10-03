@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "safe4",
+  "description": "Tests an AI agent's purchase against the task it was given. Paid per call in USDC via x402.",
+  "packageName": "@alphesdk-remote/ai-safe4-safe4",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.safe4.ai/mcp/"
+    }
+  ],
+  "url": "https://github.com/Safe4AI/safe4-mcp",
+  "readme": "https://github.com/Safe4AI/safe4-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ObraAberta",
+  "description": "Read-only MCP tools for public works, builders, ratings, timelines and nearby services in Brazil.",
+  "packageName": "@alphesdk-remote/br-com-obraaberta-obraaberta",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://obraaberta.com.br/mcp"
+    }
+  ],
+  "url": "https://obraaberta.com.br/"
+}

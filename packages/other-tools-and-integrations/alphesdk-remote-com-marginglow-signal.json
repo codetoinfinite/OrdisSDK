@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MarginGlow AI Signal",
+  "description": "Evidence-backed opportunity intelligence for small businesses, built for authorised AI agents.",
+  "packageName": "@alphesdk-remote/com-marginglow-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.marginglow.com/mcp"
+    }
+  ],
+  "url": "https://www.marginglow.com/signal"
+}

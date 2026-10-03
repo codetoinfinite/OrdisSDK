@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MetaMesh-UGA",
+  "description": "Serverless edge control plane to discover, route and monetize 14,982+ MCP tools.",
+  "packageName": "@alphesdk-remote/dev-metamesh-uga-metamesh-uga",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.metamesh-uga.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/SiouxTXT/metamesh-uga",
+  "readme": "https://github.com/SiouxTXT/metamesh-uga#readme"
+}

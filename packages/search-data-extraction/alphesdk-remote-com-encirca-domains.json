@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EnCirca Domains",
+  "description": "Search, Register , Renew , Transfer and Manage domains",
+  "packageName": "@alphesdk-remote/com-encirca-domains",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.encirca.com/mcp"
+    }
+  ],
+  "url": "https://www.encirca.com"
+}

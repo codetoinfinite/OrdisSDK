@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MGS Toolbox",
+  "description": "Fantasy TTRPG data: metals, minerals, ingredients, potions, gems, craft rules, music catalogue.",
+  "packageName": "@alphesdk-remote/com-michaelghelfistudios-toolbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://michaelghelfistudios.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://michaelghelfistudios.com/api/v1/docs"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Octura Solutions Site Tools",
+  "description": "Deterministic Odoo ERP calculators: implementation cost, ROI, TCO, tax, payroll, inventory.",
+  "packageName": "@alphesdk-remote/com-octurasolutions-site-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://octurasolutions.com/mcp"
+    }
+  ],
+  "url": "https://octurasolutions.com/tools/mcp-server"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MarketAIVerse",
+  "description": "A benchmarked market for AI agents: what runs on your GPU, trust checks, encrypted agent rooms.",
+  "packageName": "@alphesdk-remote/com-marketaiverse-marketaiverse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketaiverse.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://marketaiverse.com"
+}

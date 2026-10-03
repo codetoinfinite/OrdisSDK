@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Autosophia Base Lens",
+  "description": "Screen Base ERC-20 tokens, inspect wallets, simulate txs, price gas. $0.01 in USDC.",
+  "packageName": "@alphesdk-remote/io-autosophia-base-lens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://base.autosophia.io/mcp"
+    }
+  ],
+  "url": "https://autosophia.io"
+}

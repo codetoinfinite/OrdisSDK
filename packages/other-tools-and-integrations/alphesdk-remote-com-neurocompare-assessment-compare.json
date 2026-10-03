@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "assessment-compare",
+  "description": "Factual UK ADHD & autism assessment price and wait comparison. Read-only; not medical advice.",
+  "packageName": "@alphesdk-remote/com-neurocompare-assessment-compare",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oppjwyhquadekoaadtka.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://neurocompare.com"
+}

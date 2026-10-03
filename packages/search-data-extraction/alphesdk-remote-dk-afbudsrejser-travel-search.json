@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Afbudsrejser travel search",
+  "description": "Realtime package holiday and charter flight prices from Denmark. Inventory not on Google Flights.",
+  "packageName": "@alphesdk-remote/dk-afbudsrejser-travel-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.afbudsrejser.dk/mcp"
+    }
+  ],
+  "url": "https://www.afbudsrejser.dk/api"
+}

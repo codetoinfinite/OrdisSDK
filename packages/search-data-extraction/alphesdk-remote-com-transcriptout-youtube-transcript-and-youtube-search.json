@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "YouTube Transcript & Search MCP Server",
+  "description": "YouTube transcripts, search, channels, playlists and bulk transcript jobs for AI agents. 14 tools.",
+  "packageName": "@alphesdk-remote/com-transcriptout-youtube-transcript-and-youtube-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.transcriptout.com/mcp"
+    }
+  ],
+  "url": "https://github.com/artemchuikin/youtube-mcp",
+  "readme": "https://github.com/artemchuikin/youtube-mcp#readme"
+}

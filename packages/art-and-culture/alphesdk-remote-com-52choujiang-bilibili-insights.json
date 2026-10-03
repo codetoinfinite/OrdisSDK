@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX B站 Bilibili MCP",
+  "description": "Bilibili public video, article, dynamic, creator, comments, reactions, and transcript tools.",
+  "packageName": "@alphesdk-remote/com-52choujiang-bilibili-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/bilibili/mcp"
+    }
+  ]
+}

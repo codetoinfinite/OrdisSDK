@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Find your role first",
+  "description": "New jobs from 13,000+ company career sites, newest first, for Claude Code, Codex and any agent.",
+  "packageName": "@alphesdk-remote/click-findyourrolefirst-jobfeed",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://findyourrolefirst.click/mcp"
+    }
+  ],
+  "url": "https://github.com/yt6363/job-search-mcp",
+  "readme": "https://github.com/yt6363/job-search-mcp#readme"
+}

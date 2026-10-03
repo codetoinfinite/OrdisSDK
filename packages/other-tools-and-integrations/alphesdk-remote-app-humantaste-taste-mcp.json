@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Taste",
+  "description": "Expert review for AI agents. On-chain proof of human review.",
+  "packageName": "@alphesdk-remote/app-humantaste-taste-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.humantaste.app/mcp/"
+    }
+  ],
+  "url": "https://github.com/with0utwhy/taste-mcp",
+  "readme": "https://github.com/with0utwhy/taste-mcp#readme"
+}

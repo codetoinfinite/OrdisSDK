@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Einstein — Crypto & Market Intelligence",
+  "description": "AI price forecasts, whale flows, market sentiment and prediction signals. 18 tools free, no account.",
+  "packageName": "@alphesdk-remote/io-emc2ai-einstein",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emc2ai.io/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ChuXo/einstein-claude-plugin",
+  "readme": "https://github.com/ChuXo/einstein-claude-plugin#readme"
+}

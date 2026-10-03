@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Field Ops",
+  "description": "AI agents hire a human to observe, log or film on site. Typed results, feasibility before payment.",
+  "packageName": "@alphesdk-remote/io-github-filnith-field-ops",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://field-ops.filnith.workers.dev/mcp"
+    }
+  ],
+  "url": "https://field-ops.filnith.workers.dev"
+}

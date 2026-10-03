@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-docs",
+  "description": "FusionAuth Documentation MCP server",
+  "packageName": "@alphesdk-remote/io-fusionauth-mcp-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.fusionauth.dev/mcp/docs"
+    }
+  ]
+}

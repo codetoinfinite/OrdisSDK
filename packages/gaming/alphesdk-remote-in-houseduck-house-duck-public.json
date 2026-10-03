@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "House Duck",
+  "description": "Read-only public information about House Duck games and its Korean-first development Blog.",
+  "packageName": "@alphesdk-remote/in-houseduck-house-duck-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bbgwvpwzkyudbtcgrbtm.supabase.co/functions/v1/house-duck-mcp"
+    }
+  ],
+  "url": "https://github.com/chaddungnam/chaddungnam.github.io",
+  "readme": "https://github.com/chaddungnam/chaddungnam.github.io#readme"
+}

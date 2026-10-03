@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dubai Log",
+  "description": "UAE travel and living cost calculators with the published source behind every number.",
+  "packageName": "@alphesdk-remote/app-rowb-dubai-log-uae-costs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dubai-log.rowb.app/mcp"
+    }
+  ],
+  "url": "https://dubai-log.rowb.app"
+}

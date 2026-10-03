@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cryptoport-port",
+  "description": "Daily board of what crypto YouTube channels said: coin calls, stances, catalysts. Free, no key.",
+  "packageName": "@alphesdk-remote/com-thecryptoport-cryptoport-port",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cryptoport-mcp.cryptoport-port.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/thecryptoport-mcp/cryptoport-port",
+  "readme": "https://github.com/thecryptoport-mcp/cryptoport-port#readme"
+}

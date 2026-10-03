@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "coverage-rights",
+  "description": "Insurer denial rates, appeal outcomes by treatment and condition, and appeal rights lookups.",
+  "packageName": "@alphesdk-remote/com-coverage-rights-coverage-rights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.coverage-rights.com/api/mcp"
+    }
+  ],
+  "url": "https://www.coverage-rights.com/mcp"
+}

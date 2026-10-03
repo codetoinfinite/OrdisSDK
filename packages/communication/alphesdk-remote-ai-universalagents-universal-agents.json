@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Universal Agents",
+  "description": "Ask Universal Agents what we sell (Interplay), pricing, and FAQs; draft an intro email.",
+  "packageName": "@alphesdk-remote/ai-universalagents-universal-agents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://universalagents.ai/mcp"
+    }
+  ],
+  "url": "https://universalagents.ai"
+}

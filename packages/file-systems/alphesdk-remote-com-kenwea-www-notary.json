@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kenwea Notary",
+  "description": "Signed third-party verdict on what an npm package or file does when run. No key, no signup.",
+  "packageName": "@alphesdk-remote/com-kenwea-www-notary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kenwea.com/notary/v1"
+    }
+  ],
+  "url": "https://github.com/kenwea-protocol/kenwea",
+  "readme": "https://github.com/kenwea-protocol/kenwea#readme"
+}

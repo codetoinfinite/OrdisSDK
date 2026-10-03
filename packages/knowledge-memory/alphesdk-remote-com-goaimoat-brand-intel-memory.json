@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GoAI Moat Brand Intel Memory",
+  "description": "Persistent business-intelligence memory for AI agents.",
+  "packageName": "@alphesdk-remote/com-goaimoat-brand-intel-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://memory.mcp.goaimoat.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+  "readme": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp#readme"
+}

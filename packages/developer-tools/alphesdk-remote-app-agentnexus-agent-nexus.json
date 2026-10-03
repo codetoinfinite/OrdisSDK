@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Nexus",
+  "description": "180+ tested APIs, MCP servers and CLIs your agent can call. Self-service key in one call.",
+  "packageName": "@alphesdk-remote/app-agentnexus-agent-nexus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentnexus.app/mcp"
+    }
+  ],
+  "url": "https://agentnexus.app"
+}

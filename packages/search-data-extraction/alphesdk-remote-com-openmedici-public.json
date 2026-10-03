@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Open Medici Public Fellowship and Grant Search",
+  "description": "Public fellowship and grant search with sourced details and live filter vocabularies.",
+  "packageName": "@alphesdk-remote/com-openmedici-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openmedici.com/mcp"
+    }
+  ],
+  "url": "https://openmedici.com/developers/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dreamlit",
+  "description": "Create, test, publish, and manage Dreamlit notification workflows from AI clients.",
+  "packageName": "@alphesdk-remote/ai-dreamlit-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dreamlit.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/dreamlit-ai/dreamlit-mcp",
+  "readme": "https://github.com/dreamlit-ai/dreamlit-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Odds Gap",
+  "description": "Ask The Odds Gap sports betting price questions from your AI assistant.",
+  "packageName": "@alphesdk-remote/com-theoddsgap-answers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theoddsgap.com/assistant/v1/mcp"
+    }
+  ],
+  "url": "https://theoddsgap.com"
+}

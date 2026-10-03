@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TEK BOSS Small Business AI Strategy Assessment",
+  "description": "AI strategy, workflow automation, and process-improvement assessment for small businesses.",
+  "packageName": "@alphesdk-remote/ai-tekboss-assessment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tekboss.ai/mcp/assessment"
+    }
+  ],
+  "url": "https://github.com/M2201/TEKBOSS",
+  "readme": "https://github.com/M2201/TEKBOSS#readme"
+}

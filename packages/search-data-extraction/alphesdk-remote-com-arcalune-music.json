@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Arcalune Music",
+  "description": "Search royalty-free BGM and sound effects (commercial use OK, no credit) and game fan arrangements.",
+  "packageName": "@alphesdk-remote/com-arcalune-music",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arcalune.com/mcp"
+    }
+  ],
+  "url": "https://arcalune.com/developers"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "name": "Salesforce DX",
+  "description": "Salesforce CLI-based server for orgs, metadata deploys, SOQL, Apex tests and code analysis.",
+  "packageName": "@salesforce/mcp",
+  "packageVersion": "0.30.15",
+  "runtime": "node",
+  "binArgs": ["--orgs", "DEFAULT_TARGET_ORG", "--toolsets", "orgs,metadata,data,users"],
+  "readme": "https://github.com/salesforcecli/mcp",
+  "url": "https://github.com/salesforcecli/mcp",
+  "author": "Salesforce",
+  "env": {}
+}

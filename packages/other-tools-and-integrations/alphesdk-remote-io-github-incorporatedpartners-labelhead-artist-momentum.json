@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "labelhead-artist-momentum",
+  "description": "Trending hip-hop artist momentum scores across four cultural dimensions.",
+  "packageName": "@alphesdk-remote/io-github-incorporatedpartners-labelhead-artist-momentum",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://labelhead-mcp-public-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/paperclipai/paperclip",
+  "readme": "https://github.com/paperclipai/paperclip#readme"
+}

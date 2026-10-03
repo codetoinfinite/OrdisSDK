@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lawstronaut",
+  "description": "Connect AI to millions of laws and court cases with the Lawstronaut MCP.",
+  "packageName": "@alphesdk-remote/com-lawstronaut-lawstronaut-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lawstronaut.com"
+    }
+  ],
+  "url": "https://github.com/Lawstronaut-FZCO/lawstronaut-mcp",
+  "readme": "https://github.com/Lawstronaut-FZCO/lawstronaut-mcp#readme"
+}

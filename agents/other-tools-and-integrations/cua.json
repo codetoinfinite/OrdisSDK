@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "cua",
+  "name": "Cua",
+  "description": "Infrastructure for computer-use agents: sandboxed desktops, a desktop driver, VM tooling and benchmarks that any agent can plug into.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "sandbox", "virtual-machines", "desktop"],
+  "repo": "https://github.com/trycua/cua",
+  "homepage": "https://cua.ai",
+  "docs": "https://cua.ai/docs",
+  "publisher": "Cua",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Provides isolated desktop environments and a driver that lets an AI agent see the screen and control mouse and keyboard safely. It serves teams building or evaluating computer-use agents on macOS, Linux and Windows guests.",
+  "howItWorks": "A CLI creates sandboxes and runs commands or screenshots inside them, while a driver component exposes desktop control through a CLI, an SDK and an MCP server. Virtual machines are managed by the bundled VM tooling, and a benchmark suite measures agent performance. The core is MIT licensed; the separate desktop app carries a source-available licence.",
+  "requirements": [
+    {
+      "name": "macOS, Linux or Windows host",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host for the CLI and sandboxes"
+    },
+    {
+      "name": "Agent model access",
+      "kind": "api-key",
+      "required": false,
+      "description": "Credentials for whichever agent or model you attach"
+    }
+  ],
+  "install": ["curl -fsSL https://cua.ai/install.sh | sh"],
+  "run": ["cua sb create ubuntu --name dev", "cua sb exec dev uname -a", "cua sb screenshot dev"],
+  "interfaces": ["cli", "library", "desktop"],
+  "language": "Rust",
+  "models": "Bring your own agent; vendor computer-use models also offered",
+  "mcp": "server",
+  "github": {
+    "stars": 27860,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

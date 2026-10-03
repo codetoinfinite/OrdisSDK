@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Pantry Butler",
+  "description": "Answers 'what can I cook tonight?' from your own saved recipes and what's really in your kitchen.",
+  "packageName": "@alphesdk-remote/com-thepantrybutler-pantry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thepantrybutler.com/mcp"
+    }
+  ],
+  "url": "https://thepantrybutler.com/connect"
+}

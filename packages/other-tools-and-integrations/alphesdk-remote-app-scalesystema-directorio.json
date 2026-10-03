@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Directorio Systema",
+  "description": "Directorio hispano Miami-Centroamérica: busca negocios, reserva citas reales y ordena comida.",
+  "packageName": "@alphesdk-remote/app-scalesystema-directorio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scalesystema.app/api/mcp"
+    }
+  ],
+  "url": "https://scalesystema.app"
+}

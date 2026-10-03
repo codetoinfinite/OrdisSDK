@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Korean News Hub",
+  "description": "Korean news aggregator - Naver, Google News, Daum trends in real-time",
+  "packageName": "@alphesdk-remote/io-github-songt-50-korean-news-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://korean-news-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SongT-50/korean-news-mcp",
+  "readme": "https://github.com/SongT-50/korean-news-mcp#readme"
+}

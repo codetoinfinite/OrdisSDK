@@ -1,0 +1,66 @@
+{
+  "type": "external-agent",
+  "key": "notebookllama",
+  "name": "NotebookLlaMa",
+  "description": "Open-source NotebookLM alternative backed by LlamaCloud, with document chat, summaries and podcast generation.",
+  "category": "knowledge-memory",
+  "tags": ["notebooklm-alternative", "llamacloud", "podcast", "streamlit", "document-qa"],
+  "repo": "https://github.com/run-llama/notebookllama",
+  "publisher": "LlamaIndex",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets you upload documents, get summaries and Q&A, and generate audio conversations about them. It is a reference application for building notebook-style assistants on LlamaIndex services.",
+  "howItWorks": "Setup scripts create a LlamaCloud extraction agent and index, supporting services start with Docker Compose, and a local MCP server exposes the document tools that the Streamlit app calls. OpenAI provides the LLM and ElevenLabs the voices.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM access"
+    },
+    {
+      "name": "ELEVENLABS_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Podcast voice generation"
+    },
+    {
+      "name": "LLAMACLOUD_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LlamaCloud parsing, extraction and index"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Dependency manager"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Supporting services"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/run-llama/notebookllama",
+    "cd notebookllama/",
+    "uv sync",
+    "uv run tools/create_llama_extract_agent.py",
+    "uv run tools/create_llama_cloud_index.py",
+    "docker compose up -d"
+  ],
+  "run": ["uv run src/notebookllama/server.py", "streamlit run src/notebookllama/Home.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "framework": "LlamaIndex",
+  "models": "OpenAI, with ElevenLabs for speech",
+  "mcp": "both",
+  "github": {
+    "stars": 1977,
+    "license": "MIT",
+    "pushedAt": "2026-03-02",
+    "checkedAt": "2026-10-03"
+  }
+}

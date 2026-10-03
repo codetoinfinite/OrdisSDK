@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BASE167",
+  "description": "Claim BASE167 and enter Degen Games, a monthly on-chain trading contest on Base.",
+  "packageName": "@alphesdk-remote/com-base167-base167",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://base167.com/mcp"
+    }
+  ],
+  "url": "https://base167.com"
+}

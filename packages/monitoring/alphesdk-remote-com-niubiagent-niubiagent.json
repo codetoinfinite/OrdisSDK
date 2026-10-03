@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "niubiagent Signal Intelligence",
+  "description": "Search and monitor source-backed AI agent ecosystem signals, briefings, deltas, and source health.",
+  "packageName": "@alphesdk-remote/com-niubiagent-niubiagent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.niubiagent.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Crash-AI-Tech/niubiagent",
+  "readme": "https://github.com/Crash-AI-Tech/niubiagent#readme"
+}

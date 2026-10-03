@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IP99 IP risk & geolocation",
+  "description": "Free IP risk and geolocation lookup: proxy, VPN and datacenter detection. No API key.",
+  "packageName": "@alphesdk-remote/com-ip99-ip99",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ip99.com/mcp"
+    }
+  ],
+  "url": "https://ip99.com"
+}

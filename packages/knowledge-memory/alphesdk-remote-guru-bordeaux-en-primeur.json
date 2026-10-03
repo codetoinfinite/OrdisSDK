@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bordeaux.guru — Bordeaux en primeur & terroir",
+  "description": "First-hand Bordeaux en primeur tasting notes, appellation climate, phenology and terroir.",
+  "packageName": "@alphesdk-remote/guru-bordeaux-en-primeur",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bordeaux.guru/mcp"
+    }
+  ],
+  "url": "https://bordeaux.guru"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kimage",
+  "description": "Generate original images from text; prompts and results are content-checked. Paid per image, x402.",
+  "packageName": "@alphesdk-remote/dev-kaneky-kimage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kimage.kaneky.dev/mcp"
+    }
+  ],
+  "url": "https://kimage.kaneky.dev/"
+}

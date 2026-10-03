@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "invinoveritas",
+  "description": "Second opinion before an irreversible agent action; signed proofs, free verify, public ledger.",
+  "packageName": "@alphesdk-remote/com-babyblueviper-invinoveritas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.babyblueviper.com/mcp/verify"
+    }
+  ],
+  "url": "https://github.com/babyblueviper1/invinoveritas-mcp",
+  "readme": "https://github.com/babyblueviper1/invinoveritas-mcp#readme"
+}

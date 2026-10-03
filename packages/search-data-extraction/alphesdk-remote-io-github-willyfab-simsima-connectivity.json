@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Simsima Connectivity",
+  "description": "Search, recommend & buy travel eSIM data plans for 190+ destinations via AI agents.",
+  "packageName": "@alphesdk-remote/io-github-willyfab-simsima-connectivity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.simsima.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Willyfab/Simsima",
+  "readme": "https://github.com/Willyfab/Simsima#readme"
+}

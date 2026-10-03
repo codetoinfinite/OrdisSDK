@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "A2APark",
+  "description": "Public behavioral test environment for AI agents with stateful rides and signed scorecards.",
+  "packageName": "@alphesdk-remote/com-a2apark-a2apark",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2apark.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AgentAmusementPark/agent-amusement-park",
+  "readme": "https://github.com/AgentAmusementPark/agent-amusement-park#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EOSL.ai — Hardware End-of-Life Database",
+  "description": "Hardware end-of-life dates by part number, each linked to the vendor's own bulletin.",
+  "packageName": "@alphesdk-remote/ai-eosl-eosl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eosl.ai/mcp"
+    }
+  ],
+  "url": "https://eosl.ai/mcp/"
+}

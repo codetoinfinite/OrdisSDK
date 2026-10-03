@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Get2Great — management and selection science magazine",
+  "description": "Read-only Get2Great magazine essays on who is good at a job, and the management-tool catalog.",
+  "packageName": "@alphesdk-remote/com-get2great-get2great-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://get2great.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/get2great-site",
+  "readme": "https://github.com/people-analyst/get2great-site#readme"
+}

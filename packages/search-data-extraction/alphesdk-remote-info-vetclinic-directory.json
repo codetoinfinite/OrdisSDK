@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VetClinic.info — Veterinary Specialty Directory",
+  "description": "Find US veterinary specialists. Search clinics, read procedure articles, estimate costs.",
+  "packageName": "@alphesdk-remote/info-vetclinic-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vetclinic.info/mcp"
+    }
+  ],
+  "url": "https://vetclinic.info"
+}

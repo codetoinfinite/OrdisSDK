@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kamy",
+  "description": "Document API for AI-native software: render PDFs, e-sign, PAdES-seal, and verify.",
+  "packageName": "@alphesdk-remote/dev-kamy-kamy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kamy.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Kamy-Development/kamy-plugin",
+  "readme": "https://github.com/Kamy-Development/kamy-plugin#readme"
+}

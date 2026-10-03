@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CuratorSearch",
+  "description": "Live museum and curatorial job listings from institutions' own careers pages, plus a salary archive.",
+  "packageName": "@alphesdk-remote/com-curatorsearch-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://curatorsearch.com/mcp"
+    }
+  ],
+  "url": "https://curatorsearch.com"
+}

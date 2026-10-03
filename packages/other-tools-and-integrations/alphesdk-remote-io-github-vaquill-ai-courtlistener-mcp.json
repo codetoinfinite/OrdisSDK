@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CourtListener",
+  "description": "MCP for CourtListener: US federal and state opinions, dockets, judges, plus eCFR regulations.",
+  "packageName": "@alphesdk-remote/io-github-vaquill-ai-courtlistener-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://courtlistener-mcp.vaquill.ai/mcp/"
+    }
+  ],
+  "url": "https://github.com/Vaquill-AI/courtlistener-mcp",
+  "readme": "https://github.com/Vaquill-AI/courtlistener-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YouTube Video Summarizer (pay-per-call)",
+  "description": "Summarize YouTube videos or fetch transcripts. Pay-per-call via x402 (USDC on Base), no account.",
+  "packageName": "@alphesdk-remote/io-github-jontelep-summarize-vid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sumvid.app/mcp"
+    }
+  ],
+  "url": "https://sumvid.app"
+}

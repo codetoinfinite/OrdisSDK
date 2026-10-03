@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Syftly",
+  "description": "Ranks the best AI tool or API per task: transcription, TTS, web search, scraping and OCR.",
+  "packageName": "@alphesdk-remote/io-github-lodewijkheemskerk-syftly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syftly.vercel.app/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣健康資訊",
+  "description": "台灣健康資訊：篩檢、慢性病與飲食等健康資訊整理。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-health",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://health.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://health.penguindriver.com"
+}

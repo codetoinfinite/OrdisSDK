@@ -10,5 +10,8 @@
       "description": "API key from dev.runwayml.com for authenticating with Runway ML services",
       "required": true
     }
-  }
+  },
+  "withPackages": [
+    "mcp<2"
+  ]
 }

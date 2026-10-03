@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Voya Homes public vacation-home search",
+  "description": "Read-only Voya Homes search for date-bound availability, prices and property details.",
+  "packageName": "@alphesdk-remote/com-voyahomes-voya-homes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voyahomes.com/mcp"
+    }
+  ],
+  "url": "https://github.com/r2nrswkypf-cmyk/voyahomes",
+  "readme": "https://github.com/r2nrswkypf-cmyk/voyahomes#readme"
+}

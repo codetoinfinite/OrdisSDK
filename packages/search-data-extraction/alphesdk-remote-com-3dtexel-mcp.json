@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "3D Texel",
+  "description": "Search/download 7,000+ PBR materials, HDRIs, decals, 3D assets; generate PBR materials and HDRIs.",
+  "packageName": "@alphesdk-remote/com-3dtexel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://3dtexel.com/wp-json/3dtexel-api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Gatyh/3dtexel-mcp",
+  "readme": "https://github.com/Gatyh/3dtexel-mcp#readme"
+}

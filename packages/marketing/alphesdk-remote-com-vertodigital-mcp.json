@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VertoDigital MCP Server",
+  "description": "B2B marketing intelligence and lead-capture tools for vertodigital.com.",
+  "packageName": "@alphesdk-remote/com-vertodigital-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vertodigital.com/mcp"
+    }
+  ],
+  "url": "https://github.com/VertoAgency/website",
+  "readme": "https://github.com/VertoAgency/website#readme"
+}

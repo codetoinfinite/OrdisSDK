@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "PantryPOS — Food Pantry Finder",
+  "description": "Find a food pantry near a US location (ZIP or City, ST) from ~17,000 pantries. Free.",
+  "packageName": "@alphesdk-remote/com-0xpi-pantrypos-find-food-pantry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pantrypos.0xpi.com/mcp-pantry"
+    }
+  ]
+}

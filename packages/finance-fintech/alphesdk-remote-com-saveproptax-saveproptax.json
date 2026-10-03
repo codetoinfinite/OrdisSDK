@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SavePropTax",
+  "description": "Free check of a California home for a Proposition 8 property tax reduction, plus owner filing.",
+  "packageName": "@alphesdk-remote/com-saveproptax-saveproptax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saveproptax.com/mcp"
+    }
+  ],
+  "url": "https://github.com/atifnayeem-oss/saveproptax-mcp",
+  "readme": "https://github.com/atifnayeem-oss/saveproptax-mcp#readme"
+}

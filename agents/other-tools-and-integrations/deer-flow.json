@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "deer-flow",
+  "name": "DeerFlow",
+  "description": "ByteDance's open agent harness that coordinates sub-agents, memory, sandboxes and skills for research, coding and content tasks.",
+  "category": "other-tools-and-integrations",
+  "tags": ["super-agent", "deep-research", "sub-agents", "sandbox", "skills"],
+  "repo": "https://github.com/bytedance/deer-flow",
+  "publisher": "ByteDance",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "DeerFlow 2.0 takes on long tasks such as deep research, report and slide generation or building small apps by planning, delegating to sub-agents and running code in a sandbox.",
+  "howItWorks": "A lead agent built on LangGraph spawns sub-agents, loads skills on demand and executes commands and file operations in a local or Docker sandbox, with long-term memory and MCP servers. A gateway and web frontend are started with make targets after a setup wizard writes the config.",
+  "requirements": [
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Chosen in the setup wizard and stored in .env"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Recommended way to run, and used for the sandbox"
+    },
+    {
+      "name": "make",
+      "kind": "runtime",
+      "required": true,
+      "description": "Setup and start targets"
+    }
+  ],
+  "install": ["git clone https://github.com/bytedance/deer-flow.git", "cd deer-flow", "make setup"],
+  "run": ["make docker-init", "make docker-start"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "OpenAI-compatible providers, Anthropic, DeepSeek, OpenRouter and others",
+  "mcp": "client",
+  "github": {
+    "stars": 83339,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

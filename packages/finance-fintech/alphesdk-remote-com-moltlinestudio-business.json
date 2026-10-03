@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Business Suite",
+  "description": "30 finance, bookkeeping, legal-ops and SMB operations skill products. 6 of 8 tools free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-business",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/business"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

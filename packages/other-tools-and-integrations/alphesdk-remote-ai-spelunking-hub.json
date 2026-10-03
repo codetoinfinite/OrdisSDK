@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "hub",
+  "description": "Structure for hard AI decisions, and a human to escalate to when the structure runs out.",
+  "packageName": "@alphesdk-remote/ai-spelunking-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spelunking.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/minMAXnn/spelunking-agent",
+  "readme": "https://github.com/minMAXnn/spelunking-agent#readme"
+}

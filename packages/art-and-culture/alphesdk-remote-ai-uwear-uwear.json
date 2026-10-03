@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Uwear",
+  "description": "AI photoshoot studio: garments, avatars, locations, and art direction",
+  "packageName": "@alphesdk-remote/ai-uwear-uwear",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.uwear.ai/mcp"
+    }
+  ],
+  "url": "https://uwear.ai/mcp"
+}

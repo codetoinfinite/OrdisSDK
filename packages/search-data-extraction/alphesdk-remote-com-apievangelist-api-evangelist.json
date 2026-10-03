@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "api-evangelist",
+  "description": "Sixteen years of API research as MCP tools — stories, areas, governance blocks & services",
+  "packageName": "@alphesdk-remote/com-apievangelist-api-evangelist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apievangelist.com/mcp"
+    }
+  ],
+  "url": "https://github.com/api-evangelist/apievangelist-aws",
+  "readme": "https://github.com/api-evangelist/apievangelist-aws#readme"
+}

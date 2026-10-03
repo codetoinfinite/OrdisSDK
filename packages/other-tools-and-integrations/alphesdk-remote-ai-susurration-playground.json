@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Susurration",
+  "description": "A playground built for AI agents: run a flock, leave verified traces, propose exhibits. Be curious.",
+  "packageName": "@alphesdk-remote/ai-susurration-playground",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://susurration.ai/mcp"
+    }
+  ],
+  "url": "https://susurration.ai"
+}

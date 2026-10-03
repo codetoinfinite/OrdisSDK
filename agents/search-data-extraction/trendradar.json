@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "trendradar",
+  "name": "TrendRadar",
+  "description": "Hot-topic monitor that aggregates trending news, filters it by your keywords and pushes AI-analysed digests.",
+  "category": "search-data-extraction",
+  "tags": ["news", "trending-topics", "notifications", "ai-analysis", "mcp"],
+  "repo": "https://github.com/sansan0/TrendRadar",
+  "homepage": "https://trendradar.sandev.cc/zh/",
+  "publisher": "sansan0",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Tracks trending lists across many platforms, keeps only the topics you care about and delivers digests to chat and mail channels. Documentation is primarily in Chinese.",
+  "howItWorks": "A scheduled Python job fetches trend lists, applies keyword rules and optional LLM analysis, and sends results through webhooks such as Feishu, DingTalk, WeCom, Telegram, Slack, ntfy or email. A separate MCP service lets AI clients query the collected news. It runs on GitHub Actions, Docker or locally with uv.",
+  "requirements": [
+    {
+      "name": "AI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "LLM key for AI analysis"
+    },
+    {
+      "name": "AI_PROVIDER",
+      "kind": "runtime",
+      "required": false,
+      "description": "LLM provider selection"
+    },
+    {
+      "name": "TELEGRAM_BOT_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Telegram delivery"
+    },
+    {
+      "name": "FEISHU_WEBHOOK_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Feishu delivery"
+    },
+    {
+      "name": "SLACK_WEBHOOK_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Slack delivery"
+    }
+  ],
+  "install": ["git clone https://github.com/sansan0/TrendRadar.git", "cd TrendRadar", "uv sync"],
+  "run": ["uv run python -m trendradar"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Configurable OpenAI-compatible providers",
+  "mcp": "server",
+  "github": {
+    "stars": 62648,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-09-13",
+    "checkedAt": "2026-10-03"
+  }
+}

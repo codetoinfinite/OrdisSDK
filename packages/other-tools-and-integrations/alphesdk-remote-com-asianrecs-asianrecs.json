@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Asian Recs",
+  "description": "SF and NYC restaurants, cafes, desserts and bars ranked by how Asian diners rate them.",
+  "packageName": "@alphesdk-remote/com-asianrecs-asianrecs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asianrecs.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/raymond-raymond/asianrecs-claude",
+  "readme": "https://github.com/raymond-raymond/asianrecs-claude#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentNative: Public Data, Government Datasets, Federal Statistics & Official Records",
+  "description": "Normalized official data with provenance, aggregations, insights, free samples and agent access.",
+  "packageName": "@alphesdk-remote/com-cazimedia-agentnative-government-public-open-data-datasets-federal-state-cit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentnative.cazimedia.com/mcp/government-data"
+    }
+  ],
+  "url": "https://cazimedia.com/agentnative/"
+}

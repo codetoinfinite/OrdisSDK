@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "savedthat",
+  "description": "Search your saved videos by what was said. YouTube, Reels, and TikTok transcripts. Read-only.",
+  "packageName": "@alphesdk-remote/app-savedthat-savedthat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://savedthat.app/api/mcp"
+    }
+  ]
+}

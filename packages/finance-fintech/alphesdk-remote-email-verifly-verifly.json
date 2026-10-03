@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Verifly",
+  "description": "Email verification for AI agents — verify, clean & validate emails; self-onboard + crypto pay",
+  "packageName": "@alphesdk-remote/email-verifly-verifly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verifly.email/mcp"
+    }
+  ],
+  "url": "https://github.com/james-sib/verifly-mcp-server",
+  "readme": "https://github.com/james-sib/verifly-mcp-server#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402 Merchant Check",
+  "description": "Pre-payment merchant trust checks for x402 agents on Base and Solana.",
+  "packageName": "@alphesdk-remote/com-gradientdecisions-merchant-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gradientdecisions.com/mcp"
+    }
+  ],
+  "url": "https://github.com/clevbot/merchant-check-mcp-",
+  "readme": "https://github.com/clevbot/merchant-check-mcp-#readme"
+}

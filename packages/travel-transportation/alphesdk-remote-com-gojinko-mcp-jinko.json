@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jinko MCP",
+  "description": "Turn your ChatGPT to a super travel agent",
+  "packageName": "@alphesdk-remote/com-gojinko-mcp-jinko",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gojinko.com"
+    }
+  ],
+  "url": "https://gojinko.com"
+}

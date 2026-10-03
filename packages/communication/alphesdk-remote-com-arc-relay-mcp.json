@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ARC-Relay",
+  "description": "DMARC-safe email forwarding for agents: aliases, DNS health checks, and MCP tools on your domains.",
+  "packageName": "@alphesdk-remote/com-arc-relay-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arc-relay.com/mcp"
+    }
+  ],
+  "url": "https://www.arc-relay.com"
+}

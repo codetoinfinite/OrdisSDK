@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "podcastfy",
+  "name": "Podcastfy",
+  "description": "Turns web pages, PDFs and other multimodal content into multilingual conversational audio, like NotebookLM's podcast feature.",
+  "category": "art-and-culture",
+  "tags": ["podcast", "text-to-speech", "notebooklm-alternative", "content-generation"],
+  "repo": "https://github.com/souzatharsis/podcastfy",
+  "publisher": "Tharsis Souza",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Generates a two-speaker podcast episode from URLs, documents and other inputs. It is for creators and developers who want programmable audio summaries.",
+  "howItWorks": "Content is extracted from the inputs, an LLM writes a conversational transcript, and a text-to-speech service voices it. It is available as a Python package and a command-line client and requires ffmpeg for audio processing.",
+  "requirements": [
+    {
+      "name": "ffmpeg",
+      "kind": "runtime",
+      "required": true,
+      "description": "Audio processing"
+    },
+    {
+      "name": "LLM and TTS provider keys",
+      "kind": "api-key",
+      "required": true,
+      "description": "Keys for the chosen transcript model and speech service"
+    }
+  ],
+  "install": ["pip install podcastfy"],
+  "run": ["python -m podcastfy.client --url <url1> --url <url2>"],
+  "interfaces": ["cli", "library", "api"],
+  "language": "Python",
+  "models": "Configurable LLM and TTS providers",
+  "mcp": "none",
+  "github": {
+    "stars": 6579,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-05-04",
+    "checkedAt": "2026-10-03"
+  }
+}

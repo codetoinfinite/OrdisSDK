@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Zambo",
+  "description": "Trust Layer for AI work. Give your AI hands. Every run returns a verifiable receipt. No key needed.",
+  "packageName": "@alphesdk-remote/dev-zambo-zambo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zambo.dev/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/rambozambodotdev/zambo",
+  "readme": "https://gitlab.com/rambozambodotdev/zambo#readme"
+}

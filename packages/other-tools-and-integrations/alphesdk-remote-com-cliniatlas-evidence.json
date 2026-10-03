@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CliniAtlas Evidence",
+  "description": "Free medical evidence tools: graded CliniAtlas answers, PubMed metadata and EU SmPC links.",
+  "packageName": "@alphesdk-remote/com-cliniatlas-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ydjbww4h7sfqc3sf2wcf26mfbq0bwvfu.lambda-url.eu-central-1.on.aws/public/mcp"
+    }
+  ]
+}

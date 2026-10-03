@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "TradePilot Agent Commerce",
+  "description": "120 pay-per-use AI agent services on Base (x402/USDC): drafting, data tools, SEO, specialists.",
+  "packageName": "@alphesdk-remote/com-tradepilotusa-www-agent-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tradepilotusa.com/api/agent-commerce/mcp"
+    }
+  ]
+}

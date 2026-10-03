@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "codescientist",
+  "name": "CodeScientist",
+  "description": "Semi-automated scientific discovery system that ideates, plans and runs code-based experiments and writes up the findings.",
+  "category": "data-science-tools",
+  "tags": [
+    "scientific-discovery",
+    "experiments",
+    "code-generation",
+    "human-in-the-loop",
+    "research"
+  ],
+  "repo": "https://github.com/allenai/codescientist",
+  "publisher": "Allen Institute for AI",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Generates experiment ideas from papers and code examples, implements and debugs them in a sandbox, and reports results. A researcher can steer it step by step or let batches run automatically.",
+  "howItWorks": "A back-end server performs ideation, planning and an execute-and-debug loop over generated experiment code, while a separate web interface submits and monitors jobs. Both are Python processes started from the repository.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Conda environment with Python 3.12"
+    },
+    {
+      "name": "LLM provider API keys",
+      "kind": "api-key",
+      "required": true,
+      "description": "Keys for the models used by the system"
+    }
+  ],
+  "install": [
+    "conda create --name codescientist python=3.12",
+    "conda activate codescientist",
+    "pip install -r requirements.txt"
+  ],
+  "run": ["python src/CodeScientistWebServer.py", "python src/CodeScientistWebInterface.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "Hosted LLM APIs configured by the user",
+  "mcp": "none",
+  "github": {
+    "stars": 351,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-25",
+    "checkedAt": "2026-10-03"
+  }
+}

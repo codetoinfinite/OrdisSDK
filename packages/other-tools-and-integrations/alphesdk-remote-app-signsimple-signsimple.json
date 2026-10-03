@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SignSimple",
+  "description": "Send PDFs for legally binding e-signature, free and unlimited. Track status; free legal templates.",
+  "packageName": "@alphesdk-remote/app-signsimple-signsimple",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signsimple.app/mcp"
+    }
+  ],
+  "url": "https://signsimple.app/developers"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "LION Trend Intent MCP",
+  "description": "Read-only x402-paid trend-intent MCP tools for JSON and CSV signals.",
+  "packageName": "@alphesdk-remote/io-github-lionmaster20-lion-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gleaming-cassata-d41682.netlify.app/api/mcp"
+    }
+  ]
+}

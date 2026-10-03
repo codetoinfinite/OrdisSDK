@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ClimbCast",
+  "description": "Read-only conditions and forecast accuracy for covered objectives in WA, OR, and BC. No account.",
+  "packageName": "@alphesdk-remote/io-climbcast-climbcast",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://climbcast.io/mcp"
+    }
+  ],
+  "url": "https://climbcast.io/docs/mcp"
+}

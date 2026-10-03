@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Squall Studio",
+  "description": "Read, edit and generate AI microdrama scripts, shots, characters and video in Squall Studio",
+  "packageName": "@alphesdk-remote/com-squallstudio-squall-studio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squallstudio.com/api/mcp"
+    }
+  ],
+  "url": "https://squallstudio.com/docs/mcp"
+}

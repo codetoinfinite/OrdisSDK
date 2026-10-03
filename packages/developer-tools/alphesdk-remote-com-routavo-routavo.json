@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Routavo",
+  "description": "Any API, four tools: discover, call with routing and signed receipts, verify, dispute.",
+  "packageName": "@alphesdk-remote/com-routavo-routavo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://routavo.com/api/mcp"
+    }
+  ],
+  "url": "https://routavo.com"
+}

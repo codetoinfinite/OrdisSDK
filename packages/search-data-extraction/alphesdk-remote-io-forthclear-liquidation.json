@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ForthClear Liquidation Marketplace",
+  "description": "Search surplus and overstock inventory, request bulk quotes, and check out.",
+  "packageName": "@alphesdk-remote/io-forthclear-liquidation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.forthclear.io/mcp"
+    }
+  ],
+  "url": "https://forthclear.io"
+}

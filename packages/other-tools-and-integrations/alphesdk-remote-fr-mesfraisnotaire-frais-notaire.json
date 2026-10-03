@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mes Frais de Notaire",
+  "description": "Frais de notaire en France : DMTO par département, émoluments réglementés, CSI et débours.",
+  "packageName": "@alphesdk-remote/fr-mesfraisnotaire-frais-notaire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mesfraisnotaire.fr/api/mcp"
+    }
+  ],
+  "url": "https://www.mesfraisnotaire.fr/mcp"
+}

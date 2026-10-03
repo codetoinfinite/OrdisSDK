@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VegasNearMe",
+  "description": "Live Las Vegas shows, restaurants, attractions and resorts. Read-only, no API key needed.",
+  "packageName": "@alphesdk-remote/com-vegasnearme-las-vegas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vegasnearme.com/mcp"
+    }
+  ],
+  "url": "https://www.vegasnearme.com/mcp"
+}

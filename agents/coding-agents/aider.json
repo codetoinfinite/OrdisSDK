@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "aider",
+  "name": "Aider",
+  "description": "Terminal pair programmer that edits files in your git repository with an LLM and commits each change automatically.",
+  "category": "coding-agents",
+  "tags": ["pair-programming", "terminal", "git", "repo-map", "python"],
+  "repo": "https://github.com/Aider-AI/aider",
+  "homepage": "https://aider.chat",
+  "docs": "https://aider.chat/docs/",
+  "publisher": "Aider-AI (Paul Gauthier)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Aider lets a developer chat with a model in the terminal to add features, fix bugs and refactor code across an existing project. It works with more than a hundred programming languages and can accept voice input. Every edit lands as a git commit so it is easy to review or undo.",
+  "howItWorks": "Aider builds a compact map of the repository so the model has context beyond the files in the chat. The model returns edits that Aider applies to the working tree and commits. It can run linters and tests after each change and feed failures back to the model for another pass.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed to run the installer and the tool"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Passed with --api-key, for example an Anthropic, OpenAI or DeepSeek key"
+    },
+    {
+      "name": "git",
+      "kind": "runtime",
+      "required": false,
+      "description": "Used for automatic commits of the edits"
+    }
+  ],
+  "install": ["python -m pip install aider-install", "aider-install"],
+  "run": ["cd /to/your/project", "aider --model sonnet --api-key anthropic=<key>"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Claude, OpenAI, DeepSeek and most other cloud or local models",
+  "mcp": "none",
+  "github": {
+    "stars": 49342,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-05-22",
+    "checkedAt": "2026-10-03"
+  }
+}

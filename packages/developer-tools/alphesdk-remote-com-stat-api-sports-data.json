@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "stat-api — Sports Data",
+  "description": "NFL/NBA/MLB/NHL/PGA + DFS and prediction-market data. Browse free; query with a free API key.",
+  "packageName": "@alphesdk-remote/com-stat-api-sports-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.stat-api.com/mcp"
+    }
+  ],
+  "url": "https://github.com/stat-api/mcp",
+  "readme": "https://github.com/stat-api/mcp#readme"
+}

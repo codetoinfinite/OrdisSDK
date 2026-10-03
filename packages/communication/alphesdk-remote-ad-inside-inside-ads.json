@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Inside Ads",
+  "description": "Telegram ad exchange: estimate reach and cost with no account, then create and run campaigns.",
+  "packageName": "@alphesdk-remote/ad-inside-inside-ads",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.inside.ad/api/mcp"
+    }
+  ],
+  "url": "https://inside.ad"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lightbringer",
+  "description": "Register innovations, request patent preparation, and collaborate with Lightbringer’s patent team.",
+  "packageName": "@alphesdk-remote/com-lightbringer-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lightbringer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lightbringer-patents/mcp-connector",
+  "readme": "https://github.com/lightbringer-patents/mcp-connector#readme"
+}

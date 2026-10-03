@@ -53,6 +53,10 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tool ${request.toolKey} executed successfully in sandbox`);
       return result;
     } catch (error) {
+      // On Vercel the LOCAL fallback can only refuse, so report what went wrong in the sandbox.
+      if (process.env.VERCEL) {
+        throw error;
+      }
       console.warn(`[SandboxExecutor] sandbox execution failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,
@@ -94,6 +98,9 @@ export class SandboxExecutor implements ToolExecutor {
       console.log(`[SandboxExecutor] Tools list retrieved successfully for package ${packageName}`);
       return tools;
     } catch (error) {
+      if (process.env.VERCEL) {
+        throw error;
+      }
       console.warn(`[SandboxExecutor] sandbox list tools failed, falling back to LOCAL execution`);
       console.warn(
         `[SandboxExecutor] Error: ${error instanceof Error ? error.message : String(error)}`,

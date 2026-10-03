@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MantleKit Launch Planner",
+  "description": "Generate MantleKit setup plans and launch-ready SaaS blueprints from a product idea.",
+  "packageName": "@alphesdk-remote/dev-mantlekit-launch-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mantlekit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/gcampton/mantlekit",
+  "readme": "https://github.com/gcampton/mantlekit#readme"
+}

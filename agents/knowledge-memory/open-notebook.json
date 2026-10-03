@@ -1,0 +1,61 @@
+{
+  "type": "external-agent",
+  "key": "open-notebook",
+  "name": "Open Notebook",
+  "description": "Private, multi-model, self-hosted alternative to Google NotebookLM for researching and discussing your sources.",
+  "category": "knowledge-memory",
+  "tags": ["notebooklm-alternative", "research", "podcast", "self-hosted", "multi-model"],
+  "repo": "https://github.com/lfnovo/open-notebook",
+  "homepage": "https://www.open-notebook.ai",
+  "publisher": "Luis Novo",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Organises sources into notebooks, lets you chat with them, take notes and generate podcasts, while keeping the data on your own machine. It is for people who want NotebookLM-style research with their choice of AI provider.",
+  "howItWorks": "A web front end and API run in Docker alongside SurrealDB for storage. Model providers are configured by the user, and an MCP integration lets external clients such as Claude Desktop reach the notebooks. Setup is a downloaded docker-compose file plus a few environment values.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the app and database"
+    },
+    {
+      "name": "OPEN_NOTEBOOK_ENCRYPTION_KEY",
+      "kind": "runtime",
+      "required": true,
+      "description": "Encryption key for stored credentials"
+    },
+    {
+      "name": "SURREAL_URL",
+      "kind": "service",
+      "required": false,
+      "description": "SurrealDB connection"
+    },
+    {
+      "name": "SURREAL_PASSWORD",
+      "kind": "runtime",
+      "required": false,
+      "description": "SurrealDB password"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for at least one AI provider, or a local model"
+    }
+  ],
+  "install": [
+    "curl -o docker-compose.yml https://raw.githubusercontent.com/lfnovo/open-notebook/main/docker-compose.yml"
+  ],
+  "run": ["docker compose up -d"],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Multiple providers and local models",
+  "mcp": "server",
+  "github": {
+    "stars": 39745,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

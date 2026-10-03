@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Football Atlas",
+  "description": "The Laws of the Game and world football's major competitions, every claim cited to primary sources",
+  "packageName": "@alphesdk-remote/app-futbolatlas-futbol-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://futbolatlas.app/mcp?via=manifest"
+    }
+  ],
+  "url": "https://github.com/citarium/futbolatlas-mcp",
+  "readme": "https://github.com/citarium/futbolatlas-mcp#readme"
+}

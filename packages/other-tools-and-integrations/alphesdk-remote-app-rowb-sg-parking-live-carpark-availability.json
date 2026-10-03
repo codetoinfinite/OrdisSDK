@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SG Parking Live",
+  "description": "Live HDB carpark availability for Singapore from the official data.gov.sg feed.",
+  "packageName": "@alphesdk-remote/app-rowb-sg-parking-live-carpark-availability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sg-parking-live.rowb.app/mcp"
+    }
+  ],
+  "url": "https://sg-parking-live.rowb.app"
+}

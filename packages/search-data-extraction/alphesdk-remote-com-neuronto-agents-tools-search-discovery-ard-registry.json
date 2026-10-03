@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Neuronto ARD Registry: Agentic Resource Discovery (ARD) Index",
+  "description": "Neuronto ARD Registry: one search across every public ARD registry + 200,000+ verified MCP tools",
+  "packageName": "@alphesdk-remote/com-neuronto-agents-tools-search-discovery-ard-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neuronto.com/mcp"
+    }
+  ],
+  "url": "https://github.com/neuronto/agentic-resource-discovery",
+  "readme": "https://github.com/neuronto/agentic-resource-discovery#readme"
+}

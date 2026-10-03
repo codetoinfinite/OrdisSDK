@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WealthSchema",
+  "description": "Cited 2026 U.S. planning figures (IRS, SSA, CMS), synthetic household samples, and an AI benchmark.",
+  "packageName": "@alphesdk-remote/com-wealthschema-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.wealthschema.com/api/mcp"
+    }
+  ],
+  "url": "https://www.wealthschema.com/for-agents"
+}

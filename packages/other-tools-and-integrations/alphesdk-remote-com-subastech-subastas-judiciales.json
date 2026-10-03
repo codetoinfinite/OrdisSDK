@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Subastech — subastas judiciales de inmuebles (BOE)",
+  "description": "Subastas judiciales de inmuebles en España: busca en los datos del BOE y analiza cada bien.",
+  "packageName": "@alphesdk-remote/com-subastech-subastas-judiciales",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.subastech.com/mcp"
+    }
+  ],
+  "url": "https://app.subastech.com/agentes"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "What's New",
+  "description": "Changelogs for apps, games and operating systems. Ask what shipped since the version you run.",
+  "packageName": "@alphesdk-remote/fyi-whatsnew-changelogs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whatsnew.fyi/mcp"
+    }
+  ],
+  "url": "https://whatsnew.fyi/mcp/setup"
+}

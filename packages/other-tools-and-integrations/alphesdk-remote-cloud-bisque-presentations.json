@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bisque Presentations",
+  "description": "Create narrated presentations from HTML, poll build status, list them, read one back as text.",
+  "packageName": "@alphesdk-remote/cloud-bisque-presentations",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bisque.cloud/presentations/mcp"
+    }
+  ],
+  "url": "https://bisque.today/docs/mcp"
+}

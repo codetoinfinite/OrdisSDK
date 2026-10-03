@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FINN Auto - Car Subscription",
+  "description": "Search and browse cars for all-inclusive subscription on FINN. Prices, specs, and checkout links.",
+  "packageName": "@alphesdk-remote/com-finn-www-auto",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.finn.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/finn-auto/finn-auto-ui-frontend",
+  "readme": "https://github.com/finn-auto/finn-auto-ui-frontend#readme"
+}

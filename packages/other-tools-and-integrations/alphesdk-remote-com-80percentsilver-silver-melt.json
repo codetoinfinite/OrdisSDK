@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "80% Silver Melt Calculator",
+  "description": "Live junk silver and gold melt value calculator: spot price, coins, sterling. USD/CAD.",
+  "packageName": "@alphesdk-remote/com-80percentsilver-silver-melt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://80percentsilver.com/mcp"
+    }
+  ],
+  "url": "https://80percentsilver.com"
+}

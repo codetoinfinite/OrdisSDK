@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AIWebSignals",
+  "description": "Public AI web-readiness scanner and machine-facing observability discovery service.",
+  "packageName": "@alphesdk-remote/io-github-galanai-aiwebsignals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiwebsignals.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Galanai/aiwebsignals-api",
+  "readme": "https://github.com/Galanai/aiwebsignals-api#readme"
+}

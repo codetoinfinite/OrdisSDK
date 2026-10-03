@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CoachSync",
+  "description": "Barbell strength training tools for AI assistants. Warmup, plate loading, and LP.",
+  "packageName": "@alphesdk-remote/io-coachsync-coachsync-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.coachsync.io/mcp"
+    }
+  ],
+  "url": "https://github.com/hobodave/coachsync-mcp",
+  "readme": "https://github.com/hobodave/coachsync-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Veridion Disclosures",
+  "description": "Congressional stock-trade reports and the President's OGE reports, each row linked to its filing.",
+  "packageName": "@alphesdk-remote/com-veridionmarkets-disclosures",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.veridionmarkets.com/api/mcp"
+    }
+  ],
+  "url": "https://www.veridionmarkets.com/data-api/docs"
+}

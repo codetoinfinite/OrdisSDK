@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dropyour",
+  "description": "Publish AND operate micro-apps from your AI. No account, no API key. Stable URL, EU-hosted.",
+  "packageName": "@alphesdk-remote/io-dropyour-dropyour",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dropyour.io/mcp"
+    }
+  ],
+  "url": "https://github.com/dropyour/dropyour-plugin",
+  "readme": "https://github.com/dropyour/dropyour-plugin#readme"
+}

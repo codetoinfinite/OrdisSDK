@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "evidence-ledger",
+  "description": "Read-only MCP: free OpenAI security evidence ledger (55 fields) + SaaSDossier release register.",
+  "packageName": "@alphesdk-remote/com-saasdossier-evidence-ledger",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://saasdossier.com/mcp"
+    }
+  ],
+  "url": "https://saasdossier.com"
+}

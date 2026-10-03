@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AsterNym",
+  "description": "Birth charts for agents: BaZi, Chinese and Western zodiac, numerology. Keyless and read-only.",
+  "packageName": "@alphesdk-remote/com-asternym-asternym",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asternym.com/mcp"
+    }
+  ],
+  "url": "https://asternym.com/for-agents"
+}

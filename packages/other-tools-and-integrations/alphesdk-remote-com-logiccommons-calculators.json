@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "calculators",
+  "description": "Find and run trustworthy calculators with clear methods, provenance, and sources.",
+  "packageName": "@alphesdk-remote/com-logiccommons-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.logiccommons.com/mcp"
+    }
+  ],
+  "url": "https://www.logiccommons.com"
+}

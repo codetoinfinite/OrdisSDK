@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CopyTheVideo",
+  "description": "Find MP4 download options for public Facebook videos and Reels. No login or local file upload.",
+  "packageName": "@alphesdk-remote/com-copythevideo-video",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://copythevideo.com/mcp"
+    }
+  ],
+  "url": "https://copythevideo.com/developers"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "vend-api-merchant",
+  "description": "Pay-per-call web intel: extract, search, link check, domain, geo, Nano. Settled via Nano x402.",
+  "packageName": "@alphesdk-remote/dev-paypercall-extract-vend-api-merchant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://extract.paypercall.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/dhyabi2/vend",
+  "readme": "https://github.com/dhyabi2/vend#readme"
+}

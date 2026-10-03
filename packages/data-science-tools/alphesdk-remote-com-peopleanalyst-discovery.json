@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "discovery",
+  "description": "PeopleAnalyst's free people-analytics feeds: answers, tools, evidence, story and scene catalogs.",
+  "packageName": "@alphesdk-remote/com-peopleanalyst-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://peopleanalyst.com/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/peopleanalyst-site",
+  "readme": "https://github.com/people-analyst/peopleanalyst-site#readme"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "nexent",
+  "name": "Nexent",
+  "description": "Zero-code platform that generates agents from a prompt and runs them with shared tools, skills, memory and orchestration.",
+  "category": "other-tools-and-integrations",
+  "tags": ["zero-code", "agent-platform", "self-hosted", "skills", "memory"],
+  "repo": "https://github.com/ModelEngine-Group/nexent",
+  "docs": "https://modelengine-group.github.io/nexent/en/quick-start/installation.html",
+  "publisher": "ModelEngine Group",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets users describe an agent in natural language and have the platform build it. Intended for individuals, small teams and private infrastructure deployments.",
+  "howItWorks": "A deploy script starts the services with Docker or Kubernetes, reading runtime settings from an env file under the deploy directory. Offline image packages can also be built.",
+  "requirements": [
+    {
+      "name": "Docker 24+ and Docker Compose v2+",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the Docker deployment"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    }
+  ],
+  "install": ["git clone https://github.com/ModelEngine-Group/nexent.git", "cd nexent"],
+  "run": ["bash deploy.sh docker"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 5891,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

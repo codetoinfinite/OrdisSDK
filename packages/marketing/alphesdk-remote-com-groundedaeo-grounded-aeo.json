@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "grounded-aeo",
+  "description": "Audit and fix a site for AI citation + SEO, verify it, then publish a v=AEO1 record.",
+  "packageName": "@alphesdk-remote/com-groundedaeo-grounded-aeo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://groundedaeo.com/api/mcp"
+    }
+  ]
+}

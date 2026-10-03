@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "shell-gpt",
+  "name": "ShellGPT",
+  "description": "Command-line assistant that answers questions and writes shell commands and code for your operating system and shell.",
+  "category": "command-line",
+  "tags": ["shell", "cli", "command-generation", "productivity"],
+  "repo": "https://github.com/TheR1D/shell_gpt",
+  "publisher": "TheR1D",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gives terminal users quick answers, generated commands they can review and execute, and code snippets without leaving the shell. It also offers chat sessions and a REPL mode.",
+  "howItWorks": "The sgpt command sends the prompt, plus any piped input, to the configured model and prints the response. In shell mode it tailors the command to the detected OS and shell and asks before running it. Settings and the API key are stored in a config file in the user's home directory.",
+  "requirements": [
+    {
+      "name": "OpenAI API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Prompted on first use and saved in ~/.config/shell_gpt/.sgptrc; a local Ollama backend is an optional alternative"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Installed with pip"
+    }
+  ],
+  "install": ["pip install shell-gpt"],
+  "run": ["sgpt --shell \"find all json files in current folder\""],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "OpenAI by default; local models through Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 12291,
+    "license": "MIT",
+    "pushedAt": "2026-07-02",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "commercial",
+  "description": "Discover DigitalPublic plans, trust, ROI, status and autonomous Sandbox enrollment for AI agents.",
+  "packageName": "@alphesdk-remote/com-digitalpublic-commercial",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://platform.digitalpublic.com/api/mcp-commercial"
+    }
+  ],
+  "url": "https://github.com/cnavarro/digitalpublic-platform",
+  "readme": "https://github.com/cnavarro/digitalpublic-platform#readme"
+}

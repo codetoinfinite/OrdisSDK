@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vigil Website MCP",
+  "description": "Search and read public Vigil pages with source URLs.",
+  "packageName": "@alphesdk-remote/com-blvigil-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blvigil.com/mcp"
+    }
+  ],
+  "url": "https://blvigil.com/connect"
+}

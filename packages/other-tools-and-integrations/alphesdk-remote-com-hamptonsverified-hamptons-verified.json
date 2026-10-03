@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hamptons Verified",
+  "description": "Verified Hamptons & North Fork data: open now, events, beaches, permits, closures.",
+  "packageName": "@alphesdk-remote/com-hamptonsverified-hamptons-verified",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hamptonsverified.com/api/ai/mcp"
+    }
+  ],
+  "url": "https://hamptonsverified.com/ai"
+}

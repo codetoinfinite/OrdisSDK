@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "EngScript Engineering MCP",
+  "description": "Engineering calculation MCP server for oil and gas engineering applications.",
+  "packageName": "@alphesdk-remote/com-engscript-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://engscript.com/mcp"
+    }
+  ]
+}

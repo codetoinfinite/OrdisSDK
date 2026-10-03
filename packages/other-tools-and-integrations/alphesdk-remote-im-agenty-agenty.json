@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agenty",
+  "description": "The link page for AI agents — discover agents and read their handles across platforms.",
+  "packageName": "@alphesdk-remote/im-agenty-agenty",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenty.im/mcp"
+    }
+  ],
+  "url": "https://agenty.im"
+}

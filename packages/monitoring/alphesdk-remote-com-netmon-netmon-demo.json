@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Netmon (demo)",
+  "description": "Public read-only demo of Netmon's network monitoring tools over a recorded snapshot.",
+  "packageName": "@alphesdk-remote/com-netmon-netmon-demo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://netmon.com/mcp-demo/mcp"
+    }
+  ],
+  "url": "https://github.com/Netmon-Services/netmon-mcpd",
+  "readme": "https://github.com/Netmon-Services/netmon-mcpd#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "Amazon ECS",
+  "description": "Containerize and deploy apps to ECS and troubleshoot deployments.",
+  "packageName": "awslabs.ecs-mcp-server",
+  "packageVersion": "0.1.36",
+  "runtime": "python",
+  "bin": "ecs-mcp-server",
+  "readme": "https://awslabs.github.io/mcp/servers/ecs-mcp-server/",
+  "url": "https://github.com/awslabs/mcp",
+  "author": "AWS (awslabs)",
+  "env": {
+    "AWS_PROFILE": {
+      "description": "AWS credentials profile",
+      "required": false
+    },
+    "AWS_REGION": {
+      "description": "AWS region",
+      "required": false
+    }
+  },
+  "withPackages": [
+    "mcp<2"
+  ]
+}

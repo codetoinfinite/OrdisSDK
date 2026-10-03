@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "papersearch-(arxiv)",
+  "packageName": "git+https://github.com/lincest/mcp-papersearch@564c3fb510ea8a8fbae75eadc14c70666b2e73d2",
   "description": "Integrates with arXiv to enable keyword searches, paper retrieval, and tracking of recent submissions across scientific categories.",
   "url": "https://github.com/lincest/mcp-papersearch",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "PaperSearch MCP"
+  "name": "PaperSearch MCP",
+  "bin": "papersearch",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GiftsToPrint",
+  "description": "Order personalised newspaper-style birthday, anniversary and retirement posters as print files.",
+  "packageName": "@alphesdk-remote/com-giftstoprint-poster-connector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.giftstoprint.com/mcp"
+    }
+  ],
+  "url": "https://mcp.giftstoprint.com/docs"
+}

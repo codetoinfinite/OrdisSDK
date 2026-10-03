@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Neubau-Radar – Swiss building applications",
+  "description": "Every official Swiss building application on the day it is published, for professionals.",
+  "packageName": "@alphesdk-remote/ch-neubau-radar-baupublikationen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://neubau-radar.ch/mcp"
+    }
+  ],
+  "url": "https://neubau-radar.ch"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Registry Expansion Routing",
+  "description": "Public-registry routing map by entity kind. Read-only reference data, not a determination.",
+  "packageName": "@alphesdk-remote/com-bonissystems-registry-expansion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonissystems.com/api/knox/agents/registry-expansion/mcp"
+    }
+  ],
+  "url": "https://bonissystems.com/agents"
+}

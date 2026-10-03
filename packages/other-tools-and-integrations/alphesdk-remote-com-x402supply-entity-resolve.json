@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "entity-resolve",
+  "description": "Fuzzy entity resolution and dedupe for names, addresses, and company records. $0.02/call via x402.",
+  "packageName": "@alphesdk-remote/com-x402supply-entity-resolve",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entity-resolve.x402supply.com/mcp"
+    }
+  ],
+  "url": "https://x402supply.com"
+}

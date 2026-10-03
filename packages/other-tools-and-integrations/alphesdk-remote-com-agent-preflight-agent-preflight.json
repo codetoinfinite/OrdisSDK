@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Preflight",
+  "description": "Budgeted agent preflight: allow|block|reuse|defer|advise. Never executes destination tools. Free MCP",
+  "packageName": "@alphesdk-remote/com-agent-preflight-agent-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agent-preflight.com/mcp"
+    }
+  ],
+  "url": "https://agent-preflight.com"
+}

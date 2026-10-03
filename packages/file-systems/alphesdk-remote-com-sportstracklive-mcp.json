@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SportsTrackLive",
+  "description": "Live GPS sports tracking + per-sport analysis of GPX/IGC/FIT files: thermals, wind, phases, laps",
+  "packageName": "@alphesdk-remote/com-sportstracklive-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sportstracklive.com/mcp"
+    }
+  ],
+  "url": "https://www.sportstracklive.com"
+}

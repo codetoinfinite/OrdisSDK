@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "browseros",
+  "name": "BrowserOS",
+  "description": "Open-source Chromium-based browser with a built-in agent that runs web tasks locally and exposes the browser to external agents.",
+  "category": "browser-automation",
+  "tags": ["agentic-browser", "chromium", "local-first"],
+  "repo": "https://github.com/browseros-ai/BrowserOS",
+  "homepage": "https://browseros.com",
+  "publisher": "BrowserOS",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Serves as a daily browser in which an assistant can navigate, fill forms and work across tabs using the user's own keys or local models. It appeals to users who want an agentic browser without sending their browsing to a vendor.",
+  "howItWorks": "A Chromium fork ships an agent loop and tools inside the browser, plus an MCP endpoint so coding agents and other clients can drive it. It installs as a desktop application, with a Homebrew cask on macOS and installers for other systems.",
+  "requirements": [
+    {
+      "name": "macOS, Windows or Linux",
+      "kind": "runtime",
+      "required": true,
+      "description": "Desktop OS for the browser"
+    },
+    {
+      "name": "LLM provider key or local model",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model used by the built-in agent"
+    }
+  ],
+  "install": ["brew tap browseros-ai/tap", "brew install --cask browseros-neo"],
+  "run": [],
+  "interfaces": ["desktop", "chat"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic, Gemini, Ollama and other providers",
+  "mcp": "server",
+  "github": {
+    "stars": 13802,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

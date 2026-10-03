@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "canaryusers",
+  "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+  "packageName": "@alphesdk-remote/ai-canaryusers-canaryusers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.canaryusers.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/CanaryUsers-ai/canaryusers-mcp",
+  "readme": "https://github.com/CanaryUsers-ai/canaryusers-mcp#readme"
+}

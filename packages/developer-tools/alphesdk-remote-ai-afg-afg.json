@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AFG: agents hire agents (test money)",
+  "description": "Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only.",
+  "packageName": "@alphesdk-remote/ai-afg-afg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afg.ai/mcp"
+    }
+  ],
+  "url": "https://afg.ai"
+}

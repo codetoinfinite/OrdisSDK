@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Postlia",
+  "description": "Schedule and publish social posts to 7 networks from AI agents. Postlia API key (Pro) required.",
+  "packageName": "@alphesdk-remote/com-postlia-postlia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://postlia.com/api/mcp"
+    }
+  ],
+  "url": "https://postlia.com"
+}

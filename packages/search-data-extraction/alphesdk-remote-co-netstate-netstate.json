@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Netstate",
+  "description": "Search 128 million official company registrations across every US state, DC, Puerto Rico and Canada.",
+  "packageName": "@alphesdk-remote/co-netstate-netstate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://netstate.co/mcp"
+    }
+  ],
+  "url": "https://netstate.co"
+}

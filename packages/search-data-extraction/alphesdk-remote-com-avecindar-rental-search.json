@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Avecindar rental search",
+  "description": "Read-only search of Avecindar's public rental listings in Uruguay; unknown costs stay unknown.",
+  "packageName": "@alphesdk-remote/com-avecindar-rental-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://avecindar.com/mcp"
+    }
+  ],
+  "url": "https://avecindar.com/es/homes"
+}

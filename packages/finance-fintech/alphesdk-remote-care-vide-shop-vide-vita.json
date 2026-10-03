@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Vidé Vita",
+  "description": "Vidé Vita supplements — live prices, stock, label amounts, warnings, reviews and checkout",
+  "packageName": "@alphesdk-remote/care-vide-shop-vide-vita",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shop.vide.care/wp-json/vide/v1/mcp"
+    }
+  ]
+}

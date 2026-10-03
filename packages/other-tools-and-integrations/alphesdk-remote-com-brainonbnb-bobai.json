@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bobai",
+  "description": "Which ERC-8004 agents on BNB Chain actually answer, and what any BSC trade really costs",
+  "packageName": "@alphesdk-remote/com-brainonbnb-bobai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brainonbnb.com/mcp"
+    }
+  ],
+  "url": "https://brainonbnb.com/"
+}

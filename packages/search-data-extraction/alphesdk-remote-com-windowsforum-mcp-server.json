@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WindowsForum MCP Server",
+  "description": "Search WindowsForum.com threads, posts, and Windows news; fetch documents and Microsoft KB info.",
+  "packageName": "@alphesdk-remote/com-windowsforum-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.windowsforum.com/"
+    }
+  ],
+  "url": "https://windowsforum.com"
+}

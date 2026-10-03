@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MX Verdict",
+  "description": "Free, read-only email and DNS checks: SPF, DKIM, DMARC, MX, DNS records, blocklists, domain health.",
+  "packageName": "@alphesdk-remote/com-mxverdict-mxverdict",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mxverdict.com/mcp"
+    }
+  ],
+  "url": "https://mxverdict.com"
+}

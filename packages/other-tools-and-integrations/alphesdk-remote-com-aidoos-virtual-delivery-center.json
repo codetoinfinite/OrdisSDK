@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AiDOOS Virtual Delivery Center",
+  "description": "Plan a Virtual Delivery Center for any initiative: pods, roles, AI agents, Delivery Units.",
+  "packageName": "@alphesdk-remote/com-aidoos-virtual-delivery-center",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aidoos.com/mcp"
+    }
+  ]
+}

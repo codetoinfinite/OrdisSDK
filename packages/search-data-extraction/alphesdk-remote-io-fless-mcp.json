@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fless Apartment Hunt",
+  "description": "Apartment hunting in DC, Maryland and Virginia: research cities, build pre-filled hunt links.",
+  "packageName": "@alphesdk-remote/io-fless-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fless.io/mcp"
+    }
+  ],
+  "url": "https://github.com/fless-io/skills",
+  "readme": "https://github.com/fless-io/skills#readme"
+}

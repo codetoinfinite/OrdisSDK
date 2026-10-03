@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "gpt-home",
+  "name": "GPT Home",
+  "description": "Do-it-yourself smart speaker for Raspberry Pi: a voice assistant that controls music, lights, alarms and calendars through an LLM.",
+  "category": "embedded-system",
+  "tags": ["raspberry-pi", "voice", "smart-home", "assistant", "diy"],
+  "repo": "https://github.com/judahpaul16/gpt-home",
+  "publisher": "Judah Paul",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Turns a Raspberry Pi with a microphone and speaker into a home assistant that answers questions and operates connected services. It suits makers who want an open alternative to commercial smart speakers.",
+  "howItWorks": "A Python application handles wake and speech, routes requests through LiteLLM to a chosen model and uses a LangGraph agent with tools for Spotify, Philips Hue, weather, alarms and CalDAV. A setup script prepares the Pi and the services run in Docker containers with a web interface for settings.",
+  "requirements": [
+    {
+      "name": "Raspberry Pi with mic and speaker",
+      "kind": "hardware",
+      "required": true,
+      "description": "Target device for the assistant"
+    },
+    {
+      "name": "LITELLM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the model provider used through LiteLLM"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Services run under Docker Compose"
+    }
+  ],
+  "install": [
+    "curl -s https://raw.githubusercontent.com/judahpaul16/gpt-home/main/contrib/setup.sh | bash -s -- --no-build",
+    "cd ~/gpt-home",
+    "cp .env.example .env"
+  ],
+  "run": ["docker compose down && docker compose up -d"],
+  "interfaces": ["web", "chat"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "Any provider supported by LiteLLM",
+  "mcp": "none",
+  "github": {
+    "stars": 650,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-09-13",
+    "checkedAt": "2026-10-03"
+  }
+}

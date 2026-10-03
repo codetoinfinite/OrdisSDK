@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "stopover-planner",
+  "description": "Live Google Flights search: stopover itineraries, country sweeps, explore anywhere, booking links",
+  "packageName": "@alphesdk-remote/com-stopovercity-stopover-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stopovercity.com/mcp"
+    }
+  ],
+  "url": "https://stopovercity.com"
+}

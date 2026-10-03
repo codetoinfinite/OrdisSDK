@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "genericagent",
+  "name": "GenericAgent",
+  "description": "Minimal self-evolving agent of about 3K lines that controls the local system and saves each solved task as a reusable skill.",
+  "category": "other-tools-and-integrations",
+  "tags": ["self-evolving", "minimal", "skills", "system-control", "autonomous"],
+  "repo": "https://github.com/lsdefine/GenericAgent",
+  "homepage": "https://gaagent.ai",
+  "publisher": "lsdefine",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gives an LLM system-level control of a computer to complete tasks, then stores the successful path as a skill so repeated work gets faster. Suited to individuals who want a small agent they can read and grow.",
+  "howItWorks": "Nine atomic tools and an agent loop of roughly 100 lines form the core. Skills accumulate into a personal skill tree instead of being preloaded. It is used through a terminal UI or a Streamlit web UI, with keys kept in a local mykey.py file.",
+  "requirements": [
+    {
+      "name": "Python 3.11 or 3.12",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.14 is not compatible"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Entered in mykey.py"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/lsdefine/GenericAgent.git && cd GenericAgent",
+    "uv venv && uv pip install -e \".[ui]\"",
+    "cp mykey_template_en.py mykey.py"
+  ],
+  "run": ["python frontends/tui_v3.py", "python launch.pyw"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "Any LLM configured in mykey.py",
+  "mcp": "none",
+  "github": {
+    "stars": 14272,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

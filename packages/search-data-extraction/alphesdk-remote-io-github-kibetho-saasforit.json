@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SaaSforIT Directory",
+  "description": "AI-powered SaaS tool discovery API. Search 150+ curated business tools and get recommendations.",
+  "packageName": "@alphesdk-remote/io-github-kibetho-saasforit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fuechvghummojkgliyha.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Kibetho/win95-saas-finder",
+  "readme": "https://github.com/Kibetho/win95-saas-finder#readme"
+}

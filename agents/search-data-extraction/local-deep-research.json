@@ -1,0 +1,70 @@
+{
+  "type": "external-agent",
+  "key": "local-deep-research",
+  "name": "Local Deep Research",
+  "description": "Privacy-oriented deep-research assistant that runs with local models and searches web, academic and private sources.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "local-llm", "searxng", "academic-search", "privacy"],
+  "repo": "https://github.com/LearningCircuit/local-deep-research",
+  "publisher": "LearningCircuit",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Runs multi-step research on a question and returns a cited report, drawing on web engines, academic databases and your own document collections. It is for users who want research to stay on their own infrastructure.",
+  "howItWorks": "A web application orchestrates iterative search and synthesis with an LLM served by Ollama or an API provider, using SearXNG as the default web engine. Data is stored in an encrypted SQLCipher database. An optional MCP server exposes the research functions to clients such as Claude.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Quick start uses Docker and Docker Compose"
+    },
+    {
+      "name": "Ollama",
+      "kind": "service",
+      "required": false,
+      "description": "Local LLM server"
+    },
+    {
+      "name": "SearXNG",
+      "kind": "service",
+      "required": false,
+      "description": "Web search engine"
+    },
+    {
+      "name": "LDR_LLM_PROVIDER",
+      "kind": "runtime",
+      "required": false,
+      "description": "Selects the LLM provider"
+    },
+    {
+      "name": "LDR_LLM_OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI key when using OpenAI"
+    },
+    {
+      "name": "LDR_LLM_OLLAMA_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Ollama endpoint"
+    }
+  ],
+  "install": [
+    "docker run -d -p 11434:11434 --name ollama ollama/ollama",
+    "docker exec ollama ollama pull gpt-oss:20b",
+    "docker run -d -p 8080:8080 --name searxng searxng/searxng"
+  ],
+  "run": [
+    "curl -O https://raw.githubusercontent.com/LearningCircuit/local-deep-research/main/docker-compose.yml && docker compose up -d"
+  ],
+  "interfaces": ["web", "api", "cli"],
+  "language": "Python",
+  "models": "Ollama local models, OpenAI and other providers",
+  "mcp": "server",
+  "github": {
+    "stars": 9148,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

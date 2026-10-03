@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HotelsCasa",
+  "description": "Travel search: 1.3M hotels and apartments, owner homes, tours, flights, taxi, car rental.",
+  "packageName": "@alphesdk-remote/com-hotelscasa-hotelscasa-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hotelscasa.com/mcp"
+    }
+  ],
+  "url": "https://github.com/hotelscasa/hotelscasa-mcp",
+  "readme": "https://github.com/hotelscasa/hotelscasa-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CustomerDashboard",
+  "description": "Build dashboards on your own data, including multi-customer views with per-customer login.",
+  "packageName": "@alphesdk-remote/io-customerdashboard-customerdashboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.customerdashboard.io/mcp"
+    }
+  ],
+  "url": "https://customerdashboard.io"
+}

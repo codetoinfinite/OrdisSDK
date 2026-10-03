@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Robozukan (ロボ図鑑)",
+  "description": "Japanese catalog of physical devices AI agents can control: connectivity ratings, APIs, sources.",
+  "packageName": "@alphesdk-remote/com-robozukan-robozukan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://robozukan.com/api/mcp"
+    }
+  ],
+  "url": "https://robozukan.com/mcp"
+}

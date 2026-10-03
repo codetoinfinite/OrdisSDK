@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "blog",
+  "description": "Search and read the Radixia blog (enterprise AI, cloud, open source) via MCP.",
+  "packageName": "@alphesdk-remote/ai-radixia-blog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.radixia.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/radixia/blog-mcp",
+  "readme": "https://github.com/radixia/blog-mcp#readme"
+}

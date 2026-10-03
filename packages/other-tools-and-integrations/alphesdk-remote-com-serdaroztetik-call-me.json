@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Call Me",
+  "description": "Your AI rings your iPhone, speaks its question, and gets your spoken answer back as text.",
+  "packageName": "@alphesdk-remote/com-serdaroztetik-call-me",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://serdaroztetik.com/aiphone/mcp"
+    }
+  ],
+  "url": "https://serdaroztetik.com/aiphone/"
+}

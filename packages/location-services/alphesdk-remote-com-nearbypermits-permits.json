@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nearby Permits",
+  "description": "Building permits by street address for 8 US cities, from city open data. Free, no key.",
+  "packageName": "@alphesdk-remote/com-nearbypermits-permits",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nearbypermits.com/mcp"
+    }
+  ],
+  "url": "https://nearbypermits.com/developers/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "texttostl",
+  "description": "x402-paid tools: text to 3D-printable STL, web search, and search+read. USDC on Base.",
+  "packageName": "@alphesdk-remote/com-texttostl-texttostl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.texttostl.com/mcp"
+    }
+  ],
+  "url": "https://www.texttostl.com"
+}

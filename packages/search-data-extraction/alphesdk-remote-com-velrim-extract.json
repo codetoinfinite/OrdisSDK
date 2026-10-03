@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Velrim",
+  "description": "Document extraction against a JSON Schema with a calibrated confidence per field; async job status.",
+  "packageName": "@alphesdk-remote/com-velrim-extract",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.velrim.com/mcp"
+    }
+  ],
+  "url": "https://velrim.com/docs/mcp"
+}

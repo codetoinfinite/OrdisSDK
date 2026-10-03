@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Arbo",
+  "description": "Site structure for client redesigns. Page tree with URL, keyword, status and redirect plan export.",
+  "packageName": "@alphesdk-remote/com-getarbo-arbo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getarbo.com/api/mcp"
+    }
+  ],
+  "url": "https://getarbo.com"
+}

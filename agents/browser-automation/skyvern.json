@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "skyvern",
+  "name": "Skyvern",
+  "description": "Automates browser-based business workflows with vision LLMs, so tasks run on sites it has never seen without hand-written selectors.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "rpa", "workflows", "playwright", "vision"],
+  "repo": "https://github.com/Skyvern-AI/skyvern",
+  "homepage": "https://www.skyvern.com",
+  "publisher": "Skyvern",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Runs repetitive web processes such as form filling, data entry, downloads and procurement across many different websites. Operations teams and developers describe the goal, and Skyvern works out the clicks; a visual workflow builder chains several tasks together.",
+  "howItWorks": "A group of cooperating agents plans the task, inspects the page with a vision-capable model and performs actions through Playwright. It is self-hostable with a local server and web UI, keeps run data in a local SQLite database by default, and also exposes a Playwright-compatible SDK plus a TypeScript client.",
+  "requirements": [
+    {
+      "name": "Python 3.11-3.13",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the pip install path"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the model provider chosen during quickstart, stored in .env"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Only for the docker compose deployment"
+    }
+  ],
+  "install": ["pip install \"skyvern[all]\""],
+  "run": ["skyvern quickstart"],
+  "interfaces": ["web", "api", "cli", "library"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Gemini, Azure, Bedrock, Ollama and OpenAI-compatible endpoints",
+  "mcp": "server",
+  "github": {
+    "stars": 23128,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

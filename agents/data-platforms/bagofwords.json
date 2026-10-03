@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "bagofwords",
+  "name": "Bag of Words",
+  "description": "Self-hosted agentic analytics platform for chatting with data, building reports and dashboards, and scheduling them.",
+  "category": "data-platforms",
+  "tags": ["analytics", "dashboards", "reports", "evals", "mcp"],
+  "repo": "https://github.com/bagofwords1/bagofwords",
+  "homepage": "https://bagofwords.com",
+  "docs": "https://docs.bagofwords.com/install",
+  "publisher": "Bag of Words",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives teams a single place to ask data questions, turn answers into dashboards and scheduled reports, and evaluate agent quality. It can also be reached from Slack, Teams, WhatsApp and email.",
+  "howItWorks": "A single container runs the web app and agent, which connects to data sources and any configured LLM. It acts as an MCP gateway in both directions and stores its state in an embedded database or an external Postgres.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the published image"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured in the app"
+    },
+    {
+      "name": "BOW_DATABASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "External PostgreSQL connection string for persistent state"
+    }
+  ],
+  "install": [],
+  "run": ["docker run -p 3000:3000 bagofwords/bagofwords"],
+  "interfaces": ["web", "chat", "api"],
+  "language": "Python",
+  "models": "Any LLM provider",
+  "mcp": "both",
+  "github": {
+    "stars": 458,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

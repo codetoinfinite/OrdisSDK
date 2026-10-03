@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Latzerus Lernbereich",
+  "description": "Latzerus (CH): 100+ kostenlose 5-Minuten-Lernmodule zu Vertrieb, KI und Karriere.",
+  "packageName": "@alphesdk-remote/ch-latzerus-lernbereich",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.latzerus.ch/mcp"
+    }
+  ],
+  "url": "https://www.latzerus.ch"
+}

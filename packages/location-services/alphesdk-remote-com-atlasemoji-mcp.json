@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Atlasemoji",
+  "description": "AI-ready GIS, geofencing, DataSynch, CRM, inventory, routing, APIs, telemetry and workflows.",
+  "packageName": "@alphesdk-remote/com-atlasemoji-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://atlasemoji.com/api/mcp"
+    }
+  ],
+  "url": "https://atlasemoji.com/mcp"
+}

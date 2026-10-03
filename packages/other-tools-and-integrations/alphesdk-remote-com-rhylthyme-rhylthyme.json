@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Rhylthyme",
+  "description": "Real-time multi-track schedules for cooking, lab protocols, events and workouts. Validate and share.",
+  "packageName": "@alphesdk-remote/com-rhylthyme-rhylthyme",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rhylthyme.com/mcp"
+    }
+  ],
+  "url": "https://github.com/rhylthyme/rhylthyme-mcp",
+  "readme": "https://github.com/rhylthyme/rhylthyme-mcp#readme"
+}

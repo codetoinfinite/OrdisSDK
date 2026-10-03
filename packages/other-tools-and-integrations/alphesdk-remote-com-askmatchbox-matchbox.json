@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Matchbox",
+  "description": "Describe a problem in plain language; get matching products with honest caveats. Never sponsored.",
+  "packageName": "@alphesdk-remote/com-askmatchbox-matchbox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://askmatchbox.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://askmatchbox.com/connect"
+}

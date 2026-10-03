@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Provides access to Google's public developer documentation.",
+  "packageName": "@alphesdk-remote/com-googleapis-developerknowledge-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://developerknowledge.googleapis.com/mcp"
+    }
+  ]
+}

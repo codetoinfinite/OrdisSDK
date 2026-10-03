@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "mastra",
+  "name": "Mastra",
+  "description": "TypeScript agent framework whose starter CLI creates a runnable project with agents, workflows and a local Studio UI.",
+  "category": "developer-tools",
+  "tags": ["typescript", "framework", "agents", "workflows", "studio"],
+  "repo": "https://github.com/mastra-ai/mastra",
+  "homepage": "https://mastra.ai",
+  "docs": "https://mastra.ai/docs",
+  "publisher": "Mastra",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Developers scaffold an application with autonomous agents that choose tools and iterate towards a goal, then test and manage them in Mastra Studio. It plugs into React, Next.js and Node or runs as a standalone server.",
+  "howItWorks": "The create command generates a project for a chosen model provider. A model router gives access to many providers through one interface, and the dev server serves Studio at localhost:4111. Directories named `ee/` carry a separate enterprise licence; the rest is Apache-2.0.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the CLI and the project"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "For the provider chosen at project creation (OpenAI, Anthropic, Google, xAI)"
+    }
+  ],
+  "install": ["npm create mastra@latest"],
+  "run": [],
+  "interfaces": ["cli", "web", "library", "api"],
+  "language": "TypeScript",
+  "models": "40+ providers through its model router",
+  "mcp": "none",
+  "github": {
+    "stars": 28522,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

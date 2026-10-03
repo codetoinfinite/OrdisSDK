@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "nao",
+  "name": "nao",
+  "description": "Framework and chat UI for building an analytics agent grounded in your warehouse metadata, docs and rules.",
+  "category": "data-platforms",
+  "tags": ["analytics-agent", "context", "warehouse", "chat", "evals"],
+  "repo": "https://github.com/getnao/nao",
+  "homepage": "https://getnao.io",
+  "docs": "https://docs.getnao.io",
+  "publisher": "nao Labs",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets data teams assemble the context an analytics agent needs, then hand business users a chat interface for asking questions of the warehouse. It includes a test command to measure answer quality.",
+  "howItWorks": "A CLI initialises a project folder, syncs schemas, metadata and documents into a file-based context, and starts a local chat app. The agent uses that context plus configured tools and MCP servers to write and run queries against the chosen warehouse with any LLM.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the nao-core package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model used by the agent"
+    },
+    {
+      "name": "Data warehouse",
+      "kind": "service",
+      "required": true,
+      "description": "Database or warehouse to analyse"
+    }
+  ],
+  "install": ["pip install nao-core"],
+  "run": ["nao init", "nao debug", "nao sync", "nao chat"],
+  "interfaces": ["cli", "web", "chat"],
+  "language": "TypeScript",
+  "models": "Any LLM provider",
+  "mcp": "client",
+  "github": {
+    "stars": 1721,
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

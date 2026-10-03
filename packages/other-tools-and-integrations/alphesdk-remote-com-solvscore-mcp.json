@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SolvScore",
+  "description": "Credit scores for AI agents. Underwrite an unknown counterparty before extending credit.",
+  "packageName": "@alphesdk-remote/com-solvscore-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://solvscore.com/mcp"
+    }
+  ],
+  "url": "https://github.com/shawnhvac/solvscore-mcp",
+  "readme": "https://github.com/shawnhvac/solvscore-mcp#readme"
+}

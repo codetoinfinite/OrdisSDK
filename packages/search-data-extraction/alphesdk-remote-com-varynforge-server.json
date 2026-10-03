@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "VarynForge",
+  "description": "SEO research SaaS exposed as 30+ MCP tools. Forge niche analysis, plans, and writer-ready briefs.",
+  "packageName": "@alphesdk-remote/com-varynforge-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.varynforge.com/api/mcp"
+    }
+  ]
+}

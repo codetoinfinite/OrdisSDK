@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SchoolScope",
+  "description": "California school data for AI agents — scores, profiles, comparisons, feeder paths, UC pipelines.",
+  "packageName": "@alphesdk-remote/co-schoolscope-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.schoolscope.co/mcp"
+    }
+  ],
+  "url": "https://schoolscope.co"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Reecopedia",
+  "description": "Regulatory search engine for EU textile sustainability law: ESPR, DPP, CSRD, CBAM, CWA 18291.",
+  "packageName": "@alphesdk-remote/eco-reeco-reecopedia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ia.reeco.eco/mcp"
+    }
+  ],
+  "url": "https://ia.reeco.eco/reecopedia"
+}

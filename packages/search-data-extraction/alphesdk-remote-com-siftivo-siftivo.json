@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "siftivo",
+  "description": "Search books, authors and series, get recommendations, and manage your own reading shelves.",
+  "packageName": "@alphesdk-remote/com-siftivo-siftivo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.siftivo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/btg5679/siftivo",
+  "readme": "https://github.com/btg5679/siftivo#readme"
+}

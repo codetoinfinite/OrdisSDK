@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentshop — cross-country economic reports",
+  "description": "Economic reports for 20 economies, 2015-2025. Search free, pay per fetch in USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/io-github-andyxcg-agentshop-reports",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reportbazaar.app.workbuddy.host/mcp"
+    }
+  ],
+  "url": "https://github.com/Andyxcg/agentshop-mcp",
+  "readme": "https://github.com/Andyxcg/agentshop-mcp#readme"
+}

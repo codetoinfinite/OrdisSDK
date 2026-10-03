@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sigo Seguros car insurance quotes",
+  "description": "Non-binding car insurance estimates from Sigo Seguros, a licensed agency, not a carrier.",
+  "packageName": "@alphesdk-remote/com-sigoseguros-auto-quote",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sigoseguros.com/mcp"
+    }
+  ],
+  "url": "https://mcp.sigoseguros.com/doc"
+}

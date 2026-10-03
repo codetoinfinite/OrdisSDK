@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Inquira",
+  "description": "AI survey platform: create and publish surveys, collect responses, generate AI analysis reports.",
+  "packageName": "@alphesdk-remote/com-getinquira-inquira",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getinquira.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/BayarBH/inquira-agent-plugin",
+  "readme": "https://github.com/BayarBH/inquira-agent-plugin#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OwlChart",
+  "description": "Live market data for AI: open interest on 13 exchanges, liquidity magnets, ETF flows, alerts",
+  "packageName": "@alphesdk-remote/com-owlchart-owlchart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://owlchart.com/mcp"
+    }
+  ],
+  "url": "https://owlchart.com/connectors.html"
+}

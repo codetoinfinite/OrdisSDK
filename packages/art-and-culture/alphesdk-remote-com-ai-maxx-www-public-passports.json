@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI MAXX Public Passports",
+  "description": "Instant Malta visit facts and AI consultation: activities, dining, venues, photos and routes.",
+  "packageName": "@alphesdk-remote/com-ai-maxx-www-public-passports",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ai-maxx.com/api/mcp"
+    }
+  ],
+  "url": "https://www.ai-maxx.com/connect/"
+}

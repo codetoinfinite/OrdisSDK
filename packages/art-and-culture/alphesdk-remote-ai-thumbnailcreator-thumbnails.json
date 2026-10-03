@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ThumbnailCreator",
+  "description": "AI YouTube thumbnails from GPT Image, Nano Banana, FLUX and more, side by side. Pay per image.",
+  "packageName": "@alphesdk-remote/ai-thumbnailcreator-thumbnails",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thumbnailcreator.ai/api/mcp"
+    }
+  ],
+  "url": "https://thumbnailcreator.ai/docs"
+}

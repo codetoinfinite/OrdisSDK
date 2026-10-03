@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "goldprice.dev",
+  "description": "Gold/silver/copper spot & futures, per-country dealer prices, options-implied probability surface.",
+  "packageName": "@alphesdk-remote/dev-goldprice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.goldprice.dev/v1/mcp/"
+    }
+  ],
+  "url": "https://goldprice.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Axiom Relay",
+  "description": "Free agent-service discovery, OpenAPI document checks, and receipt verification. No API key needed.",
+  "packageName": "@alphesdk-remote/io-github-itr3k-axiom-relay-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://axiomrelay.io/mcp/discovery"
+    }
+  ],
+  "url": "https://github.com/Itr3k/axiom-relay-discovery",
+  "readme": "https://github.com/Itr3k/axiom-relay-discovery#readme"
+}

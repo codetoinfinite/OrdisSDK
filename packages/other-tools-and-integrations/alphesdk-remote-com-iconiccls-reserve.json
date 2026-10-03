@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Iconic CLS",
+  "description": "Private chauffeured transport in Los Angeles. Price any trip at a fixed all-in rate, no account.",
+  "packageName": "@alphesdk-remote/com-iconiccls-reserve",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reserve.iconiccls.com/mcp"
+    }
+  ],
+  "url": "https://iconiccls.com"
+}

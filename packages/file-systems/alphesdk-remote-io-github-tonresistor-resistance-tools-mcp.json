@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Resistance Tools",
+  "description": "MCP tools for TON Sites, TON DNS and TON Storage.",
+  "packageName": "@alphesdk-remote/io-github-tonresistor-resistance-tools-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.resistance.dog/api/mcp"
+    }
+  ],
+  "url": "https://github.com/TONresistor/resistance-tools-mcp",
+  "readme": "https://github.com/TONresistor/resistance-tools-mcp#readme"
+}

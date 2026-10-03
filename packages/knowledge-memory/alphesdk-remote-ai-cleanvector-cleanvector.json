@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CleanVector",
+  "description": "Create professional SVG artwork, icons and vector logos from a prompt, or vectorize any image.",
+  "packageName": "@alphesdk-remote/ai-cleanvector-cleanvector",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cleanvector.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bydllhcbn/cleanvector-mcp",
+  "readme": "https://github.com/bydllhcbn/cleanvector-mcp#readme"
+}

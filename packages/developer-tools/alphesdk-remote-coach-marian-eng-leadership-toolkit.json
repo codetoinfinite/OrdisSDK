@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eng-leadership-toolkit",
+  "description": "Engineering leadership benchmarks, 1:1 playbooks, developer value calculator. 3,400+ sessions.",
+  "packageName": "@alphesdk-remote/coach-marian-eng-leadership-toolkit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.marian.coach/mcp"
+    }
+  ],
+  "url": "https://github.com/marian-kamenistak/ai-engineering-leader-toolkit",
+  "readme": "https://github.com/marian-kamenistak/ai-engineering-leader-toolkit#readme"
+}

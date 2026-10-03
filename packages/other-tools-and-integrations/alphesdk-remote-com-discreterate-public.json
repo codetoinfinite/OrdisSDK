@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DiscreteRate",
+  "description": "Run DRS demos (Fast-Slow Drain, Hamburger Duo, Valdez Tanker) and explore the paradigm.",
+  "packageName": "@alphesdk-remote/com-discreterate-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://discreterate.com/mcp/v1"
+    }
+  ],
+  "url": "https://github.com/chiaha-ai/discreterate-site",
+  "readme": "https://github.com/chiaha-ai/discreterate-site#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dataset Filter & Transform",
+  "description": "Clean, filter and reshape JSON rows in one call: 26 transforms, 25 filters, sort, dedupe, limit.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-dataset-filter-transform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataset-filter-transform.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Nero-Engine/dataset-filter-transform-mcp",
+  "readme": "https://github.com/Nero-Engine/dataset-filter-transform-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "uplika",
+  "description": "Your AI agent publishes to Threads, Instagram, YouTube and the other social channels you connect.",
+  "packageName": "@alphesdk-remote/com-uplika-uplika",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.uplika.com/mcp"
+    }
+  ],
+  "url": "https://uplika.com"
+}

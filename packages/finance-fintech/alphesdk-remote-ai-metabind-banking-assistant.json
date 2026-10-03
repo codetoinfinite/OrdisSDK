@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Banking Assistant (Metabind demo)",
+  "description": "Demo personal-finance MCP App: spending, subscriptions, and net worth as interactive UI.",
+  "packageName": "@alphesdk-remote/ai-metabind-banking-assistant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.metabind.ai/IgJH0BzIn4LlfnCbcDc7/projects/GLbHk5i3GLlIYcF63XFl"
+    }
+  ],
+  "url": "https://github.com/metabindai/metabind-demos",
+  "readme": "https://github.com/metabindai/metabind-demos#readme"
+}

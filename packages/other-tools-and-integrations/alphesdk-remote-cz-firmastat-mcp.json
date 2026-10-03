@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Vyhledávání a detail českých firem, finanční výkazy a ukazatele z veřejných rejstříků.",
+  "packageName": "@alphesdk-remote/cz-firmastat-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://firmastat.cz/mcp"
+    }
+  ],
+  "url": "https://firmastat.cz"
+}

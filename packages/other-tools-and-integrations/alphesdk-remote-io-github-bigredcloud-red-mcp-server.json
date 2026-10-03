@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Red by Big Red Cloud",
+  "description": "Secure MCP access to Big Red Cloud accounting data, workflows, help and training.",
+  "packageName": "@alphesdk-remote/io-github-bigredcloud-red-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://red.bigredcloud.com/mcp"
+    }
+  ],
+  "url": "https://github.com/BigRedCloud/red-mcp-server",
+  "readme": "https://github.com/BigRedCloud/red-mcp-server#readme"
+}

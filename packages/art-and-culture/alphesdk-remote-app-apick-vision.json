@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Vision",
+  "description": "Image/video analysis: NSFW detection, object detection, thumbnails",
+  "packageName": "@alphesdk-remote/app-apick-vision",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/vision"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

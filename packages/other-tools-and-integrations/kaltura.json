@@ -1,10 +1,11 @@
 {
   "type": "mcp-server",
-  "packageName": "kaltura",
+  "packageName": "git+https://github.com/zoharbabin/kaltura-mcp@567f016e536692959e294c1ee94c9fc901576cd8",
   "description": "Enables Large Language Models to interact with the Kaltura Media Management Platform, providing comprehensive media operations like listing, retrieving, uploading, and managing media entries, categories, and users through multiple transport mechanisms.",
   "url": "https://github.com/zoharbabin/kaltura-mcp",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Kaltura MCP"
+  "name": "Kaltura MCP",
+  "bin": "kaltura-mcp"
 }

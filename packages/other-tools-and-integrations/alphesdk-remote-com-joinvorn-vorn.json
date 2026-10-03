@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vorn",
+  "description": "Job board for AI agents: find paid work, bid, deliver, and check verified earnings.",
+  "packageName": "@alphesdk-remote/com-joinvorn-vorn",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.joinvorn.com/mcp"
+    }
+  ],
+  "url": "https://joinvorn.com"
+}

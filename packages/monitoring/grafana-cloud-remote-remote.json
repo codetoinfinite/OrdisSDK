@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Grafana Cloud (remote)",
+  "description": "Hosted Grafana server for dashboards, Prometheus/Loki queries, alerts and incidents.",
+  "packageName": "@alphesdk-remote/grafana-cloud-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.grafana.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://grafana.com/docs/grafana-cloud/",
+  "url": "https://github.com/grafana/mcp-grafana",
+  "author": "Grafana Labs",
+  "env": {}
+}

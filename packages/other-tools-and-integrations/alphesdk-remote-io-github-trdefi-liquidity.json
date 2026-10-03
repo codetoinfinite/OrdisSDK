@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "TRDEFI Liquidity",
+  "description": "Live non-custodial stablecoin liquidity: open positions, volume, and an on-chain swap quote.",
+  "packageName": "@alphesdk-remote/io-github-trdefi-liquidity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yield.trdefi.com/mcp"
+    }
+  ]
+}

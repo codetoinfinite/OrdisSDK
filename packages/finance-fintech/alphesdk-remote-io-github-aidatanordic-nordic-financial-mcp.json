@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nordic Financial MCP",
+  "description": "Semantic search over Nordic filings, press releases, macro data and electricity prices.",
+  "packageName": "@alphesdk-remote/io-github-aidatanordic-nordic-financial-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aidatanorge.no/mcp"
+    }
+  ],
+  "url": "https://github.com/AIDataNordic/nordic_financial_mcp",
+  "readme": "https://github.com/AIDataNordic/nordic_financial_mcp#readme"
+}

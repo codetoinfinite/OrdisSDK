@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-ready-kit",
+  "description": "Agent-readiness scanner (0-5 score), robots.txt + llms.txt generators, managed agent enablement.",
+  "packageName": "@alphesdk-remote/com-mudko-agent-ready-kit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mudko.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/lmno100/mudko",
+  "readme": "https://github.com/lmno100/mudko#readme"
+}

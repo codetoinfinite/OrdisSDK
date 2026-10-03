@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "shop",
+  "description": "Tabak Brucker in ChatGPT/Claude: Katalog, Beratung, Angebote & Warenkorb-Hand-off. Kauf 18+ im Shop.",
+  "packageName": "@alphesdk-remote/de-tabak-brucker-www-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tabak-brucker.de/mcp"
+    }
+  ],
+  "url": "https://www.tabak-brucker.de/ki-assistent"
+}

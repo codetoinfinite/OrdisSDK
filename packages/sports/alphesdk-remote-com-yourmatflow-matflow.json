@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MatFlow",
+  "description": "Read-only MatFlow data: pricing, competitors, features, FAQs for combat-sports gyms.",
+  "packageName": "@alphesdk-remote/com-yourmatflow-matflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yourmatflow.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/lucasinclair/matflow-website",
+  "readme": "https://github.com/lucasinclair/matflow-website#readme"
+}

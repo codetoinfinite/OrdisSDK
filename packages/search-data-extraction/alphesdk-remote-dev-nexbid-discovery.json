@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "discovery",
+  "description": "Search and discover advertiser products through an open marketplace for AI agents.",
+  "packageName": "@alphesdk-remote/dev-nexbid-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nexbid.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/nexbid-dev/protocol-commerce",
+  "readme": "https://github.com/nexbid-dev/protocol-commerce#readme"
+}

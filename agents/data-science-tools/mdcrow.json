@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "mdcrow",
+  "name": "MDCrow",
+  "description": "LLM agent that sets up, runs and analyses molecular dynamics simulations with OpenMM from a text prompt.",
+  "category": "data-science-tools",
+  "tags": ["molecular-dynamics", "chemistry", "openmm", "langchain", "simulation"],
+  "repo": "https://github.com/ur-whitelab/MDCrow",
+  "publisher": "White Lab, University of Rochester",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Automates molecular dynamics workflows for computational chemists, including structure retrieval, simulation setup, execution and analysis.",
+  "howItWorks": "A LangChain agent chooses among tools for file handling, simulation with OpenMM and trajectory analysis. It is used as a Python object inside a conda environment, with provider keys in an env file.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI, TogetherAI, Fireworks or another supported provider, set in .env"
+    },
+    {
+      "name": "Conda",
+      "kind": "runtime",
+      "required": true,
+      "description": "Environment defined by environment.yaml"
+    }
+  ],
+  "install": [
+    "conda env create -n mdcrow -f environment.yaml",
+    "conda activate mdcrow",
+    "pip install git+https://github.com/ur-whitelab/MDCrow.git"
+  ],
+  "run": [],
+  "interfaces": ["library"],
+  "language": "Python",
+  "framework": "LangChain",
+  "models": "OpenAI, TogetherAI, Fireworks and others",
+  "mcp": "none",
+  "github": {
+    "stars": 249,
+    "license": "MIT",
+    "pushedAt": "2026-01-09",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Most Recommended Books",
+  "description": "Read-only MCP server for verified book recommendations and reading lists.",
+  "packageName": "@alphesdk-remote/com-mostrecommendedbooks-books",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mostrecommendedbooks.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/richardreeze/mrb-api",
+  "readme": "https://github.com/richardreeze/mrb-api#readme"
+}

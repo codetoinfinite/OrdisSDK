@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Interact with the Stitch API using natural language commands.",
+  "packageName": "@alphesdk-remote/com-googleapis-stitch-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stitch.googleapis.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "openagent",
+  "name": "OpenAgent",
+  "description": "Self-hostable personal AI assistant shipped as one binary, combining LLM chat, your knowledge base and agent loops.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-assistant", "single-binary", "rag", "computer-use", "self-hosted"],
+  "repo": "https://github.com/the-open-agent/openagent",
+  "homepage": "https://openagentai.org",
+  "publisher": "The Open Agent",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Gives a user an assistant that answers from their own documents and can act autonomously, including computer-use, browser-use and coding tasks. Runs natively on Linux, macOS and Windows.",
+  "howItWorks": "A Go backend with a web front end is served on port 14000. The installer downloads the latest release binary; Docker Compose and build-from-source paths are also documented.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Any connected model provider"
+    },
+    {
+      "name": "Go 1.25.0+ and Node.js 20+ with Yarn 1.x",
+      "kind": "runtime",
+      "required": false,
+      "description": "Only when building from source"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/the-open-agent/openagent/master/scripts/install.sh | bash"
+  ],
+  "run": [],
+  "interfaces": ["web"],
+  "language": "Go",
+  "models": "Any connected model provider",
+  "mcp": "none",
+  "github": {
+    "stars": 5684,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

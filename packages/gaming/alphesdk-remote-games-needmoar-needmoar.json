@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "needmoar.games",
+  "description": "Ranks Steam games by how much players like them, learned from head-to-head duels.",
+  "packageName": "@alphesdk-remote/games-needmoar-needmoar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://needmoar.games/mcp"
+    }
+  ],
+  "url": "https://needmoar.games"
+}

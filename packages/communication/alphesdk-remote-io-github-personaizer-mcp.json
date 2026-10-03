@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PERSONAIZER",
+  "description": "Free MCP API to create AI chat personas for websites — upload knowledge, search, and chat",
+  "packageName": "@alphesdk-remote/io-github-personaizer-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sessions.personaizer.com/mcp"
+    }
+  ],
+  "url": "https://github.com/PersonAIzer/mcp",
+  "readme": "https://github.com/PersonAIzer/mcp#readme"
+}

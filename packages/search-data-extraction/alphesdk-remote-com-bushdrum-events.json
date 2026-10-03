@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bushdrum Events",
+  "description": "City-scoped Bushdrum event search for agents with list_cities and search_events.",
+  "packageName": "@alphesdk-remote/com-bushdrum-events",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bushdrum.com/mcp"
+    }
+  ],
+  "url": "https://bushdrum.com/developers"
+}

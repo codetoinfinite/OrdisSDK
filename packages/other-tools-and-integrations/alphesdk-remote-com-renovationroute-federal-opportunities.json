@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "federal-opportunities",
+  "description": "Federal construction & renovation contract opportunities from SAM.gov, by state, NAICS, or keyword.",
+  "packageName": "@alphesdk-remote/com-renovationroute-federal-opportunities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.renovationroute.com/mcp"
+    }
+  ],
+  "url": "https://renovationroute.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crevio",
+  "description": "An AI agent that runs your online business: products, orders, customers, email, and sites.",
+  "packageName": "@alphesdk-remote/co-crevio-crevio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.crevio.co/mcp"
+    }
+  ],
+  "url": "https://crevio.co"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MolTravel",
+  "description": "Aggregated travel MCP — flights, tours, activities, price checks, visas, and more.",
+  "packageName": "@alphesdk-remote/com-moltravel-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltravel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/navifare/moltravel-mcp",
+  "readme": "https://github.com/navifare/moltravel-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Auth Posture — Email Deliverability & Spoofability Audit",
+  "description": "One-call domain audit: MX receiving, SPF/DMARC/DKIM spoofing protection, disposable-address risk.",
+  "packageName": "@alphesdk-remote/app-rowb-auth-posture-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auth-posture.rowb.app/mcp"
+    }
+  ],
+  "url": "https://auth-posture.rowb.app"
+}

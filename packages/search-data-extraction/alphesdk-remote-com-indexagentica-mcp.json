@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Index Agentica",
+  "description": "Search a curated directory of agent tools, MCP servers, APIs, protocols and skills. No auth.",
+  "packageName": "@alphesdk-remote/com-indexagentica-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.indexagentica.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Drudley/indexagentica-mcp",
+  "readme": "https://github.com/Drudley/indexagentica-mcp#readme"
+}

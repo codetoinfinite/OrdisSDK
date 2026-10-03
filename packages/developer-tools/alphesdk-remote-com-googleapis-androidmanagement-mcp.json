@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Android Management API",
+  "description": "Remote enterprise management of Android devices and apps",
+  "packageName": "@alphesdk-remote/com-googleapis-androidmanagement-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://androidmanagement.googleapis.com/mcp"
+    }
+  ]
+}

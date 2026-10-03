@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "LangSmith",
+  "description": "Fetch LangSmith traces, prompts, datasets and conversation threads.",
+  "packageName": "langsmith-mcp-server",
+  "packageVersion": "0.1.1",
+  "runtime": "python",
+  "readme": "https://github.com/langchain-ai/langsmith-mcp-server",
+  "url": "https://github.com/langchain-ai/langsmith-mcp-server",
+  "author": "LangChain",
+  "env": {
+    "LANGSMITH_API_KEY": {
+      "description": "LangSmith API key",
+      "required": true
+    },
+    "LANGSMITH_WORKSPACE_ID": {
+      "description": "Workspace ID",
+      "required": false
+    },
+    "LANGSMITH_ENDPOINT": {
+      "description": "API endpoint",
+      "required": false
+    }
+  }
+}

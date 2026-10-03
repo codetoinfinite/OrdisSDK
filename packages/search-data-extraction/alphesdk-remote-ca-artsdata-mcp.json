@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Artsdata",
+  "description": "Search Artsdata for authoritative data on Canadian events, artists, organizations, and places.",
+  "packageName": "@alphesdk-remote/ca-artsdata-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.artsdata.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/culturecreates/artsdata-mcp-server",
+  "readme": "https://github.com/culturecreates/artsdata-mcp-server#readme"
+}

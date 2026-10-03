@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Archangel Agency MCP",
+  "description": "Universal Language briefings, FusionGirl context JSONs, service catalog, agent info. x402-enabled.",
+  "packageName": "@alphesdk-remote/io-github-jthora-archangel-agency-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://archangel-agency-mcp.jordan-trana.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Jthora/archangel-agency-mcp",
+  "readme": "https://github.com/Jthora/archangel-agency-mcp#readme"
+}

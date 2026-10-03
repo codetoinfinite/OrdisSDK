@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AppTail – ASO & Keyword Research",
+  "description": "App Store keyword rankings, competitors, markets, reviews and analytics for iOS apps, from your AI.",
+  "packageName": "@alphesdk-remote/io-apptail-apptail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apptail.io/mcp"
+    }
+  ],
+  "url": "https://apptail.io/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JobMojito",
+  "description": "Run AI interviews, simulated personas and coaching sessions on JobMojito.",
+  "packageName": "@alphesdk-remote/com-jobmojito-jobmojito",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jobmojito.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JobMojito/mcp",
+  "readme": "https://github.com/JobMojito/mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ComplianceAutomator Public MCP",
+  "description": "Public read-only MCP for products, frameworks, guides, methodology, and blog metadata.",
+  "packageName": "@alphesdk-remote/com-complianceautomator-public-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.complianceautomator.com/api/mcp"
+    }
+  ]
+}

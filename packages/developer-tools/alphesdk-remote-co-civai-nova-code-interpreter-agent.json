@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Code Interpreter Agent by Nova (CIVAI)",
+  "description": "I do everything related to coding and execution tasks",
+  "packageName": "@alphesdk-remote/co-civai-nova-code-interpreter-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/code-interpreter-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/code-interpreter-agent"
+}

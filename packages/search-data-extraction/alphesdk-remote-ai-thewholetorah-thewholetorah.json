@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TheWholeTorah",
+  "description": "Torah lessons in six languages: grounded search, cited lessons, sources, honest ask.",
+  "packageName": "@alphesdk-remote/ai-thewholetorah-thewholetorah",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thewholetorah.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.thewholetorah.ai"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SupplyGraph.AI",
+  "description": "Official MCP: continuous supply-chain risk monitoring and early warning, not a one-off report.",
+  "packageName": "@alphesdk-remote/io-github-supplygraphai-supplygraph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.supplygraph.ai/mcp"
+    }
+  ],
+  "url": "https://supplygraph.ai/resources/mcp"
+}

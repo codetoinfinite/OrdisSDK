@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Live US drug acquisition costs (CMS NADAC) for AI assistants. Free, no auth, weekly data.",
+  "packageName": "@alphesdk-remote/ai-rxmanager-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rxmanager.ai/mcp"
+    }
+  ],
+  "url": "https://rxmanager.ai"
+}

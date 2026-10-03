@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Artemisia · Aguas SB",
+  "description": "Orientación sobre agua de pozo, vertidos y reutilización, con lo publicado por Aguas SB.",
+  "packageName": "@alphesdk-remote/com-aguassb-artemisia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://artemisia.comercial-asb-sl.workers.dev/mcp"
+    }
+  ],
+  "url": "https://aguassb.com/artemisia/"
+}

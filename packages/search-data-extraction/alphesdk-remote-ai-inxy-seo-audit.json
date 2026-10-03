@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "seo-audit",
+  "description": "Free SEO & AI-search (AEO) audits for any site or Shopify store, with emailed weekly score reports.",
+  "packageName": "@alphesdk-remote/ai-inxy-seo-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inxy.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/riverliu8/inxy-mcp",
+  "readme": "https://github.com/riverliu8/inxy-mcp#readme"
+}

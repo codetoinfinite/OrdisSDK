@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentery",
+  "description": "Price benchmarks, alternatives & daily price history across 17,000+ AI agents and MCP servers.",
+  "packageName": "@alphesdk-remote/com-agentery-agentery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentery.com/api/mcp"
+    }
+  ],
+  "url": "https://agentery.com"
+}

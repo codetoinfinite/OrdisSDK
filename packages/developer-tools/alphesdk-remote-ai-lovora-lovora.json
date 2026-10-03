@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lovora",
+  "description": "Official facts about Lovora (18+ AI companions): companions, prices, content rules, docs.",
+  "packageName": "@alphesdk-remote/ai-lovora-lovora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lovora.ai/mcp"
+    }
+  ],
+  "url": "https://lovora.ai"
+}

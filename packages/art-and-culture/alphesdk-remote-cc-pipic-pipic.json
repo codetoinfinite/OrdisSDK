@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PiPic Integration Guide",
+  "description": "Read-only PiPic CLI and HTTP API guidance; no image bytes are transferred.",
+  "packageName": "@alphesdk-remote/cc-pipic-pipic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pipic.cc/mcp"
+    }
+  ],
+  "url": "https://pipic.cc/about"
+}

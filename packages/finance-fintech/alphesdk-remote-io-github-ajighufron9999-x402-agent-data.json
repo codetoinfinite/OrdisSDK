@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hermes Agent Data Services (x402)",
+  "description": "On-chain data for agents: token reports, contract DD, pool risk, wallet profile - USDC per call.",
+  "packageName": "@alphesdk-remote/io-github-ajighufron9999-x402-agent-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-agent.majighufron.workers.dev/mcp"
+    }
+  ],
+  "url": "https://x402-agent.majighufron.workers.dev"
+}

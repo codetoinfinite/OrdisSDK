@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GameAnalytics Documentation",
+  "description": "Search GameAnalytics docs: Unity, Unreal, iOS, Android SDK and API guides for mobile game analytics.",
+  "packageName": "@alphesdk-remote/com-gameanalytics-analytics-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.docs.gameanalytics.com"
+    }
+  ],
+  "url": "https://gameanalytics.com"
+}

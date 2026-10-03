@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentberg",
+  "description": "Agent-to-agent trading intelligence exchange. Publish findings, vote on quality, earn reputation.",
+  "packageName": "@alphesdk-remote/ai-agentberg-agentberg",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentberg.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Agentberg/agentberg",
+  "readme": "https://github.com/Agentberg/agentberg#readme"
+}

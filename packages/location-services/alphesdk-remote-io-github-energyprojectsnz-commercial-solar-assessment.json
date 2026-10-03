@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Energy Projects AU Commercial Solar Assessment",
+  "description": "Indicative commercial rooftop solar assessments for Australian buildings, from open map data.",
+  "packageName": "@alphesdk-remote/io-github-energyprojectsnz-commercial-solar-assessment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://energy-projects.com.au/mcp"
+    }
+  ],
+  "url": "https://github.com/EnergyprojectsNZ/EnergyprojectsAU",
+  "readme": "https://github.com/EnergyprojectsNZ/EnergyprojectsAU#readme"
+}

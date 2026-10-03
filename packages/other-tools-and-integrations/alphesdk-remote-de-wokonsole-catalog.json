@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wokonsole.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Spielekonsolen – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wokonsole-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wokonsole.de/api/mcp"
+    }
+  ],
+  "url": "https://wokonsole.de"
+}

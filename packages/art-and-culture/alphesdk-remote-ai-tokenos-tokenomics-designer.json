@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TokenOS Tokenomics Designer",
+  "description": "Allocation & vesting design",
+  "packageName": "@alphesdk-remote/ai-tokenos-tokenomics-designer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tokenos.ai/api/mcp/apps/tokenomics-designer"
+    }
+  ],
+  "url": "https://tokenos.ai/mcp/tokenomics-designer"
+}

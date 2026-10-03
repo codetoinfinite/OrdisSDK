@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "My Insure Bank (MIB)",
+  "description": "Live Nigerian insurance quotes across insurers, free policy check-up, and hosted checkout links.",
+  "packageName": "@alphesdk-remote/com-myinsurebank-mib",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.myinsurebank.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ignitesolutions-op/mib-mcp",
+  "readme": "https://github.com/ignitesolutions-op/mib-mcp#readme"
+}

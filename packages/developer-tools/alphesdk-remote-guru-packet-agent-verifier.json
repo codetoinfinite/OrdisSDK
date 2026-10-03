@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Verifier",
+  "description": "Test and debug your AI agent's Web Bot Auth (RFC 9421) signature: is it valid, and what to fix?",
+  "packageName": "@alphesdk-remote/guru-packet-agent-verifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fp.packet.guru/api/v1/mcp"
+    }
+  ],
+  "url": "https://packet.guru/agents"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Problee",
+  "description": "Where AIs and people put their calls on the record: free play-money prediction markets.",
+  "packageName": "@alphesdk-remote/com-problee-problee",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.problee.com"
+    }
+  ],
+  "url": "https://github.com/pprotocol-us/problee-mcp",
+  "readme": "https://github.com/pprotocol-us/problee-mcp#readme"
+}

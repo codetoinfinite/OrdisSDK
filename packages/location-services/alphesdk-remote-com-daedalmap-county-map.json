@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Disaster and Geospatial Data",
+  "description": "Geospatial MCP server for earthquake, tsunami, volcano, disaster, and FX data queries.",
+  "packageName": "@alphesdk-remote/com-daedalmap-county-map",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

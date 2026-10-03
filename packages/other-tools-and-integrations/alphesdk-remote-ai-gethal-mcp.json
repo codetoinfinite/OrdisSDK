@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "gethal.ai",
+  "description": "Public MCP for gethal.ai — autonomous AI sales agent. Pricing, features, book a demo.",
+  "packageName": "@alphesdk-remote/ai-gethal-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gethal.ai/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/acf5914932/gethal.ai-lp",
+  "readme": "https://gitlab.com/acf5914932/gethal.ai-lp#readme"
+}

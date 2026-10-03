@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agentic Dealer Network",
+  "description": "Live franchised-dealer inventory, quotes, and consented salesperson handoffs.",
+  "packageName": "@alphesdk-remote/com-agenticdealernetwork-adn-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.agenticdealernetwork.com/mcp"
+    }
+  ]
+}

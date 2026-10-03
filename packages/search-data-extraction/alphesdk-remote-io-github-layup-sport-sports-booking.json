@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LayUp Sports Booking",
+  "description": "Search bookable London courts, pitches, lanes and pickup games across every major UK provider.",
+  "packageName": "@alphesdk-remote/io-github-layup-sport-sports-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.layupsport.com"
+    }
+  ],
+  "url": "https://github.com/LayUp-Sport/layup-frontend",
+  "readme": "https://github.com/LayUp-Sport/layup-frontend#readme"
+}

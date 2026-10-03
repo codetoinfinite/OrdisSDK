@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PaperDock",
+  "description": "Overleaf alternative online LaTeX editor. AI agents edit, comment, and chat. Keep or revert edits.",
+  "packageName": "@alphesdk-remote/dev-paperdock-paperdock",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.paperdock.dev/api/mcp"
+    }
+  ],
+  "url": "https://paperdock.dev"
+}

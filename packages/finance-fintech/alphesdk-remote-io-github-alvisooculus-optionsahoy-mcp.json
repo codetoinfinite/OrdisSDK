@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "optionsahoy-mcp",
+  "description": "Equity comp tax/trade optimizer: ISO/AMT exercise, NSO, RSU, QSBS, concentration, hedging. 50-state.",
+  "packageName": "@alphesdk-remote/io-github-alvisooculus-optionsahoy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://optionsahoy.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AlvisoOculus/optionsahoy-mcp",
+  "readme": "https://github.com/AlvisoOculus/optionsahoy-mcp#readme"
+}

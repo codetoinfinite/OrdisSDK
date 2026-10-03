@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RYLA",
+  "description": "Generate AI influencer photos, face swaps, and character sheets with a consistent face.",
+  "packageName": "@alphesdk-remote/ai-ryla-ryla",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ryla.ai/mcp"
+    }
+  ],
+  "url": "https://ryla.ai/en/mcp"
+}

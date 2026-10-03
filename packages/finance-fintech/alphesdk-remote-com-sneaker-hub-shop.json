@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "STRIDE Sneaker Shop",
+  "description": "Pre-owned sneaker shop catalog: search in-stock shoes by keyword/brand/price, get buy links.",
+  "packageName": "@alphesdk-remote/com-sneaker-hub-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sneaker-hub.com/api/mcp"
+    }
+  ],
+  "url": "https://sneaker-hub.com"
+}

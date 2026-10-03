@@ -1,0 +1,29 @@
+{
+  "type": "mcp-server",
+  "name": "kintone",
+  "description": "Official kintone server for apps, records and fields.",
+  "packageName": "@kintone/mcp-server",
+  "packageVersion": "1.9.4",
+  "runtime": "node",
+  "readme": "https://github.com/kintone/mcp-server",
+  "url": "https://github.com/kintone/mcp-server",
+  "author": "Cybozu",
+  "env": {
+    "KINTONE_BASE_URL": {
+      "description": "kintone base URL",
+      "required": true
+    },
+    "KINTONE_USERNAME": {
+      "description": "Login name (or use API token)",
+      "required": false
+    },
+    "KINTONE_PASSWORD": {
+      "description": "Password (or use API token)",
+      "required": false
+    },
+    "KINTONE_API_TOKEN": {
+      "description": "Comma-separated API tokens",
+      "required": false
+    }
+  }
+}

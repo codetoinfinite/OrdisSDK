@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Chip MCP",
+  "description": "Project memory, tasks and Telegram notifications for your coding agent. Chip account required.",
+  "packageName": "@alphesdk-remote/digital-chip-ai-chip",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chip-ai.digital/mcp/"
+    }
+  ],
+  "url": "https://github.com/zapret-digital/chip-mcp",
+  "readme": "https://github.com/zapret-digital/chip-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Book hotels over MCP. Pay over x402. 3M+ properties in 200+ countries, USDC on Base.",
+  "packageName": "@alphesdk-remote/com-trip1-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trip1.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/trivial-corp/agents",
+  "readme": "https://github.com/trivial-corp/agents#readme"
+}

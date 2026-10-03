@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "VoyageHacks",
+  "description": "Multilingual travel guides, gear picks and booking links for AI travel agents.",
+  "packageName": "@alphesdk-remote/com-voyagehacks-travel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voyagehacks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/voyagehacks-com/mcp-server",
+  "readme": "https://github.com/voyagehacks-com/mcp-server#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AimRank",
+  "description": "Read public pairwise-preference rankings and their statistical quality evidence. No API key.",
+  "packageName": "@alphesdk-remote/io-aimrank-aimrank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.aimrank.io/mcp/public"
+    }
+  ],
+  "url": "https://app.aimrank.io/help"
+}

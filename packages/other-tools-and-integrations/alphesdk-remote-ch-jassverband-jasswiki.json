@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JassWiki — Swiss Jass Authority (AMCP v0.1)",
+  "description": "First production Authority-MCP. W3C VC attested by Jassverband Schweiz.",
+  "packageName": "@alphesdk-remote/ch-jassverband-jasswiki",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jasswiki.ch/mcp/http"
+    }
+  ],
+  "url": "https://github.com/remoprinz/jasswiki-mcp",
+  "readme": "https://github.com/remoprinz/jasswiki-mcp#readme"
+}

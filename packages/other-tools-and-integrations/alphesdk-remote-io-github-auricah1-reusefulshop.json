@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reusefulshop",
+  "description": "Live second-hand price estimates with confidence for AI agents. Cached lookups free.",
+  "packageName": "@alphesdk-remote/io-github-auricah1-reusefulshop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reusefulshop.com/mcp"
+    }
+  ],
+  "url": "https://reusefulshop.com"
+}

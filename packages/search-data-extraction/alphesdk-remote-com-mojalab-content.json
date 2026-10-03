@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MojaLab Content",
+  "description": "Read-only access to MojaLab.com blog content: search and read posts, pages and tags as Markdown.",
+  "packageName": "@alphesdk-remote/com-mojalab-content",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mojalab.com/mcp"
+    }
+  ],
+  "url": "https://mojalab.com"
+}

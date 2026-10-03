@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "402oracle",
+  "description": "Signed verification attestations for agent decisions: business, price, freshness, claim checks.",
+  "packageName": "@alphesdk-remote/com-402oracle-402oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://402oracle.com/mcp"
+    }
+  ],
+  "url": "https://402oracle.com"
+}

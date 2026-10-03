@@ -1,0 +1,52 @@
+{
+  "type": "external-agent",
+  "key": "nanobrowser",
+  "name": "Nanobrowser",
+  "description": "Chrome extension that runs a planner and a navigator agent in your own browser to automate web tasks with your own LLM keys.",
+  "category": "browser-automation",
+  "tags": ["chrome-extension", "browser-agent", "multi-agent", "local-first"],
+  "repo": "https://github.com/nanobrowser/nanobrowser",
+  "homepage": "https://nanobrowser.ai",
+  "publisher": "Nanobrowser",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Adds a side-panel chat to Chrome or Edge where a user types a task and watches agents carry it out in the current browser session. It is aimed at people who want an open alternative to hosted operator products while keeping credentials on their machine.",
+  "howItWorks": "A Planner agent breaks the request into steps and a Navigator agent performs page interactions through extension APIs, with the two exchanging feedback until the goal is met. Models are configured per agent in the extension settings, and everything executes inside the user's browser.",
+  "requirements": [
+    {
+      "name": "Chrome or Edge",
+      "kind": "runtime",
+      "required": true,
+      "description": "Browser that hosts the extension"
+    },
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for one of the supported providers, entered in the settings page"
+    },
+    {
+      "name": "Node.js 24 and pnpm 10",
+      "kind": "runtime",
+      "required": false,
+      "description": "Only for building from source"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/nanobrowser/nanobrowser.git",
+    "cd nanobrowser",
+    "pnpm install",
+    "pnpm build"
+  ],
+  "run": [],
+  "interfaces": ["chat", "desktop"],
+  "language": "TypeScript",
+  "models": "OpenAI, Anthropic, Gemini, DeepSeek, Grok, Azure OpenAI, OpenRouter, Ollama, OpenAI-compatible",
+  "mcp": "none",
+  "github": {
+    "stars": 13873,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

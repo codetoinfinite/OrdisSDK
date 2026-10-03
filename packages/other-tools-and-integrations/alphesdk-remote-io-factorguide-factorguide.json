@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "factorguide",
+  "description": "Send a coupling matrix, get zone classifications and optimal factorization strategy.",
+  "packageName": "@alphesdk-remote/io-factorguide-factorguide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://factorguide.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Bwana7/factorguide",
+  "readme": "https://github.com/Bwana7/factorguide#readme"
+}

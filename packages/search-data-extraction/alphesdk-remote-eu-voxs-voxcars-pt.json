@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Voxcars (Portugal)",
+  "description": "Used-car listings in Portugal: search, price statistics, comparables and articles.",
+  "packageName": "@alphesdk-remote/eu-voxs-voxcars-pt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.voxcars.pt/api/mcp"
+    }
+  ],
+  "url": "https://www.voxcars.pt/"
+}

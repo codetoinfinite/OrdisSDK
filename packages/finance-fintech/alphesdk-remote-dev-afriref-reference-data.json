@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reference-data",
+  "description": "African govt data, cited to source: rates, VAT, tax, wages, holidays, FX. 34 countries; Ghana free.",
+  "packageName": "@alphesdk-remote/dev-afriref-reference-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://afriref.dev/mcp"
+    }
+  ],
+  "url": "https://afriref.dev"
+}

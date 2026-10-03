@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Plain Freight",
+  "description": "All-in DDP quotes for China to USA shipments, 100 g to 2,000 kg, from a live rate card",
+  "packageName": "@alphesdk-remote/com-plainfreight-quotes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plainfreight.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/plainfreight-com/plainfreight-mcp",
+  "readme": "https://github.com/plainfreight-com/plainfreight-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "x402 economy tools",
+  "description": "Measured x402 ecosystem data, facilitator reliability, and live endpoint checks.",
+  "packageName": "@alphesdk-remote/dev-workers-clankerceo-multichain-rpc-x402-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://multichain-rpc.clankerceo.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/clankerceo/x402-tools",
+  "readme": "https://github.com/clankerceo/x402-tools#readme"
+}

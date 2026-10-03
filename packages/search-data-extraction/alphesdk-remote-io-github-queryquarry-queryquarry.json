@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "queryquarry",
+  "description": "Double-blind talent marketplace: AIs search anonymous opted-in candidates; reveal on consent.",
+  "packageName": "@alphesdk-remote/io-github-queryquarry-queryquarry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://queryquarry.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/QueryQuarry/QueryQuarry",
+  "readme": "https://github.com/QueryQuarry/QueryQuarry#readme"
+}

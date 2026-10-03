@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "marketing-compliance",
+  "description": "Crypto marketing compliance rulesets over MCP: MiCA, FCA, GDPR, SEC, MAS, VARA. Not legal advice.",
+  "packageName": "@alphesdk-remote/fi-northpoint-marketing-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://northpoint.fi/api/mcp"
+    }
+  ],
+  "url": "https://northpoint.fi"
+}

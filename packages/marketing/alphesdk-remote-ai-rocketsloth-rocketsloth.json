@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "rocketsloth",
+  "description": "Website monetization for AI agents: apply, integrate ads, reporting, and payouts — all over MCP.",
+  "packageName": "@alphesdk-remote/ai-rocketsloth-rocketsloth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rocketsloth.ai/mcp"
+    }
+  ],
+  "url": "https://rocketsloth.ai"
+}

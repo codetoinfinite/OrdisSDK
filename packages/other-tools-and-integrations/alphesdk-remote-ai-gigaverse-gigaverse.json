@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "gigaverse",
+  "description": "Portable Roth IRA signups for gig workers: eligibility checks, signup initiation, partners, sandbox.",
+  "packageName": "@alphesdk-remote/ai-gigaverse-gigaverse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gigaverse.ai/api/mcp"
+    }
+  ],
+  "url": "https://gigaverse.ai/developers"
+}

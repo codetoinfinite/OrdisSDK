@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mahonia",
+  "description": "Read and edit Mahonia backpacking gear lists via share and edit links; no account needed.",
+  "packageName": "@alphesdk-remote/app-mahonia-mahonia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mahonia.app/mcp"
+    }
+  ],
+  "url": "https://github.com/ryankiley/mahonia",
+  "readme": "https://github.com/ryankiley/mahonia#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MDataAccess",
+  "description": "Paid business, people, company, lead, and web intelligence for autonomous AI agents.",
+  "packageName": "@alphesdk-remote/io-github-mdataaccess-mdataaccess",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mdataaccess.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/MDataAccess/MDataAccess",
+  "readme": "https://github.com/MDataAccess/MDataAccess#readme"
+}

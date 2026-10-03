@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CourseProfiler",
+  "description": "Race course profiling, catalog search, course submission, and personalized race plans.",
+  "packageName": "@alphesdk-remote/com-courseprofiler-courseprofiler",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://courseprofiler.com/mcp"
+    }
+  ],
+  "url": "https://courseprofiler.com/mcp.html"
+}

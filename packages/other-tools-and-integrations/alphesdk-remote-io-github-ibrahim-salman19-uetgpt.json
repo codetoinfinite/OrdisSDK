@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "UETGPT",
+  "description": "Unofficial UET Taxila guide: merit calculator, programs, fees and cited admissions answers.",
+  "packageName": "@alphesdk-remote/io-github-ibrahim-salman19-uetgpt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://uet-gpt.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Ibrahim-Salman19/uet-gpt",
+  "readme": "https://github.com/Ibrahim-Salman19/uet-gpt#readme"
+}

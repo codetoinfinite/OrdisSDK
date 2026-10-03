@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Soljo Solar (Switzerland)",
+  "description": "Independent rooftop solar first estimate for Switzerland: yield, median cost, subsidy, with sources",
+  "packageName": "@alphesdk-remote/ch-soljo-solar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cwghnqlpeeocjsjfhgyk.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://soljo.ch/methodik"
+}

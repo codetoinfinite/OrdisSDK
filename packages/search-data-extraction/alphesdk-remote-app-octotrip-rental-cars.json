@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OctoTrip Rental Cars",
+  "description": "Free, no-login rental car search with real-time pricing.",
+  "packageName": "@alphesdk-remote/app-octotrip-rental-cars",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.octotrip.app/rental-cars/mcp"
+    }
+  ],
+  "url": "https://github.com/octotrip/rental-cars",
+  "readme": "https://github.com/octotrip/rental-cars#readme"
+}

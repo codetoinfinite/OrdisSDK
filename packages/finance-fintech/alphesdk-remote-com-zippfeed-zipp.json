@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Zipp",
+  "description": "Multi-language crypto news with editorial sentiment + importance scoring; cites original publisher.",
+  "packageName": "@alphesdk-remote/com-zippfeed-zipp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zippfeed.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/deficlow/zipp-mcp",
+  "readme": "https://github.com/deficlow/zipp-mcp#readme"
+}

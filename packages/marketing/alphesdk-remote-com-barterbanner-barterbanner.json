@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BarterBanner",
+  "description": "Traffic exchange for independent websites: network stats, members, campaigns and site reports.",
+  "packageName": "@alphesdk-remote/com-barterbanner-barterbanner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://barterbanner.com/mcp"
+    }
+  ],
+  "url": "https://barterbanner.com/docs/mcp"
+}

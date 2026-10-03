@@ -1,0 +1,45 @@
+{
+  "type": "external-agent",
+  "key": "agentcore-deep-research-agent",
+  "name": "AgentCore Deep Research Agent",
+  "description": "AWS sample research agent that answers complex questions through an iterative plan, search, reflect and synthesise loop.",
+  "category": "search-data-extraction",
+  "tags": ["research", "strands", "bedrock", "agentcore", "web-search"],
+  "repo": "https://github.com/awslabs/agentcore-samples",
+  "subpath": "02-use-cases/01-conversational-agents/deep-research-agent",
+  "publisher": "AWS",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It handles questions that need several sources compared or reconciled, running a configurable number of research iterations before writing the answer.",
+  "howItWorks": "A single Strands agent on Claude plans queries and calls web search through an AgentCore Gateway, reflecting after each round. The script can locate or provision the Gateway itself and can also be deployed to AgentCore Runtime.",
+  "requirements": [
+    {
+      "name": "AWS account",
+      "kind": "account",
+      "required": true,
+      "description": "Bedrock model access plus IAM, Cognito and AgentCore permissions"
+    },
+    {
+      "name": "AWS_DEFAULT_REGION",
+      "kind": "service",
+      "required": false,
+      "description": "Region for AgentCore resources"
+    }
+  ],
+  "install": [
+    "cd 02-use-cases/01-conversational-agents/deep-research-agent",
+    "pip install -r requirements.txt"
+  ],
+  "run": ["python deep_research_agent.py"],
+  "interfaces": ["cli", "api"],
+  "language": "Python",
+  "framework": "Strands Agents",
+  "models": "Anthropic Claude on Amazon Bedrock",
+  "mcp": "client",
+  "github": {
+    "stars": 3427,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

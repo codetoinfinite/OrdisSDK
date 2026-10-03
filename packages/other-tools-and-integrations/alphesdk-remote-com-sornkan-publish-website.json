@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SORNKan Worldsite",
+  "description": "Publish a school or teacher website for $1 USDC/month on Base.",
+  "packageName": "@alphesdk-remote/com-sornkan-publish-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://publish.sornkan.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sornkan/sornkan",
+  "readme": "https://github.com/sornkan/sornkan#readme"
+}

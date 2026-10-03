@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MVisionPro Engineering Tools",
+  "description": "Read-only machine-vision calculations for optics, interfaces, line scan, sensors, and models.",
+  "packageName": "@alphesdk-remote/com-mvisionpro-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mvisionpro.com/tools/mcp"
+    }
+  ],
+  "url": "https://mvisionpro.com/tools/api/"
+}

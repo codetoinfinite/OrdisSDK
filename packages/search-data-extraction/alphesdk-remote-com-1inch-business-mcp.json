@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "1inch MCP",
+  "description": "Doc search, intent & cross-chain swaps, limit orders, portfolio, spot prices, gas & all APIs.",
+  "packageName": "@alphesdk-remote/com-1inch-business-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.1inch.com/mcp/protocol"
+    }
+  ],
+  "url": "https://github.com/1inch/1inch-ai",
+  "readme": "https://github.com/1inch/1inch-ai#readme"
+}

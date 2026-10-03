@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScentVerdict",
+  "description": "UK fragrance catalogue with verdicts, similarity scores, scent profiles and drydowns.",
+  "packageName": "@alphesdk-remote/com-scentverdict-fragrances",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scentverdict.com/mcp"
+    }
+  ],
+  "url": "https://scentverdict.com"
+}

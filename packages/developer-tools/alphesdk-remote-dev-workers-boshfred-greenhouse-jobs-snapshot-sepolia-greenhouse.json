@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Greenhouse Jobs Snapshot (Base Sepolia)",
+  "description": "Deterministic public Greenhouse jobs. Paid tool uses 0.001 test USDC on Base Sepolia only.",
+  "packageName": "@alphesdk-remote/dev-workers-boshfred-greenhouse-jobs-snapshot-sepolia-greenhouse-jobs-snapshot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://greenhouse-jobs-snapshot-sepolia.boshfred.workers.dev/mcp"
+    }
+  ]
+}

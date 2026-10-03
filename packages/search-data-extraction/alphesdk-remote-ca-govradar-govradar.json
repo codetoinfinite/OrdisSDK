@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Government Radar",
+  "description": "Official Canadian federal and provincial government news releases from the last 7 days.",
+  "packageName": "@alphesdk-remote/ca-govradar-govradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.govradar.ca/api/mcp"
+    }
+  ],
+  "url": "https://www.govradar.ca/ai-plugin"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Book a private driver in Paris: live quotes, airport transfers, tours, VIP Meet & Greet. No auth.",
+  "packageName": "@alphesdk-remote/com-mydriverparis-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-mydriverparis.mydriverparis.workers.dev/mcp"
+    }
+  ],
+  "url": "https://www.mydriverparis.com"
+}

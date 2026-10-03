@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "german-tax-data",
+  "description": "German municipal tax data (Hundesteuer, Zweitwohnungsteuer, Pfaendung), cited to the source",
+  "packageName": "@alphesdk-remote/dev-crelvo-german-tax-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.crelvo.dev/mcp"
+    }
+  ],
+  "url": "https://kommunalwerte.de"
+}

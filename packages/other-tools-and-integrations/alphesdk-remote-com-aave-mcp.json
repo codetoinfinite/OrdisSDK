@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Aave MCP",
+  "description": "Official Aave MCP for V3 and V4 markets, positions, governance, and transaction preparation.",
+  "packageName": "@alphesdk-remote/com-aave-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aave.com"
+    }
+  ],
+  "url": "https://aave.com"
+}

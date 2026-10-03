@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Warm Night Fishing (暖夜垂钓)",
+  "description": "Free blind-play night-fishing game over MCP. Deterministic engine, zero LLM calls, save codes.",
+  "packageName": "@alphesdk-remote/cloud-aevia-warmnight-fishing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aevia.cloud/mcp"
+    }
+  ],
+  "url": "https://aevia.cloud/play"
+}

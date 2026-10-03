@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Have It Printed",
+  "description": "Print and mail physical documents in the US via USPS, with quotes, agent payment and tracking.",
+  "packageName": "@alphesdk-remote/com-haveitprinted-print-and-mail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.haveitprinted.com/mcp"
+    }
+  ],
+  "url": "https://haveitprinted.com"
+}

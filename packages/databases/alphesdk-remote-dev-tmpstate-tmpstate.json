@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tmpstate",
+  "description": "Zero-key temporary JSON database for agents: one tool call, no signup, no OAuth, no API keys.",
+  "packageName": "@alphesdk-remote/dev-tmpstate-tmpstate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tmpstate.dev/mcp"
+    }
+  ],
+  "url": "https://tmpstate.dev"
+}

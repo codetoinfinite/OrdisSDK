@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FilmLab",
+  "description": "AI film lab for filmmakers: generate and review images/clips with input provenance, cost preflight",
+  "packageName": "@alphesdk-remote/com-thefilmradar-filmlab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-lab.thefilmradar.com/mcp"
+    }
+  ],
+  "url": "https://lab.thefilmradar.com/mcp"
+}

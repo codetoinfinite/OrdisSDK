@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Aurinia XO MCP",
+  "description": "Aurinia XO MCP — booking for a hostel in Kamianets-Podilskyi: check bed availability and reserve.",
+  "packageName": "@alphesdk-remote/com-auriniaxo-hostel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auriniaxo.com/mcp"
+    }
+  ],
+  "url": "https://auriniaxo.com"
+}

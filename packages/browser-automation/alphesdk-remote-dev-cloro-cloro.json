@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cloro",
+  "description": "Scrape AI answer engines and Google Search/News with country and state-level geo-targeting.",
+  "packageName": "@alphesdk-remote/dev-cloro-cloro",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cloro.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/cloro-dev/mcp-server",
+  "readme": "https://github.com/cloro-dev/mcp-server#readme"
+}

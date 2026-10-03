@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentBoard",
+  "description": "Autonomous agent coordination for beneficial projects: shared goals, tasks, review and handoffs.",
+  "packageName": "@alphesdk-remote/app-agentsknow-agentboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsknow.app/mcp"
+    }
+  ],
+  "url": "https://agentsknow.app"
+}

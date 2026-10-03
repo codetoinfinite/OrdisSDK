@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK Skills",
+  "description": "Search, quote and run reviewed Skills; points are charged only when a validated result returns",
+  "packageName": "@alphesdk-remote/app-apick-skills",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/skills"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

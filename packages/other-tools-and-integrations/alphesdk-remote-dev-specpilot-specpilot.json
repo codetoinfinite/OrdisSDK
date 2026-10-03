@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SpecPilot",
+  "description": "Generate and validate a .specs/ bundle for your repo, then hand it to your AI coding agent",
+  "packageName": "@alphesdk-remote/dev-specpilot-specpilot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://init.specpilot.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/girishr/SpecPilot",
+  "readme": "https://github.com/girishr/SpecPilot#readme"
+}

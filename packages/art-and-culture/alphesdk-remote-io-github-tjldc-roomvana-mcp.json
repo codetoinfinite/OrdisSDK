@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "roomvana-mcp",
+  "description": "Explore Roomvana room types and styles, then open a link to redesign a room from a photo.",
+  "packageName": "@alphesdk-remote/io-github-tjldc-roomvana-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.roomvana.co/mcp"
+    }
+  ],
+  "url": "https://github.com/TJLDC/roomvana-mcp",
+  "readme": "https://github.com/TJLDC/roomvana-mcp#readme"
+}

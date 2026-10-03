@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "NatGasLens — US Natural Gas & Henry Hub Data",
+  "description": "US natural gas for agents: LNG feedgas, outages, EIA storage, Henry Hub curve, COT, charts",
+  "packageName": "@alphesdk-remote/com-natgaslens-natgaslens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.natgaslens.com/mcp"
+    }
+  ],
+  "url": "https://natgaslens.com"
+}

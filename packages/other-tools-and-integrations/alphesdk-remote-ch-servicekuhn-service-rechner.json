@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Porsche Service Calculator (Garage Kuhn)",
+  "description": "Next Porsche service date, mileage and scope from public Porsche maintenance plans. Read-only.",
+  "packageName": "@alphesdk-remote/ch-servicekuhn-service-rechner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://servicekuhn.ch/wp-json/kuhn-sr/v1/mcp"
+    }
+  ],
+  "url": "https://servicekuhn.ch/leistungen/service-rechner/?sprache=en"
+}

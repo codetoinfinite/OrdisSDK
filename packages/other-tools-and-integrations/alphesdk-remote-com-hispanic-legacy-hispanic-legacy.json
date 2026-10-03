@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hispanic Legacy",
+  "description": "Spain's contributions to world science, exploration and culture, rigorously sourced",
+  "packageName": "@alphesdk-remote/com-hispanic-legacy-hispanic-legacy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hispanic-legacy.com/mcp?via=manifest"
+    }
+  ],
+  "url": "https://github.com/citarium/hispanic-legacy-mcp",
+  "readme": "https://github.com/citarium/hispanic-legacy-mcp#readme"
+}

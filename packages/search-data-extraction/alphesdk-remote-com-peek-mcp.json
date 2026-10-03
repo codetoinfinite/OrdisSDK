@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Build travel itineraries with Peek's 300k+ experiences. Search, details, and availability.",
+  "packageName": "@alphesdk-remote/com-peek-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.peek.com"
+    }
+  ]
+}

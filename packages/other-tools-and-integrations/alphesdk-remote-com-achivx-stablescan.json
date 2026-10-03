@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stablecoin Scanner",
+  "description": "Stablecoin risk for agents: freezes, OFAC, exposure, allowances, transfers, graph. 7 chains.",
+  "packageName": "@alphesdk-remote/com-achivx-stablescan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stablescan.achivx.com/mcp"
+    }
+  ],
+  "url": "https://stablescan.achivx.com"
+}

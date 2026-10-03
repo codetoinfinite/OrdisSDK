@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "aetumi",
+  "description": "AETumi MCP - Three.js/WebGL 3D web scenes, components & templates you own the source of.",
+  "packageName": "@alphesdk-remote/io-github-aetumiapp-aetumi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aetumi.app"
+    }
+  ],
+  "url": "https://github.com/AETumiApp/aetumi-mcp",
+  "readme": "https://github.com/AETumiApp/aetumi-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MANA — la vie locale française",
+  "description": "Lieux, commerces, artisans et associations en France — 3,7 M de fiches, rangées par code NAF.",
+  "packageName": "@alphesdk-remote/bzh-mana-mana",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mana.bzh/mcp"
+    }
+  ],
+  "url": "https://mana.bzh"
+}

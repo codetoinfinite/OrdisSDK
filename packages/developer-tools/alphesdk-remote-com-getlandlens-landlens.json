@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LandLens rental records",
+  "description": "Owner of record, code violations, evictions and tenant reviews for US college-town rentals.",
+  "packageName": "@alphesdk-remote/com-getlandlens-landlens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.getlandlens.com/mcp"
+    }
+  ],
+  "url": "https://getlandlens.com/api"
+}

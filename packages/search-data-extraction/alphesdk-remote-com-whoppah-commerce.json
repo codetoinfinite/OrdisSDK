@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Whoppah",
+  "description": "Search and shop curated second-hand design: furniture, lighting, art and designer bags.",
+  "packageName": "@alphesdk-remote/com-whoppah-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.whoppah.com/mcp"
+    }
+  ],
+  "url": "https://www.whoppah.com/agents"
+}

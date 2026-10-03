@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "robomart",
+  "description": "Driverless delivery.",
+  "packageName": "@alphesdk-remote/ai-robomart-robomart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.robomart.ai/mcp"
+    }
+  ],
+  "url": "https://robomart.ai"
+}

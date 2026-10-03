@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "supost-mcp",
+  "description": "Search listings, message posters, and create drafts on SUpost, the marketplace for Stanford",
+  "packageName": "@alphesdk-remote/io-github-capmus-team-supost-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.supost.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Capmus-Team/supost-mcp",
+  "readme": "https://github.com/Capmus-Team/supost-mcp#readme"
+}

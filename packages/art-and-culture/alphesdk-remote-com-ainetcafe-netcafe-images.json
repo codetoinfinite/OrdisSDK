@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "netcafe-images",
+  "description": "Diagrams, badges, charts and QR codes as plain image URLs you can paste into Markdown.",
+  "packageName": "@alphesdk-remote/com-ainetcafe-netcafe-images",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ainetcafe.com/mcp/img?s=registry"
+    }
+  ],
+  "url": "https://github.com/mario03690/ai-netcafe",
+  "readme": "https://github.com/mario03690/ai-netcafe#readme"
+}

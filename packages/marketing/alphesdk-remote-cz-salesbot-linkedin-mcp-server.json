@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LinkedIn MCP Server (Salesbot)",
+  "description": "Human-in-the-loop LinkedIn outreach and a built-in sales CRM for AI agents. Safety-gated, anti-spam.",
+  "packageName": "@alphesdk-remote/cz-salesbot-linkedin-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.salesbot.cz/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Kubis010/linkedin-mcp-server-salesbot",
+  "readme": "https://github.com/Kubis010/linkedin-mcp-server-salesbot#readme"
+}

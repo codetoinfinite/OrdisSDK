@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agenteconomy.cloud",
+  "description": "x402 seller trust for AI agents: verify on-chain revenue, check delivery, diagnose listings.",
+  "packageName": "@alphesdk-remote/cloud-agenteconomy-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agenteconomy.cloud/mcp"
+    }
+  ],
+  "url": "https://github.com/Onnson/agenteconomy-mcp",
+  "readme": "https://github.com/Onnson/agenteconomy-mcp#readme"
+}

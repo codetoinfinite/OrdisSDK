@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Framekeep Public Discovery",
+  "description": "Read-only discovery of Framekeep capabilities, security boundaries, and public resources.",
+  "packageName": "@alphesdk-remote/com-framekeep-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://framekeep.com/api/mcp"
+    }
+  ],
+  "url": "https://framekeep.com/capabilities"
+}

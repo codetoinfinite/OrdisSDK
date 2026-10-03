@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "korea-tourism-api",
+  "packageName": "github:pjookim/mcp-visit-korea#9e1f0cd8745cab5d8c4d63f79d75be5da0f8d06c",
   "description": "Provides access to Korean tourism information through the TOUR API, enabling area code lookup, regional searches, and detailed content about attractions, festivals, and accommodations for travel planning and exploration.",
   "url": "https://github.com/pjookim/mcp-visit-korea",
   "runtime": "node",

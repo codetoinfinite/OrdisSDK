@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "speeron-next",
+  "description": "Speeron NEXT Digital Guest Journey MCP server (remote HTTP endpoint).",
+  "packageName": "@alphesdk-remote/io-github-speeron-polska-speeron-next",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://speeronnext-dev-chat-app.azurewebsites.net/mcp"
+    }
+  ]
+}

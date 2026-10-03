@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "latin",
+  "description": "Grounds LLMs in real Latin: Wiktionary lemmas, Morpheus inflections, citations.",
+  "packageName": "@alphesdk-remote/com-valksor-latin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://latin.valksor.com/mcp"
+    }
+  ],
+  "url": "https://latin.valksor.com"
+}

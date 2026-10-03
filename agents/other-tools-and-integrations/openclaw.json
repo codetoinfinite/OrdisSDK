@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "openclaw",
+  "name": "OpenClaw",
+  "description": "Personal AI assistant that runs on your own computer and answers in Discord, iMessage, Slack, Teams, Telegram, WhatsApp and more.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-assistant", "self-hosted", "messaging", "gateway", "plugins"],
+  "repo": "https://github.com/openclaw/openclaw",
+  "homepage": "https://openclaw.ai",
+  "docs": "https://docs.openclaw.ai",
+  "publisher": "OpenClaw",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Gives one person an assistant available in the chat channels they already use, with state, memory and credentials kept on their own hardware. Models and agent harnesses are swappable plugins.",
+  "howItWorks": "A Gateway process installed as a daemon links chat channels to the configured model or harness. An onboarding wizard checks model access and creates the workspace, and a dashboard command opens the Control UI.",
+  "requirements": [
+    {
+      "name": "Node.js 24.16+ or 26.1+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Provisioned by the installer when missing"
+    },
+    {
+      "name": "Model access",
+      "kind": "api-key",
+      "required": true,
+      "description": "A model provider or harness verified during onboarding"
+    }
+  ],
+  "install": ["curl -fsSL https://openclaw.ai/install.sh | bash"],
+  "run": ["openclaw onboard --install-daemon", "openclaw gateway status", "openclaw dashboard"],
+  "interfaces": ["chat", "web", "cli", "desktop"],
+  "language": "TypeScript",
+  "models": "Claude, Codex and local models through plugins",
+  "mcp": "none",
+  "github": {
+    "stars": 391200,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

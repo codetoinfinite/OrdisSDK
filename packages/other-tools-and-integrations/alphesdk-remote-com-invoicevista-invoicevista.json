@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "invoicevista",
+  "description": "Review businesses, catalogs, plan limits and aggregate billing operations without customer records.",
+  "packageName": "@alphesdk-remote/com-invoicevista-invoicevista",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.invoicevista.com/mcp"
+    }
+  ],
+  "url": "https://www.invoicevista.com/developers/#mcp"
+}

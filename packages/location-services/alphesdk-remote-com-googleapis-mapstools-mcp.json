@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Ground your AI applications with trusted geospatial data from Google Maps.",
+  "packageName": "@alphesdk-remote/com-googleapis-mapstools-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mapstools.googleapis.com/mcp"
+    }
+  ]
+}

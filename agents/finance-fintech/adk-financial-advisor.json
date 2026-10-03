@@ -1,0 +1,71 @@
+{
+  "type": "external-agent",
+  "key": "adk-financial-advisor",
+  "name": "ADK Financial Advisor",
+  "description": "Multi-agent ADK sample that researches a stock ticker, proposes trading strategies, plans execution and assesses risk for an advisor.",
+  "category": "finance-fintech",
+  "tags": ["finance", "multi-agent", "adk", "gemini", "trading"],
+  "repo": "https://github.com/google/adk-recipes",
+  "subpath": "contrib/python/financial-advisor",
+  "docs": "https://adk.dev",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Aimed at human financial advisors, it walks through analysing a ticker, generating strategies that fit a stated risk appetite and horizon, drafting an execution plan and evaluating overall risk. It is for education and demonstration, not real advice.",
+  "howItWorks": "A coordinator agent delegates to data-analyst, trading-analyst, execution and risk sub-agents in sequence; the data analyst gathers market information through Google Search. It runs through the ADK CLI or web UI on Vertex AI and can be deployed to Agent Engine.",
+  "requirements": [
+    {
+      "name": "GOOGLE_CLOUD_PROJECT",
+      "kind": "account",
+      "required": true,
+      "description": "Google Cloud project used for Vertex AI"
+    },
+    {
+      "name": "GOOGLE_CLOUD_LOCATION",
+      "kind": "service",
+      "required": true,
+      "description": "Vertex AI region"
+    },
+    {
+      "name": "GOOGLE_GENAI_USE_VERTEXAI",
+      "kind": "service",
+      "required": true,
+      "description": "Set to true to route model calls through Vertex AI"
+    },
+    {
+      "name": "gcloud CLI",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used for application-default login"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python package manager used by the recipe"
+    },
+    {
+      "name": "GOOGLE_CLOUD_STORAGE_BUCKET",
+      "kind": "service",
+      "required": false,
+      "description": "Only for Agent Engine deployment"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google/adk-recipes.git",
+    "cd adk-recipes/contrib/python/financial-advisor",
+    "uv sync"
+  ],
+  "run": ["adk run app", "adk web"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "framework": "Google ADK",
+  "models": "Gemini on Vertex AI",
+  "mcp": "none",
+  "github": {
+    "stars": 10411,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

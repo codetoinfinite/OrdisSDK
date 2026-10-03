@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "copilot-studio-friction-index",
+  "description": "Evidence-based register of known Copilot Studio errors and limits, with dated, human-verified fixes.",
+  "packageName": "@alphesdk-remote/io-github-adrianstauffer-copilot-studio-friction-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pcghrrzwqshejvifoxjq.supabase.co/functions/v1/friction-mcp"
+    }
+  ],
+  "url": "https://powerleap.ch/friction/mcp/"
+}

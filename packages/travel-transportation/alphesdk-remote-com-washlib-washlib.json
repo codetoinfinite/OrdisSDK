@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Washlib",
+  "description": "Find car wash centers in France, compare prices, check live availability, and look up a booking.",
+  "packageName": "@alphesdk-remote/com-washlib-washlib",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://washlib.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/J1034567/washlib",
+  "readme": "https://github.com/J1034567/washlib#readme"
+}

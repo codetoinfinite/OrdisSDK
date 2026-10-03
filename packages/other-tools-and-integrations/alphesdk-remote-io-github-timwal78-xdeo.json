@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "xDEO — Earnings Oracle",
+  "description": "Reputation-ranked analyst earnings estimates. Pay per call via x402 on Base.",
+  "packageName": "@alphesdk-remote/io-github-timwal78-xdeo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://xdeo.timothy-walton45.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Timwal78/SqueezeOS",
+  "readme": "https://github.com/Timwal78/SqueezeOS#readme"
+}

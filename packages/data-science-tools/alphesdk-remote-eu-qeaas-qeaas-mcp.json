@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "qeaas-mcp",
+  "description": "QRNG-seeded random bytes, seeds, and ML-KEM-768 keys with signed provenance receipts.",
+  "packageName": "@alphesdk-remote/eu-qeaas-qeaas-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.qeaas.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/PeterJasSK/Quantum-research",
+  "readme": "https://github.com/PeterJasSK/Quantum-research#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "feeds",
+  "description": "Point-in-time Congress, BTC-ETF-flow, insider, token-launch and options-IV feeds; free + x402",
+  "packageName": "@alphesdk-remote/com-insidercable-feeds",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://insidercable.com/mcp"
+    }
+  ],
+  "url": "https://insidercable.com"
+}

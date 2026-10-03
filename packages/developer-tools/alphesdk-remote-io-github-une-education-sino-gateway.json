@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "UNE Sino-Gateway",
+  "description": "PRC Civil Code & CISG legal computation engine for Sino-Occidental trade dispute settlement.",
+  "packageName": "@alphesdk-remote/io-github-une-education-sino-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://legal.une.education/sino/mcp.php"
+    }
+  ],
+  "url": "https://github.com/Une-education/une-sino-mcp",
+  "readme": "https://github.com/Une-education/une-sino-mcp#readme"
+}

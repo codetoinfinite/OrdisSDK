@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Roboto Studio evidence",
+  "description": "Roboto videos, client interviews, articles and social posts with source citations.",
+  "packageName": "@alphesdk-remote/com-bestsanityagency-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bestsanityagency.com/mcp"
+    }
+  ],
+  "url": "https://bestsanityagency.com"
+}

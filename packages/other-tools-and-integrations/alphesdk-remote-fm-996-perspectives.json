@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "996.fm perspective graph",
+  "description": "Dated, attributed founder and investor positions — the disagreement, with timestamped receipts.",
+  "packageName": "@alphesdk-remote/fm-996-perspectives",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.996.fm/mcp"
+    }
+  ],
+  "url": "https://www.996.fm/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "site-audit",
+  "description": "Website intelligence audits for AI agents: free preview plus x402-paid Agent Readiness scoring",
+  "packageName": "@alphesdk-remote/com-santosautomation-site-audit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.santosautomation.com/mcp"
+    }
+  ],
+  "url": "https://www.santosautomation.com"
+}

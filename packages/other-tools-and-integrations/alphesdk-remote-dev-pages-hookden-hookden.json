@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hookden",
+  "description": "Webhook capture bins for agents: get a URL, wait for webhooks, set replies, verify signatures.",
+  "packageName": "@alphesdk-remote/dev-pages-hookden-hookden",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hookden.pages.dev/mcp"
+    }
+  ],
+  "url": "https://hookden.pages.dev"
+}

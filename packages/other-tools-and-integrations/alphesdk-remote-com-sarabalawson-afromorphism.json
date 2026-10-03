@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Afromorphism",
+  "description": "Read-only access to S. Araba Lawson's Afromorphism essays, glossary, books, and site.",
+  "packageName": "@alphesdk-remote/com-sarabalawson-afromorphism",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sarabalawson.com/mcp"
+    }
+  ],
+  "url": "https://github.com/sarabalawson/website",
+  "readme": "https://github.com/sarabalawson/website#readme"
+}

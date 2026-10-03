@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cerebrium Docs",
+  "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
+  "packageName": "@alphesdk-remote/ai-cerebrium-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cerebrium.ai/docs/mcp"
+    }
+  ],
+  "url": "https://github.com/CerebriumAI/cerebrium-skills",
+  "readme": "https://github.com/CerebriumAI/cerebrium-skills#readme"
+}

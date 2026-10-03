@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub Premises",
+  "description": "RegEvidenceHub Premises: UK premises-licensing preflight for supported authorities.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-uk-premises-licence-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://premises.regevidencehub.com/ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/uk-premises-licence-mcp",
+  "readme": "https://github.com/ChanghuLiu/uk-premises-licence-mcp#readme"
+}

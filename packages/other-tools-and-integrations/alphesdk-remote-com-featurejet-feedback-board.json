@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FeatureJet",
+  "description": "The feedback board your AI agents work from: users vote, agents build over MCP. 22 tools.",
+  "packageName": "@alphesdk-remote/com-featurejet-feedback-board",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.featurejet.com/mcp"
+    }
+  ]
+}

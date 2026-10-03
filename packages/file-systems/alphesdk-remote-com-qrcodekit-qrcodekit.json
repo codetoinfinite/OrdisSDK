@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "QRCodeKIT",
+  "description": "Branded short links, instant page & file hosting, and dynamic QR codes with unified analytics.",
+  "packageName": "@alphesdk-remote/com-qrcodekit-qrcodekit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.v2.qrcodekit.com/mcp"
+    }
+  ],
+  "url": "https://qrcodekit.com/ai-qr-codes/mcp/"
+}

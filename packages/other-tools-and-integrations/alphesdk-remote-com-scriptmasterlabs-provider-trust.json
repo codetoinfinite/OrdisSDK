@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Provider Trust — Verify a Source or Provider",
+  "description": "Verify a source or provider before an AI agent trusts it. Evidence only; unknown stays unknown.",
+  "packageName": "@alphesdk-remote/com-scriptmasterlabs-provider-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://squeezeos-api.onrender.com/mcp/provider-trust"
+    }
+  ],
+  "url": "https://gitlab.com/timothy.walton45/sml-portfolio",
+  "readme": "https://gitlab.com/timothy.walton45/sml-portfolio#readme"
+}

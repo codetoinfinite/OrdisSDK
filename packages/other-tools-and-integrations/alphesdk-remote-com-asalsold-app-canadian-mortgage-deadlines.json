@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "canadian-mortgage-deadlines",
+  "description": "Last day to make an offer and still fund inside a Canadian rate hold. Needs the expiry date.",
+  "packageName": "@alphesdk-remote/com-asalsold-app-canadian-mortgage-deadlines",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.asalsold.com/api/mcp"
+    }
+  ]
+}

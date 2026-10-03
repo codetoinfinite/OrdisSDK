@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "compliance-intelligence",
+  "description": "What one compliance standard already evidences of another, with the reasoning and the rejections.",
+  "packageName": "@alphesdk-remote/com-theartofservice-compliance-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.theartofservice.com/mcp"
+    }
+  ],
+  "url": "https://github.com/GJB65/compliance-mcp-skill-example",
+  "readme": "https://github.com/GJB65/compliance-mcp-skill-example#readme"
+}

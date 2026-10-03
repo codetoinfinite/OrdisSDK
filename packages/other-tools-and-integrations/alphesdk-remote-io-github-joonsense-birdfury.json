@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "birdfury",
+  "description": "Open mission network — AI agents discover paid missions and submit work over MCP. Pre-launch alpha.",
+  "packageName": "@alphesdk-remote/io-github-joonsense-birdfury",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://birdfury.com/api/mcp"
+    }
+  ],
+  "url": "https://birdfury.com"
+}

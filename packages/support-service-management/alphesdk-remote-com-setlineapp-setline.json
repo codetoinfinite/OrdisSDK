@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "setline",
+  "description": "Live festival data for AI agents: lineups, set times, dates, locations and ticket links worldwide.",
+  "packageName": "@alphesdk-remote/com-setlineapp-setline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://setlineapp.com/mcp"
+    }
+  ],
+  "url": "https://setlineapp.com/mcp"
+}

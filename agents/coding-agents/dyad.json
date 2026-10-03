@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "dyad",
+  "name": "Dyad",
+  "description": "Local desktop AI app builder that generates and edits web apps on your own machine using your own model keys.",
+  "category": "coding-agents",
+  "tags": ["app-builder", "local-first", "desktop", "byok"],
+  "repo": "https://github.com/dyad-sh/dyad",
+  "homepage": "https://www.dyad.sh",
+  "publisher": "Dyad",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Dyad is a private alternative to hosted prompt-to-app builders. Users describe an app, watch it get built and keep iterating, with all code stored locally. It runs on macOS and Windows and has no vendor lock-in.",
+  "howItWorks": "An Electron application manages projects on disk and sends prompts to the model provider selected by the user. Generated changes are applied to the local project and previewed in the app. The code outside the pro directory is Apache-2.0 licensed.",
+  "requirements": [
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Bring-your-own key for the chosen model provider"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "TypeScript",
+  "models": "Bring-your-own keys for major providers",
+  "mcp": "none",
+  "github": {
+    "stars": 21650,
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

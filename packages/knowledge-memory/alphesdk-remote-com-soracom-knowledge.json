@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Soracom Knowledge",
+  "description": "Search SORACOM documentation: service guides, FAQ, API references, IoT recipes, etc.",
+  "packageName": "@alphesdk-remote/com-soracom-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://knowledge-mcp.soracom.com"
+    }
+  ],
+  "url": "https://github.com/soracom/mcp",
+  "readme": "https://github.com/soracom/mcp#readme"
+}

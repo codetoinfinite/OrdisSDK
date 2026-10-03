@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "codecompanion-nvim",
+  "name": "CodeCompanion.nvim",
+  "description": "Neovim plugin providing AI chat, inline edits and agent workflows, including support for external ACP agents and MCP servers.",
+  "category": "coding-agents",
+  "tags": ["neovim", "plugin", "chat", "acp", "mcp"],
+  "repo": "https://github.com/olimorris/codecompanion.nvim",
+  "docs": "https://codecompanion.olimorris.dev",
+  "publisher": "Oli Morris",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "CodeCompanion gives Neovim users a chat buffer, inline code transformations and tool-using agents. It can drive external coding agents from inside the editor. Rules and skills let users shape how it behaves per project.",
+  "howItWorks": "Adapters connect the plugin to model providers over HTTP or to agents over the Agent Client Protocol. In chat, the model can call tools to read and edit files or run commands, and tool servers can be added through MCP. Configuration is done in Lua following the documentation site.",
+  "requirements": [
+    {
+      "name": "Neovim",
+      "kind": "runtime",
+      "required": true,
+      "description": "The plugin runs inside Neovim"
+    },
+    {
+      "name": "LLM provider API key or ACP agent",
+      "kind": "api-key",
+      "required": true,
+      "description": "A model provider key or an installed external agent to connect to"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["ide"],
+  "language": "Lua",
+  "models": "Major hosted providers, local models, and ACP agents such as Claude Code and Codex",
+  "mcp": "client",
+  "github": {
+    "stars": 6886,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

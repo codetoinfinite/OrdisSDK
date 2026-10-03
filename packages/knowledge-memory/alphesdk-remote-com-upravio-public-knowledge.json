@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Upravio public knowledge",
+  "description": "Public Upravio contract-management guides and capabilities. No private workspace access.",
+  "packageName": "@alphesdk-remote/com-upravio-public-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.upravio.com/api/public/mcp"
+    }
+  ],
+  "url": "https://upravio.com/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Macaroon Bible Evidence",
+  "description": "Read-only BSB and WEB Scripture evidence with provenance, context, comparison, and search.",
+  "packageName": "@alphesdk-remote/com-macaroonnetwork-bible-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.macaroonnetwork.com/mcp-faith-evidence-v1/mcp/"
+    }
+  ],
+  "url": "https://github.com/kevmoz/macaroon-bible-evidence-mcp",
+  "readme": "https://github.com/kevmoz/macaroon-bible-evidence-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hub",
+  "description": "One MCP endpoint over every Valksor dictionary: namespaced tools plus a JSON passthrough.",
+  "packageName": "@alphesdk-remote/com-valksor-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.valksor.com/mcp"
+    }
+  ],
+  "url": "https://mcp.valksor.com"
+}

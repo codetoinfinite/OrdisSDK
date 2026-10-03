@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "rental-review",
+  "description": "Free professional review of a contractor's equipment rental invoices. Referral and intake only.",
+  "packageName": "@alphesdk-remote/co-truerent-rental-review",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://truerent.co/api/mcp"
+    }
+  ],
+  "url": "https://truerent.co"
+}

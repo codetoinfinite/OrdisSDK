@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tgboard — Telegram Directory",
+  "description": "Search 100k+ auto-verified Telegram channels, bots and groups: full-text search and top rankings.",
+  "packageName": "@alphesdk-remote/com-tgboard-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tgboard.com/mcp/"
+    }
+  ],
+  "url": "https://tgboard.com"
+}

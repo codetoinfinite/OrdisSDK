@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "BlockRazor Docs",
+  "description": "Official BlockRazor documentation for sending and receiving transations faster.",
+  "packageName": "@alphesdk-remote/io-blockrazor-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blockrazor.io/docs"
+    }
+  ]
+}

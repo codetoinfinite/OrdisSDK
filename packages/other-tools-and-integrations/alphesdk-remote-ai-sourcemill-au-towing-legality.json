@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Australian Towing Legality Check",
+  "description": "Legal towing check for ~46 AU vehicles — compliant/marginal/illegal + the binding constraint.",
+  "packageName": "@alphesdk-remote/ai-sourcemill-au-towing-legality",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://towing.sourcemill.ai/mcp"
+    }
+  ],
+  "url": "https://towing.sourcemill.ai"
+}

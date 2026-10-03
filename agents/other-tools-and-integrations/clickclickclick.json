@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "clickclickclick",
+  "name": "Click3",
+  "description": "Framework that lets an LLM operate an Android phone or a Mac, with separate planner and element-finder models.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "android", "macos", "gui-agent"],
+  "repo": "https://github.com/instavm/clickclickclick",
+  "publisher": "InstaVM",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Performs tasks such as opening apps, drafting messages or browsing on a connected Android device or the local Mac. It is for tinkerers who want to try phone and desktop control with hosted or local models.",
+  "howItWorks": "A planner model decides the next step and a finder model locates the target on the screenshot, after which the tool issues the tap or keystroke. Both roles are picked on the command line, and the same core can be used as a script, a Gradio app or an API.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Virtual environment for the tool"
+    },
+    {
+      "name": "Android device with ADB or macOS",
+      "kind": "hardware",
+      "required": true,
+      "description": "Target to control"
+    },
+    {
+      "name": "Model keys",
+      "kind": "api-key",
+      "required": true,
+      "description": "OpenAI or Gemini keys, or a local Ollama model"
+    }
+  ],
+  "install": [
+    "python3 -m venv venv",
+    "source venv/bin/activate",
+    "pip install -r requirements.txt"
+  ],
+  "run": [
+    "python main.py setup",
+    "python main.py run \"Open Google news\" --platform=android --planner-model=openai --finder-model=gemini"
+  ],
+  "interfaces": ["cli", "web", "api"],
+  "language": "Python",
+  "models": "OpenAI, Gemini, Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 714,
+    "license": "MIT",
+    "pushedAt": "2026-03-17",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "blicht MCP",
+  "description": "blicht.com knowledge platform: full-text search + Markdown articles (e-commerce, AI, lifestyle)",
+  "packageName": "@alphesdk-remote/com-blicht-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blicht.com/mcp"
+    }
+  ]
+}

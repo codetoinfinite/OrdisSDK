@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Offendersearch",
+  "description": "Search US sex-offender registries and criminal records, with per-source citations.",
+  "packageName": "@alphesdk-remote/app-offendersearch-offendersearch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.offendersearch.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Clavaa/offendersearch-quickstart",
+  "readme": "https://github.com/Clavaa/offendersearch-quickstart#readme"
+}

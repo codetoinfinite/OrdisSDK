@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Travellers Group — Regional Australia Hotels",
+  "description": "Verified facts and direct-booking handoff for five Travellers Group hotels in regional Australia.",
+  "packageName": "@alphesdk-remote/au-com-travellersgroup-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.travellersgroup.com.au/v1/mcp"
+    }
+  ],
+  "url": "https://agent.travellersgroup.com.au/developers"
+}

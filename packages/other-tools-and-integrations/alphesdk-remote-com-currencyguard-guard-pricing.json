@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CurrencyGuard Guard Pricing",
+  "description": "FX protection for SMEs — price Guards, live spot/forward rates, settlement dates, and more.",
+  "packageName": "@alphesdk-remote/com-currencyguard-guard-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.currencyguard.com/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/currencyguard/server",
+  "readme": "https://gitlab.com/currencyguard/server#readme"
+}

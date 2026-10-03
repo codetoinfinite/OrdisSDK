@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "PlanetScale",
+  "description": "Hosted PlanetScale server for databases, branches, schema and insights.",
+  "packageName": "@alphesdk-remote/planetscale",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pscale.dev/mcp/planetscale",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://planetscale.com/docs/connect/mcp",
+  "url": "https://github.com/planetscale",
+  "author": "PlanetScale",
+  "env": {}
+}

@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "bolna",
+  "name": "Bolna",
+  "description": "Orchestration layer for voice agents that make and take phone calls by chaining transcription, an LLM and speech synthesis.",
+  "category": "communication",
+  "tags": ["voice", "telephony", "twilio", "call-agent", "orchestration"],
+  "repo": "https://github.com/bolna-ai/bolna",
+  "homepage": "https://bolna.ai",
+  "docs": "https://docs.bolna.ai",
+  "publisher": "Bolna",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets teams define a phone agent and have it place or receive calls through telephony providers. It targets use cases like outbound calling, qualification and support lines. The maintainers note they are seeking additional maintainers.",
+  "howItWorks": "A server streams call audio over websockets through speech recognition, a language model reached via LiteLLM and a text-to-speech engine. Twilio or Plivo provide the phone leg, with ngrok tunnels and Redis used in the bundled local setup. Agents are created and triggered through HTTP endpoints.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Local setup runs through Docker Compose"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "LLM key; LITELLM_MODEL_API_KEY covers other providers"
+    },
+    {
+      "name": "ELEVENLABS_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Speech synthesis key when ElevenLabs is the chosen voice"
+    },
+    {
+      "name": "Telephony account",
+      "kind": "account",
+      "required": true,
+      "description": "Twilio or Plivo account, plus an ngrok auth token for tunnelling"
+    }
+  ],
+  "install": ["cd local_setup", "chmod +x start.sh"],
+  "run": ["./start.sh"],
+  "interfaces": ["api"],
+  "language": "Python",
+  "models": "LLMs via LiteLLM; multiple ASR and TTS vendors",
+  "mcp": "none",
+  "github": {
+    "stars": 782,
+    "license": "MIT",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

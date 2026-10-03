@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Airtable",
+  "description": "Hosted Airtable server for reading and writing bases, tables and records.",
+  "packageName": "@alphesdk-remote/airtable",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.airtable.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://support.airtable.com/docs/using-the-airtable-mcp-server",
+  "url": "https://github.com/Airtable",
+  "author": "Airtable",
+  "env": {}
+}

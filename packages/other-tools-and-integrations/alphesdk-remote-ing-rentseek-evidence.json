@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RentSeek Evidence",
+  "description": "Source-linked executive compensation data for AI agents and developers.",
+  "packageName": "@alphesdk-remote/ing-rentseek-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rentseek.ing/mcp/public-facts"
+    }
+  ],
+  "url": "https://rentseek.ing/developers"
+}

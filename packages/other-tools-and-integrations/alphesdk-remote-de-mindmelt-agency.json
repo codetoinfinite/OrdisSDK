@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mindmelt – B2B agency Frankfurt",
+  "description": "Read-only data on mindmelt, a B2B agency in Frankfurt: services, cases, pricing, fit checks.",
+  "packageName": "@alphesdk-remote/de-mindmelt-agency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mindmelt.de/mcp/mcp"
+    }
+  ],
+  "url": "https://www.mindmelt.de/fuer-ki-agenten/"
+}

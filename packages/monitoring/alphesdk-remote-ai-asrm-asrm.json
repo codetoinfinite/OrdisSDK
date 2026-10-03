@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ASRM (AI Search Rank Monitor)",
+  "description": "Check a website's AI readiness and answer AI visibility and GEO questions from ASRM's guides.",
+  "packageName": "@alphesdk-remote/ai-asrm-asrm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asrm.ai/mcp"
+    }
+  ],
+  "url": "https://asrm.ai/plugin"
+}

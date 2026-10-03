@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mu",
+  "description": "Official AI-native print-on-demand MCP — say it, AI designs it, sell 40+ goods, earn royalties.",
+  "packageName": "@alphesdk-remote/com-wearmu-mu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wearmu.com/mcp"
+    }
+  ],
+  "url": "https://github.com/yukihamada/mu-mcp",
+  "readme": "https://github.com/yukihamada/mu-mcp#readme"
+}

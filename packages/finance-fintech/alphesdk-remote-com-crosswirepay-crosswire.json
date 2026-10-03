@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Crosswire - payment infrastructure pricing, coverage and stack design",
+  "description": "Indicative pricing, coverage and stack design for high-risk and crypto payment infrastructure.",
+  "packageName": "@alphesdk-remote/com-crosswirepay-crosswire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://crosswirepay.com/mcp"
+    }
+  ],
+  "url": "https://crosswirepay.com/connect"
+}

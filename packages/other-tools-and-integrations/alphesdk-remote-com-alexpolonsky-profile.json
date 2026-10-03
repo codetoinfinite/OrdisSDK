@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alex Polonsky Profile",
+  "description": "Public, read-only professional profile and current availability for Alex Polonsky.",
+  "packageName": "@alphesdk-remote/com-alexpolonsky-profile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alexpolonsky.com/mcp"
+    }
+  ],
+  "url": "https://alexpolonsky.com/mcp"
+}

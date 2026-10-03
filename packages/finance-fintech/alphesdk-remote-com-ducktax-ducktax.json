@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Duck Tax",
+  "description": "Check micro-entity company accounts: raw figures in, validated balance sheet and deadlines out.",
+  "packageName": "@alphesdk-remote/com-ducktax-ducktax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ducktax.com/api/mcp"
+    }
+  ],
+  "url": "https://ducktax.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "La Palma 24 - Vacation Rentals",
+  "description": "Search vacation rentals in La Palma, Canary Islands with real-time availability and pricing.",
+  "packageName": "@alphesdk-remote/io-github-ayozemiguel-lapalma24-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.la-palma24.net"
+    }
+  ],
+  "url": "https://github.com/La-Palma-24/lapalma24-mcp",
+  "readme": "https://github.com/La-Palma-24/lapalma24-mcp#readme"
+}

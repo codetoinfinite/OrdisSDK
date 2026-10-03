@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Garden Agent Platform",
+  "description": "Experimental MCP for discovering and purchasing explicitly published, versioned Agent knowledge.",
+  "packageName": "@alphesdk-remote/io-github-uncooe-garden-agent-platform",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://garden-mpp-test.bimeixishuai.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/UnCooe/garden-agent-platform",
+  "readme": "https://github.com/UnCooe/garden-agent-platform#readme"
+}

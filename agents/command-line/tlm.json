@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "tlm",
+  "name": "tlm",
+  "description": "Local command-line copilot that suggests and explains shell commands using open models served by Ollama, with no API key.",
+  "category": "command-line",
+  "tags": ["cli", "ollama", "local", "shell", "copilot"],
+  "repo": "https://github.com/yusufcanb/tlm",
+  "publisher": "Yusuf Can Bayrak",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Suggests a command for a described goal, explains what an existing command does, and answers questions with optional file context. It suits developers who want terminal help that stays on their machine.",
+  "howItWorks": "A Go binary detects the current shell and sends prompts to a local Ollama instance. Suggest, explain and ask subcommands each use their own prompt style, and the user confirms before a suggested command runs.",
+  "requirements": [
+    {
+      "name": "Ollama",
+      "kind": "service",
+      "required": true,
+      "description": "Local model server providing inference"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/yusufcanb/tlm/1.2/install.sh | sudo -E bash"
+  ],
+  "run": ["tlm suggest \"<prompt>\"", "tlm explain \"<command>\"", "tlm ask"],
+  "interfaces": ["cli"],
+  "language": "Go",
+  "models": "Open models via Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 1488,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-02-22",
+    "checkedAt": "2026-10-03"
+  }
+}

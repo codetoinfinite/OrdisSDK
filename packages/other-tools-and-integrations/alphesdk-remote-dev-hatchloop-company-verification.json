@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Verify a Company",
+  "description": "Verify a company on GLEIF LEI and SEC EDGAR, screen sanctions. No key; quota-free data.",
+  "packageName": "@alphesdk-remote/dev-hatchloop-company-verification",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hatchloop.dev/mcp/company-verification"
+    }
+  ],
+  "url": "https://github.com/basilalshukaili/agentbroker",
+  "readme": "https://github.com/basilalshukaili/agentbroker#readme"
+}

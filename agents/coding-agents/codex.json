@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "codex",
+  "name": "Codex CLI",
+  "description": "OpenAI's coding agent that runs locally in the terminal, reading, editing and running code in your repository.",
+  "category": "coding-agents",
+  "tags": ["coding", "terminal", "sandbox", "openai", "cli"],
+  "repo": "https://github.com/openai/codex",
+  "docs": "https://developers.openai.com/codex",
+  "publisher": "OpenAI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Codex CLI works on software tasks inside a local project: explaining code, implementing changes, running commands and tests. Users sign in with a ChatGPT plan or use an API key.",
+  "howItWorks": "A Rust binary runs the agent loop against OpenAI models, executing shell commands and file edits under sandboxing and approval policies. It is also available through IDE extensions and a desktop app.",
+  "requirements": [
+    {
+      "name": "ChatGPT account or OpenAI API key",
+      "kind": "account",
+      "required": true,
+      "description": "Sign-in with a ChatGPT plan, or API key usage"
+    }
+  ],
+  "install": ["npm install -g @openai/codex"],
+  "run": ["codex"],
+  "interfaces": ["cli", "ide", "desktop"],
+  "language": "Rust",
+  "models": "OpenAI models",
+  "mcp": "both",
+  "github": {
+    "stars": 127672,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

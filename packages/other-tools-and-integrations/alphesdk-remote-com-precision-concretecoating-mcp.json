@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Precision Concrete Coating MCP for services, estimates, scheduling, and business information.",
+  "packageName": "@alphesdk-remote/com-precision-concretecoating-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.precision-concretecoating.com/api/public/mcp"
+    }
+  ]
+}

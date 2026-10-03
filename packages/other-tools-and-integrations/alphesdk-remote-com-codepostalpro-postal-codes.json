@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CodePostalPro",
+  "description": "Postal lookups for 120 countries with cited sources; deep US tier: demographics, climate, area codes",
+  "packageName": "@alphesdk-remote/com-codepostalpro-postal-codes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.codepostalpro.com/mcp"
+    }
+  ],
+  "url": "https://codepostalpro.com/api/"
+}

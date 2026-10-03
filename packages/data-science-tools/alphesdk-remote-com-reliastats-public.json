@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ReliaStats",
+  "description": "Reliability statistics — Weibull/lognormal fitting, MTBF/MTTR, availability, system composition.",
+  "packageName": "@alphesdk-remote/com-reliastats-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://reliastats.com/mcp/v1"
+    }
+  ],
+  "url": "https://github.com/chiaha-ai/reliastats-site",
+  "readme": "https://github.com/chiaha-ai/reliastats-site#readme"
+}

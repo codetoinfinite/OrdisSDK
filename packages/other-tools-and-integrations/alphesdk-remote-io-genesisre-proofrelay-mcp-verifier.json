@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "GENESIS ProofRelay MCP Verifier",
+  "description": "Read-only verifier for 25 ProofRelay MCP tools and non-confidential evidence bundles.",
+  "packageName": "@alphesdk-remote/io-genesisre-proofrelay-mcp-verifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.genesisre.io/mcp"
+    }
+  ]
+}

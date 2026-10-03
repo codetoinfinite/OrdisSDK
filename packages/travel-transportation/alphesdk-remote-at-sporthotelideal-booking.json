@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sporthotel IDEAL Hochgurgl",
+  "description": "Live-Verfügbarkeit, Preise und Buchungslinks direkt beim Sporthotel IDEAL Hochgurgl in Tirol.",
+  "packageName": "@alphesdk-remote/at-sporthotelideal-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://booking.sporthotelideal.at/mcp"
+    }
+  ],
+  "url": "https://www.sporthotelideal.at"
+}

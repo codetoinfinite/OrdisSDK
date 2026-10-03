@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Marketcaper MCP",
+  "description": "Cited market comparisons and heatmap images for AI agents.",
+  "packageName": "@alphesdk-remote/com-marketcaper-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketcaper.com/api/mcp"
+    }
+  ],
+  "url": "https://marketcaper.com/mcp"
+}

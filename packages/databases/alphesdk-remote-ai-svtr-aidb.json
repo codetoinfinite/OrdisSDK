@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SVTR AI Venture Database",
+  "description": "Curated & traceable AI venture data: verified funding events, org & founder profiles, US + China",
+  "packageName": "@alphesdk-remote/ai-svtr-aidb",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://svtr.ai/api/mcp"
+    }
+  ],
+  "url": "https://svtr.ai/mcp"
+}

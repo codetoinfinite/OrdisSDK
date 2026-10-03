@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "gito",
+  "name": "Gito",
+  "description": "Stateless AI code reviewer that checks pull requests or local changes with any LLM provider and runs easily in CI.",
+  "category": "version-control",
+  "tags": ["code-review", "ci", "pull-requests", "any-llm"],
+  "repo": "https://github.com/Nayjest/Gito",
+  "publisher": "Vitalii Stepanenko (Nayjest)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Gito finds problems in code changes and reports them, either on your machine or as comments on a pull request. It keeps no server-side state, so it fits into existing CI pipelines. It is for teams that want vendor-neutral automated review.",
+  "howItWorks": "A setup command stores the model configuration, then the review command analyses the diff and writes a report. In CI the report can be published as a pull request comment using a platform token. The model provider is freely selectable.",
+  "requirements": [
+    {
+      "name": "LLM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key used in CI workflows"
+    },
+    {
+      "name": "GITHUB_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed to post review comments on GitHub"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the pip-installed CLI"
+    }
+  ],
+  "install": ["pip install gito.bot"],
+  "run": ["gito setup", "gito review"],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Any LLM provider",
+  "mcp": "none",
+  "github": {
+    "stars": 441,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

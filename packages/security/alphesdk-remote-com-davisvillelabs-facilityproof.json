@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FacilityProof",
+  "description": "Source-reconciled U.S. environmental facility compliance evidence for AI agents.",
+  "packageName": "@alphesdk-remote/com-davisvillelabs-facilityproof",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://facilityproof.davisvillelabs.com/mcp"
+    }
+  ],
+  "url": "https://facilityproof.davisvillelabs.com"
+}

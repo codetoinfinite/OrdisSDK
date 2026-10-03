@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agentready",
+  "description": "Scan any website or MCP server for agent readiness: 0-100 score, a fix per failing check. Free.",
+  "packageName": "@alphesdk-remote/app-vercel-agentready-rho-agentready",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentready-rho.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://agentready-rho.vercel.app"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "capmus-mcp",
+  "description": "Search listings, message posters, and create draft posts on Capmus, the university marketplace",
+  "packageName": "@alphesdk-remote/io-github-capmus-team-capmus-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.capmus.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Capmus-Team/supost-mcp",
+  "readme": "https://github.com/Capmus-Team/supost-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tollmint",
+  "description": "Per-call data for agents: graded behavioural science, dark-pattern detection, web fetch, geocode.",
+  "packageName": "@alphesdk-remote/com-tollmint-gateway",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tollmint.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Iyonx/tollmint",
+  "readme": "https://github.com/Iyonx/tollmint#readme"
+}

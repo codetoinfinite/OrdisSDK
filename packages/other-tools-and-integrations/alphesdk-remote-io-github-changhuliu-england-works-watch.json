@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub Sponsor",
+  "description": "RegEvidenceHub Sponsor: UK Skilled Worker sponsor-change preflight with GOV.UK evidence.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-england-works-watch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://works.regevidencehub.com/ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/england-works-watch",
+  "readme": "https://github.com/ChanghuLiu/england-works-watch#readme"
+}

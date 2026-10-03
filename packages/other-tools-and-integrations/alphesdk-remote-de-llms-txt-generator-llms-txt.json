@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "llms.txt Generator",
+  "description": "Create, validate and audit llms.txt, incl. the Lighthouse Agentic Browsing check.",
+  "packageName": "@alphesdk-remote/de-llms-txt-generator-llms-txt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.llms-txt-generator.de/api/mcp"
+    }
+  ],
+  "url": "https://www.llms-txt-generator.de/"
+}

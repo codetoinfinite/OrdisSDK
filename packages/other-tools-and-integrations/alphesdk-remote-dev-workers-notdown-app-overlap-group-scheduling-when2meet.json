@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Overlap — find a time a group is free (when2meet/Doodle alternative)",
+  "description": "Free no-login group availability poll; reads back the best meeting time for a group.",
+  "packageName": "@alphesdk-remote/dev-workers-notdown-app-overlap-group-scheduling-when2meet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://overlap.notdown-app.workers.dev/mcp"
+    }
+  ],
+  "url": "https://overlap.notdown-app.workers.dev"
+}

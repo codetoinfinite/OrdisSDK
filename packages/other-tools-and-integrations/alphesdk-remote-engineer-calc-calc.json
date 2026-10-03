@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "calc.engineer",
+  "description": "88 free engineering calculators: RF link budgets, LoRa/Meshtastic, PCB, solar, homelab. Keyless.",
+  "packageName": "@alphesdk-remote/engineer-calc-calc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calc.engineer/mcp"
+    }
+  ],
+  "url": "https://calc.engineer"
+}

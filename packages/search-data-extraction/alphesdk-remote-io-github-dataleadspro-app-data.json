@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "app-data",
+  "description": "App intelligence across Google Play and the App Store: details, reviews, and search in one API.",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-app-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/app-data"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/app-data",
+  "readme": "https://github.com/DataLeadsPRO/app-data#readme"
+}

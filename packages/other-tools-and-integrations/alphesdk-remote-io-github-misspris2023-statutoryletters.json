@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "statutoryletters",
+  "description": "UK statutory letters citing real legislation, for councils, NHS, housing, SEND, employers and more.",
+  "packageName": "@alphesdk-remote/io-github-misspris2023-statutoryletters",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nffkjlghlncmbxtpspgg.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://statutoryletters.co.uk"
+}

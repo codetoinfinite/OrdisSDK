@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "No-Code Exits",
+  "description": "No-code startups for sale, the deal-scoring method behind each pick, and exit stories.",
+  "packageName": "@alphesdk-remote/com-nocodeexits-nocodeexits",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nocodeexits.com/api/mcp"
+    }
+  ],
+  "url": "https://nocodeexits.com"
+}

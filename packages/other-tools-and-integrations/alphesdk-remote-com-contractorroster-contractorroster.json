@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "contractorroster",
+  "description": "Verified US licensed-contractor data: 879k+ state-board records, metered per record, free discovery.",
+  "packageName": "@alphesdk-remote/com-contractorroster-contractorroster",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contractorroster.com/api/mcp"
+    }
+  ],
+  "url": "https://contractorroster.com/mcp"
+}

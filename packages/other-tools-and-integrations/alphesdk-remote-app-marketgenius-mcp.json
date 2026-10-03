@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Marketgenius",
+  "description": "Our free Marketgenius investment tools as live, interactive React MCP Apps.",
+  "packageName": "@alphesdk-remote/app-marketgenius-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marketgenius.app/mcp"
+    }
+  ],
+  "url": "https://marketgenius.app"
+}

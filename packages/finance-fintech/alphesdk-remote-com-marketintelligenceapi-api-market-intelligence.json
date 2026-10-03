@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Market Intelligence API",
+  "description": "x402 market intel + $1 trade decisions: crypto, US & EU stocks, order flow, perps, macro, filings",
+  "packageName": "@alphesdk-remote/com-marketintelligenceapi-api-market-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.marketintelligenceapi.com/mcp"
+    }
+  ],
+  "url": "https://api.marketintelligenceapi.com"
+}

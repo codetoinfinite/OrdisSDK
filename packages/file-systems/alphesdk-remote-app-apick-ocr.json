@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "APICK OCR",
+  "description": "OCR for images and Korean ID documents",
+  "packageName": "@alphesdk-remote/app-apick-ocr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apick.app/mcp/ocr"
+    }
+  ],
+  "url": "https://github.com/lead788/apick-mcp",
+  "readme": "https://github.com/lead788/apick-mcp#readme"
+}

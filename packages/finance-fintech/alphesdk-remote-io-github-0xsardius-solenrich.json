@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "solenrich",
+  "description": "Solana onchain intelligence for AI agents: wallet risk, due-diligence, perps funding, smart money.",
+  "packageName": "@alphesdk-remote/io-github-0xsardius-solenrich",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.solenrich.com/mcp"
+    }
+  ],
+  "url": "https://github.com/0xSardius/solenrich",
+  "readme": "https://github.com/0xSardius/solenrich#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fabler x402 Tools",
+  "description": "Free catalog and 2,048-character secret-scan preview for Fabler's x402 agent tools on Base.",
+  "packageName": "@alphesdk-remote/com-fablerlabs-x402-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402.fablerlabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/fablerlabs/x402-tools",
+  "readme": "https://github.com/fablerlabs/x402-tools#readme"
+}

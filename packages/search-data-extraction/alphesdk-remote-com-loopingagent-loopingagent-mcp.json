@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "LoopingAgent",
+  "description": "English blog + agentic workflows architect profile (Paris): search, full text, projects, booking.",
+  "packageName": "@alphesdk-remote/com-loopingagent-loopingagent-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://loopingagent.com/api/mcp"
+    }
+  ],
+  "url": "https://gitlab.com/laurentknauss/blog",
+  "readme": "https://gitlab.com/laurentknauss/blog#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "brands",
+  "description": "Search brands and find authorized retailers on authorized.by",
+  "packageName": "@alphesdk-remote/by-authorized-brands",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.authorized.by/api/public/mcp"
+    }
+  ]
+}

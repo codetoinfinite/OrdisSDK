@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "One1 Trademark Risk Check",
+  "description": "Trademark conflict, logo look-alike and TRO enforcer checks for cross-border sellers.",
+  "packageName": "@alphesdk-remote/cn-one1-trademark",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://one1.cn/mcp"
+    }
+  ],
+  "url": "https://github.com/Yusanfeng134/One1-mcp",
+  "readme": "https://github.com/Yusanfeng134/One1-mcp#readme"
+}

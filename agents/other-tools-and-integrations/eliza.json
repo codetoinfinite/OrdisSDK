@@ -1,0 +1,38 @@
+{
+  "type": "external-agent",
+  "key": "eliza",
+  "name": "elizaOS",
+  "description": "TypeScript framework and product stack for autonomous agents, including a core runtime, the Eliza app, a CLI and plugins.",
+  "category": "other-tools-and-integrations",
+  "tags": ["autonomous", "typescript", "plugins", "runtime", "character-agents"],
+  "repo": "https://github.com/elizaOS/eliza",
+  "publisher": "elizaOS",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Runs autonomous agents extended through first-party plugins, with an app, cloud services and native bridges in one monorepo. Suited to developers who want to operate their own persistent agents.",
+  "howItWorks": "The monorepo is installed with Bun, which also prepares submodules and local inference components. A dev command starts the stack from source, and an embedding model is downloaded at first local-inference warmup.",
+  "requirements": [
+    {
+      "name": "Bun and Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Versions are pinned in the repository's package.json"
+    }
+  ],
+  "install": [
+    "git clone --filter=blob:none https://github.com/elizaos/eliza.git",
+    "cd eliza",
+    "bun install"
+  ],
+  "run": ["bun run dev"],
+  "interfaces": ["cli", "desktop", "web"],
+  "language": "TypeScript",
+  "models": "Cloud providers and local inference",
+  "mcp": "none",
+  "github": {
+    "stars": 19535,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

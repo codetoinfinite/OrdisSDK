@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AITWIRE",
+  "description": "Business-published entity records with confirmation dates: look up, page feeds, check claims.",
+  "packageName": "@alphesdk-remote/com-aitwire-authority",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aitwire.com/mcp"
+    }
+  ],
+  "url": "https://aitwire.com"
+}

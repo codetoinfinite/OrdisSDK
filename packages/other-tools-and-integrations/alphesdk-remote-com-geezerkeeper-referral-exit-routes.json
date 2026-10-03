@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "GeezerKeeper Referral Exit Routes and Deadlines",
+  "description": "Read-only senior-care exit routes, duplicate-referral deadlines, and templates; no PII or sending.",
+  "packageName": "@alphesdk-remote/com-geezerkeeper-referral-exit-routes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geezerkeeper.com/mcp"
+    }
+  ]
+}

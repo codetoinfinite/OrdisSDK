@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "PayPal (remote)",
+  "description": "Hosted PayPal server for invoices, orders, subscriptions, disputes and transaction reporting.",
+  "packageName": "@alphesdk-remote/paypal-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.paypal.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developer.paypal.com/tools/mcp-server/",
+  "url": "https://github.com/paypal/paypal-mcp-server",
+  "author": "PayPal",
+  "env": {}
+}

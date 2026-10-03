@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Factur-X: Generate & Validate E-Invoices",
+  "description": "Generate and validate Factur-X, CII & UBL invoices. Free demo; EUR 3 evaluation, no subscription.",
+  "packageName": "@alphesdk-remote/io-github-leborgneantoine-facturx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://facturx.orvel.dev/mcp"
+    }
+  ],
+  "url": "https://facturx.orvel.dev/docs/mcp/"
+}

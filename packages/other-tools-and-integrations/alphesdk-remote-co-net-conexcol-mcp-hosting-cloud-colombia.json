@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Conexcol — catálogo de hosting y servidores cloud en Colombia",
+  "description": "Catálogo vivo de hosting y servidores cloud en Colombia. Precios en pesos, con fecha de lectura.",
+  "packageName": "@alphesdk-remote/co-net-conexcol-mcp-hosting-cloud-colombia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.conexcol.net.co/mcp"
+    }
+  ],
+  "url": "https://conexcol.net.co/articulos/servidor-mcp-de-conexcol/"
+}

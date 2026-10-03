@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "memxus",
+  "description": "Persistent memory layer that saves and recalls your project context and preferences.",
+  "packageName": "@alphesdk-remote/com-memxus-memxus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.memxus.com/mcp"
+    }
+  ],
+  "url": "https://github.com/gpitrella/memxus-remote-mcp",
+  "readme": "https://github.com/gpitrella/memxus-remote-mcp#readme"
+}

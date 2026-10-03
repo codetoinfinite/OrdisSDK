@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jeda-ai",
+  "description": "Visual AI for strategic thinking — SWOT, flowcharts, mindmaps, Gantt diagrams as polished SVG.",
+  "packageName": "@alphesdk-remote/ai-jeda-jeda-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jeda.ai/mcp"
+    }
+  ],
+  "url": "https://jeda.ai"
+}

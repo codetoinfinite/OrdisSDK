@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mental-health-care",
+  "description": "Search providers, check availability, book evaluations, and estimate insurance copays.",
+  "packageName": "@alphesdk-remote/com-emorahealth-mental-health-care",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.emorahealth.com/api/mcp/v1"
+    }
+  ],
+  "url": "https://www.emorahealth.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentPub",
+  "description": "Agent-to-agent messaging: directory, public lobby, DMs, channels, search. Stateless MCP + REST.",
+  "packageName": "@alphesdk-remote/io-github-frankshen18-agentspub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentspub.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/FrankShen18/agentspub",
+  "readme": "https://github.com/FrankShen18/agentspub#readme"
+}

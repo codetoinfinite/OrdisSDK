@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Surface Lint",
+  "description": "Statically audits MCP tool surfaces for token cost, schema quality, and design issues.",
+  "packageName": "@alphesdk-remote/io-github-dleibner-mcp-surface-lint",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcplint-web.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/DLeibner/mcp-surface-lint",
+  "readme": "https://github.com/DLeibner/mcp-surface-lint#readme"
+}

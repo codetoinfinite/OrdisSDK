@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Multilocale Translations",
+  "description": "Manage app translations: find missing or duplicate phrases, add languages and export dictionaries.",
+  "packageName": "@alphesdk-remote/com-multilocale-multilocale",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.multilocale.com/mcp"
+    }
+  ],
+  "url": "https://www.multilocale.com/integrations/mcp-server/"
+}

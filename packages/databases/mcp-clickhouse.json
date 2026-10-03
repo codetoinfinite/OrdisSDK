@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "ClickHouse",
+  "description": "Run read-only SQL and list databases/tables on ClickHouse (and chDB).",
+  "packageName": "mcp-clickhouse",
+  "packageVersion": "0.7.0",
+  "runtime": "python",
+  "readme": "https://github.com/ClickHouse/mcp-clickhouse",
+  "url": "https://github.com/ClickHouse/mcp-clickhouse",
+  "author": "ClickHouse",
+  "env": {
+    "CLICKHOUSE_HOST": {
+      "description": "ClickHouse hostname",
+      "required": true
+    },
+    "CLICKHOUSE_USER": {
+      "description": "Username",
+      "required": true
+    },
+    "CLICKHOUSE_PASSWORD": {
+      "description": "Password",
+      "required": false
+    }
+  }
+}

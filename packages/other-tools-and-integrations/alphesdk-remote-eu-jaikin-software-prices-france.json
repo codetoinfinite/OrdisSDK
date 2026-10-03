@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Software Prices France",
+  "description": "Read-only French software project prices: public contracts (DECP) and verified private figures.",
+  "packageName": "@alphesdk-remote/eu-jaikin-software-prices-france",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jaikin.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Jaikin-SASU/claude-plugin-software-buyer",
+  "readme": "https://github.com/Jaikin-SASU/claude-plugin-software-buyer#readme"
+}

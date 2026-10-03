@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lulu Registry MCP",
+  "description": "Search and get install details on MCP servers, right from your agent -- a unified marketplace index.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-registry-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/registry/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

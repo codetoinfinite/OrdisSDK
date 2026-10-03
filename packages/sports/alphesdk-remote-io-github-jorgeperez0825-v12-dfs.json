@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "v12-dfs",
+  "description": "AI-driven DFS lineup optimizer for MLB & NBA — build FanDuel & DraftKings lineups via MCP.",
+  "packageName": "@alphesdk-remote/io-github-jorgeperez0825-v12-dfs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://v12dfs-production.up.railway.app/mcp"
+    }
+  ]
+}

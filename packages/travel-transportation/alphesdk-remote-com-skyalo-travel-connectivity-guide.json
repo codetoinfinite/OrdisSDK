@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Skyalo Travel Connectivity Guide",
+  "description": "Estimate mobile-data needs and build a provider-neutral connectivity checklist for any trip.",
+  "packageName": "@alphesdk-remote/com-skyalo-travel-connectivity-guide",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skyalo.com/chatgpt/mcp"
+    }
+  ],
+  "url": "https://skyalo.com/chatgpt/docs"
+}

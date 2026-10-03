@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "skill-market",
+  "description": "x402 skill catalog on lvlltd.com — search, quote, pay with Base USDC, unlock sealed packs.",
+  "packageName": "@alphesdk-remote/com-lvlltd-skill-market",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lvlltd.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/lvlltd/lvlltd-agent-marketplace",
+  "readme": "https://github.com/lvlltd/lvlltd-agent-marketplace#readme"
+}

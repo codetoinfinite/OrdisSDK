@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tilwhen date engine",
+  "description": "Deterministic date arithmetic with auditable receipts: business days, due dates, holidays.",
+  "packageName": "@alphesdk-remote/com-tilwhen-tilwhen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tilwhen.com/mcp"
+    }
+  ],
+  "url": "https://tilwhen.com/mcp"
+}

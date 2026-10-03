@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Callstay Hotels",
+  "description": "Live hotel rates worldwide: search stays, property detail, all-in room prices, human phone desk.",
+  "packageName": "@alphesdk-remote/com-callstay-hotels",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://callstay.com/api/mcp"
+    }
+  ],
+  "url": "https://callstay.com"
+}

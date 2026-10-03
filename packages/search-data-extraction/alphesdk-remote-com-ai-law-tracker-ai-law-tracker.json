@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Law Tracker",
+  "description": "Audited AI-regulation data: laws, bills, news and obligations across US, EU and 62 jurisdictions",
+  "packageName": "@alphesdk-remote/com-ai-law-tracker-ai-law-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-law-tracker.com/mcp"
+    }
+  ],
+  "url": "https://ai-law-tracker.com/developers"
+}

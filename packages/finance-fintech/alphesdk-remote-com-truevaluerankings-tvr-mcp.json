@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "True Value Rankings",
+  "description": "Cryptocurrency fundamentals for agents: TVR Scores, rankings and model-derived valuation estimates.",
+  "packageName": "@alphesdk-remote/com-truevaluerankings-tvr-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://truevaluerankings.com/mcp"
+    }
+  ],
+  "url": "https://github.com/TrueValueRankings/tvr-mcp-server",
+  "readme": "https://github.com/TrueValueRankings/tvr-mcp-server#readme"
+}

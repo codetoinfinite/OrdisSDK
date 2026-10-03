@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Daily Brew",
+  "description": "A wall of people building with AI: who is building what, and where to reach them.",
+  "packageName": "@alphesdk-remote/com-aidailybrew-aidailybrew",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aidailybrew.com/api/mcp"
+    }
+  ],
+  "url": "https://aidailybrew.com"
+}

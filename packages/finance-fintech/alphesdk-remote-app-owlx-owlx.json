@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OwlX AI Agent — Trading Intelligence",
+  "description": "AI trading coach for crypto: structure scores, MemeSniper, token & stock financials. Education only.",
+  "packageName": "@alphesdk-remote/app-owlx-owlx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://owlx.app/mcp"
+    }
+  ],
+  "url": "https://owlx.app/agent"
+}

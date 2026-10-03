@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Chainflip Broker as a Service",
+  "description": "Native cross-chain swaps: Bitcoin, Ethereum, Solana, Polkadot, Tron, Arbitrum. Quote, swap, track.",
+  "packageName": "@alphesdk-remote/io-chainflip-broker-crypto-swap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chainflip-broker.io/mcp"
+    }
+  ],
+  "url": "https://github.com/CumpsD/broker-as-a-service",
+  "readme": "https://github.com/CumpsD/broker-as-a-service#readme"
+}

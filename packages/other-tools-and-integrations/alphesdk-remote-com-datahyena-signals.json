@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "signals",
+  "description": "Deduplicated, entity-resolved funding rounds, acquisitions, and exec moves as MCP tools.",
+  "packageName": "@alphesdk-remote/com-datahyena-signals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.datahyena.com/mcp"
+    }
+  ],
+  "url": "https://datahyena.com/mcp"
+}

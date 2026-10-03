@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HireHeat",
+  "description": "Company hiring signals + open jobs from Greenhouse, Lever, Ashby boards, API + MCP. 20 free/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-hireheat-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hireheat-api.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/store/hireheat-api/"
+}

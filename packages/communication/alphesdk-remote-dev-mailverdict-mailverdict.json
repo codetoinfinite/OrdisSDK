@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mailverdict",
+  "description": "Keyless email checks: disposable, role, and free-provider detection, MX, and typo suggestions.",
+  "packageName": "@alphesdk-remote/dev-mailverdict-mailverdict",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mailverdict.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/mailverdict/mailverdict",
+  "readme": "https://github.com/mailverdict/mailverdict#readme"
+}

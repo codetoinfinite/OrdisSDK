@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentTools Hub",
+  "description": "65 utility tools for AI agents: calculators, converters, live data, crypto — paid per call via x402.",
+  "packageName": "@alphesdk-remote/io-github-thyphex-agenttools-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenttools-hub.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Thyphex/agenttools-hub",
+  "readme": "https://github.com/Thyphex/agenttools-hub#readme"
+}

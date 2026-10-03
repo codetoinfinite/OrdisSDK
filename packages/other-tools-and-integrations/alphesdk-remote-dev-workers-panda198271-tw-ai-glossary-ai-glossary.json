@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI 與科技名詞白話解釋",
+  "description": "AI 與科技名詞白話解釋、概念比較與入門教學（繁體中文）。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-ai-glossary-ai-glossary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-ai-glossary.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-ai-glossary.panda198271.workers.dev"
+}

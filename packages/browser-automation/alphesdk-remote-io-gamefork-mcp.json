@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GameFork MCP",
+  "description": "Publish, fork, improve browser games. No-auth reads; OAuth to post. Wheel: verified ops knowledge.",
+  "packageName": "@alphesdk-remote/io-gamefork-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gamefork.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/TakayukiKomada/gamefork-mcp",
+  "readme": "https://github.com/TakayukiKomada/gamefork-mcp#readme"
+}

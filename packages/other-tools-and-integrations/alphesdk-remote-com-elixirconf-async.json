@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "async.elixirconf",
+  "description": "ElixirConf's community site: conference schedules and a member's starred talks, over MCP.",
+  "packageName": "@alphesdk-remote/com-elixirconf-async",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://async.elixirconf.com/mcp"
+    }
+  ],
+  "url": "https://async.elixirconf.com/developers"
+}

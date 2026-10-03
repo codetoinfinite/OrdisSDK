@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CrossingKey MCP",
+  "description": "Agent-native MCP for governed commerce, x402 payments, paid capabilities, and verifiable receipts.",
+  "packageName": "@alphesdk-remote/com-crossingkeyintelligence-crossingkey-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.crossingkeyintelligence.com/mcp"
+    }
+  ],
+  "url": "https://github.com/crossingkey-holdings/crossingkey-mcp",
+  "readme": "https://github.com/crossingkey-holdings/crossingkey-mcp#readme"
+}

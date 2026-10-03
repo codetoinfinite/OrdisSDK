@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "YieldSignal",
+  "description": "Yield & risk for agents: signal, decision, durability, capacity, sensitivity, exposure, persistence",
+  "packageName": "@alphesdk-remote/io-github-stakemate369-yieldsignal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yieldsignal.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Stakemate369/yieldsignal",
+  "readme": "https://github.com/Stakemate369/yieldsignal#readme"
+}

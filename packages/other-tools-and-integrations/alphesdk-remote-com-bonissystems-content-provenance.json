@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Content Provenance",
+  "description": "Anchor a content-creation event to the Knox chain; returns a C2PA-aligned, FRE 902-shaped bundle.",
+  "packageName": "@alphesdk-remote/com-bonissystems-content-provenance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonissystems.com/api/knox/agents/content-provenance/mcp"
+    }
+  ],
+  "url": "https://bonissystems.com/agents/content-provenance"
+}

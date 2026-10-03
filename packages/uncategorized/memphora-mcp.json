@@ -14,5 +14,8 @@
       "description": "Unique identifier for your memories",
       "required": false
     }
-  }
+  },
+  "withPackages": [
+    "mcp<2"
+  ]
 }

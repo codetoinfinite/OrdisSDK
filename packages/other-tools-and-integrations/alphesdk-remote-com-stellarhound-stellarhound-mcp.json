@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Stellarhound — stargazing forecasts, dark-sky sites & aurora",
+  "description": "Live stargazing forecasts: per-night sky scores, dark-sky sites, aurora & light pollution anywhere.",
+  "packageName": "@alphesdk-remote/com-stellarhound-stellarhound-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stellarhound.com/mcp"
+    }
+  ],
+  "url": "https://stellarhound.com"
+}

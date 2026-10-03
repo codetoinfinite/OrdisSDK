@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "styx",
+  "description": "Tor gateway for AI agents: fetch URLs and rotate circuits through Tor, Bitcoin-settled.",
+  "packageName": "@alphesdk-remote/com-thetempleofdoom-styx-mcp-styx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://styx-mcp.thetempleofdoom.com/mcp"
+    }
+  ]
+}

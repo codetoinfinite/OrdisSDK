@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "costheta",
+  "description": "Verifiable physical randomness from cosmic-ray detections. Free beacon, paid signed decisions.",
+  "packageName": "@alphesdk-remote/dev-costheta-costheta",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://costheta.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/costhetadev/costheta-verify",
+  "readme": "https://github.com/costhetadev/costheta-verify#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "smry Product",
+  "description": "Read public sources and manage a smry library, feeds, notes, highlights, files, and page monitors.",
+  "packageName": "@alphesdk-remote/ai-smry-r-smry-product",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.smry.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/mrmps/SMRY",
+  "readme": "https://github.com/mrmps/SMRY#readme"
+}

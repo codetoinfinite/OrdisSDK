@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AGORA Omega",
+  "description": "Pay-per-call checks for AI agents: sanctions, MiCA, French KYB, AI Act. USDC via x402.",
+  "packageName": "@alphesdk-remote/com-agoraverify-agora-omega",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agoraverify.com/mcp"
+    }
+  ],
+  "url": "https://agoraverify.com"
+}

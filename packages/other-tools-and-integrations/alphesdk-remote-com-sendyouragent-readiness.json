@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Send Your Agent Website Readiness",
+  "description": "Scan website AI readiness, understand the result and route customers to the right SYA package.",
+  "packageName": "@alphesdk-remote/com-sendyouragent-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sendyouragent.com/mcp"
+    }
+  ]
+}

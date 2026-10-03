@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Orbit",
+  "description": "Turn any task into the right API calls: discover, evaluate, and integrate public APIs.",
+  "packageName": "@alphesdk-remote/ai-buildwithorbit-orbit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.buildwithorbit.ai/mcp"
+    }
+  ],
+  "url": "https://www.buildwithorbit.ai/welcome"
+}

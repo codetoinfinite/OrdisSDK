@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "saxsoc-public-info",
+  "description": "Read-only public info on Saxophone Society saxophone coaching programs and guides.",
+  "packageName": "@alphesdk-remote/de-marjanmarkelj-saxsoc-public-info",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marjanmarkelj.de/wp-json/saxsoc/v1/mcp"
+    }
+  ],
+  "url": "https://marjanmarkelj.de/ki-dokumentation/"
+}

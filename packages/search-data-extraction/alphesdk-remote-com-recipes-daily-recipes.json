@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Recipes Daily",
+  "description": "Search recipes and cooking guides on recipes-daily.com, or find recipes from ingredients you have.",
+  "packageName": "@alphesdk-remote/com-recipes-daily-recipes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://recipes-daily.com/mcp"
+    }
+  ],
+  "url": "https://recipes-daily.com"
+}

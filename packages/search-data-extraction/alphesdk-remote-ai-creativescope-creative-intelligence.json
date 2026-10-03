@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CreativeScope — Mobile Game Ad Creative Intelligence",
+  "description": "Mobile-game ad creative intelligence across SDK ad networks: search, rankings, AI hook analysis.",
+  "packageName": "@alphesdk-remote/ai-creativescope-creative-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.creativescope.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/creativescope/creativescope-mcp",
+  "readme": "https://github.com/creativescope/creativescope-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Medigami: medical bill error scan, denial decoding, appeal deadlines, hospital price lookup",
+  "packageName": "@alphesdk-remote/com-medigami-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.medigami.com/public/mcp"
+    }
+  ],
+  "url": "https://medigami.com/mcp"
+}

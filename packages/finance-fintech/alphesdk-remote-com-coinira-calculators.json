@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Coin IRA Crypto Calculators",
+  "description": "Historical crypto investment and retirement calculators with cited market data.",
+  "packageName": "@alphesdk-remote/com-coinira-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coinira.com/mcp"
+    }
+  ],
+  "url": "https://coinira.com/api/docs/"
+}

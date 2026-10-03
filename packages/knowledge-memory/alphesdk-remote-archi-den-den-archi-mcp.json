@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "den — Korean AEC knowledge, curated",
+  "description": "Curated Korean AEC expertise for AI agents: KDS·KCS·KS, building law, practice, and the reasoning.",
+  "packageName": "@alphesdk-remote/archi-den-den-archi-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.den.archi/mcp"
+    }
+  ],
+  "url": "https://github.com/odd-Innocent/den_archi_mcp",
+  "readme": "https://github.com/odd-Innocent/den_archi_mcp#readme"
+}

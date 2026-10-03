@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FastGPU",
+  "description": "Compare live GPU cloud rental prices and match workloads to the cheapest provider.",
+  "packageName": "@alphesdk-remote/co-fastgpu-fastgpu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fastgpu.co/api/mcp"
+    }
+  ],
+  "url": "https://fastgpu.co/?utm_source=mcp-registry&utm_medium=listing&utm_campaign=mcp-dist-aug26"
+}

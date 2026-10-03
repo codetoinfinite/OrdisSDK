@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FirmaDB — European Company Data",
+  "description": "Find European company records with registry source and freshness information.",
+  "packageName": "@alphesdk-remote/com-firmadb-company-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.firmadb.com/mcp"
+    }
+  ],
+  "url": "https://firmadb.com/mcp/?utm_source=mcp_registry&utm_medium=directory&utm_campaign=directory_launch_202610"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-gauge",
+  "description": "Verify official facts with Bitcoin-anchored proof. 180+ signals, x402 pay-per-call.",
+  "packageName": "@alphesdk-remote/io-github-changchinfu-mcp-gauge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.truthbear.co/mcp"
+    }
+  ],
+  "url": "https://github.com/CHANGCHINFU/mcp-gauge",
+  "readme": "https://github.com/CHANGCHINFU/mcp-gauge#readme"
+}

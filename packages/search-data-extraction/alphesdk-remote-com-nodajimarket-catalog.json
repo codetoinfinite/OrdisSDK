@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NodajiMarket",
+  "description": "Korean handcrafted goods by named artists: search, artists, duty-included quotes, checkout links.",
+  "packageName": "@alphesdk-remote/com-nodajimarket-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nodajimarket.com/mcp"
+    }
+  ],
+  "url": "https://github.com/NodajiFi-Tokenomy/NodajiFi-Ecosystem",
+  "readme": "https://github.com/NodajiFi-Tokenomy/NodajiFi-Ecosystem#readme"
+}

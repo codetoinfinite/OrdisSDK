@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Signal Oracle",
+  "description": "Pay-per-call change-intelligence feeds for AI agents over x402 (deps, security, regs, tariffs)",
+  "packageName": "@alphesdk-remote/io-github-neruoticfarrow-signal-oracle",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oracles-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/NeruoticFarrow/oracles",
+  "readme": "https://github.com/NeruoticFarrow/oracles#readme"
+}

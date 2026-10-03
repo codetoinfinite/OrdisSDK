@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pdf-tools",
+  "description": "Free PDF tools for AI agents: merge, split, rotate, watermark, page numbers, metadata, flatten.",
+  "packageName": "@alphesdk-remote/com-pdfia-pdf-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pdfia.com/mcp"
+    }
+  ],
+  "url": "https://pdfia.com/developers/"
+}

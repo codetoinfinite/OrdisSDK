@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TradeBasis Automotive Appraisal MCP",
+  "description": "TradeBasis: Canadian B2B vehicle appraisal SaaS info — product, Lite/Pro pricing, research briefs.",
+  "packageName": "@alphesdk-remote/ca-tradebasis-automotive-appraisal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradebasis.ca/mcp"
+    }
+  ],
+  "url": "https://tradebasis.ca"
+}

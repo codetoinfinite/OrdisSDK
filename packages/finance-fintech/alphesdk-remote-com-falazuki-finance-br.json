@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FalaZuki Finance BR",
+  "description": "Cálculos e regras financeiras do Brasil com fonte e vigência em cada resposta.",
+  "packageName": "@alphesdk-remote/com-falazuki-finance-br",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.falazuki.com/mcp"
+    }
+  ],
+  "url": "https://www.falazuki.com/produtos/mcp"
+}

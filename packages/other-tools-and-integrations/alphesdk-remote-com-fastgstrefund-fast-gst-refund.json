@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fast GST Refund",
+  "description": "Indian service-export GST refund checklists, cited guides and anonymous receipt-allocation checks.",
+  "packageName": "@alphesdk-remote/com-fastgstrefund-fast-gst-refund",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fastgstrefund.com/mcp"
+    }
+  ],
+  "url": "https://fastgstrefund.com/for-agents/"
+}

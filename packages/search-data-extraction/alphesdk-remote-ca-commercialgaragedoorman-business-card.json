@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Commercial Garage Doorman",
+  "description": "Commercial Garage Doorman, Hamilton area commercial door service: business facts and site search.",
+  "packageName": "@alphesdk-remote/ca-commercialgaragedoorman-business-card",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.commercialgaragedoorman.ca/mcp"
+    }
+  ],
+  "url": "https://www.commercialgaragedoorman.ca/"
+}

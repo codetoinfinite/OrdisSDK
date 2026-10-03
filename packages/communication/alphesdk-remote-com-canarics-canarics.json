@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Canarics",
+  "description": "AI call analysis and voice agents for sales teams. Signup, usage, agents and call data over MCP.",
+  "packageName": "@alphesdk-remote/com-canarics-canarics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://canarics.com/mcp"
+    }
+  ],
+  "url": "https://canarics.com/api-for-ai-assistants.html"
+}

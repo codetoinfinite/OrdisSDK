@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GTH Intelligence - Substance Abuse Treatment Finder",
+  "description": "Search 12,338 curated, SAMHSA-sourced addiction treatment facilities across all 50 US states.",
+  "packageName": "@alphesdk-remote/com-gettreatmenthelp-gettreatmenthelp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gth-mcp-server.pages.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Crindo2/gth-mcp-server",
+  "readme": "https://github.com/Crindo2/gth-mcp-server#readme"
+}

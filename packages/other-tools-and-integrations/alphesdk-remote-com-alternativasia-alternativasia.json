@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Alternativas IA",
+  "description": "Alternativas a las herramientas de IA más conocidas, con ingresos verificados con Stripe.",
+  "packageName": "@alphesdk-remote/com-alternativasia-alternativasia",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alternativasia.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://alternativasia.com"
+}

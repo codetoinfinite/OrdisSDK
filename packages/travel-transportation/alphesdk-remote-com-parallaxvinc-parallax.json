@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Parallax Ventures",
+  "description": "Agent-callable Parallax services: catalog, pricing, project start, and booking.",
+  "packageName": "@alphesdk-remote/com-parallaxvinc-parallax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://parallaxvinc.com/mcp"
+    }
+  ]
+}

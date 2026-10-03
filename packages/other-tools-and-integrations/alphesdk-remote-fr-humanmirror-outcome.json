@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumanMirror Outcome",
+  "description": "Verified AI-agent outcomes: secret scanning, JSON cleanup, dedupe, anomaly and schema checks.",
+  "packageName": "@alphesdk-remote/fr-humanmirror-outcome",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanmirror.fr/api/outcome/mcp/"
+    }
+  ],
+  "url": "https://humanmirror.fr/outcome/"
+}

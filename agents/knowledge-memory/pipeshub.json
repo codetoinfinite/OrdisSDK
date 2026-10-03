@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "pipeshub",
+  "name": "PipesHub",
+  "description": "Workplace AI platform that connects 50+ business systems and answers questions with permission-aware citations.",
+  "category": "knowledge-memory",
+  "tags": ["workplace-search", "connectors", "enterprise-rag", "citations", "permissions"],
+  "repo": "https://github.com/pipeshub-ai/pipeshub-ai",
+  "homepage": "https://www.pipeshub.com",
+  "docs": "https://docs.pipeshub.com/",
+  "publisher": "PipesHub",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Links tools such as Slack, Google Drive, GitHub, Microsoft 365 and Notion, then lets staff search and ask questions across them. Answers carry citations and respect each person's access rights.",
+  "howItWorks": "Connectors sync content into an index that the platform queries for search and agent answers. It is deployed with an installer script, and an npm MCP package lets external AI clients reach the same knowledge.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The installer deploys containers"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model credentials configured after install"
+    },
+    {
+      "name": "PIPESHUB_MCP_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Instance URL for the MCP package"
+    },
+    {
+      "name": "PIPESHUB_MCP_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Token for the MCP package"
+    }
+  ],
+  "install": ["curl -fsSL https://get.pipeshub.com/install | bash"],
+  "run": [],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 3809,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

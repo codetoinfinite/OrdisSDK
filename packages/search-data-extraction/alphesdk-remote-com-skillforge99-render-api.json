@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Skillforge Render API",
+  "description": "Screenshot, PDF, OG-image, and page extraction (markdown/JSON) over MCP. Bearer key or x402.",
+  "packageName": "@alphesdk-remote/com-skillforge99-render-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://render.skillforge99.com/mcp"
+    }
+  ],
+  "url": "https://skillforge99.com/render/"
+}

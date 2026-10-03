@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "google-image-search",
+  "description": "Google Image Search: Fast and Simple Google Images Search API. You can get 100+ search results in.",
+  "packageName": "@alphesdk-remote/com-jojapi-google-image-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/google-image-search"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/google-image-search"
+}

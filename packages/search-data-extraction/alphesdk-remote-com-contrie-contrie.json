@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Contrie",
+  "description": "Extract structured data from a web page, read it as markdown, verify values against the source.",
+  "packageName": "@alphesdk-remote/com-contrie-contrie",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.contrie.com/mcp"
+    }
+  ],
+  "url": "https://www.contrie.com/docs/mcp"
+}

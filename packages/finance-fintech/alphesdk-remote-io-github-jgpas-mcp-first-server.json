@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "James's MCP Server",
+  "description": "MCP server with quote and live cryptocurrency price tools, local and cloud-deployed transports.",
+  "packageName": "@alphesdk-remote/io-github-jgpas-mcp-first-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-first-server.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JGPAS/mcp-first-server",
+  "readme": "https://github.com/JGPAS/mcp-first-server#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "dearhuman",
+  "description": "Send e-cards to your human. The first store built for AI agents; free, no API key needed.",
+  "packageName": "@alphesdk-remote/cards-dearhuman-dearhuman",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dearhuman.cards/mcp"
+    }
+  ],
+  "url": "https://github.com/CarnivalBigTop/dearhuman-mcp",
+  "readme": "https://github.com/CarnivalBigTop/dearhuman-mcp#readme"
+}

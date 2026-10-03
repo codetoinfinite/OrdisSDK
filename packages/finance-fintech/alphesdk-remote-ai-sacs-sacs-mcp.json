@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SACS.ai MCP — California School District Financial Data",
+  "description": "SACS California school finance: public district financial data, CDE filings, comparisons, briefings.",
+  "packageName": "@alphesdk-remote/ai-sacs-sacs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.sacs.ai/mcp"
+    }
+  ],
+  "url": "https://sacs.ai/developers"
+}

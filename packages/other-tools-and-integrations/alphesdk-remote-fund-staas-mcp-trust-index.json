@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Trust Index",
+  "description": "Curated, trust-first index of vetted MCP servers — scored tiers, monthly re-verified. Read-only.",
+  "packageName": "@alphesdk-remote/fund-staas-mcp-trust-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://staas.fund/mcp/server"
+    }
+  ],
+  "url": "https://github.com/agilepeter/staasfund",
+  "readme": "https://github.com/agilepeter/staasfund#readme"
+}

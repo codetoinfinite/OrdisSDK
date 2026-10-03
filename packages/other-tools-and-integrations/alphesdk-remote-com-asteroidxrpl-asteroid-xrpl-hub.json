@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Asteroid XRPL Hub",
+  "description": "Read-only XRPL tools for ASTEROID: identity, market, supply, liquidity, escrows, holders, AMM quotes",
+  "packageName": "@alphesdk-remote/com-asteroidxrpl-asteroid-xrpl-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asteroidxrpl.com/mcp"
+    }
+  ],
+  "url": "https://asteroidxrpl.com/agents"
+}

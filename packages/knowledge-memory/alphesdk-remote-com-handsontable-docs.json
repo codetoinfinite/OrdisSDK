@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Handsontable Docs MCP Server",
+  "description": "Semantic search over Handsontable and HyperFormula docs, API reference, release notes, and issues.",
+  "packageName": "@alphesdk-remote/com-handsontable-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs-assistant.handsontable.com/mcp"
+    }
+  ],
+  "url": "https://handsontable.com/docs/javascript-data-grid/docs-mcp-server/"
+}

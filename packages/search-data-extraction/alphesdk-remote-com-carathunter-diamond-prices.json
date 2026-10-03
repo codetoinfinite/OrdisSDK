@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Carat Hunter",
+  "description": "Latest prices for one certified diamond across 100+ retailers: search, cert lookup, market prices.",
+  "packageName": "@alphesdk-remote/com-carathunter-diamond-prices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://carathunter.com/mcp"
+    }
+  ],
+  "url": "https://carathunter.com"
+}

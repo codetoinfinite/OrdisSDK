@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PPL Free Ground School",
+  "description": "Free FAA private-pilot ground school: source-cited answers, lessons and practice questions.",
+  "packageName": "@alphesdk-remote/com-pplfree-ground-school",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pplfree.com/mcp"
+    }
+  ],
+  "url": "https://pplfree.com/mcp-server"
+}

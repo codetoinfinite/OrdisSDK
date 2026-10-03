@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "fetcher",
+  "description": "The web capability layer for AI agents: render, extract, DNS, SSL, WHOIS & more via x402.",
+  "packageName": "@alphesdk-remote/cloud-fetcher-fetcher",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fetcher.cloud/mcp"
+    }
+  ],
+  "url": "https://github.com/fetchercloud/fetcher-cloud",
+  "readme": "https://github.com/fetchercloud/fetcher-cloud#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "run.pay",
+  "description": "Stripe-native marketplace where AI agents discover and pay per call for API services.",
+  "packageName": "@alphesdk-remote/io-github-palabrex-runpay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runpay-backend-visibility-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/PalabreX/runpay-mcp",
+  "readme": "https://github.com/PalabreX/runpay-mcp#readme"
+}

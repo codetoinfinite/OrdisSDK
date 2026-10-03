@@ -7,5 +7,6 @@
   "runtime": "node",
   "license": "mit",
   "env": {},
-  "name": "Accessibility Scanner MCP"
+  "name": "Accessibility Scanner MCP",
+  "bin": "mcp-accessibility-scanner"
 }

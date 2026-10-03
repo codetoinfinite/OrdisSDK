@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Site MCP",
+  "description": "Turn any public website into an MCP server for agents to search, read and navigate.",
+  "packageName": "@alphesdk-remote/dev-sitemcp-site-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sitemcp.dev/sitemcp.dev"
+    }
+  ],
+  "url": "https://sitemcp.dev"
+}

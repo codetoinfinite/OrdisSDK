@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse · World",
+  "description": "Weather, geocoding, FX rates, holidays, time zones, countries, earthquakes, sun and moon.",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse-world",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp/world"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

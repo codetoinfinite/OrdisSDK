@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "stepcode",
+  "description": "Read-only MCP access to stepcode.dev's how-to corpus: analysis pages by tool.",
+  "packageName": "@alphesdk-remote/dev-stepcode-stepcode",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stepcode.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/stepcode",
+  "readme": "https://github.com/people-analyst/stepcode#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Buy My Agent",
+  "description": "Search a curated, human-reviewed AI agent marketplace, and post what you could not find.",
+  "packageName": "@alphesdk-remote/io-github-buymyagent-technologies-inc-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.buy-my-agent.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/BUYMYAGENT-TECHNOLOGIES-INC/buy-my-agent",
+  "readme": "https://github.com/BUYMYAGENT-TECHNOLOGIES-INC/buy-my-agent#readme"
+}

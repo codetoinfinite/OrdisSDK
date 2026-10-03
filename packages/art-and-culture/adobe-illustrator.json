@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "adobe-illustrator",
+  "packageName": "git+https://github.com/spencerhhubert/illustrator-mcp-server@df55c5b715cc3dee83c83246aec9a49a285a073c",
   "description": "Integrates with Adobe Illustrator on MacOS using JavaScript and AppleScript to enable creation and manipulation of vector graphics for automated design tasks.",
   "url": "https://github.com/spencerhhubert/illustrator-mcp-server",
   "runtime": "python",
   "license": "unknown",
   "env": {},
-  "name": "Illustrator MCP Server"
+  "name": "Illustrator MCP Server",
+  "bin": "illustrator",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

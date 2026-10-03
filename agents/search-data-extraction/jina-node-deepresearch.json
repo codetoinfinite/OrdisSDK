@@ -1,0 +1,75 @@
+{
+  "type": "external-agent",
+  "key": "jina-node-deepresearch",
+  "name": "Jina DeepResearch (node-DeepResearch)",
+  "description": "Agent that keeps searching, reading pages and reasoning until it finds an answer or exhausts its token budget.",
+  "category": "search-data-extraction",
+  "tags": ["deep-search", "question-answering", "web-search", "openai-compatible"],
+  "repo": "https://github.com/jina-ai/node-DeepResearch",
+  "homepage": "https://jina.ai/deepsearch",
+  "publisher": "Jina AI",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Answers hard factual questions by iterating over web search and page reading. It deliberately targets short, correct answers rather than long reports, and suits developers who want a self-hosted deep-search endpoint.",
+  "howItWorks": "A loop chooses between searching, visiting a URL, reflecting and answering, and stops when an answer passes evaluation or the budget runs out. Search and page reading use Jina's Reader API; the reasoning model is Gemini, OpenAI or a local OpenAI-compatible endpoint. It can be run per query from the command line or as a server exposing an OpenAI-style chat completions API.",
+  "requirements": [
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "LLM access when using Gemini"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "LLM access when LLM_PROVIDER=openai"
+    },
+    {
+      "name": "LLM_PROVIDER",
+      "kind": "runtime",
+      "required": false,
+      "description": "Set to openai for OpenAI or local models"
+    },
+    {
+      "name": "JINA_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Jina Reader/search access"
+    },
+    {
+      "name": "OPENAI_BASE_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Local LLM endpoint"
+    },
+    {
+      "name": "DEFAULT_MODEL_NAME",
+      "kind": "runtime",
+      "required": false,
+      "description": "Local model name"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the agent"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/jina-ai/node-DeepResearch.git",
+    "cd node-DeepResearch",
+    "npm install"
+  ],
+  "run": ["npm run dev $QUERY", "npm run serve"],
+  "interfaces": ["cli", "api"],
+  "language": "TypeScript",
+  "models": "Gemini, OpenAI, or local OpenAI-compatible models",
+  "mcp": "none",
+  "github": {
+    "stars": 5235,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-05-01",
+    "checkedAt": "2026-10-03"
+  }
+}

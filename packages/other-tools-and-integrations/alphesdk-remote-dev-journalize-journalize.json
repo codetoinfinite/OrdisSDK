@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "journalize",
+  "description": "Agent-native double-entry accounting ledger with x402 micropayments",
+  "packageName": "@alphesdk-remote/dev-journalize-journalize",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://journalize.dev/mcp"
+    }
+  ],
+  "url": "https://journalize.dev"
+}

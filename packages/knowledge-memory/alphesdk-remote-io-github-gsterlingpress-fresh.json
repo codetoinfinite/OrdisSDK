@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FRESH — Shared URL Freshness Intelligence",
+  "description": "Decide whether an agent should reuse cached URL knowledge or fetch the resource again.",
+  "packageName": "@alphesdk-remote/io-github-gsterlingpress-fresh",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fresh-api-production-c783.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/GSterlingPress/fresh-api",
+  "readme": "https://github.com/GSterlingPress/fresh-api#readme"
+}

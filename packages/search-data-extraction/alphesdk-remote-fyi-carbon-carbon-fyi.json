@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "carbon-fyi",
+  "description": "Voluntary carbon market news and open carbon price data. Read-only, keyless.",
+  "packageName": "@alphesdk-remote/fyi-carbon-carbon-fyi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.carbon.fyi/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Carbonmark/carbon.fyi-new",
+  "readme": "https://github.com/Carbonmark/carbon.fyi-new#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Krosos",
+  "description": "Your accounting ledger as typed tools: net worth, holdings, history, tax estimates, trade logging.",
+  "packageName": "@alphesdk-remote/com-krosos-krosos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.krosos.com/api/mcp"
+    }
+  ],
+  "url": "https://krosos.com/docs/api-access"
+}

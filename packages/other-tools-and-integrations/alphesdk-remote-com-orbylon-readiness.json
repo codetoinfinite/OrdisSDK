@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Orbylon",
+  "description": "Check that a business proved who it is, read what it sells, and order straight from it.",
+  "packageName": "@alphesdk-remote/com-orbylon-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://orbylon.com/api/mcp"
+    }
+  ],
+  "url": "https://orbylon.com"
+}

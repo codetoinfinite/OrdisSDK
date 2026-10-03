@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "toolalize-mcp",
+  "description": "Free unit & live currency conversion tools from toolalize.com (convert_units, convert_currency).",
+  "packageName": "@alphesdk-remote/io-github-vertisky-toolalize-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolalize.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Vertisky/toolalize-mcp",
+  "readme": "https://github.com/Vertisky/toolalize-mcp#readme"
+}

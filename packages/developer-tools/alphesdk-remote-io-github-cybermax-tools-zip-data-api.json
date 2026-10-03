@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ziplore: US ZIP Code API (county, time zone, demographics, radius)",
+  "description": "Ziplore: US ZIP to county, FIPS, time zone, Census demographics; radius and city ZIPs. Free, no key.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-zip-data-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ziplore.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

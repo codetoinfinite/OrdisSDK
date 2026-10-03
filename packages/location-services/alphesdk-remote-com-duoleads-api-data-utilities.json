@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Duo Data Utilities",
+  "description": "33 pay-per-call data utilities (IDs, time, text, codes, geo, chain, ref, numbers) via x402.",
+  "packageName": "@alphesdk-remote/com-duoleads-api-data-utilities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.duoleads.com/mcp"
+    }
+  ],
+  "url": "https://api.duoleads.com"
+}

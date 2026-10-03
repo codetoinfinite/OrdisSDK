@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "radar",
+  "description": "Live crypto funding-rate radar across 5 exchanges: events, pair briefings, calendar, spreads.",
+  "packageName": "@alphesdk-remote/com-funding-radar-radar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://funding-radar.com/mcp"
+    }
+  ],
+  "url": "https://funding-radar.com/mcp"
+}

@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "browser-use",
+  "name": "Browser Use",
+  "description": "Python agent that takes a natural-language task and carries it out in a real browser by clicking, typing and navigating on its own.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "web-automation", "python", "cdp", "llm"],
+  "repo": "https://github.com/browser-use/browser-use",
+  "homepage": "https://browser-use.com",
+  "docs": "https://docs.browser-use.com",
+  "publisher": "Browser Use",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets developers hand a plain-language goal to an LLM-driven agent that then operates a website end to end: filling forms, searching, extracting data, completing multi-step flows. It targets developers who want to script web tasks without writing selectors, and it can use a local browser or the vendor's hosted browsers.",
+  "howItWorks": "An Agent object is created with a task and an LLM. On each step the agent reads the page state, asks the model for the next action and executes it in a Chromium browser controlled through the DevTools protocol, repeating until the task is finished. A companion CLI and an installable skill let coding agents reuse the same browser control.",
+  "requirements": [
+    {
+      "name": "Python 3.11+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Interpreter needed by the package"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for the LLM used in the README example; other providers can be used instead"
+    },
+    {
+      "name": "BROWSER_USE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Access to the vendor's own model and cloud browsers"
+    }
+  ],
+  "install": ["uv add browser-use"],
+  "run": ["uv run agent.py"],
+  "interfaces": ["library", "cli"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Google and other chat models; vendor-hosted model optional",
+  "mcp": "both",
+  "github": {
+    "stars": 117026,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

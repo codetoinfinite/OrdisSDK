@@ -60,6 +60,72 @@ export const AgentFileSchema = z
   })
   .strict();
 
+/** Only github.com repositories, so links and metadata lookups stay on one trusted host. */
+export const GITHUB_REPO_PATTERN =
+  /^https:\/\/github\.com\/[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\/[A-Za-z0-9._-]+$/;
+
+const HttpsUrlSchema = z
+  .string()
+  .url()
+  .refine((url) => url.startsWith("https://"), "must be an https URL");
+const StepsSchema = z.array(TextSchema).default([]);
+
+export const ExternalRequirementSchema = z
+  .object({
+    name: TextSchema,
+    kind: z.enum(["api-key", "runtime", "service", "hardware", "account"]),
+    required: z.boolean().default(true),
+    description: TextSchema.optional(),
+  })
+  .strict();
+
+/**
+ * agents/<category>/<key>.json: an open-source agent that lives in its own repository. The
+ * catalog documents it (what it does, what it needs, how to run it); it is not run here.
+ */
+export const ExternalAgentFileSchema = z
+  .object({
+    type: z.literal("external-agent"),
+    key: KeySchema,
+    name: TextSchema,
+    description: TextSchema,
+    category: TextSchema,
+    tags: z.array(TextSchema).default([]),
+    repo: z.string().regex(GITHUB_REPO_PATTERN, "repo must be https://github.com/<owner>/<name>"),
+    subpath: TextSchema.optional().describe("Folder inside the repository, for monorepos"),
+    homepage: HttpsUrlSchema.optional(),
+    docs: HttpsUrlSchema.optional(),
+    publisher: TextSchema,
+    publisherType: z.enum(["company", "community", "individual"]),
+    official: z.boolean().describe("Published by the organisation that owns the product"),
+    whatItDoes: TextSchema,
+    howItWorks: TextSchema,
+    requirements: z.array(ExternalRequirementSchema).default([]),
+    install: StepsSchema,
+    run: StepsSchema,
+    interfaces: z.array(TextSchema).default([]),
+    language: TextSchema.optional(),
+    framework: TextSchema.optional(),
+    models: TextSchema.optional().describe("Model providers the agent can use"),
+    mcp: z.enum(["client", "server", "both", "none"]).default("none"),
+    /** Repository facts from the GitHub API, as of checkedAt. */
+    github: z
+      .object({
+        stars: z.number().int().min(0),
+        license: TextSchema.optional(),
+        pushedAt: TextSchema,
+        checkedAt: TextSchema,
+      })
+      .strict()
+      .optional(),
+  })
+  .strict();
+
+export const AnyAgentFileSchema = z.discriminatedUnion("type", [
+  AgentFileSchema,
+  ExternalAgentFileSchema,
+]);
+
 export const ServerQuerySchema = z.object({
   packageName: z
     .string()

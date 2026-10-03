@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "aya-registry",
+  "description": "Search 367k+ verified businesses; earn cashback when an agent routes a real purchase.",
+  "packageName": "@alphesdk-remote/io-github-neousaxis-aya-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-visionary.xyz/agents/mcp"
+    }
+  ],
+  "url": "https://github.com/NeousAxis/ai-visionary",
+  "readme": "https://github.com/NeousAxis/ai-visionary#readme"
+}

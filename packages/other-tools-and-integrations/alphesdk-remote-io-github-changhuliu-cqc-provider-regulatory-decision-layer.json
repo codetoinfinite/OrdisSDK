@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "RegEvidenceHub CQC",
+  "description": "RegEvidenceHub CQC: England provider-registration and statutory-notification preflight.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-cqc-provider-regulatory-decision-layer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cqc.regevidencehub.com/ai/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/cqc-provider-mcp",
+  "readme": "https://github.com/ChanghuLiu/cqc-provider-mcp#readme"
+}

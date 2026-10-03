@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Geo-Parity",
+  "description": "Cost of living, fair global pay, healthcare costs, nomad visas and tax residency. Free, no key.",
+  "packageName": "@alphesdk-remote/com-geo-parity-geo-parity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geo-parity.com/api/mcp"
+    }
+  ],
+  "url": "https://geo-parity.com"
+}

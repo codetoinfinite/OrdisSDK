@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FillTrust security questionnaire corpus",
+  "description": "Guidance for answering vendor security questionnaires. Every result carries the page it came from.",
+  "packageName": "@alphesdk-remote/com-filltrust-questions",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.filltrust.com/api/mcp"
+    }
+  ],
+  "url": "https://www.filltrust.com/mcp"
+}

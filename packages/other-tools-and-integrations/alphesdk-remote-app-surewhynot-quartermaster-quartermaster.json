@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "quartermaster",
+  "description": "x402 toolkit for AI agents: paid web, AI, and Base chain tools per call in USDC. Free tools too.",
+  "packageName": "@alphesdk-remote/app-surewhynot-quartermaster-quartermaster",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quartermaster.surewhynot.app/mcp"
+    }
+  ],
+  "url": "https://quartermaster.surewhynot.app"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SpecProof",
+  "description": "SpecProof: Search standards specs with MCP-ready precision.",
+  "packageName": "@alphesdk-remote/ai-specproof-specproof-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.specproof.ai/"
+    }
+  ],
+  "url": "https://github.com/ibouazizi/specproof",
+  "readme": "https://github.com/ibouazizi/specproof#readme"
+}

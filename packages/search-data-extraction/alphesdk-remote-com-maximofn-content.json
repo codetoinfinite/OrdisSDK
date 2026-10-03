@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MaximoFN Content",
+  "description": "Read-only search over the AI/ML posts, tips and projects of maximofn.com (es/en/pt).",
+  "packageName": "@alphesdk-remote/com-maximofn-content",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.maximofn.com/mcp"
+    }
+  ],
+  "url": "https://www.maximofn.com/api/"
+}

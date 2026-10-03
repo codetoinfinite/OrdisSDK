@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Statement to Budget",
+  "description": "Turn bank statement PDFs, CSVs, XLSX and OFX into categorised transactions plus a summary.",
+  "packageName": "@alphesdk-remote/com-statementtobudget-www-bank-statement-converter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.statementtobudget.com/api/mcp"
+    }
+  ],
+  "url": "https://statementtobudget.com/for-agents"
+}

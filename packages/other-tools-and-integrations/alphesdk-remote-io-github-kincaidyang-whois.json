@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "WHOIS",
+  "description": "Query WHOIS/RDAP information for domains, IP addresses, CIDR prefixes and ASNs. Self-hostable.",
+  "packageName": "@alphesdk-remote/io-github-kincaidyang-whois",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whois.ddnsip.cn/mcp"
+    }
+  ],
+  "url": "https://github.com/KincaidYang/whois",
+  "readme": "https://github.com/KincaidYang/whois#readme"
+}

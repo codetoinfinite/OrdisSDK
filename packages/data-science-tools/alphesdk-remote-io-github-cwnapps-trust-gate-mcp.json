@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Trust Gate",
+  "description": "Post-quantum, tamper-evident receipts for agent actions. Ed25519 + ML-DSA-65, offline verify.",
+  "packageName": "@alphesdk-remote/io-github-cwnapps-trust-gate-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trust-gate-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/CWNApps/trust-gate-mcp",
+  "readme": "https://github.com/CWNApps/trust-gate-mcp#readme"
+}

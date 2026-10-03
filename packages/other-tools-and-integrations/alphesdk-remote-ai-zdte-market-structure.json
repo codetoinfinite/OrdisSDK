@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "zdte.ai SPX Market Structure",
+  "description": "SPX 0DTE dealer market structure: GEX, walls, gamma flip, regime. Free previews; pay per read.",
+  "packageName": "@alphesdk-remote/ai-zdte-market-structure",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.zdte.ai/mcp"
+    }
+  ],
+  "url": "https://zdte.ai/developers"
+}

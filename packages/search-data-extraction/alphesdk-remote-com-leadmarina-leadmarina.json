@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "leadmarina",
+  "description": "Verified local-business leads: search any niche + city, query your library, export to your CRM.",
+  "packageName": "@alphesdk-remote/com-leadmarina-leadmarina",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://leadmarina.com/api/mcp"
+    }
+  ],
+  "url": "https://leadmarina.com"
+}

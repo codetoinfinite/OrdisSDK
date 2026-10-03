@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "commercebridge",
+  "description": "Remote MCP connector for eBay, Shopify, Best Buy & Etsy marketplace data via the Commerce API",
+  "packageName": "@alphesdk-remote/io-github-isaiahdupree-commercebridge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://commercebridge-isaiahduprees-projects.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/IsaiahDupree/commercebridge",
+  "readme": "https://github.com/IsaiahDupree/commercebridge#readme"
+}

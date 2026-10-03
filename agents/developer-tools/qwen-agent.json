@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "qwen-agent",
+  "name": "Qwen-Agent",
+  "description": "Alibaba's agent framework for Qwen models that ships example apps such as a browser assistant and code interpreter.",
+  "category": "developer-tools",
+  "tags": ["framework", "qwen", "code-interpreter", "rag", "browser-assistant"],
+  "repo": "https://github.com/QwenLM/Qwen-Agent",
+  "publisher": "Alibaba (Qwen)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Developers use it to build assistants with tool calling, planning, memory and RAG, and can launch the bundled example agents with a Gradio UI.",
+  "howItWorks": "Agents wrap a Qwen model served by DashScope or any OpenAI-compatible endpoint, with function calling, a code-interpreter tool, document retrieval and MCP tool support.",
+  "requirements": [
+    {
+      "name": "DASHSCOPE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Alibaba Cloud DashScope key; not needed with a self-hosted OpenAI-compatible server"
+    },
+    {
+      "name": "Python 3.10+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the GUI"
+    }
+  ],
+  "install": ["pip install -U \"qwen-agent[gui,rag,code_interpreter,mcp]\""],
+  "run": [],
+  "interfaces": ["library", "web"],
+  "language": "Python",
+  "models": "Qwen models via DashScope or OpenAI-compatible servers",
+  "mcp": "client",
+  "github": {
+    "stars": 17131,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-03-04",
+    "checkedAt": "2026-10-03"
+  }
+}

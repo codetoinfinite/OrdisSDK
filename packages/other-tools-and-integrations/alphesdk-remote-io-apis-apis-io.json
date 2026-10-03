@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "apis-io",
+  "description": "Discover, rate and compare APIs and providers in the APIs.io catalog; manage a listing you own.",
+  "packageName": "@alphesdk-remote/io-apis-apis-io",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apis.io/mcp"
+    }
+  ],
+  "url": "https://github.com/api-search/apis-io-aws",
+  "readme": "https://github.com/api-search/apis-io-aws#readme"
+}

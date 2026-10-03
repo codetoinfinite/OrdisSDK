@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gateway Agent Tip Jar",
+  "description": "Optional creator-support terms and private contribution receipt tools for Gateway.",
+  "packageName": "@alphesdk-remote/com-gatewayinformationgroup-agent-tip-jar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway-wallet-payments.jerryrnapier.workers.dev/agent-tools"
+    }
+  ],
+  "url": "https://gatewayinformationgroup.com/tip"
+}

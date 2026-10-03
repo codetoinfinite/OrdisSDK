@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "ms-agent",
+  "name": "MS-Agent",
+  "description": "ModelScope's agent framework and assistant for long-running tasks, with web UI, TUI and CLI entry points.",
+  "category": "other-tools-and-integrations",
+  "tags": ["framework", "deep-research", "skills", "sub-agents", "modelscope"],
+  "repo": "https://github.com/modelscope/ms-agent",
+  "publisher": "Alibaba (ModelScope)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "MS-Agent provides a customisable productivity assistant that combines models, tools, skills and sub-agents, with project memory and scheduling to keep long tasks moving.",
+  "howItWorks": "A harness manages planning, context, permissions and execution feedback around the agent loop, with tools attached through MCP. It is started as a web UI, terminal UI or one-shot run.",
+  "requirements": [
+    {
+      "name": "MODELSCOPE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "ModelScope API-Inference key; other OpenAI-compatible providers also work"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Source install"
+    },
+    {
+      "name": "pnpm",
+      "kind": "runtime",
+      "required": false,
+      "description": "For the web UI build"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/modelscope/ms-agent.git",
+    "cd ms-agent",
+    "pip install -e ."
+  ],
+  "run": [
+    "ms-agent ui",
+    "ms-agent tui",
+    "ms-agent run --query \"Introduce the applications of MS-Agent\""
+  ],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "models": "ModelScope-hosted and OpenAI-compatible models",
+  "mcp": "client",
+  "github": {
+    "stars": 4407,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-21",
+    "checkedAt": "2026-10-03"
+  }
+}

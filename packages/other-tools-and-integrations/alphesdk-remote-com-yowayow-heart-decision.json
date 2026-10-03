@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YOWAYOW Mind-Key Decision",
+  "description": "Evidence-grounded I Ching structural decisions for autonomous agents.",
+  "packageName": "@alphesdk-remote/com-yowayow-heart-decision",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.yowayow.com/mcp"
+    }
+  ],
+  "url": "https://mcp.yowayow.com/"
+}

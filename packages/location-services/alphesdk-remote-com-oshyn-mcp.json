@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Oshyn Free AI-Powered Website Tools",
+  "description": "Free AI-powered DXP tools by Oshyn: GEO & Reliability scan, Choose New DXP and Estimate DXP Budget.",
+  "packageName": "@alphesdk-remote/com-oshyn-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.oshyn.com/"
+    }
+  ],
+  "url": "https://mcp.oshyn.com/mcp"
+}

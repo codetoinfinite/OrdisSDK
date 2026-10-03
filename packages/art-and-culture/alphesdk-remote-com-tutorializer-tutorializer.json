@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tutorializer Video Tutorials",
+  "description": "Write and update video tutorials, voiceovers and pronunciation rules across your projects.",
+  "packageName": "@alphesdk-remote/com-tutorializer-tutorializer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tutorializer.com/mcp"
+    }
+  ],
+  "url": "https://www.tutorializer.com/developers/#mcp"
+}

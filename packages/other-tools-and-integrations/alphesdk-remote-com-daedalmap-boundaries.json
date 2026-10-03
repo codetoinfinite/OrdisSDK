@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap Administrative Boundaries (loc_id to polygon)",
+  "description": "Retrieve loc_id boundary metadata, polygons, supported scopes, and comparisons.",
+  "packageName": "@alphesdk-remote/com-daedalmap-boundaries",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/boundaries"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

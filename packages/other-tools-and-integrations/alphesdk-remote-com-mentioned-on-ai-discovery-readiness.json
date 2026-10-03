@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MentionedOn Discovery Evidence Tools",
+  "description": "Assess AI-discovery readiness, plan visibility fixes, and summarize scan evidence. Read-only.",
+  "packageName": "@alphesdk-remote/com-mentioned-on-ai-discovery-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mentioned-on.com/mcp"
+    }
+  ],
+  "url": "https://mentioned-on.com/developers/mcp"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "ragflow",
+  "name": "RAGFlow",
+  "description": "RAG engine with deep document parsing and pre-built agent templates for answering over complex enterprise data.",
+  "category": "knowledge-memory",
+  "tags": ["rag", "agents", "document-understanding", "self-hosted", "templates"],
+  "repo": "https://github.com/infiniflow/ragflow",
+  "homepage": "https://cloud.ragflow.io/",
+  "docs": "https://ragflow.io/docs/dev/",
+  "publisher": "InfiniFlow",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Ingests documents in many formats, builds knowledge bases and serves grounded chat and agent workflows on top. It is for teams building question answering or agent applications over their own data.",
+  "howItWorks": "Documents are parsed and chunked with layout-aware models, indexed in a search backend, and retrieved for LLM answers with citations. A visual agent builder ships with ready-made templates, and MCP and a sandbox executor are optional add-ons. The whole stack is started with Docker Compose.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Docker and Docker Compose run the stack"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model key configured in the UI"
+    }
+  ],
+  "install": ["git clone https://github.com/infiniflow/ragflow.git"],
+  "run": ["cd ragflow/docker", "docker compose -f docker-compose.yml up -d"],
+  "interfaces": ["web", "api"],
+  "language": "Go",
+  "models": "Configurable hosted and local LLMs",
+  "mcp": "both",
+  "github": {
+    "stars": 91618,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

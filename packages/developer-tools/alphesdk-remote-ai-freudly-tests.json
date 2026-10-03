@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Freudly psychological tests",
+  "description": "Find psychological self-assessment tests in English, Spanish and Russian, with links to take them.",
+  "packageName": "@alphesdk-remote/ai-freudly-tests",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://freudly.ai/mcp"
+    }
+  ],
+  "url": "https://freudly.ai/"
+}

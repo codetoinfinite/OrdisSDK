@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Myagi - Open Agent Registry",
+  "description": "Score any website's AI-agent readiness. Open Agent Registry scanner + platform tools.",
+  "packageName": "@alphesdk-remote/bot-myagi-openagent-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://myagi.bot/api/mcp"
+    }
+  ],
+  "url": "https://github.com/aaronkpickrell/openagent-registry",
+  "readme": "https://github.com/aaronkpickrell/openagent-registry#readme"
+}

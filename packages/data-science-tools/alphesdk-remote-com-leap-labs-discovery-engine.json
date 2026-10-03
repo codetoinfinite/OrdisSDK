@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Disco",
+  "description": "Find novel, statistically validated patterns in tabular data — hypothesis-free.",
+  "packageName": "@alphesdk-remote/com-leap-labs-discovery-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://disco.leap-labs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/leap-laboratories/discovery-engine",
+  "readme": "https://github.com/leap-laboratories/discovery-engine#readme"
+}

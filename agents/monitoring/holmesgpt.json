@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "holmesgpt",
+  "name": "HolmesGPT",
+  "description": "SRE agent that investigates production alerts by querying observability and cloud tools, then reports a likely root cause.",
+  "category": "monitoring",
+  "tags": ["sre", "root-cause-analysis", "alerts", "kubernetes", "observability"],
+  "repo": "https://github.com/HolmesGPT/holmesgpt",
+  "docs": "https://holmesgpt.dev",
+  "publisher": "HolmesGPT (CNCF sandbox project, started by Robusta)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Takes an alert or a free-form question about a production problem and gathers the evidence needed to explain it. It serves on-call engineers who want a first-pass investigation of alerts coming from systems such as AlertManager, PagerDuty, OpsGenie or Jira.",
+  "howItWorks": "An agentic loop lets the model pick from toolsets that wrap data sources like Kubernetes, Prometheus, Grafana, Loki and Datadog, with further sources attachable over MCP. Results are fed back until the model can write a conclusion. It can be used from a CLI or run in an operator mode that posts findings to Slack.",
+  "requirements": [
+    {
+      "name": "LLM provider key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the model provider in use"
+    },
+    {
+      "name": "Data source access",
+      "kind": "service",
+      "required": true,
+      "description": "Access to the cluster and observability backends it should query"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["cli", "api", "chat"],
+  "language": "Python",
+  "models": "OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock, Google Gemini and others",
+  "mcp": "client",
+  "github": {
+    "stars": 3498,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

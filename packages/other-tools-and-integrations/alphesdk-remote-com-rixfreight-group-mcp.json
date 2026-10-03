@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "RixFreight logistics quotes and route info via AI agents",
+  "packageName": "@alphesdk-remote/com-rixfreight-group-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rixfreight-group.com/mcp"
+    }
+  ],
+  "url": "https://rixfreight-group.com"
+}

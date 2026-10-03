@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Nursing Home Database",
+  "description": "MCP server for US nursing facility search and ownership lookup (NursingHomeDatabase).",
+  "packageName": "@alphesdk-remote/com-nursinghomedatabase-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nursinghomedatabase.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jmtroller/nhd-mcp-public-documentation",
+  "readme": "https://github.com/jmtroller/nhd-mcp-public-documentation#readme"
+}

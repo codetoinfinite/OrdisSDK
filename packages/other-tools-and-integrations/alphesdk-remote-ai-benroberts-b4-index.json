@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "B4 Index",
+  "description": "Independent build-vs-buy index: score software categories BUILD/BUY/BRIDGE/BEWARE.",
+  "packageName": "@alphesdk-remote/ai-benroberts-b4-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://b4-index.vercel.app/mcp"
+    }
+  ],
+  "url": "https://benroberts.ai/directory"
+}

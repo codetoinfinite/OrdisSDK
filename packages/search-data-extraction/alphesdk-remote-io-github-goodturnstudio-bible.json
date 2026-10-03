@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Bible Swipe",
+  "description": "A Bible reading a day, line by line, any passage by reference, and search.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-bible",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/bible/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

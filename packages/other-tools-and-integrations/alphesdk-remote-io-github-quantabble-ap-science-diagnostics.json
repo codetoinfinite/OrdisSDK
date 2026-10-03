@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Quantabble — AP Science Misconception Diagnostics",
+  "description": "Misconception detection for AP Chemistry & Physics 1. 90% catch rate vs 24% baseline.",
+  "packageName": "@alphesdk-remote/io-github-quantabble-ap-science-diagnostics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quantabble-api.chemandphysicsmastery.workers.dev"
+    }
+  ]
+}

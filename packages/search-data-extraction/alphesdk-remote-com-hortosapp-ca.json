@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HortOS (Canada)",
+  "description": "Search Canadian wholesale plant growers' live availability and price a whole plant list. Read-only.",
+  "packageName": "@alphesdk-remote/com-hortosapp-ca",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ca.hortosapp.com/mcp"
+    }
+  ],
+  "url": "https://ca.hortosapp.com/ai"
+}

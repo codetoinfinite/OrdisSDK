@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "engineerpro-library",
+  "description": "Read-only EngineerPro engineering library (118 book profiles) and software-engineering tools.",
+  "packageName": "@alphesdk-remote/com-aiengineerprofessional-engineerpro-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aiengineerprofessional.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/engineerpro-site",
+  "readme": "https://github.com/people-analyst/engineerpro-site#readme"
+}

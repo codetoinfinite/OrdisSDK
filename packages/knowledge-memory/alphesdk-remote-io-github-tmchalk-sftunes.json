@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "sftunes",
+  "description": "Hand-made human mixtapes with liner notes. Paid tools $0.01 USDC via x402, 80% to the tapemaker.",
+  "packageName": "@alphesdk-remote/io-github-tmchalk-sftunes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sftunes.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/TMCHALK/sftunes",
+  "readme": "https://github.com/TMCHALK/sftunes#readme"
+}

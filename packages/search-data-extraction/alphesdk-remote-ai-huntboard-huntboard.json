@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HuntBoard",
+  "description": "Search real, recent job postings from company career pages and ATS boards, scored for fit.",
+  "packageName": "@alphesdk-remote/ai-huntboard-huntboard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://huntboard.ai/mcp"
+    }
+  ],
+  "url": "https://huntboard.ai/mcp/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "reference-data",
+  "description": "Asian govt data, cited to source: rates, VAT, tax, wages, holidays, FX. 28 countries; Japan free.",
+  "packageName": "@alphesdk-remote/dev-asiaref-reference-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://asiaref.dev/mcp"
+    }
+  ],
+  "url": "https://asiaref.dev"
+}

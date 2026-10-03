@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "taxhacker",
+  "name": "TaxHacker",
+  "description": "Self-hosted AI accounting app that extracts data from receipts and invoices, categorises it and handles currency conversion.",
+  "category": "finance-fintech",
+  "tags": ["accounting", "receipts", "invoices", "self-hosted", "expenses"],
+  "repo": "https://github.com/vas3k/TaxHacker",
+  "homepage": "https://taxhacker.app",
+  "publisher": "vas3k",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets freelancers and small businesses upload photos or PDFs of receipts and invoices and get structured, categorised transactions ready for tax reporting.",
+  "howItWorks": "A web app sends uploaded documents to a configured LLM with customisable prompts to pull out fields, then stores results in its database. It is deployed with Docker Compose.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Compose stack"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Used for document extraction"
+    },
+    {
+      "name": "BETTER_AUTH_SECRET",
+      "kind": "runtime",
+      "required": true,
+      "description": "Auth secret for the app"
+    }
+  ],
+  "install": ["curl -O https://raw.githubusercontent.com/vas3k/TaxHacker/main/docker-compose.yml"],
+  "run": ["docker compose up"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Configurable hosted LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 6729,
+    "license": "MIT",
+    "pushedAt": "2026-09-28",
+    "checkedAt": "2026-10-03"
+  }
+}

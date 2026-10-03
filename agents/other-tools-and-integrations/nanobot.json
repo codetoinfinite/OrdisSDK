@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "nanobot",
+  "name": "nanobot",
+  "description": "Ultra-lightweight self-hosted personal agent that runs in a WebUI, terminal or chat apps with tools, memory and scheduling.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-agent", "lightweight", "self-hosted", "channels", "memory", "mcp"],
+  "repo": "https://github.com/HKUDS/nanobot",
+  "homepage": "https://nanobot.wiki",
+  "publisher": "HKUDS (University of Hong Kong Data Intelligence Lab)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Handles personal automation and long-running goals using file, shell, web search, web fetch, cron, image generation and subagent tools. Connects to Telegram, Discord, Slack, WeChat, email, Mattermost, Linear and other channels.",
+  "howItWorks": "A Python runtime keeps session history and long-term memory and can call MCP tools. It also exposes a Python SDK and an OpenAI-compatible API. The installer adds the `nanobot-ai` package and opens the WebUI for first-time provider setup.",
+  "requirements": [
+    {
+      "name": "Python 3.11+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the package"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Configured in the WebUI on first run"
+    }
+  ],
+  "install": [
+    "curl -fsSL https://raw.githubusercontent.com/HKUDS/nanobot/main/scripts/install.sh | sh"
+  ],
+  "run": ["nanobot webui"],
+  "interfaces": ["web", "cli", "chat", "api", "library"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "client",
+  "github": {
+    "stars": 48750,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

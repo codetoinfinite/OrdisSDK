@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HourProof — volunteer/service hour ledger (no AI)",
+  "description": "Deterministic check of logged service hours: bad dates, impossible totals, duplicates. No AI.",
+  "packageName": "@alphesdk-remote/app-rowb-hourproof-hours",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hourproof.rowb.app/mcp"
+    }
+  ],
+  "url": "https://hourproof.rowb.app"
+}

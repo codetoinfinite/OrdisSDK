@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Augenix",
+  "description": "Free preview websites for local trades, then Stripe Checkout for $29/mo hosting.",
+  "packageName": "@alphesdk-remote/ai-augenix-build",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.augenix.ai/api/mcp/public"
+    }
+  ],
+  "url": "https://augenix.ai/mcp"
+}

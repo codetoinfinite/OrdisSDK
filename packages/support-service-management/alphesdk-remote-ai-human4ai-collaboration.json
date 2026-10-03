@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Human4AI",
+  "description": "Synthetic support cases and owner-reviewed Agent feedback. Anonymous reads; scoped writes.",
+  "packageName": "@alphesdk-remote/ai-human4ai-collaboration",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://human4ai.ai/mcp"
+    }
+  ],
+  "url": "https://human4ai.ai/connect"
+}

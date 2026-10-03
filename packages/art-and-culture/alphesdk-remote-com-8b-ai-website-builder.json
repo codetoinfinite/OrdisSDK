@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "8B AI Website Builder",
+  "description": "AI website & landing page builder: animated site in an 8B design, preview, edits, HTML download",
+  "packageName": "@alphesdk-remote/com-8b-ai-website-builder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.8b.com/mcp"
+    }
+  ],
+  "url": "https://8b.com/mcp/"
+}

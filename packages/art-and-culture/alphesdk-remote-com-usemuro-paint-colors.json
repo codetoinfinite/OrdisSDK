@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Muro Paint Colors",
+  "description": "Real paint colours from 35 brands, free; paint a room photo with a Muro account.",
+  "packageName": "@alphesdk-remote/com-usemuro-paint-colors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.usemuro.com/mcp"
+    }
+  ],
+  "url": "https://usemuro.com/en/developers"
+}

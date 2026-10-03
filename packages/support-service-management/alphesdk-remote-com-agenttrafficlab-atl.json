@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Traffic Lab",
+  "description": "Execute supported agent tasks through verified providers with fallback and durable outcomes.",
+  "packageName": "@alphesdk-remote/com-agenttrafficlab-atl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agenttrafficlab.com/mcp"
+    }
+  ],
+  "url": "https://github.com/wenhua6666668-oss/agent-traffic-lab-mcp",
+  "readme": "https://github.com/wenhua6666668-oss/agent-traffic-lab-mcp#readme"
+}

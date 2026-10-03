@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "lesgooo.fun",
+  "description": "Free no-signup group planner: dates, RSVPs, place votes, shared checklist and split costs.",
+  "packageName": "@alphesdk-remote/fun-lesgooo-lesgooo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lesgooo.fun/mcp"
+    }
+  ],
+  "url": "https://lesgooo.fun/agents/"
+}

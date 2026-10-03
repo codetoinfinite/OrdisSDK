@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Current Date/Time Tool",
+  "description": "Returns the actual current date/time in a given format and IANA timezone.",
+  "packageName": "@alphesdk-remote/com-apished-current-datetime-tool",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/datetime"
+    }
+  ],
+  "url": "https://apished.com"
+}

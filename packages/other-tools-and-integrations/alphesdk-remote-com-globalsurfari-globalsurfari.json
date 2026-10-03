@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Global Surfari Surf Forecasts",
+  "description": "7 day surf forecasts (wave, wind, period) for any coordinate or named surf spot.",
+  "packageName": "@alphesdk-remote/com-globalsurfari-globalsurfari",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://globalsurfari.com/mcp"
+    }
+  ],
+  "url": "https://globalsurfari.com"
+}

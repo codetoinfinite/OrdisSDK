@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wikimedia Enterprise docs",
+  "description": "Wikimedia Enterprise API docs: search the guides, read every endpoint. Read-only, no account needed.",
+  "packageName": "@alphesdk-remote/com-wikimedia-enterprise-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://enterprise.wikimedia.com/mcp"
+    }
+  ],
+  "url": "https://enterprise.wikimedia.com/docs/agents/"
+}

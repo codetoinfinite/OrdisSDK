@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UK Subcontractor Right to Work Checker",
+  "description": "Does a UK business have to right-to-work check a subcontractor or gig worker from 1 Oct 2026? Free.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-uk-subcontractor-right-to-work",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://subcontractor-check.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://subcontractor-check.nerolabs.workers.dev/"
+}

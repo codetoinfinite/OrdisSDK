@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Own Your AI",
+  "description": "AI tools that run on your own machine: what each does, installs like, and costs.",
+  "packageName": "@alphesdk-remote/app-ownyourai-ownyourai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ownyourai.app/api/mcp"
+    }
+  ],
+  "url": "https://ownyourai.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DealerSlip",
+  "description": "Draft UK vehicle sales invoices from supplied deal facts, with totals and a private review link.",
+  "packageName": "@alphesdk-remote/com-dealerslip-invoice",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dealerslip.com/mcp"
+    }
+  ],
+  "url": "https://dealerslip.com/ai-invoice-generator"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pollen — Managed Agent-Readiness Layer",
+  "description": "Manage your Pollen account: sync, enrich, fix, and publish your store's catalog for AI agents.",
+  "packageName": "@alphesdk-remote/in-elytron-pollen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pollen.elytron.in/mcp"
+    }
+  ],
+  "url": "https://pollen.elytron.in"
+}

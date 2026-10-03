@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "ai-doc-gen",
+  "name": "AI Documentation Generator",
+  "description": "Multi-agent tool that analyses a repository and generates README files and instruction files for AI coding assistants.",
+  "category": "developer-tools",
+  "tags": ["documentation", "multi-agent", "readme", "gitlab", "ai-rules"],
+  "repo": "https://github.com/divar-ir/ai-doc-gen",
+  "publisher": "Divar",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "The generator studies a codebase and writes analysis documents, a README and rule files such as CLAUDE.md, AGENTS.md and Cursor rules. A scheduled mode finds recently active GitLab projects and documents them automatically. It is for teams whose documentation falls out of date.",
+  "howItWorks": "Five specialised agents examine structure, data flow, dependencies, request flow and APIs concurrently and save their findings in the repository. Generator commands then turn those findings into the final documents. Settings come from an env file and a YAML config.",
+  "requirements": [
+    {
+      "name": "Python and uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install dependencies and run the commands"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Set in the .env file created from the sample"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/divar-ir/ai-doc-gen.git",
+    "uv sync",
+    "cp .env.sample .env"
+  ],
+  "run": [
+    "uv run src/main.py analyze --repo-path .",
+    "uv run src/main.py generate readme --repo-path .",
+    "uv run src/main.py generate ai-rules --repo-path ."
+  ],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "models": "Configurable LLM endpoint",
+  "mcp": "none",
+  "github": {
+    "stars": 763,
+    "license": "MIT",
+    "pushedAt": "2026-07-21",
+    "checkedAt": "2026-10-03"
+  }
+}

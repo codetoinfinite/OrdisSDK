@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Compound Interesting — market intelligence",
+  "description": "Source-backed US market signals: insider filings, Congress trades, institutions, consensus.",
+  "packageName": "@alphesdk-remote/ing-compoundinterest-market-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.compoundinterest.ing/mcp"
+    }
+  ],
+  "url": "https://compoundinterest.ing/mcp"
+}

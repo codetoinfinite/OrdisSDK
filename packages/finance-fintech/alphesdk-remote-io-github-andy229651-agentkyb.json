@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentKYB",
+  "description": "Free local payment guard for AI agents plus paid deep vendor KYB via x402.",
+  "packageName": "@alphesdk-remote/io-github-andy229651-agentkyb",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentkyb.andy229651.workers.dev/mcp-x402"
+    }
+  ],
+  "url": "https://github.com/Andy229651/agentkyb",
+  "readme": "https://github.com/Andy229651/agentkyb#readme"
+}

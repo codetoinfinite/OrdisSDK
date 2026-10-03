@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The MCP Census",
+  "description": "Vet any MCP server before you depend on it. Stamp: PASS, REVIEW, or BLOCK.",
+  "packageName": "@alphesdk-remote/com-mcpcensus-census",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcpcensus.com/mcp"
+    }
+  ],
+  "url": "https://mcpcensus.com"
+}

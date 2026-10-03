@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "HebrewCore by baba Hebrew",
+  "description": "Hebrew translation that keeps prices, names and dates exact, RTL display, nikud, clinical Hebrew.",
+  "packageName": "@alphesdk-remote/com-itsbaba-hebrewcore",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hc.itsbaba.com/mcp"
+    }
+  ],
+  "url": "https://github.com/isaachorowitz/hebrewcore",
+  "readme": "https://github.com/isaachorowitz/hebrewcore#readme"
+}

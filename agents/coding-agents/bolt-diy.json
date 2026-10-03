@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "bolt-diy",
+  "name": "bolt.diy",
+  "description": "Browser-based AI builder that generates, runs and deploys full-stack web apps using whichever LLM provider you choose.",
+  "category": "coding-agents",
+  "tags": ["app-builder", "full-stack", "browser", "multi-provider", "electron"],
+  "repo": "https://github.com/stackblitz-labs/bolt.diy",
+  "docs": "https://stackblitz-labs.github.io/bolt.diy/",
+  "publisher": "bolt.diy community (StackBlitz Labs)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "bolt.diy turns prompts into working web applications that you can edit, preview and deploy from one interface. It is the community edition of Bolt and lets users pick a model per prompt. Output can be shipped to Netlify, Vercel or GitHub Pages.",
+  "howItWorks": "The app runs a development environment in the browser where the model writes files and runs commands. Provider adapters cover more than nineteen LLM services, and external tool servers can be attached. It can be started with pnpm, Docker or as an Electron desktop app.",
+  "requirements": [
+    {
+      "name": "Node.js and pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used to install dependencies and start the dev server"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for at least one supported provider, or a local model server"
+    }
+  ],
+  "install": ["npm install -g pnpm", "pnpm install"],
+  "run": ["pnpm run dev"],
+  "interfaces": ["web", "desktop"],
+  "language": "TypeScript",
+  "models": "19+ providers including OpenAI, Anthropic, Google, Ollama and OpenRouter",
+  "mcp": "client",
+  "github": {
+    "stars": 19926,
+    "license": "MIT",
+    "pushedAt": "2026-02-07",
+    "checkedAt": "2026-10-03"
+  }
+}

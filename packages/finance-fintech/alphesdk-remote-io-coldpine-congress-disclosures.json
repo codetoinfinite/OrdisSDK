@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Coldpine: Congressional Stock Disclosures",
+  "description": "Read-only U.S. congressional stock trade disclosures (STOCK Act filings), parsed and source-linked.",
+  "packageName": "@alphesdk-remote/io-coldpine-congress-disclosures",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coldpine.io/api/mcp"
+    }
+  ],
+  "url": "https://coldpine.io/developers"
+}

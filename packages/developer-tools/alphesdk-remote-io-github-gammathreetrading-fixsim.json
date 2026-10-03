@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FIXSIM",
+  "description": "Test FIX from Claude, ChatGPT, or Cursor: free sandbox FIX sessions or your own FIXSIM instances.",
+  "packageName": "@alphesdk-remote/io-github-gammathreetrading-fixsim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fixsim.com/mcp"
+    }
+  ],
+  "url": "https://github.com/GammaThreeTrading/fixsim-mcp",
+  "readme": "https://github.com/GammaThreeTrading/fixsim-mcp#readme"
+}

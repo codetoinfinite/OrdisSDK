@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "US Mortgage Calculator",
+  "description": "US mortgage calculator and amortization API with 50-state property tax, PMI, and affordability data.",
+  "packageName": "@alphesdk-remote/com-usmortgagecalc-mortgage",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.usmortgagecalc.com/mcp"
+    }
+  ],
+  "url": "https://www.usmortgagecalc.com"
+}

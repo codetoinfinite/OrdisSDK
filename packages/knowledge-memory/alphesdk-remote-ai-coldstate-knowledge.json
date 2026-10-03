@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ColdState — Deterministic Knowledge Infrastructure",
+  "description": "Deterministic knowledge for AI agents: search, fetch, cite and verify a 48M-entry knowledge base.",
+  "packageName": "@alphesdk-remote/ai-coldstate-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cold-api.coldstate.ai/mcp"
+    }
+  ],
+  "url": "https://services.coldstate.ai"
+}

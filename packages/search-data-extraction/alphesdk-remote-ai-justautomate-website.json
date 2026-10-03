@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JustAutomate website",
+  "description": "JustAutomate, AI agents and process automation agency: site search, pages, workshop price, contact.",
+  "packageName": "@alphesdk-remote/ai-justautomate-website",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://justautomate.ai/mcp"
+    }
+  ],
+  "url": "https://justautomate.ai/"
+}

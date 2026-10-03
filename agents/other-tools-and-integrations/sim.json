@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "sim",
+  "name": "Sim",
+  "description": "Workspace for building and running agents visually, by conversation or in code, with integrations and knowledge bases.",
+  "category": "other-tools-and-integrations",
+  "tags": ["workflow-builder", "integrations", "self-hosted", "visual", "knowledge-base"],
+  "repo": "https://github.com/simstudioai/sim",
+  "homepage": "https://www.sim.ai",
+  "docs": "https://docs.sim.ai/desktop",
+  "publisher": "Sim Studio",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Teams create agents and workflows connected to Slack, Notion, HubSpot, Salesforce, databases and many other services. It ingests files and table data and monitors runs, logs and schedules.",
+  "howItWorks": "A setup command bootstraps a self-hosted deployment backed by Docker. A cloud service and a macOS desktop app that can point at a self-hosted instance are also offered.",
+  "requirements": [
+    {
+      "name": "Node.js 20+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for self-hosting"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for self-hosting"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "For the models used by agents"
+    }
+  ],
+  "install": [],
+  "run": ["npx sim-setup"],
+  "interfaces": ["web", "desktop"],
+  "language": "TypeScript",
+  "models": "Every major LLM provider",
+  "mcp": "none",
+  "github": {
+    "stars": 29763,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

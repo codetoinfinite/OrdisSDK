@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Worlds CLI Knowledge",
+  "description": "Source-checked CLI guides and model-aware planning for Claude Code, Codex, and Grok Build.",
+  "packageName": "@alphesdk-remote/com-claude-world-worlds-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.claude-world.com/mcp"
+    }
+  ],
+  "url": "https://github.com/claude-world/claude-world.com",
+  "readme": "https://github.com/claude-world/claude-world.com#readme"
+}

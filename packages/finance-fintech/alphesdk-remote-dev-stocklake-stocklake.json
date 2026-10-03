@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Stocklake — AI Stock Intelligence",
+  "description": "AI stock intelligence: prices, fundamentals, technicals, news, macro regime, and sector signals.",
+  "packageName": "@alphesdk-remote/dev-stocklake-stocklake",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.stocklake.dev/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Obriym CRM",
+  "description": "Operate Obriym CRM from your AI assistant: leads, deals, orders, catalog, stock, marketplaces.",
+  "packageName": "@alphesdk-remote/com-obriym-crm-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://obriym-crm.com/api/mcp"
+    }
+  ],
+  "url": "https://obriym-crm.com/integrations/mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cameron Rye Portfolio MCP Server",
+  "description": "Cameron Rye's blog, projects, resume, and live site stats, plus contact and newsletter tools.",
+  "packageName": "@alphesdk-remote/dev-rye-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rye.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/cameronrye/portfolio",
+  "readme": "https://github.com/cameronrye/portfolio#readme"
+}

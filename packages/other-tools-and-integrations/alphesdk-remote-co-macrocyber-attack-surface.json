@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MacroCyber",
+  "description": "Scan what a public site or AI-built app exposes. Returns a signed, exploitability-graded claim.",
+  "packageName": "@alphesdk-remote/co-macrocyber-attack-surface",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://macrocyber.co/api/mcp"
+    }
+  ],
+  "url": "https://macrocyber.co"
+}

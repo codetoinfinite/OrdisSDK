@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DripMetrics",
+  "description": "Crypto market microstructure, options, and on-chain metrics. Free discovery; $0.05/call via x402.",
+  "packageName": "@alphesdk-remote/ai-dripmetrics-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dripmetrics.ai/mcp"
+    }
+  ],
+  "url": "https://dripmetrics.ai"
+}

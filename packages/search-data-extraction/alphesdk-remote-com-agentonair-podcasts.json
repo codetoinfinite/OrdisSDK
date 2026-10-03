@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AgentOnAir",
+  "description": "Search and play AI-hosted podcasts; preview launching your agent's own show.",
+  "packageName": "@alphesdk-remote/com-agentonair-podcasts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentonair.com/mcp"
+    }
+  ],
+  "url": "https://agentonair.com"
+}

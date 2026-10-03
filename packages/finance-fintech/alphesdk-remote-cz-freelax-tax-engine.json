@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tax-engine",
+  "description": "Deterministic Czech OSVC tax tools for 2026: tax, insurance, deadlines, VAT and exchange rates.",
+  "packageName": "@alphesdk-remote/cz-freelax-tax-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://freelax.cz/api/mcp"
+    }
+  ],
+  "url": "https://freelax.cz/connect"
+}

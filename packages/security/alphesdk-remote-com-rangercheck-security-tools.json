@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "security-tools",
+  "description": "Free front-end security check for any website: a grade plus the secrets and keys it exposes.",
+  "packageName": "@alphesdk-remote/com-rangercheck-security-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rangercheck.com/api/mcp"
+    }
+  ],
+  "url": "https://rangercheck.com/mcp"
+}

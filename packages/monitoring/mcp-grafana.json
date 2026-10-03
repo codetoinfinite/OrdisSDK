@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Grafana",
+  "description": "Dashboards, datasources, Prometheus/Loki queries, alerting and incidents in Grafana.",
+  "packageName": "mcp-grafana",
+  "packageVersion": "2.0.0",
+  "runtime": "python",
+  "readme": "https://github.com/grafana/mcp-grafana",
+  "url": "https://github.com/grafana/mcp-grafana",
+  "author": "Grafana Labs",
+  "env": {
+    "GRAFANA_URL": {
+      "description": "Grafana instance URL",
+      "required": true
+    },
+    "GRAFANA_SERVICE_ACCOUNT_TOKEN": {
+      "description": "Service account token",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX YouTube MCP",
+  "description": "YouTube video/channel search, suggestions, details, comments/replies, Shorts, transcripts, paging.",
+  "packageName": "@alphesdk-remote/com-52choujiang-youtube-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/youtube/mcp"
+    }
+  ]
+}

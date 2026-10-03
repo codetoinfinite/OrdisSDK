@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MarkIt",
+  "description": "Search, save, and set reminders in your personal MarkIt library of links, posts, and notes.",
+  "packageName": "@alphesdk-remote/io-github-fuzulsfriend-markit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mark-it.co/api/mcp"
+    }
+  ],
+  "url": "https://github.com/FuzulsFriend/markit-mcp",
+  "readme": "https://github.com/FuzulsFriend/markit-mcp#readme"
+}

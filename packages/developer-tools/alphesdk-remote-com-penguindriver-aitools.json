@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "台灣 AI 工具價格",
+  "description": "台灣 AI 工具價格：AI 訂閱與 API 費用換算新台幣。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-aitools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aitools.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://aitools.penguindriver.com"
+}

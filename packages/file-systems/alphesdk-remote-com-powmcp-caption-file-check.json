@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Caption File Check",
+  "description": "Parse WebVTT, SRT, or TTML for conformance, timing, overlaps, line length, and reading speed.",
+  "packageName": "@alphesdk-remote/com-powmcp-caption-file-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powmcp.com/caption-file-check/mcp"
+    }
+  ],
+  "url": "https://github.com/powmcp/mcp-server-guide",
+  "readme": "https://github.com/powmcp/mcp-server-guide#readme"
+}

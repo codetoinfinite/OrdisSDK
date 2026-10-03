@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "can-i-use",
+  "description": "Browser support for web features, live from caniuse. From which version, and is it safe to ship?",
+  "packageName": "@alphesdk-remote/ai-kaiv-can-i-use",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaiv.ai/api/bridge/mcp/can-i-use-5446c68b"
+    }
+  ]
+}

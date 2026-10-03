@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Code Synapse — Fit Repo Finder",
+  "description": "Finds real, maintained open-source repos that fit your project. MCP grounding for coding agents.",
+  "packageName": "@alphesdk-remote/com-leewaystudio-code-synapse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://code-synapse-mcp.leewaystudio.com/mcp"
+    }
+  ],
+  "url": "https://code-synapse.leewaystudio.com"
+}

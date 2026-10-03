@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Avalanche AVAX MCP",
+  "description": "Search and retrieve Avalanche blockchain documentation for building on AVAX.",
+  "packageName": "@alphesdk-remote/io-github-airpote-avalanche-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://build.avax.network/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Airpote/avalanche-mcp-vscode",
+  "readme": "https://github.com/Airpote/avalanche-mcp-vscode#readme"
+}

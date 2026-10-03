@@ -1,0 +1,49 @@
+{
+  "type": "external-agent",
+  "key": "deep-searcher",
+  "name": "DeepSearcher",
+  "description": "Deep-research agent over private data stored in a vector database, producing reasoned answers and reports.",
+  "category": "search-data-extraction",
+  "tags": ["deep-research", "private-data", "milvus", "rag", "reports"],
+  "repo": "https://github.com/zilliztech/deep-searcher",
+  "publisher": "Zilliz",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Loads local files or web pages into a vector store and then searches, evaluates and reasons over them to answer questions or write reports. It is aimed at enterprise knowledge management and internal Q&A.",
+  "howItWorks": "Documents are chunked, embedded and stored in Milvus or Zilliz Cloud. At query time the agent decomposes the question, retrieves across collections, reflects on gaps and iterates before composing a report; online content can be mixed in when needed. It offers a CLI, a Python API and a service started with main.py.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Default LLM provider; many alternatives are supported"
+    },
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Web crawling through Firecrawl"
+    },
+    {
+      "name": "Milvus",
+      "kind": "service",
+      "required": true,
+      "description": "Vector database (Milvus or Zilliz Cloud)"
+    }
+  ],
+  "install": ["python -m venv .venv", "source .venv/bin/activate", "pip install deepsearcher"],
+  "run": [
+    "deepsearcher load \"your_local_path_or_url\"",
+    "deepsearcher query \"Write a report about xxx.\""
+  ],
+  "interfaces": ["cli", "library", "api"],
+  "language": "Python",
+  "models": "OpenAI, DeepSeek, Claude, Gemini, Grok, Qwen, Ollama and other providers",
+  "mcp": "none",
+  "github": {
+    "stars": 8292,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-22",
+    "checkedAt": "2026-10-03"
+  }
+}

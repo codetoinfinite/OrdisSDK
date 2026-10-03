@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Homechecker Guides",
+  "description": "Homechecker's professionally authored Australian homebuyer guides: search, cite, build checklists.",
+  "packageName": "@alphesdk-remote/io-github-steven3265-homechecker-guides",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.homechecker.com.au/mcp"
+    }
+  ],
+  "url": "https://github.com/Steven3265/homechecker-guides-mcp",
+  "readme": "https://github.com/Steven3265/homechecker-guides-mcp#readme"
+}

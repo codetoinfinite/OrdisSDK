@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sefaria Library",
+  "description": "Access Sefaria's library of Jewish texts, commentaries, and learning schedules via MCP",
+  "packageName": "@alphesdk-remote/dev-workers-shimonkolodny-sefaria-mcp-sefaria",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sefaria-mcp.shimonkolodny.workers.dev/mcp"
+    }
+  ],
+  "url": "https://www.sefaria.org"
+}

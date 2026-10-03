@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "diglabo 漢字プリント",
+  "description": "Japanese kanji worksheets (elementary grades, Kanken 10-2). Returns a review link. No login.",
+  "packageName": "@alphesdk-remote/com-diglabo-kanji-prints",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.diglabo.com/kanji/mcp-guest"
+    }
+  ],
+  "url": "https://diglabo.com/ja/kanji/ai-tools"
+}

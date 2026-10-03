@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AcuiQ",
+  "description": "Evidence-based acupuncture protocol matcher – search symptoms, match protocols, browse acupoints.",
+  "packageName": "@alphesdk-remote/com-acuiq-acuiq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://acuiq.com/api/mcp"
+    }
+  ],
+  "url": "https://acuiq.com"
+}

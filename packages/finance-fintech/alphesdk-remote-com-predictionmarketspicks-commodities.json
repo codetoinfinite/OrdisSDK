@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Commodities Markets Desk",
+  "description": "Kalshi gold, silver, oil and crypto: live 15-minute markets, perps liquidation, and model edges.",
+  "packageName": "@alphesdk-remote/com-predictionmarketspicks-commodities",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://predictionmarketspicks.com/api/mcp-commodities/mcp"
+    }
+  ],
+  "url": "https://github.com/predictionmarketspicks/mcp",
+  "readme": "https://github.com/predictionmarketspicks/mcp#readme"
+}

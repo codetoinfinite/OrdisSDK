@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Feldspar free repository security scan",
+  "description": "Free deterministic security scan of public git repos: OSV.dev vulnerable deps, secrets, config lint.",
+  "packageName": "@alphesdk-remote/com-project-feldspar-scan",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://project-feldspar.com/mcp"
+    }
+  ],
+  "url": "https://github.com/project-feldspar-resources/feldspar-scan",
+  "readme": "https://github.com/project-feldspar-resources/feldspar-scan#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Contractors Near Me",
+  "description": "Search licensed US contractors by trade or location, fetch profiles and reviews, and submit leads.",
+  "packageName": "@alphesdk-remote/ai-contractorsnearme-contractors-near-me",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://contractorsnearme.ai/api/mcp"
+    }
+  ]
+}

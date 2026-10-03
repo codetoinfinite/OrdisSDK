@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Fiskmas",
+  "description": "Hosting for AI agents: your AI client deploys Docker apps to live HTTPS URLs over MCP.",
+  "packageName": "@alphesdk-remote/dev-fiskmas-fiskmas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fiskmas.dev/mcp"
+    }
+  ]
+}

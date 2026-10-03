@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AIPP Monetize",
+  "description": "Pay-per-action access to APIs and MCP tools over Lightning L402 and Base USDC x402.",
+  "packageName": "@alphesdk-remote/dev-aipp-monetize",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aipp.dev/mcp"
+    }
+  ]
+}

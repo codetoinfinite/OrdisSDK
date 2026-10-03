@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Agent Tokenized Stock OS",
+  "description": "Non-custodial MCP for Stock Tokens on Robinhood Chain (4663): quotes, plans, Morpho Earn.",
+  "packageName": "@alphesdk-remote/dev-aatos-aatos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aatos.dev/mcp"
+    }
+  ],
+  "url": "https://aatos.dev/"
+}

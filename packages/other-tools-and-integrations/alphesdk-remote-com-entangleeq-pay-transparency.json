@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EntangleEQ",
+  "description": "EU pay transparency (Directive 2023/970) and French Egapro readiness assistant. Public data only.",
+  "packageName": "@alphesdk-remote/com-entangleeq-pay-transparency",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.entangleeq.com/api/mcp-public"
+    }
+  ],
+  "url": "https://www.entangleeq.com"
+}

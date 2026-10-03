@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "contracts",
+  "description": "Contract drafting, statute-cited US state law requirements, non-compete checks, risk analysis.",
+  "packageName": "@alphesdk-remote/com-pactlio-contracts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pactlio.com/api/mcp"
+    }
+  ],
+  "url": "https://www.pactlio.com/mcp"
+}

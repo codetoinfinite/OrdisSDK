@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Shipshape Data docs",
+  "description": "Docs Q&A: search 169 data and AI guides, fetch any page as markdown. Read-only, keyless.",
+  "packageName": "@alphesdk-remote/com-shipshapedata-shipshape-data-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shipshapedata.com/mcp/docs"
+    }
+  ],
+  "url": "https://github.com/shipshapedata/agent-tools",
+  "readme": "https://github.com/shipshapedata/agent-tools#readme"
+}

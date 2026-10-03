@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ERP Facts",
+  "description": "Sourced, dated ERP facts: Odoo 20 changes, support deadlines, prices, e-invoicing status.",
+  "packageName": "@alphesdk-remote/eu-jaikin-erp-facts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://erp-mcp.jaikin.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/Jaikin-SASU/claude-plugin-erp-upgrade",
+  "readme": "https://github.com/Jaikin-SASU/claude-plugin-erp-upgrade#readme"
+}

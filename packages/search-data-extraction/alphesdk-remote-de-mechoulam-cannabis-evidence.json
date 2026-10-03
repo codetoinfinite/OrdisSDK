@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mechoulam.de Cannabis Evidence Register",
+  "description": "GRADE-rated clinical evidence on cannabis as medicine (DE/EN). Search and cite studies.",
+  "packageName": "@alphesdk-remote/de-mechoulam-cannabis-evidence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mechoulam.de/mcp"
+    }
+  ],
+  "url": "https://mechoulam.de"
+}

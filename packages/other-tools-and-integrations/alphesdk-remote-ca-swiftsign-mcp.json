@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "E-signatures for agents: mint a sandbox key, send PDFs, track status, download the sealed result.",
+  "packageName": "@alphesdk-remote/ca-swiftsign-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://swiftsign.ca/mcp"
+    }
+  ],
+  "url": "https://github.com/shahdadk/swiftsign",
+  "readme": "https://github.com/shahdadk/swiftsign#readme"
+}

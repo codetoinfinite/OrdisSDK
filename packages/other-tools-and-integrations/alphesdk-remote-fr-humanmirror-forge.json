@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumanMirror Forge",
+  "description": "Five deterministic micro-tools for AI-agent data pipelines: clean, dedupe, normalize, score, detect.",
+  "packageName": "@alphesdk-remote/fr-humanmirror-forge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanmirror.fr/api/forge/mcp/"
+    }
+  ],
+  "url": "https://humanmirror.fr/forge/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "b0tl1nk",
+  "description": "Search and list applications for AI agents. Remote MCP on b0tl1nk.com.",
+  "packageName": "@alphesdk-remote/com-b0tl1nk-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://b0tl1nk.com/mcp"
+    }
+  ],
+  "url": "https://b0tl1nk.com"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "medrax",
+  "name": "MedRAX",
+  "description": "Medical reasoning agent for chest X-rays that combines a multimodal LLM with specialist imaging tools.",
+  "category": "data-science-tools",
+  "tags": ["medical-imaging", "chest-x-ray", "radiology", "langgraph", "research"],
+  "repo": "https://github.com/bowang-lab/MedRAX",
+  "homepage": "https://bowang-lab.github.io/MedRAX/",
+  "publisher": "Bo Wang Lab",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Answers questions about chest radiographs, including classification, segmentation, grounding and report generation. It is a research system for medical AI practitioners, not a clinical product.",
+  "howItWorks": "A LangGraph agent with a vision LLM backbone decides which specialised models to call, such as report generators, segmenters and classifiers, and reasons over their outputs. A Gradio interface is launched from the main script, and an OpenAI-compatible base URL allows local backends.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Backbone model; OPENAI_BASE_URL can point at a compatible server"
+    },
+    {
+      "name": "GPU",
+      "kind": "hardware",
+      "required": true,
+      "description": "Runs the local imaging tool models"
+    }
+  ],
+  "install": ["pip install -e ."],
+  "run": ["python main.py"],
+  "interfaces": ["web"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "GPT-4o by default; OpenAI-compatible endpoints",
+  "mcp": "none",
+  "github": {
+    "stars": 1238,
+    "license": "Apache-2.0",
+    "pushedAt": "2025-10-31",
+    "checkedAt": "2026-10-03"
+  }
+}

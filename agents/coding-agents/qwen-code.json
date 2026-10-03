@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "qwen-code",
+  "name": "Qwen Code",
+  "description": "Alibaba's open-source terminal coding agent with sub-agents, skills and memory, usable with Qwen and other model APIs.",
+  "category": "coding-agents",
+  "tags": ["coding", "terminal", "qwen", "subagents", "cli"],
+  "repo": "https://github.com/QwenLM/qwen-code",
+  "publisher": "Alibaba (Qwen)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Qwen Code understands and edits codebases, automates development workflows and runs in the terminal, with editor and other front ends. It suits developers who want an open agent not tied to one model vendor.",
+  "howItWorks": "A Node.js CLI runs an agent loop with file and shell tools, sub-agents, agent teams and MCP extensions. It speaks OpenAI-, Anthropic- and Gemini-style APIs, including local servers, and can switch provider at runtime.",
+  "requirements": [
+    {
+      "name": "Model access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Qwen sign-in or an API key for an OpenAI/Anthropic/Gemini-compatible provider"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the npm install"
+    }
+  ],
+  "install": ["npm install -g @qwen-code/qwen-code@latest"],
+  "run": ["cd /path/to/your-project", "qwen"],
+  "interfaces": ["cli", "ide"],
+  "language": "TypeScript",
+  "models": "Qwen, OpenAI, Anthropic, Gemini, local models (Ollama, vLLM)",
+  "mcp": "client",
+  "github": {
+    "stars": 28282,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

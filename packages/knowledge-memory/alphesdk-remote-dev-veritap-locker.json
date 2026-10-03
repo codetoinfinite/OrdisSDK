@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "locker",
+  "description": "Agent memory that survives you: free to start (any keypair, no signup); opened only by your key.",
+  "packageName": "@alphesdk-remote/dev-veritap-locker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://locker.veritap.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/veritap-dev/veritap-locker",
+  "readme": "https://github.com/veritap-dev/veritap-locker#readme"
+}

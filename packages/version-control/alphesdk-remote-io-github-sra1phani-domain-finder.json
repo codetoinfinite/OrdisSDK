@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Domain Finder",
+  "description": "Check if a brand name is free across domains, GitHub, npm and PyPI, and suggest available names.",
+  "packageName": "@alphesdk-remote/io-github-sra1phani-domain-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domain-finder-theta.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Sra1Phani/domain-finder",
+  "readme": "https://github.com/Sra1Phani/domain-finder#readme"
+}

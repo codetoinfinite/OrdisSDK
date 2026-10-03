@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Irish History: 1798, O'Connell, Young Ireland & the Great Famine",
+  "description": "United Irishmen, 1798, Repeal, Young Ireland, Great Famine and historical fiction sources.",
+  "packageName": "@alphesdk-remote/com-spencerhofmans-irish-history",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spencer-history-mcp.spencerhofmans.workers.dev/mcp"
+    }
+  ],
+  "url": "https://spencerhofmans.com"
+}

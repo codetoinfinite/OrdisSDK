@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "dependency-trust",
+  "description": "Trust-check any dependency for agents: OpenSSF Scorecard, licenses, CVEs, deps. 7 ecosystems.",
+  "packageName": "@alphesdk-remote/ai-kaiv-dependency-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.kaiv.ai/api/bridge/mcp/dependency-trust-f1aaf06d"
+    }
+  ]
+}

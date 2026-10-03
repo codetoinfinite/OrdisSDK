@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Random Number Generator",
+  "description": "Generates cryptographically random integers in a given range, using crypto/rand.",
+  "packageName": "@alphesdk-remote/com-apished-random-number-generator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/random"
+    }
+  ],
+  "url": "https://apished.com"
+}

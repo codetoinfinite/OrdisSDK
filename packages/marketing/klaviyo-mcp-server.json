@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Klaviyo",
+  "description": "Work with Klaviyo profiles, lists, campaigns, flows and reporting (private API key).",
+  "packageName": "klaviyo-mcp-server",
+  "packageVersion": "0.4.1",
+  "runtime": "python",
+  "readme": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+  "url": "https://github.com/klaviyo",
+  "author": "Klaviyo",
+  "env": {}
+}

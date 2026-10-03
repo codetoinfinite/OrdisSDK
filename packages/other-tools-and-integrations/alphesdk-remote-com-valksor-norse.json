@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "norse",
+  "description": "Grounds LLMs in real Old Norse: lemmas, mediopassive paradigms, English→Old Norse lookup.",
+  "packageName": "@alphesdk-remote/com-valksor-norse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://norse.valksor.com/mcp"
+    }
+  ],
+  "url": "https://norse.valksor.com"
+}

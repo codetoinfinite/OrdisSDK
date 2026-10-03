@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lumify Sports Intelligence",
+  "description": "Schedules, scores, odds, splits & explainable AI bet confidence — 8+ sports, free instant key.",
+  "packageName": "@alphesdk-remote/ai-lumify-sports-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lumify.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/lumifyai/lumify",
+  "readme": "https://github.com/lumifyai/lumify#readme"
+}

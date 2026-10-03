@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hum Internet Availability",
+  "description": "Check internet providers, plans, speeds, and known pricing at a specific U.S. street address.",
+  "packageName": "@alphesdk-remote/com-letshum-internet-availability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.letshum.com/mcp"
+    }
+  ],
+  "url": "https://letshum.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Audiala",
+  "description": "Audio guides for 45,000+ places in 1,900+ cities, with narrated previews in ChatGPT and Claude.",
+  "packageName": "@alphesdk-remote/com-audiala-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.audiala.com/mcp"
+    }
+  ],
+  "url": "https://github.com/audiala/mcp-server",
+  "readme": "https://github.com/audiala/mcp-server#readme"
+}

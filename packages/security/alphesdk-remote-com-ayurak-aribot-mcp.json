@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "aribot-mcp",
+  "description": "Threat modeling, code, API & cloud security, shadow-AI & compliance governance.",
+  "packageName": "@alphesdk-remote/com-ayurak-aribot-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aribot.ayurak.com/"
+    }
+  ],
+  "url": "https://api.aribot.ayurak.com/aribot/claude-connector"
+}

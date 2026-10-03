@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "proxyai",
+  "name": "ProxyAI",
+  "description": "JetBrains IDE plugin with AI chat that applies diffs, next-edit predictions, autocomplete and commit message generation.",
+  "category": "coding-agents",
+  "tags": ["jetbrains", "plugin", "autocomplete", "chat", "kotlin"],
+  "repo": "https://github.com/carlrobertoh/ProxyAI",
+  "homepage": "https://tryproxy.io",
+  "docs": "https://docs.tryproxy.io",
+  "publisher": "Carl-Robert Linnupuu",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "ProxyAI adds an AI assistant to IntelliJ-family IDEs. Developers can chat about code and have the changes applied automatically, get completions and edit predictions, and generate commit messages. It can also search the web for context.",
+  "howItWorks": "The plugin is written in Kotlin and runs inside the IDE, sending requests to the configured cloud or self-hosted model. Chat responses are converted into diffs applied to the open files. Normal users install it from the JetBrains Marketplace; the README documents running a development IDE from source.",
+  "requirements": [
+    {
+      "name": "JetBrains IDE",
+      "kind": "runtime",
+      "required": true,
+      "description": "The plugin runs inside IntelliJ-based IDEs"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Needed for hosted providers; self-hosted models are also supported"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/carlrobertoh/ProxyAI.git",
+    "cd ProxyAI",
+    "git submodule update"
+  ],
+  "run": ["./gradlew runIde"],
+  "interfaces": ["ide"],
+  "language": "Kotlin",
+  "models": "OpenAI, Anthropic, Azure, Mistral and self-hosted models",
+  "mcp": "none",
+  "github": {
+    "stars": 1935,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-05-28",
+    "checkedAt": "2026-10-03"
+  }
+}

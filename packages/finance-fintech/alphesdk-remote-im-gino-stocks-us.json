@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "US Stocks & Market Data",
+  "description": "US market snapshot, stock fundamentals, prices, statements, news and analyst views",
+  "packageName": "@alphesdk-remote/im-gino-stocks-us",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-stocks-us.gino.im/mcp"
+    }
+  ],
+  "url": "https://mcp-stocks-us.gino.im/"
+}

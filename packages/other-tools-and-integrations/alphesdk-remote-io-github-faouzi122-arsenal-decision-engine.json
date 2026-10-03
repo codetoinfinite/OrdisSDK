@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Arsenal Decision Engine",
+  "description": "R_net LP risk evaluator for DeFAI agents. IL + Breakeven Corridor O(1). L402 Lightning paywall.",
+  "packageName": "@alphesdk-remote/io-github-faouzi122-arsenal-decision-engine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.arsenal-quant.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Faouzi122/Arsenal-Quant-Project",
+  "readme": "https://github.com/Faouzi122/Arsenal-Quant-Project#readme"
+}

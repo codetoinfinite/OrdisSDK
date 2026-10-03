@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hawaii Conditions MCP Server",
+  "description": "Real-time surf, weather, trail status, volcano, ocean safety, and restaurants for Hawaii.",
+  "packageName": "@alphesdk-remote/io-github-spacemandomains-hawaii-conditions",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hawaii-conditions.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/spacemandomains/2_hawaii_conditions_mcp_server",
+  "readme": "https://github.com/spacemandomains/2_hawaii_conditions_mcp_server#readme"
+}

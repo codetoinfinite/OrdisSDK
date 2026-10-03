@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "vane",
+  "name": "Vane (formerly Perplexica)",
+  "description": "Self-hosted, privacy-focused AI answering engine that searches the web and replies with cited sources.",
+  "category": "search-data-extraction",
+  "tags": ["ai-search", "answer-engine", "searxng", "self-hosted", "privacy"],
+  "repo": "https://github.com/ItzCrazyKns/Vane",
+  "publisher": "ItzCrazyKns",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Acts as a private alternative to Perplexity: you ask a question and get a synthesised answer with source links. It is for individuals who want AI search on their own hardware with local or cloud models.",
+  "howItWorks": "A Next.js application sends queries to a SearxNG metasearch instance, then has an LLM pick, read and summarise results into a cited answer. Model providers are configured in the UI and include Ollama for local models as well as hosted APIs. The standard Docker image bundles SearxNG; a slim image can point at an existing instance.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Recommended way to run"
+    },
+    {
+      "name": "SEARXNG_API_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Existing SearxNG instance when using the slim image"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "A local Ollama server or a cloud provider key, set in the UI"
+    }
+  ],
+  "install": [],
+  "run": [
+    "docker run -d -p 3000:3000 -v vane-data:/home/vane/data --name vane itzcrazykns1337/vane:latest"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "Ollama local models, OpenAI, Anthropic Claude, Groq and others",
+  "mcp": "none",
+  "github": {
+    "stars": 36986,
+    "license": "MIT",
+    "pushedAt": "2026-09-01",
+    "checkedAt": "2026-10-03"
+  }
+}

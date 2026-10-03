@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "infersports",
+  "description": "Sharp Asian odds + opening-line (初盘) movement for agents: 6 Asian books + Pinnacle. Read-only.",
+  "packageName": "@alphesdk-remote/dev-infersports-infersports",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.infersports.dev/mcp"
+    }
+  ],
+  "url": "https://infersports.dev"
+}

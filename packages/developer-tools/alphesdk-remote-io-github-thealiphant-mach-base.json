@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MACH Base",
+  "description": "17 Base data tools for agents over Streamable HTTP MCP. Pay per call in USDC via x402; no API key.",
+  "packageName": "@alphesdk-remote/io-github-thealiphant-mach-base",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mach.gallery/mcp"
+    }
+  ],
+  "url": "https://api.mach.gallery/docs/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Alt Finder",
+  "description": "Alternatives to well-known AI tools, with revenue verified through Stripe, never invented.",
+  "packageName": "@alphesdk-remote/com-aialtfinder-aialtfinder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aialtfinder.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://aialtfinder.com"
+}

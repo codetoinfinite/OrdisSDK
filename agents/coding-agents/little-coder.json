@@ -1,0 +1,53 @@
+{
+  "type": "external-agent",
+  "key": "little-coder",
+  "name": "little-coder",
+  "description": "Coding agent tuned for small local models, built from the Pi harness plus a bundle of extensions and skills.",
+  "category": "coding-agents",
+  "tags": ["local-models", "small-models", "pi", "ollama", "terminal"],
+  "repo": "https://github.com/itayinbarr/little-coder",
+  "publisher": "Itay Inbar",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "little-coder makes agentic coding practical on modest hardware by adapting the workflow to small models. It runs against llama.cpp, Ollama or LM Studio and can also use cloud models. It is for developers who want a private, offline-capable coding helper.",
+  "howItWorks": "The project packages Pi with roughly thirty extensions and a set of skills that compensate for the limits of small models. The model is picked with a command-line flag, and cloud providers are enabled through environment variables.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the npm-installed CLI"
+    },
+    {
+      "name": "Local model server",
+      "kind": "service",
+      "required": false,
+      "description": "llama.cpp, Ollama or LM Studio for local inference"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only for Anthropic cloud models"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only for OpenAI cloud models"
+    }
+  ],
+  "install": ["npm install -g little-coder"],
+  "run": ["little-coder", "little-coder --model ollama/qwen3.5"],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "framework": "Pi",
+  "models": "Small local models via llama.cpp, Ollama, LM Studio; cloud models optional",
+  "mcp": "none",
+  "github": {
+    "stars": 2639,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-18",
+    "checkedAt": "2026-10-03"
+  }
+}

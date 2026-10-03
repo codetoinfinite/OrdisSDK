@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tarot",
+  "description": "Значения карт Таро и Ленормана, расчёты Матрицы судьбы и Квадрата Пифагора.",
+  "packageName": "@alphesdk-remote/com-arcanika-tarot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arcanika.com/mcp"
+    }
+  ],
+  "url": "https://arcanika.com/ru/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Refine Job Search",
+  "description": "Job search management: applications, interviews, offers, recruiter email, and company openings.",
+  "packageName": "@alphesdk-remote/co-getrefine-refine",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getrefine.co/mcp"
+    }
+  ],
+  "url": "https://getrefine.co/mcp"
+}

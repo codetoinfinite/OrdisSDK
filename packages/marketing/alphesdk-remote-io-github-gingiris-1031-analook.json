@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Analook — Competitor Intelligence",
+  "description": "Competitor intelligence for AI agents — SEO, traffic, social, Product Hunt, pricing, AI insights.",
+  "packageName": "@alphesdk-remote/io-github-gingiris-1031-analook",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.analook.com/mcp/"
+    }
+  ],
+  "url": "https://github.com/Gingiris-1031/Competitor-analysis-tool",
+  "readme": "https://github.com/Gingiris-1031/Competitor-analysis-tool#readme"
+}

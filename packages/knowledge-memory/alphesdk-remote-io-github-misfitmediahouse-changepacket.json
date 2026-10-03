@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ChangePacket",
+  "description": "Web and MCP change memory with native diff UI; later calls return only what changed.",
+  "packageName": "@alphesdk-remote/io-github-misfitmediahouse-changepacket",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cibcxqrqiqvzpardbdrw.supabase.co/functions/v1/changepacket-mcp"
+    }
+  ],
+  "url": "https://cibcxqrqiqvzpardbdrw.supabase.co/functions/v1/deltafeed"
+}

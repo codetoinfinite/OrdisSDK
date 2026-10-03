@@ -1,0 +1,70 @@
+{
+  "type": "external-agent",
+  "key": "social-media-agent",
+  "name": "Social Media Agent",
+  "description": "Agent that reads a URL and drafts Twitter and LinkedIn posts, with human review before publishing.",
+  "category": "marketing",
+  "tags": ["social-media", "content-generation", "human-in-the-loop", "langgraph"],
+  "repo": "https://github.com/langchain-ai/social-media-agent",
+  "publisher": "LangChain",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Sources content from a link, writes posts for X and LinkedIn and schedules them after a person approves or edits the draft. It is for marketing and developer-relations teams.",
+  "howItWorks": "A LangGraph graph scrapes the page with Firecrawl, generates a post with Claude and pauses for human-in-the-loop review, which also covers platform authentication. It runs on a local LangGraph server and is triggered by a script; the full setup adds Supabase, Slack and direct social API credentials.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LLM for post generation"
+    },
+    {
+      "name": "LANGSMITH_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "LangSmith / LangGraph access"
+    },
+    {
+      "name": "FIRECRAWL_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Web scraping"
+    },
+    {
+      "name": "ARCADE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Social media authentication in the quickstart"
+    },
+    {
+      "name": "TWITTER_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Direct Twitter access in the full setup"
+    },
+    {
+      "name": "LINKEDIN_ACCESS_TOKEN",
+      "kind": "api-key",
+      "required": false,
+      "description": "Direct LinkedIn access in the full setup"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/langchain-ai/social-media-agent.git",
+    "yarn install",
+    "cp .env.quickstart.example .env",
+    "pip install langgraph-cli"
+  ],
+  "run": ["yarn langgraph:in_mem:up", "yarn generate_post"],
+  "interfaces": ["cli", "web"],
+  "language": "TypeScript",
+  "framework": "LangGraph",
+  "models": "Anthropic Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 2821,
+    "license": "MIT",
+    "pushedAt": "2026-10-01",
+    "checkedAt": "2026-10-03"
+  }
+}

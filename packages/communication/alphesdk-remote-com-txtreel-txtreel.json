@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "txtreel",
+  "description": "Free iMessage, WhatsApp, Instagram DM and Reddit chat videos (1080x1920 MP4) and screenshots.",
+  "packageName": "@alphesdk-remote/com-txtreel-txtreel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://txtreel.com/mcp"
+    }
+  ],
+  "url": "https://txtreel.com"
+}

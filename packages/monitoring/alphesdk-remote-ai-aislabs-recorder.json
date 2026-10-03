@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AIS Agent Flight Recorder — dead-man alerts & resume for AI agents",
+  "description": "Dead-man switch for AI agents & cron jobs: heartbeat with state capsule, alerts + resume links",
+  "packageName": "@alphesdk-remote/ai-aislabs-recorder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aislabs.ai/recorder/mcp"
+    }
+  ],
+  "url": "https://aislabs.ai/gateway"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "IPOGrid IPO Calendar & Filing Research",
+  "description": "IPO calendar, SEC filings, deal terms, and IPO news research via the IPOGrid MCP server.",
+  "packageName": "@alphesdk-remote/com-ipogrid-ipogrid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ipogrid.com/mcp"
+    }
+  ]
+}

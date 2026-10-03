@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "variance-log",
+  "packageName": "git+https://github.com/truaxki/mcp-variance-log@60fa893017ae3bcc9202626aa283999c1f628b7c",
   "description": "Analyzes statistical variations in conversation structures and logs unusual events to a SQLite database for monitoring AI behavior and detecting anomalies.",
   "url": "https://github.com/truaxki/mcp-variance-log",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "Variance Log"
+  "name": "Variance Log",
+  "bin": "mcp-variance-log",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

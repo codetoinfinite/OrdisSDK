@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Thmenu",
+  "description": "Restaurant menus, carts, reservations and owner drafts for AI agents (Thmenu MCP).",
+  "packageName": "@alphesdk-remote/com-thmenu-thmenu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thmenu.com/"
+    }
+  ],
+  "url": "https://thmenu.com"
+}

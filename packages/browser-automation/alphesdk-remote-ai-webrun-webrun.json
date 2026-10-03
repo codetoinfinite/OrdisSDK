@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WebRun Browser Automation",
+  "description": "Run multi-step tasks in a real Chrome browser: persistent environments, live view, human takeover.",
+  "packageName": "@alphesdk-remote/ai-webrun-webrun",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.webrun.ai/mcp"
+    }
+  ],
+  "url": "https://webrun.ai"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wiremi Marketing MCP",
+  "description": "Read-only ROSCA and savings-circle answers and calculators, from Wiremi's public facts.",
+  "packageName": "@alphesdk-remote/ca-wiremi-marketing-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wiremi-marketing-mcp-pqlquijg3q-uk.a.run.app/mcp"
+    }
+  ],
+  "url": "https://github.com/wiremeM/backend-v2",
+  "readme": "https://github.com/wiremeM/backend-v2#readme"
+}

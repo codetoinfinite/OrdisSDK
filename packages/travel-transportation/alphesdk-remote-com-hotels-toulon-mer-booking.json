@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "booking",
+  "description": "Hôtel-Rooftop Les Voiles, Toulon Mourillon : disponibilités, tarifs réels et table au rooftop.",
+  "packageName": "@alphesdk-remote/com-hotels-toulon-mer-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hotels-toulon-mer.com/mcp"
+    }
+  ],
+  "url": "https://hotels-toulon-mer.com"
+}

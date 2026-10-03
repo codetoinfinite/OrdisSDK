@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "sqlbot",
+  "name": "SQLBot",
+  "description": "ChatBI system that answers business questions by generating SQL with an LLM plus retrieval, with workspaces and permissions.",
+  "category": "databases",
+  "tags": ["chatbi", "text-to-sql", "rag", "embeddable", "docker"],
+  "repo": "https://github.com/dataease/SQLBot",
+  "homepage": "https://sqlbot.org/",
+  "publisher": "FIT2CLOUD (DataEase)",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets business users ask questions of company databases in plain language and get query results and charts. Administrators manage data sources, workspaces and access rules.",
+  "howItWorks": "A web service combines an LLM with retrieval over schema and terminology to produce SQL, and bundles its own PostgreSQL. It can be embedded in other applications and is callable by other agents over MCP on a second port.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the all-in-one image"
+    },
+    {
+      "name": "LLM endpoint",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model configured in the admin UI"
+    }
+  ],
+  "install": [],
+  "run": [
+    "docker run -d --name sqlbot --restart unless-stopped -p 8000:8000 -p 8001:8001 -v ./data/sqlbot/excel:/opt/sqlbot/data/excel -v ./data/sqlbot/file:/opt/sqlbot/data/file -v ./data/sqlbot/images:/opt/sqlbot/images -v ./data/sqlbot/logs:/opt/sqlbot/app/logs -v ./data/postgresql:/var/lib/postgresql/data --privileged=true dataease/sqlbot"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 6866,
+    "pushedAt": "2026-09-24",
+    "checkedAt": "2026-10-03"
+  }
+}

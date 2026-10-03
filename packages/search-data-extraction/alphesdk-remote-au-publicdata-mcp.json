@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "publicdata.au",
+  "description": "Search, filter, count and sum Australian government open data, with every version kept.",
+  "packageName": "@alphesdk-remote/au-publicdata-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://publicdata.au/mcp"
+    }
+  ],
+  "url": "https://publicdata.au/agents/#mcp"
+}

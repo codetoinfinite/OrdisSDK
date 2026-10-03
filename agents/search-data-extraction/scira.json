@@ -1,0 +1,78 @@
+{
+  "type": "external-agent",
+  "key": "scira",
+  "name": "Scira",
+  "description": "Agentic research and search platform that plans a query, retrieves live sources and answers with inline citations.",
+  "category": "search-data-extraction",
+  "tags": ["ai-search", "research", "citations", "nextjs", "agentic"],
+  "repo": "https://github.com/zaidmukaddam/scira",
+  "homepage": "https://scira.ai",
+  "publisher": "Zaid Mukaddam",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Accepts a question, PDF or URL, breaks it into sub-tasks, searches live sources and returns a grounded answer with clickable citations. It is a hosted product whose code can also be self-hosted.",
+  "howItWorks": "A Next.js app built on the Vercel AI SDK lets the model call a large set of tools such as web search (Exa, Tavily, Firecrawl), maps, weather, media lookups and sandboxed code execution. It needs a database, Redis and many provider keys defined in an env file. It runs with Docker Compose or Bun.",
+  "requirements": [
+    {
+      "name": "XAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "xAI models"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "OpenAI models"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Anthropic models"
+    },
+    {
+      "name": "EXA_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Exa web search"
+    },
+    {
+      "name": "TAVILY_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Tavily web search"
+    },
+    {
+      "name": "DATABASE_URL",
+      "kind": "service",
+      "required": true,
+      "description": "Application database"
+    },
+    {
+      "name": "REDIS_URL",
+      "kind": "service",
+      "required": false,
+      "description": "Redis instance"
+    },
+    {
+      "name": "BETTER_AUTH_SECRET",
+      "kind": "runtime",
+      "required": true,
+      "description": "Auth secret"
+    }
+  ],
+  "install": ["bun install"],
+  "run": ["docker compose up", "bun dev"],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "framework": "Vercel AI SDK",
+  "models": "xAI, OpenAI, Anthropic, Groq, Google",
+  "mcp": "none",
+  "github": {
+    "stars": 11906,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-08-12",
+    "checkedAt": "2026-10-03"
+  }
+}

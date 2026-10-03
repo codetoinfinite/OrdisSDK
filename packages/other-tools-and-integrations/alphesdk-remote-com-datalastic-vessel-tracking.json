@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Datalastic Vessel Tracking & Maritime Intelligence",
+  "description": "Vessel tracking for 750,000+ ships, with ownership, inspections, port records, routes, and more.",
+  "packageName": "@alphesdk-remote/com-datalastic-vessel-tracking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.datalastic.com/mcp"
+    }
+  ],
+  "url": "https://github.com/datalastic/mcp-server-datalastic",
+  "readme": "https://github.com/datalastic/mcp-server-datalastic#readme"
+}

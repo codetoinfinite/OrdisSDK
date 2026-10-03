@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "madeagents-mobile-use",
+  "name": "Mobile Use (MadeAgents)",
+  "description": "Android GUI agent that operates a phone over ADB from natural language, with a web interface and reflective multi-agent control.",
+  "category": "other-tools-and-integrations",
+  "tags": ["mobile-agent", "android", "adb", "gui-agent"],
+  "repo": "https://github.com/MadeAgents/mobile-use",
+  "publisher": "MadeAgents",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Executes everyday phone tasks across apps for a user who types the instruction. It is published by a research group and is also used for benchmark evaluation of mobile agents.",
+  "howItWorks": "The agent captures screenshots through ADB and sends them to a multimodal model that selects an action, which is then applied to the device. Reflection at several levels checks progress and recovers from mistakes. It can be used as a Python package or through a browser-based control page.",
+  "requirements": [
+    {
+      "name": "Python 3.10+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "ADB and an Android device",
+      "kind": "hardware",
+      "required": true,
+      "description": "Phone or emulator with debugging enabled"
+    },
+    {
+      "name": "Multimodal model endpoint",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key and URL for the vision-language model"
+    }
+  ],
+  "install": ["pip install mobile-use"],
+  "run": [],
+  "interfaces": ["web", "library", "cli"],
+  "language": "Python",
+  "models": "Multimodal models such as Qwen VL via OpenAI-compatible APIs",
+  "mcp": "none",
+  "github": {
+    "stars": 227,
+    "license": "MIT",
+    "pushedAt": "2026-07-10",
+    "checkedAt": "2026-10-03"
+  }
+}

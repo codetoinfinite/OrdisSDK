@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "swop",
+  "description": "Sell to people and AI agents: create products, a storefront, and USDC payment links from chat.",
+  "packageName": "@alphesdk-remote/io-github-travisswop-swop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.swopme.co/mcp/commerce"
+    }
+  ],
+  "url": "https://github.com/Travisswop/swop-mcp",
+  "readme": "https://github.com/Travisswop/swop-mcp#readme"
+}

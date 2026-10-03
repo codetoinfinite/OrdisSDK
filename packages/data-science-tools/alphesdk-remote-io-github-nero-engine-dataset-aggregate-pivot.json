@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dataset Aggregate & Pivot",
+  "description": "GROUP BY and pivot tables for JSON rows: 11 functions, date buckets, top N, totals, messy numbers.",
+  "packageName": "@alphesdk-remote/io-github-nero-engine-dataset-aggregate-pivot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dataset-aggregate-pivot.nerolabs.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Nero-Engine/dataset-aggregate-pivot-mcp",
+  "readme": "https://github.com/Nero-Engine/dataset-aggregate-pivot-mcp#readme"
+}

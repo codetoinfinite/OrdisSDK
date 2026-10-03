@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PortfolioFit",
+  "description": "Check normalized portfolios against mandates and calculate allocation constraints.",
+  "packageName": "@alphesdk-remote/fit-portfolio-portfoliofit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://portfolio.fit/mcp"
+    }
+  ],
+  "url": "https://portfolio.fit/mcp-docs/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "knowledge",
+  "description": "Evidence-graded, task-level record of how AI and automation change jobs and degrees. Read-only.",
+  "packageName": "@alphesdk-remote/ai-flyvolo-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flyvolo.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/weihermans/VOLO",
+  "readme": "https://github.com/weihermans/VOLO#readme"
+}

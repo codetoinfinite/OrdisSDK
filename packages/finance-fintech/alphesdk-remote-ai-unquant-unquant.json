@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Unquant",
+  "description": "Financial data MCP for market, company, news, macro, and US Congress research.",
+  "packageName": "@alphesdk-remote/ai-unquant-unquant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://unquant.ai/mcp"
+    }
+  ],
+  "url": "https://unquant.ai"
+}

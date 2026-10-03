@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FindingLeads",
+  "description": "What unanswered calls cost a home-service business, by trade and call volume.",
+  "packageName": "@alphesdk-remote/com-findingleads-findingleads",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://findingleads.com/api/mcp"
+    }
+  ],
+  "url": "https://findingleads.com"
+}

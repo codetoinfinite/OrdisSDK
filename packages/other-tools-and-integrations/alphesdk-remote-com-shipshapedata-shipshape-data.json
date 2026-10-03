@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Shipshape Data",
+  "description": "Services, case studies, 169 data and AI guides, and AI readiness scoring. Read-only, keyless.",
+  "packageName": "@alphesdk-remote/com-shipshapedata-shipshape-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shipshapedata.com/mcp"
+    }
+  ],
+  "url": "https://github.com/shipshapedata/agent-tools",
+  "readme": "https://github.com/shipshapedata/agent-tools#readme"
+}

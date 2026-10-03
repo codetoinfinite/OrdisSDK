@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "eyeot ERP",
+  "description": "ERP français avec serveur MCP natif : plus de 1 800 actions métier auto-générées via OpenAPI.",
+  "packageName": "@alphesdk-remote/io-github-termi24-eyeot-erp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://erp.eyeot.fr/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Termi24/ERP-by-Eyeot-Software",
+  "readme": "https://github.com/Termi24/ERP-by-Eyeot-Software#readme"
+}

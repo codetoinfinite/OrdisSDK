@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "UICapsule",
+  "description": "Search and install interactive React components with unusual motion, via the shadcn CLI.",
+  "packageName": "@alphesdk-remote/com-uicapsule-components",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.uicapsule.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kyh/uicapsule",
+  "readme": "https://github.com/kyh/uicapsule#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TestGraph",
+  "description": "Shared semantic graph for AI reviews, classification and structured memory across AI assistants.",
+  "packageName": "@alphesdk-remote/io-github-bbcbasic-testgraph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://testgraph.21dle.co.uk/mcp-v2"
+    }
+  ],
+  "url": "https://github.com/BBCBasic/TestGraph",
+  "readme": "https://github.com/BBCBasic/TestGraph#readme"
+}

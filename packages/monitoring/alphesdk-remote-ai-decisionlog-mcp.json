@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Decision Log",
+  "description": "Append-only decisions with provenance, supersession, retrieval, and audited MCP actions.",
+  "packageName": "@alphesdk-remote/ai-decisionlog-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.decisionlog.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.decisionlog.ai"
+}

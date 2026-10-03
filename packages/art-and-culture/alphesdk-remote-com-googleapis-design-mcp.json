@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Provides UX capabilities to enhance the design output and understanding of AI systems.",
+  "packageName": "@alphesdk-remote/com-googleapis-design-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://design.googleapis.com/mcp"
+    }
+  ]
+}

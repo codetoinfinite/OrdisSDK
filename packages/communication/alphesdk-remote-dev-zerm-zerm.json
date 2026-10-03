@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "zerm",
+  "description": "Agent utility belt: memory, locks, webhook inboxes, timers, DNS, email, URL, timezone, cron",
+  "packageName": "@alphesdk-remote/dev-zerm-zerm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zerm.dev/mcp"
+    }
+  ],
+  "url": "https://zerm.dev"
+}

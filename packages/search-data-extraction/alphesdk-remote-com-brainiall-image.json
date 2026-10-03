@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Brainiall Image",
+  "description": "Background removal, upscaling, face restore, document OCR, table extraction, visual understanding.",
+  "packageName": "@alphesdk-remote/com-brainiall-image",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.brainiall.com/mcp/image/mcp"
+    }
+  ],
+  "url": "https://brainiall.com"
+}

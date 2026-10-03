@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ReplyNodes",
+  "description": "Web MCP: scrape/crawl sites, web search, brand assets, app stores, YouTube, Reddit, Hacker News.",
+  "packageName": "@alphesdk-remote/com-replynodes-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.replynodes.com/mcp"
+    }
+  ],
+  "url": "https://github.com/replynodes/replynodes-mcp",
+  "readme": "https://github.com/replynodes/replynodes-mcp#readme"
+}

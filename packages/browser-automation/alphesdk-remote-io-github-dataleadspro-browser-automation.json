@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "browser-automation",
+  "description": "Programmatic headless browser sessions: create, interact, browse, and extract - rendered in a real",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-browser-automation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/browser-automation"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/browser-automation",
+  "readme": "https://github.com/DataLeadsPRO/browser-automation#readme"
+}

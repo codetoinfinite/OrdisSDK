@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SEC Fundamentals API",
+  "description": "SEC EDGAR financials, benchmarks, screening & Buffett value scans for agents. Pay x402 or API key.",
+  "packageName": "@alphesdk-remote/com-multyplylabs-sec-fundamentals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sec.multyplylabs.com/mcp"
+    }
+  ],
+  "url": "https://sec.multyplylabs.com"
+}

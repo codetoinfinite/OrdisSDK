@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ContextLayer",
+  "description": "Intelligent context infrastructure for AI teams: knowledge graph, sessions, tasks, documents.",
+  "packageName": "@alphesdk-remote/io-github-dotnova-context-layer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dotnova.io/mcp"
+    }
+  ],
+  "url": "https://github.com/DotNova/context-layer",
+  "readme": "https://github.com/DotNova/context-layer#readme"
+}

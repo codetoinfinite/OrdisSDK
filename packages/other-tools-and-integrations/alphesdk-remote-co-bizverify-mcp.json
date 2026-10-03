@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BizVerify",
+  "description": "KYB for AI agents: verify business registrations from MCP clients.",
+  "packageName": "@alphesdk-remote/co-bizverify-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.bizverify.co/mcp"
+    }
+  ],
+  "url": "https://github.com/BizVerify/bizverify-mcp",
+  "readme": "https://github.com/BizVerify/bizverify-mcp#readme"
+}

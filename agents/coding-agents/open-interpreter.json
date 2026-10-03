@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "open-interpreter",
+  "name": "Open Interpreter",
+  "description": "Terminal agent that writes and runs code on your machine and ships a computer-use skill for driving browsers and desktops.",
+  "category": "coding-agents",
+  "tags": ["terminal-agent", "computer-use", "coding", "rust"],
+  "repo": "https://github.com/openinterpreter/openinterpreter",
+  "homepage": "https://www.openinterpreter.com",
+  "publisher": "Open Interpreter",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Acts as a local assistant that executes tasks through code and shell commands, for developers and power users. The current generation is a Rust-based coding agent that can also test and operate graphical applications through a bundled computer-use skill.",
+  "howItWorks": "The interpreter binary runs an agent loop in the terminal, calling a model and executing the tool calls it proposes. It can mimic other agent harnesses, speaks the Agent Client Protocol for editor integration and can connect to MCP servers for extra tools.",
+  "requirements": [
+    {
+      "name": "LLM provider access",
+      "kind": "api-key",
+      "required": true,
+      "description": "Credentials for the model provider the agent talks to"
+    }
+  ],
+  "install": ["curl -fsSL https://www.openinterpreter.com/install | sh"],
+  "run": ["interpreter"],
+  "interfaces": ["cli", "ide"],
+  "language": "Rust",
+  "models": "Multiple providers, configurable",
+  "mcp": "client",
+  "github": {
+    "stars": 68495,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

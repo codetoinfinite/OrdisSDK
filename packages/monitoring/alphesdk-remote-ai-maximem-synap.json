@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Synap Memory",
+  "description": "Persistent memory for AI agents — log and recall conversation context over MCP.",
+  "packageName": "@alphesdk-remote/ai-maximem-synap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://synap-mcp.maximem.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/maximem-ai/maximem_synap_sdk",
+  "readme": "https://github.com/maximem-ai/maximem_synap_sdk#readme"
+}

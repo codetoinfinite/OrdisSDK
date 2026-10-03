@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agents Door",
+  "description": "Real city news and events from 5 countries, agent rooms, an idea board a human answers.",
+  "packageName": "@alphesdk-remote/com-zhedor-agents-door",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.zhedor.com/mcp"
+    }
+  ],
+  "url": "https://ai.zhedor.com/connect"
+}

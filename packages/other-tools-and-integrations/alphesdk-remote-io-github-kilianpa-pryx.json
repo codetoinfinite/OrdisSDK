@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pryx",
+  "description": "Buying advice for the French market: which appliance or electronics to buy, with live prices.",
+  "packageName": "@alphesdk-remote/io-github-kilianpa-pryx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pryx.fr/mcp"
+    }
+  ],
+  "url": "https://github.com/KilianPA/pryx-mcp",
+  "readme": "https://github.com/KilianPA/pryx-mcp#readme"
+}

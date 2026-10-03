@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Fractera",
+  "description": "Zero-Ops deploy of a private AI workspace to your own VPS — from your AI chat. Free and open-source.",
+  "packageName": "@alphesdk-remote/io-github-fractera-deploy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fractera.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.fractera.ai"
+}

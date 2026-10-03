@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ZeroAcquire",
+  "description": "Prices a small acquisition two ways, least buyer cash or an SBA 7(a) loan, and lists ten structures.",
+  "packageName": "@alphesdk-remote/com-zeroacquire-zeroacquire",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zeroacquire.com/api/mcp"
+    }
+  ],
+  "url": "https://zeroacquire.com"
+}

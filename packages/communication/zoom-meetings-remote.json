@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Zoom (meetings)",
+  "description": "Zoom-hosted server for meetings, recordings and summaries (separate endpoints exist for docs and chat).",
+  "packageName": "@alphesdk-remote/zoom-meetings",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.zoom.us/mcp/meeting/streamable",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://developers.zoom.us/",
+  "url": "https://github.com/zoom",
+  "author": "Zoom",
+  "env": {}
+}

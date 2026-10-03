@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "writeflow",
+  "description": "Get today's WriteFlow daily writing prompt and weekly £10 writing contest info (writeflow.ink).",
+  "packageName": "@alphesdk-remote/ink-writeflow-writeflow",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://writeflow.ink/mcp"
+    }
+  ],
+  "url": "https://writeflow.ink"
+}

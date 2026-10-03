@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "storefront",
+  "description": "Discover Algerian COD stores on Mystoq, or manage your own: products, prices, shipping/fraud tools.",
+  "packageName": "@alphesdk-remote/com-mystoq-storefront",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mystoq.com/api/mcp"
+    }
+  ],
+  "url": "https://mystoq.com/mcp"
+}

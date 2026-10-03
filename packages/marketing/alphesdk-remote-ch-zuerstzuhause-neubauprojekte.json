@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Zuerst zuhause – Swiss new-build projects",
+  "description": "Swiss building applications: new residential projects, months before they are advertised.",
+  "packageName": "@alphesdk-remote/ch-zuerstzuhause-neubauprojekte",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zuerstzuhause.ch/mcp"
+    }
+  ],
+  "url": "https://zuerstzuhause.ch/ratgeber/ki-assistenten"
+}

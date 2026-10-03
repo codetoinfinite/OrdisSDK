@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "knownote",
+  "name": "KnowNote",
+  "description": "Local-first desktop research workspace that turns your documents into a knowledge base with grounded answers.",
+  "category": "knowledge-memory",
+  "tags": ["notebooklm-alternative", "desktop", "local-rag", "research-workspace"],
+  "repo": "https://github.com/mrsibe/KnowNote",
+  "homepage": "https://knownote.pages.dev",
+  "publisher": "MrSibe",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Lets you collect documents into notebooks and question them, with answers tied back to the source material. It is for individuals who want a NotebookLM-like tool on their own machine with their own model.",
+  "howItWorks": "A desktop app performs retrieval over locally indexed documents and calls a user-supplied model. A notebook can also be served to a local agent through a read-only stdio MCP interface that uses the same retrieval path. Prebuilt releases are published; the README documents running from source.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Bring your own model"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": false,
+      "description": "For running from source"
+    }
+  ],
+  "install": ["git clone https://github.com/MrSibe/KnowNote.git", "cd KnowNote", "npm install"],
+  "run": ["npm run dev"],
+  "interfaces": ["desktop"],
+  "language": "TypeScript",
+  "models": "User-configured providers",
+  "mcp": "server",
+  "github": {
+    "stars": 1154,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

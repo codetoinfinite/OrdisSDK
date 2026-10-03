@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Partelisto",
+  "description": "Guest check-in, SES.HOSPEDAJES status, and booking creation for Spanish vacation rentals. No PII.",
+  "packageName": "@alphesdk-remote/io-github-targetgrps-partelisto-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.partelisto.es/mcp"
+    }
+  ],
+  "url": "https://github.com/TargetGrps/partelisto-mcp",
+  "readme": "https://github.com/TargetGrps/partelisto-mcp#readme"
+}

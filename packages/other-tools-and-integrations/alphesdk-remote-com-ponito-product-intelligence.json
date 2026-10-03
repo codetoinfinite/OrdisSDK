@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "product-intelligence",
+  "description": "Compare prices across Swiss and European shops — barcode (GTIN) lookup and daily price history.",
+  "packageName": "@alphesdk-remote/com-ponito-product-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ponito.com/mcp"
+    }
+  ],
+  "url": "https://www.ponito.com/platform/products/mcp"
+}

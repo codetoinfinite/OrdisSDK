@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Geolithic",
+  "description": "One face of the Earth, yours alone for one term, proven on a public chain. A dollar. Readings free.",
+  "packageName": "@alphesdk-remote/io-github-howardzheni-geolithic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://geolithicintelligence.com/mcp"
+    }
+  ],
+  "url": "https://geolithicintelligence.com"
+}

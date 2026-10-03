@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RememberMCP",
+  "description": "Private document cloud for MCP agents. Claim a link, then store and recall.",
+  "packageName": "@alphesdk-remote/com-remembermcp-remembermcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remembermcp.com/mcp"
+    }
+  ],
+  "url": "https://remembermcp.com"
+}

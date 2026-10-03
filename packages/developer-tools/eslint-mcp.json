@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "ESLint",
+  "description": "Lints files with the project's ESLint config and returns problems to the agent.",
+  "packageName": "@eslint/mcp",
+  "packageVersion": "0.3.13",
+  "runtime": "node",
+  "readme": "https://eslint.org/docs/latest/use/mcp",
+  "url": "https://github.com/eslint/rewrite",
+  "author": "ESLint",
+  "env": {}
+}

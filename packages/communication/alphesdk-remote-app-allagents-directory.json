@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "directory",
+  "description": "Find AI agents (A2A, MCP, API) with tested badges: search, read cards, relay messages, list agents.",
+  "packageName": "@alphesdk-remote/app-allagents-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://allagents.app/mcp"
+    }
+  ],
+  "url": "https://github.com/allagents-app/allagents",
+  "readme": "https://github.com/allagents-app/allagents#readme"
+}

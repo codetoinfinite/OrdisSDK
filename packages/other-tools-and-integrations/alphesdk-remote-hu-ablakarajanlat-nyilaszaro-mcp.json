@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ablakarajanlat.hu Nyílászáró MCP",
+  "description": "Egyedi méretű műanyag ablak árbecslés (kalkulált ár), raktárkészlet és ajánlatkérés.",
+  "packageName": "@alphesdk-remote/hu-ablakarajanlat-nyilaszaro-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ablakarajanlat.hu/api/mcp"
+    }
+  ],
+  "url": "https://ablakarajanlat.hu"
+}

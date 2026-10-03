@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "magnitude-browser-agent",
+  "name": "Magnitude Browser Agent",
+  "description": "Vision-first browser agent for TypeScript that navigates, interacts, extracts data and verifies results from natural-language steps.",
+  "category": "browser-automation",
+  "tags": ["browser-agent", "vision", "testing", "typescript"],
+  "repo": "https://github.com/magnitudedev/browser-agent",
+  "homepage": "https://magnitude.run",
+  "publisher": "Magnitude",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Automates web applications and writes end-to-end tests by describing actions and checks in plain language. Developers use it either as an automation library or through the bundled test runner.",
+  "howItWorks": "The agent looks at screenshots with a visually grounded model and issues pixel-level mouse and keyboard actions rather than relying on DOM selectors. A scaffolding command creates a starter project, and a separate test package wraps the same agent with assertions.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the packages"
+    },
+    {
+      "name": "Vision LLM key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for a visually grounded model provider"
+    }
+  ],
+  "install": ["npx create-magnitude-app"],
+  "run": [],
+  "interfaces": ["library", "cli"],
+  "language": "TypeScript",
+  "models": "Visually grounded models such as Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 4135,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-02-08",
+    "checkedAt": "2026-10-03"
+  }
+}

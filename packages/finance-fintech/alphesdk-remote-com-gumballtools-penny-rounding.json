@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Penny Rounding",
+  "description": "Round cash totals to the nearest nickel correctly — after tax, on the total, cash only.",
+  "packageName": "@alphesdk-remote/com-gumballtools-penny-rounding",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://penny-rounding.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "dotsweep",
+  "description": "Domain availability across 1,200+ TLDs, with renewal price, minimum term and eligibility",
+  "packageName": "@alphesdk-remote/com-dotsweep-dotsweep",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dotsweep.com/mcp"
+    }
+  ],
+  "url": "https://dotsweep.com"
+}

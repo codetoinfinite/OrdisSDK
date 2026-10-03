@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Horse Truth Machine Intelligence",
+  "description": "Australian racehorse intelligence for AI agents with free discovery and accountless x402-paid tools.",
+  "packageName": "@alphesdk-remote/io-github-datapunterau-horse-truth-machine-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://horse-truth-edge-production.up.railway.app/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/DataPunterAU/HorseTruth-MCP",
+  "readme": "https://github.com/DataPunterAU/HorseTruth-MCP#readme"
+}

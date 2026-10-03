@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rahul D Sarker: Marketing & RevOps Tools",
+  "description": "111 marketing, RevOps and SaaS calculators, plus article search and live call booking.",
+  "packageName": "@alphesdk-remote/co-rahuldsarker-growth-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rahuldsarker.co/api/mcp"
+    }
+  ],
+  "url": "https://rahuldsarker.co/mcp"
+}

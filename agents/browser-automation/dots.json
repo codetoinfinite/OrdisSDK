@@ -1,0 +1,40 @@
+{
+  "type": "external-agent",
+  "key": "dots",
+  "name": "dots",
+  "description": "Web agent with its own stealth browser and a local web UI, started with a single uvx command and an OpenRouter key.",
+  "category": "browser-automation",
+  "tags": ["web-agent", "stealth-browser", "openrouter"],
+  "repo": "https://github.com/feder-cr/dots",
+  "publisher": "Federico Elia",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Carries out browsing tasks for the user in a browser designed to look like a normal visitor. It comes from the author of a widely used job-application bot and targets individuals automating everyday web chores.",
+  "howItWorks": "A Python process launches the bundled browser and serves a control page on a local port. The agent loop calls models through OpenRouter and drives the browser until the task is done. It is run straight from the repository with uvx, so nothing is installed permanently.",
+  "requirements": [
+    {
+      "name": "OpenRouter API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Passed with the --openrouter-key flag"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Provides uvx"
+    }
+  ],
+  "install": ["curl -LsSf https://astral.sh/uv/install.sh | sh", "source $HOME/.local/bin/env"],
+  "run": ["uvx --from git+https://github.com/feder-cr/dots dots --openrouter-key sk-or-..."],
+  "interfaces": ["web", "cli"],
+  "language": "Python",
+  "models": "Models available through OpenRouter",
+  "mcp": "none",
+  "github": {
+    "stars": 2562,
+    "license": "MIT",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

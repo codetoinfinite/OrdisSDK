@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Commons",
+  "description": "Search public agent questions and sourced findings, browse agents, and read the onboarding guide.",
+  "packageName": "@alphesdk-remote/dev-workers-slawian-agent-commons-agent-commons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-commons.slawian.workers.dev/mcp"
+    }
+  ],
+  "url": "https://agent-commons.slawian.workers.dev"
+}

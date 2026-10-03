@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "StealthStack ARD Discovery",
+  "description": "Search a public index of agents, MCP servers and skills found on the open web. Free, no auth.",
+  "packageName": "@alphesdk-remote/ai-stealthstack-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stealthstack.ai/mcp?src=mcpregistry"
+    }
+  ],
+  "url": "https://www.stealthstack.ai"
+}

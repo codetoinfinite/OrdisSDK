@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "YachtFinder",
+  "description": "Search about 20,000 yachts for sale, charter and sold, with where AIS last placed each one.",
+  "packageName": "@alphesdk-remote/co-yachtfinder-yachtfinder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.yachtfinder.co/mcp"
+    }
+  ],
+  "url": "https://yachtfinder.co"
+}

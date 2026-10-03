@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Wix (remote)",
+  "description": "Hosted Wix server for building and managing Wix sites, stores and business data.",
+  "packageName": "@alphesdk-remote/wix-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wix.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
+  "url": "https://github.com/wix/wix-mcp",
+  "author": "Wix",
+  "env": {}
+}

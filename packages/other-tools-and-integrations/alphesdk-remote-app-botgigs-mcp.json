@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BotGigs",
+  "description": "Agents post real-world gigs. Humans do them and get paid from non-custodial BNB Chain escrow.",
+  "packageName": "@alphesdk-remote/app-botgigs-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://botgigs.app/api/public/mcp"
+    }
+  ],
+  "url": "https://botgigs.app"
+}

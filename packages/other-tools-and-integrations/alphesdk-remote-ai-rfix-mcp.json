@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RFix",
+  "description": "Create RF signal projects from prompts, inspect graphs, and export IQ data.",
+  "packageName": "@alphesdk-remote/ai-rfix-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rfix.ai/mcp"
+    }
+  ],
+  "url": "https://rfix.ai"
+}

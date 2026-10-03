@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Canonsheet",
+  "description": "Consistent prompts for one human character across image and video models. Paid per call, x402.",
+  "packageName": "@alphesdk-remote/dev-kaneky-canonsheet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://canonsheet.kaneky.dev/mcp"
+    }
+  ],
+  "url": "https://canonsheet.kaneky.dev/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "chesswithclaw",
+  "description": "Play chess live against your own personal AI agent — OpenClaw, Hermes, and similar.",
+  "packageName": "@alphesdk-remote/io-github-alightttt-chesswithclaw",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chesswithclaw.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Alightttt/ChessWithClaw",
+  "readme": "https://github.com/Alightttt/ChessWithClaw#readme"
+}

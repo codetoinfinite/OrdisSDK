@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "leon",
+  "name": "Leon",
+  "description": "Self-hosted personal AI assistant that runs locally and is being rebuilt around an agentic core in its 2.0 developer preview.",
+  "category": "other-tools-and-integrations",
+  "tags": ["personal-assistant", "self-hosted", "local", "voice", "nodejs"],
+  "repo": "https://github.com/leon-ai/leon",
+  "homepage": "https://getleon.ai",
+  "publisher": "Louis Grenard",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Acts as a personal assistant running on the user's own machine, reachable through a local web app. The 2.0 developer preview is on the develop branch, while master holds the older, more stable version.",
+  "howItWorks": "A Node.js core is installed with pnpm and serves the app on localhost:5366. The maintainer notes that the documentation site still describes the legacy architecture.",
+  "requirements": [
+    {
+      "name": "Node.js >= 24.0.0",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runtime for the core"
+    },
+    {
+      "name": "pnpm",
+      "kind": "runtime",
+      "required": true,
+      "description": "Package manager used for installation"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/leon-ai/leon.git",
+    "cd leon",
+    "npm install --global pnpm@latest",
+    "pnpm install",
+    "pnpm run check"
+  ],
+  "run": [],
+  "interfaces": ["web"],
+  "language": "TypeScript",
+  "models": "Local and remote LLMs",
+  "mcp": "none",
+  "github": {
+    "stars": 17554,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

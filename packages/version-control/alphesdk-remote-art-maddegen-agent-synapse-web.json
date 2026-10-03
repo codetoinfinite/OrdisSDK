@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse · Web & Research",
+  "description": "Read the web (page text, DNS, WHOIS, TLS, uptime) + research (Wikipedia, arXiv, GitHub, packages).",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse-web",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp/web"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

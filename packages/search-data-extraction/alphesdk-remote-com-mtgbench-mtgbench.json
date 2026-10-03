@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MTG Bench",
+  "description": "Magic: The Gathering card search, rules, rulings, deck analysis, brackets, and combo detection.",
+  "packageName": "@alphesdk-remote/com-mtgbench-mtgbench",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mtgbench.com/mcp"
+    }
+  ],
+  "url": "https://mtgbench.com"
+}

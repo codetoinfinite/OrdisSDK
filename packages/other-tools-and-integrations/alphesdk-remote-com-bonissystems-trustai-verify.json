@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TrustAI Verification",
+  "description": "Neutral referee for legal-AI output: flags orphan quotes and uncited claims. Not legal advice.",
+  "packageName": "@alphesdk-remote/com-bonissystems-trustai-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trustailaw.com/api/mcp"
+    }
+  ],
+  "url": "https://trustailaw.com/verify"
+}

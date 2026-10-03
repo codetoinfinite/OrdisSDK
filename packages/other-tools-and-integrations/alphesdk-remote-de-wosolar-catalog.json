@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wosolar.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Solaranlagen & Balkonkraftwerke – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wosolar-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wosolar.de/api/mcp"
+    }
+  ],
+  "url": "https://wosolar.de"
+}

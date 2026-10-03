@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agenttune",
+  "description": "Personality tuning files for AI agents: 43 MIT-licensed tunings + 5 inline personality tests.",
+  "packageName": "@alphesdk-remote/com-agent-tune-agenttune",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-tune.com/mcp"
+    }
+  ],
+  "url": "https://github.com/bernardjhuang/agenttune",
+  "readme": "https://github.com/bernardjhuang/agenttune#readme"
+}

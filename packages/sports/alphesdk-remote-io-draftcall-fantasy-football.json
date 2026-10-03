@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DraftCall",
+  "description": "Should I start X or Y? NFL fantasy compares, rankings, byes, matchups, schedule strength, checks",
+  "packageName": "@alphesdk-remote/io-draftcall-fantasy-football",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://draftcall.io/mcp"
+    }
+  ],
+  "url": "https://github.com/evanatpizzarobot/draftcall-mcp",
+  "readme": "https://github.com/evanatpizzarobot/draftcall-mcp#readme"
+}

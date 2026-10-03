@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "WPBay",
+  "description": "Search and compare WordPress plugins, themes and WooCommerce extensions on WPBay.",
+  "packageName": "@alphesdk-remote/com-wpbay-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wpbay.com/mcp"
+    }
+  ]
+}

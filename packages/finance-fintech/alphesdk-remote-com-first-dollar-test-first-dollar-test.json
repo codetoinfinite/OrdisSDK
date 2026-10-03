@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "First Dollar Test",
+  "description": "Base wallet-agent beta: deposit 1 USDC; PASS returns 1 USDC; terminal failure is refunded.",
+  "packageName": "@alphesdk-remote/com-first-dollar-test-first-dollar-test",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.first-dollar-test.com/mcp"
+    }
+  ],
+  "url": "https://first-dollar-test.com"
+}

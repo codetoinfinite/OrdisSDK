@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "calculators",
+  "description": "Tested financial & practical calculators as free, no-auth MCP tools for AI agents.",
+  "packageName": "@alphesdk-remote/com-calcfleet-calculators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calcfleet.com/api/mcp"
+    }
+  ],
+  "url": "https://calcfleet.com/mcp"
+}

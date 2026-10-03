@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Currency Rates (ECB)",
+  "description": "Latest and historical ECB foreign-exchange reference rates for 30+ currencies, via Frankfurter.",
+  "packageName": "@alphesdk-remote/com-invokera-currency-rates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://invokera.com/r/currency-rates"
+    }
+  ],
+  "url": "https://invokera.com/mcp/currency-rates"
+}

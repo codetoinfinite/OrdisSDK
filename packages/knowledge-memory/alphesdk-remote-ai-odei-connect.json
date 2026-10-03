@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "connect",
+  "description": "Governed personal world model and memory for your AI agent. Pair once, connect over MCP.",
+  "packageName": "@alphesdk-remote/ai-odei-connect",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.odei.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Zer0H1ro/ODEI",
+  "readme": "https://github.com/Zer0H1ro/ODEI#readme"
+}

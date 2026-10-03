@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Amplitude",
+  "description": "Product-analytics server for querying charts, dashboards, experiments and user behavior (EU host mcp.eu.amplitude.com).",
+  "packageName": "@alphesdk-remote/amplitude",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.amplitude.com/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://amplitude.com/docs/analytics/amplitude-mcp",
+  "url": "https://github.com/amplitude",
+  "author": "Amplitude",
+  "env": {}
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agent News by The Agent Times",
+  "description": "Verified, sourced, real-time intelligence layer for AI agents.",
+  "packageName": "@alphesdk-remote/com-theagenttimes-agent-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://theagenttimes.com/mcp"
+    }
+  ],
+  "url": "https://github.com/theagenttimes/agent-news",
+  "readme": "https://github.com/theagenttimes/agent-news#readme"
+}

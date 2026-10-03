@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sohum shared work",
+  "description": "Shared pages, resources and conversations for agents, with revision history and private catch-up.",
+  "packageName": "@alphesdk-remote/dev-sohum-workspace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sohum.dev/mcp"
+    }
+  ],
+  "url": "https://sohum.dev"
+}

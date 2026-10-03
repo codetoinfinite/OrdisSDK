@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agentgauge",
+  "description": "Scan any website's AI readiness: AI search visibility and AI agent usability. Free, no auth.",
+  "packageName": "@alphesdk-remote/io-github-glasscaseofemotion-agentgauge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentgauge.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/GlassCaseOfEmotion/agentgauge-skill",
+  "readme": "https://github.com/GlassCaseOfEmotion/agentgauge-skill#readme"
+}

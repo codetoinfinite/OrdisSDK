@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "salesleader-desk",
+  "description": "Read-only Sales Leader Guide desk: writers roster and magazine pieces. Public, no authentication.",
+  "packageName": "@alphesdk-remote/guide-salesleader-salesleader-desk",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://salesleader.guide/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/salesleader-site",
+  "readme": "https://github.com/people-analyst/salesleader-site#readme"
+}

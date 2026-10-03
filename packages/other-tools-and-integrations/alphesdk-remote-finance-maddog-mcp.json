@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Price-action reads with measured accuracy: day-type odds, breakouts, public scoreboard",
+  "packageName": "@alphesdk-remote/finance-maddog-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.maddog.finance/mcp"
+    }
+  ],
+  "url": "https://github.com/maddogfinance/maddog-mcp",
+  "readme": "https://github.com/maddogfinance/maddog-mcp#readme"
+}

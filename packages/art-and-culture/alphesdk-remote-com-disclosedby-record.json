@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "disclosedby, the subprocessor record",
+  "description": "Dated quotes of GDPR art. 28 subprocessor lists: who lists whom, what changed, and when.",
+  "packageName": "@alphesdk-remote/com-disclosedby-record",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://disclosedby.com/api/mcp"
+    }
+  ],
+  "url": "https://disclosedby.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "agent-data-pro",
+  "description": "Research articles and live crypto prices for AI agents via x402 on Base.",
+  "packageName": "@alphesdk-remote/io-github-orionsmithers-agent-data-pro",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentdatapro.com/mcp"
+    }
+  ],
+  "url": "https://github.com/OrionSmithers/agent-data-pro",
+  "readme": "https://github.com/OrionSmithers/agent-data-pro#readme"
+}

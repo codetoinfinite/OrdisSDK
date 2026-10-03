@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "3dCMS",
+  "description": "Build a real 3D website by chatting: pages, models and text in space, published to a live URL.",
+  "packageName": "@alphesdk-remote/info-3dcms-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://3dcms.info/mcp"
+    }
+  ],
+  "url": "https://3dcms.info/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "brainfile",
+  "description": "Brainfile memory layer for Claude Code over MCP: free starter files + weekly freshness feed.",
+  "packageName": "@alphesdk-remote/io-brainfile-brainfile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brainfile.io/mcp"
+    }
+  ],
+  "url": "https://brainfile.io/mcp?utm_source=mcpregistry&utm_medium=directory&utm_campaign=brainfile_mcp"
+}

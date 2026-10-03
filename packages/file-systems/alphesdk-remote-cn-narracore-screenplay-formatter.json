@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Narracore Screenplay Formatter",
+  "description": "Screenplay, film and story toolkit over MCP: PDF formatting, stats, diagnosis, video prompts.",
+  "packageName": "@alphesdk-remote/cn-narracore-screenplay-formatter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.narracore.app/mcp"
+    }
+  ],
+  "url": "https://github.com/xiaoanran0602-pixel/narracore-mcp-public",
+  "readme": "https://github.com/xiaoanran0602-pixel/narracore-mcp-public#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Portravo Construction Takeoff",
+  "description": "Review construction plan takeoffs and download reviewed estimates with Portravo account linking.",
+  "packageName": "@alphesdk-remote/com-portravo-construction-takeoff",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://portravo.com/mcp"
+    }
+  ],
+  "url": "https://portravo.com/developers/mcp"
+}

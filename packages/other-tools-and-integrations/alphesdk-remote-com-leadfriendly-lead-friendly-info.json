@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Lead Friendly product info",
+  "description": "Lead Friendly pricing, industries and capabilities for AI agents, plus demo and lead hand-off",
+  "packageName": "@alphesdk-remote/com-leadfriendly-lead-friendly-info",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.leadfriendly.com/api/mcp"
+    }
+  ],
+  "url": "https://www.leadfriendly.com/mcp"
+}

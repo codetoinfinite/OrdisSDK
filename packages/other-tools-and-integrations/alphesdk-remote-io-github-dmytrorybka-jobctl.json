@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "jobctl",
+  "description": "Job application tracker for developers - AI agents write over MCP, you review in a dashboard.",
+  "packageName": "@alphesdk-remote/io-github-dmytrorybka-jobctl",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.jobctl.app/mcp"
+    }
+  ],
+  "url": "https://jobctl.app"
+}

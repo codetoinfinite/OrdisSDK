@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Educator Toolkit",
+  "description": "8 curriculum, classroom, accommodations and exam-prep skill products. 5 of 7 free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-educator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/educator"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

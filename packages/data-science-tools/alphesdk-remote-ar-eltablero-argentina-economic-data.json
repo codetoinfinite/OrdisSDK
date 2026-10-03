@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "El Tablero: Argentina economic data",
+  "description": "Argentine economic statistics from official sources (BCRA, INDEC): FX, inflation, rates, reserves.",
+  "packageName": "@alphesdk-remote/ar-eltablero-argentina-economic-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eltablero.ar/api/mcp"
+    }
+  ],
+  "url": "https://eltablero.ar/docs"
+}

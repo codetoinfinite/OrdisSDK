@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "llms.txt 檢查工具",
+  "description": "llms.txt 檢查工具：檢查網站的 llms.txt、robots 與 sitemap。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-llms",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llms.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://llms.penguindriver.com"
+}

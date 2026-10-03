@@ -1,0 +1,50 @@
+{
+  "type": "external-agent",
+  "key": "browserpilot",
+  "name": "BrowserPilot",
+  "description": "Self-hosted agent that scrapes and navigates websites from a plain-language request using Gemini vision and a stealth browser.",
+  "category": "search-data-extraction",
+  "tags": ["web-scraping", "browser-agent", "gemini", "stealth"],
+  "repo": "https://github.com/ai-naymul/BrowserPilot",
+  "publisher": "ai-naymul",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Collects data from sites, including ones with anti-bot measures, when the user describes what they want. It suits individuals who need scraped data in common formats without writing scrapers.",
+  "howItWorks": "A FastAPI backend drives a patched Chromium, sends page screenshots to Gemini to decide the next action and streams progress to a web front end. Proxies can be rotated through an optional setting. It runs with docker compose or as a manually started server.",
+  "requirements": [
+    {
+      "name": "GOOGLE_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Gemini access"
+    },
+    {
+      "name": "SCRAPER_PROXIES",
+      "kind": "service",
+      "required": false,
+      "description": "Proxy list for rotation"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "For the compose setup"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/ai-naymul/BrowserPilot.git",
+    "cd BrowserPilot",
+    "echo 'GOOGLE_API_KEY=your_key_here' > .env"
+  ],
+  "run": ["docker-compose up -d"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Google Gemini",
+  "mcp": "none",
+  "github": {
+    "stars": 179,
+    "license": "MIT",
+    "pushedAt": "2026-07-26",
+    "checkedAt": "2026-10-03"
+  }
+}

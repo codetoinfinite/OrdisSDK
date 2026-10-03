@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "qubitsok — Quantum Computing Jobs, Papers & Researchers",
+  "description": "Quantum computing jobs, arXiv papers & researcher profiles from qubitsok.com",
+  "packageName": "@alphesdk-remote/com-qubitsok-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qubitsok.com/mcp"
+    }
+  ],
+  "url": "https://qubitsok.com"
+}

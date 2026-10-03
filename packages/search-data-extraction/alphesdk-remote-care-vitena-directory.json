@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vitena Directory",
+  "description": "Search Vitena's public directory of bookable health and wellness professionals",
+  "packageName": "@alphesdk-remote/care-vitena-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vitena.care/mcp"
+    }
+  ],
+  "url": "https://vitena.care/ai-info"
+}

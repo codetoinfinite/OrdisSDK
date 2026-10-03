@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Jeeva Jyotish",
+  "description": "Sourced Vedic astrology (Jyotish) answers: effects, factors and yogas, cited to jeeva-jyotish.com.",
+  "packageName": "@alphesdk-remote/com-jeeva-jyotish-reference-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jeeva-jyotish.com/mcp"
+    }
+  ],
+  "url": "https://github.com/HaayanchandravatSr/jeeva-jyotish",
+  "readme": "https://github.com/HaayanchandravatSr/jeeva-jyotish#readme"
+}

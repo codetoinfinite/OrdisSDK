@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "converter",
+  "description": "Convert files between 44 formats: documents, spreadsheets, images, ebooks, email and subtitles.",
+  "packageName": "@alphesdk-remote/com-filetypeconverters-converter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://filetypeconverters.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Cognesio/filetypeconverters-app",
+  "readme": "https://github.com/Cognesio/filetypeconverters-app#readme"
+}

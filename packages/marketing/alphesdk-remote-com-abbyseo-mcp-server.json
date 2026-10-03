@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp-server",
+  "description": "Scan any URL for on-page, technical & content SEO; 0-100 score with copy-paste fixes.",
+  "packageName": "@alphesdk-remote/com-abbyseo-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.abbyseo.com/mcp"
+    }
+  ],
+  "url": "https://www.abbyseo.com"
+}

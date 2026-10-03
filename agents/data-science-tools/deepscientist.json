@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "deepscientist",
+  "name": "DeepScientist",
+  "description": "Local-first autonomous research studio that runs baselines, experiments and paper drafting through an existing coding-agent CLI.",
+  "category": "data-science-tools",
+  "tags": ["autonomous-research", "local-first", "experiments", "codex", "claude-code"],
+  "repo": "https://github.com/ResearAI/DeepScientist",
+  "publisher": "ResearAI",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Keeps a long-running research loop going on your own machine: reproducing baselines, trying ideas, recording failures and wins, and writing up results. It is aimed at ML researchers.",
+  "howItWorks": "It wraps a coding-agent runner (Codex, Claude Code, Kimi Code or OpenCode) in a persistent workspace that stores findings across rounds. You install it from npm, authenticate the runner and launch it in a project directory.",
+  "requirements": [
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "For the npm package"
+    },
+    {
+      "name": "Coding agent CLI",
+      "kind": "account",
+      "required": true,
+      "description": "A working Codex, Claude Code, Kimi Code or OpenCode install with its login"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.11+"
+    }
+  ],
+  "install": ["npm install -g @researai/deepscientist", "codex login"],
+  "run": ["ds --here"],
+  "interfaces": ["cli", "web"],
+  "language": "TypeScript",
+  "models": "Whatever the chosen runner uses (Codex, Claude Code, Kimi Code, OpenCode)",
+  "mcp": "none",
+  "github": {
+    "stars": 3348,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-06-28",
+    "checkedAt": "2026-10-03"
+  }
+}

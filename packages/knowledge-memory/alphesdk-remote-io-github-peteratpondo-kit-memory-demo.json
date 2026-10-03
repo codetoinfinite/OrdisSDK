@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "kit-memory-demo",
+  "description": "Continuity for agents: a live memory you can read and cite right now, outliving the context window.",
+  "packageName": "@alphesdk-remote/io-github-peteratpondo-kit-memory-demo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://demo-mcp.kit-project.com/mcp"
+    }
+  ],
+  "url": "https://github.com/PeterAtPondo/kit-demo-mcp",
+  "readme": "https://github.com/PeterAtPondo/kit-demo-mcp#readme"
+}

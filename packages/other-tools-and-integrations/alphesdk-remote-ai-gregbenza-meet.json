@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "meet",
+  "description": "A second opinion, in one call, from a desk where an answer is allowed to be no.",
+  "packageName": "@alphesdk-remote/ai-gregbenza-meet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gregbenza.ai/mcp/meet"
+    }
+  ],
+  "url": "https://github.com/TheNonduality/gregbenza-ai",
+  "readme": "https://github.com/TheNonduality/gregbenza-ai#readme"
+}

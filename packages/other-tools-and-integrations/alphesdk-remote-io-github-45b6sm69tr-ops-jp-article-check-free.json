@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Japanese Article Quick Check",
+  "description": "Free Japanese article checker for claims, duplicate text, PR disclosure, and basic quality.",
+  "packageName": "@alphesdk-remote/io-github-45b6sm69tr-ops-jp-article-check-free",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jp-article-check-free.9gbnk9sztm.workers.dev/mcp"
+    }
+  ]
+}

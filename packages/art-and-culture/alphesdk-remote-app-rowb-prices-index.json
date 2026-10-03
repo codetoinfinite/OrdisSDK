@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Price Index — published API prices with sources",
+  "description": "Published prices of OG-image and screenshot APIs, each with the vendor page it was read from.",
+  "packageName": "@alphesdk-remote/app-rowb-prices-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prices.rowb.app/mcp"
+    }
+  ],
+  "url": "https://prices.rowb.app"
+}

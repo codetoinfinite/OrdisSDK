@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ezoic Setup Assistant",
+  "description": "Ezoic ads implementation assistant: integration docs, SDKs, and working, copyable setup code.",
+  "packageName": "@alphesdk-remote/com-ezoic-setup",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://setup-agent.ezoic.com/mcp"
+    }
+  ],
+  "url": "https://setup-agent.ezoic.com"
+}

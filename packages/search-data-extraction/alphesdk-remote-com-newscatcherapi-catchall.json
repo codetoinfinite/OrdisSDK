@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CatchAll",
+  "description": "Web search API: find every relevant event across the open web, not just the top results.",
+  "packageName": "@alphesdk-remote/com-newscatcherapi-catchall",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catchall-mcp.newscatcherapi.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Newscatcher/catchall-mcp",
+  "readme": "https://github.com/Newscatcher/catchall-mcp#readme"
+}

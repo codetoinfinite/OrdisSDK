@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bingbot",
+  "description": "Validate whether an IP address belongs to Bingbot. Remote MCP server exposing a validate_ip tool.",
+  "packageName": "@alphesdk-remote/com-seoapi-bingbot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bingbot.seoapi.com/mcp"
+    }
+  ],
+  "url": "https://seoapi.com/bingbot/"
+}

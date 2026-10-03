@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "transaction-coordinator",
+  "description": "AI transaction coordinator + legal-matters platform for real estate and law firms.",
+  "packageName": "@alphesdk-remote/io-github-gordonhal-transaction-coordinator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://primacoda.halinc.tech/mcp"
+    }
+  ],
+  "url": "https://github.com/GordonHal/primacoda-mcp",
+  "readme": "https://github.com/GordonHal/primacoda-mcp#readme"
+}

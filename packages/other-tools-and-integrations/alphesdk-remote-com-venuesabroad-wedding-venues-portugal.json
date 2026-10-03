@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Venues Abroad",
+  "description": "Wedding venues and planners in Portugal: capacity, rooms, catering, each fact with its source.",
+  "packageName": "@alphesdk-remote/com-venuesabroad-wedding-venues-portugal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://venuesabroad.com/mcp"
+    }
+  ],
+  "url": "https://venuesabroad.com"
+}

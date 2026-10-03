@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumanMirror One",
+  "description": "One MCP tool for verified AI-agent outcomes with success-only charging.",
+  "packageName": "@alphesdk-remote/fr-humanmirror-one",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanmirror.fr/api/one/mcp/"
+    }
+  ],
+  "url": "https://humanmirror.fr/one/"
+}

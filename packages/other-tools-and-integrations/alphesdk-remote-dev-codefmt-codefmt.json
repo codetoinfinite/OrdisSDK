@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "codefmt",
+  "description": "Format/lint JS, Python, HubL for automation platforms. Tools: format_code, format_json, ask_codefmt",
+  "packageName": "@alphesdk-remote/dev-codefmt-codefmt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://codefmt.dev/api/mcp"
+    }
+  ],
+  "url": "https://codefmt.dev"
+}

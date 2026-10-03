@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Glasswarp",
+  "description": "Eyes and hands on real Windows PCs — observe, click, type via Glasswarp API.",
+  "packageName": "@alphesdk-remote/com-glasswarp-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.glasswarp.com/mcp"
+    }
+  ],
+  "url": "https://github.com/glasswarp/mcp-server",
+  "readme": "https://github.com/glasswarp/mcp-server#readme"
+}

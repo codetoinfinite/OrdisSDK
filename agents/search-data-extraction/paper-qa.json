@@ -1,0 +1,59 @@
+{
+  "type": "external-agent",
+  "key": "paper-qa",
+  "name": "PaperQA2",
+  "description": "Agentic RAG over scientific papers and other documents that produces answers grounded in cited passages.",
+  "category": "search-data-extraction",
+  "tags": ["scientific-literature", "rag", "pdf", "citations", "academic"],
+  "repo": "https://github.com/Future-House/paper-qa",
+  "publisher": "FutureHouse",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Answers questions, summarises and checks for contradictions across a folder of PDFs, text, Office documents or source files, with a focus on scientific literature. It is used by researchers who need high-accuracy, cited answers.",
+  "howItWorks": "An agent searches the indexed papers, gathers evidence by summarising and re-ranking relevant chunks, and then writes an answer with in-text citations. Paper metadata can be enriched from Crossref and Semantic Scholar. Models are routed through LiteLLM, and it is used through the pqa command or as a Python library.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Default LLM and embedding provider"
+    },
+    {
+      "name": "CROSSREF_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Metadata lookups from Crossref"
+    },
+    {
+      "name": "SEMANTIC_SCHOLAR_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Metadata lookups from Semantic Scholar"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "When using Claude models"
+    },
+    {
+      "name": "GEMINI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "When using Gemini models"
+    }
+  ],
+  "install": ["pip install paper-qa"],
+  "run": ["pqa ask 'What is PaperQA2?'"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "framework": "LiteLLM",
+  "models": "Any LiteLLM-supported model, including local Ollama models",
+  "mcp": "none",
+  "github": {
+    "stars": 9287,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-25",
+    "checkedAt": "2026-10-03"
+  }
+}

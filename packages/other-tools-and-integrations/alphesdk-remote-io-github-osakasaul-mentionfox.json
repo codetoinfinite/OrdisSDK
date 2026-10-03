@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MentionFox",
+  "description": "Cited reports on any company or person, credential checks and mention scans for your AI",
+  "packageName": "@alphesdk-remote/io-github-osakasaul-mentionfox",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mentionfox.com/mcp"
+    }
+  ],
+  "url": "https://mentionfox.com"
+}

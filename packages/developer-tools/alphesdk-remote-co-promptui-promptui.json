@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PromptUI",
+  "description": "Build a working web app from a prompt, then deploy it to a live URL.",
+  "packageName": "@alphesdk-remote/co-promptui-promptui",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.promptui.co/api/mcp"
+    }
+  ],
+  "url": "https://www.promptui.co/docs/mcp"
+}

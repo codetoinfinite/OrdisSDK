@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "美食神仙籤筒",
+  "description": "今天吃什麼？神明抽籤選料理，並從臺灣附近營業中的店家抽一間。台灣繁體中文 MCP 工具。",
+  "packageName": "@alphesdk-remote/com-penguindriver-food",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://food.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://food.penguindriver.com"
+}

@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "seomachine",
+  "name": "SEO Machine",
+  "description": "Claude Code workspace for researching, writing, analysing and optimising long-form SEO blog content.",
+  "category": "marketing",
+  "tags": ["seo", "content-marketing", "long-form-writing", "claude-code", "blog"],
+  "repo": "https://github.com/TheCraigHewitt/seomachine",
+  "publisher": "Craig Hewitt",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Guides a content team through topic research, drafting, rewriting, optimisation and publishing of articles for a business. Commands cover research briefs, full articles, performance reviews and draft publishing to WordPress.",
+  "howItWorks": "The repository is opened in Claude Code, where custom slash commands and specialised sub-agents use brand context files to produce content. Python scripts pull data for keyword, competitor and performance analysis. Output is saved as files in the workspace and can be pushed to WordPress.",
+  "requirements": [
+    {
+      "name": "Claude Code",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host agent that runs the commands"
+    },
+    {
+      "name": "WP_URL",
+      "kind": "service",
+      "required": false,
+      "description": "WordPress site for publishing drafts"
+    },
+    {
+      "name": "WP_APP_PASSWORD",
+      "kind": "api-key",
+      "required": false,
+      "description": "WordPress application password"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/TheCraigHewitt/seomachine.git",
+    "cd seomachine",
+    "pip install -r data_sources/requirements.txt"
+  ],
+  "run": ["claude-code ."],
+  "interfaces": ["cli"],
+  "language": "Python",
+  "framework": "Claude Code",
+  "models": "Anthropic Claude via Claude Code",
+  "mcp": "none",
+  "github": {
+    "stars": 7470,
+    "license": "MIT",
+    "pushedAt": "2026-08-05",
+    "checkedAt": "2026-10-03"
+  }
+}

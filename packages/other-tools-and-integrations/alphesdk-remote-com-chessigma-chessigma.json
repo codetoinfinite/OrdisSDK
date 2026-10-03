@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Chessigma",
+  "description": "Chess opening guides and names, FEN and PGN checks, the daily chess puzzle and Elo estimates.",
+  "packageName": "@alphesdk-remote/com-chessigma-chessigma",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.chessigma.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/mehdi-bh/chessigma-mcp",
+  "readme": "https://github.com/mehdi-bh/chessigma-mcp#readme"
+}

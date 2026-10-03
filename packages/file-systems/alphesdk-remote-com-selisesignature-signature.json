@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SELISE Signature",
+  "description": "Prepare and send documents for electronic signature with SELISE Signature.",
+  "packageName": "@alphesdk-remote/com-selisesignature-signature",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://signaturemcp.selise.biz/mcp"
+    }
+  ]
+}

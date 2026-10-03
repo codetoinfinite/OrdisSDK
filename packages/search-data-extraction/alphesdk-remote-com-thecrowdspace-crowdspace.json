@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "crowdspace",
+  "description": "Search 900+ crowdfunding and P2P lending platforms, market data and regulation by country.",
+  "packageName": "@alphesdk-remote/com-thecrowdspace-crowdspace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thecrowdspace.com/mcp"
+    }
+  ],
+  "url": "https://github.com/thecrowdspace/crowd-space_wp",
+  "readme": "https://github.com/thecrowdspace/crowd-space_wp#readme"
+}

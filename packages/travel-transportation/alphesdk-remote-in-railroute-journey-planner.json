@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RailRoute journey planner",
+  "description": "Plan intercity journeys in India by train, flight or both, with a fare for every travel class.",
+  "packageName": "@alphesdk-remote/in-railroute-journey-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.railroute.in/api/mcp"
+    }
+  ],
+  "url": "https://www.railroute.in/mcp"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Reality Layer",
+  "description": "Buy timestamped web, company, commerce, social, document and decision data via x402.",
+  "packageName": "@alphesdk-remote/io-github-quli-ops-agent-reality-layer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-reality-layer-mainnet.quli1016908036.workers.dev/mcp"
+    }
+  ]
+}

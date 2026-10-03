@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bro Find AI",
+  "description": "Search a curated directory of AI tools, AI agents and MCP servers by task, pricing and platform.",
+  "packageName": "@alphesdk-remote/com-brofindai-brofindai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brofindai.com/api/mcp"
+    }
+  ],
+  "url": "https://brofindai.com/brofindai-mcp"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "citation-tracker",
+  "description": "Checks whether AI search engines cite your domain for a prompt. From $0.15/call via x402 or Stripe.",
+  "packageName": "@alphesdk-remote/co-pixelcove-citation-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://citation-tracker.pixelcove.co/mcp"
+    }
+  ],
+  "url": "https://github.com/PixelCove/citation-tracker",
+  "readme": "https://github.com/PixelCove/citation-tracker#readme"
+}

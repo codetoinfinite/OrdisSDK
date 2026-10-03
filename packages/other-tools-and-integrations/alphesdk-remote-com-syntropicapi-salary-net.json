@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Gross-to-Net Salary Calculator (Germany & UK)",
+  "description": "Net pay to the cent, every deduction and the employer's cost for Germany and the UK, computed with…",
+  "packageName": "@alphesdk-remote/com-syntropicapi-salary-net",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syntropicapi.com/mcp/salary-net/mcp"
+    }
+  ],
+  "url": "https://syntropicapi.com/apis/salary-net"
+}

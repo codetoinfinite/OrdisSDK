@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AstraVerify Domain Trust Check",
+  "description": "Email security and AI discoverability scores for any domain, with the exact record or tag to fix.",
+  "packageName": "@alphesdk-remote/com-astraverify-domain-trust",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://astraverify.com/mcp"
+    }
+  ],
+  "url": "https://astraverify.com/connect"
+}

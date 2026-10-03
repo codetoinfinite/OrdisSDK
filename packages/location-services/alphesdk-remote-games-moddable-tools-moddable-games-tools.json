@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moddable Games Tools",
+  "description": "15 tools for chess variant analysis, hex map generation, and board game utilities",
+  "packageName": "@alphesdk-remote/games-moddable-tools-moddable-games-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tools.moddable.games/mcp"
+    }
+  ],
+  "url": "https://github.com/Moddable-Games/moddable-website",
+  "readme": "https://github.com/Moddable-Games/moddable-website#readme"
+}

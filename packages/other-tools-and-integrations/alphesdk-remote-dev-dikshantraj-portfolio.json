@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dikshant Rajput's portfolio agent",
+  "description": "Ask Dikshant Rajput's AI agent about his work, projects and availability, or read them as data.",
+  "packageName": "@alphesdk-remote/dev-dikshantraj-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dikshantraj.dev/api/mcp"
+    }
+  ],
+  "url": "https://dikshantraj.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Agentic Endpoints",
+  "description": "Pay-per-call tools for autonomous agents, settled in USDC on Base via x402.",
+  "packageName": "@alphesdk-remote/com-oliverkiss-agentic-endpoints",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.oliverkiss.com/mcp"
+    }
+  ],
+  "url": "https://github.com/olie-kiss/agentic-endpoints",
+  "readme": "https://github.com/olie-kiss/agentic-endpoints#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SCModeling",
+  "description": "Supply-chain network design via simulation, optimization, and greenfield analysis.",
+  "packageName": "@alphesdk-remote/com-scmodeling-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scmodeling.com/mcp"
+    }
+  ],
+  "url": "https://scmodeling.com"
+}

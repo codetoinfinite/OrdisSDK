@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "unulu",
+  "description": "AI agent website builder. Create and publish link-in-bio sites via MCP or REST API.",
+  "packageName": "@alphesdk-remote/ai-unulu-unulu",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.unulu.ai"
+    }
+  ],
+  "url": "https://github.com/unulu-ai/unulu",
+  "readme": "https://github.com/unulu-ai/unulu#readme"
+}

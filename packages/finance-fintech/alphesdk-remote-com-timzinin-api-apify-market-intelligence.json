@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Apify Market Intelligence",
+  "description": "Pay-per-call Apify Store analytics with free MCP discovery and x402 payments.",
+  "packageName": "@alphesdk-remote/com-timzinin-api-apify-market-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/apify-market-intelligence"
+    }
+  ]
+}

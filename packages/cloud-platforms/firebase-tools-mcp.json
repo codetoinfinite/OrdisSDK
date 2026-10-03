@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Firebase",
+  "description": "Firebase CLI's MCP mode (firebase mcp) for Auth, Firestore, Storage, Remote Config and project management.",
+  "packageName": "firebase-tools",
+  "packageVersion": "15.32.1",
+  "runtime": "node",
+  "bin": "firebase",
+  "binArgs": [
+    "mcp"
+  ],
+  "readme": "https://firebase.google.com/docs/cli/mcp-server",
+  "url": "https://github.com/firebase/firebase-tools",
+  "author": "Google (Firebase)",
+  "env": {}
+}

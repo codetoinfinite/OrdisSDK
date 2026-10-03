@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GroundTruth - Environmental Records",
+  "description": "Federal environmental records near any US location, with dates and provenance; never a safety score.",
+  "packageName": "@alphesdk-remote/ai-agentlookups-groundtruth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://env.agentlookups.ai/mcp"
+    }
+  ],
+  "url": "https://env.agentlookups.ai"
+}

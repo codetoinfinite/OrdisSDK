@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GetRun",
+  "description": "Image, video, audio and chat from 61 AI models through one connector. Pay per use, no subscription.",
+  "packageName": "@alphesdk-remote/id-getrun-getrun",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://run.getcore.id/mcp"
+    }
+  ],
+  "url": "https://github.com/Getcore-ID/getrun-mcp",
+  "readme": "https://github.com/Getcore-ID/getrun-mcp#readme"
+}

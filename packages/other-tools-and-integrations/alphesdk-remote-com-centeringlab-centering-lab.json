@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Centering Lab",
+  "description": "Measure card centering and check PSA, BGS, CGC and SGC centering ceilings and standards.",
+  "packageName": "@alphesdk-remote/com-centeringlab-centering-lab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://centeringlab.com/mcp"
+    }
+  ],
+  "url": "https://centeringlab.com/"
+}

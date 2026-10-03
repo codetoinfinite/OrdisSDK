@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GraphMake",
+  "description": "Turn data into infographics (PNG/SVG): 90+ templates, or KPI cards, charts, timelines and maps.",
+  "packageName": "@alphesdk-remote/com-graphmake-graphmake",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://graphmake.com/api/mcp"
+    }
+  ],
+  "url": "https://graphmake.com/mcp"
+}

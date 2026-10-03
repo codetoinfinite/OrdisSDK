@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Context — ctxt.io",
+  "description": "Share text, markdown, code, or HTML as auto-expiring links",
+  "packageName": "@alphesdk-remote/io-ctxt-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ctxt.io/mcp"
+    }
+  ],
+  "url": "https://github.com/ctxt-io/ctxt-agents",
+  "readme": "https://github.com/ctxt-io/ctxt-agents#readme"
+}

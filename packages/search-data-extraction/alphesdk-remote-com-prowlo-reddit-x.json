@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Prowlo — Reddit & X for AI agents",
+  "description": "Reddit & X data for AI agents over MCP. Semantic search, hosted, no Reddit API.",
+  "packageName": "@alphesdk-remote/com-prowlo-reddit-x",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.prowlo.com/mcp"
+    }
+  ],
+  "url": "https://github.com/prowlo-com/prowlo-mcp",
+  "readme": "https://github.com/prowlo-com/prowlo-mcp#readme"
+}

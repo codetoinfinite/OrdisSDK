@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "solidus",
+  "description": "Solana pre-trade safety for agents: rug check, honeypot sell-sim, drainer scan, tx preflight.",
+  "packageName": "@alphesdk-remote/dev-fly-solidus-x402-solidus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://solidus-mcp.fly.dev/mcp"
+    }
+  ]
+}

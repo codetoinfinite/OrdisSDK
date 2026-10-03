@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "footage.cool: 4K Drone & Aerial Stock Footage",
+  "description": "Search and license 54,000+ drone, aerial, and ocean clips, mostly 4K, from filmmaker Phil Maher.",
+  "packageName": "@alphesdk-remote/cool-footage-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.footage.cool/mcp"
+    }
+  ],
+  "url": "https://www.footage.cool/for-ai-agents"
+}

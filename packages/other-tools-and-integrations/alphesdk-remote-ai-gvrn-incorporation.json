@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GVRN Incorporation",
+  "description": "Collect and submit company incorporation requests for review by GVRN's corpsec team.",
+  "packageName": "@alphesdk-remote/ai-gvrn-incorporation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://incorporation-mcp.gvrn.ai"
+    }
+  ],
+  "url": "https://www.gvrn.ai"
+}

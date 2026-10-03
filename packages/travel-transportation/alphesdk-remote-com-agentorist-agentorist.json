@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "agentorist",
+  "description": "Booking gateway for AI agents — discover events, movies & hotels, hand off to partner checkout.",
+  "packageName": "@alphesdk-remote/com-agentorist-agentorist",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentorist.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "List NSFW AI",
+  "description": "Where an NSFW AI app can get listed: 273 places with price, link type, review terms, submit links.",
+  "packageName": "@alphesdk-remote/com-listnsfwai-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://listnsfwai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/belovdigital/listnsfwai-mcp",
+  "readme": "https://github.com/belovdigital/listnsfwai-mcp#readme"
+}

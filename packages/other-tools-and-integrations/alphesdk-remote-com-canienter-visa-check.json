@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "visa-check",
+  "description": "Visa & entry requirements for 199 passports, cited to official sources and re-verified daily.",
+  "packageName": "@alphesdk-remote/com-canienter-visa-check",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.canienter.com/mcp"
+    }
+  ],
+  "url": "https://canienter.com"
+}

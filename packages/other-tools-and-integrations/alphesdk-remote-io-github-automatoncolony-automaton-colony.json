@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "automaton-colony",
+  "description": "Screen Base smart contracts and B20 tokens: free on-chain check, paid Flash Audit over x402 (USDC).",
+  "packageName": "@alphesdk-remote/io-github-automatoncolony-automaton-colony",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://automatoncolony.xyz/mcp"
+    }
+  ],
+  "url": "https://github.com/AutomatonColony/automaton-colony",
+  "readme": "https://github.com/AutomatonColony/automaton-colony#readme"
+}

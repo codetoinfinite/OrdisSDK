@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ScholarNet — Study Plan & Thesis Tools",
+  "description": "Free AI study tools: generate a personalized study plan or essay thesis statements.",
+  "packageName": "@alphesdk-remote/com-0xpi-scholar-study-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scholar.0xpi.com/api/mcp"
+    }
+  ]
+}

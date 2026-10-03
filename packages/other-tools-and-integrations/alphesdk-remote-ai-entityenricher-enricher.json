@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Entity Enricher",
+  "description": "Multi-LLM entity enrichment: schemas, single/batch enrichment, fusion, model benchmarks.",
+  "packageName": "@alphesdk-remote/ai-entityenricher-enricher",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://entityenricher.ai/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/TOT-Concept/mcp-server-entity-enricher",
+  "readme": "https://github.com/TOT-Concept/mcp-server-entity-enricher#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "devplane-site",
+  "description": "Read-only MCP access to devplane.dev's public pages, FAQ corpus and comparisons.",
+  "packageName": "@alphesdk-remote/dev-devplane-devplane-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://devplane.dev/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/devplane-site",
+  "readme": "https://github.com/people-analyst/devplane-site#readme"
+}

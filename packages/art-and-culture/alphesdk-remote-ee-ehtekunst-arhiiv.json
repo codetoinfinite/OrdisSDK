@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "arhiiv",
+  "description": "Estonian jewellery art archive: 472 artists, works, exhibitions, museum holdings, source-cited press",
+  "packageName": "@alphesdk-remote/ee-ehtekunst-arhiiv",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ehtekunst.ee/mcp"
+    }
+  ],
+  "url": "https://ehtekunst.ee"
+}

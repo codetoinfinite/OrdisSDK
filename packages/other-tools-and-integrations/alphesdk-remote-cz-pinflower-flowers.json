@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pinflower — flowers in Prague",
+  "description": "Order bouquets from independent Prague florists: live prices, delivery times, pay on pinflower.cz.",
+  "packageName": "@alphesdk-remote/cz-pinflower-flowers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinflower.cz/api/mcp"
+    }
+  ],
+  "url": "https://pinflower.cz"
+}

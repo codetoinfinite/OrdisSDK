@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Horse Truth Machine Intelligence",
+  "description": "Derived Australian racehorse intelligence for AI agents, MCP clients, software and publishers.",
+  "packageName": "@alphesdk-remote/au-com-horsetruth-machine-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://horsetruth.com.au/api/v1/mcp"
+    }
+  ]
+}

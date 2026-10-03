@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "abundance-apis",
+  "description": "Try 26 utility REST APIs keylessly: NAICS classification, IP geo, email validation, currency.",
+  "packageName": "@alphesdk-remote/com-abundanceapis-abundance-apis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://abundanceapis.com/mcp"
+    }
+  ],
+  "url": "https://abundanceapis.com"
+}

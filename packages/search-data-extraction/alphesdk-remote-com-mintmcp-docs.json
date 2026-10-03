@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "MintMCP Docs",
+  "description": "Search and read the official MintMCP documentation, the enterprise MCP gateway.",
+  "packageName": "@alphesdk-remote/com-mintmcp-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mintmcp.com/docs/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SettlementWitness",
+  "description": "Remote-first MCP adapter for emitting Settlement Attestation Receipts; not a verifier.",
+  "packageName": "@alphesdk-remote/com-defaultverifier-settlement-witness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://defaultverifier.com/mcp"
+    }
+  ],
+  "url": "https://github.com/nutstrut/default-settlement-verifier",
+  "readme": "https://github.com/nutstrut/default-settlement-verifier#readme"
+}

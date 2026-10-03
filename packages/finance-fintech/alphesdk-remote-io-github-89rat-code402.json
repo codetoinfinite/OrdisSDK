@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "code402",
+  "description": "Discover machine-payable APIs, probe x402 payment terms, and run seller operations. Non-custodial.",
+  "packageName": "@alphesdk-remote/io-github-89rat-code402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rail.hcrb.in/mcp"
+    }
+  ],
+  "url": "https://github.com/89rat/m2m-exchange",
+  "readme": "https://github.com/89rat/m2m-exchange#readme"
+}

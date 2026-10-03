@@ -1,6 +1,6 @@
 {
   "type": "mcp-server",
-  "packageName": "randomuser",
+  "packageName": "github:rycid/randomusermcp#28d483c3492dd53bb739fbc499da0d3854e751cd",
   "description": "Provides a bridge to the randomuser.me API with enhanced features for generating realistic synthetic user profiles, supporting advanced filtering and customizable output formats for developers needing mock data.",
   "url": "https://github.com/rycid/randomusermcp",
   "runtime": "node",

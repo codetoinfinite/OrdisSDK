@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Odile Labs",
+  "description": "An AI answering line for US businesses, paid per answered call; Odile Formats for video and photos.",
+  "packageName": "@alphesdk-remote/com-odilelabs-odile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://odilelabs.com/mcp"
+    }
+  ],
+  "url": "https://github.com/tolga-boop/odile-mcp",
+  "readme": "https://github.com/tolga-boop/odile-mcp#readme"
+}

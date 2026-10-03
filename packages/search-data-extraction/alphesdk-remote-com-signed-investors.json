@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Signed Investors",
+  "description": "Search Signed's public angel investor directory by sector, check size, or keyword. No login needed.",
+  "packageName": "@alphesdk-remote/com-signed-investors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.signed.com/investors"
+    }
+  ],
+  "url": "https://mcp.signed.com/investors"
+}

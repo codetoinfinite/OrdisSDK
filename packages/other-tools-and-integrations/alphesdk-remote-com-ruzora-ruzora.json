@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ruzora",
+  "description": "Pre-vetted senior LATAM engineers for US startups: hiring leads, open roles, applications.",
+  "packageName": "@alphesdk-remote/com-ruzora-ruzora",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ruzora.com/mcp"
+    }
+  ],
+  "url": "https://www.ruzora.com"
+}

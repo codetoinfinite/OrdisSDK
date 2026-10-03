@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mozilla Data Collective",
+  "description": "Search the Mozilla Data Collective catalog of ethically sourced AI training datasets.",
+  "packageName": "@alphesdk-remote/com-mozilladatacollective-datasets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mozilladatacollective.com/api/mcp"
+    }
+  ],
+  "url": "https://mozilladatacollective.com"
+}

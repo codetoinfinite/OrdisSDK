@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tradehand",
+  "description": "Browse and book local tradespeople in the UK.",
+  "packageName": "@alphesdk-remote/io-github-humanleap-tradehand",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradehand.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Humanleap/tradehand-claude-plugin",
+  "readme": "https://github.com/Humanleap/tradehand-claude-plugin#readme"
+}

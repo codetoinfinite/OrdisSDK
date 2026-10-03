@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cloud-api-hub-youtube-downloader",
+  "description": "Cloud Api Hub - Youtube Downloader: Get Youtube video info and download links to MP4 or MP3 file.",
+  "packageName": "@alphesdk-remote/com-jojapi-cloud-api-hub-youtube-downloader",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/cloud-api-hub-youtube-downloader"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/cloud-api-hub-youtube-downloader"
+}

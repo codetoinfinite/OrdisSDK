@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cobalt Capture",
+  "description": "Annotated-screenshot reviews and ready-made product studies your AI agent can read, run, and share.",
+  "packageName": "@alphesdk-remote/com-cobaltcapture-cobalt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cobaltcapture.com/mcp"
+    }
+  ],
+  "url": "https://cobaltcapture.com/developers"
+}

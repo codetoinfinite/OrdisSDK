@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Arne Kellmann Consulting",
+  "description": "Read consulting services and search public architecture consulting documents in English or German.",
+  "packageName": "@alphesdk-remote/de-arnekellmann-consulting",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arnekellmann.de/mcp"
+    }
+  ],
+  "url": "https://arnekellmann.de/developers"
+}

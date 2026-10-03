@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kooma — Bambara AI",
+  "description": "Bambara AI over MCP: text-to-speech, transcription and translation (Bamanankan + more).",
+  "packageName": "@alphesdk-remote/ai-kooma-kooma",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.kooma.ai/mcp"
+    }
+  ],
+  "url": "https://developer.kooma.ai/docs/mcp"
+}

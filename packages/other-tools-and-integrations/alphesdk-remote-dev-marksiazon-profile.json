@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "profile",
+  "description": "Read-only MCP server for Mark Siazon's professional profile: projects, FAQ, proof, availability.",
+  "packageName": "@alphesdk-remote/dev-marksiazon-profile",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.marksiazon.dev/api/mcp"
+    }
+  ]
+}

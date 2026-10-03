@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FinchNode Synthetic Health Records",
+  "description": "Synthetic EHR: medications, labs, conditions, allergies, immunizations, FHIR R4. No API key.",
+  "packageName": "@alphesdk-remote/com-finchnode-health-records-demo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.finchnode.com/demo/mcp"
+    }
+  ],
+  "url": "https://finchnode.com/developers/demo-api"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "One's Vibe",
+  "description": "Search a curated gallery of live, tryable AI-built products for prior art. Read-only, no auth.",
+  "packageName": "@alphesdk-remote/app-onesvibe-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onesvibe.app/api/mcp"
+    }
+  ],
+  "url": "https://onesvibe.app/for-agents"
+}

@@ -1,0 +1,44 @@
+{
+  "type": "external-agent",
+  "key": "claude-computer-use-demo",
+  "name": "Claude Computer Use Demo",
+  "description": "Anthropic's reference implementation that lets Claude operate a sandboxed Linux desktop inside a Docker container.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "desktop", "docker", "claude", "reference"],
+  "repo": "https://github.com/anthropics/claude-quickstarts",
+  "subpath": "computer-use-demo",
+  "publisher": "Anthropic",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Users give Claude a task in a Streamlit chat and watch it use the mouse, keyboard, shell and file editor on a virtual desktop. It is the official starting point for building computer-use agents.",
+  "howItWorks": "The container bundles a virtual display, desktop apps and an agent loop that sends screenshots to Claude and executes the computer, bash and text-editor tool calls it returns. It supports the Anthropic API, Amazon Bedrock and Google Vertex.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Anthropic API key; Bedrock or Vertex credentials are alternatives"
+    },
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the demo image"
+    }
+  ],
+  "install": [],
+  "run": [
+    "export ANTHROPIC_API_KEY=%your_api_key%",
+    "docker run -e ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY -v $HOME/.anthropic:/home/computeruse/.anthropic -p 5900:5900 -p 8501:8501 -p 6080:6080 -p 8080:8080 -it ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest"
+  ],
+  "interfaces": ["web"],
+  "language": "Python",
+  "models": "Claude via Anthropic API, Bedrock or Vertex",
+  "mcp": "none",
+  "github": {
+    "stars": 17785,
+    "license": "MIT",
+    "pushedAt": "2026-09-30",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "obsidian-copilot",
+  "name": "Copilot for Obsidian",
+  "description": "Obsidian plugin that runs agents over your vault for research, writing and knowledge work.",
+  "category": "knowledge-memory",
+  "tags": ["obsidian", "second-brain", "notes", "writing", "plugin"],
+  "repo": "https://github.com/logancyang/obsidian-copilot",
+  "homepage": "https://obsidiancopilot.com/",
+  "publisher": "Logan Yang",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Adds chat and agent modes to Obsidian that can read notes, use tools, create files and work over several turns under permissions you set. It is for people who keep their knowledge base in Obsidian.",
+  "howItWorks": "The plugin's Agent mode drives opencode, Claude Code or Codex from inside Obsidian, while Quick Chat talks to a model through your own API key or a local model. It is installed from Obsidian's Community Plugins. Multi-agent requests and Copilot-hosted models need a paid Plus plan.",
+  "requirements": [
+    {
+      "name": "Obsidian",
+      "kind": "runtime",
+      "required": true,
+      "description": "Host application"
+    },
+    {
+      "name": "LLM provider or agent account",
+      "kind": "account",
+      "required": true,
+      "description": "An API key, a local model, or an existing Claude Code or Codex account"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "chat"],
+  "language": "TypeScript",
+  "models": "Bring-your-own API keys, local models, or Claude Code / Codex / opencode agents",
+  "mcp": "none",
+  "github": {
+    "stars": 7779,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

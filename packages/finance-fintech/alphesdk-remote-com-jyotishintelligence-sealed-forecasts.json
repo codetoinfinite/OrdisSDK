@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "JYOTINT Sealed Forecasts",
+  "description": "Bitcoin-anchored sealed-forecast record: search, grades, calibration, luck test. Read-only, no key.",
+  "packageName": "@alphesdk-remote/com-jyotishintelligence-sealed-forecasts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jyotishintelligence.com/mcp"
+    }
+  ],
+  "url": "https://jyotishintelligence.com/api"
+}

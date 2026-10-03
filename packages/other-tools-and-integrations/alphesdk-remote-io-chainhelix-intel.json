@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "intel",
+  "description": "Nine chain onchain intelligence with a verifiable onchain signal attestation stream",
+  "packageName": "@alphesdk-remote/io-chainhelix-intel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.chainhelix.io"
+    }
+  ],
+  "url": "https://chainhelix.io"
+}

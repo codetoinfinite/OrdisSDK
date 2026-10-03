@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Hermes Plant — Agent Commerce Assurance",
+  "description": "Preflight, approve, and prove consequential agent actions with signed evidence and x402 tools.",
+  "packageName": "@alphesdk-remote/io-github-jessegdotio-hermes-plant",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hermesplant.com/mcp"
+    }
+  ],
+  "url": "https://github.com/JesseGdotIO/hermesplant-mcp-server",
+  "readme": "https://github.com/JesseGdotIO/hermesplant-mcp-server#readme"
+}

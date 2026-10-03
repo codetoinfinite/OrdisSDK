@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cheapest Price",
+  "description": "The lowest current price for a product, checked live, with the typical price and links to compare.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-cheapestprice",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/cheapestprice/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

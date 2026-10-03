@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "mirix",
+  "name": "MIRIX",
+  "description": "Multi-agent personal assistant that builds structured long-term memory from screen activity and conversation.",
+  "category": "knowledge-memory",
+  "tags": ["memory", "multi-agent", "personal-assistant", "screen-capture", "privacy"],
+  "repo": "https://github.com/Mirix-AI/MIRIX",
+  "homepage": "https://mirix.io/",
+  "publisher": "Mirix AI",
+  "publisherType": "company",
+  "official": false,
+  "whatItDoes": "Observes what the user does on screen and what they say, then consolidates it into memories that later conversations can draw on. Long-term data is stored locally under user-controlled privacy settings.",
+  "howItWorks": "Six memory components (core, episodic, semantic, procedural, resource and knowledge vault) are each managed by a dedicated agent. A Docker Compose backend exposes a dashboard and API, a Python client initialises a meta agent with an LLM config, and search uses PostgreSQL BM25 plus vector similarity.",
+  "requirements": [
+    {
+      "name": "Docker Compose",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the backend and dashboard"
+    },
+    {
+      "name": "MIRIX_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key created in the local dashboard and used by the client"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model used by the meta agent, for example Gemini"
+    }
+  ],
+  "install": ["docker compose up -d --pull always", "pip install mirix-client"],
+  "run": [],
+  "interfaces": ["web", "api", "library"],
+  "language": "Python",
+  "models": "Gemini and other configurable providers",
+  "mcp": "none",
+  "github": {
+    "stars": 3450,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-12",
+    "checkedAt": "2026-10-03"
+  }
+}

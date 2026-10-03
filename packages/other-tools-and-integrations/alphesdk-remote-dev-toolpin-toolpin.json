@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "toolpin",
+  "description": "Check whether an MCP server answers, what its tools claim, and whether that claim has changed.",
+  "packageName": "@alphesdk-remote/dev-toolpin-toolpin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolpin.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Toolpin/mcp-server",
+  "readme": "https://github.com/Toolpin/mcp-server#readme"
+}

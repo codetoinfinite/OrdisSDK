@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AI Site Scorer",
+  "description": "Check website AI-readiness: Schema.org, llms.txt, E-E-A-T, robots.txt. Works in Cursor & Claude.",
+  "packageName": "@alphesdk-remote/io-github-minglesai-ai-site-scorer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-readiness.mingles.ai/api/mcp/"
+    }
+  ],
+  "url": "https://github.com/MinglesAI/ai-site-scorer",
+  "readme": "https://github.com/MinglesAI/ai-site-scorer#readme"
+}

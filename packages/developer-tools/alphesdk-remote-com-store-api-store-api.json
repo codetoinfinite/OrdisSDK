@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Store API",
+  "description": "GPT, Claude, Gemini, DeepSeek, Grok, Qwen and GLM through one API key. Pay per token.",
+  "packageName": "@alphesdk-remote/com-store-api-store-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://store-api.com/mcp"
+    }
+  ],
+  "url": "https://github.com/kirials86-eng/store-api-mcp",
+  "readme": "https://github.com/kirials86-eng/store-api-mcp#readme"
+}

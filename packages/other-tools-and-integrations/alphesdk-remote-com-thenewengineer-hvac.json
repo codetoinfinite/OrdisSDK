@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The New Engineer — HVAC",
+  "description": "European HVAC sizing: EN 12828 expansion vessels, EN 378 zones, Swiss refrigerant rules.",
+  "packageName": "@alphesdk-remote/com-thenewengineer-hvac",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thenewengineer.com/mcp"
+    }
+  ],
+  "url": "https://thenewengineer.com/ai"
+}

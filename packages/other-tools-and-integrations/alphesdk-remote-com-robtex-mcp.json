@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "DNS, IP, AS, domain reputation, and Lightning Network intelligence (44 tools)",
+  "packageName": "@alphesdk-remote/com-robtex-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.robtex.com/mcp"
+    }
+  ]
+}

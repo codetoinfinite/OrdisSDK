@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wikivibe MCP",
+  "description": "Search and read public Wikivibe articles about AI coding, agents, MCP, GEO, bots and deployment.",
+  "packageName": "@alphesdk-remote/io-github-alexmi64-wikivibe-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wikivibe.ru/mcp/"
+    }
+  ],
+  "url": "https://github.com/AlexMi64/wikivibe-mcp",
+  "readme": "https://github.com/AlexMi64/wikivibe-mcp#readme"
+}

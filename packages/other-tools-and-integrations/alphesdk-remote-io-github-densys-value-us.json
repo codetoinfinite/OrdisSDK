@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "value-us",
+  "description": "Verified deals, store policies & a trust score for thousands of online retailers. No auth.",
+  "packageName": "@alphesdk-remote/io-github-densys-value-us",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://value.us/mcp"
+    }
+  ],
+  "url": "https://value.us"
+}

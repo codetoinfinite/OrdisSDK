@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "onramperx",
+  "description": "Non-custodial value router: ranked fiat/crypto & cross-chain routes, swaps, onramp, gasless wallet.",
+  "packageName": "@alphesdk-remote/com-mudko-onramperx",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://router.mudko.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/lmno100/onramperx",
+  "readme": "https://github.com/lmno100/onramperx#readme"
+}

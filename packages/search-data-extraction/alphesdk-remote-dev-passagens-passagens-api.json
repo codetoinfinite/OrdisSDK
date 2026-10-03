@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "passagens-api",
+  "description": "Brazil-first flight price search for AI agents: Portuguese place names, BRL, disclosed affiliate",
+  "packageName": "@alphesdk-remote/dev-passagens-passagens-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://passagens.dev/mcp"
+    }
+  ],
+  "url": "https://passagens.dev"
+}

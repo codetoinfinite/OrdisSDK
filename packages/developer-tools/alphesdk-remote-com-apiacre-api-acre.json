@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "API Acre",
+  "description": "73 x402-paid Base and Solana APIs with free discovery, samples, workflows, and Pixel Acre.",
+  "packageName": "@alphesdk-remote/com-apiacre-api-acre",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apiacre.com/mcp"
+    }
+  ],
+  "url": "https://apiacre.com"
+}

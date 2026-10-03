@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agent Revenue Network",
+  "description": "Paid deterministic data-quality and execution-verification tools for AI agents.",
+  "packageName": "@alphesdk-remote/com-agentrevenuenetwork-agent-revenue-network",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.agentrevenuenetwork.com/mcp"
+    }
+  ],
+  "url": "https://www.agentrevenuenetwork.com"
+}

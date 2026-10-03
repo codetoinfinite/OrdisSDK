@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Dynamik Public Data",
+  "description": "Public tools to understand Dynamik, discover datasets, and connect account-scoped capabilities.",
+  "packageName": "@alphesdk-remote/io-github-dynamikorbits-public-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dynamikorbits.com/public/mcp"
+    }
+  ]
+}

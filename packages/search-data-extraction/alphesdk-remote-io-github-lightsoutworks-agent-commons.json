@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LIGHTS OUT WORKS Capability Search",
+  "description": "Evidence-labeled Method search for AI Agents; optional contributor and Gateway discovery.",
+  "packageName": "@alphesdk-remote/io-github-lightsoutworks-agent-commons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lightsoutworks.org/mcp"
+    }
+  ],
+  "url": "https://lightsoutworks.org/llms.txt"
+}

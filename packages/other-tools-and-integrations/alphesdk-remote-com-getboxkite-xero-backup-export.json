@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Boxkite — Xero Backup & Export",
+  "description": "Complete read-only backup and export of Xero accounting data as a ZIP plus a manifest.",
+  "packageName": "@alphesdk-remote/com-getboxkite-xero-backup-export",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.getboxkite.com/mcp"
+    }
+  ],
+  "url": "https://www.getboxkite.com/agents"
+}

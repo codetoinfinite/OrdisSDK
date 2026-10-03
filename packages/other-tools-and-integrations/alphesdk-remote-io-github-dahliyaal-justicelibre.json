@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "justicelibre",
+  "description": "MCP jurisprudence française : 3,3 M décisions (Cass, CE, CAA, TA, CEDH, CJUE) + lois à date. Gratuit",
+  "packageName": "@alphesdk-remote/io-github-dahliyaal-justicelibre",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://justicelibre.org/mcp"
+    }
+  ],
+  "url": "https://github.com/Dahliyaal/justicelibre",
+  "readme": "https://github.com/Dahliyaal/justicelibre#readme"
+}

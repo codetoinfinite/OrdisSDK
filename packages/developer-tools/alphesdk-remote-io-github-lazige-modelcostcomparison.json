@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ModelCostComparison",
+  "description": "Find AI model pricing, estimate token costs and compare offers. No API key required.",
+  "packageName": "@alphesdk-remote/io-github-lazige-modelcostcomparison",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modelcostcomparison.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Lazige/modelcostcomparison-mcp",
+  "readme": "https://github.com/Lazige/modelcostcomparison-mcp#readme"
+}

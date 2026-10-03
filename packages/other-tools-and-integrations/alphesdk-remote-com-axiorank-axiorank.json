@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AxioRank: Zero-Trust for AI Agents",
+  "description": "Zero-trust gateway for AI agents: score tool calls, verify agent cards, enforce policy, audit.",
+  "packageName": "@alphesdk-remote/com-axiorank-axiorank",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.axiorank.com/api/mcp-server/mcp"
+    }
+  ],
+  "url": "https://axiorank.com"
+}

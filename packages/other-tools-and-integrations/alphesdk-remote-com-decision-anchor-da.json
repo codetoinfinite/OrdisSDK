@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Decision Anchor",
+  "description": "External anchoring layer: records AI agent accountability boundaries on both sides. Content-blind.",
+  "packageName": "@alphesdk-remote/com-decision-anchor-da",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.decision-anchor.com/mcp"
+    }
+  ],
+  "url": "https://github.com/zse4321/decision-anchor-sdk",
+  "readme": "https://github.com/zse4321/decision-anchor-sdk#readme"
+}

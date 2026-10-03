@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FrankKi",
+  "description": "The agentic layer of letters. Agents send real printed mail worldwide, German compliance built in.",
+  "packageName": "@alphesdk-remote/app-frankki-letters",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.frankki.app"
+    }
+  ],
+  "url": "https://github.com/datPascal/frankki-mcp",
+  "readme": "https://github.com/datPascal/frankki-mcp#readme"
+}

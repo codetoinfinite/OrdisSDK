@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cromanion",
+  "description": "Raise conversion on a site you manage. No API key, no human to wake — you prove the domain.",
+  "packageName": "@alphesdk-remote/com-cromanion-cromanion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cromanion.com/api/mcp"
+    }
+  ],
+  "url": "https://cromanion.com/agents"
+}

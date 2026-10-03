@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ecoExperten Energieausweis",
+  "description": "Order official German energy certificates (Energieausweis) from chat — on invoice, 1-2 days.",
+  "packageName": "@alphesdk-remote/com-ecoexperten-energieausweis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ecoexperten.com/mcp"
+    }
+  ],
+  "url": "https://ecoexperten.com"
+}

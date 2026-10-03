@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Focxle: AI governance for B2B deals between agents",
+  "description": "AI governance for B2B agent deals: negotiate, lock agreements, check payments. Plus x402 USDC.",
+  "packageName": "@alphesdk-remote/com-focxle-afos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://focxle.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://focxle.com"
+}

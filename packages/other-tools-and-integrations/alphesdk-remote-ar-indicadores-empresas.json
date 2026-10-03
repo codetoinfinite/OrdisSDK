@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "empresas",
+  "description": "Empresas argentinas por CUIT: registro societario, deudas BCRA y contratos con el Estado.",
+  "packageName": "@alphesdk-remote/ar-indicadores-empresas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://indicadores.ar/mcp"
+    }
+  ],
+  "url": "https://indicadores.ar/api-empresas"
+}

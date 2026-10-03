@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "plith",
+  "description": "AI agent infrastructure: dedup, cost prediction, validation, governance, failure intelligence.",
+  "packageName": "@alphesdk-remote/ai-plith-plith",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plith.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/chicogonzales/plith",
+  "readme": "https://github.com/chicogonzales/plith#readme"
+}

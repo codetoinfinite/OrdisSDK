@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kras-Trans: CMR, WZ and interest note generator",
+  "description": "CMR consignment notes in 25 EU languages, Polish WZ and interest notes: link to a ready PDF.",
+  "packageName": "@alphesdk-remote/eu-kras-trans-cmr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kras-trans.eu/cmr/mcp"
+    }
+  ],
+  "url": "https://kras-trans.eu/cmr/asystent-ai/"
+}

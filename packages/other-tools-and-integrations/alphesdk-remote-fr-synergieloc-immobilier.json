@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "immobilier",
+  "description": "Draw buildings as DXF, IFC and 3D, plus exact French rent and charges calculations.",
+  "packageName": "@alphesdk-remote/fr-synergieloc-immobilier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://synergieloc.fr/mcp"
+    }
+  ],
+  "url": "https://synergieloc.fr/api-ia"
+}

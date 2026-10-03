@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "nempulse",
+  "description": "Read-only access to Australian NEM grid-scale battery performance, revenue, dispatch and FCAS data.",
+  "packageName": "@alphesdk-remote/au-com-nempulse-nempulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nempulse.com.au/mcp"
+    }
+  ],
+  "url": "https://github.com/FDSchaefer/bessPerformance",
+  "readme": "https://github.com/FDSchaefer/bessPerformance#readme"
+}

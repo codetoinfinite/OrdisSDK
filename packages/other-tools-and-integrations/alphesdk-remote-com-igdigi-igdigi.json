@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "IG Digital Lab, Sacramento, CA",
+  "description": "IG Digital Lab, Sacramento, CA: independent software & AI automation agency.",
+  "packageName": "@alphesdk-remote/com-igdigi-igdigi",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://igdigi.com/mcp"
+    }
+  ],
+  "url": "https://igdigi.com"
+}

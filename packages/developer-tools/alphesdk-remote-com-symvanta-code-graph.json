@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Symvanta",
+  "description": "Hosted code graph over MCP: exact callers, dependencies, and cross-repo blast radius for AI agents.",
+  "packageName": "@alphesdk-remote/com-symvanta-code-graph",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.symvanta.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Symvanta/claude-plugin",
+  "readme": "https://github.com/Symvanta/claude-plugin#readme"
+}

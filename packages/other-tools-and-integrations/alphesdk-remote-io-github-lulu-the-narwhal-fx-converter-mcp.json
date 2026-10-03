@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FX Converter MCP",
+  "description": "Free, keyless real-time currency conversion and exchange rates for any currency pair.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-fx-converter-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/fx/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

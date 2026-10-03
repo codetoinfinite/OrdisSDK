@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cleartrace",
+  "description": "Neutral on-chain execution benchmarking: slippage, revert rates, MEV, and DEX frontend attribution.",
+  "packageName": "@alphesdk-remote/com-cleartracedata-cleartrace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cleartracedata.com/mcp"
+    }
+  ],
+  "url": "https://cleartracedata.com"
+}

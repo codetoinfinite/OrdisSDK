@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Production List",
+  "description": "Live film and TV productions in development and production, with companies and people attached.",
+  "packageName": "@alphesdk-remote/com-productionlist-production-list",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.productionlist.com/mcp"
+    }
+  ],
+  "url": "https://www.productionlist.com/plugin"
+}

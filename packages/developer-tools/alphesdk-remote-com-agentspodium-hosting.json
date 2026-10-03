@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "AgentsPodium Hosting",
+  "description": "Create, watch, pay for and connect hosted AI agent pods on AgentsPodium. Needs an API key.",
+  "packageName": "@alphesdk-remote/com-agentspodium-hosting",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agentspodium.com/mcp"
+    }
+  ],
+  "url": "https://github.com/agentspodium/agent-gateway",
+  "readme": "https://github.com/agentspodium/agent-gateway#readme"
+}

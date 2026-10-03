@@ -1,0 +1,18 @@
+{
+  "type": "mcp-server",
+  "name": "TomTom Maps",
+  "description": "TomTom search, geocoding, routing, traffic and map rendering.",
+  "packageName": "@tomtom-org/tomtom-mcp",
+  "packageVersion": "1.6.10",
+  "runtime": "node",
+  "readme": "https://github.com/tomtom-international/tomtom-maps-mcp",
+  "url": "https://github.com/tomtom-international/tomtom-maps-mcp",
+  "author": "TomTom",
+  "env": {
+    "TOMTOM_API_KEY": {
+      "description": "TomTom API key",
+      "required": true
+    }
+  },
+  "bin": "tomtom-mcp"
+}

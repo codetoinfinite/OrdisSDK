@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Moonlings — Local Business Intelligence",
+  "description": "AI visibility + fact-checks (ChatGPT/Perplexity), review gaps & competitor scans, local SEO.",
+  "packageName": "@alphesdk-remote/ai-moonlings-moonlings",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://moonlings.ai/api/mcp"
+    }
+  ],
+  "url": "https://moonlings.ai/mcp"
+}

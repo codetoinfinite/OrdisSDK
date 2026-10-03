@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SMS Vert Pro",
+  "description": "French SMS platform for AI agents: bulk & scheduled SMS, OTP, delivery reports, replies, STOP list.",
+  "packageName": "@alphesdk-remote/com-smsvertpro-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.smsvertpro.com/mcp/"
+    }
+  ],
+  "url": "https://www.smsvertpro.com/serveur-mcp-sms-heberge.php"
+}

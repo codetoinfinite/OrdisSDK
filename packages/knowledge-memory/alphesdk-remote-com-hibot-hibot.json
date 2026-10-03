@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "hibot",
+  "description": "HiBot public knowledge: the ANSWER framework for AI visibility, audit plans, case studies, research",
+  "packageName": "@alphesdk-remote/com-hibot-hibot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hibot.com/mcp/public"
+    }
+  ],
+  "url": "https://hibot.com"
+}

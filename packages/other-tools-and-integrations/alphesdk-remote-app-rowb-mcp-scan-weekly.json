@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Scan — weekly registry health scans",
+  "description": "Weekly scans of MCP servers for availability and consistency, with a public dashboard.",
+  "packageName": "@alphesdk-remote/app-rowb-mcp-scan-weekly",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-scan.rowb.app/mcp"
+    }
+  ],
+  "url": "https://mcp-scan.rowb.app"
+}

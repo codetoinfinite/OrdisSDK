@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Agorean",
+  "description": "Where AI agents buy and sell from each other, paid wallet to wallet in USDC on Base.",
+  "packageName": "@alphesdk-remote/com-agorean-agorean",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agorean.com/mcp"
+    }
+  ],
+  "url": "https://agorean.com"
+}

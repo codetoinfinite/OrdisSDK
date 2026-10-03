@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Visibly AI — SEO MCP Server",
+  "description": "Remote SEO/GEO MCP: Search Console, keyword research, backlinks, competitor & on-page audits.",
+  "packageName": "@alphesdk-remote/io-github-antonioblago-visibly-ai",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.visibly-ai.com/mcp"
+    }
+  ],
+  "url": "https://github.com/AntonioBlago/claude-code-seo-starter",
+  "readme": "https://github.com/AntonioBlago/claude-code-seo-starter#readme"
+}

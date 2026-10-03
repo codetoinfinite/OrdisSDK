@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ThrustLab",
+  "description": "Simulate electric UAV powertrains and search a public motor, propeller and battery database.",
+  "packageName": "@alphesdk-remote/com-thrustlab-thrustlab",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thrustlab.com/mcp"
+    }
+  ],
+  "url": "https://thrustlab.com"
+}

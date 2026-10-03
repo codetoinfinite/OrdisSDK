@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ThaiProps Thailand Real Estate",
+  "description": "Search live published Thailand properties and projects from ThaiProps.",
+  "packageName": "@alphesdk-remote/com-thaiprops-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thaiprops.com/mcp"
+    }
+  ]
+}

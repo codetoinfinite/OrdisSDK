@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dock",
+  "description": "AI workspace for you, your team, and every agent. Tables, docs (images, 4K video), formulas.",
+  "packageName": "@alphesdk-remote/ai-trydock-dock",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trydock.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/try-dock-ai/mcp",
+  "readme": "https://github.com/try-dock-ai/mcp#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "StockLens",
+  "description": "Scores for the 600 largest stocks with no account. Sign in for analysis, screening and a watchlist.",
+  "packageName": "@alphesdk-remote/com-stocklens-stocklens",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.stocklens.com/mcp"
+    }
+  ]
+}

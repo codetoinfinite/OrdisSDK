@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "finance-foundation",
+  "description": "Open financial reference data: companies with LEI/ISIN/FIGI, markets, funds, graph, live series.",
+  "packageName": "@alphesdk-remote/foundation-finance-finance-foundation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finance.foundation/mcp"
+    }
+  ],
+  "url": "https://finance.foundation"
+}

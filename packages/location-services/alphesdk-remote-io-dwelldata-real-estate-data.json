@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "real-estate-data",
+  "description": "DwellData: typed US real-estate feeds — deals, distress, auctions, leads, address lookup.",
+  "packageName": "@alphesdk-remote/io-dwelldata-real-estate-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dwelldata.io/mcp"
+    }
+  ]
+}

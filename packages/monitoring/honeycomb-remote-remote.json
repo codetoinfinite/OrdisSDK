@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Honeycomb (remote)",
+  "description": "Hosted Honeycomb server for querying traces, SLOs, boards and triggers.",
+  "packageName": "@alphesdk-remote/honeycomb-remote",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.honeycomb.io/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.honeycomb.io/integrations/mcp/",
+  "url": "https://github.com/honeycombio",
+  "author": "Honeycomb",
+  "env": {}
+}

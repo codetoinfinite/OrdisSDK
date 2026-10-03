@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "BlinkCodes catalog",
+  "description": "Read-only catalog of gift cards, service top-ups and travel eSIMs sold by BlinkCodes.",
+  "packageName": "@alphesdk-remote/com-blinkcodes-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://blinkcodes.com/mcp"
+    }
+  ],
+  "url": "https://github.com/delneg/blinkcodes-agent-interfaces",
+  "readme": "https://github.com/delneg/blinkcodes-agent-interfaces#readme"
+}

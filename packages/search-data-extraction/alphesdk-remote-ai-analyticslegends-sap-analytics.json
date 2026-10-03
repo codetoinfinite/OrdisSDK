@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Analytics Legends — SAP Analytics Intelligence",
+  "description": "AI agent for SAP analytics: firms, day rates, contract radar, news, concepts, studies",
+  "packageName": "@alphesdk-remote/ai-analyticslegends-sap-analytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://analyticslegends.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/analyticslegends/analytics-legends-mcp",
+  "readme": "https://github.com/analyticslegends/analytics-legends-mcp#readme"
+}

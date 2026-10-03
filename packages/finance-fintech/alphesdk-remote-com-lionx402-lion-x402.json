@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LION — Verified Company & Compliance Data",
+  "description": "Keyless x402 compliance on Base: $0.001 OFAC wallet screen, $0.05 pack, $0.95 company file.",
+  "packageName": "@alphesdk-remote/com-lionx402-lion-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lionx402.com/api/mcp"
+    }
+  ],
+  "url": "https://lionx402.com"
+}

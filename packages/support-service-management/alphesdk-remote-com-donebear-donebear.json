@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Done Bear",
+  "description": "Local-first task manager: create, edit, and complete tasks, projects, and checklists via MCP.",
+  "packageName": "@alphesdk-remote/com-donebear-donebear",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.donebear.com/mcp"
+    }
+  ]
+}

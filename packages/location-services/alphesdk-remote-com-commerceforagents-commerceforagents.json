@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Commerce for Agents",
+  "description": "Compare US mobile plans (cheapest first), home internet providers by address, German energy tariffs.",
+  "packageName": "@alphesdk-remote/com-commerceforagents-commerceforagents",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.commerceforagents.com/mcp"
+    }
+  ],
+  "url": "https://commerceforagents.com/"
+}

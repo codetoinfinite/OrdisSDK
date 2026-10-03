@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Equation.io",
+  "description": "Create interactive 2D and 3D graphs with validated equations, shareable links, and PNG previews.",
+  "packageName": "@alphesdk-remote/io-equation-equation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://equation.io/mcp"
+    }
+  ],
+  "url": "https://github.com/aantthony/equation.io",
+  "readme": "https://github.com/aantthony/equation.io#readme"
+}

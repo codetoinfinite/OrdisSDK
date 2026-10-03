@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GrabGPU",
+  "description": "Cloud GPU prices with live stock from 22 providers. Find where to rent an H100 or B300 now.",
+  "packageName": "@alphesdk-remote/com-grabgpu-gpu-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://grabgpu.com/mcp"
+    }
+  ],
+  "url": "https://grabgpu.com/api/"
+}

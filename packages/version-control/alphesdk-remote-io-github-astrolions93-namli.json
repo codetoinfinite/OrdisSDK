@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Namli",
+  "description": "Checks if a project, brand or app name already exists: trademarks, domains, web and GitHub.",
+  "packageName": "@alphesdk-remote/io-github-astrolions93-namli",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://namli.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://namli.vercel.app"
+}

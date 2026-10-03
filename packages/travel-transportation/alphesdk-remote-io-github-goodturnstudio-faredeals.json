@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Fare Deals",
+  "description": "Cheap flights from any city, to one place or anywhere, with the cheapest days to fly.",
+  "packageName": "@alphesdk-remote/io-github-goodturnstudio-faredeals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goodturn-mcp.pages.dev/faredeals/mcp"
+    }
+  ],
+  "url": "https://github.com/GoodTurnStudio/goodturn-mcp",
+  "readme": "https://github.com/GoodTurnStudio/goodturn-mcp#readme"
+}

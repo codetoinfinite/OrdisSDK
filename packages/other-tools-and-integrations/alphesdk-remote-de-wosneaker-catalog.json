@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wosneaker.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Sneaker – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wosneaker-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wosneaker.de/api/mcp"
+    }
+  ],
+  "url": "https://wosneaker.de"
+}

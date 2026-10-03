@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "price-tracker-mcp",
+  "description": "Product price checks and affiliate link building for AI shopping agents.",
+  "packageName": "@alphesdk-remote/dev-ioconnex-price-tracker-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prices.ioconnex.dev/mcp"
+    }
+  ],
+  "url": "https://ioconnex.dev"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Weather of Record",
+  "description": "Published weather records for a U.S. street address and date, with provenance.",
+  "packageName": "@alphesdk-remote/com-weatherofrecord-weather-of-record",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://weatherofrecord.com/mcp"
+    }
+  ],
+  "url": "https://weatherofrecord.com/api"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Money Mind — the judge",
+  "description": "Statistical adjudication for agents: backtest judges, fact-checks. Pay per call in USDC via x402.",
+  "packageName": "@alphesdk-remote/io-github-elimuaa-money-mind",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://money-mind-extract.onrender.com/mcp"
+    }
+  ],
+  "url": "https://money-mind-extract.onrender.com/integrate"
+}

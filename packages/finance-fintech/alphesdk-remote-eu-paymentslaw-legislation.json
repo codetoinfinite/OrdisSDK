@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Payments Law EU",
+  "description": "Read-only query service for EU payments legislation: 51 curated instruments, by provision.",
+  "packageName": "@alphesdk-remote/eu-paymentslaw-legislation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.paymentslaw.eu/mcp/v1"
+    }
+  ],
+  "url": "https://paymentslaw.eu/connect/"
+}

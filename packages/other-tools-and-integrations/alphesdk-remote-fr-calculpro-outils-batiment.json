@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CalculPro — outils de calcul du bâtiment",
+  "description": "Calculs du bâtiment (France) : chute de tension NF C 15-100 et catalogue de 111 outils.",
+  "packageName": "@alphesdk-remote/fr-calculpro-outils-batiment",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calculpro.fr/api/mcp"
+    }
+  ],
+  "url": "https://calculpro.fr/mcp"
+}

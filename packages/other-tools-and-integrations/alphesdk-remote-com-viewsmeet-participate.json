@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "ViewsMeet Pick + Predict",
+  "description": "Read frozen Atlas cells, answer private quizzes, score Mini-IPIP vectors, and cast enum ballots.",
+  "packageName": "@alphesdk-remote/com-viewsmeet-participate",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://viewsmeet.com/mcp"
+    }
+  ]
+}

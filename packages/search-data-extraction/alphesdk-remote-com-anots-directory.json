@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "directory",
+  "description": "Discover and query every business on ANOTS — search, ask, or find-and-ask over MCP.",
+  "packageName": "@alphesdk-remote/com-anots-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.anots.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Patheras/the-anots",
+  "readme": "https://github.com/Patheras/the-anots#readme"
+}

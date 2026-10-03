@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tripyana London Chauffeur",
+  "description": "Fixed London chauffeur prices: airport & cruise transfers, hourly hire, day trips, booking links.",
+  "packageName": "@alphesdk-remote/com-tripyana-london-chauffeur",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tripyana.com/public"
+    }
+  ],
+  "url": "https://github.com/tripyana/tripyana-mcp",
+  "readme": "https://github.com/tripyana/tripyana-mcp#readme"
+}

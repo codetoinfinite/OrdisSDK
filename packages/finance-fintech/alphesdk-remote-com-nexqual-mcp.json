@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nexqual",
+  "description": "US stock quotes, analyst targets, superinvestor 13F, insider buys and earnings from SEC filings",
+  "packageName": "@alphesdk-remote/com-nexqual-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nexqual.com/mcp"
+    }
+  ],
+  "url": "https://mcp.nexqual.com"
+}

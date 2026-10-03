@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "CURRENT SEA - Ambiguity Scan",
+  "description": "Explainable ambiguity signals for text. Submitted text is processed but never retained.",
+  "packageName": "@alphesdk-remote/io-github-bowieboii-current-sea",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://current-sea.fastapicloud.dev/mcp"
+    }
+  ]
+}

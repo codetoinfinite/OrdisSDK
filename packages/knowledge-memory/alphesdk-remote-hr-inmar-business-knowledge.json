@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "INMAR business knowledge",
+  "description": "Search and retrieve public INMAR services, projects and business information.",
+  "packageName": "@alphesdk-remote/hr-inmar-business-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inmar.hr/mcp"
+    }
+  ],
+  "url": "https://inmar.hr/"
+}

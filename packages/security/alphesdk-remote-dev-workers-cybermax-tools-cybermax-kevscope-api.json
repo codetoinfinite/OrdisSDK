@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kevscope",
+  "description": "CVE patch-priority API + MCP: CISA KEV, EPSS, CVSS, SSVC. Keys $19/mo; 200 free calls/day.",
+  "packageName": "@alphesdk-remote/dev-workers-cybermax-tools-cybermax-kevscope-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kevscope-api.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://cybermax.cybermax-tools.workers.dev/store/kevscope-api/"
+}

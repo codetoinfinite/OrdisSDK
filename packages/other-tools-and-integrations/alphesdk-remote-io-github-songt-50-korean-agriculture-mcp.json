@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Korean Agriculture Market Data",
+  "description": "Korean wholesale agriculture market data - auction prices, seasonal produce, market trends",
+  "packageName": "@alphesdk-remote/io-github-songt-50-korean-agriculture-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://korean-agriculture-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SongT-50/korean-agriculture-mcp",
+  "readme": "https://github.com/SongT-50/korean-agriculture-mcp#readme"
+}

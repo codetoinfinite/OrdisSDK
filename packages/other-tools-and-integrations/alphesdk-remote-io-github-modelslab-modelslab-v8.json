@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ModelsLab v8",
+  "description": "ModelsLab v8 generation APIs: discover models, providers and endpoints, then run them.",
+  "packageName": "@alphesdk-remote/io-github-modelslab-modelslab-v8",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://modelslab.com/mcp/v8"
+    }
+  ],
+  "url": "https://github.com/ModelsLab/modelslab-mcp",
+  "readme": "https://github.com/ModelsLab/modelslab-mcp#readme"
+}

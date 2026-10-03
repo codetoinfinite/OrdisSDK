@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OpenMandate",
+  "description": "OpenMandate is in private development and is not accepting new mandates or integrations.",
+  "packageName": "@alphesdk-remote/ai-openmandate-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.openmandate.ai/mcp"
+    }
+  ],
+  "url": "https://openmandate.ai"
+}

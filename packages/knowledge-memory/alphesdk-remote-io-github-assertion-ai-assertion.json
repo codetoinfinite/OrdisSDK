@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Assertion Memory",
+  "description": "Recall your team's coding-agent memory. Install the Assertion plugin to capture it automatically.",
+  "packageName": "@alphesdk-remote/io-github-assertion-ai-assertion",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://memory.assertion-ai.com/memory/mcp"
+    }
+  ],
+  "url": "https://github.com/Assertion-AI/assertion",
+  "readme": "https://github.com/Assertion-AI/assertion#readme"
+}

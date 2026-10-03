@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Plutus",
+  "description": "Query cloud, AI and SaaS spend across 25+ providers: costs, budgets, anomalies, unit economics.",
+  "packageName": "@alphesdk-remote/com-plutus-cloud-plutus-cost-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://console.plutus-cloud.com/api/mcp"
+    }
+  ],
+  "url": "https://plutus-cloud.com/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KTRENZ K-Data",
+  "description": "K-pop artists and releases: search, trending by 7-day velocity, and AI answer-engine reach.",
+  "packageName": "@alphesdk-remote/com-ktrenz-kdata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ktrenz.com/api/mcp"
+    }
+  ],
+  "url": "https://ktrenz.com/mcp"
+}

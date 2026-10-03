@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "agentcore-sre-agent",
+  "name": "AgentCore SRE Agent",
+  "description": "Multi-agent site-reliability assistant from AWS that investigates infrastructure issues using logs, metrics and runbooks.",
+  "category": "monitoring",
+  "tags": ["sre", "multi-agent", "incident-response", "kubernetes", "bedrock"],
+  "repo": "https://github.com/awslabs/agentcore-samples",
+  "subpath": "02-use-cases/01-conversational-agents/SRE-agent",
+  "publisher": "AWS",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "SREs describe an incident and specialised agents collaborate to look at Kubernetes state, logs, performance metrics and operational procedures, then report findings. The sample ships with demo backend APIs.",
+  "howItWorks": "A supervisor coordinates specialist agents whose tools are exposed as MCP tools through Amazon Bedrock AgentCore Gateway. It runs locally from a CLI or is deployed to AgentCore Runtime, using Amazon Nova or Claude models.",
+  "requirements": [
+    {
+      "name": "AWS account",
+      "kind": "account",
+      "required": true,
+      "description": "Bedrock AgentCore Gateway and model access"
+    },
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Only when calling Anthropic directly instead of Bedrock"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.12 environment"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["cli", "api"],
+  "language": "Python",
+  "models": "Amazon Nova and Anthropic Claude",
+  "mcp": "client",
+  "github": {
+    "stars": 3427,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

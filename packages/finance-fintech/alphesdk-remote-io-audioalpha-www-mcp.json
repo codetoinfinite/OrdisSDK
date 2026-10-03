@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AudioAlpha",
+  "description": "Financial podcast intelligence platform — sentiment, narrative, and asset signals from 100+ podcasts",
+  "packageName": "@alphesdk-remote/io-audioalpha-www-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.audioalpha.io/api/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "nice to have",
+  "description": "Find ready-made build kits for Claude Code and Codex: slides, LINE stickers, pixel art, games.",
+  "packageName": "@alphesdk-remote/app-nicetohave-kits",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nicetohave.app/api/mcp"
+    }
+  ],
+  "url": "https://nicetohave.app/about.html"
+}

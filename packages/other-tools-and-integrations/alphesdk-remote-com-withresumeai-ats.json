@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ats",
+  "description": "Which ATS does a company use? Portal-verified answers for 743 employers + resume ATS check. No key.",
+  "packageName": "@alphesdk-remote/com-withresumeai-ats",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://withresumeai.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Kayvan-Zahiri/state-of-ats-2026",
+  "readme": "https://github.com/Kayvan-Zahiri/state-of-ats-2026#readme"
+}

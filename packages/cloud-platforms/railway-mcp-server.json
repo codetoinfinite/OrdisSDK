@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Railway",
+  "description": "Manage Railway projects, services, variables and deployments through the Railway CLI login.",
+  "packageName": "@railway/mcp-server",
+  "packageVersion": "0.1.12",
+  "runtime": "node",
+  "readme": "https://docs.railway.com/reference/mcp-server",
+  "url": "https://github.com/railwayapp/railway-mcp-server",
+  "author": "Railway",
+  "env": {}
+}

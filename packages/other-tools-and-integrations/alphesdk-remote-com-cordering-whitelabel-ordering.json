@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "whitelabel-ordering",
+  "description": "Order food from Cordering white-label restaurants: browse menus, confirm, then place an order.",
+  "packageName": "@alphesdk-remote/com-cordering-whitelabel-ordering",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wl-mcp.cordering.com/mcp"
+    }
+  ],
+  "url": "https://github.com/nistruct/cordering-whitelabel-mcp",
+  "readme": "https://github.com/nistruct/cordering-whitelabel-mcp#readme"
+}

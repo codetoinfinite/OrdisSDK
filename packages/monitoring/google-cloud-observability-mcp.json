@@ -1,0 +1,12 @@
+{
+  "type": "mcp-server",
+  "name": "Google Cloud Observability",
+  "description": "Query Cloud Logging, Monitoring, Trace and Error Reporting.",
+  "packageName": "@google-cloud/observability-mcp",
+  "packageVersion": "0.2.3",
+  "runtime": "node",
+  "readme": "https://github.com/googleapis/gcloud-mcp",
+  "url": "https://github.com/googleapis/gcloud-mcp",
+  "author": "Google Cloud",
+  "env": {}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FHI MCP Server Security Audit",
+  "description": "Free payment guide and Base-USDC x402 MCP security, package, domain, and SEC tools.",
+  "packageName": "@alphesdk-remote/dev-workers-fhi-llc-1118-polished-truth-c514-fhi-x402-security-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://polished-truth-c514.fhi-llc-1118.workers.dev/mcp"
+    }
+  ]
+}

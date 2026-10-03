@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GPUQuant AI Infrastructure",
+  "description": "Search AI infrastructure, inspect facility evidence and explore sourced company relationships.",
+  "packageName": "@alphesdk-remote/com-gpuquant-infrastructure",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gpuquant.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/gpuquant/mcp",
+  "readme": "https://github.com/gpuquant/mcp#readme"
+}

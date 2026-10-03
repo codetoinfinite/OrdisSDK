@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "shipyard",
+  "description": "Ship, discover and review vibe-coded projects on Shipyard, the invite-only feed for AI-built apps.",
+  "packageName": "@alphesdk-remote/app-goshipyard-shipyard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://goshipyard.app/mcp"
+    }
+  ],
+  "url": "https://github.com/jonnonz1/shipyard",
+  "readme": "https://github.com/jonnonz1/shipyard#readme"
+}

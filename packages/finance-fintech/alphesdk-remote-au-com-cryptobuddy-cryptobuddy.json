@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "cryptobuddy",
+  "description": "Australian crypto exchange intelligence for AI agents, with x402 payments on XRPL and Base.",
+  "packageName": "@alphesdk-remote/au-com-cryptobuddy-cryptobuddy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cryptobuddy.com.au/mcp"
+    }
+  ]
+}

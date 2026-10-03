@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "tools",
+  "description": "Free German workforce calculators (bridge days, net working time, staffing/PeBeM) - no auth needed.",
+  "packageName": "@alphesdk-remote/com-vigotime-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vigotime.com"
+    }
+  ],
+  "url": "https://vigotime.com/de/mcp"
+}

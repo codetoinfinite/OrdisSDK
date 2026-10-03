@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "guichet",
+  "description": "Search pwa.directory, submit a progressive web app, and get a payment link a human pays.",
+  "packageName": "@alphesdk-remote/directory-pwa-guichet",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pwa.directory/mcp"
+    }
+  ],
+  "url": "https://pwa.directory"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "In meiner Nähe – local businesses in Germany",
+  "description": "Local businesses across Germany (81 categories) near a postcode or coordinates, with opening status.",
+  "packageName": "@alphesdk-remote/de-agentifizierung-naehe-in-meiner-naehe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://naehe.agentifizierung.de/mcp"
+    }
+  ],
+  "url": "https://naehe.agentifizierung.de/"
+}

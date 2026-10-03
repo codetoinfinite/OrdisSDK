@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Claimondo — Kfz-Gutachter finden & Termin buchen",
+  "description": "Findet Kfz-Gutachter in Deutschland, zeigt freie Termine und bucht den Besichtigungstermin.",
+  "packageName": "@alphesdk-remote/de-claimondo-sv-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.claimondo.de/mcp"
+    }
+  ],
+  "url": "https://claimondo.de"
+}

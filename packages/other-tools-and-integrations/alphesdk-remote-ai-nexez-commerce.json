@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Nexez Agentic Commerce",
+  "description": "Find Nexez sellers, inspect offers, and validate checkout or negotiation before buyer approval.",
+  "packageName": "@alphesdk-remote/ai-nexez-commerce",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nexez.app/mcp"
+    }
+  ],
+  "url": "https://nexez.ai/agents"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Subvencióname",
+  "description": "Subvenciones, licitaciones y contratos adjudicados de España, de fuentes oficiales. Solo lectura.",
+  "packageName": "@alphesdk-remote/app-subvencioname-datos-publicos",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://subvencioname.app/api/v1/mcp"
+    }
+  ],
+  "url": "https://subvencioname.app/desarrolladores"
+}

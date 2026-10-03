@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "障害福祉AI辞典 (Japan Disability Welfare Dictionary)",
+  "description": "Japan disability welfare (障害福祉) reference: service fees, add-ons, staffing. In Japanese.",
+  "packageName": "@alphesdk-remote/ai-fukushi-dictionary",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fukushi.ai/api/mcp"
+    }
+  ],
+  "url": "https://fukushi.ai/mcp"
+}

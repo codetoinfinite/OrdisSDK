@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Orion Celestia Intel",
+  "description": "Celestia network intelligence for AI agents: daily analysis, anomaly signals and DA metrics.",
+  "packageName": "@alphesdk-remote/cc-orionlabsone-orion-agent-kit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://orionlabsone.cc/mcp"
+    }
+  ],
+  "url": "https://github.com/orioninfra/orion-agent-kit",
+  "readme": "https://github.com/orioninfra/orion-agent-kit#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SupplySlate",
+  "description": "Agent-native supply network for components, fabrication, industrial RFQs, offers, and fulfillment.",
+  "packageName": "@alphesdk-remote/com-supplyslate-sourcing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.supplyslate.com/mcp"
+    }
+  ]
+}

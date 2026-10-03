@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MerchSage Sponsorship Index",
+  "description": "Public index of YouTube sponsorships: which brands sponsor which creators, from sampled videos.",
+  "packageName": "@alphesdk-remote/com-merchsage-sponsors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.merchsage.com/mcp/sponsors"
+    }
+  ],
+  "url": "https://sponsors.merchsage.com"
+}

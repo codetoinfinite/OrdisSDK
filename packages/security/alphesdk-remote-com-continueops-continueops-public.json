@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ContinueOps Public MCP",
+  "description": "BC/DR & compliance tools: DORA, NIS2, NIST CSF, GDPR, SOC 2, CMMC, CAF, ISO 27001, FCA/PRA.",
+  "packageName": "@alphesdk-remote/com-continueops-continueops-public",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tjcjvxibsrxizwuajypz.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://www.continueops.com"
+}

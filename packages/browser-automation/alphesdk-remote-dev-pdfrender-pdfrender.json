@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "pdfrender",
+  "description": "HTML and CSS to PDF MCP server with page headers, footers and page numbers. No headless browser.",
+  "packageName": "@alphesdk-remote/dev-pdfrender-pdfrender",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pdfrender.dev/mcp/"
+    }
+  ],
+  "url": "https://github.com/pdfrender-dev/pdfrender",
+  "readme": "https://github.com/pdfrender-dev/pdfrender#readme"
+}

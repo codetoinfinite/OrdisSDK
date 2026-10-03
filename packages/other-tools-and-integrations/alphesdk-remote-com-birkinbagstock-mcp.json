@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Live Hermes Birkin & Kelly market data: resale inventory, prices, auction calendar and results",
+  "packageName": "@alphesdk-remote/com-birkinbagstock-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://birkinbagstock.com/mcp"
+    }
+  ],
+  "url": "https://birkinbagstock.com"
+}

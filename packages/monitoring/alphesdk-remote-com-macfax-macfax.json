@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Macfax",
+  "description": "Used-Mac market: quality-gated listings with deep links, asking-price stats, trust checks, alerts.",
+  "packageName": "@alphesdk-remote/com-macfax-macfax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://macfax.com/mcp"
+    }
+  ],
+  "url": "https://github.com/macfax/macfax-mcp",
+  "readme": "https://github.com/macfax/macfax-mcp#readme"
+}

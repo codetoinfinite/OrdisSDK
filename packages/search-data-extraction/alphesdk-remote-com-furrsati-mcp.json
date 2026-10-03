@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Furrsati",
+  "description": "Search Furrsati's Lebanese freelancers by skill, rate and rating, in English, Arabic or French.",
+  "packageName": "@alphesdk-remote/com-furrsati-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.furrsati.com/mcp"
+    }
+  ],
+  "url": "https://furrsati.com/mcp"
+}

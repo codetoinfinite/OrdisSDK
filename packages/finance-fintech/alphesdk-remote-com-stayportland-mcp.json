@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search Portland rentals, compare homes, save a shortlist, and get a live quote. No payments.",
+  "packageName": "@alphesdk-remote/com-stayportland-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.stayportland.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FEDLIN Scanners",
+  "description": "Exposes FEDLIN's public security scanners as agent-callable tools over Streamable HTTP.",
+  "packageName": "@alphesdk-remote/com-fedlin-fedlin-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fedlin.com/mcp"
+    }
+  ],
+  "url": "https://github.com/fedlinllc/fedlin-mcp-server",
+  "readme": "https://github.com/fedlinllc/fedlin-mcp-server#readme"
+}

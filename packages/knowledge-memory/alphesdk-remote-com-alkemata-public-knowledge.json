@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Alkemata Public Knowledge",
+  "description": "Search and retrieve published Alkemata articles, pages, and guidance through a read-only MCP server.",
+  "packageName": "@alphesdk-remote/com-alkemata-public-knowledge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alkemata.com/wp-json/mcp/alkemata-public"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GuruHotel",
+  "description": "GuruHotel product knowledge: direct booking platform for hotels, PMS compatibility and pricing.",
+  "packageName": "@alphesdk-remote/com-guruhotel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://guruhotel.com/api/mcp"
+    }
+  ],
+  "url": "https://guruhotel.com/mcp"
+}

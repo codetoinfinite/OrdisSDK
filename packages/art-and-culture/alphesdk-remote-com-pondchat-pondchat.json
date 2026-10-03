@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pondchat",
+  "description": "Ephemeral P2P WebRTC video rooms — create a pond, share the link, talk.",
+  "packageName": "@alphesdk-remote/com-pondchat-pondchat",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pondchat.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ivanaka/pondchat",
+  "readme": "https://github.com/ivanaka/pondchat#readme"
+}

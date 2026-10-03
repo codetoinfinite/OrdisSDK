@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bypass-cloudflare-api",
+  "description": "Bypass Cloudflare API: A powerful scraping API designed to bypass Cloudflare protection.",
+  "packageName": "@alphesdk-remote/com-jojapi-bypass-cloudflare-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/bypass-cloudflare-api"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/bypass-cloudflare-api"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "external-agent",
+  "key": "oh-my-pi",
+  "name": "oh-my-pi",
+  "description": "Feature-rich fork of the Pi coding agent that adds language-server and debugger operations, persistent kernels and many providers.",
+  "category": "coding-agents",
+  "tags": ["terminal", "pi-fork", "lsp", "debugger", "multi-provider"],
+  "repo": "https://github.com/can1357/oh-my-pi",
+  "homepage": "https://omp.sh",
+  "publisher": "can1357 (Stencil Labs)",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "oh-my-pi is a terminal coding agent for developers who want more built in than stock Pi. It can navigate code through language servers, drive debuggers and keep Python or Bun sessions alive between steps. It connects to a wide range of model providers.",
+  "howItWorks": "The project keeps Pi's harness design and adds a native Rust core plus a larger tool set of around thirty tools. Tools cover LSP and DAP actions as well as persistent execution kernels. It is distributed as the omp binary through an install script, Homebrew or Bun.",
+  "requirements": [
+    {
+      "name": "Model provider account or API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Access to at least one of the supported providers"
+    }
+  ],
+  "install": ["curl -fsSL https://omp.sh/install | sh"],
+  "run": [],
+  "interfaces": ["cli"],
+  "language": "TypeScript",
+  "framework": "Pi",
+  "models": "60+ providers",
+  "mcp": "none",
+  "github": {
+    "stars": 34140,
+    "license": "MIT",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

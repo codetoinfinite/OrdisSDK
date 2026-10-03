@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agi-scorecard",
+  "description": "8 graded AGI-2027 predictions, the 0-100 Thesis Tracker, and a public market-call ledger. Free.",
+  "packageName": "@alphesdk-remote/com-agiscorecard-agi-scorecard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agiscorecard.com/mcp"
+    }
+  ],
+  "url": "https://agiscorecard.com"
+}

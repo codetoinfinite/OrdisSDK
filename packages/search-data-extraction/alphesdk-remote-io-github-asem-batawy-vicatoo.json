@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "VICATOO Hotel Discovery",
+  "description": "Search VICATOO hotels by traveler needs, features, location, and landmarks with factual evidence.",
+  "packageName": "@alphesdk-remote/io-github-asem-batawy-vicatoo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.vicatoo.com/mcp"
+    }
+  ]
+}

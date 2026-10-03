@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Camden Tools",
+  "description": "UK tool shop: search, prices ex/inc VAT, stock, delivery, order tracking and basket links.",
+  "packageName": "@alphesdk-remote/com-camdentools-shop",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://camdentools.com/mcp"
+    }
+  ],
+  "url": "https://camdentools.com/developers"
+}

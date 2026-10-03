@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "European IP Data & Analytics — IPRATE",
+  "description": "Free anonymous selections from released European IP profiles, rankings, and market statistics.",
+  "packageName": "@alphesdk-remote/eu-iprate-ip-analytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.iprate.eu/mcp"
+    }
+  ],
+  "url": "https://github.com/mkiskis/iprate-free-mcp",
+  "readme": "https://github.com/mkiskis/iprate-free-mcp#readme"
+}

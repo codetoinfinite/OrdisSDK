@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "topic-scorer",
+  "description": "Score pages against 11,485 public taxonomy categories by embedding similarity. $0.05/call via MCP.",
+  "packageName": "@alphesdk-remote/co-pixelcove-topic-scorer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://topic-scorer.pixelcove.co/mcp"
+    }
+  ],
+  "url": "https://github.com/PixelCove/topic-scorer",
+  "readme": "https://github.com/PixelCove/topic-scorer#readme"
+}

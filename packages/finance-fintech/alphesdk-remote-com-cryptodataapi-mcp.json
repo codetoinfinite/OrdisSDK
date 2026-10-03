@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CryptoDataAPI",
+  "description": "Live crypto market data: prices, funding, OI, liquidations, regimes, GEX, whales, sentiment, macro.",
+  "packageName": "@alphesdk-remote/com-cryptodataapi-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cryptodataapi.com/mcp"
+    }
+  ],
+  "url": "https://cryptodataapi.com/ai-agents/mcp-server"
+}

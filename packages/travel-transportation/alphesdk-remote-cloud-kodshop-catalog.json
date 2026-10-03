@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "KodShop catalog",
+  "description": "Read-only catalog of gift cards, service top-ups and travel eSIMs sold by KodShop.",
+  "packageName": "@alphesdk-remote/cloud-kodshop-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kodshop.cloud/mcp"
+    }
+  ],
+  "url": "https://kodshop.cloud"
+}

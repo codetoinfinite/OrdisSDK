@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pointer Minerals — Texas Oil & Gas Data",
+  "description": "Read-only Texas oil & gas data: operator directory, county production, and dataset catalog.",
+  "packageName": "@alphesdk-remote/com-pointerminerals-oil-gas-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pointerminerals.com/mcp"
+    }
+  ],
+  "url": "https://www.pointerminerals.com/datasets"
+}

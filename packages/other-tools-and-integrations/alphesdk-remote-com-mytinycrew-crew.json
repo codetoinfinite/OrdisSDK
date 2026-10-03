@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MyTinyCrew.com",
+  "description": "Ready-made AI agents for small businesses: what each one does, prices and how to start.",
+  "packageName": "@alphesdk-remote/com-mytinycrew-crew",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mytinycrew.com/mcp"
+    }
+  ],
+  "url": "https://mytinycrew.com"
+}

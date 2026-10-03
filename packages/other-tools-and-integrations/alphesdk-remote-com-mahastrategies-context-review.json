@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Maha Context Review",
+  "description": "Reduce supplied context and check caller-declared, source-specific exact evidence retention.",
+  "packageName": "@alphesdk-remote/com-mahastrategies-context-review",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.mahastrategies.com/api/mcp/context-review?channel=registry"
+    }
+  ],
+  "url": "https://www.mahastrategies.com/tools/context-review"
+}

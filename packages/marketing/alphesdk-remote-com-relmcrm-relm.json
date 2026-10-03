@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Relm CRM",
+  "description": "API-first CRM for LLMs - contacts, companies, deals and activities over a native MCP server.",
+  "packageName": "@alphesdk-remote/com-relmcrm-relm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.relmcrm.com/mcp"
+    }
+  ],
+  "url": "https://relmcrm.com/"
+}

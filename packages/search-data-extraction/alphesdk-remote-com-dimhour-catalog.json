@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Dim Hour",
+  "description": "Search 19,000+ verified places to eat and drink across 24 cities, each with a 0-100 quality score.",
+  "packageName": "@alphesdk-remote/com-dimhour-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dimhour.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Dim-hour/Dim-Hour",
+  "readme": "https://github.com/Dim-hour/Dim-Hour#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "EcoPlaza MCP",
+  "description": "Read-only MCP for EcoPlaza, Peruvian commercial real estate: projects, units, advisor contact.",
+  "packageName": "@alphesdk-remote/com-iterruptivo-ecodashboard-ecoplaza-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ecodashboard.iterruptivo.com/api/mcp"
+    }
+  ],
+  "url": "https://ecodashboard.iterruptivo.com/mcp"
+}

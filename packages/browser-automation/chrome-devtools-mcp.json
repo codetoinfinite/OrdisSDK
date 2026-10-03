@@ -1,0 +1,13 @@
+{
+  "type": "mcp-server",
+  "name": "Chrome DevTools MCP",
+  "description": "Drives a live Chrome via DevTools for automation, debugging, network inspection and performance traces.",
+  "packageName": "chrome-devtools-mcp",
+  "packageVersion": "1.10.1",
+  "runtime": "node",
+  "readme": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "author": "Google (Chrome DevTools)",
+  "env": {},
+  "bin": "chrome-devtools-mcp"
+}

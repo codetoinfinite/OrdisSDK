@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Margin of Insight — Equity Research",
+  "description": "Equity research API for US-listed companies. Free primer, $1 fundamentals, $2 investment memo.",
+  "packageName": "@alphesdk-remote/com-marginofinsight-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.marginofinsight.com/api/mcp"
+    }
+  ],
+  "url": "https://marginofinsight.com"
+}

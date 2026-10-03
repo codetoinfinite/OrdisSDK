@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "harvis.dev",
+  "description": "Deploy static sites from AI agents: deploy_site publishes files and returns a live URL in seconds.",
+  "packageName": "@alphesdk-remote/dev-harvis-harvis",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://harvis.dev/api/mcp"
+    }
+  ],
+  "url": "https://harvis.dev"
+}

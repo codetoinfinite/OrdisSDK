@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Deploy Log",
+  "description": "AI deployments that shipped and are available now, each sourced to the publisher's own page.",
+  "packageName": "@alphesdk-remote/com-deployedbyai-the-deploy-log",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deployedbyai.com/log/mcp"
+    }
+  ],
+  "url": "https://deployedbyai.com/log/mcp/"
+}

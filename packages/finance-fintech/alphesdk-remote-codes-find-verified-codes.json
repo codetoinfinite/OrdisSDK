@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "verified-codes",
+  "description": "Verified discount & referral codes for crypto exchanges, cards and more — tested first-hand.",
+  "packageName": "@alphesdk-remote/codes-find-verified-codes",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://find.codes/api/mcp"
+    }
+  ],
+  "url": "https://find.codes"
+}

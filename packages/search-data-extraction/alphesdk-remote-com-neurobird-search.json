@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "search",
+  "description": "Web search for AI agents. Ranked results with page passages already extracted, plus URL to markdown.",
+  "packageName": "@alphesdk-remote/com-neurobird-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search.neurobird.com/mcp"
+    }
+  ],
+  "url": "https://github.com/seblosiv/neurobird-search-mcp",
+  "readme": "https://github.com/seblosiv/neurobird-search-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "htag-docs",
+  "description": "Public HTAG discovery for MCP tools, API endpoints, OpenAPI ops, and agents.",
+  "packageName": "@alphesdk-remote/com-htagai-htag-docs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.htagai.com/mcp/v1/servers/htag-docs/mcp"
+    }
+  ],
+  "url": "https://github.com/HtaG-Analytics/htag-mcp",
+  "readme": "https://github.com/HtaG-Analytics/htag-mcp#readme"
+}

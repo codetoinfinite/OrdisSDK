@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "marutap",
+  "description": "Agent requests a purchase, the human taps approve, the agent gets a card scoped to it.",
+  "packageName": "@alphesdk-remote/com-marutap-marutap",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.marutap.com/mcp"
+    }
+  ],
+  "url": "https://github.com/alexQueue/maruchit",
+  "readme": "https://github.com/alexQueue/maruchit#readme"
+}

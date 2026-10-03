@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "memory",
+  "description": "Persistent agent memory paid per call via x402 USDC. Your wallet is your private memory namespace.",
+  "packageName": "@alphesdk-remote/com-borisinc-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mem.borisinc.com/mcp"
+    }
+  ]
+}

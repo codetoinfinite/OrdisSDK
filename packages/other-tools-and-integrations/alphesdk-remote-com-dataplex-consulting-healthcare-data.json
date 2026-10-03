@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "healthcare-data",
+  "description": "US healthcare data for AI agents: CMS, FDA adverse events, CDC, NPPES NPI. Keyless, real samples.",
+  "packageName": "@alphesdk-remote/com-dataplex-consulting-healthcare-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dataplex-consulting.com/mcp"
+    }
+  ],
+  "url": "https://docs.dataplex-consulting.com/snowflake-access/mcp-server"
+}

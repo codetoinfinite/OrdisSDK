@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cbm",
+  "description": "Calculate shipment volume (CBM/CFT), weight, and how cargo fits standard shipping containers.",
+  "packageName": "@alphesdk-remote/com-containermath-cbm",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.containermath.com"
+    }
+  ],
+  "url": "https://containermath.com/developer-api"
+}

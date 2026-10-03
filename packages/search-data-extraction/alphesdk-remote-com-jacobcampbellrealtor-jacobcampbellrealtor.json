@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Jacob Campbell — Florida Real Estate (The Keyes Company)",
+  "description": "Read-only server for jacobcampbellrealtor.com: licensee, service area, referrals, site search.",
+  "packageName": "@alphesdk-remote/com-jacobcampbellrealtor-jacobcampbellrealtor",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jacobcampbellrealtor.com/mcp-server.php"
+    }
+  ],
+  "url": "https://jacobcampbellrealtor.com"
+}

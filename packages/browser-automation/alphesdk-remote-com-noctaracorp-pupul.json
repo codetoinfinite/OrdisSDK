@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pupul data export guides",
+  "description": "Free data export guides for 11 platforms, export wait times, and in-browser viewers. No auth.",
+  "packageName": "@alphesdk-remote/com-noctaracorp-pupul",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://noctaracorp.com/api/mcp"
+    }
+  ],
+  "url": "https://pupulcorp.com/spec"
+}

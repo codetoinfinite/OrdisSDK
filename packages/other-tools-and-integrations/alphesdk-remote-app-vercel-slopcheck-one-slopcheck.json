@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "slopcheck",
+  "description": "Score a YouTube channel's upload pattern against YouTube's inauthentic-content policy.",
+  "packageName": "@alphesdk-remote/app-vercel-slopcheck-one-slopcheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://slopcheck-one.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://slopcheck-one.vercel.app"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Wellknown",
+  "description": "Check whether AI agents can discover, validate, and trust your domain's services.",
+  "packageName": "@alphesdk-remote/com-wellknownhq-wellknown",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wellknownhq.com/mcp"
+    }
+  ],
+  "url": "https://wellknownhq.com"
+}

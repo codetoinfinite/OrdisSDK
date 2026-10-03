@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "GoCDKeys",
+  "description": "Game prices across verified stores, with price history and a buy-now-or-wait verdict.",
+  "packageName": "@alphesdk-remote/com-gocdkeys-gocdkeys",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gocdkeys.com/agent/mcp"
+    }
+  ],
+  "url": "https://gocdkeys.com/ai"
+}

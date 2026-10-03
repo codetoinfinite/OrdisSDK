@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Verifi",
+  "description": "Get a real human to verify, decide, or improve an AI agent's work. Pay per review via x402 on Base.",
+  "packageName": "@alphesdk-remote/cloud-verifi-human-verification",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://verifi.cloud/mcp"
+    }
+  ],
+  "url": "https://github.com/jyharju-code/verifi",
+  "readme": "https://github.com/jyharju-code/verifi#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Plendio price comparison",
+  "description": "Price comparison, product search and wishlists for Denmark, Sweden, Germany and Norway. No login.",
+  "packageName": "@alphesdk-remote/com-plendio-plendio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plendio.com/mcp"
+    }
+  ],
+  "url": "https://plendio.dk/ai"
+}

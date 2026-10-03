@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Privacy-preserving file proofs on Solana. Files are hashed locally. Currently free, no API key.",
+  "packageName": "@alphesdk-remote/com-verifyum-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.verifyum.com/mcp"
+    }
+  ],
+  "url": "https://verifyum.com/agents"
+}

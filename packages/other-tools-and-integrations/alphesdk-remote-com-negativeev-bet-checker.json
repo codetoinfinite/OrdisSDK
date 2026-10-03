@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "NegativeEV bet checker",
+  "description": "Grade any MLB, WNBA, PGA or ATP bet against thousands of play-by-play sims. No key, no signup.",
+  "packageName": "@alphesdk-remote/com-negativeev-bet-checker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://negativeev.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jessejohnsohn/negativeev-mcp",
+  "readme": "https://github.com/jessejohnsohn/negativeev-mcp#readme"
+}

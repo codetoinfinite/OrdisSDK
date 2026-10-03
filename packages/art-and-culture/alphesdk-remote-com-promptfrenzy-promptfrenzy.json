@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PromptFrenzy",
+  "description": "Find a tested AI image or video prompt — toy, LEGO, plushie, portrait, poster — and render it.",
+  "packageName": "@alphesdk-remote/com-promptfrenzy-promptfrenzy",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.promptfrenzy.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Prompt-Frenzy/skills",
+  "readme": "https://github.com/Prompt-Frenzy/skills#readme"
+}

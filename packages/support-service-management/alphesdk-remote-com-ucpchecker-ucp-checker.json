@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UCP Checker",
+  "description": "Check any domain for UCP support and resolve verified UCP storefronts. Read-only, keyless.",
+  "packageName": "@alphesdk-remote/com-ucpchecker-ucp-checker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ucpchecker.com/mcp"
+    }
+  ],
+  "url": "https://ucpchecker.com/agents"
+}

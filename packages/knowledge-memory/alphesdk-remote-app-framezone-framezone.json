@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Framezone",
+  "description": "Your life dashboard for AI: tasks, habits, goals, budgets, workouts, nutrition, journal, notes.",
+  "packageName": "@alphesdk-remote/app-framezone-framezone",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://framezone.app/mcp"
+    }
+  ],
+  "url": "https://framezone.app/mcp-for-life-management"
+}

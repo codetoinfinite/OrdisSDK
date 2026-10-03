@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Crawler Index",
+  "description": "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/call\",\"params\":{\"name\":\"whoami\",\"arguments\":{}}} free no key",
+  "packageName": "@alphesdk-remote/dev-workers-pathwren-www-ai-crawler-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.pathwren.workers.dev/c/mcp-registry-official/mcp"
+    }
+  ],
+  "url": "https://www.pathwren.workers.dev/c/mcp-registry-official/mcp.html"
+}

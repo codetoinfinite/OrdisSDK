@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "typesearch",
+  "description": "News search for AI agents: recent news on any topic from outlets worldwide, by country and language.",
+  "packageName": "@alphesdk-remote/ai-typesearch-news",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.typesearch.ai/mcp"
+    }
+  ],
+  "url": "https://typesearch.ai/mcp"
+}

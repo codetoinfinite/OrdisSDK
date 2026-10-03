@@ -32,7 +32,8 @@ This repository holds **AlpheSDK**, which has:
 - **An agent runner** that chats through [OpenRouter](https://openrouter.ai) and calls MCP tools,
   streamed as server-sent events.
 - **Search** with Meilisearch, or in memory when Meilisearch isn't configured.
-- **Sandboxes**: Node.js servers can run in Sandock, E2B or Daytona instead of on the host.
+- **Sandboxes**: Node.js servers can run in Vercel Sandbox, Sandock, E2B or Daytona instead of on
+  the host.
 - **An OAuth proxy** for remote servers that need OAuth.
 
 <a id="quick-start"></a>
@@ -131,7 +132,8 @@ What the build does:
 
 > [!WARNING]
 > The API has no authentication. Anyone who can reach the deployment can run tools, use the MCP
-> gateway and spend your OpenRouter credits. Turn on **Settings → Deployment Protection → Vercel
+> gateway and spend your OpenRouter credits. With `MCP_SANDBOX_PROVIDER=VERCEL`, they also start
+> sandboxes billed to your Vercel account. Turn on **Settings → Deployment Protection → Vercel
 > Authentication** and set it to **All Deployments**. The default, Standard Protection, leaves
 > production domains public.
 
@@ -150,12 +152,13 @@ Vercel functions can't start local processes, so the deployment runs:
 | Agent chat (with `OPENROUTER_API_KEY`) using the servers above | Java servers (not supported anywhere) |
 
 A request for a server that can't run returns: *Vercel can't start local MCP servers (&lt;package&gt;).
-Node packages can run in a sandbox: set MCP_SANDBOX_PROVIDER to SANDOCK, E2B or DAYTONA.*
+Node packages can run in a sandbox: set MCP_SANDBOX_PROVIDER to VERCEL (or SANDOCK, E2B, DAYTONA).*
 
 Notes:
 
-- To run Node.js servers, set `MCP_SANDBOX_PROVIDER` to `SANDOCK`, `E2B` or `DAYTONA` and add that
-  provider's key.
+- To run Node.js servers, set `MCP_SANDBOX_PROVIDER` to `VERCEL`, which needs no key (see
+  [Run servers in Vercel Sandbox](#run-servers-in-vercel-sandbox)), or to `SANDOCK`, `E2B` or
+  `DAYTONA` and add that provider's key.
 - Set `OPENROUTER_API_KEY` for agent chat.
 - Set `REGISTRY_BASE_URL` to your deployment URL (for example `https://<your-domain>`) so OAuth
   callbacks point at it.
@@ -165,6 +168,41 @@ Notes:
   startup without them.
 - MCP gateway and OAuth sessions live in the memory of one function instance. A request that lands
   on another instance gets "Session not found or expired"; start a new session.
+
+### Run servers in Vercel Sandbox
+
+[Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) runs Node.js servers in microVMs on the
+Vercel account that owns the project. The function signs in with the deployment's
+[OIDC token](https://vercel.com/docs/oidc), so there is no key to add.
+
+1. Add `MCP_SANDBOX_PROVIDER` with the value `VERCEL` under **Settings → Environment Variables** and
+   redeploy.
+2. If a run fails with *Could not get credentials from OIDC context*, turn on OIDC federation under
+   **Settings → Security** and redeploy.
+
+Only this variable turns it on: the `sandboxProvider` request parameter doesn't accept `VERCEL`,
+because the sandboxes are billed to you.
+
+A Node.js server run starts a microVM (unless another request on the same function instance is
+already using one), installs the MCP SDK in it, downloads the server package and stops the VM once
+no request needs it. Expect responses to take noticeably longer than on your own host.
+
+Hobby includes a monthly sandbox allowance and pauses sandboxes when it runs out, without charge. Pro
+bills sandbox usage, so set a limit with **Spend Management** in the team's billing settings. See
+[Vercel Sandbox pricing](https://vercel.com/docs/vercel-sandbox/pricing).
+
+To try it locally, link this folder to the project with the [Vercel CLI](https://vercel.com/docs/cli)
+and pull the development variables:
+
+```bash
+vercel link
+vercel env pull    # adds VERCEL_OIDC_TOKEN to .env.local; pull again when it expires (12 hours)
+```
+
+Then add `MCP_SANDBOX_PROVIDER=VERCEL` to `.env.local`; pulling again keeps lines it doesn't manage.
+Without a token, the API starts no sandbox and runs the tools on your machine instead. If the pulled
+file sets `VERCEL`, delete that line after each pull: the API reads it as running on Vercel and stops
+starting local servers.
 
 <a id="configuration"></a>
 
@@ -178,7 +216,8 @@ are read too, and `.env.local` wins. `.env.example` lists every variable. Never 
 | `PORT` (or `MCP_SERVER_PORT`) | `3003` | Port of the API and web app |
 | `HOST` | `127.0.0.1` | Address to bind. Use `0.0.0.0` only behind authentication. |
 | `REGISTRY_BASE_URL` | `http://localhost:<port>` | Public URL of the app, used for OAuth callbacks |
-| `MCP_SANDBOX_PROVIDER` | `LOCAL` | Where Node.js servers run: `LOCAL`, `SANDOCK`, `E2B` or `DAYTONA` |
+| `MCP_SANDBOX_PROVIDER` | `LOCAL` | Where Node.js servers run: `LOCAL`, `VERCEL`, `SANDOCK`, `E2B` or `DAYTONA` |
+| `VERCEL_OIDC_TOKEN` | none | Vercel Sandbox sign-in outside Vercel, written by `vercel env pull`. Automatic on Vercel. |
 | `SANDOCK_API_KEY`, `SANDOCK_API_URL` | none, `https://sandock.ai` | Sandock sandbox |
 | `E2B_API_KEY` | none | E2B sandbox |
 | `DAYTONA_API_KEY`, `DAYTONA_API_URL` | none | Daytona sandbox |
@@ -333,7 +372,7 @@ graph TD
 
     subgraph Runtime
         Local["💻 Local exec"]
-        Sandbox["🛡️ Sandbox (E2B, Daytona, Sandock)"]
+        Sandbox["🛡️ Sandbox (Vercel, E2B, Daytona, Sandock)"]
         Server["⚙️ MCP server"]
     end
 
@@ -364,7 +403,12 @@ project's package, are never run.
 
 - MCP servers are third-party code. With `MCP_SANDBOX_PROVIDER=LOCAL` (the default) they run on the
   host with the API's permissions. Sandboxes isolate Node.js servers only; other runtimes run on the
-  host, and if a sandbox run fails, the tool runs on the host instead.
+  host, and if a sandbox run fails, the tool runs on the host instead (on Vercel, the error is
+  returned).
+- Sandboxes isolate servers from the host, not from each other. While tool runs keep arriving, an
+  API process (a function instance on Vercel) runs them all in one sandbox and stops it only when
+  none is left. A server running there can read the files and processes of the other runs,
+  including the keys sent with them.
 - The API has no authentication or rate limits. It binds to `127.0.0.1` by default; set
   `HOST=0.0.0.0` only behind authentication, and protect Vercel deployments (see above).
 - Server keys entered in the web app stay in the browser session (or local storage when you choose

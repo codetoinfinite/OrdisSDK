@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mithrandir — free MCP gateway test",
+  "description": "Observe MCP tools, verify repeated reads, then try bounded exact reuse for free.",
+  "packageName": "@alphesdk-remote/io-github-hyhyr2-mithrandir",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mithrandir-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://mithrandir-production.up.railway.app/start"
+}

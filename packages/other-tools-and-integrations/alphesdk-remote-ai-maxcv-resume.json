@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "maxcv — CV tailoring",
+  "description": "Score and tailor your CV/resume against a job posting — for AI agents and humans, no-login trial.",
+  "packageName": "@alphesdk-remote/ai-maxcv-resume",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://maxcv.ai/mcp"
+    }
+  ],
+  "url": "https://maxcv.ai"
+}

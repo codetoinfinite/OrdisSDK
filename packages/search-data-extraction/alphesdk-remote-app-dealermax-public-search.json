@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DealerMax",
+  "description": "Italian cross-dealer MCP: cars, NLT rentals with quotations, dealer directory, automotive KB.",
+  "packageName": "@alphesdk-remote/app-dealermax-public-search",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dealermax.app/mcp/"
+    }
+  ],
+  "url": "https://dealermax.app"
+}

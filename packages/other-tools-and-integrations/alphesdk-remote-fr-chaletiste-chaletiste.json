@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Chaletiste",
+  "description": "Compare French wooden kit cabins: prices, sizes, assembly time, delivery, budget and permits.",
+  "packageName": "@alphesdk-remote/fr-chaletiste-chaletiste",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chaletiste.fr/api/mcp"
+    }
+  ],
+  "url": "https://chaletiste.fr/developpeurs/"
+}

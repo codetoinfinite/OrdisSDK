@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HoldingsIntel",
+  "description": "Smart Money Verdict per stock & fund from SEC 13F, insider, activist & congressional filings.",
+  "packageName": "@alphesdk-remote/com-holdingsintel-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.holdingsintel.com/sse"
+    }
+  ],
+  "url": "https://www.holdingsintel.com/mcp"
+}

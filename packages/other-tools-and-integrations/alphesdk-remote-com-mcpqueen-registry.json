@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MCP Queen",
+  "description": "The evidence layer for MCP: live operational grades plus Trust Receipts for every registry server.",
+  "packageName": "@alphesdk-remote/com-mcpqueen-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpqueen.com/mcp"
+    }
+  ],
+  "url": "https://github.com/mcpqueen/mcpqueen",
+  "readme": "https://github.com/mcpqueen/mcpqueen#readme"
+}

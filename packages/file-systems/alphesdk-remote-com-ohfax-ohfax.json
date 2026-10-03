@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Oh Fax",
+  "description": "Outbound US/CA fax for agents: quote PDF, pay via MPP, get delivery receipt.",
+  "packageName": "@alphesdk-remote/com-ohfax-ohfax",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.ohfax.com/mcp"
+    }
+  ],
+  "url": "https://ohfax.com"
+}

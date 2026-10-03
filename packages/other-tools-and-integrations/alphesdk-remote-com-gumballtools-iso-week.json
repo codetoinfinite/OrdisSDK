@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ISO Week Number",
+  "description": "ISO 8601 week numbers: date to week, week to date, weeks-per-year.",
+  "packageName": "@alphesdk-remote/com-gumballtools-iso-week",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iso-week.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

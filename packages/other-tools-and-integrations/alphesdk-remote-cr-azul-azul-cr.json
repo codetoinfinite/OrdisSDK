@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Azul CR — Costa Rica Local Business Data",
+  "description": "Costa Rica local business directory — verified businesses, jobs, events, specials. Read-only.",
+  "packageName": "@alphesdk-remote/cr-azul-azul-cr",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://azul.cr/api/mcp"
+    }
+  ],
+  "url": "https://azul.cr"
+}

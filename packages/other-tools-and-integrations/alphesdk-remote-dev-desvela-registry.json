@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Desvela ARD Registry — free preflight(domain)",
+  "description": "What a domain publishes for AI agents: ai-catalog.json, llms.txt, agents.md, robots.txt rules. Free.",
+  "packageName": "@alphesdk-remote/dev-desvela-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://registry.desvela.dev/mcp"
+    }
+  ],
+  "url": "https://desvela.ai/census/"
+}

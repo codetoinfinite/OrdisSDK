@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "bible-copilot",
+  "description": "Scripture-cited answers to any Bible question, plus verse text and study pages, for AI agents.",
+  "packageName": "@alphesdk-remote/com-mybiblecopilot-bible-copilot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mybiblecopilot.com/mcp"
+    }
+  ],
+  "url": "https://mybiblecopilot.com"
+}

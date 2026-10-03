@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "building-intelligence",
+  "description": "Building intelligence for NYC, LA, Chicago rentals: violations, 311, reviews, rents, landlords.",
+  "packageName": "@alphesdk-remote/com-lucidrents-building-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lucidrents.com/api/mcp"
+    }
+  ],
+  "url": "https://lucidrents.com/for-ai"
+}

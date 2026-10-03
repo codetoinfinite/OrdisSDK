@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "OnchainDiligence",
+  "description": "Pay-per-call compliance via x402: wallet sanctions, OFAC name, UK + US company verification.",
+  "packageName": "@alphesdk-remote/com-onchaindiligence-compliance",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.onchaindiligence.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Qazza1/onchaindiligence-mcp",
+  "readme": "https://github.com/Qazza1/onchaindiligence-mcp#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "performix-site",
+  "description": "Performix public corpus over MCP: guides, books, evidence, outcome models, plus a computing tool.",
+  "packageName": "@alphesdk-remote/app-performix-performix-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://performix.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/people-analyst/performix-site",
+  "readme": "https://github.com/people-analyst/performix-site#readme"
+}

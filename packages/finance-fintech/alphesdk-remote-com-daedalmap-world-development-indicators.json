@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DaedalMap World Development Indicators",
+  "description": "World Bank World Development Indicators: curated country-year economy, health, education and more.",
+  "packageName": "@alphesdk-remote/com-daedalmap-world-development-indicators",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.daedalmap.com/mcp/world_bank_wdi"
+    }
+  ],
+  "url": "https://github.com/xyver/daedal-map",
+  "readme": "https://github.com/xyver/daedal-map#readme"
+}

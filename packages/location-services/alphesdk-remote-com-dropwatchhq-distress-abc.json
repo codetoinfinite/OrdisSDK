@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "distress-abc",
+  "description": "ABC/receivership wind-down asset maps: state notices joined to UCC collateral & secured parties.",
+  "packageName": "@alphesdk-remote/com-dropwatchhq-distress-abc",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://abc.dropwatchhq.com/mcp"
+    }
+  ],
+  "url": "https://abc.dropwatchhq.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ISO 20022 Generator",
+  "description": "Generate and validate SEPA ISO 20022 XML (pain.001, pain.008) and SWIFT MT103 payment messages.",
+  "packageName": "@alphesdk-remote/com-iso20022generator-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.iso20022generator.com/mcp"
+    }
+  ],
+  "url": "https://github.com/BenjoNX/iso20022generator",
+  "readme": "https://github.com/BenjoNX/iso20022generator#readme"
+}

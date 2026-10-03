@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "New Hugging Face Spaces — AI App Demo Discovery (hfspaces)",
+  "description": "New Hugging Face Spaces: fresh AI app demos & UIs. Register in-session — free testnet funds.",
+  "packageName": "@alphesdk-remote/com-a2awire-data-ai-app-demo-huggingface-spaces-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://a2awire.com/mcp/data/hfspaces-new-hugging-face-spaces-ai-app-demos-live-web-uis-29d93e/http"
+    }
+  ],
+  "url": "https://github.com/ee324/a2awire",
+  "readme": "https://github.com/ee324/a2awire#readme"
+}

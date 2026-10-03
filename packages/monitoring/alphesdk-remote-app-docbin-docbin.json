@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "docbin",
+  "description": "Give an agent a place to put large output. Build logs and reports get a stable versioned URL.",
+  "packageName": "@alphesdk-remote/app-docbin-docbin",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.docbin.app/mcp"
+    }
+  ],
+  "url": "https://mcp.docbin.app"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ask-ogino",
+  "description": "Query Shunki Ogino's public profile: his thesis, the tools he builds, and his writing.",
+  "packageName": "@alphesdk-remote/io-github-shunkiogino-ask-ogino",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://homepage-flax-two.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ShunkiOgino/homepage",
+  "readme": "https://github.com/ShunkiOgino/homepage#readme"
+}

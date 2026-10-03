@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "unflagdomain: website blacklist removal",
+  "description": "Website flagged by security vendors? Free scan, then we send the removal requests for you (paid).",
+  "packageName": "@alphesdk-remote/com-unflagdomain-website-blacklist-removal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://unflagdomain.com/api/mcp"
+    }
+  ],
+  "url": "https://unflagdomain.com/developers"
+}

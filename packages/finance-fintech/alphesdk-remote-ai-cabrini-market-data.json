@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cabrini Market Data",
+  "description": "US equity data for AI agents — 23 years intraday + daily, SEC filings. x402 USDC payments.",
+  "packageName": "@alphesdk-remote/ai-cabrini-market-data",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cabrini.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/nlapi/cabrini-py",
+  "readme": "https://github.com/nlapi/cabrini-py#readme"
+}

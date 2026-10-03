@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Resollo Agent API",
+  "description": "Resollo marketplace: search, seller lookup, offers, orders, draft listings. All human-approved.",
+  "packageName": "@alphesdk-remote/com-resollo-agent-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.resollo.com/api/mcp"
+    }
+  ],
+  "url": "https://www.resollo.com"
+}

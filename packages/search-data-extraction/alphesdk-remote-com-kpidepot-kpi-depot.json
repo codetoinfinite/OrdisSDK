@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kpi-depot",
+  "description": "Search 20,000+ corporate KPIs and 30,000+ source-attributed industry benchmarks with definitions",
+  "packageName": "@alphesdk-remote/com-kpidepot-kpi-depot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kpidepot.com/mcp"
+    }
+  ],
+  "url": "https://kpidepot.com"
+}

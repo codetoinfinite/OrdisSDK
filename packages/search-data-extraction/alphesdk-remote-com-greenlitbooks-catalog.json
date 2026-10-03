@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Greenlit Books",
+  "description": "Search the Greenlit AI books, read any chapter one free, and look up the terms they define.",
+  "packageName": "@alphesdk-remote/com-greenlitbooks-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://greenlitbooks.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/greenlitbooks/mcp",
+  "readme": "https://github.com/greenlitbooks/mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Search thousands of active YouTube sponsors and 60,000+ channels from any MCP client. Free tier.",
+  "packageName": "@alphesdk-remote/com-meetsponsors-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meetsponsors.com/mcp"
+    }
+  ],
+  "url": "https://meetsponsors.com/mcp"
+}

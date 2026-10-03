@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ProjectThunder",
+  "description": "ERP and B2B ecommerce rollout research: ERP fit, migration plans, site scans, ERP partner directory.",
+  "packageName": "@alphesdk-remote/com-projectthunder-site",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.projectthunder.com/mcp"
+    }
+  ],
+  "url": "https://www.projectthunder.com/mcp-server.html"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Rechnungslotse: deutsche E-Rechnung",
+  "description": "XRechnung/ZUGFeRD erstellen, gegen EN 16931 prüfen, Fehler mit Regel-ID erklären. Ohne Konto.",
+  "packageName": "@alphesdk-remote/de-rechnungslotse-e-rechnung",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rechnungslotse.de/api/mcp"
+    }
+  ],
+  "url": "https://rechnungslotse.de/mcp"
+}

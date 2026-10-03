@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "zooidfund",
+  "description": "MCP server for AI agents to discover campaigns by humans and donate USDC directly on Base.",
+  "packageName": "@alphesdk-remote/fund-zooid-zooidfund",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fcefnmdlggldmfusydix.supabase.co/functions/v1/mcp"
+    }
+  ]
+}

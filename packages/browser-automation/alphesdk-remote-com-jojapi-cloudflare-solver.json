@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "cloudflare-solver",
+  "description": "Cloudflare Solver: Scraping API designed to bypass Cloudflare protection.",
+  "packageName": "@alphesdk-remote/com-jojapi-cloudflare-solver",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.jojapi.com/cloudflare-solver"
+    }
+  ],
+  "url": "https://jojapi.com/hub/api/cloudflare-solver"
+}

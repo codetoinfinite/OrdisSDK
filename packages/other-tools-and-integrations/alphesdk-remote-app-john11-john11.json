@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "john11",
+  "description": "The Bible as a graph: read a verse, follow its recorded connections between passages.",
+  "packageName": "@alphesdk-remote/app-john11-john11",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://john11.app/mcp"
+    }
+  ],
+  "url": "https://john11.app"
+}

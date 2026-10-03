@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Scout",
+  "description": "Find licensed real estate agents, search MLS, route leads. Remote MCP for SC + GA brokerages.",
+  "packageName": "@alphesdk-remote/io-github-flikah-scout-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scout.realestate/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Flikah/scout-mcp",
+  "readme": "https://github.com/Flikah/scout-mcp#readme"
+}

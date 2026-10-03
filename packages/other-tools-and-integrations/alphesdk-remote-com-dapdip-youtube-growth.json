@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "youtube-growth",
+  "description": "Audits any YouTube channel against its own history. Every claim carries its sample size.",
+  "packageName": "@alphesdk-remote/com-dapdip-youtube-growth",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.dapdip.com/api/mcp"
+    }
+  ],
+  "url": "https://www.dapdip.com/mcp"
+}

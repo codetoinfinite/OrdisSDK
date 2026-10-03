@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "updates",
+  "description": "Corduroy Labs studio updates over MCP: list_updates and get_update, backed by the site's JSON Feed.",
+  "packageName": "@alphesdk-remote/ai-corduroy-labs-updates",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://corduroy-labs.ai/mcp"
+    }
+  ],
+  "url": "https://corduroy-labs.ai/mcp/"
+}

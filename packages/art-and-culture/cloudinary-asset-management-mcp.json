@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "Cloudinary Asset Management",
+  "description": "Upload, transform, search and manage Cloudinary media assets.",
+  "packageName": "@cloudinary/asset-management-mcp",
+  "packageVersion": "0.11.2",
+  "runtime": "node",
+  "readme": "https://cloudinary.com/documentation/cloudinary_llm_mcp",
+  "url": "https://github.com/cloudinary/asset-management-mcp",
+  "author": "Cloudinary",
+  "env": {
+    "CLOUDINARY_CLOUD_NAME": {
+      "description": "Cloudinary cloud name",
+      "required": true
+    },
+    "CLOUDINARY_API_KEY": {
+      "description": "Cloudinary API key",
+      "required": true
+    },
+    "CLOUDINARY_API_SECRET": {
+      "description": "Cloudinary API secret",
+      "required": true
+    }
+  }
+}

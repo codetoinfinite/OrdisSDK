@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "tick-mcp",
+  "description": "A time server that keeps your AI honest about time. Real clock + drift guard, zero dependencies.",
+  "packageName": "@alphesdk-remote/io-github-cocabadger-tick-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tick-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Cocabadger/tick-mcp",
+  "readme": "https://github.com/Cocabadger/tick-mcp#readme"
+}

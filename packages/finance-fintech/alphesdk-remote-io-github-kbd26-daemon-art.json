@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "DAEMON — on-chain generative art (8004 NONCE + KOINE)",
+  "description": "Mine, mint and verify 8004 NONCE proof-of-work art on Ethereum L1.",
+  "packageName": "@alphesdk-remote/io-github-kbd26-daemon-art",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://koine-mcp-server.vercel.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/KBD26/koine-mcp-server",
+  "readme": "https://github.com/KBD26/koine-mcp-server#readme"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Moltline Dropship Economics",
+  "description": "Margin, lead time, SKU mapping and price-ladder maths for dropshipping. 4 of 6 free.",
+  "packageName": "@alphesdk-remote/com-moltlinestudio-dropship",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.moltlinestudio.com/dropship"
+    }
+  ],
+  "url": "https://github.com/GarphenGate/moltline-mcp",
+  "readme": "https://github.com/GarphenGate/moltline-mcp#readme"
+}

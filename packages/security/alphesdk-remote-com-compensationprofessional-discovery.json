@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Compensation Professional — compensation library, answers, and wage-compliance data",
+  "description": "Read-only access to Compensation Professional's compensation-focused book library, query-shaped...",
+  "packageName": "@alphesdk-remote/com-compensationprofessional-discovery",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://compensationprofessional.com/api/mcp"
+    }
+  ],
+  "url": "https://compensationprofessional.com"
+}

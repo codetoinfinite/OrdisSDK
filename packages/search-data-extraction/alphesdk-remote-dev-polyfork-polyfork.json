@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Polyfork low-poly 3D assets",
+  "description": "Low-poly 3D models and kits for three.js and game engines: search, match, remix, preview.",
+  "packageName": "@alphesdk-remote/dev-polyfork-polyfork",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://polyfork.dev/mcp"
+    }
+  ],
+  "url": "https://polyfork.dev"
+}

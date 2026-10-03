@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ScriptHaul",
+  "description": "Free YouTube transcripts, no API key: videos, channel lists, latest uploads, bulk download links.",
+  "packageName": "@alphesdk-remote/com-scripthaul-transcripts",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scripthaul.com/mcp"
+    }
+  ],
+  "url": "https://scripthaul.com/guides/mcp-server"
+}

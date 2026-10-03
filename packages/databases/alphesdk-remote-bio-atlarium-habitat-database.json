@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Atlarium Habitat Database MCP",
+  "description": "Structured habitat data and advisory tools for aquariums, marine tanks, terrariums and paludariums.",
+  "packageName": "@alphesdk-remote/bio-atlarium-habitat-database",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.atlarium.bio/mcp"
+    }
+  ],
+  "url": "https://github.com/techgardeners/atlarium-mcp",
+  "readme": "https://github.com/techgardeners/atlarium-mcp#readme"
+}

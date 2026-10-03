@@ -1,0 +1,41 @@
+{
+  "type": "external-agent",
+  "key": "cheshire-cat",
+  "name": "Cheshire Cat AI",
+  "description": "Extensible agent framework that starts a ready agent with a web UI and REST API, aimed at learning and research.",
+  "category": "developer-tools",
+  "tags": ["framework", "plugins", "education", "rest-api", "self-hosted"],
+  "repo": "https://github.com/cheshire-cat-ai/core",
+  "homepage": "https://cheshirecat.ai",
+  "publisher": "Cheshire Cat AI",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Gives learners, researchers and institutions a running agent they can extend and publish on the web. Version 2 is flagged as unstable alpha and not recommended for production.",
+  "howItWorks": "Installing the package and running the `ccat` command starts a server with a UI on port 1865 and a REST API playground. The code base is kept small so it can be read and extended.",
+  "requirements": [
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used by the quickstart to add and run the package"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access configured after start"
+    }
+  ],
+  "install": ["uv init --bare", "uv add cheshire-cat-ai"],
+  "run": ["uv run ccat"],
+  "interfaces": ["web", "api"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "none",
+  "github": {
+    "stars": 3094,
+    "license": "GPL-3.0",
+    "pushedAt": "2026-07-29",
+    "checkedAt": "2026-10-03"
+  }
+}

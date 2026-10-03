@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hesper Atlas Evidence",
+  "description": "Verify stock signals, replay evidence, provenance, freshness, and caveats.",
+  "packageName": "@alphesdk-remote/com-hesperatlas-hesper-atlas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hesperatlas.com/mcp"
+    }
+  ],
+  "url": "https://hesperatlas.com/agents"
+}

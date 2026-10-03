@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "windows-use",
+  "name": "Windows-Use",
+  "description": "Agent that operates Windows through the UI Automation API, letting any LLM click, type and run PowerShell without a vision model.",
+  "category": "other-tools-and-integrations",
+  "tags": ["computer-use", "windows", "gui-agent", "ui-automation"],
+  "repo": "https://github.com/Jeomon/Windows-Use",
+  "publisher": "Jeomon George",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Completes desktop tasks on Windows from a plain-language instruction: managing windows, using applications, running shell commands and reading web pages. It is for users and developers who want computer use on Windows with ordinary text models.",
+  "howItWorks": "Instead of screenshots, the agent reads the accessibility tree exposed by Windows and gives that structure to the model, which chooses a tool call such as click, type, scroll or shell. An interactive terminal command starts it, with flags for provider, model and step limit, and it is also importable as a Python library.",
+  "requirements": [
+    {
+      "name": "Windows",
+      "kind": "runtime",
+      "required": true,
+      "description": "Target operating system"
+    },
+    {
+      "name": "Python 3.10+",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the package"
+    },
+    {
+      "name": "LLM provider key or Ollama",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model that decides the actions"
+    }
+  ],
+  "install": ["pip install windows-use"],
+  "run": ["windows-use"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "models": "Anthropic, OpenAI, Google Gemini, Ollama and others",
+  "mcp": "none",
+  "github": {
+    "stars": 454,
+    "license": "MIT",
+    "pushedAt": "2026-09-23",
+    "checkedAt": "2026-10-03"
+  }
+}

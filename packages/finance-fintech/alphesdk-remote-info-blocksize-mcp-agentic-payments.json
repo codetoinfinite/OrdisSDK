@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Blocksize Agentic Market Intelligence",
+  "description": "Multi-venue VWAP, bid/ask, crypto FX, metals and equities with provenance receipts for AI agents",
+  "packageName": "@alphesdk-remote/info-blocksize-mcp-agentic-payments",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blocksize.info/mcp/server/"
+    }
+  ],
+  "url": "https://github.com/jf-cmyk/agentic-payments",
+  "readme": "https://github.com/jf-cmyk/agentic-payments#readme"
+}

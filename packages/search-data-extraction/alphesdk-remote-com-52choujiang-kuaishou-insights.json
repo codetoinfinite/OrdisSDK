@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX 快手 Kuaishou MCP",
+  "description": "Kuaishou hot, suggestions, video/user search, details, comments/replies, profiles/posts, transcript.",
+  "packageName": "@alphesdk-remote/com-52choujiang-kuaishou-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/kuaishou/mcp"
+    }
+  ]
+}

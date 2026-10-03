@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "apidx UUID Generator",
+  "description": "Random UUID v4 (RFC 9562) as an HTTP API: 1-100 UUIDs per call, in uuid, URN, hex or integer...",
+  "packageName": "@alphesdk-remote/com-saastemly-uuid-forge",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://uuid-forge.saastemly.com/mcp"
+    }
+  ],
+  "url": "https://uuid-forge.saastemly.com"
+}

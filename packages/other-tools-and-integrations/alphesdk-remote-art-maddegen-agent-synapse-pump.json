@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MAD Synapse · Pump & LP",
+  "description": "Every pump.fun curve trade since 09-11: tape, launches, forensics, devs, odds + Meteora DLMM pools.",
+  "packageName": "@alphesdk-remote/art-maddegen-agent-synapse-pump",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.maddegen.art/hub/mcp/pump"
+    }
+  ],
+  "url": "https://agent.maddegen.art/hub"
+}

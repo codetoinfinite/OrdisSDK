@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PegaRex",
+  "description": "Search 1.8M+ live Brazilian used-car and motorcycle listings, with FIPE reference prices.",
+  "packageName": "@alphesdk-remote/br-com-pegarex-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pegarex.com.br/api/mcp"
+    }
+  ],
+  "url": "https://github.com/paya-alavi77/pegarex-mcp",
+  "readme": "https://github.com/paya-alavi77/pegarex-mcp#readme"
+}

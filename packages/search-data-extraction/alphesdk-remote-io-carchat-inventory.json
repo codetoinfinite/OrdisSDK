@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "CarChat Inventory",
+  "description": "Search live US dealership inventory, get market prices, and send buyer inquiries. Free, no API key.",
+  "packageName": "@alphesdk-remote/io-carchat-inventory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://carchat.io/mcp"
+    }
+  ],
+  "url": "https://github.com/Carchat-io/mcp",
+  "readme": "https://github.com/Carchat-io/mcp#readme"
+}

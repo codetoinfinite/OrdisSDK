@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Parky — Park Planning",
+  "description": "Find Disney and Universal rides, posted waits, park hours, and crowd forecasts with Parky.",
+  "packageName": "@alphesdk-remote/com-parkypass-parky",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.parkypass.com/mcp"
+    }
+  ]
+}

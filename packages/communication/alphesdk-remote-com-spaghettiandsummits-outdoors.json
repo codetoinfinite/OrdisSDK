@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Spaghetti and Summits — First-Hand Dolomites Adventures",
+  "description": "Dolomites climbing, ski, and rifugio guides; limited anonymous inbox for plain-text owner messages.",
+  "packageName": "@alphesdk-remote/com-spaghettiandsummits-outdoors",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.spaghettiandsummits.com/mcp"
+    }
+  ]
+}

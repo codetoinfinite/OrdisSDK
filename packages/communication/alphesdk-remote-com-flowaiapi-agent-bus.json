@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "agent-bus",
+  "description": "Durable addresses and crash-safe FIFO mailboxes so AI agents message each other, free.",
+  "packageName": "@alphesdk-remote/com-flowaiapi-agent-bus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.flowaiapi.com/mcp"
+    }
+  ],
+  "url": "https://flowaiapi.com"
+}

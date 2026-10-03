@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "VetAid — VA Claim Intelligence",
+  "description": "Real Board of Veterans' Appeals outcome data for VA disability claims. No key needed.",
+  "packageName": "@alphesdk-remote/ai-vetaid-vetaid",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vetaid.ai/mcp"
+    }
+  ],
+  "url": "https://vetaid.ai"
+}

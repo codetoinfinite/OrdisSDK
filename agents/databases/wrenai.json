@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "wrenai",
+  "name": "WrenAI",
+  "description": "Open GenBI engine that gives coding agents a governed semantic layer so they can write correct SQL and build dashboards over 20+ data sources.",
+  "category": "databases",
+  "tags": ["genbi", "semantic-layer", "text-to-sql", "dashboards", "skills"],
+  "repo": "https://github.com/Canner/WrenAI",
+  "homepage": "https://www.getwren.ai/en/open-core",
+  "docs": "https://docs.getwren.ai",
+  "publisher": "Canner",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives data teams a way to let AI agents answer business questions against warehouses and databases with consistent metric definitions. The agent produces governed SQL and dashboards rather than guessing at raw tables.",
+  "howItWorks": "A semantic model (MDL) describes entities, relationships and metrics, and a query engine built on Apache DataFusion translates and runs queries across connectors. It is installed as a Python package plus agent skills, then driven from an existing coding agent or any MCP client by asking it to set up a data source.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Needed for the wrenai package"
+    },
+    {
+      "name": "Coding agent or MCP client",
+      "kind": "service",
+      "required": true,
+      "description": "Claude Code, Cursor, Cline, Codex or similar host that drives the skills"
+    },
+    {
+      "name": "Data source",
+      "kind": "service",
+      "required": true,
+      "description": "A supported database or warehouse to connect"
+    }
+  ],
+  "install": ["pip install wrenai", "npx skills add Canner/WrenAI"],
+  "run": [],
+  "interfaces": ["cli", "library", "ide"],
+  "language": "Python",
+  "models": "Whatever model the host coding agent uses",
+  "mcp": "server",
+  "github": {
+    "stars": 17799,
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

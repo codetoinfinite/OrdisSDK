@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Regex/Email/URL Validator",
+  "description": "Regex matching, email/URL format validation, and JSON Schema validation.",
+  "packageName": "@alphesdk-remote/com-apished-regex-email-url-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/validate"
+    }
+  ],
+  "url": "https://apished.com"
+}

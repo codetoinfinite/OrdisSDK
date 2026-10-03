@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Batcave Detective Basic",
+  "description": "Evidence-bound second-opinion audit of an agent conclusion against caller-supplied evidence.",
+  "packageName": "@alphesdk-remote/io-github-bjorn2-sol-batcave-detective",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://subsidy-stylized-unaligned.ngrok-free.dev/mcp"
+    }
+  ]
+}

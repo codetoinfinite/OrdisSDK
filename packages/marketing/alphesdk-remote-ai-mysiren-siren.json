@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Siren",
+  "description": "Deterministic visual marketing engine. Your agent plans, renders, and posts on-brand campaigns.",
+  "packageName": "@alphesdk-remote/ai-mysiren-siren",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mysiren.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Hexahedral-Inc/siren-mcp",
+  "readme": "https://github.com/Hexahedral-Inc/siren-mcp#readme"
+}

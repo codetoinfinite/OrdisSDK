@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Datailo: one MCP connection to tenders, EU regulation and law",
+  "description": "One MCP connection to tenders (Victano), EU regulation (Rekvira) and law (Avokata). Keyless start.",
+  "packageName": "@alphesdk-remote/com-datailo-datailo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.datailo.com/mcp"
+    }
+  ],
+  "url": "https://datailo.com"
+}

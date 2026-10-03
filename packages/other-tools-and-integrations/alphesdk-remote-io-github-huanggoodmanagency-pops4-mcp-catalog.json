@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "pops4-mcp-catalog",
+  "description": "AI-native corporate gifting & event infrastructure for Fortune 500. 70K products, 200+ brands.",
+  "packageName": "@alphesdk-remote/io-github-huanggoodmanagency-pops4-mcp-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pops4.com/mcp"
+    }
+  ],
+  "url": "https://github.com/HuangGoodmanAgency/pops4-mcp-catalog",
+  "readme": "https://github.com/HuangGoodmanAgency/pops4-mcp-catalog#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "BeeIMG Image Hosting",
+  "description": "Upload, delete, and manage images on BeeIMG with albums, folders, privacy controls, and API access.",
+  "packageName": "@alphesdk-remote/com-beeimg-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://beeimg.com/mcp"
+    }
+  ],
+  "url": "https://beeimg.com/mcp-setup"
+}

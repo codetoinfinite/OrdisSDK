@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MusoKit music tools",
+  "description": "Chords, scales, transposition, capo and tempo maths, with links to free interactive music tools.",
+  "packageName": "@alphesdk-remote/com-musokit-musokit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://musokit.com/mcp"
+    }
+  ],
+  "url": "https://musokit.com/ai-tools"
+}

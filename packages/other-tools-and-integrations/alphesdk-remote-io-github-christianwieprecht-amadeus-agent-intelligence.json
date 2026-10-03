@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "amadeus-agent-intelligence",
+  "description": "Live-Status, Aenderungen und neu entdeckte Server im MCP-/Agenten-Oekosystem.",
+  "packageName": "@alphesdk-remote/io-github-christianwieprecht-amadeus-agent-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://amadeusonline.de/amadeus/mcp/"
+    }
+  ]
+}

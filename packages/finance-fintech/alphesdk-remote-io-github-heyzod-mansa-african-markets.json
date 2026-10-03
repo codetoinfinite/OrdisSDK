@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Mansa African Markets",
+  "description": "Live African stock market data — NGX, GSE, NSE, JSE, BRVM and 8 more. Prices, indices and movers.",
+  "packageName": "@alphesdk-remote/io-github-heyzod-mansa-african-markets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mansamarkets.com/mcp"
+    }
+  ],
+  "url": "https://github.com/HeyZod/mansa-african-markets-mcp",
+  "readme": "https://github.com/HeyZod/mansa-african-markets-mcp#readme"
+}

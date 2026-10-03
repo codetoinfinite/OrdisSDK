@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FitMyCall — Answering Service Prices",
+  "description": "Verified pricing for 21 answering services & AI receptionists, dated weekly. Missed-call ROI calc.",
+  "packageName": "@alphesdk-remote/com-fitmycall-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.fitmycall.com/mcp"
+    }
+  ],
+  "url": "https://fitmycall.com/chatgpt-app/"
+}

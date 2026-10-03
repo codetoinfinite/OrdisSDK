@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "raccha.ai",
+  "description": "MCP-first toolbox for agents: KV storage, auth, queue, and utility tools. Free in early access.",
+  "packageName": "@alphesdk-remote/ai-raccha-raccha",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://raccha.ai/mcp"
+    }
+  ],
+  "url": "https://raccha.ai"
+}

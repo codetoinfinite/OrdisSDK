@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bill Of Materials Integrity",
+  "description": "Pure, bounded analysis of an explicit bill-of-materials graph: validates structure, finds missing...",
+  "packageName": "@alphesdk-remote/com-mcpscores-bill-of-materials-integrity",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-factory.bowling-anthony.workers.dev/bill-of-materials-integrity/mcp"
+    }
+  ],
+  "url": "https://mcp-factory.bowling-anthony.workers.dev/bill-of-materials-integrity"
+}

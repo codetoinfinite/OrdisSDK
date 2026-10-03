@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "marketplace",
+  "description": "AI-native used car marketplace. 145K+ vehicles, 4300+ dealers, 13 US states, 20 MCP tools.",
+  "packageName": "@alphesdk-remote/global-rootz-cars-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cars.rootz.global/mcp"
+    }
+  ]
+}

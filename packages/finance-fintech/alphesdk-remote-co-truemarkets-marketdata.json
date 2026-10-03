@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "True Markets Market Data",
+  "description": "Real-time crypto market data",
+  "packageName": "@alphesdk-remote/co-truemarkets-marketdata",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.truemarkets.co/marketdata/mcp"
+    }
+  ],
+  "url": "https://truemarkets.co"
+}

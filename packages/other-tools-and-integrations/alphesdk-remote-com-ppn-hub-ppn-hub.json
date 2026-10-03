@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "PPN Hub — public APIs over MCP",
+  "description": "One MCP endpoint over 69 public PPN APIs: search_apis to discover, execute_api to call. Free tier.",
+  "packageName": "@alphesdk-remote/com-ppn-hub-ppn-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ppn-hub.com/mcp"
+    }
+  ],
+  "url": "https://ppn-hub.com/quickstart"
+}

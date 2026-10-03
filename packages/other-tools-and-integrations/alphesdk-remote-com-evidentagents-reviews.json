@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Evident Reviews",
+  "description": "Consumer reviews with private receipts, optional ratings and one-step consumer confirmation.",
+  "packageName": "@alphesdk-remote/com-evidentagents-reviews",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://evidentagents.com/mcp"
+    }
+  ],
+  "url": "https://evidentagents.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Check Digit Validator",
+  "description": "Validates IBAN/ISBN/EAN/Luhn checksums and finds the one wrong digit",
+  "packageName": "@alphesdk-remote/com-gumballtools-check-digit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://check-digit.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

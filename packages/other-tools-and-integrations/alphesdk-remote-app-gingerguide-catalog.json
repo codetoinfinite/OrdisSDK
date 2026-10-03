@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gingerguide City Catalog",
+  "description": "Read-only MCP for the Gingerguide catalog of European cities and their narrated tour sights.",
+  "packageName": "@alphesdk-remote/app-gingerguide-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gingerguide.app/mcp"
+    }
+  ],
+  "url": "https://github.com/gingerguide/gingerguide",
+  "readme": "https://github.com/gingerguide/gingerguide#readme"
+}

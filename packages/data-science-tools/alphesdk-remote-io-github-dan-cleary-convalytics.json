@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "convalytics",
+  "description": "Read-only analytics for Convex apps, queryable via MCP from Claude, Cursor, and other clients.",
+  "packageName": "@alphesdk-remote/io-github-dan-cleary-convalytics",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.convalytics.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Dan-Cleary/convalytics",
+  "readme": "https://github.com/Dan-Cleary/convalytics#readme"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "external-agent",
+  "key": "surfsense",
+  "name": "SurfSense",
+  "description": "Local, air-gappable NotebookLM alternative that answers from your documents and turns them into reports, decks and podcasts.",
+  "category": "knowledge-memory",
+  "tags": ["notebooklm-alternative", "local-first", "rag", "podcast", "documents"],
+  "repo": "https://github.com/MODSetter/SurfSense",
+  "homepage": "https://www.surfsense.com/",
+  "docs": "https://www.surfsense.com/docs",
+  "publisher": "MODSetter",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Lets you drop in documents, ask questions with cited answers, and generate briefings, slide decks, reports, study guides and podcasts from the same material. It targets users whose documents cannot be uploaded to a cloud service.",
+  "howItWorks": "Distributed mainly as a desktop installer that bundles the document parser, retrieval model and podcast voice, with chat models supplied by your own key or a local model server. The repository also contains a Docker stack (backend and web app) that is community-supported. Most of the code is Apache-2.0; one proprietary directory is under the Business Source License.",
+  "requirements": [
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": false,
+      "description": "Your own model key, or a local model pulled by the app"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop", "web"],
+  "language": "Python",
+  "models": "Bring-your-own hosted model or bundled local model servers",
+  "mcp": "server",
+  "github": {
+    "stars": 16311,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

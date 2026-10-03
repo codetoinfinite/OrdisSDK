@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Korean Stock Market Data",
+  "description": "Korean stock market data - prices, dividends, short selling, financial disclosures",
+  "packageName": "@alphesdk-remote/io-github-songt-50-korean-stock-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://korean-stock-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/SongT-50/korean-stock-mcp",
+  "readme": "https://github.com/SongT-50/korean-stock-mcp#readme"
+}

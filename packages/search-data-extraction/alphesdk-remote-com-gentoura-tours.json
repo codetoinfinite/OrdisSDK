@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Gentoura Tours",
+  "description": "Read-only search and pricing for Gentoura's Egypt and Jordan tour packages.",
+  "packageName": "@alphesdk-remote/com-gentoura-tours",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gentoura.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/yasersamra/tripath-nextjs-360",
+  "readme": "https://github.com/yasersamra/tripath-nextjs-360#readme"
+}

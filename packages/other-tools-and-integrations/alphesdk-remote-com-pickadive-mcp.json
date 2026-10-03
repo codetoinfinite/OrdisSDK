@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PickADive Scuba Diving",
+  "description": "Live scuba dive planning: forecast windows, best-time climatology, species seasons, 4,800+ sites.",
+  "packageName": "@alphesdk-remote/com-pickadive-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pickadive.com/mcp"
+    }
+  ],
+  "url": "https://github.com/afiliptsov/pickadive-mcp",
+  "readme": "https://github.com/afiliptsov/pickadive-mcp#readme"
+}

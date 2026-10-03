@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "FactStamp",
+  "description": "Paid verification for agents: cited, dated answers with a signed receipt that verifies offline.",
+  "packageName": "@alphesdk-remote/au-com-alpineai-factstamp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://factstamp.agentrails.workers.dev/mcp"
+    }
+  ]
+}

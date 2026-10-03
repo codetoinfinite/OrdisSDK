@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ifá Wisdom — biblioteca de Ifá e Orixás",
+  "description": "Cited library on Ifá, the Orishas and Yoruba philosophy in 4 languages. Read-only; not an oracle.",
+  "packageName": "@alphesdk-remote/com-ifa-wisdom-library",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ifa-wisdom.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/paboohwow-arch/ifa-wisdom",
+  "readme": "https://github.com/paboohwow-arch/ifa-wisdom#readme"
+}

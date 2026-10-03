@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Evlek — Northern Cyprus Property MCP Server",
+  "description": "Live Northern Cyprus (KKTC/TRNC) property listings and asking-price data. Read-only, 12 tools.",
+  "packageName": "@alphesdk-remote/app-evlek-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://evlek.app/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Evlek/evlek-mcp",
+  "readme": "https://github.com/Evlek/evlek-mcp#readme"
+}

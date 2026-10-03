@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "RankCert",
+  "description": "Launch board rankings backed by verified domain control, with source and date.",
+  "packageName": "@alphesdk-remote/com-rankcert-rankcert",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://rankcert.com/api/mcp"
+    }
+  ],
+  "url": "https://rankcert.com/mcp"
+}

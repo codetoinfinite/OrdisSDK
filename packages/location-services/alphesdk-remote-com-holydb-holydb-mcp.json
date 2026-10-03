@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "holydb-mcp",
+  "description": "Read-only MCP server for HolyDB: find Catholic parish Mass times by location and time.",
+  "packageName": "@alphesdk-remote/com-holydb-holydb-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.holydb.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "pollbolt",
+  "description": "AI-native survey & form builder. Manage surveys, responses, analytics, and webhooks.",
+  "packageName": "@alphesdk-remote/io-github-benspank-pollbolt",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pollbolt.com/mcp"
+    }
+  ],
+  "url": "https://pollbolt.com"
+}

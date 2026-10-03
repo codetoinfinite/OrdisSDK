@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "kestrel",
+  "description": "Watch any URL for changes: baseline, then check for a diff. Free, no signup/key.",
+  "packageName": "@alphesdk-remote/dev-workers-perch-app-kestrel-kestrel",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kestrel.perch-app.workers.dev/mcp"
+    }
+  ],
+  "url": "https://kestrel.perch-app.workers.dev"
+}

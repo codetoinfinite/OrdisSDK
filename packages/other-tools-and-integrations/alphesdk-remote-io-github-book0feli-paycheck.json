@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Lumière PayCheck",
+  "description": "Check any x402 endpoint before your AI agent pays it: trust grade, verdict, and hijack checks.",
+  "packageName": "@alphesdk-remote/io-github-book0feli-paycheck",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lumierepaycheck.org/mcp"
+    }
+  ],
+  "url": "https://github.com/Book0fEli/lumiere-paycheck",
+  "readme": "https://github.com/Book0fEli/lumiere-paycheck#readme"
+}

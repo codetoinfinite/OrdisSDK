@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "swiss-living-index",
+  "description": "Official Swiss living-cost & relocation data for all 26 cantons — taxes, rent, premiums, jobs.",
+  "packageName": "@alphesdk-remote/ch-swisslivingindex-swiss-living-index",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://swisslivingindex.ch/mcp"
+    }
+  ],
+  "url": "https://swisslivingindex.ch/"
+}

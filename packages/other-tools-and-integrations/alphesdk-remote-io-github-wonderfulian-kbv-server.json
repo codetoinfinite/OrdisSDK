@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Korea Business Verify (KBV)",
+  "description": "Find and verify Korean businesses by name or number. 10 free calls/day, then pay-per-call (x402).",
+  "packageName": "@alphesdk-remote/io-github-wonderfulian-kbv-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kbv-server-f7vfitmlkq-du.a.run.app/mcp"
+    }
+  ],
+  "url": "https://github.com/Wonderfulian/kbv-server",
+  "readme": "https://github.com/Wonderfulian/kbv-server#readme"
+}

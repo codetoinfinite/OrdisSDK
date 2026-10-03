@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ATTRACTOR Verification, State & Evidence",
+  "description": "Verify artifacts, hand off public state, and record, check and find evidence about capabilities.",
+  "packageName": "@alphesdk-remote/io-github-novanbaillif-attractor-machine-commons",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://attractor-observatory-demo.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/NovanBaillif/attractor-machine-commons",
+  "readme": "https://github.com/NovanBaillif/attractor-machine-commons#readme"
+}

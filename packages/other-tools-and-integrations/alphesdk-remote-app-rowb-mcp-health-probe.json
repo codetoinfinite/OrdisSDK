@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MCP health — MCP directory health check diagnostics",
+  "description": "Diagnoses whether an MCP server is reachable, by live HTTP probe.",
+  "packageName": "@alphesdk-remote/app-rowb-mcp-health-probe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-health.rowb.app/mcp"
+    }
+  ],
+  "url": "https://mcp-health.rowb.app"
+}

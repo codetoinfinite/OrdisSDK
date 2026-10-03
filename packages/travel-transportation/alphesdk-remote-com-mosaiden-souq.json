@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Mosaiden Souq — سوق المساعدين",
+  "description": "Saudi marketplace: stores (Jarir, eXtra), classifieds, restaurant menus, hotels. Arabic-first.",
+  "packageName": "@alphesdk-remote/com-mosaiden-souq",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mosaiden.com/mcp"
+    }
+  ],
+  "url": "https://mosaiden.com/ai-connect"
+}

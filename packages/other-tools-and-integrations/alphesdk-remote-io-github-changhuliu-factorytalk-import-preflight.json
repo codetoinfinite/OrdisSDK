@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "FactoryTalk Preflight",
+  "description": "Deterministic preflight for FactoryTalk View tag and alarm CSV imports before re-import.",
+  "packageName": "@alphesdk-remote/io-github-changhuliu-factorytalk-import-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://factorytalk.regevidencehub.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ChanghuLiu/factoryTalkImportPreflightMcp",
+  "readme": "https://github.com/ChanghuLiu/factoryTalkImportPreflightMcp#readme"
+}

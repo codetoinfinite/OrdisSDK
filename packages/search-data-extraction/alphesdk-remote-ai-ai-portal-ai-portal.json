@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI-Portal Enterprise GenAI Briefing",
+  "description": "Live AI data for agents: model releases, regulations (EU AI Act), GenAI glossary, daily news.",
+  "packageName": "@alphesdk-remote/ai-ai-portal-ai-portal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ai-portal.ai/mcp"
+    }
+  ],
+  "url": "https://www.ai-portal.ai/developers"
+}

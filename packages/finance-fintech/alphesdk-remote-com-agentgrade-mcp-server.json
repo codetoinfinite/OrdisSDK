@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "AgentGrade",
+  "description": "Scan any website for AI agent readiness, payment protocols, and discovery endpoints",
+  "packageName": "@alphesdk-remote/com-agentgrade-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentgrade.com/mcp"
+    }
+  ]
+}

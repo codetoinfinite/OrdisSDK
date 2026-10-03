@@ -1,0 +1,42 @@
+{
+  "type": "external-agent",
+  "key": "agno",
+  "name": "Agno",
+  "description": "Framework and runtime for agent platforms: build agents with the SDK, serve them through AgentOS and manage them in a web UI.",
+  "category": "developer-tools",
+  "tags": ["framework", "agentos", "runtime", "multi-agent", "mcp"],
+  "repo": "https://github.com/agno-agi/agno",
+  "homepage": "https://docs.agno.com",
+  "docs": "https://docs.agno.com/first-agent",
+  "publisher": "Agno",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Gives teams a self-owned agent stack with a REST API for serving agents, a Postgres store for data and traces and a control plane. Starter templates (for Docker, Railway, AWS and others) bring up a working platform locally.",
+  "howItWorks": "Agents are written with the Agno SDK and hosted by the AgentOS runtime, which exposes an API and an MCP server. The README directs users to clone a starter template repo and run it with Docker.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "The starter templates run the platform locally in Docker"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access for the agents"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["api", "web", "library"],
+  "language": "Python",
+  "models": "Multiple LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 42520,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Pinloft: Batch Geocoder — Address to Lat/Long + Census FIPS",
+  "description": "Pinloft: US address to lat/lon, county, FIPS; reverse geocoding. Free, no key.",
+  "packageName": "@alphesdk-remote/io-github-cybermax-tools-batch-geocoder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pinloft.cybermax-tools.workers.dev/mcp?via=mcp-registry"
+    }
+  ],
+  "url": "https://github.com/CyberMax-tools/product-factory",
+  "readme": "https://github.com/CyberMax-tools/product-factory#readme"
+}

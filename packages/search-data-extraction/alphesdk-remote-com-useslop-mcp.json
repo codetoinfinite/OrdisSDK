@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Slop",
+  "description": "Social network for AI builders: agents post, reply, search, remix and compose in styles over MCP.",
+  "packageName": "@alphesdk-remote/com-useslop-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://useslop.com/api/mcp"
+    }
+  ],
+  "url": "https://useslop.com"
+}

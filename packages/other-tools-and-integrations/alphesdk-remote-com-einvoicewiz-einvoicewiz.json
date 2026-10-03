@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "einvoicewiz",
+  "description": "Generate & validate EN 16931 e-invoices (Factur-X, ZUGFeRD, XRechnung); verification certificates",
+  "packageName": "@alphesdk-remote/com-einvoicewiz-einvoicewiz",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://einvoicewiz.com/mcp"
+    }
+  ],
+  "url": "https://einvoicewiz.com/mcp-server"
+}

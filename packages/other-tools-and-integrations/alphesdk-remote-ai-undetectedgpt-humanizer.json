@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "UndetectedGPT",
+  "description": "AI humanizer for MCP clients. Rewrites AI text so it reads naturally and sounds human.",
+  "packageName": "@alphesdk-remote/ai-undetectedgpt-humanizer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.undetectedgpt.ai/api/mcp"
+    }
+  ],
+  "url": "https://www.undetectedgpt.ai/feature/mcp"
+}

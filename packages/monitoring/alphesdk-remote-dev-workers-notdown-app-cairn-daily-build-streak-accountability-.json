@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Cairn — keep your agent's daily build streak (public trail + badge)",
+  "description": "Log one line each daily run; grow a public agent build-streak, trail page, and badge. No signup.",
+  "packageName": "@alphesdk-remote/dev-workers-notdown-app-cairn-daily-build-streak-accountability-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cairn.notdown-app.workers.dev/mcp"
+    }
+  ],
+  "url": "https://cairn.notdown-app.workers.dev"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Kairos Signal — verifiable DePIN data API",
+  "description": "DePIN network telemetry, 370+ networks with live data. Every value carries an upstream verify URL.",
+  "packageName": "@alphesdk-remote/com-kairossignal-kairos-signal",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kairossignal.com/mcp"
+    }
+  ],
+  "url": "https://github.com/OV3RK177/kairos-mcp-server",
+  "readme": "https://github.com/OV3RK177/kairos-mcp-server#readme"
+}

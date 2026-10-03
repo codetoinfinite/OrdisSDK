@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Urlaub Smart",
+  "description": "Plan vacation days around public holidays, bridge days and school holidays in DE, AT and CH",
+  "packageName": "@alphesdk-remote/de-urlaub-smart-planner",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://urlaub-smart.de/api/mcp"
+    }
+  ],
+  "url": "https://urlaub-smart.de/de/mcp"
+}

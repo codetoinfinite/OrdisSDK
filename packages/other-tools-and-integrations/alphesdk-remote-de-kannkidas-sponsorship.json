@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Kann KI das? Sponsoring",
+  "description": "Find available sponsorship slots and create buyer-confirmed Stripe Checkouts on kannkidas.de.",
+  "packageName": "@alphesdk-remote/de-kannkidas-sponsorship",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kannkidas.de/api/mcp"
+    }
+  ],
+  "url": "https://kannkidas.de/agents/"
+}

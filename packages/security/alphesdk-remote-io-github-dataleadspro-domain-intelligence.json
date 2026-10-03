@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "domain-intelligence",
+  "description": "Domain overviews for security and sales: registration, infrastructure, and risk signals.",
+  "packageName": "@alphesdk-remote/io-github-dataleadspro-domain-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://data.dataleads.pro/mcp/domain-intelligence"
+    }
+  ],
+  "url": "https://github.com/DataLeadsPRO/domain-intelligence",
+  "readme": "https://github.com/DataLeadsPRO/domain-intelligence#readme"
+}

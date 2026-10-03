@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "L2Tools — Lineage 2 Reference Data",
+  "description": "Read-only Interlude and High Five NPC, loot, Soul Crystal and XP reference tools.",
+  "packageName": "@alphesdk-remote/io-github-maxence-l2tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://l2tools.org/api/mcp"
+    }
+  ],
+  "url": "https://l2tools.org/developers"
+}

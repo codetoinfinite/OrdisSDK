@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Token Counter",
+  "description": "Counts tokens under OpenAI-compatible (tiktoken) encodings, by model or encoding name.",
+  "packageName": "@alphesdk-remote/com-apished-token-counter",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apished.com/mcp/v1/tokens"
+    }
+  ],
+  "url": "https://apished.com"
+}

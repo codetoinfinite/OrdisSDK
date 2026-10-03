@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "clarity-os",
+  "description": "MCP tool for governed nonclinical pattern interruption, emotional clarity, and next-step guidance.",
+  "packageName": "@alphesdk-remote/com-howgooditcanget-clarity-os",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.howgooditcanget.com/mcp"
+    }
+  ]
+}

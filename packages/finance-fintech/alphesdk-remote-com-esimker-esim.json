@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "esimker eSIM store",
+  "description": "Prepaid travel data eSIMs: checkout links for people, autonomous purchases from a prepaid wallet.",
+  "packageName": "@alphesdk-remote/com-esimker-esim",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://esimker.com/api/mcp"
+    }
+  ],
+  "url": "https://esimker.com/agents"
+}

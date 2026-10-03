@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "53ON",
+  "description": "Directory and marketplace of local businesses and independent professionals near you.",
+  "packageName": "@alphesdk-remote/com-53on-directory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://53on.com/mcp"
+    }
+  ]
+}

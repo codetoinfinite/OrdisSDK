@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Wafergraph MCP",
+  "description": "Read-only MCP server for wafergraph.com's semiconductor & AI supply-chain data: 30 tools, no auth.",
+  "packageName": "@alphesdk-remote/com-wafergraph-wafergraph-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wafergraph-mcp.jwpalm99.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/jasonpalmer1/wafergraph-mcp",
+  "readme": "https://github.com/jasonpalmer1/wafergraph-mcp#readme"
+}

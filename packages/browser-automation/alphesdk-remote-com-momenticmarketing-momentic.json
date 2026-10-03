@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "momentic",
+  "description": "Free SEO, GEO, and AEO audits: analyze any page or domain, AI-crawler access, agent readiness.",
+  "packageName": "@alphesdk-remote/com-momenticmarketing-momentic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://momenticmarketing.com/mcp"
+    }
+  ],
+  "url": "https://momenticmarketing.com/agent-tools"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FirmTape - SPX, ES and NQ gamma levels, 100+ symbols",
+  "description": "SPX, ES and NQ E-mini futures gamma levels (GEX), 1,000+ SPX sessions, plus 100+ ETFs and stocks",
+  "packageName": "@alphesdk-remote/com-firmtape-spx-options-gamma",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.firmtape.com/mcp"
+    }
+  ],
+  "url": "https://firmtape.com"
+}

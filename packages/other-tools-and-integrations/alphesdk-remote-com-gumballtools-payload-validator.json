@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Payload Validator",
+  "description": "Validate JSON, YAML, XML and CSV with exact line/column errors and silent-corruption warnings.",
+  "packageName": "@alphesdk-remote/com-gumballtools-payload-validator",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://payload-validator.gumballtools.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/bwalvoord/gumball",
+  "readme": "https://github.com/bwalvoord/gumball#readme"
+}

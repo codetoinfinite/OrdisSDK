@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "cost-seg-smart",
+  "description": "Cost segregation study pricing and Year-1 depreciation/tax-savings estimates for US properties.",
+  "packageName": "@alphesdk-remote/com-costsegsmart-cost-seg-smart",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://costsegsmart.com/mcp"
+    }
+  ],
+  "url": "https://github.com/jonhersh/cost-seg-smart-mcp",
+  "readme": "https://github.com/jonhersh/cost-seg-smart-mcp#readme"
+}

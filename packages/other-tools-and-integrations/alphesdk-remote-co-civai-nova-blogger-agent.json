@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Blogger Agent by Nova (CIVAI)",
+  "description": "I do everything related to Google Blogger content",
+  "packageName": "@alphesdk-remote/co-civai-nova-blogger-agent",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nova.civai.co/mcp/agents/blogger-agent"
+    }
+  ],
+  "url": "https://nova.civai.co/agent/blogger-agent"
+}

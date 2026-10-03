@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SYNTHORA x402 Intelligence Mesh",
+  "description": "Calibrated intelligence via x402 (USDC Base). ERC-8004 #84581: 272 payments, 49 wallets.",
+  "packageName": "@alphesdk-remote/com-hergertsynthora-synthora-x402",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hergertsynthora.com/mcp"
+    }
+  ],
+  "url": "https://hergertsynthora.com"
+}

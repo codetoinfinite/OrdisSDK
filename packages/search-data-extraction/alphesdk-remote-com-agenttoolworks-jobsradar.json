@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "JobsRadar",
+  "description": "Job search across Greenhouse, Lever, Ashby, SmartRecruiters, Personio and Pinpoint, deduplicated.",
+  "packageName": "@alphesdk-remote/com-agenttoolworks-jobsradar",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jobsradar.agenttoolworks.com/mcp"
+    }
+  ],
+  "url": "https://github.com/agenttoolworks/mcp-servers",
+  "readme": "https://github.com/agenttoolworks/mcp-servers#readme"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Silent Door Repository Handoff Planner",
+  "description": "Choose files for an agent handoff using filename decisions. No file contents or credentials.",
+  "packageName": "@alphesdk-remote/com-aibitious-silent-repository-safety-preflight",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://silent.aibitious.com/mcp"
+    }
+  ]
+}

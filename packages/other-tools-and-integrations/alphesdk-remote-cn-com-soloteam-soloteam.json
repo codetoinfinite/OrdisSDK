@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "一人行 SoloTeam MCP",
+  "description": "一人行 SoloTeam — 一人公司联盟 (solo-company alliance): 名录/互补推荐/政采线索 read-only; 身份类 tools 需 Bearer yrx_.",
+  "packageName": "@alphesdk-remote/cn-com-soloteam-soloteam",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://soloteam.com.cn/mcp"
+    }
+  ],
+  "url": "https://soloteam.com.cn"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OFAC SDN Screening",
+  "description": "Screen a name against the U.S. Treasury OFAC SDN list. Information, not a compliance determination.",
+  "packageName": "@alphesdk-remote/com-bonissystems-ofac-sdn-screening",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonissystems.com/api/knox/agents/ofac-sdn-screening/mcp"
+    }
+  ],
+  "url": "https://bonissystems.com/agents/ofac-sdn-screening"
+}

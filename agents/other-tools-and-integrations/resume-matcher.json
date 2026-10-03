@@ -1,0 +1,43 @@
+{
+  "type": "external-agent",
+  "key": "resume-matcher",
+  "name": "Resume Matcher",
+  "description": "Tool that tailors a resume and cover letter to a job description using local or hosted LLMs.",
+  "category": "other-tools-and-integrations",
+  "tags": ["resume", "job-search", "cover-letter", "ollama", "hr"],
+  "repo": "https://github.com/srbhr/Resume-Matcher",
+  "homepage": "https://resumematcher.fyi/",
+  "publisher": "Saurabh Rai",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Compares a resume against a job posting, suggests improvements and produces tailored versions and cover letters for job seekers.",
+  "howItWorks": "A FastAPI backend calls models through LiteLLM and a Next.js front end provides the editor, with the provider chosen in settings. It can run from source or as a single Docker container.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": false,
+      "description": "Container route; source route needs Python 3.13+ and Node.js 22+"
+    },
+    {
+      "name": "LLM provider",
+      "kind": "api-key",
+      "required": true,
+      "description": "A hosted provider key or a local Ollama server"
+    }
+  ],
+  "install": [],
+  "run": [
+    "docker run --name resume-matcher -p 3000:3000 -v resume-data:/app/backend/data ghcr.io/srbhr/resume-matcher:latest"
+  ],
+  "interfaces": ["web", "api"],
+  "language": "TypeScript",
+  "models": "LiteLLM providers and Ollama",
+  "mcp": "none",
+  "github": {
+    "stars": 28571,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

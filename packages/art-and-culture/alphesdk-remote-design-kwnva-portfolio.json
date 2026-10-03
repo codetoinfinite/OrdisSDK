@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "kwnva.design portfolio",
+  "description": "Catalog MCP for kwnva.design case studies, studio profile, and project inquiries.",
+  "packageName": "@alphesdk-remote/design-kwnva-portfolio",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kwnva.design/mcp"
+    }
+  ],
+  "url": "https://github.com/kwnva/kwnva.design",
+  "readme": "https://github.com/kwnva/kwnva.design#readme"
+}

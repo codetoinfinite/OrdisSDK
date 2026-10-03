@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Neptune Cigars",
+  "description": "Premium cigar search, community ratings, live availability and US state shipping rules.",
+  "packageName": "@alphesdk-remote/com-neptunecigar-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.neptunecigar.com/mcp"
+    }
+  ],
+  "url": "https://www.neptunecigar.com"
+}

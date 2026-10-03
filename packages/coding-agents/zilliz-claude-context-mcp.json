@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "Claude Context",
+  "description": "Semantic code search over a whole codebase indexed into Milvus/Zilliz.",
+  "packageName": "@zilliz/claude-context-mcp",
+  "packageVersion": "0.1.15",
+  "runtime": "node",
+  "readme": "https://github.com/zilliztech/claude-context",
+  "url": "https://github.com/zilliztech/claude-context",
+  "author": "Zilliz",
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "Embedding provider key (OpenAI default; VoyageAI/Gemini/Ollama alternatives)",
+      "required": true
+    },
+    "MILVUS_TOKEN": {
+      "description": "Zilliz Cloud API key",
+      "required": true
+    },
+    "MILVUS_ADDRESS": {
+      "description": "Milvus/Zilliz endpoint",
+      "required": false
+    }
+  }
+}

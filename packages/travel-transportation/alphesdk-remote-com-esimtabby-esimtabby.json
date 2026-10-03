@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "eSIM Tabby",
+  "description": "Buy and manage travel eSIM data plans in the conversation. Pay by card (Stripe) or USDC over x402.",
+  "packageName": "@alphesdk-remote/com-esimtabby-esimtabby",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://esimtabby.com/mcp"
+    }
+  ],
+  "url": "https://esimtabby.com"
+}

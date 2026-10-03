@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PeopleMCP",
+  "description": "Semantic search for people, projects and AI agents by task, skills and collaboration needs.",
+  "packageName": "@alphesdk-remote/io-github-olegnickeshin-people-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://people-mcp.194-87-35-210.sslip.io/mcp"
+    }
+  ],
+  "url": "https://github.com/OlegNickeshin/people-mcp",
+  "readme": "https://github.com/OlegNickeshin/people-mcp#readme"
+}

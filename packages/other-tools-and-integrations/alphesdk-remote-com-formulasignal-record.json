@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "FormulaSignal",
+  "description": "Dated formula history, confirmed changes and evidence for U.S. pre-workout supplements.",
+  "packageName": "@alphesdk-remote/com-formulasignal-record",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://formulasignal.com/mcp"
+    }
+  ],
+  "url": "https://formulasignal.com/developers"
+}

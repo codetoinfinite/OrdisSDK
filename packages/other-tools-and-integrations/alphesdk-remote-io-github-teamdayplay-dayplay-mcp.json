@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "dayplay-mcp",
+  "description": "DayPlay MCP — verified SF Bay Area places, events & walkable itineraries for AI agents. Free.",
+  "packageName": "@alphesdk-remote/io-github-teamdayplay-dayplay-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.dayplay.io/mcp"
+    }
+  ],
+  "url": "https://github.com/dayplayTeam/dayplay-mcp",
+  "readme": "https://github.com/dayplayTeam/dayplay-mcp#readme"
+}

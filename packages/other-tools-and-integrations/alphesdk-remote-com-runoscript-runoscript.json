@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "Runoscript — Elder Futhark runes",
+  "description": "Elder Futhark rune meanings, scholarly articles & book reviews, plus the runescript builder.",
+  "packageName": "@alphesdk-remote/com-runoscript-runoscript",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://runoscript.com/mcp"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "classifier.dev",
+  "description": "Sort up to 1,000 texts into your own labels with a calibrated confidence per answer. No API key.",
+  "packageName": "@alphesdk-remote/dev-classifier-classifier",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://classifier.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/mrmps/classifier-dev",
+  "readme": "https://github.com/mrmps/classifier-dev#readme"
+}

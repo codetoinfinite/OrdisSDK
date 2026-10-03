@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "arcasos-rentals",
+  "description": "Korean premium short-term rental search: natural language or structured filters (SHV engine).",
+  "packageName": "@alphesdk-remote/com-arcasos-arcasos-rentals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arcasos.com"
+    }
+  ],
+  "url": "https://arcasos.com"
+}

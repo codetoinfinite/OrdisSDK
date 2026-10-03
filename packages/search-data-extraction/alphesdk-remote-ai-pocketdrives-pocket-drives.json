@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pocket Drives",
+  "description": "Peer-to-peer car rental search — luxury, exotic, and EV vehicles with delivery across the US.",
+  "packageName": "@alphesdk-remote/ai-pocketdrives-pocket-drives",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pocketdrives.ai/mcp"
+    }
+  ],
+  "url": "https://pocketdrives.ai"
+}

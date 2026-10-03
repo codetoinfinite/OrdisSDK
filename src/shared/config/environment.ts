@@ -13,7 +13,8 @@ export function getSandboxProvider(): MCPSandboxProvider {
     provider === "LOCAL" ||
     provider === "DAYTONA" ||
     provider === "SANDOCK" ||
-    provider === "E2B"
+    provider === "E2B" ||
+    provider === "VERCEL"
   ) {
     return provider as MCPSandboxProvider;
   }

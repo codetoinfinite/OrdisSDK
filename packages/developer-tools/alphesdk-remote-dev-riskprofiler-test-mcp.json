@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "test-mcp",
+  "description": "An MCP server that provides a hello tool",
+  "packageName": "@alphesdk-remote/dev-riskprofiler-test-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://test-mcp-f7ft.onrender.com/mcp"
+    }
+  ]
+}

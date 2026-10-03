@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ServerSearcher",
+  "description": "Search and compare dedicated, VPS, GPU and cloud server plans by specs, location and price.",
+  "packageName": "@alphesdk-remote/com-serversearcher-serversearcher-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.serversearcher.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/ServerSearcher/Serversearcher-mcp",
+  "readme": "https://github.com/ServerSearcher/Serversearcher-mcp#readme"
+}

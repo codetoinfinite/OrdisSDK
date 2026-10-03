@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "GospelChannel Church Finder",
+  "description": "Find a Christian church by worship style, denomination, language, and location. Read-only.",
+  "packageName": "@alphesdk-remote/io-github-ac0ai-gospelchannel-church-finder",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gospelchannel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Ac0AI/gospelchannel",
+  "readme": "https://github.com/Ac0AI/gospelchannel#readme"
+}

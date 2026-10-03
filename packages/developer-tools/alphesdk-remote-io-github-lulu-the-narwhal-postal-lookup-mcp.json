@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Postal Lookup MCP",
+  "description": "Free, keyless postal/ZIP code lookup: place name(s), state/region, and coordinates.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-postal-lookup-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/postal/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

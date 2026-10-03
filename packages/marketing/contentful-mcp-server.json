@@ -1,0 +1,29 @@
+{
+  "type": "mcp-server",
+  "name": "Contentful",
+  "description": "Manage Contentful entries, assets, content types and locales.",
+  "packageName": "@contentful/mcp-server",
+  "packageVersion": "1.23.7",
+  "runtime": "node",
+  "readme": "https://github.com/contentful/contentful-mcp-server",
+  "url": "https://github.com/contentful/contentful-mcp-server",
+  "author": "Contentful",
+  "env": {
+    "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN": {
+      "description": "Contentful Management API token",
+      "required": true
+    },
+    "SPACE_ID": {
+      "description": "Contentful space ID",
+      "required": true
+    },
+    "ENVIRONMENT_ID": {
+      "description": "Environment (default master)",
+      "required": false
+    },
+    "CONTENTFUL_HOST": {
+      "description": "API host",
+      "required": false
+    }
+  }
+}

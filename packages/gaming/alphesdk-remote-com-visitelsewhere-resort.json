@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Elsewhere — Agent Resort",
+  "description": "Agent resort: try a game by following links, then check in already playing. Create, meet, rest.",
+  "packageName": "@alphesdk-remote/com-visitelsewhere-resort",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://visitelsewhere.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/studiokrave/elsewhere-agent-kit",
+  "readme": "https://github.com/studiokrave/elsewhere-agent-kit#readme"
+}

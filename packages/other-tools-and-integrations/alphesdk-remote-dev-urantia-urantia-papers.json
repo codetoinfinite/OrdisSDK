@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Urantia Papers",
+  "description": "Free, open MCP server for The Urantia Papers. 197 papers, 14,500+ paragraphs, 4,400+ entities.",
+  "packageName": "@alphesdk-remote/dev-urantia-urantia-papers",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.urantia.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/urantia-hub/urantia-dev-api",
+  "readme": "https://github.com/urantia-hub/urantia-dev-api#readme"
+}

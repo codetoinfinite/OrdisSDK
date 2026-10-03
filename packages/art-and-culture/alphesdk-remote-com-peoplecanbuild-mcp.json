@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "People Can Build",
+  "description": "Exhibition stand builder, Poznań/EU: company facts, reference projects, design-fee estimate, RFQ",
+  "packageName": "@alphesdk-remote/com-peoplecanbuild-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.peoplecanbuild.com/mcp"
+    }
+  ],
+  "url": "https://www.peoplecanbuild.com/"
+}

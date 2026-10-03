@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MemoryPlugin",
+  "description": "Give every AI you use one shared, permanent memory. Store once, recall in whichever AI you open.",
+  "packageName": "@alphesdk-remote/com-memoryplugin-memory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.memoryplugin.com/api/mcp/mcp"
+    }
+  ],
+  "url": "https://www.memoryplugin.com"
+}

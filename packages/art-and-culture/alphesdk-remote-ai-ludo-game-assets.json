@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Ludo AI Game Assets",
+  "description": "Generate game assets with AI: sprites, animations, 3D models with rigging, video, music, SFX, voices",
+  "packageName": "@alphesdk-remote/ai-ludo-game-assets",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ludo.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Ludo-AI/ludo-mcp",
+  "readme": "https://github.com/Ludo-AI/ludo-mcp#readme"
+}

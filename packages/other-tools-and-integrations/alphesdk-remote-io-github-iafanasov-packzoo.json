@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "PackZoo",
+  "description": "Compare parcel and letter delivery prices across 60+ carriers in 27 European countries.",
+  "packageName": "@alphesdk-remote/io-github-iafanasov-packzoo",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://packzoo.com/api/mcp"
+    }
+  ]
+}

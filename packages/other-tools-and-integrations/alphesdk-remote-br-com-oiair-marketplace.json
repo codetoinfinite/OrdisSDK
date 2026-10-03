@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "OiAir activities",
+  "description": "Find children's activities in Florianópolis, read published conditions and get request-form links.",
+  "packageName": "@alphesdk-remote/br-com-oiair-marketplace",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://oiair.com.br/api/mcp"
+    }
+  ],
+  "url": "https://oiair.com.br/developers/mcp/"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Livestock Counterparty Guard",
+  "description": "Verify livestock buyers, dealers, market agencies, and packers against USDA P&S records.",
+  "packageName": "@alphesdk-remote/io-github-empower-ai-training-usda-ps-counterparty-guard",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usda-ps-counterparty-guard.hwinkler5866.workers.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/Empower-AI-training/usda-ps-counterparty-guard",
+  "readme": "https://github.com/Empower-AI-training/usda-ps-counterparty-guard#readme"
+}

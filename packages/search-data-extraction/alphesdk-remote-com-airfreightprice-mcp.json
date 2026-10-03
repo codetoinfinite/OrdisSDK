@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Air freight rates and transit times worldwide - search routes and request quotes via AI agents.",
+  "packageName": "@alphesdk-remote/com-airfreightprice-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.airfreightprice.com/mcp"
+    }
+  ],
+  "url": "https://airfreightprice.com"
+}

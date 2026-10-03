@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "爱佳肴 Love Life",
+  "description": "Read-only restaurant search for AI agents in China. 5 tools, no key, no paid ranking. 中国餐饮开放数据。",
+  "packageName": "@alphesdk-remote/cn-tutulife-aijiayao",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tutulife.cn/mcp"
+    }
+  ],
+  "url": "https://tutulife.cn/llms.txt"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "external-agent",
+  "key": "tradingagents",
+  "name": "TradingAgents",
+  "description": "Multi-agent trading research framework that mimics a trading firm with analysts, debating researchers, a trader and risk managers.",
+  "category": "finance-fintech",
+  "tags": ["trading", "multi-agent", "langgraph", "stocks", "research"],
+  "repo": "https://github.com/TauricResearch/TradingAgents",
+  "publisher": "Tauric Research",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Analyses a ticker for a given date and produces a trade decision with supporting reasoning. It is intended for research into LLM-based trading, not as financial advice.",
+  "howItWorks": "A LangGraph workflow runs fundamental, sentiment, news and technical analysts, then bull and bear researchers debate before a trader, risk team and portfolio manager decide. An interactive CLI selects tickers, models and depth, and market data comes from configurable vendors.",
+  "requirements": [
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "One LLM provider key is needed; Google, Anthropic, xAI, DeepSeek and OpenRouter are alternatives"
+    },
+    {
+      "name": "ALPHA_VANTAGE_API_KEY",
+      "kind": "api-key",
+      "required": false,
+      "description": "Optional market data vendor"
+    },
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python 3.13 conda environment in the documented setup"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/TauricResearch/TradingAgents.git",
+    "cd TradingAgents",
+    "conda create -n tradingagents python=3.13",
+    "conda activate tradingagents",
+    "pip install .",
+    "cp .env.example .env"
+  ],
+  "run": ["python -m cli.main"],
+  "interfaces": ["cli", "library"],
+  "language": "Python",
+  "framework": "LangGraph",
+  "models": "OpenAI, Google, Anthropic, xAI, DeepSeek, OpenRouter, local",
+  "mcp": "none",
+  "github": {
+    "stars": 109560,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-09-29",
+    "checkedAt": "2026-10-03"
+  }
+}

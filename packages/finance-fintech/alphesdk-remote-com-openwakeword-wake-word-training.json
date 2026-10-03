@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wake-word-training",
+  "description": "Train custom wake words from your agent: estimator, GPU training, benchmarks. Card or crypto.",
+  "packageName": "@alphesdk-remote/com-openwakeword-wake-word-training",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://openwakeword.com/mcp"
+    }
+  ],
+  "url": "https://openwakeword.com/agents"
+}

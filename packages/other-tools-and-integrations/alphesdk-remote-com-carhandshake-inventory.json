@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Car Handshake",
+  "description": "Find and compare live vehicle inventory from participating US dealers and contact them with consent.",
+  "packageName": "@alphesdk-remote/com-carhandshake-inventory",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.carhandshake.com/mcp"
+    }
+  ],
+  "url": "https://carhandshake.com"
+}

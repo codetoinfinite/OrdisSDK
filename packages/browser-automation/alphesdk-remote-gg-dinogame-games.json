@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Dinogame",
+  "description": "Search 101 free browser games + 1,000 Chrome Dino & gaming guides; returns dinogame.gg play links.",
+  "packageName": "@alphesdk-remote/gg-dinogame-games",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dinogame.gg/mcp"
+    }
+  ],
+  "url": "https://dinogame.gg/"
+}

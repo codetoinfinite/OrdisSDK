@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PartsTable",
+  "description": "MCP server for IT hardware parts research: normalize PNs, search listings, get subs/comps.",
+  "packageName": "@alphesdk-remote/com-partstable-partstable",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.partstable.com/mcp"
+    }
+  ],
+  "url": "https://github.com/partstable/partstable",
+  "readme": "https://github.com/partstable/partstable#readme"
+}

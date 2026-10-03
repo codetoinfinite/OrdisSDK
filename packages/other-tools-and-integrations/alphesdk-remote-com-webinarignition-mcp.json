@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "WebinarIgnition",
+  "description": "71 AI tools for WordPress webinars: 28 read-only, nothing changes without your OK.",
+  "packageName": "@alphesdk-remote/com-webinarignition-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.webinarignition.com/?src=registry"
+    }
+  ],
+  "url": "https://webinarignition.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "LLM Abacus",
+  "description": "Compare up-to-date pricing for 40+ LLMs (incl. Chinese) & estimate cost from tokens. EN/zh.",
+  "packageName": "@alphesdk-remote/com-llmabacus-pricing",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://llmabacus.com/api/mcp"
+    }
+  ],
+  "url": "https://llmabacus.com"
+}

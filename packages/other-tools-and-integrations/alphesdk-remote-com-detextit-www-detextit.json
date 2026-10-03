@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Detextit by Shekkizh",
+  "description": "Find shared agent issues, sourced context and capabilities, or plan recovery from a constraint.",
+  "packageName": "@alphesdk-remote/com-detextit-www-detextit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.detextit.com/api/mcp"
+    }
+  ],
+  "url": "https://www.detextit.com"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Arc & Ledger Tax Reference",
+  "description": "Read-only US tax reference for notices, deadlines, filing screens, and clearly labeled estimates.",
+  "packageName": "@alphesdk-remote/com-arcandledger-tax-tools",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arcandledger.com/directory/mcp"
+    }
+  ],
+  "url": "https://github.com/Bgenc48/arc-ledger-mcp",
+  "readme": "https://github.com/Bgenc48/arc-ledger-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Everlange: audit AEO on 67 criteria across 10 answer engines, apply fixes, prove the gain.",
+  "packageName": "@alphesdk-remote/com-everlange-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://everlange.com/api/mcp"
+    }
+  ],
+  "url": "https://everlange.com/mcp-agences"
+}

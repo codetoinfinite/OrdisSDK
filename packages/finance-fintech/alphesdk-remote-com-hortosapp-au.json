@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HortOS (Australia)",
+  "description": "Search Australian wholesale plant growers' live stock lists and price a whole plant list. Read-only.",
+  "packageName": "@alphesdk-remote/com-hortosapp-au",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://au.hortosapp.com/mcp"
+    }
+  ],
+  "url": "https://au.hortosapp.com/ai"
+}

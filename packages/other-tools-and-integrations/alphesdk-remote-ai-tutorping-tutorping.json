@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "TutorPing",
+  "description": "Find and book independent tutors, or find students asking for a tutor in your subject.",
+  "packageName": "@alphesdk-remote/ai-tutorping-tutorping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tutorping.ai/mcp"
+    }
+  ],
+  "url": "https://tutorping.ai/agents"
+}

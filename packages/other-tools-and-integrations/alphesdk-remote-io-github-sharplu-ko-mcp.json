@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ko-mcp",
+  "description": "Real SEC, 13F, insider, congress & macro data your AI agent can cite. Hosted MCP, 24 tools.",
+  "packageName": "@alphesdk-remote/io-github-sharplu-ko-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ko.io/mcp"
+    }
+  ],
+  "url": "https://github.com/SharpLu/ko-mcp",
+  "readme": "https://github.com/SharpLu/ko-mcp#readme"
+}

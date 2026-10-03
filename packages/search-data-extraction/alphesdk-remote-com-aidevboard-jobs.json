@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI Dev Jobs",
+  "description": "MCP for 8,700+ current AI jobs. 13 tools: search, match, salaries, companies, commerce quotes.",
+  "packageName": "@alphesdk-remote/com-aidevboard-jobs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aidevboard.com/mcp"
+    }
+  ],
+  "url": "https://aidevboard.com"
+}

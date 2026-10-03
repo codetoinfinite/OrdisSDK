@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Indian Legal MCP",
+  "description": "Structured access to 10 major Indian legal texts (BNS, IPC, etc) for AI agents.",
+  "packageName": "@alphesdk-remote/io-github-gsms-b-indian-legal-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gsms-b-indian-legal-mcp.hf.space/gradio_api/mcp/"
+    }
+  ],
+  "url": "https://github.com/GSMS-B/indian-legal-mcp",
+  "readme": "https://github.com/GSMS-B/indian-legal-mcp#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "ComputeSage StackBench",
+  "description": "GPU and LLM inference benchmarks, hardware evidence, deployment recommendations, and launch configs.",
+  "packageName": "@alphesdk-remote/com-computesage-stackbench",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.computesage.com/mcp"
+    }
+  ],
+  "url": "https://computesage.com/mcp"
+}

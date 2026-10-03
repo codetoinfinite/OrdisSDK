@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "regimen",
+  "description": "Tells you whether a trading strategy's edge is distinguishable from luck.",
+  "packageName": "@alphesdk-remote/io-github-rayyer220-regimen",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://regimen-nu.vercel.app/mcp"
+    }
+  ],
+  "url": "https://github.com/RaYYeR220/regimen",
+  "readme": "https://github.com/RaYYeR220/regimen#readme"
+}

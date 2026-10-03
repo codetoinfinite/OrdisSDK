@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "constitution-lint",
+  "description": "Static linter for CLAUDE.md-style agent constitution files: 10 operational-guardrail checks.",
+  "packageName": "@alphesdk-remote/dev-agentopskit-www-constitution-lint",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.agentopskit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/joeyycli/constitution-lint-action"
+}

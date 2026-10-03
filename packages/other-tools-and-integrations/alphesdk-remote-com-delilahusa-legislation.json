@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Legislation",
+  "description": "U.S. bills, roll-call votes, legislators and 2026 elections for all 50 states, D.C. and Congress.",
+  "packageName": "@alphesdk-remote/com-delilahusa-legislation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.delilahusa.com/"
+    }
+  ],
+  "url": "https://delilahusa.com/developers"
+}

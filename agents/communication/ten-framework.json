@@ -1,0 +1,66 @@
+{
+  "type": "external-agent",
+  "key": "ten-framework",
+  "name": "TEN Framework",
+  "description": "Framework for real-time conversational voice agents, shipped with runnable example agents such as a voice assistant.",
+  "category": "communication",
+  "tags": ["voice", "realtime", "multimodal", "agora", "framework"],
+  "repo": "https://github.com/TEN-framework/ten-framework",
+  "subpath": "ai_agents",
+  "publisher": "TEN Framework (backed by Agora)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Provides developers with ready examples of talking agents and the runtime to build their own low-latency voice or multimodal assistants. The examples can be started in a development container and tried in a browser.",
+  "howItWorks": "Agents are graphs of extensions for speech recognition, language models and speech synthesis running on the TEN runtime. Real-time audio transport uses Agora. The sample agents live in the ai_agents directory and are installed and started with task commands inside a Docker container.",
+  "requirements": [
+    {
+      "name": "Docker",
+      "kind": "runtime",
+      "required": true,
+      "description": "Development container started with Docker Compose"
+    },
+    {
+      "name": "AGORA_APP_ID",
+      "kind": "account",
+      "required": true,
+      "description": "Agora project identifier, with AGORA_APP_CERTIFICATE"
+    },
+    {
+      "name": "DEEPGRAM_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Speech recognition for the voice assistant example"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Language model for the voice assistant example"
+    },
+    {
+      "name": "ELEVENLABS_TTS_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Speech synthesis for the voice assistant example"
+    }
+  ],
+  "install": [
+    "cd ai_agents",
+    "cp ./.env.example ./.env",
+    "docker compose up -d",
+    "docker exec -it ten_agent_dev bash",
+    "cd agents/examples/voice-assistant",
+    "task install"
+  ],
+  "run": ["task run"],
+  "interfaces": ["web", "api", "library"],
+  "language": "Python",
+  "framework": "TEN Framework",
+  "models": "OpenAI, Deepgram and ElevenLabs in the default example; other extensions available",
+  "mcp": "none",
+  "github": {
+    "stars": 11142,
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

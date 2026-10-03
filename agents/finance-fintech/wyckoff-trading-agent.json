@@ -1,0 +1,46 @@
+{
+  "type": "external-agent",
+  "key": "wyckoff-trading-agent",
+  "name": "Wyckoff Trading Agent",
+  "description": "Stock analysis agent applying Wyckoff volume-price methods to A-share, Hong Kong and US markets, with CLI, desktop and MCP modes.",
+  "category": "finance-fintech",
+  "tags": ["wyckoff", "technical-analysis", "a-shares", "stocks", "mcp"],
+  "repo": "https://github.com/YoungCan-Wang/WyckoffTradingAgent",
+  "publisher": "YoungCan-Wang",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Screens and analyses stocks using Wyckoff theory, runs pre-market risk checks and explains its reading of price and volume. It serves individual traders, mostly in Chinese.",
+  "howItWorks": "A Python package provides a command-line agent that fetches market data and reasons over it with an LLM. The same tools are exposed as an MCP server for other clients.",
+  "requirements": [
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used for installation"
+    },
+    {
+      "name": "LLM provider API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model access"
+    },
+    {
+      "name": "Market data account",
+      "kind": "account",
+      "required": false,
+      "description": "Data provider credentials for quotes"
+    }
+  ],
+  "install": ["uv pip install youngcan-wyckoff-analysis"],
+  "run": ["wyckoff run \"盘前风控检查\""],
+  "interfaces": ["cli", "desktop"],
+  "language": "Python",
+  "models": "Configurable LLM providers",
+  "mcp": "server",
+  "github": {
+    "stars": 732,
+    "license": "AGPL-3.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

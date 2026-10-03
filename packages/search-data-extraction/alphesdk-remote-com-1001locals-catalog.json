@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "catalog",
+  "description": "Search & add local tours and experiences (Italy/EU). Operators: first 100 bookings free, then 5%.",
+  "packageName": "@alphesdk-remote/com-1001locals-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.1001locals.com/mcp"
+    }
+  ],
+  "url": "https://1001locals.com/for-ai.html"
+}

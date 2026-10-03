@@ -1,0 +1,47 @@
+{
+  "type": "external-agent",
+  "key": "shortest",
+  "name": "Shortest",
+  "description": "End-to-end testing framework where tests are plain-English sentences executed in a browser by a Claude-powered agent.",
+  "category": "developer-tools",
+  "tags": ["e2e-testing", "qa-agent", "playwright", "claude"],
+  "repo": "https://github.com/antiwork/shortest",
+  "homepage": "https://shortest.com",
+  "publisher": "Antiwork",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets developers write a test as a description of user behaviour and have an agent perform and judge it. It fits web teams who want coverage without maintaining selector-based scripts.",
+  "howItWorks": "An init command sets the project up. The runner starts a Playwright browser, gives the model the test description and lets it operate the page with computer-use style actions before reporting pass or fail. Callbacks allow extra assertions, and an optional secret supports GitHub two-factor logins.",
+  "requirements": [
+    {
+      "name": "ANTHROPIC_API_KEY",
+      "kind": "api-key",
+      "required": true,
+      "description": "Model that executes the tests"
+    },
+    {
+      "name": "GITHUB_TOTP_SECRET",
+      "kind": "api-key",
+      "required": false,
+      "description": "For tests that sign in with GitHub 2FA"
+    },
+    {
+      "name": "Node.js",
+      "kind": "runtime",
+      "required": true,
+      "description": "Runs the test runner"
+    }
+  ],
+  "install": ["npx @antiwork/shortest init"],
+  "run": ["pnpm shortest"],
+  "interfaces": ["cli", "library"],
+  "language": "TypeScript",
+  "models": "Anthropic Claude",
+  "mcp": "none",
+  "github": {
+    "stars": 5684,
+    "license": "MIT",
+    "pushedAt": "2026-08-06",
+    "checkedAt": "2026-10-03"
+  }
+}

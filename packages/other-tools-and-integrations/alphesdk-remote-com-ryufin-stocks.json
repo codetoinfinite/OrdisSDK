@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ryufin",
+  "description": "Five plain answers on ~2,400 US stocks from SEC filings: quality, safety, valuation, growth, market.",
+  "packageName": "@alphesdk-remote/com-ryufin-stocks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ryufin.com/mcp"
+    }
+  ],
+  "url": "https://ryufin.com/developers"
+}

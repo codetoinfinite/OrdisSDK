@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "AI 代理人任務中樞",
+  "description": "一個入口整合全部台灣繁中 MCP 工具：生活、旅遊、台股、AI 工具、遊戲、電影、運動等",
+  "packageName": "@alphesdk-remote/com-penguindriver-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hub.penguindriver.com/mcp"
+    }
+  ],
+  "url": "https://hub.penguindriver.com"
+}

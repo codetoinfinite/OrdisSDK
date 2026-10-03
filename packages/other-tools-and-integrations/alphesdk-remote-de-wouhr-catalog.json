@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "wouhr.de Preisvergleich",
+  "description": "Deutscher Preisvergleich für Uhren – Bestpreis-Suche (read-only).",
+  "packageName": "@alphesdk-remote/de-wouhr-catalog",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://wouhr.de/api/mcp"
+    }
+  ],
+  "url": "https://wouhr.de"
+}

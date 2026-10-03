@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "SEOmatic",
+  "description": "SEO agent: GSC, keyword, backlink and AI-visibility insights, plus approval-gated site actions",
+  "packageName": "@alphesdk-remote/ai-seomatic-seomatic",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.seomatic.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/Minh42/seomatic-mcp",
+  "readme": "https://github.com/Minh42/seomatic-mcp#readme"
+}

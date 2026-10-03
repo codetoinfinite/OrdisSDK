@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "Lovable",
+  "description": "Lets agents create and iterate on Lovable app projects.",
+  "packageName": "@alphesdk-remote/lovable",
+  "runtime": "node",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lovable.dev",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ],
+  "readme": "https://docs.lovable.dev/",
+  "url": "https://github.com/lovablelabs",
+  "author": "Lovable",
+  "env": {}
+}

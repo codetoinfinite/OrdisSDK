@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Ablakunio Nyílászáró MCP",
+  "description": "Egyedi méretű nyílászárók árbecslése, raktárkészlet és ajánlatkérés – Ablakunio, Tiszafüred",
+  "packageName": "@alphesdk-remote/com-ablakunio-nyilaszaro-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ablakunio.com/api/mcp"
+    }
+  ],
+  "url": "https://www.ablakunio.com"
+}

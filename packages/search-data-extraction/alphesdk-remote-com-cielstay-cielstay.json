@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CielStay",
+  "description": "Natural-language search of 70,000+ vacation rentals, with the host's direct booking link.",
+  "packageName": "@alphesdk-remote/com-cielstay-cielstay",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.cielstay.com/mcp"
+    }
+  ],
+  "url": "https://www.cielstay.com"
+}

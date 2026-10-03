@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "The Mirror System — AI Citability",
+  "description": "Request a Brand Discovery Record: the human-approved facts AI cites. One tool, then a person.",
+  "packageName": "@alphesdk-remote/com-danielsdesignstudio-mirror-ai-citability",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.danielsdesignstudio.com/mcp"
+    }
+  ],
+  "url": "https://danielsdesignstudio.com/agents"
+}

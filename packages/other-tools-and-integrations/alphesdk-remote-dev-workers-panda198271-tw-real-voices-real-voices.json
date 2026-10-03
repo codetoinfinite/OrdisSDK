@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "真人意見站",
+  "description": "熱門產品與主題的真人意見整理，標示 ChatGPT 公開前後的可信度。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-real-voices-real-voices",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-real-voices.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-real-voices.panda198271.workers.dev"
+}

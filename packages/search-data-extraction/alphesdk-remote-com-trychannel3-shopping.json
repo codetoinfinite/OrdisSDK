@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Channel3 Shopping",
+  "description": "Shopping search across 100M+ products, with every retailer's offer and live price in one place.",
+  "packageName": "@alphesdk-remote/com-trychannel3-shopping",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.trychannel3.com/"
+    }
+  ],
+  "url": "https://github.com/channel3-ai/mcp-server",
+  "readme": "https://github.com/channel3-ai/mcp-server#readme"
+}

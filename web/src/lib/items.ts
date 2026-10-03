@@ -31,6 +31,10 @@ export interface CardItem {
   /** Agents: how many servers the agent uses. */
   serverCount?: number;
   runnable?: boolean;
+  /** Agents that run from their own repository; `official` and `stars` describe that source. */
+  external?: boolean;
+  official?: boolean;
+  stars?: number;
   /** `<mark>`-highlighted copies from search; untrusted text. */
   highlight?: { name?: string; description?: string };
 }
@@ -79,9 +83,16 @@ export function fromAgent(a: AgentSummary): CardItem {
     category: a.category,
     categoryName: a.categoryName,
     stackId: a.key,
-    serverCount: a.servers.length,
-    runnable: a.runnable,
+    ...agentState(a),
   };
+}
+
+/** External agents are never "unavailable": they run from their source, not on this host. */
+function agentState(a: Pick<AgentSummary, "kind" | "servers" | "runnable" | "official" | "stars">) {
+  if (a.kind === "external") {
+    return { external: true, official: !!a.official, stars: a.stars, validated: false };
+  }
+  return { serverCount: a.servers.length, runnable: a.runnable };
 }
 
 export function fromHit(hit: SearchHit): CardItem {
@@ -123,8 +134,7 @@ export function fromHit(hit: SearchHit): CardItem {
         type: "agent",
         href: paths.agent(hit.key),
         stackId: hit.key,
-        serverCount: hit.servers.length,
-        runnable: hit.runnable,
+        ...agentState(hit),
       };
   }
 }

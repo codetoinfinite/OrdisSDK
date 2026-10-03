@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Webhook Studio",
+  "description": "Keyless webhook endpoints: capture, wait, replay, forward, and generate types from real traffic.",
+  "packageName": "@alphesdk-remote/com-webhook-studio-webhooks",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://webhook-studio.com/mcp"
+    }
+  ],
+  "url": "https://github.com/lestertww/webhookstudio",
+  "readme": "https://github.com/lestertww/webhookstudio#readme"
+}

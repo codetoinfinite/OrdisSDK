@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "TheRundown Documentation MCP",
+  "description": "Official TheRundown API documentation search. No live data or authenticated Product API calls.",
+  "packageName": "@alphesdk-remote/io-github-therundown-documentation",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.therundown.io/mcp"
+    }
+  ],
+  "url": "https://github.com/TheRundown/documentation-mcp",
+  "readme": "https://github.com/TheRundown/documentation-mcp#readme"
+}

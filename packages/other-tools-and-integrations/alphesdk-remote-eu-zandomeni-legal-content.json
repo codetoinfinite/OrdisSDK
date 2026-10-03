@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "SCA Zandomeni — Timișoara",
+  "description": "MCP server SCA Zandomeni (avocat Timișoara): caută ~550 articole juridice RO + date contact.",
+  "packageName": "@alphesdk-remote/eu-zandomeni-legal-content",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lrqkraglvppygtmwwsie.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "url": "https://zandomeni.eu"
+}

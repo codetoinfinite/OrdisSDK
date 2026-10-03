@@ -1,0 +1,71 @@
+{
+  "type": "external-agent",
+  "key": "adk-llm-auditor",
+  "name": "ADK LLM Auditor",
+  "description": "ADK fact-checking agent that extracts claims from an LLM answer, verifies them with web search and rewrites the answer to fix errors.",
+  "category": "other-tools-and-integrations",
+  "tags": ["fact-checking", "adk", "gemini", "multi-agent", "grounding"],
+  "repo": "https://github.com/google/adk-recipes",
+  "subpath": "contrib/python/llm-auditor",
+  "docs": "https://adk.dev",
+  "publisher": "Google",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "It acts as a verification layer for text produced by language models: it isolates checkable statements, judges each against search results, reports a verdict with justification and can produce a corrected version. Useful for developers who want an automated grounding check.",
+  "howItWorks": "A sequential pipeline of a critic agent, which uses Google Search to verify claims, and a reviser agent, which edits the original text according to the findings. It runs with the ADK CLI or web UI on Vertex AI.",
+  "requirements": [
+    {
+      "name": "GOOGLE_CLOUD_PROJECT",
+      "kind": "account",
+      "required": true,
+      "description": "Google Cloud project used for Vertex AI"
+    },
+    {
+      "name": "GOOGLE_CLOUD_LOCATION",
+      "kind": "service",
+      "required": true,
+      "description": "Vertex AI region"
+    },
+    {
+      "name": "GOOGLE_GENAI_USE_VERTEXAI",
+      "kind": "service",
+      "required": true,
+      "description": "Set to true to route model calls through Vertex AI"
+    },
+    {
+      "name": "gcloud CLI",
+      "kind": "runtime",
+      "required": true,
+      "description": "Used for application-default login"
+    },
+    {
+      "name": "uv",
+      "kind": "runtime",
+      "required": true,
+      "description": "Python package manager used by the recipe"
+    },
+    {
+      "name": "MODEL_NAME",
+      "kind": "service",
+      "required": false,
+      "description": "Optional model override"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/google/adk-recipes.git",
+    "cd adk-recipes/contrib/python/llm-auditor",
+    "uv sync"
+  ],
+  "run": ["uv run adk run app", "uv run adk web"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "framework": "Google ADK",
+  "models": "Gemini on Vertex AI",
+  "mcp": "none",
+  "github": {
+    "stars": 10411,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-03",
+    "checkedAt": "2026-10-03"
+  }
+}

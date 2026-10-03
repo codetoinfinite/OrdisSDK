@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "email",
+  "description": "Email infrastructure for AI agents — send, receive, search, and reply to email over MCP.",
+  "packageName": "@alphesdk-remote/dev-primitive-email",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.primitive.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/primitivedotdev/primitive-mono-repo",
+  "readme": "https://github.com/primitivedotdev/primitive-mono-repo#readme"
+}

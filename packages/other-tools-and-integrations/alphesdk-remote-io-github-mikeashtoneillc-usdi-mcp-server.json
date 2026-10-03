@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "usdi-mcp-server",
+  "description": "Live tools for USDi: CPI-indexed exchange rate, contract/pool addresses, and mint/redeem mechanics.",
+  "packageName": "@alphesdk-remote/io-github-mikeashtoneillc-usdi-mcp-server",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usdi-mcp.onrender.com/mcp"
+    }
+  ],
+  "url": "https://github.com/MikeAshtonEILLC/usdi-mcp-server",
+  "readme": "https://github.com/MikeAshtonEILLC/usdi-mcp-server#readme"
+}

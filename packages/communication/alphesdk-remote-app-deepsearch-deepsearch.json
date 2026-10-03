@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "DeepSearch",
+  "description": "Research a person's public footprint from a name, phone, email, or username. Sourced.",
+  "packageName": "@alphesdk-remote/app-deepsearch-deepsearch",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deepsearch.app/api/mcp"
+    }
+  ],
+  "url": "https://deepsearch.app/api/docs"
+}

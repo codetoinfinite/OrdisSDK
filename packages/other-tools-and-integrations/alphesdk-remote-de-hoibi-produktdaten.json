@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "produktdaten",
+  "description": "Offene deutsche Produkt- und Softwaredaten (CC BY 4.0): 80+ Datensätze mit Preisen und Quellen",
+  "packageName": "@alphesdk-remote/de-hoibi-produktdaten",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hoibi.de/daten/mcp"
+    }
+  ],
+  "url": "https://hoibi.de/daten/"
+}

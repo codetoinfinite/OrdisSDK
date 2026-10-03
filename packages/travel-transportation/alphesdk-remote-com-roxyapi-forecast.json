@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Astrology Forecast MCP Server by RoxyAPI",
+  "description": "Astrology transit forecasts, timelines and significant-date feeds for AI agents.",
+  "packageName": "@alphesdk-remote/com-roxyapi-forecast",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://roxyapi.com/mcp/forecast"
+    }
+  ],
+  "url": "https://roxyapi.com/products/forecast-api"
+}

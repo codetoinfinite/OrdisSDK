@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "ApproveKit",
+  "description": "Audit apps against App Store, Google Play and Google OAuth review rules; get the required docs.",
+  "packageName": "@alphesdk-remote/dev-approvekit-approvekit",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://approvekit.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/yateshaw/approvekit",
+  "readme": "https://github.com/yateshaw/approvekit#readme"
+}

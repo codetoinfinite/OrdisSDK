@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "MarketCheck API",
+  "description": "MarketCheck automotive data: search US/UK listings, predict prices, decode VINs, market history.",
+  "packageName": "@alphesdk-remote/com-marketcheck-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://developers.marketcheck.com/api/mcp"
+    }
+  ],
+  "url": "https://github.com/MarketcheckHub/marketcheck-mcp-client",
+  "readme": "https://github.com/MarketcheckHub/marketcheck-mcp-client#readme"
+}

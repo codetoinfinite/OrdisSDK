@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Spendline",
+  "description": "Enforce AI budgets before the model call and track cost per customer across 10 providers.",
+  "packageName": "@alphesdk-remote/ai-spendline-spendline",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.spendline.ai/mcp"
+    }
+  ],
+  "url": "https://www.spendline.ai/"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Airline Starlink Tracker",
+  "description": "Starlink WiFi status for United, Alaska and Hawaiian flights, with per-airline route odds.",
+  "packageName": "@alphesdk-remote/com-airlinestarlinktracker-starlink-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://airlinestarlinktracker.com/mcp"
+    }
+  ],
+  "url": "https://airlinestarlinktracker.com"
+}

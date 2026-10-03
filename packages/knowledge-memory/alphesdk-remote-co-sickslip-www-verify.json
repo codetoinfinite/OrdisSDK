@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "verify",
+  "description": "Verify a SickSlip doctor's note by Document ID; states served, pricing, physician NPI. Read-only.",
+  "packageName": "@alphesdk-remote/co-sickslip-www-verify",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sickslip.onrender.com/api/mcp"
+    }
+  ],
+  "url": "https://www.sickslip.co/verify"
+}

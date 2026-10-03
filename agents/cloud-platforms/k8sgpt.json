@@ -1,0 +1,48 @@
+{
+  "type": "external-agent",
+  "key": "k8sgpt",
+  "name": "K8sGPT",
+  "description": "CLI that scans a Kubernetes cluster for problems and uses an LLM to explain each finding and suggest a fix in plain language.",
+  "category": "cloud-platforms",
+  "tags": ["kubernetes", "sre", "diagnostics", "cli", "cncf"],
+  "repo": "https://github.com/k8sgpt-ai/k8sgpt",
+  "homepage": "https://k8sgpt.ai",
+  "docs": "https://docs.k8sgpt.ai",
+  "publisher": "K8sGPT (CNCF sandbox project)",
+  "publisherType": "community",
+  "official": false,
+  "whatItDoes": "Inspects workloads, services, nodes and other cluster objects for misconfiguration and failure signals, then turns the raw findings into readable explanations. It is aimed at platform engineers and SREs who want a quick triage pass over a cluster.",
+  "howItWorks": "Built-in analyzers encode SRE checks for each resource kind and produce structured findings. With the explain flag, those findings are sent to a configured AI backend, optionally anonymised first. It can also run as a server, including an MCP server mode, and there is a separate operator for in-cluster use.",
+  "requirements": [
+    {
+      "name": "Kubernetes cluster access",
+      "kind": "service",
+      "required": true,
+      "description": "A kubeconfig pointing at the cluster to analyse"
+    },
+    {
+      "name": "AI backend key",
+      "kind": "api-key",
+      "required": false,
+      "description": "Key for the chosen backend (OpenAI by default), registered with the auth command; only needed for explanations"
+    }
+  ],
+  "install": ["brew install k8sgpt"],
+  "run": [
+    "k8sgpt generate",
+    "k8sgpt auth add",
+    "k8sgpt analyze",
+    "k8sgpt analyze --explain",
+    "k8sgpt serve --mcp"
+  ],
+  "interfaces": ["cli", "api"],
+  "language": "Go",
+  "models": "OpenAI (default), Azure OpenAI, Cohere, Amazon Bedrock, Google Gemini, local models",
+  "mcp": "server",
+  "github": {
+    "stars": 8214,
+    "license": "Apache-2.0",
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

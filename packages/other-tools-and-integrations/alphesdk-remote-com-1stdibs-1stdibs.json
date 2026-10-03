@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "1stDibs",
+  "description": "MCP server for browsing and searching items on 1stDibs marketplace.",
+  "packageName": "@alphesdk-remote/com-1stdibs-1stdibs",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.1stdibs.com/soa/mcp/"
+    }
+  ]
+}

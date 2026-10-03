@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "contix herramientas",
+  "description": "Free no-auth tools for Spain: validate IBAN, EU VAT check (VIES), Modelo 303 sums, Veri*factu dates.",
+  "packageName": "@alphesdk-remote/es-contix-herramientas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.contix.es/api/v1/mcp/herramientas"
+    }
+  ],
+  "url": "https://contix.es/herramientas/"
+}

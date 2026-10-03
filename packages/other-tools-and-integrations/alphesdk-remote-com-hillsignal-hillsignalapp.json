@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HillSignal",
+  "description": "Federal contracts, SAM notices, congressional trades, PAC money, insider trades, bills, EOs, themes.",
+  "packageName": "@alphesdk-remote/com-hillsignal-hillsignalapp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.hillsignal.com/api/mcp"
+    }
+  ],
+  "url": "https://www.hillsignal.com/developers"
+}

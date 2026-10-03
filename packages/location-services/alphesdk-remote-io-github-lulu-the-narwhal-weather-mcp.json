@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Weather MCP",
+  "description": "Free, keyless real-time weather and 7-day forecasts for any city worldwide.",
+  "packageName": "@alphesdk-remote/io-github-lulu-the-narwhal-weather-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ads.getlulu.dev/weather/mcp"
+    }
+  ],
+  "url": "https://github.com/Lulu-The-Narwhal/lulu-platform",
+  "readme": "https://github.com/Lulu-The-Narwhal/lulu-platform#readme"
+}

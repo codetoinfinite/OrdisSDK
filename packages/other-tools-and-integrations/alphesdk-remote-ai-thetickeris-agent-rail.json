@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "$AI on HyperEVM",
+  "description": "Quote and build unsigned buy/sell transactions for $AI on its HyperEVM bonding curve. No keys held.",
+  "packageName": "@alphesdk-remote/ai-thetickeris-agent-rail",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thetickeris.ai/mcp"
+    }
+  ],
+  "url": "https://thetickeris.ai"
+}

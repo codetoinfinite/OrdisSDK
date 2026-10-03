@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cellarion Wine Registry",
+  "description": "Public wine registry and guides: search wines, grapes, regions, appellations. No account.",
+  "packageName": "@alphesdk-remote/app-cellarion-wine-registry",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cellarion.app/api/mcp/public"
+    }
+  ],
+  "url": "https://github.com/jagduvi1/Cellarion",
+  "readme": "https://github.com/jagduvi1/Cellarion#readme"
+}

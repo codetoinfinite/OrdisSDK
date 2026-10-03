@@ -1,0 +1,34 @@
+{
+  "type": "external-agent",
+  "key": "jan",
+  "name": "Jan",
+  "description": "Desktop AI assistant that downloads and runs open models locally, positioned as a private ChatGPT replacement.",
+  "category": "other-tools-and-integrations",
+  "tags": ["desktop", "local-llm", "privacy", "chat", "offline"],
+  "repo": "https://github.com/janhq/jan",
+  "homepage": "https://jan.ai/",
+  "publisher": "Menlo Research",
+  "publisherType": "company",
+  "official": true,
+  "whatItDoes": "Lets users chat with models such as Llama, Gemma and Qwen pulled from Hugging Face, entirely on their own machine. Installers are provided for macOS, Windows and Linux.",
+  "howItWorks": "A Tauri desktop application written in Rust and TypeScript manages local model downloads and inference. Users normally install a released build; building from source needs Node.js, Yarn, Make and Rust.",
+  "requirements": [
+    {
+      "name": "Memory for local models",
+      "kind": "hardware",
+      "required": true,
+      "description": "Roughly 8GB RAM for 3B models, 16GB for 7B, 32GB for 13B on macOS; GPU support on Windows and Linux"
+    }
+  ],
+  "install": [],
+  "run": [],
+  "interfaces": ["desktop"],
+  "language": "Rust",
+  "models": "Local open models from Hugging Face",
+  "mcp": "none",
+  "github": {
+    "stars": 44766,
+    "pushedAt": "2026-10-02",
+    "checkedAt": "2026-10-03"
+  }
+}

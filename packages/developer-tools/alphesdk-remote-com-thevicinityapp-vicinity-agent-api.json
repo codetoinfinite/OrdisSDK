@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Vicinity Agent API",
+  "description": "Spatial coordination for AI agents: read nearby activity or post intents; publishing is paid.",
+  "packageName": "@alphesdk-remote/com-thevicinityapp-vicinity-agent-api",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.thevicinityapp.com/mcp"
+    }
+  ],
+  "url": "https://thevicinityapp.com"
+}

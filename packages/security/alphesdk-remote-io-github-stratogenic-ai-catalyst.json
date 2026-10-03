@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Catalyst Governance",
+  "description": "Governance middleware for AI agents: permission gates, approvals, compliance scanning, audit ledger.",
+  "packageName": "@alphesdk-remote/io-github-stratogenic-ai-catalyst",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catalyst.stratogenic.ai/mcp"
+    }
+  ],
+  "url": "https://github.com/Stratogenic-AI/catalyst-mcp",
+  "readme": "https://github.com/Stratogenic-AI/catalyst-mcp#readme"
+}

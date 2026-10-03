@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "piratefly-mcp",
+  "description": "Is this flight price good? Buy-or-wait verdict from 90 days of real observed fares per route",
+  "packageName": "@alphesdk-remote/io-github-deusacc-piratefly-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://next.piratefly.com/mcp"
+    }
+  ],
+  "url": "https://next.piratefly.com/"
+}

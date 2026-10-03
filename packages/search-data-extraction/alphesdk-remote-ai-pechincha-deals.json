@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Pechincha.ai",
+  "description": "Brazilian deals: search active promos, coupons and price history from Brazilian online stores.",
+  "packageName": "@alphesdk-remote/ai-pechincha-deals",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pechincha.ai/mcp"
+    }
+  ],
+  "url": "https://pechincha.ai/desenvolvedores"
+}

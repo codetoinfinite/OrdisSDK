@@ -1,0 +1,51 @@
+{
+  "type": "external-agent",
+  "key": "bailing",
+  "name": "Bailing",
+  "description": "Open voice assistant, oriented to Chinese speech, that chains voice activity detection, recognition, an LLM and speech synthesis.",
+  "category": "communication",
+  "tags": ["voice", "assistant", "chinese", "asr", "tts"],
+  "repo": "https://github.com/wwbin2017/bailing",
+  "publisher": "wwbin2017",
+  "publisherType": "individual",
+  "official": false,
+  "whatItDoes": "Holds spoken conversations on a local machine, remembers context across turns and can call tools to complete tasks. It is aimed at hobbyists who want a low-latency talking assistant without a dedicated GPU.",
+  "howItWorks": "Microphone audio passes through Silero voice activity detection and FunASR recognition, then to a language model, with replies synthesised by engines such as edge-tts, Kokoro or ChatTTS. A memory module and function calling extend the dialogue, and an optional server component adds a web front end.",
+  "requirements": [
+    {
+      "name": "Python",
+      "kind": "runtime",
+      "required": true,
+      "description": "Dependencies are installed with pip"
+    },
+    {
+      "name": "LLM API key",
+      "kind": "api-key",
+      "required": true,
+      "description": "Key for the configured model, DeepSeek in the default configuration"
+    },
+    {
+      "name": "Microphone and speaker",
+      "kind": "hardware",
+      "required": true,
+      "description": "Audio input and output"
+    }
+  ],
+  "install": [
+    "git clone https://github.com/wwbin2017/bailing.git",
+    "cd bailing",
+    "pip install -r requirements.txt",
+    "pip install -r third_party/OpenManus/requirements.txt"
+  ],
+  "run": ["python main.py"],
+  "interfaces": ["cli", "web"],
+  "language": "Python",
+  "models": "DeepSeek by default; OpenAI-compatible LLMs",
+  "mcp": "none",
+  "github": {
+    "stars": 1775,
+    "license": "MIT",
+    "pushedAt": "2026-04-06",
+    "checkedAt": "2026-10-03"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Sherah",
+  "description": "Online personal assistant for busy parents: home, kids, meals, admin and more",
+  "packageName": "@alphesdk-remote/com-mysherah-sherah",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mysherah.com/mcp"
+    }
+  ],
+  "url": "https://mysherah.com"
+}

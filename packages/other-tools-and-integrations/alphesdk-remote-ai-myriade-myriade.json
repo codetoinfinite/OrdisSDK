@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "myriade",
+  "description": "Explore and query your data warehouse through Myriade's AI data analyst agent.",
+  "packageName": "@alphesdk-remote/ai-myriade-myriade",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.myriade.ai/mcp/"
+    }
+  ],
+  "url": "https://www.myriade.ai"
+}

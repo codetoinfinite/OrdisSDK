@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "數位健康與遠距醫療指南",
+  "description": "睡眠時間計算、情緒量表自評與台灣遠距醫療資訊。",
+  "packageName": "@alphesdk-remote/dev-workers-panda198271-tw-digital-wellness-digital-wellness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tw-digital-wellness.panda198271.workers.dev/mcp"
+    }
+  ],
+  "url": "https://tw-digital-wellness.panda198271.workers.dev"
+}

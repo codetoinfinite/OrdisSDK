@@ -6,5 +6,8 @@
   "runtime": "node",
   "license": "unknown",
   "env": {},
-  "name": "RagRabbit MCP"
+  "name": "RagRabbit MCP",
+  "binArgs": [
+    "stdio"
+  ]
 }

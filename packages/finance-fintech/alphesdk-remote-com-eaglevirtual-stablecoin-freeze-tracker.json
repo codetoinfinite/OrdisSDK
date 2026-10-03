@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Eagle Virtual USDT & USDC Blacklist Tracker",
+  "description": "USDT & USDC blacklist, freeze and seizure records for any wallet. Dated, cited, no risk scores.",
+  "packageName": "@alphesdk-remote/com-eaglevirtual-stablecoin-freeze-tracker",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eaglevirtual.com/mcp"
+    }
+  ],
+  "url": "https://eaglevirtual.com/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "filingpulse",
+  "description": "Hosted SEC EDGAR filings: Form 4 insider trades, 8-K events, S-1/IPO registrations. Read-only.",
+  "packageName": "@alphesdk-remote/io-filingpulse-filingpulse",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.filingpulse.io/mcp"
+    }
+  ],
+  "url": "https://filingpulse.io/mcp.html"
+}

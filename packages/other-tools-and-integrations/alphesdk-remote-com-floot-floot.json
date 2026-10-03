@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "floot",
+  "description": "Build and publish full-stack web and mobile apps on Floot from any MCP client. Building is free.",
+  "packageName": "@alphesdk-remote/com-floot-floot",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.floot.com/mcp"
+    }
+  ],
+  "url": "https://floot.com"
+}

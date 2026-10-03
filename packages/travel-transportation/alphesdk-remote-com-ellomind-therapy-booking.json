@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "therapy-booking",
+  "description": "Check live availability and book therapy sessions with a Malayalam-speaking psychologist.",
+  "packageName": "@alphesdk-remote/com-ellomind-therapy-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ellomind.com/mcp"
+    }
+  ]
+}

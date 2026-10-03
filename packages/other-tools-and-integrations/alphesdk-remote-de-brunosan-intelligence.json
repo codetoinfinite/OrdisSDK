@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "BrunoSan Intelligence Concierge",
+  "description": "Discovery MCP for 11 intelligence domains plus LENS with live tools, routing and endpoints.",
+  "packageName": "@alphesdk-remote/de-brunosan-intelligence",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://brunosan.de/mcp"
+    }
+  ]
+}

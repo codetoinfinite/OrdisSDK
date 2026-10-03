@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "college-baseball",
+  "description": "Live NCAA DI college baseball scores, standings, schedules, rankings, and sabermetrics.",
+  "packageName": "@alphesdk-remote/com-blazesportsintel-college-baseball",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sabermetrics.blazesportsintel.com/mcp"
+    }
+  ],
+  "url": "https://github.com/ahump20/BSI",
+  "readme": "https://github.com/ahump20/BSI#readme"
+}

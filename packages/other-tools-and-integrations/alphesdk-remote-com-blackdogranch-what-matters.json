@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "What Matters",
+  "description": "Your personal action-item list — what you owe and what you're owed. AI proposes; you approve.",
+  "packageName": "@alphesdk-remote/com-blackdogranch-what-matters",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://matters.blackdogranch.com/mcp"
+    }
+  ],
+  "url": "https://matters.blackdogranch.com"
+}

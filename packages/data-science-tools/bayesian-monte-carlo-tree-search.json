@@ -1,10 +1,14 @@
 {
   "type": "mcp-server",
-  "packageName": "bayesian-monte-carlo-tree-search",
+  "packageName": "git+https://github.com/angrysky56/mcts-mcp-server@59478284170bfdc6e5c91342f9bd97b50a51edc6",
   "description": "Provides a Bayesian Monte Carlo Tree Search engine for systematic exploration of different angles and interpretations, balancing exploration versus exploitation through probabilistic approaches that evolve through multiple iterations.",
   "url": "https://github.com/angrysky56/mcts-mcp-server",
   "runtime": "python",
   "license": "mit",
   "env": {},
-  "name": "MCTS MCP Server"
+  "name": "MCTS MCP Server",
+  "bin": "mcts-mcp-server",
+  "withPackages": [
+    "mcp<2"
+  ]
 }

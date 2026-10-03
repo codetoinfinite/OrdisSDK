@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "graviti",
+  "description": "Verified brand claims with receipts for agent commerce. Ranking is never paid; the engine is open.",
+  "packageName": "@alphesdk-remote/ai-thesingulariti-graviti",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://graviti.thesingulariti.ai/api/mcp"
+    }
+  ],
+  "url": "https://github.com/sclaytonmyosin/graviti-engine",
+  "readme": "https://github.com/sclaytonmyosin/graviti-engine#readme"
+}

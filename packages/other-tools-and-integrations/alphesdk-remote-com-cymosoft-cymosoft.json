@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Cymosoft",
+  "description": "Cymosoft JSC profile and case studies (EN/JA) plus Japanese text utilities (文字数・全角半角・和暦)",
+  "packageName": "@alphesdk-remote/com-cymosoft-cymosoft",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cymosoft.com/mcp"
+    }
+  ],
+  "url": "https://github.com/Cymosoft/cymosoft.github.io",
+  "readme": "https://github.com/Cymosoft/cymosoft.github.io#readme"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "QueryLines",
+  "description": "Surplus lines market data, per query. U.S. E&S: premium, financials, litigation, catastrophe.",
+  "packageName": "@alphesdk-remote/com-querylines-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.querylines.com/mcp"
+    }
+  ],
+  "url": "https://querylines.com"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "HumanMirror Nexus",
+  "description": "Outcome-first agent fallback: free discovery, minimal routing, declared costs, verified execution.",
+  "packageName": "@alphesdk-remote/fr-humanmirror-nexus",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://humanmirror.fr/api/nexus/mcp/"
+    }
+  ],
+  "url": "https://humanmirror.fr/nexus/"
+}

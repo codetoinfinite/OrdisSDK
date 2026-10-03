@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "One-Page Readiness Check — 10 Signals, Arabic or English",
+  "description": "Ten machine-readable signals on one public page: the top miss if any, and a receipt we re-verify.",
+  "packageName": "@alphesdk-remote/ai-advisorsai-store-readiness",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://advisorsai.ai/store-readiness-mcp"
+    }
+  ],
+  "url": "https://advisorsai.ai/"
+}

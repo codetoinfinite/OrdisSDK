@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "SocialDataX 微博 Weibo MCP",
+  "description": "Weibo suggestions, hot search, posts/details, comments/replies, likes/reposts, users, transcript.",
+  "packageName": "@alphesdk-remote/com-52choujiang-weibo-insights",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.socialdatax.com/weibo/mcp"
+    }
+  ]
+}

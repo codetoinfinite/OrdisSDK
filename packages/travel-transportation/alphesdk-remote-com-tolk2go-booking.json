@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Tolk2Go Interpreter Booking",
+  "description": "Book and manage sworn and qualified interpreters (on-site, phone, video) for a Tolk2Go account.",
+  "packageName": "@alphesdk-remote/com-tolk2go-booking",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tolk2go.com/api/v1/mcp"
+    }
+  ],
+  "url": "https://github.com/Tolk2Go-Organization/agent-skills",
+  "readme": "https://github.com/Tolk2Go-Organization/agent-skills#readme"
+}

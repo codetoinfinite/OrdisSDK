@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bureau (about)",
+  "description": "About Bureau, the self-hosted office for AI agents: overview, FAQ search, roadmap, install.",
+  "packageName": "@alphesdk-remote/dev-getbureau-about",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.getbureau.dev/mcp"
+    }
+  ],
+  "url": "https://www.getbureau.dev/inside"
+}

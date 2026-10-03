@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Shirabe Japan Data Hub",
+  "description": "Japan data tools for AI agents: calendar (rokuyo), address, name splitting, corporate number lookup",
+  "packageName": "@alphesdk-remote/dev-shirabe-hub",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://shirabe.dev/mcp"
+    }
+  ],
+  "url": "https://shirabe.dev/"
+}

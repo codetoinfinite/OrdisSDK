@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Generate, edit, and export data-architecture diagrams from your AI. Column lineage, PNG in chat.",
+  "packageName": "@alphesdk-remote/io-datadef-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://datadef.io/mcp"
+    }
+  ],
+  "url": "https://datadef.io"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "mcp-server",
+  "name": "Neo4j Graph Data Science",
+  "description": "Runs Neo4j GDS graph algorithms (paths, centrality, communities) from an agent.",
+  "packageName": "gds-agent",
+  "packageVersion": "1.0.1",
+  "runtime": "python",
+  "readme": "https://github.com/neo4j-contrib/gds-agent",
+  "url": "https://github.com/neo4j-contrib/gds-agent",
+  "author": "Neo4j",
+  "env": {
+    "NEO4J_URI": {
+      "description": "Neo4j connection URI",
+      "required": true
+    },
+    "NEO4J_USERNAME": {
+      "description": "Neo4j username",
+      "required": true
+    },
+    "NEO4J_PASSWORD": {
+      "description": "Neo4j password",
+      "required": true
+    }
+  }
+}

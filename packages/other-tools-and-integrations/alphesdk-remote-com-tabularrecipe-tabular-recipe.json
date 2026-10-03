@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Tabular Recipe",
+  "description": "Turn any recipe into a compact process table — every ingredient and step at a glance.",
+  "packageName": "@alphesdk-remote/com-tabularrecipe-tabular-recipe",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.tabularrecipe.com/mcp"
+    }
+  ],
+  "url": "https://tabularrecipe.com"
+}

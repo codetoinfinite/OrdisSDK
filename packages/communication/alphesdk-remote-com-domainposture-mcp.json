@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "mcp",
+  "description": "Remote MCP server: 19 domain-hygiene and email-auth tools (DNS, SPF, DMARC, DKIM, TLS).",
+  "packageName": "@alphesdk-remote/com-domainposture-mcp",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.domainposture.com/mcp/mcp"
+    }
+  ],
+  "url": "https://www.domainposture.com/mcp"
+}

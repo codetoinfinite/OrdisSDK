@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "PlugRail JP Recall",
+  "description": "Search Japanese product recalls by keyword and category using public Consumer Affairs Agency data.",
+  "packageName": "@alphesdk-remote/dev-plugrail-jp-recall",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jp-recall.plugrail.dev/mcp"
+    }
+  ],
+  "url": "https://github.com/plugrail/servers",
+  "readme": "https://github.com/plugrail/servers#readme"
+}

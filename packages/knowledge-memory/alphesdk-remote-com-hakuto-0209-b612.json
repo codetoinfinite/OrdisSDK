@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "b612 (hakuto AI)",
+  "description": "Design-review copilot: industry design checkpoints, edge cases, and Japanese legal notes.",
+  "packageName": "@alphesdk-remote/com-hakuto-0209-b612",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.hakuto-0209.com/mcp"
+    }
+  ],
+  "url": "https://hakuto-0209.com/lab.html"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "LINE Bot",
+  "description": "Send messages and manage a LINE Official Account via the Messaging API.",
+  "packageName": "@line/line-bot-mcp-server",
+  "packageVersion": "0.5.0",
+  "runtime": "node",
+  "readme": "https://github.com/line/line-bot-mcp-server",
+  "url": "https://github.com/line/line-bot-mcp-server",
+  "author": "LY Corporation",
+  "env": {
+    "CHANNEL_ACCESS_TOKEN": {
+      "description": "LINE Messaging API channel access token",
+      "required": true
+    },
+    "DESTINATION_USER_ID": {
+      "description": "Default recipient user ID",
+      "required": false
+    }
+  }
+}

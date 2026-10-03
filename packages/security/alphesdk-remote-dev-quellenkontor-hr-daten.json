@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "name": "Quellenkontor HR-Daten",
+  "description": "Verified German HR data with legal source: minimum wage, social security, holidays, notice periods",
+  "packageName": "@alphesdk-remote/dev-quellenkontor-hr-daten",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.quellenkontor.dev/v1"
+    }
+  ],
+  "url": "https://github.com/NicksAdvisory/quellenkontor-sdk",
+  "readme": "https://github.com/NicksAdvisory/quellenkontor-sdk#readme"
+}

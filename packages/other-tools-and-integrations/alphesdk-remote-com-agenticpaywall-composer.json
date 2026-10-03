@@ -1,0 +1,14 @@
+{
+  "type": "mcp-server",
+  "name": "composer",
+  "description": "Composes + runs multi-step external-data workflows for one quoted USDC price (x402).",
+  "packageName": "@alphesdk-remote/com-agenticpaywall-composer",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://composer.agenticpaywall.com/mcp"
+    }
+  ]
+}

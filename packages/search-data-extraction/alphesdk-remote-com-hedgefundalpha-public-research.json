@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Hedge Fund Alpha Research",
+  "description": "Search public Hedge Fund Alpha metadata and find official membership and data product pages.",
+  "packageName": "@alphesdk-remote/com-hedgefundalpha-public-research",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hedgefundalpha.com/mcp"
+    }
+  ],
+  "url": "https://hedgefundalpha.com/mcp-docs"
+}

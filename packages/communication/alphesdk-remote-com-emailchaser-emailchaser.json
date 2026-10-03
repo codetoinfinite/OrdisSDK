@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Emailchaser",
+  "description": "Run cold email outbound from an AI agent: campaigns, leads, replies, sender accounts, autopilot.",
+  "packageName": "@alphesdk-remote/com-emailchaser-emailchaser",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.emailchaser.com/api/mcp"
+    }
+  ],
+  "url": "https://www.emailchaser.com/mcp-server"
+}

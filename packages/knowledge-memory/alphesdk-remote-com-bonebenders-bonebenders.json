@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Bonebenders",
+  "description": "Dentistry knowledge base: implantology, periodontology, oral surgery. Verbatim text, with sources.",
+  "packageName": "@alphesdk-remote/com-bonebenders-bonebenders",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bonebenders.com/mcp"
+    }
+  ],
+  "url": "https://bonebenders.com/strumenti/connettore-ai/"
+}

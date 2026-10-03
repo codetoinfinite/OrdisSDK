@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "CuttingToolsAI Grade Cross-Reference",
+  "description": "Cross-brand carbide grade equivalents from verified manufacturer charts; never invents a grade.",
+  "packageName": "@alphesdk-remote/eu-cuttingtoolsai-xref",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cuttingtoolsai-mcp.memmizgezgin.workers.dev"
+    }
+  ],
+  "url": "https://cuttingtoolsai.eu"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "MyPlate.food nutrition tools",
+  "description": "USDA nutrition calculators + the preserved MyPlate Kitchen recipes; source-cited, machine-verified.",
+  "packageName": "@alphesdk-remote/food-myplate-nutrition",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.myplate.food/mcp"
+    }
+  ],
+  "url": "https://myplate.food/mcp"
+}

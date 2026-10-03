@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "El Pujante — Subastas públicas de España",
+  "description": "Spanish public property auctions (judicial, AEAT, Social Security): daily data and risk flags.",
+  "packageName": "@alphesdk-remote/es-elpujante-subastas",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elpujante.es/mcp"
+    }
+  ],
+  "url": "https://elpujante.es/es/mcp"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "mcp-server",
+  "name": "Learn the Dao — Tao Te Ching",
+  "description": "Read, search and cite all 81 chapters of the Tao Te Ching, with per-rendering attribution.",
+  "packageName": "@alphesdk-remote/com-learnthedao-learn-the-dao",
+  "runtime": "node",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://learnthedao.com/api/mcp"
+    }
+  ],
+  "url": "https://learnthedao.com"
+}
