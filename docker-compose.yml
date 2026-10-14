@@ -6,9 +6,15 @@ services:
     ports:
       - "127.0.0.1:3003:3003"
     environment:
+      # Required: comma-separated keys, 32+ characters each (openssl rand -hex 32)
+      - ALPHE_SDK_API_KEYS=${ALPHE_SDK_API_KEYS:?set ALPHE_SDK_API_KEYS}
+      - MCP_SANDBOX_PROVIDER=${MCP_SANDBOX_PROVIDER:-SANDOCK}
+      - ALLOW_LOCAL_EXECUTION=${ALLOW_LOCAL_EXECUTION:-false}
+      - REGISTRY_BASE_URL=${REGISTRY_BASE_URL:-http://localhost:3003}
       - SANDOCK_API_KEY=${SANDOCK_API_KEY}
       - ENABLE_SEARCH=${ENABLE_SEARCH:-true}
       - MEILI_HTTP_ADDR=http://meilisearch:7700
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY:?set MEILI_MASTER_KEY}
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
     depends_on:
       meilisearch:
@@ -19,6 +25,10 @@ services:
     container_name: mcp-registry-meilisearch
     ports:
       - "127.0.0.1:7700:7700"
+    environment:
+      # production mode refuses to start without a master key, so the index is never open
+      - MEILI_ENV=production
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY:?set MEILI_MASTER_KEY}
     volumes:
       - meili_data:/meili_data
     healthcheck:

@@ -7,8 +7,10 @@ dist
 web/dist
 build
 
-# Environment files
-.env.local
+# Environment files: real keys must never be baked into the image
+.env
+.env.*
+!.env.example
 
 # Logs
 logs
@@ -83,3 +85,6 @@ e2b-template/node/package.json
 e2b-template/node/pnpm-lock.yaml
 e2b-template/python/uv.lock
 e2b-template/python/pyproject.toml
+
+# AWS deploy scripts are not part of the image
+deploy/

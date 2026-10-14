@@ -2,10 +2,10 @@ import { randomUUID } from "node:crypto";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import type { Tool } from "@modelcontextprotocol/sdk/types.js";
+import type { CallToolResult, Tool } from "@modelcontextprotocol/sdk/types.js";
 import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprotocol/sdk/types.js";
 import { BlockedPackageError, isBlocked } from "../../shared/utils/blocklist-util";
-import { getMcpClient } from "../../shared/utils/mcp-client-util";
+import { getPackageTools, runPackageTool } from "../package/package-handler";
 import type { PackageRepository } from "../package/package-repository";
 import type { MCPServerPackageConfig } from "../package/package-types";
 
@@ -42,6 +42,9 @@ interface GatewaySession {
 
 const sessions = new Map<string, GatewaySession>();
 
+/** Each session holds a proxy server in memory; past this many, new ones are turned away. */
+const MAX_SESSIONS = 500;
+
 const SESSION_TTL_MS = 30 * 60 * 1000;
 setInterval(
   () => {
@@ -57,7 +60,8 @@ setInterval(
 );
 
 /**
- * Creates a low-level MCP Server that proxies tools from the target package.
+ * Creates a low-level MCP Server that proxies tools from the target package. Tools are listed and
+ * run through the configured executor, so they land in the sandbox like any other tool call.
  *
  * The `sessionRef` object is shared with the session store so that
  * `envs` can be updated on every incoming HTTP request. The tools/call
@@ -65,28 +69,13 @@ setInterval(
  */
 async function createProxyServer(
   packageName: string,
-  config: MCPServerPackageConfig,
   sessionRef: { envs: Record<string, string> },
 ): Promise<{ server: Server; tools: Tool[] }> {
-  // Provide mock envs for listing tools (some servers validate env on startup)
-  const mockEnvs: Record<string, string> = { ...sessionRef.envs };
-  if (config.env) {
-    for (const key of Object.keys(config.env)) {
-      if (!mockEnvs[key]) {
-        mockEnvs[key] = "mock_value";
-      }
-    }
-  }
-
-  // Fetch available tools from the upstream MCP server
-  const { client: upstreamClient, closeConnection } = await getMcpClient(config, mockEnvs);
-  let upstreamTools: Tool[];
-  try {
-    const result = await upstreamClient.listTools();
-    upstreamTools = result.tools;
-  } finally {
-    await closeConnection();
-  }
+  // Copies: the list is cached and shared, and the schemas get patched below
+  const upstreamTools: Tool[] = (await getPackageTools(packageName)).map((tool) => ({
+    ...tool,
+    inputSchema: { ...tool.inputSchema },
+  }));
 
   // Ensure each tool's inputSchema allows additional properties.
   // VSCode's AJV validator defaults to additionalProperties:false when
@@ -139,13 +128,7 @@ async function createProxyServer(
       `envKeys=[${Object.keys(envs).join(",")}]`,
     );
 
-    const { client, closeConnection: closeUpstream } = await getMcpClient(config, envs);
-    try {
-      const result = await client.callTool({ name, arguments: args });
-      return result;
-    } finally {
-      await closeUpstream();
-    }
+    return (await runPackageTool(packageName, name, args ?? {}, envs)) as CallToolResult;
   });
 
   return { server, tools: upstreamTools };
@@ -158,7 +141,10 @@ export function createMcpGatewayHandler(repository: PackageRepository) {
   return async (req: IncomingMessage, res: ServerResponse, packageName: string) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type, mcp-session-id, x-mcp-env-*");
+    res.setHeader(
+      "Access-Control-Allow-Headers",
+      "Content-Type, Authorization, x-api-key, mcp-session-id, x-mcp-env-*",
+    );
     res.setHeader("Access-Control-Expose-Headers", "mcp-session-id");
 
     if (req.method === "OPTIONS") {
@@ -212,6 +198,12 @@ export function createMcpGatewayHandler(repository: PackageRepository) {
       return;
     }
 
+    if (sessions.size >= MAX_SESSIONS) {
+      res.writeHead(503, { "Content-Type": "application/json", "Retry-After": "60" });
+      res.end(JSON.stringify({ error: "Too many open sessions, try again shortly" }));
+      return;
+    }
+
     // New session
     try {
       // Shared mutable ref so the tools/call handler always sees latest envs
@@ -235,7 +227,7 @@ export function createMcpGatewayHandler(repository: PackageRepository) {
         enableJsonResponse: true,
       });
 
-      const { server: mcpServer } = await createProxyServer(packageName, config, sessionRef);
+      const { server: mcpServer } = await createProxyServer(packageName, sessionRef);
       await mcpServer.connect(transport);
       await transport.handleRequest(req, res);
     } catch (error) {
@@ -245,7 +237,11 @@ export function createMcpGatewayHandler(repository: PackageRepository) {
         res.end(
           JSON.stringify({
             error: `Failed to initialize MCP gateway for ${packageName}`,
-            message: error instanceof Error ? error.message : "Unknown error",
+            // Upstream errors can carry paths and stderr; keep them in the log in production
+            message:
+              process.env.NODE_ENV !== "production" && error instanceof Error
+                ? error.message
+                : undefined,
           }),
         );
       }

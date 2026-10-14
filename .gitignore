@@ -44,3 +44,4 @@ e2b-template/python/uv.lock
 e2b-template/python/pyproject.toml
 
 /scripts/official-registry/output/
+.DS_Store

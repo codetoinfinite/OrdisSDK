@@ -9,6 +9,7 @@ Every server in the catalog is reachable through the AlpheSDK gateway, so any cl
 Scoped package names keep their slash, for example `{{origin}}/mcp/@modelcontextprotocol/server-everything`.
 
 - A client's first request opens a session, and the response carries an `mcp-session-id` header. Send it back with later requests. Each session ends 30 minutes after it opens; a new `initialize` request opens another.
+- When the server sets `ALPHE_SDK_API_KEYS`, every request also needs `Authorization: Bearer <key>` (or `x-api-key: <key>`), or it gets a 401. Add it like any other header below.
 - Keys go in headers named `x-mcp-env-<NAME>`, such as `x-mcp-env-GITHUB_PERSONAL_ACCESS_TOKEN`. The server gets them as environment variables.
 - A blocked or unknown package gets a JSON error, such as `{"error":"Package 'x' not found"}`, instead of a session.
 

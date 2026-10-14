@@ -6,7 +6,6 @@ dotenv.config({ path: path.resolve(process.cwd(), ".env.local") });
 dotenv.config({ path: path.resolve(process.cwd(), ".env") });
 
 export function getSandboxProvider(): MCPSandboxProvider {
-  console.log("process.env.MCP_SANDBOX_PROVIDER", process.env.MCP_SANDBOX_PROVIDER);
   const provider = (process.env.MCP_SANDBOX_PROVIDER || "LOCAL").toUpperCase();
 
   if (

@@ -1,0 +1,185 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >-
+  AlpheSDK registry as a private ECS Fargate service (ARM64) in the existing `alphe` cluster.
+  Only the alphe chatbot's security group can reach it, at http://alphesdk.<namespace>:3003
+  through Cloud Map. Secrets come from SSM Parameter Store under /alphesdk/.
+
+Parameters:
+  ClusterName:
+    Type: String
+    Default: alphe
+  VpcId:
+    Type: AWS::EC2::VPC::Id
+  SubnetIds:
+    Type: List<AWS::EC2::Subnet::Id>
+    Description: Subnets of the alphe service (two AZs)
+  AssignPublicIp:
+    Type: String
+    Default: ENABLED
+    AllowedValues: [ENABLED, DISABLED]
+    Description: >-
+      ENABLED for public subnets without a NAT gateway (the task needs outbound access to ECR,
+      SSM, CloudWatch and Sandock). Inbound is still limited by the security group.
+  ClientSecurityGroupId:
+    Type: AWS::EC2::SecurityGroup::Id
+    Description: Security group of the alphe chatbot service, the only allowed client
+  NamespaceName:
+    Type: String
+    Default: alphe.local
+  ImageUri:
+    Type: String
+    Description: Image in the alphesdk ECR repository (deploy.sh push creates it)
+  Cpu:
+    Type: Number
+    Default: 512
+    AllowedValues: [256, 512, 1024, 2048]
+  Memory:
+    Type: Number
+    Default: 2048
+    AllowedValues: [2048, 3072, 4096]
+    Description: MiB. Startup peaks at ~1.1 GB while the catalog is indexed, so 1 GB is too small.
+
+Resources:
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /ecs/alphesdk
+      RetentionInDays: 14
+
+  SecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: AlpheSDK - port 3003 from the alphe chatbot only
+      VpcId: !Ref VpcId
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3003
+          ToPort: 3003
+          SourceSecurityGroupId: !Ref ClientSecurityGroupId
+
+  # The ECS agent pulls the image, writes logs and reads the secrets with this role.
+  ExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: ecs-tasks.amazonaws.com }
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy
+      Policies:
+        - PolicyName: alphesdk-secrets
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              # SecureStrings use the AWS managed aws/ssm key, so no kms:Decrypt grant is needed
+              - Effect: Allow
+                Action: ssm:GetParameters
+                Resource: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/alphesdk/*
+
+  # The app itself calls no AWS API, so its role has no permissions.
+  TaskRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: ecs-tasks.amazonaws.com }
+            Action: sts:AssumeRole
+
+  Namespace:
+    Type: AWS::ServiceDiscovery::PrivateDnsNamespace
+    Properties:
+      Name: !Ref NamespaceName
+      Vpc: !Ref VpcId
+
+  DiscoveryService:
+    Type: AWS::ServiceDiscovery::Service
+    Properties:
+      Name: alphesdk
+      NamespaceId: !Ref Namespace
+      DnsConfig:
+        RoutingPolicy: MULTIVALUE
+        DnsRecords:
+          - { Type: A, TTL: 10 }
+      HealthCheckCustomConfig:
+        FailureThreshold: 1
+
+  TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: alphesdk
+      RequiresCompatibilities: [FARGATE]
+      NetworkMode: awsvpc
+      Cpu: !Ref Cpu
+      Memory: !Ref Memory
+      RuntimePlatform:
+        CpuArchitecture: ARM64
+        OperatingSystemFamily: LINUX
+      ExecutionRoleArn: !GetAtt ExecutionRole.Arn
+      TaskRoleArn: !GetAtt TaskRole.Arn
+      ContainerDefinitions:
+        - Name: alphesdk
+          Image: !Ref ImageUri
+          Essential: true
+          PortMappings:
+            - { ContainerPort: 3003, Protocol: tcp }
+          Environment:
+            - { Name: NODE_ENV, Value: production }
+            - { Name: HOST, Value: 0.0.0.0 }
+            - { Name: PORT, Value: "3003" }
+            - { Name: MCP_SANDBOX_PROVIDER, Value: SANDOCK }
+            - { Name: ENABLE_SEARCH, Value: "false" }
+            - { Name: REGISTRY_BASE_URL, Value: !Sub "http://alphesdk.${NamespaceName}:3003" }
+          Secrets:
+            - Name: ALPHE_SDK_API_KEYS
+              ValueFrom: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/alphesdk/ALPHE_SDK_API_KEYS
+            - Name: SANDOCK_API_KEY
+              ValueFrom: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/alphesdk/SANDOCK_API_KEY
+          HealthCheck:
+            Command: [CMD-SHELL, "curl -fsS http://127.0.0.1:3003/healthz || exit 1"]
+            Interval: 30
+            Timeout: 5
+            Retries: 3
+            StartPeriod: 60
+          StopTimeout: 15
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group: !Ref LogGroup
+              awslogs-region: !Ref AWS::Region
+              awslogs-stream-prefix: alphesdk
+
+  # One task: MCP gateway and OAuth sessions are kept in memory, so replicas would not share them.
+  Service:
+    Type: AWS::ECS::Service
+    Properties:
+      ServiceName: alphesdk
+      Cluster: !Ref ClusterName
+      LaunchType: FARGATE
+      TaskDefinition: !Ref TaskDefinition
+      DesiredCount: 1
+      EnableExecuteCommand: false
+      DeploymentConfiguration:
+        MinimumHealthyPercent: 100
+        MaximumPercent: 200
+        DeploymentCircuitBreaker: { Enable: true, Rollback: true }
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: !Ref AssignPublicIp
+          Subnets: !Ref SubnetIds
+          SecurityGroups: [!Ref SecurityGroup]
+      ServiceRegistries:
+        - RegistryArn: !GetAtt DiscoveryService.Arn
+
+Outputs:
+  ServiceUrl:
+    Description: Set as ALPHESDK_URL on the alphe task definition
+    Value: !Sub "http://alphesdk.${NamespaceName}:3003"
+  SecurityGroupId:
+    Value: !Ref SecurityGroup
+  LogGroup:
+    Value: !Ref LogGroup

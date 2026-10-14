@@ -9,6 +9,7 @@ import {
 import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 import type { Transport } from "@modelcontextprotocol/sdk/shared/transport.js";
 import type { MCPServerPackageConfig } from "../../domains/package/package-types";
+import { canRunLocally } from "../config/security";
 import { BlockedPackageError, isBlocked } from "./blocklist-util";
 import { getDirname } from "./file-util";
 
@@ -252,6 +253,13 @@ export async function getMcpClient(
     throw new Error(
       `Vercel can't start local MCP servers (${mcpServerConfig.packageName}). ` +
         "Node packages can run in a sandbox: set MCP_SANDBOX_PROVIDER to VERCEL (or SANDOCK, E2B, DAYTONA).",
+    );
+  }
+
+  if (!canRunLocally()) {
+    throw new Error(
+      `Running ${mcpServerConfig.packageName} on this host is disabled in production. ` +
+        "Use a sandbox provider for Node packages, or set ALLOW_LOCAL_EXECUTION=true.",
     );
   }
 

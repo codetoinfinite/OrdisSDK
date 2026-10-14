@@ -1,4 +1,5 @@
 import { errorMessage, isAbort } from "./format";
+import { persistedStore } from "./store";
 import type {
   AgentChatRequest,
   AgentDetail,
@@ -30,7 +31,16 @@ export class ApiError extends Error {
 
 const OFFLINE = "Can't reach the AlpheSDK API. Is `pnpm dev` running?";
 
+/** Key for servers that set ALPHE_SDK_API_KEYS; kept on this device, sent only to this API. */
+export const apiKeyStore = persistedStore<string>("local", "alphesdk:api-key", "");
+
 async function send(path: string, init?: RequestInit): Promise<Response> {
+  const apiKey = apiKeyStore.get();
+  if (apiKey) {
+    const headers = new Headers(init?.headers);
+    headers.set("Authorization", `Bearer ${apiKey}`);
+    init = { ...init, headers };
+  }
   try {
     return await fetch(path, init);
   } catch (err) {

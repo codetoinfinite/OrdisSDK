@@ -1,6 +1,7 @@
 import { Flag, KeyRound, Layers, type LucideIcon, Monitor, Moon, Sun } from "lucide-react";
 import { useId, useRef, useState } from "react";
 import { flushSync } from "react-dom";
+import { apiKeyStore } from "../lib/api";
 import { cx, plural } from "../lib/format";
 import { updateSettings, useIsDark, useSettings, type Wallpaper } from "../lib/settings";
 import {
@@ -15,7 +16,7 @@ import {
 } from "../lib/state";
 import { useStore } from "../lib/store";
 import { Button, Monogram, Section } from "../ui/core";
-import { Checkbox, Segmented } from "../ui/form";
+import { Checkbox, Field, SecretInput, Segmented } from "../ui/form";
 import { Link } from "../wm/Link";
 import { paths } from "../wm/routes";
 
@@ -35,6 +36,8 @@ export function SettingsPage() {
   const { session, remembered } = useStore(envStore);
   const stack = useStack();
   const progress = useProgress();
+  const apiKey = useStore(apiKeyStore);
+  const apiKeyId = useId();
 
   const keyed = new Set(
     [...Object.entries(session), ...Object.entries(remembered)]
@@ -57,7 +60,7 @@ export function SettingsPage() {
       <header className="page-head">
         <h1 className="page-title">Settings</h1>
         <p className="page-lead">
-          These are kept in this browser only and never sent to the server.
+          These are kept in this browser only. Only the API key is sent, and only to this server.
         </p>
       </header>
 
@@ -118,6 +121,23 @@ export function SettingsPage() {
               onChange={(event) => updateSettings({ reducedMotion: event.target.checked })}
             />
           </div>
+        </div>
+      </Section>
+
+      <Section title="API access">
+        <div className="panel">
+          <Field
+            label="API key"
+            htmlFor={apiKeyId}
+            hint="Needed when this server sets ALPHE_SDK_API_KEYS. Sent with every request to it, and remembered on this device."
+          >
+            <SecretInput
+              id={apiKeyId}
+              aria-describedby={`${apiKeyId}-hint`}
+              value={apiKey}
+              onChange={(event) => apiKeyStore.set(event.target.value.trim())}
+            />
+          </Field>
         </div>
       </Section>
 

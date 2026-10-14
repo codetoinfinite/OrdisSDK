@@ -23,9 +23,13 @@ export class ExecutorFactory {
    * If sandboxProvider is provided, it takes priority over environment config
    */
   static create(overrideProvider?: MCPSandboxProvider): ToolExecutor {
-    const provider = ExecutorFactory.isValidProvider(overrideProvider)
-      ? overrideProvider
-      : getSandboxProvider();
+    const configured = getSandboxProvider();
+    // A request may pick another sandbox, but not step out of the sandbox onto this host.
+    const provider =
+      ExecutorFactory.isValidProvider(overrideProvider) &&
+      (overrideProvider !== "LOCAL" || configured === "LOCAL")
+        ? overrideProvider
+        : configured;
 
     if (provider === "LOCAL") {
       console.log("[ExecutorFactory] Creating LocalExecutor");

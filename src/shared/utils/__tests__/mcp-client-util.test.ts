@@ -19,6 +19,22 @@ describe("getMcpClient", () => {
     );
   });
 
+  it("won't start a server on this host in production unless allowed", async () => {
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("ALLOW_LOCAL_EXECUTION", "");
+    const config = MCPServerPackageConfigSchema.parse({
+      type: "mcp-server",
+      name: "Everything",
+      runtime: "node",
+      packageName: "@modelcontextprotocol/server-everything",
+    });
+    try {
+      await expect(getMcpClient(config)).rejects.toThrow(/disabled in production/);
+    } finally {
+      vi.unstubAllEnvs();
+    }
+  });
+
   describe("on Vercel", () => {
     afterEach(() => {
       vi.unstubAllEnvs();

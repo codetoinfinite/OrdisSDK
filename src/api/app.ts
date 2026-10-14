@@ -3,7 +3,9 @@ import { join } from "node:path";
 import { getRequestListener } from "@hono/node-server";
 import { swaggerUI } from "@hono/swagger-ui";
 import { OpenAPIHono } from "@hono/zod-openapi";
-import type { Context } from "hono";
+import type { Context, MiddlewareHandler } from "hono";
+import { bodyLimit } from "hono/body-limit";
+import { secureHeaders } from "hono/secure-headers";
 import { agentRoutes } from "../domains/agent/agent-route";
 import { catalogRoutes } from "../domains/catalog/catalog-route";
 import { configRoutes } from "../domains/config/config-route";
@@ -15,8 +17,15 @@ import { initRegistryFactory } from "../domains/registry/registry-factory";
 import { startSearch } from "../domains/search/search-handler";
 import { searchRoutes } from "../domains/search/search-route";
 import { createPostHogLogEmitter } from "../shared/config/posthog-log-emitter";
+import { assertProductionConfig, isApiKeyValid, presentedApiKey } from "../shared/config/security";
 import { getDirname } from "../shared/utils";
+import { createErrorResponse } from "../shared/utils/response-util";
 import { mountWebApp } from "./web-app";
+
+// Before anything starts: a production server without keys or a sandbox would be open to anyone
+assertProductionConfig();
+
+const isProduction = process.env.NODE_ENV === "production";
 
 // Initialize Registry Factory with the local repository
 initRegistryFactory(repository);
@@ -35,6 +44,31 @@ const notBuiltHtml = `<!doctype html>
 
 export const app = new OpenAPIHono();
 
+app.use("*", secureHeaders());
+app.use("/api/*", bodyLimit({ maxSize: 5 * 1024 * 1024 }));
+
+/** Rejects requests without a valid ALPHE_SDK_API_KEYS key (a no-op when none are set). */
+const requireApiKey: MiddlewareHandler = async (c, next) => {
+  if (!isApiKeyValid(presentedApiKey((name) => c.req.header(name)))) {
+    return c.json(createErrorResponse("Missing or invalid API key", 401), 401);
+  }
+  await next();
+};
+
+// Routes that start servers, spend provider keys or change the index. The catalog, search and the
+// OAuth callback (reached by the provider's redirect) stay public.
+for (const path of [
+  "/api/v1/packages/run",
+  "/api/v1/packages/tools",
+  "/api/v1/packages/detail",
+  "/api/v1/agents/*",
+  "/api/v1/search/manage/*",
+  "/api/v1/oauth/prepare",
+  "/api/v1/oauth/refresh",
+]) {
+  app.use(path, requireApiKey);
+}
+
 // Domain routes
 app.route("/api/v1", packageRoutes);
 app.route("/api/v1/config", configRoutes);
@@ -43,8 +77,13 @@ app.route("/api/v1/catalog", catalogRoutes);
 app.route("/api/v1/search", searchRoutes);
 app.route("/api/v1/agents", agentRoutes);
 
-// Demo routes (serves demo-oauth.html and handles callbacks)
-app.route("/demo", oauthDemoRoutes);
+// Demo routes (serves demo-oauth.html and handles callbacks); development only
+if (!isProduction) {
+  app.route("/demo", oauthDemoRoutes);
+}
+
+// Liveness probe for Docker and load balancers; public and cheap
+app.get("/healthz", (c: Context) => c.json({ status: "ok" }));
 
 app.get("/api/meta", async (c: Context) => {
   try {
@@ -83,7 +122,10 @@ app.onError((err: Error, c: Context) => {
     {
       success: false,
       code: 500,
-      message: `[Registry API] Internal server error, errMsg: ${err.message}`,
+      // Messages can carry paths, stderr or upstream responses; production keeps them in the log
+      message: isProduction
+        ? "[Registry API] Internal server error"
+        : `[Registry API] Internal server error, errMsg: ${err.message}`,
     },
     500,
   );
@@ -100,6 +142,11 @@ const MCP_PATH_PREFIX = "/mcp/";
 // and everything else to Hono.
 const honoListener = getRequestListener(app.fetch);
 
+function headerOf(req: IncomingMessage, name: string) {
+  const value = req.headers[name];
+  return Array.isArray(value) ? value[0] : value;
+}
+
 export async function requestListener(req: IncomingMessage, res: ServerResponse) {
   const url = req.url ?? "";
 
@@ -113,6 +160,20 @@ export async function requestListener(req: IncomingMessage, res: ServerResponse)
     if (!packageName) {
       res.writeHead(400, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ error: "Missing package name in URL" }));
+      return;
+    }
+
+    // CORS preflights carry no credentials; the gateway answers them itself
+    if (
+      req.method !== "OPTIONS" &&
+      !isApiKeyValid(presentedApiKey((name) => headerOf(req, name)))
+    ) {
+      res.writeHead(401, {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "WWW-Authenticate": "Bearer",
+      });
+      res.end(JSON.stringify({ error: "Missing or invalid API key" }));
       return;
     }
 
