@@ -677,7 +677,7 @@
     "replicate-flux-mcp": "0.1.2",
     "resend-mcp": "0.1.2",
     "rss-reader-mcp": "1.0.3",
-    "sandock": "^0.2.2",
+    "sandock": "^2.6.0",
     "sandock-mcp": "0.3.2",
     "scrapeless-mcp-server": "0.3.0",
     "scraperis-mcp": "0.1.22",

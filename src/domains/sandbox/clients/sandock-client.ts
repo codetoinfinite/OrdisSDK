@@ -62,7 +62,7 @@ export class SandockSandboxClient implements SandboxClient {
     this.initializing = (async () => {
       try {
         // Create sandbox with pre-built MCP image
-        const { data, error } = await this.client.POST("/api/sandbox", {
+        const { data, error } = await this.client.POST("/api/v1/sandbox", {
           body: {
             image: "seey/sandock-mcp:latest",
             workdir: "/mcpspace",
@@ -92,7 +92,7 @@ export class SandockSandboxClient implements SandboxClient {
       throw new Error("Sandbox not initialized. Call initialize() first.");
     }
 
-    const { data, error } = await this.client.POST("/api/sandbox/{id}/shell", {
+    const { data, error } = await this.client.POST("/api/v1/sandbox/{id}/shell", {
       params: {
         path: {
           id: this.sandboxId,
@@ -126,7 +126,7 @@ export class SandockSandboxClient implements SandboxClient {
     const tempFile = `/mcpspace/mcp_test_${Date.now()}.mjs`;
 
     // Use Sandock's file write API (more reliable)
-    await this.client.POST("/api/sandbox/{id}/fs/write", {
+    await this.client.POST("/api/v1/sandbox/{id}/fs/write", {
       params: {
         path: { id: this.sandboxId },
       },
@@ -163,7 +163,7 @@ export class SandockSandboxClient implements SandboxClient {
     }
 
     try {
-      const { error } = await this.client.DELETE("/api/sandbox/{id}/fs", {
+      const { error } = await this.client.DELETE("/api/v1/sandbox/{id}/fs", {
         params: {
           path: { id: sandboxId },
           query: { path: tempFile },
@@ -256,7 +256,7 @@ export class SandockSandboxClient implements SandboxClient {
     try {
       // Delete sandbox completely using the fs delete API with root path
       // This removes all files and effectively shuts down the sandbox
-      const { error } = await this.client.DELETE("/api/sandbox/{id}/fs", {
+      const { error } = await this.client.DELETE("/api/v1/sandbox/{id}/fs", {
         params: {
           path: { id: sandboxId },
           query: { path: "/" },
