@@ -3,6 +3,7 @@
 #   deploy/aws/deploy.sh secrets   # push .env.production to SSM Parameter Store (/alphesdk/*)
 #   deploy/aws/deploy.sh push      # build the arm64 image and push it to ECR (creates the repo)
 #   deploy/aws/deploy.sh up        # create or update the CloudFormation stack with that image
+#   deploy/aws/deploy.sh key NAME  # new API key for one person (revoke NAME removes it)
 #   deploy/aws/deploy.sh budget    # monthly cost budget with email alerts (BUDGET_EMAIL=...)
 #   deploy/aws/deploy.sh status    # stack outputs, service state and recent logs
 #   deploy/aws/deploy.sh down      # delete the stack (ECR images and SSM secrets are kept)
@@ -54,12 +55,43 @@ case "${1:-}" in
   up)
     : "${VPC_ID:?set VPC_ID}" "${SUBNET_IDS:?set SUBNET_IDS (comma-separated)}"
     : "${CLIENT_SG:?set CLIENT_SG (security group of the alphe service)}"
+    # Public HTTPS through an existing load balancer: set all four. Unset keeps the stack's values.
+    public=()
+    [[ -n "${PUBLIC_HOSTNAME:-}" ]] && public=(PublicHostname="$PUBLIC_HOSTNAME"
+      HttpsListenerArn="${HTTPS_LISTENER_ARN:?set HTTPS_LISTENER_ARN}"
+      LoadBalancerSecurityGroupId="${ALB_SG:?set ALB_SG}" CertificateArn="${CERT_ARN:?set CERT_ARN}")
     aws cloudformation deploy --stack-name "$STACK" \
       --template-file "$DIR/cloudformation.yml" --capabilities CAPABILITY_IAM --tags app=alphesdk \
       --parameter-overrides ClusterName="$CLUSTER" VpcId="$VPC_ID" SubnetIds="$SUBNET_IDS" \
         ClientSecurityGroupId="$CLIENT_SG" ImageUri="$(registry)/alphesdk:$(tag)" \
-        Cpu="${CPU:-256}" Memory="${MEMORY:-2048}"
+        Cpu="${CPU:-256}" Memory="${MEMORY:-2048}" ${public[@]+"${public[@]}"}
     aws cloudformation describe-stacks --stack-name "$STACK" --query 'Stacks[0].Outputs' --output table
+    ;;
+  key|revoke)
+    # One API key per person in ALPHE_SDK_API_KEYS. `# key <name>=<prefix>` comments in
+    # $ENV_FILE map names to keys; the task restarts to load the new list.
+    name="${2:?usage: deploy.sh $1 <name>}"
+    [[ "$name" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "Name: letters, digits, - and _ only"; exit 1; }
+    keys="$(sed -n 's/^ALPHE_SDK_API_KEYS=//p' "$ENV_FILE")"
+    if [[ "$1" == key ]]; then
+      grep -q "^# key $name=" "$ENV_FILE" && { echo "Key '$name' exists; revoke it first"; exit 1; }
+      new="$(openssl rand -hex 32)"
+      keys="${keys:+$keys,}$new"
+      echo "# key $name=${new:0:8}" >> "$ENV_FILE"
+    else
+      prefix="$(sed -n "s/^# key $name=//p" "$ENV_FILE")"
+      [[ -n "$prefix" ]] || { echo "No key named '$name'"; exit 1; }
+      keys="$(tr ',' '\n' <<<"$keys" | { grep -v "^$prefix" || true; } | paste -sd, -)"
+      [[ -n "$keys" ]] || { echo "Refusing to revoke the last key"; exit 1; }
+      sed -i '' "/^# key $name=/d" "$ENV_FILE"
+    fi
+    sed -i '' "s/^ALPHE_SDK_API_KEYS=.*/ALPHE_SDK_API_KEYS=$keys/" "$ENV_FILE"
+    aws ssm put-parameter --name /alphesdk/ALPHE_SDK_API_KEYS --type SecureString \
+      --value "$keys" --overwrite >/dev/null
+    aws ecs update-service --cluster "$CLUSTER" --service alphesdk --force-new-deployment >/dev/null
+    if [[ "$1" == key ]]; then echo "API key for $name (shown once): $new"
+    else echo "Revoked $name"; fi
+    echo "Takes effect in ~2 minutes, when the restarted task is healthy."
     ;;
   budget)
     # Monthly cost budget on resources tagged app=alphesdk (activate the `app` cost allocation tag
@@ -89,6 +121,6 @@ case "${1:-}" in
     echo "Deleted. ECR repository alphesdk and SSM /alphesdk/* are kept."
     ;;
   *)
-    sed -n '2,8p' "$0"; exit 1
+    sed -n '2,9p' "$0"; exit 1
     ;;
 esac

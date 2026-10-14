@@ -1,8 +1,9 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Description: >-
-  AlpheSDK registry as a private ECS Fargate service (ARM64) in the existing `alphe` cluster.
-  Only the alphe chatbot's security group can reach it, at http://alphesdk.<namespace>:3003
-  through Cloud Map. Secrets come from SSM Parameter Store under /alphesdk/.
+  AlpheSDK registry as an ECS Fargate service (ARM64) in the existing `alphe` cluster. The alphe
+  chatbot reaches it at http://alphesdk.<namespace>:3003 through Cloud Map. With PublicHostname
+  set, it is also served over HTTPS by an existing load balancer (one host-header rule).
+  Secrets come from SSM Parameter Store under /alphesdk/.
 
 Parameters:
   ClusterName:
@@ -38,6 +39,27 @@ Parameters:
     Default: 2048
     AllowedValues: [2048, 3072, 4096]
     Description: MiB. Startup peaks at ~1.1 GB while the catalog is indexed, so 1 GB is too small.
+  # Public access through an existing HTTPS load balancer. Leave PublicHostname empty to stay private.
+  PublicHostname:
+    Type: String
+    Default: ""
+    Description: e.g. sdk.example.com; its DNS points at the load balancer
+  HttpsListenerArn:
+    Type: String
+    Default: ""
+  LoadBalancerSecurityGroupId:
+    Type: String
+    Default: ""
+  CertificateArn:
+    Type: String
+    Default: ""
+    Description: ACM certificate for PublicHostname, added to the listener
+  ListenerRulePriority:
+    Type: Number
+    Default: 10
+
+Conditions:
+  IsPublic: !Not [!Equals [!Ref PublicHostname, ""]]
 
 Resources:
   LogGroup:
@@ -56,6 +78,54 @@ Resources:
           FromPort: 3003
           ToPort: 3003
           SourceSecurityGroupId: !Ref ClientSecurityGroupId
+
+  LoadBalancerIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Condition: IsPublic
+    Metadata:
+      cfn-lint: { config: { ignore_checks: [W1030] } }  # empty default only when not public
+    Properties:
+      GroupId: !Ref SecurityGroup
+      IpProtocol: tcp
+      FromPort: 3003
+      ToPort: 3003
+      SourceSecurityGroupId: !Ref LoadBalancerSecurityGroupId
+      Description: HTTPS load balancer
+
+  TargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Condition: IsPublic
+    Properties:
+      VpcId: !Ref VpcId
+      TargetType: ip
+      Protocol: HTTP
+      Port: 3003
+      HealthCheckPath: /healthz
+      HealthCheckIntervalSeconds: 30
+      HealthyThresholdCount: 2
+      TargetGroupAttributes:
+        - { Key: deregistration_delay.timeout_seconds, Value: "15" }
+
+  ListenerCertificate:
+    Type: AWS::ElasticLoadBalancingV2::ListenerCertificate
+    Condition: IsPublic
+    Properties:
+      ListenerArn: !Ref HttpsListenerArn
+      Certificates:
+        - CertificateArn: !Ref CertificateArn
+
+  ListenerRule:
+    Type: AWS::ElasticLoadBalancingV2::ListenerRule
+    Condition: IsPublic
+    Properties:
+      ListenerArn: !Ref HttpsListenerArn
+      Priority: !Ref ListenerRulePriority
+      Conditions:
+        - Field: host-header
+          HostHeaderConfig: { Values: [!Ref PublicHostname] }
+      Actions:
+        - Type: forward
+          TargetGroupArn: !Ref TargetGroup
 
   # The ECS agent pulls the image, writes logs and reads the secrets with this role.
   ExecutionRole:
@@ -125,6 +195,9 @@ Resources:
         - Name: alphesdk
           Image: !Ref ImageUri
           Essential: true
+          # The label's reference makes the service wait for the listener rule: ECS rejects a
+          # target group that no load balancer forwards to yet. (DependsOn can't be conditional.)
+          DockerLabels: !If [IsPublic, { alphesdk.listener-rule: !Ref ListenerRule }, !Ref AWS::NoValue]
           PortMappings:
             - { ContainerPort: 3003, Protocol: tcp }
           Environment:
@@ -133,7 +206,11 @@ Resources:
             - { Name: PORT, Value: "3003" }
             - { Name: MCP_SANDBOX_PROVIDER, Value: SANDOCK }
             - { Name: ENABLE_SEARCH, Value: "false" }
-            - { Name: REGISTRY_BASE_URL, Value: !Sub "http://alphesdk.${NamespaceName}:3003" }
+            - Name: REGISTRY_BASE_URL
+              Value: !If
+                - IsPublic
+                - !Sub "https://${PublicHostname}"
+                - !Sub "http://alphesdk.${NamespaceName}:3003"
           Secrets:
             - Name: ALPHE_SDK_API_KEYS
               ValueFrom: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/alphesdk/ALPHE_SDK_API_KEYS
@@ -177,6 +254,13 @@ Resources:
           SecurityGroups: [!Ref SecurityGroup]
       ServiceRegistries:
         - RegistryArn: !GetAtt DiscoveryService.Arn
+      HealthCheckGracePeriodSeconds: !If [IsPublic, 120, !Ref AWS::NoValue]
+      LoadBalancers: !If
+        - IsPublic
+        - - ContainerName: alphesdk
+            ContainerPort: 3003
+            TargetGroupArn: !Ref TargetGroup
+        - !Ref AWS::NoValue
 
 Outputs:
   ServiceUrl:
@@ -186,3 +270,6 @@ Outputs:
     Value: !Ref SecurityGroup
   LogGroup:
     Value: !Ref LogGroup
+  PublicUrl:
+    Condition: IsPublic
+    Value: !Sub "https://${PublicHostname}"

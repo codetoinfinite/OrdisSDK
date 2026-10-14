@@ -62,6 +62,27 @@ Then connect the chatbot (a separate change to the `alphe` service): add to its 
 `ALPHE_SDK_API_KEYS`, as a secret from `/alphesdk/ALPHE_SDK_API_KEYS` or its own parameter) and
 deploy it. The `alphe` execution role needs `ssm:GetParameters` on that parameter.
 
+## Public URL (optional)
+
+To share AlpheSDK (web catalog, REST API, MCP gateway) at its own HTTPS address, serve it
+through the load balancer that already fronts the chatbot. That adds one host-header rule and a
+certificate to its HTTPS listener; existing rules are untouched, and there is no new load balancer.
+
+1. `aws acm request-certificate --domain-name sdk.example.com --validation-method DNS`, then add
+   the validation CNAME it shows (`aws acm describe-certificate`) at your DNS provider.
+2. Point `sdk.example.com` (CNAME) at the load balancer's DNS name.
+3. Once the certificate is ISSUED:
+   ```bash
+   PUBLIC_HOSTNAME=sdk.example.com HTTPS_LISTENER_ARN=arn:...:listener/app/... \
+   ALB_SG=sg-... CERT_ARN=arn:aws:acm:... VPC_ID=... SUBNET_IDS=... CLIENT_SG=... deploy.sh up
+   ```
+
+Browsing and search are open to anyone. Running tools (`/api/v1/packages/run`, `/mcp/*`) needs
+an API key, sent as `Authorization: Bearer <key>`. Give each person their own:
+`deploy.sh key alice` prints a new key once; `deploy.sh revoke alice` cuts it off. Both restart
+the task (~2 minutes). Extra cost: load balancer capacity units ($0.008/LCU-hour, ≈ $0 at light
+use) and data out beyond 100 GB/month.
+
 ## Day-2
 
 | Task | Command |
