@@ -3,6 +3,7 @@
 #   deploy/aws/deploy.sh secrets   # push .env.production to SSM Parameter Store (/alphesdk/*)
 #   deploy/aws/deploy.sh push      # build the arm64 image and push it to ECR (creates the repo)
 #   deploy/aws/deploy.sh up        # create or update the CloudFormation stack with that image
+#   deploy/aws/deploy.sh budget    # monthly cost budget with email alerts (BUDGET_EMAIL=...)
 #   deploy/aws/deploy.sh status    # stack outputs, service state and recent logs
 #   deploy/aws/deploy.sh down      # delete the stack (ECR images and SSM secrets are kept)
 set -euo pipefail
@@ -40,25 +41,37 @@ case "${1:-}" in
     repo="$(registry)/alphesdk"
     aws ecr describe-repositories --repository-names alphesdk >/dev/null 2>&1 || {
       aws ecr create-repository --repository-name alphesdk \
-        --image-scanning-configuration scanOnPush=true >/dev/null
+        --image-scanning-configuration scanOnPush=true --tags Key=app,Value=alphesdk >/dev/null
       aws ecr put-lifecycle-policy --repository-name alphesdk --lifecycle-policy-text \
-        '{"rules":[{"rulePriority":1,"description":"Keep the 10 newest images","selection":{"tagStatus":"any","countType":"imageCountMoreThan","countNumber":10},"action":{"type":"expire"}}]}' \
+        '{"rules":[{"rulePriority":1,"description":"Keep the 3 newest images","selection":{"tagStatus":"any","countType":"imageCountMoreThan","countNumber":3},"action":{"type":"expire"}}]}' \
         >/dev/null
       echo "created ECR repository $repo"
     }
     aws ecr get-login-password | docker login --username AWS --password-stdin "$(registry)"
-    docker buildx build --platform linux/arm64 -t "$repo:$(tag)" --push "$DIR/../.."
+    docker buildx build --platform linux/arm64 --provenance=false --sbom=false -t "$repo:$(tag)" --push "$DIR/../.."
     echo "pushed $repo:$(tag)"
     ;;
   up)
     : "${VPC_ID:?set VPC_ID}" "${SUBNET_IDS:?set SUBNET_IDS (comma-separated)}"
     : "${CLIENT_SG:?set CLIENT_SG (security group of the alphe service)}"
     aws cloudformation deploy --stack-name "$STACK" \
-      --template-file "$DIR/cloudformation.yml" --capabilities CAPABILITY_IAM \
+      --template-file "$DIR/cloudformation.yml" --capabilities CAPABILITY_IAM --tags app=alphesdk \
       --parameter-overrides ClusterName="$CLUSTER" VpcId="$VPC_ID" SubnetIds="$SUBNET_IDS" \
         ClientSecurityGroupId="$CLIENT_SG" ImageUri="$(registry)/alphesdk:$(tag)" \
-        Cpu="${CPU:-512}" Memory="${MEMORY:-2048}"
+        Cpu="${CPU:-256}" Memory="${MEMORY:-2048}"
     aws cloudformation describe-stacks --stack-name "$STACK" --query 'Stacks[0].Outputs' --output table
+    ;;
+  budget)
+    # Monthly cost budget on resources tagged app=alphesdk (activate the `app` cost allocation tag
+    # in Billing first). Alerts only: AWS Budgets can't stop ECS. The public IPv4 (~$3.65/month)
+    # is billed untagged, so the default $13 limit plus it stays under $17.
+    : "${BUDGET_EMAIL:?set BUDGET_EMAIL}"
+    account="$(aws sts get-caller-identity --query Account --output text)"
+    notify() { echo "{\"Notification\":{\"NotificationType\":\"$1\",\"ComparisonOperator\":\"GREATER_THAN\",\"Threshold\":$2,\"ThresholdType\":\"PERCENTAGE\"},\"Subscribers\":[{\"SubscriptionType\":\"EMAIL\",\"Address\":\"$BUDGET_EMAIL\"}]}"; }
+    aws budgets create-budget --account-id "$account" --budget \
+      "{\"BudgetName\":\"alphesdk-monthly\",\"BudgetType\":\"COST\",\"TimeUnit\":\"MONTHLY\",\"BudgetLimit\":{\"Amount\":\"${BUDGET_USD:-13}\",\"Unit\":\"USD\"},\"CostFilters\":{\"TagKeyValue\":[\"user:app\$alphesdk\"]}}" \
+      --notifications-with-subscribers "[$(notify ACTUAL 50),$(notify ACTUAL 80),$(notify ACTUAL 100),$(notify FORECASTED 100)]"
+    echo "created budget alphesdk-monthly (\$${BUDGET_USD:-13}/month, alerts to $BUDGET_EMAIL)"
     ;;
   status)
     aws cloudformation describe-stacks --stack-name "$STACK" \
@@ -76,6 +89,6 @@ case "${1:-}" in
     echo "Deleted. ECR repository alphesdk and SSM /alphesdk/* are kept."
     ;;
   *)
-    sed -n '2,7p' "$0"; exit 1
+    sed -n '2,8p' "$0"; exit 1
     ;;
 esac

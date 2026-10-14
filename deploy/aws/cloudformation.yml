@@ -31,7 +31,7 @@ Parameters:
     Description: Image in the alphesdk ECR repository (deploy.sh push creates it)
   Cpu:
     Type: Number
-    Default: 512
+    Default: 256
     AllowedValues: [256, 512, 1024, 2048]
   Memory:
     Type: Number
@@ -44,7 +44,7 @@ Resources:
     Type: AWS::Logs::LogGroup
     Properties:
       LogGroupName: /ecs/alphesdk
-      RetentionInDays: 14
+      RetentionInDays: 7
 
   SecurityGroup:
     Type: AWS::EC2::SecurityGroup
@@ -144,7 +144,7 @@ Resources:
             Interval: 30
             Timeout: 5
             Retries: 3
-            StartPeriod: 60
+            StartPeriod: 120
           StopTimeout: 15
           LogConfiguration:
             LogDriver: awslogs
@@ -162,6 +162,9 @@ Resources:
       LaunchType: FARGATE
       TaskDefinition: !Ref TaskDefinition
       DesiredCount: 1
+      # Tag each task with the stack's tags (app=alphesdk) so its cost shows up in the budget
+      PropagateTags: SERVICE
+      EnableECSManagedTags: true
       EnableExecuteCommand: false
       DeploymentConfiguration:
         MinimumHealthyPercent: 100

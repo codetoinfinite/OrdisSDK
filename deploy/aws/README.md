@@ -12,7 +12,7 @@ app.alpheai.com ─▶ ALB ─▶ alphe (chatbot) ──3003──▶ alphesdk �
 `cloudformation.yml` creates: the task definition and service, a security group that admits port
 3003 only from the chatbot's security group, an execution role that can read only
 `/alphesdk/*` in SSM, a task role with no permissions, the Cloud Map namespace `alphe.local` with
-the `alphesdk` service, and the log group `/ecs/alphesdk` (14 days).
+the `alphesdk` service, and the log group `/ecs/alphesdk` (7 days). Everything is tagged `app=alphesdk`.
 
 Design notes:
 - **One task.** MCP gateway and OAuth sessions live in memory, so a second replica wouldn't
@@ -31,8 +31,16 @@ Design notes:
 
 - AWS CLI v2 with credentials for the account that runs the `alphe` cluster
   (`export AWS_PROFILE=<profile> AWS_REGION=ap-south-1`). It needs CloudFormation, ECS, ECR,
-  IAM role creation and `iam:PassRole`, Cloud Map/Route 53, EC2 security groups, SSM and
-  CloudWatch Logs rights.
+  EC2 security groups, SSM and CloudWatch Logs rights, plus what a restricted deploy user
+  usually lacks. An admin grants that once:
+  ```bash
+  aws iam attach-user-policy --user-name <user> \
+    --policy-arn arn:aws:iam::aws:policy/AWSCloudMapFullAccess   # Cloud Map + its Route 53 zone
+  aws iam put-user-policy --user-name <user> --policy-name alphesdk-deploy \
+    --policy-document file://deploy/aws/deployer-policy.json     # alphesdk-* roles, PassRole, budget
+  ```
+- Activate the `app` cost allocation tag (Billing → Cost allocation tags) so the budget can
+  filter on it. Tags show up there within 24 h of the first tagged resource.
 - Docker with buildx (Docker Desktop on Apple Silicon builds arm64 natively).
 
 ## First deploy
@@ -46,6 +54,7 @@ deploy/aws/deploy.sh push                                # → ECR alphesdk:<git
 #     --query 'services[0].networkConfiguration.awsvpcConfiguration'
 VPC_ID=vpc-... SUBNET_IDS=subnet-...,subnet-... CLIENT_SG=sg-... deploy/aws/deploy.sh up
 deploy/aws/deploy.sh status
+BUDGET_EMAIL=you@example.com deploy/aws/deploy.sh budget  # alerts at 50/80/100% + forecast
 ```
 
 Then connect the chatbot (a separate change to the `alphe` service): add to its task definition
@@ -65,19 +74,25 @@ deploy it. The `alphe` execution role needs `ssm:GetParameters` on that paramete
 
 ## Cost (ap-south-1, on-demand list prices, October 2026)
 
-Fargate ARM in Mumbai: $0.02383 per vCPU-hour, $0.00261 per GB-hour.
+Fargate ARM in Mumbai: $0.02383 per vCPU-hour, $0.00261 per GB-hour. The service runs exactly
+one task with no autoscaling, so the bill is flat.
 
-| Item | Rate | Per day |
-|------|------|---------|
-| Fargate task, 0.5 vCPU / 2 GB, ARM64, 24 h | $0.01714/h | $0.41 |
-| Public IPv4 on the task | $0.005/h | $0.12 |
-| Cloud Map namespace (Route 53 private zone) + 1 instance | $0.50 + $0.10/month | $0.02 |
-| ECR storage (3.45 GB image, ~0.8 GB compressed; layers shared between kept images) | $0.10/GB-month | ~$0.01 |
-| CloudWatch Logs, SSM Parameter Store (standard) | light use | ~$0.01 |
-| **Total** | | **≈ $0.57/day (≈ $17/month)** |
+| Item | Rate | Per month |
+|------|------|-----------|
+| Fargate task, 0.25 vCPU / 2 GB, ARM64, 24/7 | $0.01118/h | $8.16 |
+| Public IPv4 on the task | $0.005/h | $3.65 |
+| Cloud Map private zone + 1 instance + DNS queries | $0.50 + $0.10 + ≤ $0.40 | ≤ $1.00 |
+| ECR storage (~0.8 GB compressed, newest 3 images kept) | $0.10/GB-month | ≤ $0.25 |
+| CloudWatch Logs (7 days), SSM Parameter Store (standard) | light use | ~$0.20 |
+| **Total** | | **≈ $13/month (≈ $0.44/day)** |
 
-Measured locally: the container is healthy 18 s after start, its memory peaks at ~1.1 GB while
-the catalog (8,755 servers, 77k search docs) is indexed and settles at ~0.7 GB, and it stops
-cleanly on SIGTERM in about a second. `CPU=1024` (1 vCPU / 2 GB) would be ≈ $0.86/day.
+`deploy.sh budget` adds a $13 budget on `app=alphesdk` costs (the public IPv4 is billed
+untagged, so the two together stay under $17). AWS Budgets only alerts; to stop spending, run
+`deploy.sh down`.
 
-Not included: data transfer out after the first 100 GB/month free, and usage billed outside AWS by Sandock (and OpenRouter/PostHog if enabled).
+Measured locally at 0.25 vCPU / 2 GB: healthy 45 s after start, search answers in ~0.5 s, memory
+peaks at ~1.1 GB while the catalog (8,755 servers, 77k search docs) is indexed, and it stops
+cleanly on SIGTERM in about a second. 1 GB is too small. `CPU=512` cuts startup to ~18 s for +$4.35/month.
+
+Not included: data transfer out after the first 100 GB/month free, and usage billed outside AWS
+by Sandock (and OpenRouter/PostHog if enabled).
