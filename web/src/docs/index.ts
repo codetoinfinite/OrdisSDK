@@ -68,8 +68,8 @@ export const DOCS: Doc[] = [
   },
   {
     slug: "add-to-catalog",
-    title: "Add tools and agents",
-    summary: "Curate a tool or build an agent with one JSON file.",
+    title: "Add to the catalog",
+    summary: "Build an agent with one JSON file.",
     icon: SquarePlus,
     source: addToCatalog,
   },

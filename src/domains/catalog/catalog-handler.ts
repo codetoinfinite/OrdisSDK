@@ -10,7 +10,7 @@ const found = <T>(item: T | undefined, notFound: string) =>
 export const catalogHandler = {
   stats: async () => {
     const catalog = await getCatalog();
-    const stats: CatalogStats = { ...catalog.stats, search: getSearchStatus(catalog) };
+    const stats: CatalogStats = { ...catalog.stats, search: getSearchStatus() };
     return createResponse(stats);
   },
 

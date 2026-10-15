@@ -18,7 +18,7 @@ The web app forwards `/api`, `/mcp` and `/swagger` to the API, so everything is 
 
 Agent chat also needs an OpenRouter key on the server. Put `OPENROUTER_API_KEY` in `.env.local` next to the root `package.json`, and optionally `OPENROUTER_MODEL` to change the default model. Everything else works without it.
 
-> The API runs MCP packages for anyone who can reach it and has no login. It listens on 127.0.0.1 unless you set `HOST`, so only widen that for people you trust.
+> Set `ALPHE_SDK_API_KEYS` so only people with a key can run tools. The API listens on 127.0.0.1 unless you set `HOST`, so only widen that for people you trust.
 
 # The six steps
 
@@ -26,7 +26,7 @@ The [Get started](/start) checklist walks through these and ticks each one off a
 
 1. **Discover.** Search the catalog in [Explore](/explore) and narrow it down with the filters.
 2. **Inspect.** Open a server to see what it does, the tools it offers and the keys it needs.
-3. **Configure.** Add keys on the server's Setup tab. They stay in your browser; see [Keys and privacy](/docs/keys).
+3. **Configure.** Add your AlpheSDK API key and any keys the server needs on its Setup tab. They stay in your browser; see [Keys and privacy](/docs/keys).
 4. **Test.** Run a tool from the server's Tools tab or the [Playground](/playground) and check the raw result.
 5. **Connect.** Copy a config for your MCP client from the Setup tab. See [Connect an MCP client](/docs/connect-clients).
 6. **Run.** Chat with an agent and watch which tools it calls. See [Agent chat](/docs/agents).

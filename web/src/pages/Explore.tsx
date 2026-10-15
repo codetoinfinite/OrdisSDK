@@ -1,14 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import {
-  Bot,
-  Layers,
-  ScanSearch,
-  Search,
-  Server,
-  SlidersHorizontal,
-  Wrench,
-  X,
-} from "lucide-react";
+import { Bot, Layers, ScanSearch, Search, Server, SlidersHorizontal, X } from "lucide-react";
 import { type ReactNode, useEffect, useId, useRef, useState } from "react";
 import { getCategories, search } from "../lib/api";
 import { categoryIcon } from "../lib/categories";
@@ -50,8 +41,8 @@ const TYPES: {
     title: "Explore",
     icon: Layers,
     tone: "blue",
-    placeholder: "Search servers, tools and agents…",
-    lead: "Every MCP server, tool and agent in the catalog. Search by name or by the job you need done, then open one to inspect, set up and try it.",
+    placeholder: "Search servers and agents…",
+    lead: "Every MCP server and agent in the catalog. Search by name or by the job you need done, then open one to inspect, set up and try it.",
   },
   {
     key: "mcp",
@@ -61,15 +52,6 @@ const TYPES: {
     tone: "green",
     placeholder: "Search MCP servers…",
     lead: "Servers give an AI app new tools. Open one to add its keys, test its tools and connect it to your client.",
-  },
-  {
-    key: "tool",
-    label: "Tools",
-    title: "Tools",
-    icon: Wrench,
-    tone: "teal",
-    placeholder: "Search tools…",
-    lead: "Single tools from every server. Open one to run it with your own input.",
   },
   {
     key: "agent",
@@ -152,7 +134,7 @@ function dedupe(hits: SearchHit[]): SearchHit[] {
   });
 }
 
-/** Search and browse the whole catalog: /explore, /servers, /tools and /agents. */
+/** Search and browse the catalog: /explore, /servers and /agents. */
 export function Explore() {
   const win = useWin();
   const query = useRouteQuery();
@@ -250,7 +232,7 @@ export function Explore() {
     });
   }
   if (verified) chips.push({ id: "verified", label: "Verified", clear: () => setVerified(false) });
-  if (noKeys) chips.push({ id: "no-keys", label: "No keys needed", clear: () => setNoKeys(false) });
+  if (noKeys) chips.push({ id: "no-keys", label: "No server keys", clear: () => setNoKeys(false) });
   if (hideBlocked) {
     chips.push({ id: "blocked", label: "Blocked hidden", clear: () => setHideBlocked(false) });
   }
@@ -372,8 +354,8 @@ export function Explore() {
                 onChange={(event) => setVerified(event.target.checked)}
               />
               <Checkbox
-                label="No keys needed"
-                hint="Works without API keys."
+                label="No server keys"
+                hint="Needs no keys of its own, only your AlpheSDK API key."
                 checked={noKeys}
                 onChange={(event) => setNoKeys(event.target.checked)}
               />

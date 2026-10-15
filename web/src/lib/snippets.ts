@@ -1,8 +1,10 @@
 /**
  * Copy-paste configs for MCP clients. Every client talks to the AlpheSDK gateway
- * (`/mcp/<package>`), which reads keys from `x-mcp-env-<KEY>` headers, except
- * Claude Desktop in "stdio" mode, which launches the server directly.
+ * (`/mcp/<package>`) with the AlpheSDK API key in `x-api-key` and the server's keys in
+ * `x-mcp-env-<KEY>` headers, except Claude Desktop in "stdio" mode, which launches the server
+ * directly.
  */
+import { apiKeyStore } from "./api";
 import { API_ORIGIN } from "./config";
 import { isSecretKey } from "./format";
 import type { Lang } from "./highlight";
@@ -56,6 +58,8 @@ export interface Snippet {
 
 interface KeyRef {
   name: string;
+  /** Request header that carries it. */
+  header: string;
   description: string;
   secret: boolean;
   /** Written into the snippet as-is; undefined means "use a placeholder". */
@@ -72,10 +76,34 @@ function keysFor(server: SnippetServer, includeSecrets: boolean): KeyRef[] {
     let literal: string | undefined;
     if (value) literal = secret && !includeSecrets ? undefined : value;
     else if (spec.default) literal = spec.default;
-    refs.push({ name, description: spec.description, secret, literal });
+    refs.push({
+      name,
+      header: `x-mcp-env-${name}`,
+      description: spec.description,
+      secret,
+      literal,
+    });
   }
   return refs;
 }
+
+/** The AlpheSDK API key (Settings → API key). A placeholder unless secrets are opted in. */
+function apiKeyRef(includeSecrets: boolean): KeyRef {
+  const value = apiKeyStore.get();
+  return {
+    name: "ALPHESDK_API_KEY",
+    header: "x-api-key",
+    description: "AlpheSDK API key",
+    secret: true,
+    literal: value && includeSecrets ? value : undefined,
+  };
+}
+
+/** Headers for a gateway request: the API key, then the server's keys. */
+const gatewayKeys = (server: SnippetServer, includeSecrets: boolean) => [
+  apiKeyRef(includeSecrets),
+  ...keysFor(server, includeSecrets),
+];
 
 export function gatewayUrl(gatewayPath: string): string {
   return API_ORIGIN + gatewayPath;
@@ -95,7 +123,7 @@ function placeholderNote(
 ): string | undefined {
   const names = new Set<string>();
   for (const server of servers) {
-    for (const key of keysFor(server, opts.includeSecrets))
+    for (const key of gatewayKeys(server, opts.includeSecrets))
       if (key.literal === undefined) names.add(key.name);
   }
   if (!names.size) return undefined;
@@ -105,10 +133,10 @@ function placeholderNote(
 function claudeCode(servers: SnippetServer[], opts: SnippetOptions): Snippet {
   const code = servers
     .map((server) => {
-      const headers = keysFor(server, opts.includeSecrets).map((key) =>
+      const headers = gatewayKeys(server, opts.includeSecrets).map((key) =>
         key.literal === undefined
-          ? `--header "x-mcp-env-${key.name}: $${key.name}"`
-          : `--header ${shq(`x-mcp-env-${key.name}: ${key.literal}`)}`,
+          ? `--header "${key.header}: $${key.name}"`
+          : `--header ${shq(`${key.header}: ${key.literal}`)}`,
       );
       return [`claude mcp add --transport http ${server.name} ${server.url}`, ...headers].join(
         " \\\n  ",
@@ -126,14 +154,12 @@ function cursor(servers: SnippetServer[], opts: SnippetOptions): Snippet {
   const mcpServers: Record<string, unknown> = {};
   for (const server of servers) {
     const headers = Object.fromEntries(
-      keysFor(server, opts.includeSecrets).map((key) => [
-        `x-mcp-env-${key.name}`,
+      gatewayKeys(server, opts.includeSecrets).map((key) => [
+        key.header,
         key.literal ?? `\${env:${key.name}}`,
       ]),
     );
-    mcpServers[server.name] = Object.keys(headers).length
-      ? { url: server.url, headers }
-      : { url: server.url };
+    mcpServers[server.name] = { url: server.url, headers };
   }
   return {
     lang: "json",
@@ -151,12 +177,12 @@ function vscode(servers: SnippetServer[], opts: SnippetOptions): Snippet {
   const entries: Record<string, unknown> = {};
   for (const server of servers) {
     const headers: Record<string, string> = {};
-    for (const key of keysFor(server, opts.includeSecrets)) {
+    for (const key of gatewayKeys(server, opts.includeSecrets)) {
       if (key.literal !== undefined) {
-        headers[`x-mcp-env-${key.name}`] = key.literal;
+        headers[key.header] = key.literal;
         continue;
       }
-      headers[`x-mcp-env-${key.name}`] = `\${input:${key.name}}`;
+      headers[key.header] = `\${input:${key.name}}`;
       if (!inputs.has(key.name)) {
         inputs.set(key.name, {
           type: "promptString",
@@ -166,11 +192,7 @@ function vscode(servers: SnippetServer[], opts: SnippetOptions): Snippet {
         });
       }
     }
-    entries[server.name] = {
-      type: "http",
-      url: server.url,
-      ...(Object.keys(headers).length ? { headers } : {}),
-    };
+    entries[server.name] = { type: "http", url: server.url, headers };
   }
   const config = inputs.size
     ? { inputs: [...inputs.values()], servers: entries }
@@ -187,8 +209,13 @@ function claudeDesktop(servers: SnippetServer[], opts: SnippetOptions): Snippet 
   const mcpServers: Record<string, unknown> = {};
   const direct = opts.desktopMode === "stdio";
   let fallback = false;
+  const placeholders = new Set<string>();
   for (const server of servers) {
-    const keys = keysFor(server, opts.includeSecrets);
+    const keys =
+      direct && server.stdio
+        ? keysFor(server, opts.includeSecrets)
+        : gatewayKeys(server, opts.includeSecrets);
+    for (const key of keys) if (key.literal === undefined) placeholders.add(key.name);
     const env = Object.fromEntries(keys.map((key) => [key.name, key.literal ?? `<${key.name}>`]));
     const hasEnv = keys.length > 0;
     if (direct && server.stdio) {
@@ -202,11 +229,13 @@ function claudeDesktop(servers: SnippetServer[], opts: SnippetOptions): Snippet 
     if (direct) fallback = true;
     const args = ["-y", "mcp-remote", server.url];
     if (server.url.startsWith("http:")) args.push("--allow-http");
-    for (const key of keys) args.push("--header", `x-mcp-env-${key.name}:\${${key.name}}`);
+    for (const key of keys) args.push("--header", `${key.header}:\${${key.name}}`);
     mcpServers[server.name] = { command: "npx", args, ...(hasEnv ? { env } : {}) };
   }
   const notes = [
-    placeholderNote(servers, opts, "Replace the <…> placeholders:"),
+    placeholders.size
+      ? `Replace the <…> placeholders: ${[...placeholders].join(", ")}.`
+      : undefined,
     fallback ? "Servers without a standard launcher use the gateway instead." : undefined,
     "Restart Claude Desktop after saving.",
   ].filter(Boolean);
@@ -234,6 +263,8 @@ function rest(servers: SnippetServer[], opts: SnippetOptions): Snippet {
   const blocks = servers.map((server) => {
     const keys = keysFor(server, opts.includeSecrets);
     const envs = Object.fromEntries(keys.map((key) => [key.name, key.literal ?? `<${key.name}>`]));
+    const auth = apiKeyRef(opts.includeSecrets);
+    const authHeader = `  -H ${shq(`${auth.header}: ${auth.literal ?? `<${auth.name}>`}`)} \\`;
     const body = {
       packageName: server.packageName,
       toolKey: server.tool?.name ?? "<tool name>",
@@ -241,24 +272,27 @@ function rest(servers: SnippetServer[], opts: SnippetOptions): Snippet {
       ...(keys.length ? { envs } : {}),
     };
     const envHeaders = keys.map(
-      (key) => `  -H ${shq(`x-mcp-env-${key.name}: ${key.literal ?? `<${key.name}>`}`)} \\`,
+      (key) => `  -H ${shq(`${key.header}: ${key.literal ?? `<${key.name}>`}`)} \\`,
     );
     return [
       "# Run one tool (starts the server, calls the tool, returns the result)",
       `curl -s -X POST ${API_ORIGIN}/api/v1/packages/run \\`,
       `  -H "Content-Type: application/json" \\`,
+      authHeader,
       `  -d ${shq(JSON.stringify(body))}`,
       "",
       "# Or speak MCP to the gateway: initialize, then reuse the mcp-session-id response header",
       `curl -si -X POST ${server.url} \\`,
       `  -H "Content-Type: application/json" \\`,
       `  -H "Accept: application/json, text/event-stream" \\`,
+      authHeader,
       ...envHeaders,
       `  -d ${shq(INIT_BODY)}`,
       "",
       `curl -s -X POST ${server.url} \\`,
       `  -H "Content-Type: application/json" \\`,
       `  -H "Accept: application/json, text/event-stream" \\`,
+      authHeader,
       `  -H "mcp-session-id: <session id>" \\`,
       `  -d ${shq(LIST_BODY)}`,
     ].join("\n");
@@ -277,13 +311,19 @@ function typescript(servers: SnippetServer[], opts: SnippetOptions): Snippet {
   ];
   servers.forEach((server, i) => {
     const suffix = servers.length > 1 ? String(i + 1) : "";
-    const headers = keysFor(server, opts.includeSecrets).map(
+    const headers = gatewayKeys(server, opts.includeSecrets).map(
       (key) =>
-        `      "x-mcp-env-${key.name}": ${key.literal === undefined ? `process.env.${key.name} ?? ""` : JSON.stringify(key.literal)},`,
+        `      "${key.header}": ${key.literal === undefined ? `process.env.${key.name} ?? ""` : JSON.stringify(key.literal)},`,
     );
-    const init = headers.length
-      ? [", {", "  requestInit: {", "    headers: {", ...headers, "    },", "  },", "}"].join("\n")
-      : "";
+    const init = [
+      ", {",
+      "  requestInit: {",
+      "    headers: {",
+      ...headers,
+      "    },",
+      "  },",
+      "}",
+    ].join("\n");
     lines.push(
       "",
       `// ${server.packageName}`,
@@ -357,9 +397,10 @@ export function agentSnippet(
         "# status, tool_call, tool_result, message, error and done.",
         `curl -N -X POST ${url} \\`,
         `  -H "Content-Type: application/json" \\`,
+        `  -H "x-api-key: <ALPHESDK_API_KEY>" \\`,
         `  -d ${shq(JSON.stringify(body))}`,
       ].join("\n"),
-      note: names.length ? `Replace the <…> placeholders: ${names.join(", ")}.` : undefined,
+      note: `Replace the <…> placeholders: ${["ALPHESDK_API_KEY", ...names].join(", ")}.`,
     };
   }
 
@@ -376,7 +417,10 @@ export function agentSnippet(
   const code = [
     `const res = await fetch(${JSON.stringify(url)}, {`,
     `  method: "POST",`,
-    `  headers: { "Content-Type": "application/json" },`,
+    "  headers: {",
+    `    "Content-Type": "application/json",`,
+    `    "x-api-key": process.env.ALPHESDK_API_KEY ?? "",`,
+    "  },",
     "  body: JSON.stringify({",
     `    agentKey: ${JSON.stringify(agentKey)},`,
     `    messages: [{ role: "user", content: ${JSON.stringify(message)} }],`,
@@ -411,6 +455,6 @@ export function agentSnippet(
   return {
     lang: "ts",
     code,
-    note: `${keyed.length ? "Set the keys as environment variables first. " : ""}Runs as an ES module in Node 18+, Deno or Bun.`,
+    note: "Set ALPHESDK_API_KEY and the other keys as environment variables first. Runs as an ES module in Node 18+, Deno or Bun.",
   };
 }

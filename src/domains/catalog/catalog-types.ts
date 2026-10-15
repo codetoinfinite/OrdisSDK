@@ -60,12 +60,11 @@ export interface CatalogStats {
     needsKeys: number;
     byRuntime: Record<string, number>;
   };
-  tools: { total: number; curated: number };
   /** runnable counts chat agents; external ones are documented, not run here. */
   agents: { total: number; runnable: number; external: number; official: number };
   categories: number;
   version: string;
-  search: { engine: SearchEngine; documents: number };
+  search: { engine: SearchEngine };
 }
 
 export interface ToolSummary {

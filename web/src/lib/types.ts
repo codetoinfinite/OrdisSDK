@@ -116,11 +116,10 @@ export interface CatalogStats {
     needsKeys: number;
     byRuntime: Record<string, number>;
   };
-  tools: { total: number; curated: number };
   agents: { total: number; runnable: number; external: number; official: number };
   categories: number;
   version: string;
-  search: { engine: SearchEngine; documents: number };
+  search: { engine: SearchEngine };
 }
 
 export interface ToolSummary {

@@ -47,11 +47,6 @@ const NAV: NavItem[] = [
     match: (r) => isExplore(r, "mcp") || r.app === "server",
   },
   {
-    label: "Tools",
-    href: paths.explore({ type: "tool" }),
-    match: (r) => isExplore(r, "tool") || r.app === "tool",
-  },
-  {
     label: "Agents",
     href: paths.explore({ type: "agent" }),
     match: (r) => isExplore(r, "agent") || r.app === "agent",

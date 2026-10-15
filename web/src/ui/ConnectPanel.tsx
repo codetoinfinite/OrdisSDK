@@ -1,9 +1,11 @@
 import { Cloud, SquareTerminal } from "lucide-react";
 import { type ReactNode, useState } from "react";
+import { apiKeyStore } from "../lib/api";
 import { API_ORIGIN } from "../lib/config";
 import { isSecretKey } from "../lib/format";
 import { buildSnippet, CLIENTS, type ClientId, type SnippetServer } from "../lib/snippets";
 import { markStep } from "../lib/state";
+import { useStore } from "../lib/store";
 import { CodeBlock } from "./CodeBlock";
 import { Callout, Tabs } from "./core";
 import { Checkbox, Segmented } from "./form";
@@ -66,7 +68,9 @@ export function ConnectPanel({
   const [includeSecrets, setIncludeSecrets] = useState(false);
   const [desktopMode, setDesktopMode] = useState<DesktopMode>("gateway");
 
-  const secrets = servers.some(hasSavedSecret);
+  // Read through the store so the snippet updates when the API key changes.
+  const apiKey = useStore(apiKeyStore);
+  const secrets = apiKey !== "" || servers.some(hasSavedSecret);
   const canStdio = servers.some((server) => server.stdio);
   const snippet = buildSnippet(client, servers, {
     includeSecrets: secrets && includeSecrets,
@@ -123,8 +127,8 @@ export function ConnectPanel({
         </div>
       </Tabs>
       <p className="connect-foot">
-        Clients connect to the gateway at <code>{API_ORIGIN}</code>. Keep AlpheSDK running while you
-        use them.
+        Clients connect to the gateway at <code>{API_ORIGIN}</code> and send your AlpheSDK API key
+        as <code>ALPHESDK_API_KEY</code>. It's the key in Settings → API key.
       </p>
     </div>
   );

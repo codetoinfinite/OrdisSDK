@@ -1,12 +1,13 @@
 import { KeyRound, Play, RotateCcw, Search, Square, Wrench } from "lucide-react";
 import { type FormEvent, type KeyboardEvent, useEffect, useRef, useState } from "react";
-import { liveTools, runTool } from "../lib/api";
+import { apiKeyStore, liveTools, runTool } from "../lib/api";
 import { MOD_LABEL } from "../lib/config";
 import { errorMessage, firstLine, isAbort, plural, truncate } from "../lib/format";
 import { envValues, markStep, missingKeys, useEnvValues } from "../lib/state";
+import { useStore } from "../lib/store";
 import type { ServerDetail, ToolInfo, ToolRunResult } from "../lib/types";
 import { useAsync } from "../lib/useAsync";
-import { Button, Callout, Empty, Kbd, Spinner } from "./core";
+import { Button, ButtonLink, Callout, Empty, Kbd, Spinner } from "./core";
 import { TextInput } from "./form";
 import { Markdown } from "./Markdown";
 import { SchemaForm, useArgsEditor } from "./SchemaForm";
@@ -172,15 +173,40 @@ export function ToolRunner({
   onNeedKeys?: () => void;
   single?: boolean;
 }) {
-  const live = useAsync((signal) => liveTools(server.packageName, signal), [server.packageName], {
-    skip: server.blocked,
-  });
+  const apiKey = useStore(apiKeyStore);
+  const live = useAsync(
+    (signal) => liveTools(server.packageName, signal),
+    [server.packageName, apiKey],
+    { skip: server.blocked || !apiKey },
+  );
   const [filter, setFilter] = useState("");
 
   if (server.blocked) {
     return (
       <Callout kind="danger" title="This server is blocked">
         {server.blockReason ?? "It can't run on this AlpheSDK host."}
+      </Callout>
+    );
+  }
+
+  if (!apiKey) {
+    return (
+      <Callout
+        kind="warn"
+        title="AlpheSDK API key required"
+        action={
+          onNeedKeys ? (
+            <Button size="sm" icon={KeyRound} onClick={onNeedKeys}>
+              Add API key
+            </Button>
+          ) : (
+            <ButtonLink size="sm" icon={KeyRound} href="/settings">
+              Add API key
+            </ButtonLink>
+          )
+        }
+      >
+        Running a tool needs your AlpheSDK API key. Add it in Configure or Settings → API key.
       </Callout>
     );
   }

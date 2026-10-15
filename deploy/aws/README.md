@@ -112,7 +112,7 @@ untagged, so the two together stay under $17). AWS Budgets only alerts; to stop 
 `deploy.sh down`.
 
 Measured locally at 0.25 vCPU / 2 GB: healthy 45 s after start, search answers in ~0.5 s, memory
-peaks at ~1.1 GB while the catalog (8,755 servers, 77k search docs) is indexed, and it stops
+peaks at ~1.1 GB while the catalog is indexed, and it stops
 cleanly on SIGTERM in about a second. 1 GB is too small. `CPU=512` cuts startup to ~18 s for +$4.35/month.
 
 Not included: data transfer out after the first 100 GB/month free, and usage billed outside AWS

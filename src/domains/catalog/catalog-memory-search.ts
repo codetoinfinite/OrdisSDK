@@ -38,6 +38,12 @@ export const DEFAULT_LIMIT = 20;
 
 export type FilterValue = string | boolean;
 
+/**
+ * Single tools are listed only when asked for (`type=tool`). Without a type, search returns
+ * servers and agents; their tools stay reachable through each server.
+ */
+export const excludesTools = (params: SearchParams) => !params.type;
+
 export function searchFilters(params: SearchParams): [field: string, value: FilterValue][] {
   const filters: [string, FilterValue][] = [];
   for (const [param, field] of Object.entries(FILTER_FIELDS)) {
@@ -120,11 +126,13 @@ export class MemorySearchIndex {
     const lowerQuery = query.toLowerCase();
     const tokens = lowerQuery.split(/\s+/).filter(Boolean);
     const filters = searchFilters(params);
+    const noTools = excludesTools(params);
     const limit = params.limit ?? DEFAULT_LIMIT;
     const offset = params.offset ?? 0;
 
     const matched: { entry: Entry; score: number }[] = [];
     for (const entry of this.entries) {
+      if (noTools && entry.doc.type === "tool") continue;
       if (!filters.every(([field, value]) => matchesFilter(entry.doc, field, value))) continue;
       const score = scoreEntry(entry, tokens, lowerQuery);
       if (score !== null) matched.push({ entry, score });

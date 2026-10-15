@@ -1,4 +1,4 @@
-Servers come from the MCP registry. Curated tools and agents are small JSON files in this repository, so you can add one in a few minutes without writing code.
+Servers come from the MCP registry. Agents and curated entries are small JSON files in this repository, so you can add one in a few minutes without writing code.
 
 # Add a tool
 

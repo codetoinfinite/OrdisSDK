@@ -55,7 +55,7 @@ export function AboutPage() {
         </h1>
         <p className="page-lead">
           The toolbox for your AI agents: a self-hosted catalog, gateway and workbench for Model
-          Context Protocol servers, tools and agents.
+          Context Protocol servers and agents.
         </p>
         {stats.error ? (
           <ErrorView error={stats.error} onRetry={stats.reload} title="Couldn't load version" />

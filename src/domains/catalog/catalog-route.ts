@@ -22,7 +22,7 @@ const responses = (schema: Parameters<typeof createRouteResponses>[0]) =>
 const statsRoute = createRoute({
   method: "get",
   path: "/stats",
-  summary: "Counts of servers, tools, agents and categories, plus the active search engine",
+  summary: "Counts of servers, agents and categories, plus the active search engine",
   responses: responses(CatalogStatsResponseSchema),
 });
 

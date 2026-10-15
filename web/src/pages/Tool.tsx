@@ -60,7 +60,7 @@ function ToolView({ tool }: { tool: ToolDetail }) {
     {
       label: "Category",
       value: (
-        <Link href={paths.explore({ type: "tool", category: tool.category })} className="link">
+        <Link href={paths.explore({ category: tool.category })} className="link">
           {tool.categoryName || tool.category}
         </Link>
       ),
@@ -213,7 +213,7 @@ export function ToolPage() {
         name={key}
         error={tool.error}
         onRetry={tool.reload}
-        back={{ href: paths.explore({ type: "tool" }), label: "Browse tools" }}
+        back={{ href: paths.explore(), label: "Explore" }}
       />
     );
   }

@@ -7,7 +7,7 @@ import { API_ORIGIN, STARTER_AGENT, STARTER_SERVER } from "../lib/config";
 import { FLOW } from "../lib/flow";
 import { cx, formatCount } from "../lib/format";
 import type { Lang } from "../lib/highlight";
-import { type CardItem, fromAgent, fromServer, fromTool } from "../lib/items";
+import { type CardItem, fromAgent, fromServer } from "../lib/items";
 import { buildSnippet, gatewayUrl } from "../lib/snippets";
 import { useProgress } from "../lib/state";
 import type { FeaturedCatalog } from "../lib/types";
@@ -55,7 +55,7 @@ const PANELS: Panel[] = [
     icon: Search,
     tone: "blue",
     title: "Search thousands of MCP servers by what they do",
-    text: "One index covers servers, the tools inside them and ready-made agents.",
+    text: "One index covers servers and ready-made agents.",
     points: [
       "Typo-tolerant search with highlighted matches",
       "Filter by category, runtime, verification and keys",
@@ -160,7 +160,7 @@ export function Home() {
     () =>
       (categories.data ?? [])
         .filter((c) => c.key !== "uncategorized")
-        .map((c) => ({ ...c, total: c.counts.mcp + c.counts.tool + c.counts.agent }))
+        .map((c) => ({ ...c, total: c.counts.mcp + c.counts.agent }))
         .sort((a, b) => b.total - a.total)
         .slice(0, CATEGORY_LIMIT),
     [categories.data],
@@ -180,7 +180,7 @@ export function Home() {
       <section className="home-hero">
         <div className="home-hero-copy">
           <h1 className="home-title">
-            Base camp for <span className="marker">MCP servers</span>, tools and agents
+            Base camp for <span className="marker">MCP servers</span> and agents
           </h1>
           <p className="page-lead">
             Search thousands of Model Context Protocol servers, try their tools right here in the
@@ -195,7 +195,7 @@ export function Home() {
               name="q"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search servers, tools and agents"
+              placeholder="Search servers and agents"
               aria-label="Search the catalog"
               end={
                 <button type="submit" className="home-search-go" aria-label="Search">
@@ -233,7 +233,6 @@ export function Home() {
               </p>
               <dl className="ledger">
                 <LedgerRow label="Verified to start" value={s?.servers.validated} />
-                <LedgerRow label="Tools" value={s?.tools.total} />
                 <LedgerRow label="Agents" value={s?.agents.total} />
                 <LedgerRow label="Remote servers" value={s?.servers.remote} />
                 <LedgerRow label="Categories" value={s?.categories} />
@@ -362,13 +361,6 @@ export function Home() {
         href={paths.explore({ type: "agent" })}
         state={featured}
         pick={(f) => f.agents.map(fromAgent)}
-      />
-      <FeaturedSection
-        title="Curated tools"
-        sub="Single tools picked from servers, one click to run."
-        href={paths.explore({ type: "tool" })}
-        state={featured}
-        pick={(f) => f.tools.slice(0, 6).map(fromTool)}
       />
 
       <p className="home-foot muted">

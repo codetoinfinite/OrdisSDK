@@ -30,7 +30,6 @@ describe("Catalog", () => {
         byRuntime: { node: 2, python: 1 },
       },
       // 4 curated + srv-math/echo; srv-math/add and srv-blocked/add are covered by curated tools
-      tools: { total: 5, curated: 4 },
       agents: { total: 2, runnable: 1, external: 0, official: 0 },
       categories: 2,
       version: "9.9.9",

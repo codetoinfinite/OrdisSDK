@@ -11,7 +11,6 @@ import {
   Layers,
   Server,
   Settings,
-  Wrench,
 } from "lucide-react";
 import { API_ORIGIN } from "../lib/config";
 import type { ToneName } from "../ui/core";
@@ -38,13 +37,6 @@ export const LAUNCHERS_LEFT: Launcher[] = [
     href: paths.explore({ type: "mcp" }),
     icon: Server,
     tone: "green",
-  },
-  {
-    id: "tools",
-    label: "Tools",
-    href: paths.explore({ type: "tool" }),
-    icon: Wrench,
-    tone: "teal",
   },
   {
     id: "agents",

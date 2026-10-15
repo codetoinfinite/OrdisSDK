@@ -11,13 +11,15 @@ import {
   Wrench,
 } from "lucide-react";
 import { useEffect } from "react";
-import { getServer } from "../lib/api";
+import { apiKeyStore, getServer } from "../lib/api";
 import { firstLine, httpUrl, isSecretKey, plural, slugify, truncate } from "../lib/format";
 import { fromServer } from "../lib/items";
 import { gatewayUrl } from "../lib/snippets";
 import { envValues, markStep, missingKeys, useEnvValues } from "../lib/state";
+import { useStore } from "../lib/store";
 import type { ServerDetail } from "../lib/types";
 import { useAsync } from "../lib/useAsync";
+import { ApiKeyField } from "../ui/ApiKeyField";
 import { ConnectPanel } from "../ui/ConnectPanel";
 import {
   Badge,
@@ -51,8 +53,8 @@ const PREVIEW_TOOLS = 6;
 const STEP: Record<SetupStep, { label: string; title: string; text: string }> = {
   configure: {
     label: "Configure",
-    title: "Add the keys it needs",
-    text: "Keys stay in this browser and go to the server only when it runs.",
+    title: "Add your API key and the server's keys",
+    text: "Your AlpheSDK API key is required for every server. Keys stay in this browser and go to the server only when it runs.",
   },
   test: {
     label: "Test",
@@ -69,10 +71,15 @@ const STEP: Record<SetupStep, { label: string; title: string; text: string }> = 
 /** Tab, step and tool live in the window URL, so every state can be linked to. */
 type Go = (to: { tab?: ServerTab; step?: SetupStep; tool?: string }, replace?: boolean) => void;
 
-function stepStatus(server: ServerDetail, missing: string[]): Record<SetupStep, string> {
+function stepStatus(
+  server: ServerDetail,
+  missing: string[],
+  apiKey: boolean,
+): Record<SetupStep, string> {
   let configure = "All required keys set";
-  if (!Object.keys(server.env).length) configure = "No keys needed";
+  if (!apiKey) configure = "AlpheSDK API key missing";
   else if (missing.length) configure = `${plural(missing.length, "key")} missing`;
+  else if (!Object.keys(server.env).length) configure = "API key set";
   return {
     configure,
     test: "Run a tool and check the output",
@@ -152,6 +159,7 @@ function Overview({ server, go }: { server: ServerDetail; go: Go }) {
   const pkg = server.packageName;
   const values = useEnvValues(pkg);
   const missing = missingKeys(server.env, values);
+  const apiKey = useStore(apiKeyStore) !== "";
   const hasEnv = Object.keys(server.env).length > 0;
   const preview = server.tools.slice(0, PREVIEW_TOOLS);
   const { config } = server;
@@ -206,7 +214,7 @@ function Overview({ server, go }: { server: ServerDetail; go: Go }) {
         ) : (
           <Section title="Set up in three steps" sub="Add keys, run a tool, then connect a client.">
             <SetupSteps
-              status={stepStatus(server, missing)}
+              status={stepStatus(server, missing, apiKey)}
               onPick={(step) => go({ tab: "setup", step })}
             />
           </Section>
@@ -258,7 +266,9 @@ function Overview({ server, go }: { server: ServerDetail; go: Go }) {
           {hasEnv ? (
             <EnvList server={server} />
           ) : (
-            <p className="muted">This server needs no keys.</p>
+            <p className="muted">
+              This server needs no keys of its own, only your AlpheSDK API key.
+            </p>
           )}
         </Section>
       </div>
@@ -284,9 +294,10 @@ function Setup({
   const pkg = server.packageName;
   const values = useEnvValues(pkg);
   const missing = missingKeys(server.env, values);
-  const ready = !server.blocked && missing.length === 0;
+  const apiKey = useStore(apiKeyStore) !== "";
+  const ready = !server.blocked && apiKey && missing.length === 0;
 
-  // Nothing left to fill in counts as configured (the starter server needs no keys).
+  // The API key and every required server key set counts as configured.
   useEffect(() => {
     if (ready) markStep("configure");
   }, [ready]);
@@ -307,7 +318,7 @@ function Setup({
 
   return (
     <div className="wizard-flow">
-      <SetupSteps status={stepStatus(server, missing)} current={step} onPick={toStep} />
+      <SetupSteps status={stepStatus(server, missing, apiKey)} current={step} onPick={toStep} />
 
       <div className="wizard-panel">
         <div>
@@ -315,13 +326,16 @@ function Setup({
           <p className="section-sub">{STEP[step].text}</p>
         </div>
         {step === "configure" && (
-          <EnvForm
-            packageName={pkg}
-            env={server.env}
-            onSaved={() => {
-              if (!missingKeys(server.env, envValues(pkg)).length) toStep("test");
-            }}
-          />
+          <>
+            <ApiKeyField />
+            <EnvForm
+              packageName={pkg}
+              env={server.env}
+              onSaved={() => {
+                if (apiKey && !missingKeys(server.env, envValues(pkg)).length) toStep("test");
+              }}
+            />
+          </>
         )}
         {step === "test" && (
           <ToolRunner

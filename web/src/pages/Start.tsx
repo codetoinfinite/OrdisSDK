@@ -108,8 +108,9 @@ export function StartPage() {
           </ButtonLink>
         }
       >
-        Steps two to five open the Everything MCP Server, a test server that needs no keys, so each
-        step works straight away. Every server in the catalog goes through the same steps.
+        Steps two to five open the Everything MCP Server, a test server that needs no keys of its
+        own, so once your AlpheSDK API key is in, each step works straight away. Every server in the
+        catalog goes through the same steps.
       </Callout>
     </div>
   );

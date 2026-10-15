@@ -203,7 +203,7 @@ function ServerRow({
   } else {
     status = (
       <Badge tone="green" icon={CircleCheck}>
-        {keyed ? "Keys set" : "No keys needed"}
+        {keyed ? "Keys set" : "No server keys needed"}
       </Badge>
     );
   }

@@ -46,7 +46,6 @@ export interface Route {
 const EXPLORE_TYPES: Record<string, ExploreType> = {
   explore: "all",
   servers: "mcp",
-  tools: "tool",
   agents: "agent",
 };
 

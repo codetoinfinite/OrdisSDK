@@ -28,8 +28,8 @@ export function EnvForm({
   );
   if (!names.length) {
     return (
-      <Callout kind="success" title="No keys needed">
-        This server runs without any configuration.
+      <Callout kind="success" title="No server keys needed">
+        This server needs no keys of its own. Your AlpheSDK API key above is all it takes.
       </Callout>
     );
   }

@@ -80,10 +80,7 @@ export function startSearch() {
   });
 }
 
-export const getSearchStatus = (catalog: Catalog): CatalogStats["search"] => ({
-  engine: activeEngine(),
-  documents: catalog.docs.length,
-});
+export const getSearchStatus = (): CatalogStats["search"] => ({ engine: activeEngine() });
 
 function toSuggestion(hit: SearchHit): Suggestion {
   const base = { id: hit.id, type: hit.type, name: hit.name, category: hit.category };

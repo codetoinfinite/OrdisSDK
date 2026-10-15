@@ -3,6 +3,7 @@ import { getMeiliSearchConfig } from "../../shared/config/environment";
 import { withTimeout } from "../../shared/utils/promise-util";
 import {
   DEFAULT_LIMIT,
+  excludesTools,
   FACET_FIELDS,
   requestedFacets,
   resolveSort,
@@ -170,6 +171,7 @@ export class SearchSO {
     const filter = searchFilters(params).map(
       ([field, value]) => `${field} = ${JSON.stringify(value)}`,
     );
+    if (excludesTools(params)) filter.push('type != "tool"');
     const facets = requestedFacets(params.facets);
     const limit = params.limit ?? DEFAULT_LIMIT;
     const offset = params.offset ?? 0;

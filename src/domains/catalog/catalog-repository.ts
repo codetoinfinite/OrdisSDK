@@ -460,10 +460,6 @@ export class Catalog {
         needsKeys: this.servers.filter((s) => s.needsKeys).length,
         byRuntime,
       },
-      tools: {
-        total: this.docs.filter((d) => d.type === "tool").length,
-        curated: this.tools.length,
-      },
       agents: {
         total: this.agents.length,
         runnable: this.agents.filter((a) => a.runnable).length,

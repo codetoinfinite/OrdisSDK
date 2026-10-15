@@ -23,7 +23,7 @@ chat with an agent that uses them, from one web app and one HTTP API.
 This repository holds **AlpheSDK**, which has:
 
 - **A catalog** of 4,232 MCP servers in 30 categories (1,359 validated, 230 reachable as remote
-  servers), 14,000+ indexed tools and 6 ready-made agents.
+  servers) and 6 ready-made agents.
 - **A web app**: a desktop-style workspace to search the catalog, inspect servers, run tools from a
   generated form, copy client configs and chat with agents.
 - **A REST API** with an OpenAPI reference at `/swagger`.

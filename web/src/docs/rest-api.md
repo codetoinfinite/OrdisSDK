@@ -4,6 +4,7 @@ Everything this app does goes through a plain HTTP API, so you can search the ca
 
 - Base URL: `{{origin}}/api/v1`
 - Interactive reference: [Swagger UI]({{origin}}/swagger), with the OpenAPI document at `{{origin}}/api/v1/doc`.
+- Running tools, listing a server's live tools and agent chat need your AlpheSDK API key, sent as `Authorization: Bearer <key>` or `x-api-key: <key>`. Without it they answer 401. Browsing and search need no key.
 - JSON responses share one envelope:
 
 ```json
@@ -15,13 +16,13 @@ A missing item comes back as HTTP 200 with `"success": false` and `"code": 404`,
 # Search
 
 ```bash
-curl -s "{{origin}}/api/v1/search?q=weather&type=tool&limit=5"
+curl -s "{{origin}}/api/v1/search?q=weather&type=mcp&limit=5"
 ```
 
 | Parameter | Meaning |
 |---|---|
 | `q` | Search text |
-| `type` | `mcp`, `tool` or `agent` |
+| `type` | `mcp` or `agent` |
 | `category` | A category key from `/catalog/categories` |
 | `runtime` | A runtime such as `node` or `python` |
 | `validated`, `needsKeys`, `blocked` | `true` or `false` |
@@ -34,12 +35,10 @@ Results are in `data.hits`, with the total in `data.estimatedTotalHits`. Matched
 
 | Endpoint | Returns |
 |---|---|
-| `GET /catalog/stats` | Counts of servers, tools, agents and categories |
+| `GET /catalog/stats` | Counts of servers, agents and categories |
 | `GET /catalog/categories` | Every category with its counts |
 | `GET /catalog/featured` | The picks shown on Home |
 | `GET /catalog/server?packageName=…` | One server with its tools, keys and status |
-| `GET /catalog/tools` | Curated tools |
-| `GET /catalog/tool?key=…` | One curated tool |
 | `GET /catalog/agents` | Every agent |
 | `GET /catalog/agent?key=…` | One agent and the servers it uses |
 
@@ -49,6 +48,7 @@ Results are in `data.hits`, with the total in `data.estimatedTotalHits`. Matched
 
 ```bash
 curl -s -X POST {{origin}}/api/v1/packages/run \
+  -H "Authorization: Bearer $ALPHESDK_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"packageName":"@modelcontextprotocol/server-everything","toolKey":"echo","inputData":{"message":"hello"}}'
 ```

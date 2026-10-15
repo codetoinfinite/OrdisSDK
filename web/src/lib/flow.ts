@@ -7,7 +7,7 @@ export interface FlowStep {
   label: string;
   /** What the step asks the user to do. */
   text: string;
-  /** Where to do it; the starter server needs no keys. */
+  /** Where to do it; the starter server needs only the AlpheSDK API key. */
   href: string;
   action: string;
 }
@@ -17,7 +17,7 @@ export const FLOW: FlowStep[] = [
   {
     key: "discover",
     label: "Discover",
-    text: "Search the catalog for a server, tool or agent that does what you need.",
+    text: "Search the catalog for a server or agent that does what you need.",
     href: paths.explore(),
     action: "Open Explore",
   },
@@ -31,7 +31,7 @@ export const FLOW: FlowStep[] = [
   {
     key: "configure",
     label: "Configure",
-    text: "Enter any keys it needs. They stay in this browser unless you connect a client.",
+    text: "Enter your AlpheSDK API key, plus any keys the server needs. They stay in this browser unless you connect a client.",
     href: paths.server(STARTER_SERVER, { tab: "setup", step: "configure" }),
     action: "Configure",
   },

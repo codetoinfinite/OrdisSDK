@@ -5,7 +5,7 @@
  */
 export const API_ORIGIN = window.location.origin;
 
-/** Demo server that needs no keys; the Get started flow uses it. */
+/** Demo server that needs no keys of its own; the Get started flow uses it. */
 export const STARTER_SERVER = "@modelcontextprotocol/server-everything";
 export const STARTER_AGENT = "everything-tester";
 
